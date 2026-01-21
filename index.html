@@ -461,6 +461,57 @@
             color: var(--apple-gray);
         }
 
+        /* Contact Section */
+        .contact-section {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact-card {
+            background: var(--apple-light);
+            border-radius: 24px;
+            padding: 60px 40px;
+            margin-top: 60px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-icon {
+            font-size: 64px;
+            margin-bottom: 24px;
+        }
+
+        .contact-card h3 {
+            font-size: 28px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--apple-dark);
+        }
+
+        .contact-email {
+            display: inline-block;
+            font-size: 20px;
+            color: var(--apple-blue);
+            text-decoration: none;
+            margin-bottom: 16px;
+            transition: opacity 0.3s ease;
+        }
+
+        .contact-email:hover {
+            opacity: 0.7;
+        }
+
+        .contact-note {
+            font-size: 14px;
+            color: var(--apple-gray);
+            margin-top: 16px;
+        }
+
         /* Closing */
         .closing {
             text-align: center;
@@ -536,7 +587,7 @@
                 <li><a href="#apps">Apps</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#music">Music</a></li>
-                <li><a href="#links">Links</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -682,11 +733,25 @@
                 <div class="title">Bandcamp</div>
                 <div class="description">All Singles – ベスト盤</div>
             </a>
-            <a href="/cdn-cgi/l/email-protection#c3b0b6b3a2b1ada2b7b6b1a2afb983a4aea2aaafeda0acae" class="link-card">
-                <div class="icon">✉️</div>
-                <div class="title">Email</div>
-                <div class="description">お問い合わせ</div>
-            </a>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="fade-in">
+        <div class="contact-section">
+            <p class="section-eyebrow">Contact</p>
+            <h2 class="section-title">お問い合わせ</h2>
+            <p class="section-description">
+                アプリや音楽に関するご質問、お仕事のご相談など<br>
+                お気軽にお問い合わせください。
+            </p>
+            
+            <div class="contact-card">
+                <div class="contact-icon">✉️</div>
+                <h3>Email</h3>
+                <a href="/cdn-cgi/l/email-protection#9deee8edfceff3fce9e8effcf1e7ddfaf0fcf4f1b3fef2f0" class="contact-email"><span class="__cf_email__" data-cfemail="5625232637243837222324373a2c16313b373f3a7835393b">[email&#160;protected]</span></a>
+                <p class="contact-note">通常、24時間以内に返信いたします</p>
+            </div>
         </div>
     </section>
 
