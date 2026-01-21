@@ -749,12 +749,13 @@
             <div class="contact-card">
                 <div class="contact-icon">✉️</div>
                 <h3>Email</h3>
-                <a href="/cdn-cgi/l/email-protection#b7c4c2c7d6c5d9d6c3c2c5d6dbcdf7d0dad6dedb99d4d8da" class="contact-email" onclick="window.location.href='mailto:suparnaturalz@gmail.com'; return false;"><span class="__cf_email__" data-cfemail="89fafcf9e8fbe7e8fdfcfbe8e5f3c9eee4e8e0e5a7eae6e4">[email&#160;protected]</span></a>
+                <a href="#" class="contact-email" id="emailLink"></a>
                 <p class="contact-note">通常、24時間以内に返信いたします</p>
                 
                 <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid #d2d2d7;">
-                    <p style="font-size: 14px; color: var(--apple-gray); margin-bottom: 12px;">メーラーが起動しない場合は、こちらをコピーしてください</p>
-                    <input type="text" value="suparnaturalz@gmail.com" readonly style="width: 100%; padding: 12px; font-size: 16px; border: 1px solid #d2d2d7; border-radius: 8px; text-align: center; font-family: -apple-system, sans-serif;" onclick="this.select(); document.execCommand('copy'); alert('メールアドレスをコピーしました!');"/>
+                    <p style="font-size: 14px; color: var(--apple-gray); margin-bottom: 12px;">メーラーが起動しない場合は、こちらをクリック</p>
+                    <button onclick="copyEmail()" style="width: 100%; padding: 14px; font-size: 16px; border: 2px solid var(--apple-blue); background: white; color: var(--apple-blue); border-radius: 12px; cursor: pointer; font-family: -apple-system, sans-serif; font-weight: 600; transition: all 0.3s ease;" onmouseover="this.style.background='var(--apple-blue)'; this.style.color='white';" onmouseout="this.style.background='white'; this.style.color='var(--apple-blue)';">📋 メールアドレスをコピー</button>
+                    <p id="copyMessage" style="font-size: 13px; color: #34c759; margin-top: 12px; opacity: 0; transition: opacity 0.3s ease;">✓ コピーしました！</p>
                 </div>
             </div>
         </div>
@@ -770,7 +771,64 @@
         <p>© 2025 Suparnaturalz. All rights reserved.</p>
     </footer>
 
-    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    <script>
+        // メールアドレスを動的に生成（ボット回避）
+        (function() {
+            const user = 'suparnaturalz';
+            const domain = 'gmail' + '.' + 'com';
+            const email = user + '@' + domain;
+            
+            const emailLink = document.getElementById('emailLink');
+            if (emailLink) {
+                emailLink.href = 'mailto:' + email;
+                emailLink.textContent = email;
+            }
+        })();
+
+        // メールアドレスコピー機能
+        function copyEmail() {
+            const email = 'suparnaturalz@gmail.com';
+            
+            // クリップボードAPIを使用
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(email).then(function() {
+                    showCopyMessage();
+                }).catch(function(err) {
+                    // フォールバック
+                    fallbackCopy(email);
+                });
+            } else {
+                // 古いブラウザ用フォールバック
+                fallbackCopy(email);
+            }
+        }
+
+        function fallbackCopy(text) {
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            textarea.style.position = 'fixed';
+            textarea.style.opacity = '0';
+            document.body.appendChild(textarea);
+            textarea.select();
+            try {
+                document.execCommand('copy');
+                showCopyMessage();
+            } catch (err) {
+                alert('コピーに失敗しました。手動でコピーしてください: ' + text);
+            }
+            document.body.removeChild(textarea);
+        }
+
+        function showCopyMessage() {
+            const message = document.getElementById('copyMessage');
+            if (message) {
+                message.style.opacity = '1';
+                setTimeout(function() {
+                    message.style.opacity = '0';
+                }, 3000);
+            }
+        }
+
         // ナビゲーションのスクロール効果
         const nav = document.getElementById('nav');
         window.addEventListener('scroll', () => {
