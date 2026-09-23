@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ZASU RADIO</title>
+<meta name="description" content="音楽、カルチャー、時事ネタなど、ZASUが気になったことを自由に話すポッドキャスト。Spotify / Apple Podcastsで配信中。">
+<meta name="theme-color" content="#070707">
+<meta property="og:title" content="ZASU RADIO">
+<meta property="og:description" content="音楽、カルチャー、時事ネタなど、気になったことを自由に話すポッドキャスト。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://takataka12.github.io/radio/">
+<meta property="og:image" content="https://takataka12.github.io/radio/logo.svg">
+<style>
+:root{--bg:#070707;--card:#111114;--muted:#9a98a3;--text:#fff;--purple:#9b67ff;--purple2:#6e34e9;--border:rgba(255,255,255,.09)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:
+radial-gradient(900px 500px at 50% -5%,rgba(143,82,255,.24),transparent 62%),
+linear-gradient(180deg,#090909 0%,#050505 100%);color:var(--text);
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif;min-height:100vh}
+.wrap{width:min(920px,calc(100% - 32px));margin:0 auto;padding:38px 0 72px}
+header{display:flex;justify-content:space-between;align-items:center;margin-bottom:48px}
+.brand{font-weight:900;letter-spacing:-.04em}.brand span{color:var(--purple)}
+nav a{color:#c9c7ce;text-decoration:none;font-size:14px;margin-left:18px}
+.hero{display:grid;grid-template-columns:minmax(0,1.04fr) minmax(260px,.96fr);gap:52px;align-items:center;padding:20px 0 52px}
+.logo{width:100%;max-width:430px;aspect-ratio:1;border-radius:32px;box-shadow:0 28px 90px rgba(0,0,0,.55),0 0 80px rgba(123,65,255,.14);display:block}
+.kicker{font-size:12px;letter-spacing:.22em;color:#b79cff;font-weight:800;margin-bottom:12px}
+h1{font-size:clamp(48px,9vw,90px);line-height:.9;letter-spacing:-.065em;margin:0 0 20px;font-weight:950}
+.lead{color:#b9b7c0;font-size:17px;line-height:1.8;margin:0 0 26px}
+.buttons{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 20px;border-radius:15px;text-decoration:none;font-weight:800;font-size:14px;border:1px solid var(--border);transition:.18s ease}
+.btn:hover{transform:translateY(-2px)}
+.spotify{background:#1ed760;color:#07120a}
+.apple{background:#fff;color:#050505}
+.ghost{background:#131316;color:#fff}
+section{margin-top:38px}
+.label{font-size:12px;font-weight:900;letter-spacing:.18em;color:#7f7c89;margin-bottom:14px}
+.card{background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.025));border:1px solid var(--border);border-radius:24px;padding:22px;backdrop-filter:blur(10px)}
+.episodeTop{display:flex;gap:18px;align-items:flex-start;margin-bottom:18px}
+.epNo{flex:0 0 auto;width:58px;height:58px;border-radius:18px;background:linear-gradient(135deg,#a86dff,#5d22d3);display:grid;place-items:center;font-weight:950;font-size:18px}
+.episode h2{font-size:22px;line-height:1.35;margin:1px 0 7px;letter-spacing:-.02em}
+.episode p{color:var(--muted);line-height:1.7;margin:0;font-size:14px}
+iframe{width:100%;border:0;border-radius:14px;display:block}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.about h3{margin:0 0 10px;font-size:18px}
+.about p{color:var(--muted);line-height:1.75;margin:0;font-size:14px}
+footer{margin-top:58px;padding-top:26px;border-top:1px solid var(--border);display:flex;justify-content:space-between;gap:16px;color:#6e6b76;font-size:12px}
+footer a{color:#9c99a5;text-decoration:none}
+@media(max-width:760px){
+.wrap{padding-top:24px}.hero{grid-template-columns:1fr;gap:28px;padding-top:0}.hero .copy{order:2}.hero .art{order:1}.logo{max-width:360px;margin:0 auto}
+header{margin-bottom:28px}header nav{display:none}h1{font-size:58px}.about{grid-template-columns:1fr}.buttons{display:grid}.btn{width:100%}footer{flex-direction:column}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header>
+  <div class="brand">ZASU <span>RADIO</span></div>
+  <nav><a href="#latest">LATEST</a><a href="#about">ABOUT</a><a href="https://x.com/zasu_jp" target="_blank" rel="noopener">X</a></nav>
+</header>
+
+<section class="hero">
+  <div class="copy">
+    <div class="kicker">PODCAST / TOKYO</div>
+    <h1>ZASU<br>RADIO</h1>
+    <p class="lead">音楽、カルチャー、時事ネタ。<br>気になったことを、自由に話す。</p>
+    <div class="buttons">
+      <a class="btn spotify" href="https://open.spotify.com/episode/587jcadFrkUG2NvsMQyhP7" target="_blank" rel="noopener">Spotifyで聴く</a>
+      <a class="btn apple" href="https://podcasts.apple.com/podcast/id6815393980?i=1000791346498" target="_blank" rel="noopener">Apple Podcastsで聴く</a>
+    </div>
+  </div>
+  <div class="art"><img class="logo" src="./logo.svg" alt="ZASU RADIO"></div>
+</section>
+
+<section id="latest">
+  <div class="label">LATEST EPISODE</div>
+  <article class="card episode">
+    <div class="episodeTop">
+      <div class="epNo">01</div>
+      <div>
+        <h2>田中圭さん・永野芽郁さんの不倫疑惑報道について</h2>
+        <p>芸能人の私生活、報道のあり方、世間の反応について。事実を断定するのではなく、報道をどう受け止めるかという視点で話します。</p>
+      </div>
+    </div>
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/587jcadFrkUG2NvsMQyhP7?utm_source=generator&theme=0" height="152" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </article>
+</section>
+
+<section id="about">
+  <div class="label">ABOUT</div>
+  <div class="about">
+    <div class="card"><h3>ZASU RADIOとは</h3><p>ZASUが、そのとき気になっていることをジャンルに縛られず話すポッドキャスト。音楽制作からカルチャー、日常、時事まで。</p></div>
+    <div class="card"><h3>LISTEN</h3><p>Spotify / Apple Podcastsで配信中。好きなアプリから聴けます。新しいエピソードのお知らせはXでも更新します。</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="buttons">
+    <a class="btn ghost" href="https://x.com/zasu_jp" target="_blank" rel="noopener">X @zasu_jp</a>
+    <a class="btn ghost" href="https://takataka12.github.io/" target="_blank" rel="noopener">ZASU HOME</a>
+  </div>
+</section>
+
+<footer>
+  <div>© 2026 ZASU RADIO</div>
+  <div>Spotify / Apple Podcasts</div>
+</footer>
+</main>
+</body>
+</html>
