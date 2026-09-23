@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" role="img" aria-labelledby="t d">
+<title id="t">ZASU RADIO</title><desc id="d">ZASU RADIO logo</desc>
+<defs>
+  <radialGradient id="g" cx="50%" cy="32%" r="68%"><stop offset="0" stop-color="#9a63ff" stop-opacity=".38"/><stop offset=".55" stop-color="#5d20c8" stop-opacity=".1"/><stop offset="1" stop-color="#070707" stop-opacity="0"/></radialGradient>
+  <linearGradient id="p" x1="0" x2="1"><stop stop-color="#c5a7ff"/><stop offset="1" stop-color="#7f41ff"/></linearGradient>
+</defs>
+<rect width="1200" height="1200" rx="128" fill="#070707"/>
+<rect width="1200" height="1200" rx="128" fill="url(#g)"/>
+<g transform="translate(600 330)" fill="none" stroke="url(#p)" stroke-width="24" stroke-linecap="round">
+  <rect x="-84" y="-132" width="168" height="264" rx="84"/>
+  <path d="M-135 18c0 88 60 148 135 148S135 106 135 18M0 166v92M-76 258h152"/>
+  <path opacity=".8" d="M-220-66c-56 44-84 102-84 174M220-66c56 44 84 102 84 174"/>
+  <path opacity=".45" d="M-310-138c-98 74-146 169-146 284M310-138c98 74 146 169 146 284"/>
+</g>
+<text x="600" y="735" text-anchor="middle" fill="#fff" font-family="Arial Black,Arial,sans-serif" font-size="190" font-weight="900" letter-spacing="-12">ZASU</text>
+<line x1="210" y1="822" x2="420" y2="822" stroke="#9a63ff" stroke-width="8"/>
+<line x1="780" y1="822" x2="990" y2="822" stroke="#9a63ff" stroke-width="8"/>
+<text x="600" y="850" text-anchor="middle" fill="#b89aff" font-family="Arial,Helvetica,sans-serif" font-size="68" font-weight="700" letter-spacing="22">RADIO</text>
+<text x="600" y="1025" text-anchor="middle" fill="#6f6f78" font-family="Arial,Helvetica,sans-serif" font-size="28" letter-spacing="8">PODCAST</text>
+</svg>
