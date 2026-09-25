@@ -108,20 +108,27 @@ async def process_job(job: dict[str, Any]) -> None:
     job_id = job["id"]
     tmp = Path(tempfile.mkdtemp(prefix="zasu-master-"))
     try:
+        print(f"job_stage id={job_id} stage=download_start", flush=True)
         input_path = tmp / "input"
         await download_to(job["input_url"], input_path)
+        print(f"job_stage id={job_id} stage=download_done bytes={input_path.stat().st_size}", flush=True)
 
+        print(f"job_stage id={job_id} stage=punch_start engine={ENGINE_VERSION}", flush=True)
         report, outputs = await asyncio.to_thread(process_sync, tmp)
+        print(f"job_stage id={job_id} stage=punch_done", flush=True)
 
+        print(f"job_stage id={job_id} stage=upload_results_start", flush=True)
         await upload_signed(job["outputs"]["master"], outputs["master"])
         await upload_signed(job["outputs"]["before"], outputs["before"])
         await upload_signed(job["outputs"]["after"], outputs["after"])
+        print(f"job_stage id={job_id} stage=upload_results_done", flush=True)
 
         await worker_api({
             "action": "complete",
             "job_id": job_id,
             "report": report,
         })
+        print(f"job_stage id={job_id} stage=complete", flush=True)
     except Exception as exc:
         try:
             await worker_api({
