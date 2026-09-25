@@ -42,7 +42,8 @@ function initBetaForm(){
       if(body.status==="accepted"){
         localStorage.setItem("zasu_beta_email", String(data.email||"").trim().toLowerCase());
         localStorage.setItem("zasu_beta_application_no", String(body.application_no));
-        status.innerHTML='Paid Beta受付完了。受付番号 #'+body.application_no+'<br><a href="upload.html" style="text-decoration:underline">→ このままMIXをアップロード</a>';
+        const payUrl=cfg.squarePaymentLink||"https://square.link/u/ArDEgNp3";
+        status.innerHTML='Paid Beta受付完了。受付番号 #'+body.application_no+'<br><strong>次にSquareで¥500をお支払いください。</strong><br><a class="btn" style="margin-top:12px" href="'+payUrl+'">PAY ¥500</a><br><span class="mini">決済完了後、自動でMIXアップロード画面へ移動します。</span>';
       }else if(body.status==="waitlisted"){
         localStorage.setItem("zasu_beta_email", String(data.email||"").trim().toLowerCase());
         localStorage.setItem("zasu_beta_application_no", String(body.application_no));
