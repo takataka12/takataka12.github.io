@@ -47,3 +47,18 @@ textarea{min-height:120px;resize:vertical}.form-row{display:grid;grid-template-c
   .dropzone strong{font-size:20px}
   .file-meta{overflow-wrap:anywhere}
 }
+
+.result-shell{max-width:860px;margin:0 auto}
+.result-card{background:#101010;border:1px solid #292929;border-radius:20px;padding:24px;margin-bottom:18px}
+.result-state{font-size:clamp(32px,7vw,58px);font-weight:900;letter-spacing:-.04em;margin:8px 0 10px}
+.status-pill{display:inline-flex;align-items:center;gap:8px;border:1px solid #343434;border-radius:999px;padding:8px 12px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}
+.status-dot{width:8px;height:8px;border-radius:50%;background:currentColor}
+.metric-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+.metric{background:#0b0b0b;border:1px solid #242424;border-radius:14px;padding:14px}
+.metric .label{font-size:11px;letter-spacing:.08em;color:#8e8e8e;text-transform:uppercase}
+.metric strong{display:block;font-size:22px;margin-top:4px}
+.ab-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+.ab-card{background:#0b0b0b;border:1px solid #242424;border-radius:14px;padding:16px}
+.ab-card audio{width:100%;margin-top:10px}
+.result-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+@media(max-width:680px){.metric-grid{grid-template-columns:1fr}.ab-grid{grid-template-columns:1fr}.result-card{padding:18px}}
