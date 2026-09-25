@@ -59,7 +59,7 @@ async function edgePost(url,payload){
     const map={
       beta_application_not_found:"受付番号またはメールアドレスが一致しません。",
       beta_not_accepted:"この受付番号はまだβ参加枠に入っていません。",
-      upload_limit_reached:"β期間のアップロード上限（3ファイル）に達しています。",
+      upload_limit_reached:"この受付番号はすでに1曲アップロード済みです。",
       file_too_large:"ファイルが50MBを超えています。",
       unsupported_file_type:"現在対応しているのはWAV / FLACです。"
     };
