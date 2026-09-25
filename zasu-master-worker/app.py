@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 import asyncio
+import json
 import os
 import shutil
 import socket
 import subprocess
 import tempfile
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -14,8 +16,9 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from starlette.background import BackgroundTask
 
-from punch_engine import VERSION as ENGINE_VERSION, master_file
 from supabase import create_client
+
+ENGINE_VERSION = "0.4.1"
 
 WORKER_API_URL = os.environ["MASTER_WORKER_API_URL"]
 WORKER_SECRET = os.environ["MASTER_WORKER_SECRET"]
@@ -81,13 +84,31 @@ def process_sync(workdir: Path) -> tuple[dict[str, Any], dict[str, Path]]:
     fair_dir = workdir / "fair"
     fair_dir.mkdir(parents=True, exist_ok=True)
 
-    report = master_file(
-        input_path,
-        master_wav,
-        target_lufs=None,
-        true_peak_ceiling=-0.8,
-        fair_ab_dir=fair_dir,
+    # Run the frozen engine in its own child process. This leaves FastAPI/Supabase
+    # client memory out of the DSP process and preserves the exact PUNCH algorithm.
+    cmd = [
+        "/usr/bin/time", "-v",
+        sys.executable, "/app/punch_engine.py",
+        str(input_path), str(master_wav),
+        "--true-peak", "-0.8",
+        "--fair-ab", str(fair_dir),
+    ]
+    proc = subprocess.run(
+        cmd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        env=os.environ.copy(),
     )
+    if proc.stderr:
+        print("punch_subprocess_stderr\n" + proc.stderr[-8000:], flush=True)
+    if proc.returncode != 0:
+        raise RuntimeError(f"punch_subprocess_exit:{proc.returncode}")
+
+    report_path = master_wav.with_suffix(".report.json")
+    if not report_path.exists():
+        raise RuntimeError("punch_report_missing")
+    report = json.loads(report_path.read_text(encoding="utf-8"))
 
     master_flac = workdir / "master.flac"
     before_flac = workdir / "before_fair.flac"
