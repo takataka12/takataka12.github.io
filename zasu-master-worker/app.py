@@ -87,7 +87,6 @@ def process_sync(workdir: Path) -> tuple[dict[str, Any], dict[str, Path]]:
     # Run the frozen engine in its own child process. This leaves FastAPI/Supabase
     # client memory out of the DSP process and preserves the exact PUNCH algorithm.
     cmd = [
-        "/usr/bin/time", "-v",
         sys.executable, "/app/punch_engine.py",
         str(input_path), str(master_wav),
         "--true-peak", "-0.8",
