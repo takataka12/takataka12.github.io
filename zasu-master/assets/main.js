@@ -40,8 +40,12 @@ function initBetaForm(){
       }
 
       if(body.status==="accepted"){
-        status.textContent="応募完了。先着20名のβ枠で受付しました。受付番号 #"+body.application_no;
+        localStorage.setItem("zasu_beta_email", String(data.email||"").trim().toLowerCase());
+        localStorage.setItem("zasu_beta_application_no", String(body.application_no));
+        status.innerHTML='応募完了。先着20名のβ枠で受付しました。受付番号 #'+body.application_no+'<br><a href="upload.html" style="text-decoration:underline">→ このままMIXをアップロード</a>';
       }else if(body.status==="waitlisted"){
+        localStorage.setItem("zasu_beta_email", String(data.email||"").trim().toLowerCase());
+        localStorage.setItem("zasu_beta_application_no", String(body.application_no));
         status.textContent="応募完了。現在は定員のためWaiting Listへ登録しました。受付番号 #"+body.application_no;
       }else{
         status.textContent="応募を受け付けました。ありがとうございます。";
