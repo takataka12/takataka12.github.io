@@ -23,8 +23,8 @@ function validateFile(file){
   if(!file) throw new Error("WAVまたはFLACを選択してください。");
   const ext=(file.name.split(".").pop()||"").toLowerCase();
   if(!["wav","wave","flac"].includes(ext)) throw new Error("現在対応しているのはWAV / FLACです。");
-  const max=cfg.uploadMaxBytes||52428800;
-  if(file.size>max) throw new Error("このβ環境では50MBまでです。大きい場合はFLAC化するか、本番ストレージ対応をお待ちください。");
+  const max=cfg.workerBaseUrl?(cfg.workerUploadMaxBytes||1073741824):(cfg.uploadMaxBytes||52428800);
+  if(file.size>max) throw new Error(cfg.workerBaseUrl?"ファイルが1GBを超えています。":"このβ環境では50MBまでです。大きい場合はFLAC化するか、本番ストレージ対応をお待ちください。");
 }
 function setFile(file){
   try{
@@ -85,34 +85,79 @@ button.addEventListener("click",async()=>{
     progress.classList.add("active");
     status.textContent="β参加情報を確認しています…";
 
-    const ticket=await edgePost(cfg.createMixUploadEndpoint,{
-      email:e,
-      application_no:no,
-      original_name:selectedFile.name,
-      bytes:selectedFile.size,
-      mime_type:selectedFile.type||"application/octet-stream"
-    });
-
-    status.textContent="音源を非公開ストレージへアップロードしています…";
-    button.textContent="UPLOADING...";
-
-    const supabase=createClient(cfg.supabaseUrl,cfg.supabasePublishableKey);
-    const {error:uploadError}=await supabase.storage
-      .from(ticket.bucket)
-      .uploadToSignedUrl(ticket.path,ticket.token,selectedFile,{
-        contentType:selectedFile.type||"application/octet-stream",
-        upsert:false
+    if(cfg.workerBaseUrl){
+      const base=cfg.workerBaseUrl.replace(/\/$/,"");
+      const ticketRes=await fetch(base+"/upload-ticket",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({
+          email:e,
+          application_no:no,
+          original_name:selectedFile.name,
+          bytes:selectedFile.size,
+          mime_type:selectedFile.type||"application/octet-stream"
+        })
       });
-    if(uploadError) throw uploadError;
+      let ticket={}; try{ticket=await ticketRes.json()}catch(_){}
+      if(!ticketRes.ok){
+        const detail=ticket.detail||"";
+        const map={
+          payment_required:"Squareで¥500のお支払い完了がまだ確認できていません。決済直後の場合は数秒待ってください。",
+          application_not_found:"受付番号またはメールアドレスが一致しません。",
+          upload_limit_reached:"この受付番号はすでに1曲アップロード済みです。",
+          unsupported_file_type:"現在対応しているのはWAV / FLACです。"
+        };
+        throw new Error(map[detail]||"アップロード準備に失敗しました。");
+      }
 
-    status.textContent="アップロードを確認しています…";
-    button.textContent="VERIFYING...";
+      status.textContent="音源を非公開ストレージへアップロードしています…";
+      button.textContent="UPLOADING...";
+      const putRes=await fetch(ticket.url,{
+        method:"PUT",
+        headers:{"Content-Type":ticket.content_type},
+        body:selectedFile
+      });
+      if(!putRes.ok) throw new Error("音源アップロードに失敗しました。");
 
-    await edgePost(cfg.completeMixUploadEndpoint,{
-      email:e,
-      application_no:no,
-      upload_id:ticket.upload_id
-    });
+      status.textContent="アップロードを確認しています…";
+      button.textContent="VERIFYING...";
+      const doneRes=await fetch(base+"/upload-complete",{
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({email:e,application_no:no,upload_id:ticket.upload_id})
+      });
+      let done={}; try{done=await doneRes.json()}catch(_){}
+      if(!doneRes.ok) throw new Error(done.detail==="size_mismatch"?"アップロードサイズの確認に失敗しました。":"アップロード確認に失敗しました。");
+    }else{
+      const ticket=await edgePost(cfg.createMixUploadEndpoint,{
+        email:e,
+        application_no:no,
+        original_name:selectedFile.name,
+        bytes:selectedFile.size,
+        mime_type:selectedFile.type||"application/octet-stream"
+      });
+
+      status.textContent="音源を非公開ストレージへアップロードしています…";
+      button.textContent="UPLOADING...";
+
+      const supabase=createClient(cfg.supabaseUrl,cfg.supabasePublishableKey);
+      const {error:uploadError}=await supabase.storage
+        .from(ticket.bucket)
+        .uploadToSignedUrl(ticket.path,ticket.token,selectedFile,{
+          contentType:selectedFile.type||"application/octet-stream",
+          upsert:false
+        });
+      if(uploadError) throw uploadError;
+
+      status.textContent="アップロードを確認しています…";
+      button.textContent="VERIFYING...";
+
+      await edgePost(cfg.completeMixUploadEndpoint,{
+        email:e,
+        application_no:no,
+        upload_id:ticket.upload_id
+      });
+    }
 
     status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。処理キューへ登録されます。<br><a href="result.html" style="text-decoration:underline">→ マスタリング状況を見る</a></div>';
     fileInput.value="";
