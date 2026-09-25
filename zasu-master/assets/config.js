@@ -1,0 +1,1 @@
+window.ZASU_MASTER_CONFIG = { betaEndpoint: "", betaEmail: "" };
