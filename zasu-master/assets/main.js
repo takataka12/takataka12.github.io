@@ -39,7 +39,13 @@ function initBetaForm(){
         throw new Error("送信に失敗しました。時間を置いてもう一度お試しください。");
       }
 
-      status.textContent="応募を受け付けました。ありがとうございます。";
+      if(body.status==="accepted"){
+        status.textContent="応募完了。先着20名のβ枠で受付しました。受付番号 #"+body.application_no;
+      }else if(body.status==="waitlisted"){
+        status.textContent="応募完了。現在は定員のためWaiting Listへ登録しました。受付番号 #"+body.application_no;
+      }else{
+        status.textContent="応募を受け付けました。ありがとうございます。";
+      }
       form.reset();
     }catch(err){
       status.textContent=err?.message||"送信に失敗しました。";
