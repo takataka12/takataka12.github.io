@@ -61,6 +61,10 @@ function render(body){
     setState("FAILED","処理に失敗しました","自動再試行後も完了しませんでした。運営側で確認します。");
     return false;
   }
+  if(s==="expired"){
+    setState("EXPIRED","ダウンロード期限終了","完成ファイルは24時間の保存期間を過ぎたため削除されました。");
+    return false;
+  }
   if(s==="completed"){
     setState("COMPLETED","MASTER READY.","PUNCH ENGINEの処理が完了しました。");
     metrics.hidden=false;
