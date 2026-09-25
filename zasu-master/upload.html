@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MIX Upload｜ZASU MASTER</title>
+<meta name="description" content="ZASU MASTER Closed Beta参加者向けのMIXアップロードページです。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU MASTER</span><span class="jp">ザスマス</span></a><nav><a href="index.html">HOME</a><a href="beta.html">BETA</a></nav></div></header>
+<main>
+<section class="hero" style="padding-bottom:38px;border-top:0"><div class="wrap">
+<div class="kicker">Closed Beta / Mix Intake</div>
+<h1 style="font-size:clamp(48px,8vw,86px)">UPLOAD<br>YOUR MIX.</h1>
+<p>β参加受付が完了した方は、受付番号と応募時のメールアドレスでMIXを送れます。音源は非公開ストレージへ直接アップロードされます。</p>
+</div></section>
+
+<section><div class="wrap">
+<div class="upload-shell">
+  <div class="upload-box">
+    <div class="mode">BETA ACCESS</div>
+    <h2 style="font-size:34px">MIXを送る</h2>
+    <div class="beta-gate">
+      <div><label>応募時のメール</label><input id="uploadEmail" type="email" autocomplete="email" placeholder="you@example.com"></div>
+      <div><label>受付番号</label><input id="applicationNo" type="number" min="1" inputmode="numeric" placeholder="例: 12"></div>
+    </div>
+
+    <label class="dropzone" id="dropzone" for="mixFile">
+      <input id="mixFile" type="file" accept=".wav,.wave,.flac,audio/wav,audio/x-wav,audio/wave,audio/flac,audio/x-flac">
+      <strong>WAV / FLACを選択</strong>
+      <span>ここへドラッグ＆ドロップもできます</span>
+    </label>
+    <div class="file-meta" id="fileMeta">ファイルはまだ選択されていません。</div>
+    <button class="btn" id="uploadButton" type="button" style="margin-top:16px;width:100%">UPLOAD MIX</button>
+    <div class="progress" id="uploadProgress"><span></span></div>
+    <div class="upload-status" id="uploadStatus"></div>
+  </div>
+
+  <aside class="upload-box">
+    <div class="mode">BETA SPEC</div>
+    <h3 style="font-size:26px;margin-top:4px">現在の受付仕様</h3>
+    <div class="spec-list">
+      <div class="spec-item"><strong>形式</strong><br>WAV / FLAC</div>
+      <div class="spec-item"><strong>最大容量</strong><br>50MB / 1ファイル</div>
+      <div class="spec-item"><strong>公開範囲</strong><br>非公開。一般公開URLは発行しません。</div>
+      <div class="spec-item"><strong>β上限</strong><br>1参加者につき最大3ファイル</div>
+      <div class="spec-item"><strong>次の工程</strong><br>PUNCH ENGINE処理 → FAIR A/B → 完成WAV</div>
+    </div>
+    <div class="note" style="margin-top:20px">現在はβ用ストレージのため50MB上限です。大きいWAVへの対応は本番ストレージ移行時に拡張します。</div>
+  </aside>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap"><div class="footer-links"><a href="index.html">HOME</a><a href="beta.html">β参加</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a></div><div>© 2026 ZASU MASTER / ZASU</div></div></footer>
+<script src="assets/config.js"></script>
+<script type="module" src="assets/upload.js"></script>
+</body></html>
