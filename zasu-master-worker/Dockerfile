@@ -4,12 +4,16 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    ffmpeg libsndfile1 \
+    ffmpeg libsndfile1 coreutils \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
-COPY . /app/
+
+COPY app.py /app/app.py
+COPY punch_engine.b64.* /app/
+RUN cat /app/punch_engine.b64.* | base64 -d > /app/punch_engine.py \
+    && rm /app/punch_engine.b64.*
 
 CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port ${PORT:-8080}"]
