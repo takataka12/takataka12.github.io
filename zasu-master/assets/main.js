@@ -42,7 +42,7 @@ function initBetaForm(){
       if(body.status==="accepted"){
         localStorage.setItem("zasu_beta_email", String(data.email||"").trim().toLowerCase());
         localStorage.setItem("zasu_beta_application_no", String(body.application_no));
-        status.innerHTML='応募完了。先着20名のβ枠で受付しました。受付番号 #'+body.application_no+'<br><a href="upload.html" style="text-decoration:underline">→ このままMIXをアップロード</a>';
+        status.innerHTML='Paid Beta受付完了。受付番号 #'+body.application_no+'<br><a href="upload.html" style="text-decoration:underline">→ このままMIXをアップロード</a>';
       }else if(body.status==="waitlisted"){
         localStorage.setItem("zasu_beta_email", String(data.email||"").trim().toLowerCase());
         localStorage.setItem("zasu_beta_application_no", String(body.application_no));
@@ -55,7 +55,7 @@ function initBetaForm(){
       status.textContent=err?.message||"送信に失敗しました。";
     }finally{
       button.disabled=false;
-      button.textContent="β参加希望を送る";
+      button.textContent="¥500 Paid Betaに申し込む";
     }
   });
 }
