@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mastering Status｜ZASU MASTER</title>
+<meta name="description" content="ZASU MASTER Paid Betaのマスタリング進行状況と結果を確認します。">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU MASTER</span><span class="jp">ザスマス</span></a><nav><a href="index.html">HOME</a><a href="upload.html">UPLOAD</a></nav></div></header>
+<main>
+<section class="hero" style="padding-bottom:34px;border-top:0"><div class="wrap">
+<div class="kicker">PUNCH ENGINE / Job Status</div>
+<h1 style="font-size:clamp(46px,8vw,82px)">MASTERING<br>STATUS.</h1>
+<p>受付番号と応募時のメールで、処理状況と完成結果を確認できます。</p>
+</div></section>
+
+<section><div class="wrap result-shell">
+<div class="result-card">
+  <div class="mode">ACCESS</div>
+  <div class="beta-gate">
+    <div><label>応募時のメール</label><input id="resultEmail" type="email" autocomplete="email" placeholder="you@example.com"></div>
+    <div><label>受付番号</label><input id="resultApplicationNo" type="number" min="1" inputmode="numeric" placeholder="例: 12"></div>
+  </div>
+  <button id="checkStatus" class="btn" type="button" style="width:100%">CHECK STATUS</button>
+</div>
+
+<div class="result-card" id="resultPanel">
+  <div class="status-pill"><span class="status-dot"></span><span id="statusLabel">WAITING</span></div>
+  <div class="result-state" id="resultState">受付情報を入力してください。</div>
+  <p id="resultMessage" class="muted">音源アップロード後は、このページを開いたままでも自動更新します。</p>
+
+  <div id="metrics" class="metric-grid" hidden>
+    <div class="metric"><span class="label">Engine</span><strong id="metricEngine">—</strong></div>
+    <div class="metric"><span class="label">Output LUFS</span><strong id="metricLufs">—</strong></div>
+    <div class="metric"><span class="label">True Peak</span><strong id="metricTp">—</strong></div>
+  </div>
+
+  <div id="abArea" class="ab-grid" hidden>
+    <div class="ab-card"><strong>ORIGINAL / FAIR</strong><audio id="beforeAudio" controls preload="none"></audio></div>
+    <div class="ab-card"><strong>MASTERED / FAIR</strong><audio id="afterAudio" controls preload="none"></audio></div>
+  </div>
+
+  <div id="resultActions" class="result-actions"></div>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap"><div class="footer-links"><a href="index.html">HOME</a><a href="upload.html">UPLOAD MIX</a><a href="terms.html">利用規約</a></div><div>© 2026 ZASU MASTER / ZASU</div></div></footer>
+<script src="assets/config.js"></script>
+<script src="assets/result.js"></script>
+</body></html>
