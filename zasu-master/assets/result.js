@@ -74,8 +74,27 @@ function render(body){
     }
     if(body.download_url){
       const a=document.createElement("a"); a.className="btn"; a.href=body.download_url; a.textContent="DOWNLOAD 24-BIT WAV"; actions.appendChild(a);
+    }else if(body.download_ready&&cfg.workerBaseUrl){
+      const a=document.createElement("button"); a.className="btn"; a.type="button"; a.textContent="DOWNLOAD 24-BIT WAV";
+      a.addEventListener("click",async()=>{
+        a.disabled=true; a.textContent="PREPARING DOWNLOAD...";
+        try{
+          const res=await fetch(cfg.workerBaseUrl.replace(/\/$/,"")+"/download-ticket",{
+            method:"POST",
+            headers:{"Content-Type":"application/json"},
+            body:JSON.stringify({email:email.value.trim().toLowerCase(),application_no:Number(applicationNo.value)})
+          });
+          const d=await res.json();
+          if(!res.ok||!d.url) throw new Error("download_not_ready");
+          location.href=d.url;
+        }catch(_){
+          a.textContent="DOWNLOAD ERROR";
+          setTimeout(()=>{a.disabled=false;a.textContent="DOWNLOAD 24-BIT WAV"},1800);
+        }
+      });
+      actions.appendChild(a);
     }else if(body.download_ready){
-      const span=document.createElement("span"); span.className="note"; span.textContent="完成WAVのダウンロードURLを発行中です。"; actions.appendChild(span);
+      const span=document.createElement("span"); span.className="note"; span.textContent="完成WAVのダウンロード接続を準備中です。"; actions.appendChild(span);
     }
     if(body.report_url){
       const a=document.createElement("a"); a.className="btn secondary"; a.href=body.report_url; a.textContent="REPORT"; actions.appendChild(a);
