@@ -114,7 +114,7 @@ button.addEventListener("click",async()=>{
       upload_id:ticket.upload_id
     });
 
-    status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。PUNCH ENGINEの処理キュー接続後、この受付データから自動処理へ進められます。</div>';
+    status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。処理キューへ登録されます。<br><a href="result.html" style="text-decoration:underline">→ マスタリング状況を見る</a></div>';
     fileInput.value="";
     selectedFile=null;
     fileMeta.textContent="ファイルはまだ選択されていません。";
