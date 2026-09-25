@@ -59,6 +59,7 @@ async function edgePost(url,payload){
     const map={
       beta_application_not_found:"受付番号またはメールアドレスが一致しません。",
       beta_not_accepted:"この受付番号はまだβ参加枠に入っていません。",
+      payment_required:"Squareで¥500のお支払い完了がまだ確認できていません。決済直後の場合は数秒待ってもう一度お試しください。",
       upload_limit_reached:"この受付番号はすでに1曲アップロード済みです。",
       file_too_large:"ファイルが50MBを超えています。",
       unsupported_file_type:"現在対応しているのはWAV / FLACです。"
