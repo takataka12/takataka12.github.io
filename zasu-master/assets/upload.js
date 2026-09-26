@@ -12,7 +12,10 @@ const fileMeta=q("#fileMeta");
 const button=q("#uploadButton");
 const status=q("#uploadStatus");
 const progress=q("#uploadProgress");
+const paymentNotice=q("#paymentNotice");
 let selectedFile=null;
+let paymentReady=false;
+let paymentCheckTimer=null;
 
 const savedEmail=localStorage.getItem("zasu_beta_email")||"";
 const savedNo=localStorage.getItem("zasu_beta_application_no")||"";
@@ -31,8 +34,38 @@ function renderApplicationState(){
   if(recoveryDetails) recoveryDetails.open=!ready;
 }
 renderApplicationState();
-email.addEventListener("input",renderApplicationState);
-applicationNo.addEventListener("input",renderApplicationState);
+
+async function checkPaymentStatus(attempt=0){
+  const e=(email.value||"").trim().toLowerCase();
+  const no=Number(applicationNo.value);
+  if(!e||!Number.isFinite(no)||no<1){ paymentReady=false; return; }
+  try{
+    const res=await fetch(cfg.paymentStatusEndpoint,{
+      method:"POST",
+      headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},
+      body:JSON.stringify({email:e,application_no:no})
+    });
+    const body=await res.json().catch(()=>({}));
+    if(res.ok&&body.paid){
+      paymentReady=true;
+      if(paymentNotice) paymentNotice.innerHTML='<strong>PAYMENT CONFIRMED.</strong><br>¥500の決済を確認しました。MIXを選んでそのままアップロードできます。';
+      if(paymentCheckTimer) clearTimeout(paymentCheckTimer);
+      return;
+    }
+    paymentReady=false;
+    if(attempt<10){
+      if(paymentNotice) paymentNotice.textContent="Squareの決済完了を確認しています…";
+      paymentCheckTimer=setTimeout(()=>checkPaymentStatus(attempt+1),2000);
+    }else if(paymentNotice){
+      paymentNotice.textContent="決済確認に少し時間がかかっています。画面はそのままでお待ちいただくか、受付情報をご確認ください。";
+    }
+  }catch(_){
+    if(attempt<10) paymentCheckTimer=setTimeout(()=>checkPaymentStatus(attempt+1),2000);
+  }
+}
+checkPaymentStatus();
+email.addEventListener("input",()=>{renderApplicationState();checkPaymentStatus(0)});
+applicationNo.addEventListener("input",()=>{renderApplicationState();checkPaymentStatus(0)});
 
 function humanBytes(n){
   if(n<1024*1024)return (n/1024).toFixed(1)+" KB";
