@@ -156,7 +156,8 @@ if(feedbackForm){
         method:"POST",
         headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},
         body:JSON.stringify({
-application_no:no,
+          application_no:no,
+          access_token:accessToken,
           rating,
           better_than_original:better,
           would_use_again:again,
