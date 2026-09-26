@@ -56,12 +56,13 @@ def _upload_signed_sync(ticket: dict[str, Any], path: Path) -> None:
     size = path.stat().st_size
     if size > 50 * 1024 * 1024:
         raise RuntimeError(f"result_file_too_large:{path.name}:{size}")
+    content_type = "audio/mp4" if path.suffix.lower() == ".m4a" else "audio/flac"
     with path.open("rb") as f:
         storage_client.storage.from_("master-results").upload_to_signed_url(
             path=ticket["path"],
             token=ticket["token"],
             file=f,
-            file_options={"content-type": "audio/flac"},
+            file_options={"content-type": content_type},
         )
 
 
@@ -75,6 +76,17 @@ def to_flac(source: Path, dest: Path) -> None:
         "-i", str(source),
         "-c:a", "flac",
         "-compression_level", "8",
+        str(dest),
+    ], check=True)
+
+
+def to_preview_m4a(source: Path, dest: Path) -> None:
+    subprocess.run([
+        "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+        "-i", str(source),
+        "-c:a", "aac",
+        "-b:a", "192k",
+        "-movflags", "+faststart",
         str(dest),
     ], check=True)
 
@@ -113,15 +125,21 @@ def process_sync(workdir: Path) -> tuple[dict[str, Any], dict[str, Path]]:
     master_flac = workdir / "master.flac"
     before_flac = workdir / "before_fair.flac"
     after_flac = workdir / "after_fair.flac"
+    before_preview = workdir / "before_fair.m4a"
+    after_preview = workdir / "after_fair.m4a"
 
     to_flac(master_wav, master_flac)
     to_flac(fair_dir / "before_FAIR.wav", before_flac)
     to_flac(fair_dir / "after_FAIR.wav", after_flac)
+    to_preview_m4a(fair_dir / "before_FAIR.wav", before_preview)
+    to_preview_m4a(fair_dir / "after_FAIR.wav", after_preview)
 
     return report, {
         "master": master_flac,
         "before": before_flac,
         "after": after_flac,
+        "before_preview": before_preview,
+        "after_preview": after_preview,
     }
 
 
@@ -142,6 +160,8 @@ async def process_job(job: dict[str, Any]) -> None:
         await upload_signed(job["outputs"]["master"], outputs["master"])
         await upload_signed(job["outputs"]["before"], outputs["before"])
         await upload_signed(job["outputs"]["after"], outputs["after"])
+        await upload_signed(job["outputs"]["before_preview"], outputs["before_preview"])
+        await upload_signed(job["outputs"]["after_preview"], outputs["after_preview"])
         print(f"job_stage id={job_id} stage=upload_results_done", flush=True)
 
         await worker_api({
