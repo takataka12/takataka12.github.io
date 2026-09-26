@@ -178,7 +178,8 @@ button.addEventListener("click",async()=>{
       });
     }
 
-    status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。処理キューへ登録されます。<br><a href="result.html" style="text-decoration:underline">→ マスタリング状況を見る</a></div>';
+    sessionStorage.setItem("zasu_result_handoff",JSON.stringify({email:e,application_no:no}));
+    status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。処理キューへ登録されます。<br><a href="https://zasumaster.com/result.html" style="text-decoration:underline">→ マスタリング状況を見る</a></div>';
     fileInput.value="";
     selectedFile=null;
     fileMeta.textContent="ファイルはまだ選択されていません。";
