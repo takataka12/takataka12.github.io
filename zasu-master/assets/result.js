@@ -14,7 +14,7 @@ const feedbackCard=q("#feedbackCard");
 const feedbackForm=q("#feedbackForm");
 const feedbackStatus=q("#feedbackStatus");
 const feedbackSubmit=q("#feedbackSubmit");
-let pollTimer=null;
+let pollTimer=null;let accessToken=localStorage.getItem("zasu_beta_access_token")||"";
 
 // Result pages never restore old application data from localStorage.
 // Only an explicit handoff from the upload flow may prefill this page.
@@ -23,7 +23,7 @@ if(handoffRaw){
   sessionStorage.removeItem("zasu_result_handoff");
   try{
     const handoff=JSON.parse(handoffRaw);
-    if(handoff&&Number.isFinite(Number(handoff.application_no))){applicationNo.value=String(Number(handoff.application_no));}
+    if(handoff&&Number.isFinite(Number(handoff.application_no))){applicationNo.value=String(Number(handoff.application_no));if(handoff.access_token)accessToken=String(handoff.access_token);}
   }catch(_){}
 }
 
@@ -105,7 +105,7 @@ function render(body){
           const res=await fetch(cfg.workerBaseUrl.replace(/\/$/,"")+"/download-ticket",{
             method:"POST",
             headers:{"Content-Type":"application/json"},
-            body:JSON.stringify({application_no:Number(applicationNo.value)})
+            body:JSON.stringify({application_no:Number(applicationNo.value),access_token:accessToken})
           });
           const d=await res.json();
           if(!res.ok||!d.url) throw new Error("download_not_ready");
@@ -131,7 +131,7 @@ async function check(){
   const no=Number(applicationNo.value);if(!Number.isFinite(no)||no<1){setState("ERROR","入力を確認してください","受付番号が必要です。");return;}
   button.disabled=true; button.textContent="CHECKING...";
   try{
-    const body=await post({application_no:no});
+    const body=await post({application_no:no,access_token:accessToken});
     const shouldPoll=render(body);
     if(pollTimer) clearTimeout(pollTimer);
     if(shouldPoll) pollTimer=setTimeout(check,12000);
