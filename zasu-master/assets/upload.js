@@ -12,7 +12,7 @@ const progress=q("#uploadProgress");
 const paymentNotice=q("#paymentNotice");
 let selectedFile=null;
 
-const savedNo=localStorage.getItem("zasu_beta_application_no")||"";
+const savedNo=localStorage.getItem("zasu_beta_application_no")||"";const accessToken=localStorage.getItem("zasu_beta_access_token")||"";
 applicationNo.value=savedNo;
 
 function renderApplicationState(){const no=Number(applicationNo.value);const ready=Number.isFinite(no)&&no>0;if(savedApplication)savedApplication.innerHTML=ready?'<strong>受付番号 #'+no+'</strong><br>受付情報を確認しました。':'受付番号を入力してください。';if(recoveryDetails)recoveryDetails.open=!ready}renderApplicationState();applicationNo.addEventListener("input",renderApplicationState);
@@ -90,7 +90,7 @@ button.addEventListener("click",async()=>{
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
-          application_no:no,
+          application_no:no,access_token:accessToken,
           original_name:selectedFile.name,
           bytes:selectedFile.size,
           mime_type:selectedFile.type||"application/octet-stream"
@@ -122,13 +122,13 @@ button.addEventListener("click",async()=>{
       const doneRes=await fetch(base+"/upload-complete",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
-        body:JSON.stringify({application_no:no,upload_id:ticket.upload_id})
+        body:JSON.stringify({application_no:no,access_token:accessToken,upload_id:ticket.upload_id})
       });
       let done={}; try{done=await doneRes.json()}catch(_){}
       if(!doneRes.ok) throw new Error(done.detail==="size_mismatch"?"アップロードサイズの確認に失敗しました。":"アップロード確認に失敗しました。");
     }else{
       const ticket=await edgePost(cfg.createMixUploadEndpoint,{
-        application_no:no,
+        application_no:no,access_token:accessToken,
         original_name:selectedFile.name,
         bytes:selectedFile.size,
         mime_type:selectedFile.type||"application/octet-stream"
@@ -161,12 +161,12 @@ button.addEventListener("click",async()=>{
       button.textContent="VERIFYING...";
 
       await edgePost(cfg.completeMixUploadEndpoint,{
-        application_no:no,
+        application_no:no,access_token:accessToken,
         upload_id:ticket.upload_id
       });
     }
 
-    sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no}));
+    sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:accessToken}));
     status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。処理キューへ登録されます。<br><a href="https://zasumaster.com/result.html" style="text-decoration:underline">→ マスタリング状況を見る</a></div>';
     fileInput.value="";
     selectedFile=null;
