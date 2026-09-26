@@ -4,6 +4,8 @@ const cfg=window.ZASU_MASTER_CONFIG||{};
 const q=(s)=>document.querySelector(s);
 const email=q("#uploadEmail");
 const applicationNo=q("#applicationNo");
+const savedApplication=q("#savedApplication");
+const recoveryDetails=q("#recoveryDetails");
 const fileInput=q("#mixFile");
 const dropzone=q("#dropzone");
 const fileMeta=q("#fileMeta");
@@ -12,8 +14,25 @@ const status=q("#uploadStatus");
 const progress=q("#uploadProgress");
 let selectedFile=null;
 
-email.value=localStorage.getItem("zasu_beta_email")||"";
-applicationNo.value=localStorage.getItem("zasu_beta_application_no")||"";
+const savedEmail=localStorage.getItem("zasu_beta_email")||"";
+const savedNo=localStorage.getItem("zasu_beta_application_no")||"";
+email.value=savedEmail;
+applicationNo.value=savedNo;
+
+function renderApplicationState(){
+  const e=(email.value||"").trim();
+  const no=Number(applicationNo.value);
+  const ready=e&&Number.isFinite(no)&&no>0;
+  if(savedApplication){
+    savedApplication.innerHTML=ready
+      ? '<strong>受付番号 #'+no+'</strong><br>申込情報を確認しました。受付番号の再入力は不要です。'
+      : 'このブラウザに受付情報がありません。下の「別の端末・ブラウザから利用する」から受付情報を入力してください。';
+  }
+  if(recoveryDetails) recoveryDetails.open=!ready;
+}
+renderApplicationState();
+email.addEventListener("input",renderApplicationState);
+applicationNo.addEventListener("input",renderApplicationState);
 
 function humanBytes(n){
   if(n<1024*1024)return (n/1024).toFixed(1)+" KB";
@@ -75,7 +94,7 @@ button.addEventListener("click",async()=>{
     validateFile(selectedFile);
     const e=email.value.trim().toLowerCase();
     const no=Number(applicationNo.value);
-    if(!e||!Number.isFinite(no)||no<1) throw new Error("応募時のメールと受付番号を入力してください。");
+    if(!e||!Number.isFinite(no)||no<1){ if(recoveryDetails) recoveryDetails.open=true; throw new Error("このブラウザに受付情報がありません。応募時のメールと受付番号を入力してください。"); }
 
     localStorage.setItem("zasu_beta_email",e);
     localStorage.setItem("zasu_beta_application_no",String(no));
