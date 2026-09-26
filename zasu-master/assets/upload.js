@@ -1,6 +1,5 @@
 const cfg=window.ZASU_MASTER_CONFIG||{};
 const q=(s)=>document.querySelector(s);
-const email=q("#uploadEmail");
 const applicationNo=q("#applicationNo");
 const savedApplication=q("#savedApplication");
 const recoveryDetails=q("#recoveryDetails");
@@ -13,26 +12,10 @@ const progress=q("#uploadProgress");
 const paymentNotice=q("#paymentNotice");
 let selectedFile=null;
 
-const savedEmail=localStorage.getItem("zasu_beta_email")||"";
 const savedNo=localStorage.getItem("zasu_beta_application_no")||"";
-email.value=savedEmail;
 applicationNo.value=savedNo;
 
-function renderApplicationState(){
-  const e=(email.value||"").trim();
-  const no=Number(applicationNo.value);
-  const ready=e&&Number.isFinite(no)&&no>0;
-  if(savedApplication){
-    savedApplication.innerHTML=ready
-      ? '<strong>受付番号 #'+no+'</strong><br>申込情報を確認しました。受付番号の再入力は不要です。'
-      : 'このブラウザに受付情報がありません。下の「別の端末・ブラウザから利用する」から受付情報を入力してください。';
-  }
-  if(recoveryDetails) recoveryDetails.open=!ready;
-}
-renderApplicationState();
-
-email.addEventListener("input",renderApplicationState);
-applicationNo.addEventListener("input",renderApplicationState);
+function renderApplicationState(){const no=Number(applicationNo.value);const ready=Number.isFinite(no)&&no>0;if(savedApplication)savedApplication.innerHTML=ready?'<strong>受付番号 #'+no+'</strong><br>受付情報を確認しました。':'受付番号を入力してください。';if(recoveryDetails)recoveryDetails.open=!ready}renderApplicationState();applicationNo.addEventListener("input",renderApplicationState);
 
 function humanBytes(n){
   if(n<1024*1024)return (n/1024).toFixed(1)+" KB";
@@ -76,7 +59,7 @@ async function edgePost(url,payload){
   let body={}; try{body=await res.json()}catch(_){}
   if(!res.ok){
     const map={
-      beta_application_not_found:"受付番号またはメールアドレスが一致しません。",
+      beta_application_not_found:"受付番号が見つかりません。",
       beta_not_accepted:"この受付番号はまだβ参加枠に入っていません。",
       payment_required:"この受付ではアップロード権限を確認できませんでした。",
       upload_limit_reached:"この受付番号はすでに1曲アップロード済みです。",
@@ -92,11 +75,8 @@ button.addEventListener("click",async()=>{
   status.textContent="";
   try{
     validateFile(selectedFile);
-    const e=email.value.trim().toLowerCase();
     const no=Number(applicationNo.value);
-    if(!e||!Number.isFinite(no)||no<1){ if(recoveryDetails) recoveryDetails.open=true; throw new Error("このブラウザに受付情報がありません。応募時のメールと受付番号を入力してください。"); }
-
-    localStorage.setItem("zasu_beta_email",e);
+    if(!Number.isFinite(no)||no<1){if(recoveryDetails)recoveryDetails.open=true;throw new Error("受付番号を入力してください。")}
     localStorage.setItem("zasu_beta_application_no",String(no));
 
     button.disabled=true;
@@ -110,7 +90,6 @@ button.addEventListener("click",async()=>{
         method:"POST",
         headers:{"Content-Type":"application/json"},
         body:JSON.stringify({
-          email:e,
           application_no:no,
           original_name:selectedFile.name,
           bytes:selectedFile.size,
@@ -122,7 +101,7 @@ button.addEventListener("click",async()=>{
         const detail=ticket.detail||"";
         const map={
           payment_required:"Squareで¥500のお支払い完了がまだ確認できていません。決済直後の場合は数秒待ってください。",
-          application_not_found:"受付番号またはメールアドレスが一致しません。",
+          application_not_found:"受付番号が見つかりません。",
           upload_limit_reached:"この受付番号はすでに1曲アップロード済みです。",
           unsupported_file_type:"現在対応しているのはWAV / FLACです。"
         };
@@ -143,13 +122,12 @@ button.addEventListener("click",async()=>{
       const doneRes=await fetch(base+"/upload-complete",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
-        body:JSON.stringify({email:e,application_no:no,upload_id:ticket.upload_id})
+        body:JSON.stringify({application_no:no,upload_id:ticket.upload_id})
       });
       let done={}; try{done=await doneRes.json()}catch(_){}
       if(!doneRes.ok) throw new Error(done.detail==="size_mismatch"?"アップロードサイズの確認に失敗しました。":"アップロード確認に失敗しました。");
     }else{
       const ticket=await edgePost(cfg.createMixUploadEndpoint,{
-        email:e,
         application_no:no,
         original_name:selectedFile.name,
         bytes:selectedFile.size,
@@ -183,13 +161,12 @@ button.addEventListener("click",async()=>{
       button.textContent="VERIFYING...";
 
       await edgePost(cfg.completeMixUploadEndpoint,{
-        email:e,
         application_no:no,
         upload_id:ticket.upload_id
       });
     }
 
-    sessionStorage.setItem("zasu_result_handoff",JSON.stringify({email:e,application_no:no}));
+    sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no}));
     status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。処理キューへ登録されます。<br><a href="https://zasumaster.com/result.html" style="text-decoration:underline">→ マスタリング状況を見る</a></div>';
     fileInput.value="";
     selectedFile=null;
