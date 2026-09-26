@@ -9,7 +9,7 @@ const progress=q("#uploadProgress");
 const paymentNotice=q("#paymentNotice");
 let selectedFile=null;
 
-const savedNo=localStorage.getItem("zasu_beta_application_no")||"";const accessToken=localStorage.getItem("zasu_beta_access_token")||"";
+const savedNo=localStorage.getItem("zasu_beta_application_no")||"";const accessToken=localStorage.getItem("zasu_beta_access_token")||"";const visitorId=localStorage.getItem("zasu_visitor_id")||"";const sessionId=sessionStorage.getItem("zasu_session_id")||crypto.randomUUID();sessionStorage.setItem("zasu_session_id",sessionId);
 function humanBytes(n){
   if(n<1024*1024)return (n/1024).toFixed(1)+" KB";
   return (n/(1024*1024)).toFixed(1)+" MB";
@@ -123,7 +123,8 @@ button.addEventListener("click",async()=>{
         application_no:no,access_token:accessToken,
         original_name:selectedFile.name,
         bytes:selectedFile.size,
-        mime_type:selectedFile.type||"application/octet-stream"
+        mime_type:selectedFile.type||"application/octet-stream",
+          visitor_id:visitorId,session_id:sessionId
       });
 
       status.textContent="音源を非公開ストレージへアップロードしています…";
