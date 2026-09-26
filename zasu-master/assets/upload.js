@@ -14,8 +14,6 @@ const status=q("#uploadStatus");
 const progress=q("#uploadProgress");
 const paymentNotice=q("#paymentNotice");
 let selectedFile=null;
-let paymentReady=false;
-let paymentCheckTimer=null;
 
 const savedEmail=localStorage.getItem("zasu_beta_email")||"";
 const savedNo=localStorage.getItem("zasu_beta_application_no")||"";
@@ -35,37 +33,7 @@ function renderApplicationState(){
 }
 renderApplicationState();
 
-async function checkPaymentStatus(attempt=0){
-  const e=(email.value||"").trim().toLowerCase();
-  const no=Number(applicationNo.value);
-  if(!e||!Number.isFinite(no)||no<1){ paymentReady=false; return; }
-  try{
-    const res=await fetch(cfg.paymentStatusEndpoint,{
-      method:"POST",
-      headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},
-      body:JSON.stringify({email:e,application_no:no})
-    });
-    const body=await res.json().catch(()=>({}));
-    if(res.ok&&body.paid){
-      paymentReady=true;
-      if(paymentNotice) paymentNotice.innerHTML='<strong>PAYMENT CONFIRMED.</strong><br>¥500の決済を確認しました。MIXを選んでそのままアップロードできます。';
-      if(paymentCheckTimer) clearTimeout(paymentCheckTimer);
-      return;
-    }
-    paymentReady=false;
-    if(attempt<10){
-      if(paymentNotice) paymentNotice.textContent="Squareの決済完了を確認しています…";
-      paymentCheckTimer=setTimeout(()=>checkPaymentStatus(attempt+1),2000);
-    }else if(paymentNotice){
-      paymentNotice.textContent="決済確認に少し時間がかかっています。画面はそのままでお待ちいただくか、受付情報をご確認ください。";
-    }
-  }catch(_){
-    if(attempt<10) paymentCheckTimer=setTimeout(()=>checkPaymentStatus(attempt+1),2000);
-  }
-}
-checkPaymentStatus();
-email.addEventListener("input",()=>{renderApplicationState();checkPaymentStatus(0)});
-applicationNo.addEventListener("input",()=>{renderApplicationState();checkPaymentStatus(0)});
+email.addEventListener("input",renderApplicationState);\napplicationNo.addEventListener("input",renderApplicationState);
 
 function humanBytes(n){
   if(n<1024*1024)return (n/1024).toFixed(1)+" KB";
@@ -111,7 +79,7 @@ async function edgePost(url,payload){
     const map={
       beta_application_not_found:"受付番号またはメールアドレスが一致しません。",
       beta_not_accepted:"この受付番号はまだβ参加枠に入っていません。",
-      payment_required:"Squareで¥500のお支払い完了がまだ確認できていません。決済直後の場合は数秒待ってもう一度お試しください。",
+      payment_required:"この受付ではアップロード権限を確認できませんでした。",
       upload_limit_reached:"この受付番号はすでに1曲アップロード済みです。",
       file_too_large:"ファイルが50MBを超えています。",
       unsupported_file_type:"現在対応しているのはWAV / FLACです。"
