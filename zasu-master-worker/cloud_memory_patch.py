@@ -79,5 +79,58 @@ s = s.replace(
 '''
 )
 
+
+# Runtime stage diagnostics: stderr is captured by the parent even when the child is SIGKILLed.
+s = s.replace(
+    'def master_file(input_path, output_path, target_lufs=None, true_peak_ceiling=-0.8, fair_ab_dir=None):\n    input_path = Path(input_path); output_path=Path(output_path)',
+    'def master_file(input_path, output_path, target_lufs=None, true_peak_ceiling=-0.8, fair_ab_dir=None):\n'
+    '    import resource\n'
+    '    def _stage(name):\n'
+    '        print(f"ENGINE_STAGE {name} maxrss_kb={resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}", file=sys.stderr, flush=True)\n'
+    '    input_path = Path(input_path); output_path=Path(output_path)\n'
+    '    _stage("start")'
+)
+s = s.replace(
+    '    before = analyze(original, original_fs, full_meter=True)\n    classification = classify(before)',
+    '    _stage("before_analyze_start")\n'
+    '    before = analyze(original, original_fs, full_meter=True)\n'
+    '    _stage("before_analyze_done")\n'
+    '    classification = classify(before)'
+)
+s = s.replace(
+    '    x, fs, orig_fs, tmpdir = load_work_audio(input_path)\n    base = tonal_transient_stage(x, fs, params)\n    del x\n    y_work, convergence = converge_loudness_fast(base, fs, chosen_target, max_renders=1)\n    del base',
+    '    _stage("load_work_start")\n'
+    '    x, fs, orig_fs, tmpdir = load_work_audio(input_path)\n'
+    '    _stage("load_work_done")\n'
+    '    base = tonal_transient_stage(x, fs, params)\n'
+    '    _stage("tonal_done")\n'
+    '    del x\n'
+    '    y_work, convergence = converge_loudness_fast(base, fs, chosen_target, max_renders=1)\n'
+    '    _stage("converge_done")\n'
+    '    del base'
+)
+s = s.replace(
+    '    y = resample_output(y_work, fs, orig_fs)\n    del y_work\n    y, final_tp, guard_db = final_true_peak_guard(y, orig_fs, true_peak_ceiling)\n    after = analyze(y, orig_fs, full_meter=True, known_tp=final_tp)',
+    '    y = resample_output(y_work, fs, orig_fs)\n'
+    '    _stage("resample_output_done")\n'
+    '    del y_work\n'
+    '    y, final_tp, guard_db = final_true_peak_guard(y, orig_fs, true_peak_ceiling)\n'
+    '    _stage("true_peak_guard_done")\n'
+    '    after = analyze(y, orig_fs, full_meter=True, known_tp=final_tp)\n'
+    '    _stage("after_analyze_done")'
+)
+s = s.replace(
+    '    if fair_ab_dir:\n        # FAIR AB must be same rate. Reload original only at the end to keep peak RAM low.',
+    '    if fair_ab_dir:\n'
+    '        _stage("fair_start")\n'
+    '        # FAIR AB must be same rate. Reload original only at the end to keep peak RAM low.'
+)
+s = s.replace(
+    '        del original_fair\n\n    report_path = output_path.with_suffix(".report.json")',
+    '        del original_fair\n'
+    '        _stage("fair_done")\n\n'
+    '    report_path = output_path.with_suffix(".report.json")'
+)
+
 path.write_text(s, encoding="utf-8")
 print("cloud memory patch applied", path)
