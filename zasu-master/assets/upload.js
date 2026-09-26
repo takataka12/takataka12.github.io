@@ -1,5 +1,3 @@
-import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.95.0/+esm";
-
 const cfg=window.ZASU_MASTER_CONFIG||{};
 const q=(s)=>document.querySelector(s);
 const email=q("#uploadEmail");
@@ -161,14 +159,25 @@ button.addEventListener("click",async()=>{
       status.textContent="音源を非公開ストレージへアップロードしています…";
       button.textContent="UPLOADING...";
 
-      const supabase=createClient(cfg.supabaseUrl,cfg.supabasePublishableKey);
-      const {error:uploadError}=await supabase.storage
-        .from(ticket.bucket)
-        .uploadToSignedUrl(ticket.path,ticket.token,selectedFile,{
-          contentType:selectedFile.type||"application/octet-stream",
-          upsert:false
-        });
-      if(uploadError) throw uploadError;
+      // Use Supabase Storage's signed-upload REST endpoint directly.
+      // This avoids loading the Supabase JS SDK from an external CDN on iPhone/Safari.
+      const signedUrl=cfg.supabaseUrl.replace(/\/$/,"")+
+        "/storage/v1/object/upload/sign/"+
+        encodeURIComponent(ticket.bucket)+"/"+
+        ticket.path.split("/").map(encodeURIComponent).join("/")+
+        "?token="+encodeURIComponent(ticket.token);
+      const form=new FormData();
+      form.append("cacheControl","3600");
+      form.append("",selectedFile);
+      const uploadRes=await fetch(signedUrl,{
+        method:"PUT",
+        headers:{"apikey":cfg.supabasePublishableKey,"x-upsert":"false"},
+        body:form
+      });
+      if(!uploadRes.ok){
+        let detail=""; try{detail=JSON.stringify(await uploadRes.json())}catch(_){}
+        throw new Error("音源アップロードに失敗しました。"+(detail?" "+detail:""));
+      }
 
       status.textContent="アップロードを確認しています…";
       button.textContent="VERIFYING...";
