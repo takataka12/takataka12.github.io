@@ -8,6 +8,27 @@ function initBetaForm(){
     const button=form.querySelector('button[type="submit"]');
     const status=qs("#formStatus");
     const data=Object.fromEntries(new FormData(form).entries());
+
+    // iOS/Safari-safe email normalization.
+    // Strip invisible Unicode characters that can enter via copy/paste,
+    // normalize full-width ASCII, then validate the normalized value ourselves.
+    const emailInput=form.querySelector('input[name="email"]');
+    const normalizeEmail=(value)=>String(value||"")
+      .normalize("NFKC")
+      .replace(/[\u200B-\u200D\u2060\uFEFF]/g,"")
+      .replace(/\s+/g,"")
+      .trim()
+      .toLowerCase();
+    data.email=normalizeEmail(data.email);
+    if(emailInput) emailInput.value=data.email;
+
+    const emailOK=/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(data.email);
+    if(!emailOK){
+      if(emailInput) emailInput.focus();
+      const status=qs("#formStatus");
+      status.textContent="メールアドレスを確認してください。";
+      return;
+    }
     const cfg=window.ZASU_MASTER_CONFIG||{};
 
     if(!cfg.betaEndpoint||!cfg.betaAnonKey){
