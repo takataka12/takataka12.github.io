@@ -84,7 +84,7 @@ s = s.replace(
 s = s.replace(
     'def master_file(input_path, output_path, target_lufs=None, true_peak_ceiling=-0.8, fair_ab_dir=None):\n    input_path = Path(input_path); output_path=Path(output_path)',
     'def master_file(input_path, output_path, target_lufs=None, true_peak_ceiling=-0.8, fair_ab_dir=None):\n'
-    '    import resource\n'
+    '    import resource, sys\n'
     '    def _stage(name):\n'
     '        print(f"ENGINE_STAGE {name} maxrss_kb={resource.getrusage(resource.RUSAGE_SELF).ru_maxrss}", file=sys.stderr, flush=True)\n'
     '    input_path = Path(input_path); output_path=Path(output_path)\n'
