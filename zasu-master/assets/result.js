@@ -13,8 +13,12 @@ const afterAudio=q("#afterAudio");
 const actions=q("#resultActions");
 let pollTimer=null;
 
+// Restore only as a convenience. Never auto-query from stale browser state.
 email.value=localStorage.getItem("zasu_beta_email")||"";
 applicationNo.value=localStorage.getItem("zasu_beta_application_no")||"";
+if(email.value||applicationNo.value){
+  resultState.textContent="受付情報を確認して、CHECK STATUSを押してください。";
+}
 
 function setState(label,title,message){
   statusLabel.textContent=label;
@@ -133,4 +137,4 @@ async function check(){
   }
 }
 button.addEventListener("click",check);
-if(email.value&&applicationNo.value) check();
+// Intentionally no automatic check on page load.
