@@ -1,7 +1,5 @@
 const cfg=window.ZASU_MASTER_CONFIG||{};
 const q=(s)=>document.querySelector(s);
-const applicationNo=q("#resultApplicationNo");
-const button=q("#checkStatus");
 const statusLabel=q("#statusLabel");
 const resultState=q("#resultState");
 const resultMessage=q("#resultMessage");
@@ -14,7 +12,7 @@ const feedbackCard=q("#feedbackCard");
 const feedbackForm=q("#feedbackForm");
 const feedbackStatus=q("#feedbackStatus");
 const feedbackSubmit=q("#feedbackSubmit");
-let pollTimer=null;let accessToken=localStorage.getItem("zasu_beta_access_token")||"";
+let pollTimer=null;let accessToken=localStorage.getItem("zasu_beta_access_token")||"";let applicationNo=Number(localStorage.getItem("zasu_beta_application_no")||0);
 
 // Result pages never restore old application data from localStorage.
 // Only an explicit handoff from the upload flow may prefill this page.
@@ -23,7 +21,7 @@ if(handoffRaw){
   sessionStorage.removeItem("zasu_result_handoff");
   try{
     const handoff=JSON.parse(handoffRaw);
-    if(handoff&&Number.isFinite(Number(handoff.application_no))){applicationNo.value=String(Number(handoff.application_no));if(handoff.access_token)accessToken=String(handoff.access_token);}
+    if(handoff&&Number.isFinite(Number(handoff.application_no))){applicationNo=Number(handoff.application_no);if(handoff.access_token)accessToken=String(handoff.access_token);}
   }catch(_){}
 }
 
@@ -105,7 +103,7 @@ function render(body){
           const res=await fetch(cfg.workerBaseUrl.replace(/\/$/,"")+"/download-ticket",{
             method:"POST",
             headers:{"Content-Type":"application/json"},
-            body:JSON.stringify({application_no:Number(applicationNo.value),access_token:accessToken})
+            body:JSON.stringify({application_no:Number(applicationNo),access_token:accessToken})
           });
           const d=await res.json();
           if(!res.ok||!d.url) throw new Error("download_not_ready");
@@ -128,26 +126,21 @@ function render(body){
   return false;
 }
 async function check(){
-  const no=Number(applicationNo.value);if(!Number.isFinite(no)||no<1){setState("ERROR","入力を確認してください","受付番号が必要です。");return;}
-  button.disabled=true; button.textContent="CHECKING...";
+  const no=Number(applicationNo);
+  if(!Number.isFinite(no)||no<1||!accessToken){clearResult();setState("NO SESSION","新しく始めてください","このブラウザに有効なセッションがありません。");return;}
   try{
     const body=await post({application_no:no,access_token:accessToken});
     const shouldPoll=render(body);
-    if(pollTimer) clearTimeout(pollTimer);
-    if(shouldPoll) pollTimer=setTimeout(check,12000);
-  }catch(err){
-    clearResult(); setState("ERROR","確認できません",err?.message||"エラーが発生しました。");
-  }finally{
-    button.disabled=false; button.textContent="CHECK STATUS";
-  }
+    if(pollTimer)clearTimeout(pollTimer);
+    if(shouldPoll)pollTimer=setTimeout(check,12000);
+  }catch(err){clearResult();setState("ERROR","確認できません",err?.message||"エラーが発生しました。");}
 }
-button.addEventListener("click",check);
-// Intentionally no automatic check on page load.
+check();
 
 if(feedbackForm){
   feedbackForm.addEventListener("submit",async(e)=>{
     e.preventDefault();
-    const no=Number(applicationNo.value);
+    const no=Number(applicationNo);
     const rating=Number(q("#feedbackRating").value);
     const better=q("#feedbackBetter").value;
     const again=q("#feedbackAgain").value;
