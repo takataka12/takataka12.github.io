@@ -17,16 +17,13 @@ if(location.hostname==="takataka12.github.io"){
 <section class="hero" style="padding-bottom:38px;border-top:0"><div class="wrap">
 <div class="kicker">OPEN BETA / FREE</div>
 <h1 style="font-size:clamp(48px,8vw,86px)">UPLOAD<br>YOUR MIX.</h1>
-<p>OPEN BETA受付後、そのまま1曲のMIXを無料で送れます。複数曲の利用も可能で、曲ごとに新しくお申し込みいただけます。受付情報は申込時に自動保存されるため、通常は再入力不要です。音源は非公開ストレージへ直接アップロードされます。</p>
+<p>WAV / FLACを選んでアップロード。</p>
 </div></section>
 
 <section><div class="wrap">
 <div class="upload-shell">
   <div class="upload-box">
-    <div class="mode">OPEN BETA ACCESS</div><div class="note" id="paymentNotice" style="margin-bottom:18px"><strong>OPEN BETAは無料です。</strong><br>複数曲の利用も可能です。処理管理のため1受付につき1曲、曲ごとにお申し込みください。</div>
     <h2 style="font-size:34px">MIXを送る</h2>
-    <div id="savedApplication" class="note" style="margin-bottom:18px"></div>
-    <details id="recoveryDetails"><summary>受付番号を入力する</summary><div><label>受付番号</label><input id="applicationNo" type="number" min="1" inputmode="numeric" placeholder="例: 11"></div></details>
 
     <label class="dropzone" id="dropzone" for="mixFile">
       <input id="mixFile" type="file" accept=".wav,.wave,.flac,audio/wav,audio/x-wav,audio/wave,audio/flac,audio/x-flac">
@@ -38,23 +35,10 @@ if(location.hostname==="takataka12.github.io"){
     <div class="progress" id="uploadProgress"><span></span></div>
     <div class="upload-status" id="uploadStatus"></div>
   </div>
-
-  <aside class="upload-box">
-    <div class="mode">BETA SPEC</div>
-    <h3 style="font-size:26px;margin-top:4px">現在の受付仕様</h3>
-    <div class="spec-list">
-      <div class="spec-item"><strong>形式</strong><br>WAV / FLAC</div>
-      <div class="spec-item"><strong>最大容量</strong><br>50MB / 1ファイル</div>
-      <div class="spec-item"><strong>公開範囲</strong><br>非公開。一般公開URLは発行しません。</div>
-      <div class="spec-item"><strong>β価格</strong><br>FREE / 1曲</div><div class="spec-item"><strong>受付単位</strong><br>1受付につき1ファイル</div>
-      <div class="spec-item"><strong>次の工程</strong><br>PUNCH ENGINE処理 → FAIR A/B → 完成WAV</div>
-    </div>
-    <div class="note" style="margin-top:20px">現在はβ用ストレージのため50MB上限です。大きいWAVへの対応は本番ストレージ移行時に拡張します。</div>
-  </aside>
 </div>
 </div></section>
 </main>
 <footer><div class="wrap"><div class="footer-links"><a href="index.html">HOME</a><a href="beta.html">β参加</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a><a href="commercial.html">特商法表示</a></div><div>© 2026 ZASU MASTER / ZASU</div></div></footer>
 <script src="assets/config.js?v=20260926-1320"></script>
-<script src="assets/upload.js?v=20260926-1535"></script>
+<script src="assets/upload.js?v=20260926-1545"></script>
 </body></html>
