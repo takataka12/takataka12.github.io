@@ -13,11 +13,18 @@ const afterAudio=q("#afterAudio");
 const actions=q("#resultActions");
 let pollTimer=null;
 
-// Restore only as a convenience. Never auto-query from stale browser state.
-email.value=localStorage.getItem("zasu_beta_email")||"";
-applicationNo.value=localStorage.getItem("zasu_beta_application_no")||"";
-if(email.value||applicationNo.value){
-  resultState.textContent="受付情報を確認して、CHECK STATUSを押してください。";
+// Result pages never restore old application data from localStorage.
+// Only an explicit handoff from the upload flow may prefill this page.
+const handoffRaw=sessionStorage.getItem("zasu_result_handoff");
+if(handoffRaw){
+  sessionStorage.removeItem("zasu_result_handoff");
+  try{
+    const handoff=JSON.parse(handoffRaw);
+    if(handoff && typeof handoff.email==="string" && Number.isFinite(Number(handoff.application_no))){
+      email.value=handoff.email.trim().toLowerCase();
+      applicationNo.value=String(Number(handoff.application_no));
+    }
+  }catch(_){}
 }
 
 function setState(label,title,message){
@@ -122,8 +129,6 @@ async function check(){
   const e=email.value.trim().toLowerCase();
   const no=Number(applicationNo.value);
   if(!e||!Number.isFinite(no)||no<1){setState("ERROR","入力を確認してください","応募時のメールと受付番号が必要です。");return;}
-  localStorage.setItem("zasu_beta_email",e);
-  localStorage.setItem("zasu_beta_application_no",String(no));
   button.disabled=true; button.textContent="CHECKING...";
   try{
     const body=await post({email:e,application_no:no});
