@@ -11,6 +11,10 @@ const abArea=q("#abArea");
 const beforeAudio=q("#beforeAudio");
 const afterAudio=q("#afterAudio");
 const actions=q("#resultActions");
+const feedbackCard=q("#feedbackCard");
+const feedbackForm=q("#feedbackForm");
+const feedbackStatus=q("#feedbackStatus");
+const feedbackSubmit=q("#feedbackSubmit");
 let pollTimer=null;
 
 // Result pages never restore old application data from localStorage.
@@ -34,6 +38,7 @@ function setState(label,title,message){
 }
 function clearResult(){
   metrics.hidden=true; abArea.hidden=true; actions.innerHTML="";
+  if(feedbackCard) feedbackCard.hidden=true;
   beforeAudio.removeAttribute("src"); afterAudio.removeAttribute("src");
 }
 async function post(payload){
@@ -78,6 +83,7 @@ function render(body){
   }
   if(s==="completed"){
     setState("COMPLETED","MASTER READY.","PUNCH ENGINEの処理が完了しました。");
+    if(feedbackCard) feedbackCard.hidden=false;
     metrics.hidden=false;
     q("#metricEngine").textContent=body.engine_version||"PUNCH";
     q("#metricLufs").textContent=Number.isFinite(body.output_lufs)?body.output_lufs.toFixed(2)+" LUFS":"—";
@@ -143,3 +149,48 @@ async function check(){
 }
 button.addEventListener("click",check);
 // Intentionally no automatic check on page load.
+
+if(feedbackForm){
+  feedbackForm.addEventListener("submit",async(e)=>{
+    e.preventDefault();
+    const eMail=email.value.trim().toLowerCase();
+    const no=Number(applicationNo.value);
+    const rating=Number(q("#feedbackRating").value);
+    const better=q("#feedbackBetter").value;
+    const again=q("#feedbackAgain").value;
+    if(!eMail||!Number.isFinite(no)||no<1||!rating||!better||!again){
+      feedbackStatus.textContent="評価項目を選択してください。";
+      return;
+    }
+    feedbackSubmit.disabled=true;
+    feedbackSubmit.textContent="SENDING...";
+    feedbackStatus.textContent="";
+    try{
+      const res=await fetch(cfg.feedbackEndpoint,{
+        method:"POST",
+        headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},
+        body:JSON.stringify({
+          email:eMail,
+          application_no:no,
+          rating,
+          better_than_original:better,
+          would_use_again:again,
+          had_problem:q("#feedbackProblem").checked,
+          comment:q("#feedbackComment").value
+        })
+      });
+      const body=await res.json().catch(()=>({}));
+      if(!res.ok){
+        if(body.error==="master_not_completed") throw new Error("マスタリング完了後に送信できます。");
+        throw new Error("送信できませんでした。");
+      }
+      feedbackStatus.innerHTML="<strong>THANK YOU.</strong> フィードバックを保存しました。";
+      feedbackSubmit.textContent="FEEDBACK SENT";
+      feedbackForm.querySelectorAll("select,textarea,input,button").forEach(el=>el.disabled=true);
+    }catch(err){
+      feedbackStatus.textContent=err?.message||"送信できませんでした。";
+      feedbackSubmit.disabled=false;
+      feedbackSubmit.textContent="SEND FEEDBACK";
+    }
+  });
+}
