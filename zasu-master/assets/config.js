@@ -1,6 +1,7 @@
 window.ZASU_MASTER_CONFIG = {
   betaEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/submit-beta-application",
   createSquareCheckoutEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-square-checkout",
+  paymentStatusEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/payment-status",
   createMixUploadEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-mix-upload",
   completeMixUploadEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/complete-mix-upload",
   masteringStatusEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/mastering-status",
