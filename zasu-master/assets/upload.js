@@ -1,8 +1,5 @@
 const cfg=window.ZASU_MASTER_CONFIG||{};
 const q=(s)=>document.querySelector(s);
-const applicationNo=q("#applicationNo");
-const savedApplication=q("#savedApplication");
-const recoveryDetails=q("#recoveryDetails");
 const fileInput=q("#mixFile");
 const dropzone=q("#dropzone");
 const fileMeta=q("#fileMeta");
@@ -13,10 +10,6 @@ const paymentNotice=q("#paymentNotice");
 let selectedFile=null;
 
 const savedNo=localStorage.getItem("zasu_beta_application_no")||"";const accessToken=localStorage.getItem("zasu_beta_access_token")||"";
-applicationNo.value=savedNo;
-
-function renderApplicationState(){const no=Number(applicationNo.value);const ready=Number.isFinite(no)&&no>0;if(savedApplication)savedApplication.innerHTML=ready?'<strong>受付番号 #'+no+'</strong><br>受付情報を確認しました。':'受付番号を入力してください。';if(recoveryDetails)recoveryDetails.open=!ready}renderApplicationState();applicationNo.addEventListener("input",renderApplicationState);
-
 function humanBytes(n){
   if(n<1024*1024)return (n/1024).toFixed(1)+" KB";
   return (n/(1024*1024)).toFixed(1)+" MB";
@@ -75,9 +68,8 @@ button.addEventListener("click",async()=>{
   status.textContent="";
   try{
     validateFile(selectedFile);
-    const no=Number(applicationNo.value);
-    if(!Number.isFinite(no)||no<1){if(recoveryDetails)recoveryDetails.open=true;throw new Error("受付番号を入力してください。")}
-    localStorage.setItem("zasu_beta_application_no",String(no));
+    const no=Number(savedNo);
+    if(!Number.isFinite(no)||no<1||!accessToken){location.href="https://zasumaster.com/beta.html";return;}
 
     button.disabled=true;
     button.textContent="PREPARING...";
