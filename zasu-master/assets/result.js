@@ -1,6 +1,5 @@
 const cfg=window.ZASU_MASTER_CONFIG||{};
 const q=(s)=>document.querySelector(s);
-const email=q("#resultEmail");
 const applicationNo=q("#resultApplicationNo");
 const button=q("#checkStatus");
 const statusLabel=q("#statusLabel");
@@ -24,10 +23,7 @@ if(handoffRaw){
   sessionStorage.removeItem("zasu_result_handoff");
   try{
     const handoff=JSON.parse(handoffRaw);
-    if(handoff && typeof handoff.email==="string" && Number.isFinite(Number(handoff.application_no))){
-      email.value=handoff.email.trim().toLowerCase();
-      applicationNo.value=String(Number(handoff.application_no));
-    }
+    if(handoff&&Number.isFinite(Number(handoff.application_no))){applicationNo.value=String(Number(handoff.application_no));}
   }catch(_){}
 }
 
@@ -53,7 +49,7 @@ async function post(payload){
   });
   let body={}; try{body=await res.json()}catch(_){}
   if(!res.ok){
-    if(body.error==="application_not_found") throw new Error("受付番号またはメールアドレスが一致しません。");
+    if(body.error==="application_not_found") throw new Error("受付番号が見つかりません。");
     throw new Error("状況を取得できませんでした。");
   }
   return body;
@@ -62,7 +58,7 @@ function render(body){
   clearResult();
   const s=body.status;
   if(s==="waiting_upload"){
-    setState("WAITING","音源待ち","決済済みの場合はUPLOAD MIXから音源を送ってください。");
+    setState("WAITING","音源待ち","UPLOAD MIXから音源を送ってください。");
     return false;
   }
   if(s==="queued"){
@@ -109,7 +105,7 @@ function render(body){
           const res=await fetch(cfg.workerBaseUrl.replace(/\/$/,"")+"/download-ticket",{
             method:"POST",
             headers:{"Content-Type":"application/json"},
-            body:JSON.stringify({email:email.value.trim().toLowerCase(),application_no:Number(applicationNo.value)})
+            body:JSON.stringify({application_no:Number(applicationNo.value)})
           });
           const d=await res.json();
           if(!res.ok||!d.url) throw new Error("download_not_ready");
@@ -132,12 +128,10 @@ function render(body){
   return false;
 }
 async function check(){
-  const e=email.value.trim().toLowerCase();
-  const no=Number(applicationNo.value);
-  if(!e||!Number.isFinite(no)||no<1){setState("ERROR","入力を確認してください","応募時のメールと受付番号が必要です。");return;}
+  const no=Number(applicationNo.value);if(!Number.isFinite(no)||no<1){setState("ERROR","入力を確認してください","受付番号が必要です。");return;}
   button.disabled=true; button.textContent="CHECKING...";
   try{
-    const body=await post({email:e,application_no:no});
+    const body=await post({application_no:no});
     const shouldPoll=render(body);
     if(pollTimer) clearTimeout(pollTimer);
     if(shouldPoll) pollTimer=setTimeout(check,12000);
@@ -153,12 +147,11 @@ button.addEventListener("click",check);
 if(feedbackForm){
   feedbackForm.addEventListener("submit",async(e)=>{
     e.preventDefault();
-    const eMail=email.value.trim().toLowerCase();
     const no=Number(applicationNo.value);
     const rating=Number(q("#feedbackRating").value);
     const better=q("#feedbackBetter").value;
     const again=q("#feedbackAgain").value;
-    if(!eMail||!Number.isFinite(no)||no<1||!rating||!better||!again){
+    if(!Number.isFinite(no)||no<1||!rating||!better||!again){
       feedbackStatus.textContent="評価項目を選択してください。";
       return;
     }
@@ -170,8 +163,7 @@ if(feedbackForm){
         method:"POST",
         headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},
         body:JSON.stringify({
-          email:eMail,
-          application_no:no,
+application_no:no,
           rating,
           better_than_original:better,
           would_use_again:again,
