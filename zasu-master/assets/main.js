@@ -63,19 +63,8 @@ function initBetaForm(){
       if(body.status==="accepted"){
         localStorage.setItem("zasu_beta_email", String(data.email||"").trim().toLowerCase());
         localStorage.setItem("zasu_beta_application_no", String(body.application_no));
-        status.innerHTML='Paid Beta受付完了。受付番号 #'+body.application_no+'<br><strong>専用のSquare決済ページを準備しています...</strong>';
-        try{
-          const checkoutRes=await fetch(cfg.createSquareCheckoutEndpoint,{
-            method:"POST",
-            headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},
-            body:JSON.stringify({application_no:body.application_no,email:data.email})
-          });
-          const checkout=await checkoutRes.json().catch(()=>({}));
-          if(!checkoutRes.ok||!checkout.payment_url) throw new Error("checkout_failed");
-          status.innerHTML='Paid Beta受付完了。受付番号 #'+body.application_no+'<br><strong>次にSquareで¥500をお支払いください。</strong><br><a class="btn" style="margin-top:12px" href="'+checkout.payment_url+'">PAY ¥500</a><br><span class="mini">この決済は受付番号と自動で紐付きます。決済完了後、MIXアップロード画面へ戻ります。</span>';
-        }catch(_){
-          status.innerHTML='受付番号 #'+body.application_no+' を発行しましたが、決済ページの作成に失敗しました。ページを再読み込みせず、しばらくしてからもう一度お試しください。';
-        }
+        status.innerHTML='OPEN BETA受付完了。受付番号 #'+body.application_no+'<br><strong>無料で1曲アップロードできます。アップロード画面へ移動します...</strong>';
+        setTimeout(()=>{ location.href="https://zasumaster.com/upload.html"; },700);
       }else if(body.status==="waitlisted"){
         localStorage.setItem("zasu_beta_email", String(data.email||"").trim().toLowerCase());
         localStorage.setItem("zasu_beta_application_no", String(body.application_no));
@@ -88,7 +77,7 @@ function initBetaForm(){
       status.textContent=err?.message||"送信に失敗しました。";
     }finally{
       button.disabled=false;
-      button.textContent="¥500 Paid Betaに申し込む";
+      button.textContent="無料OPEN BETAを始める";
     }
   });
 }
