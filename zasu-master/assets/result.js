@@ -75,6 +75,12 @@ function render(body){
       abArea.hidden=false;
       beforeAudio.src=body.fair_before_url;
       afterAudio.src=body.fair_after_url;
+      // iOS Safari can leave dynamically assigned audio at 00:00 until load()
+      // is explicitly requested. preload=metadata makes duration available quickly.
+      for(const audio of [beforeAudio,afterAudio]){
+        audio.preload="metadata";
+        audio.load();
+      }
     }
     if(body.download_url){
       const a=document.createElement("a"); a.className="btn"; a.href=body.download_url; a.textContent="DOWNLOAD 24-BIT WAV"; actions.appendChild(a);
