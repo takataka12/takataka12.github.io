@@ -61,6 +61,7 @@ def _upload_signed_sync(ticket: dict[str, Any], path: Path) -> None:
             path=ticket["path"],
             token=ticket["token"],
             file=f,
+            file_options={"content-type": "audio/flac"},
         )
 
 
