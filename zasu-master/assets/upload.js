@@ -33,7 +33,8 @@ function renderApplicationState(){
 }
 renderApplicationState();
 
-email.addEventListener("input",renderApplicationState);\napplicationNo.addEventListener("input",renderApplicationState);
+email.addEventListener("input",renderApplicationState);
+applicationNo.addEventListener("input",renderApplicationState);
 
 function humanBytes(n){
   if(n<1024*1024)return (n/1024).toFixed(1)+" KB";
