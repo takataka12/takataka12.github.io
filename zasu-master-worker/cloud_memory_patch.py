@@ -132,5 +132,25 @@ s = s.replace(
     '    report_path = output_path.with_suffix(".report.json")'
 )
 
+
+# Cloud memory guard: avoid full-song float64 copies in loudness convergence.
+# These are mathematically the same gain operations, performed in-place because
+# the source buffers are no longer needed after each stage.
+s = s.replace(
+    'def render_core(base, fs, drive_db):\n    z = base*amp(drive_db)',
+    'def render_core(base, fs, drive_db):\n'
+    '    z = base\n'
+    '    z *= amp(drive_db)'
+)
+s = s.replace(
+    '    return x*gain[:,None], gain',
+    '    x *= gain[:,None]\n'
+    '    return x, gain'
+)
+s = s.replace(
+    '        y = y*amp(trim)',
+    '        y *= amp(trim)'
+)
+
 path.write_text(s, encoding="utf-8")
 print("cloud memory patch applied", path)
