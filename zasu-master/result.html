@@ -8,7 +8,7 @@ if(location.hostname==="takataka12.github.io"){
 </script>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mastering Status｜ZASU MASTER</title>
-<meta name="description" content="ZASU MASTER Paid Betaのマスタリング進行状況と結果を確認します。">
+<meta name="description" content="ZASU MASTER OPEN BETAのマスタリング進行状況と結果を確認します。">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -48,9 +48,23 @@ if(location.hostname==="takataka12.github.io"){
 
   <div id="resultActions" class="result-actions"></div>
 </div>
+
+<div class="result-card" id="feedbackCard" hidden>
+  <div class="mode">OPTIONAL FEEDBACK</div>
+  <h2 style="font-size:30px;margin-bottom:8px">仕上がり、どうでしたか？</h2>
+  <p class="muted">OPEN BETA改善のため、よければ感想を教えてください。フィードバックは任意です。</p>
+  <form id="feedbackForm">
+    <div style="margin:18px 0"><label>仕上がり評価</label><select id="feedbackRating" required><option value="">選択してください</option><option value="5">5 — とても良い</option><option value="4">4 — 良い</option><option value="3">3 — 普通</option><option value="2">2 — いまひとつ</option><option value="1">1 — 良くない</option></select></div>
+    <div class="form-row"><div><label>元のMIXより良くなった？</label><select id="feedbackBetter" required><option value="">選択してください</option><option value="yes">はい</option><option value="same">同じくらい</option><option value="no">いいえ</option></select></div><div><label>また使いたい？</label><select id="feedbackAgain" required><option value="">選択してください</option><option value="yes">はい</option><option value="maybe">たぶん</option><option value="no">いいえ</option></select></div></div>
+    <label style="display:block;margin:18px 0"><input id="feedbackProblem" type="checkbox" style="width:auto;margin-right:8px">問題・違和感があった</label>
+    <div><label>コメント（任意）</label><textarea id="feedbackComment" maxlength="3000" placeholder="良かった点、気になった点、こうなってほしい等"></textarea></div>
+    <button id="feedbackSubmit" class="btn secondary" type="submit" style="width:100%;margin-top:16px">SEND FEEDBACK</button>
+    <div id="feedbackStatus" class="mini" style="margin-top:10px"></div>
+  </form>
+</div>
 </div></section>
 </main>
 <footer><div class="wrap"><div class="footer-links"><a href="index.html">HOME</a><a href="upload.html">UPLOAD MIX</a><a href="terms.html">利用規約</a></div><div>© 2026 ZASU MASTER / ZASU</div></div></footer>
-<script src="assets/config.js?v=20260926-1320"></script>
-<script src="assets/result.js?v=20260926-1320"></script>
+<script src="assets/config.js?v=20260926-1410"></script>
+<script src="assets/result.js?v=20260926-1410"></script>
 </body></html>
