@@ -1,6 +1,524 @@
 {
-  "generatedAt": "2026-09-27T18:11:08Z",
+  "generatedAt": "2026-09-27T18:16:19Z",
   "label": "NOW",
-  "note": "初回の自動更新待ちです。",
-  "items": []
+  "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
+  "items": [
+    {
+      "id": "cd980b9c9956db",
+      "category": "internet",
+      "title": "「破格だよね」エレガンスのコフレがSNSで話題！予約開始日を狙うのがよさそう。 - chiba-tv.com",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-27T08:41:26Z",
+      "sources": [
+        {
+          "id": "3d7fdc17efe3f7",
+          "name": "chiba-tv.com",
+          "title": "「破格だよね」エレガンスのコフレがSNSで話題！予約開始日を狙うのがよさそう。 - chiba-tv.com",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9laFB2ZjBfX016REZMdkMzRFpzcGRSZ1YtaUdSLXFLSXdGVHVmVU50TjE3bkFiVFc4UnU2d2dwZFlFNFlEelBHMWRmRG5YYVhfU2h6NWpvMkdMb3VSMlRJ?oc=5",
+          "publishedAt": "2026-09-27T08:41:26Z"
+        },
+        {
+          "id": "a0bf58b20796a4",
+          "name": "東京バーゲンマニア",
+          "title": "「破格だよね」エレガンスのコフレがSNSで話題！予約開始日を狙うのがよさそう。 - 東京バーゲンマニア",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5NRzZhSjY4R1c3NzNmQ2xBbEk4bTFlbzM0UG83S0tZbHNYeWNmTTR5RWpHaF9QSjRHOW9uWTJSTXF3a0h0d2Z4MFhNUXBYMS1Kd1hB?oc=5",
+          "publishedAt": "2026-09-27T08:38:00Z"
+        }
+      ]
+    },
+    {
+      "id": "42c093c3e4265d",
+      "category": "internet",
+      "title": "SNSで話題の『黄色い粉』で2種類のゼリーを作ったら？ 「子供たちにも好評だった！」 - chiba-tv.com",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-27T08:21:40Z",
+      "sources": [
+        {
+          "id": "acf012156c8d90",
+          "name": "chiba-tv.com",
+          "title": "SNSで話題の『黄色い粉』で2種類のゼリーを作ったら？ 「子供たちにも好評だった！」 - chiba-tv.com",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBYcTRudTV4V3FrRkRJVk1USDJ0NUloZWU3ZnNVek9HM3l0d0tfNHBYdXZrRC1yRGtKSDNNS1ZHd2RIUWhDQkprS0YzcjAxekdJWXo4TmNJUDEwMUl0Wnpn?oc=5",
+          "publishedAt": "2026-09-27T08:21:40Z"
+        },
+        {
+          "id": "4c51bd9be7dd4e",
+          "name": "news.nicovideo.jp",
+          "title": "SNSで話題の『黄色い粉』で2種類のゼリーを作ったら？ 「子供たちにも好評だった！」 - news.nicovideo.jp",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5jS0ZMRUFjdVRHZjB3YTZVcnhwQS13RkNTMzByVlY4dE5HTFNOUEJWQV9jY1dQcFJabXlNaXpvQnNuYkNHYzljWkZaOEx3WDhhVjZLYXZ5REdmaWlVb1U4OG10enQxeGVtZzRRMTV2R0NQT0VQN3ZseXE2dw?oc=5",
+          "publishedAt": "2026-09-27T08:21:20Z"
+        }
+      ]
+    },
+    {
+      "id": "e384b0981903e3",
+      "category": "politics",
+      "title": "国会議事堂 - 衆院、女性用トイレの増設進める 混雑問題に、議員要望で環境改善 - 写真・画像(1/1) - 西日本新聞me",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-27T06:23:17Z",
+      "sources": [
+        {
+          "id": "31932916ea54b8",
+          "name": "西日本新聞me",
+          "title": "国会議事堂 - 衆院、女性用トイレの増設進める 混雑問題に、議員要望で環境改善 - 写真・画像(1/1) - 西日本新聞me",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFQndVcUlhMkhQcDZxVHkyUTBuMHlMLXlYT1JHRWIxWmhaYmxoUXpyM0RBcXp5YlJzSzlibTAxbUt1WEwwbURyX2l3NVdoYktvUF9HYk9xdw?oc=5",
+          "publishedAt": "2026-09-27T06:23:17Z"
+        },
+        {
+          "id": "dde3106ce3ab18",
+          "name": "四国新聞",
+          "title": "衆院、女性用トイレの増設進める／混雑問題に、議員要望で環境改善 - 四国新聞",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lb19jbzl0blFQQk90YnFuaHdxT1BKODM4bm1lUXlTcEQ4V3lQcTNKRVUxeUZ5UFRlNjFrREs0c05FSnBmOGVLQ1pGRmdRWnJwX25PR2RXbGlSXzJjdHZZY2dsVzlVWHJSeDZQcFFKRQ?oc=5",
+          "publishedAt": "2026-09-27T05:51:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b825bb2afb283b",
+      "category": "economy",
+      "title": "｢金利を上げろ､でも下げろ｣アメリカが日本に求めた\"矛盾\"の真意､日本がリフレ政策から明確に脱却すべきこれだけの理由 - 東洋経済オンライン",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-26T23:01:25Z",
+      "sources": [
+        {
+          "id": "3ef6953d7d3504",
+          "name": "東洋経済オンライン",
+          "title": "｢金利を上げろ､でも下げろ｣アメリカが日本に求めた\"矛盾\"の真意､日本がリフレ政策から明確に脱却すべきこれだけの理由 - 東洋経済オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBSWtVanByMlFxdXBEdHBNenI4NERLLVRiUjJDdGZaRjJyLU5ncDZSZ2dNSlBhb2Z4WFJNYnV1M1RqSTJwakZ2b0loenNKVVptSkE?oc=5",
+          "publishedAt": "2026-09-26T23:01:25Z"
+        },
+        {
+          "id": "58457309628b3b",
+          "name": "Yahoo!ニュース",
+          "title": "「金利を上げろ、でも下げろ」アメリカが日本に求めた“矛盾”の真意、日本がリフレ政策から明確に脱却すべきこれだけの理由 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01anB2TW0tNGotU2xTbFh6TWZYbGNubjFQQTd1YVVsbkYyUnpuUUduZTZ5TDVKNGRvbEozMHY0Uzl5TmV6bkxyOFhhaGtmbXh3a0dLVFU0ZENaemFXODFvc2txQXdwak9iU0RZVGxsLVk1X0xDcENJSHVhYzRxTG8?oc=5",
+          "publishedAt": "2026-09-26T23:00:40Z"
+        }
+      ]
+    },
+    {
+      "id": "4b0c2c1de6087d",
+      "category": "internet",
+      "title": "『報ステ』映り込み話題のアイドル、ミニスカコーデにネット釘づけ「ヤバい」「スタイル抜群美女」 - ENCOUNT",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-26T22:24:54Z",
+      "sources": [
+        {
+          "id": "d8e6e0b574ee9a",
+          "name": "ENCOUNT",
+          "title": "『報ステ』映り込み話題のアイドル、ミニスカコーデにネット釘づけ「ヤバい」「スタイル抜群美女」 - ENCOUNT",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3cU9ObS1qWWREc2kxeTd5M0NKNFRHNVY4dVhGckZyeHB2TUw2R1BqZkh3WlZTaU51UmhrY1l1SXFNR2J6MGdHWmVJUVNrTU10SmhB?oc=5",
+          "publishedAt": "2026-09-26T22:24:54Z"
+        },
+        {
+          "id": "528235adf7a48c",
+          "name": "Yahoo!ニュース",
+          "title": "『報ステ』映り込み話題のアイドル、ミニスカコーデにネット釘づけ「ヤバい」「スタイル抜群美女」（ENCOUNT） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1WHpuREp4RHZZUEdmeDZUcmpXNm5EOUpUS3hVMDBoNFd5ckRnUnlLdGQtRkY5YThUbkZiNEJselVfMkhlSzhCbEc3V0JEQ2YzZlkzTW1tV1BZckdub1ZvZ19MNEtPcXB6MWc3aGpGQklFSXVEdl9rTmEtMTlZaDA?oc=5",
+          "publishedAt": "2026-09-26T22:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2590c3204089f3",
+      "category": "entertainment",
+      "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-26T07:38:13Z",
+      "sources": [
+        {
+          "id": "b98945f5d909c2",
+          "name": "Yahoo!ニュース",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
+          "publishedAt": "2026-09-26T07:38:13Z"
+        },
+        {
+          "id": "5bba3e601e9707",
+          "name": "newsdig.tbs.co.jp",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - newsdig.tbs.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
+          "publishedAt": "2026-09-26T07:37:00Z"
+        },
+        {
+          "id": "b30d08b7d2b611",
+          "name": "newsdig.tbs.co.jp",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - newsdig.tbs.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBiM3QxbmdtbkVCczFZSnZvN081b3dXR3hwZDA5WGw3ZzRBdm9JbWhBNndCaEdrTGdwczZQcnpZVFkxQmE4Z3VCc0NyYkFUYWtJd3hJRXB6VQ?oc=5",
+          "publishedAt": "2026-09-26T07:37:00Z"
+        }
+      ]
+    },
+    {
+      "id": "1f256ad39b5a90",
+      "category": "entertainment",
+      "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-26T07:01:11Z",
+      "sources": [
+        {
+          "id": "bbbe73ed1abfda",
+          "name": "Yahoo!ニュース",
+          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
+          "publishedAt": "2026-09-26T07:01:11Z"
+        },
+        {
+          "id": "3af021ad77f484",
+          "name": "ナタリー",
+          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
+          "publishedAt": "2026-09-26T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c46da6175717c8",
+      "category": "entertainment",
+      "title": "話題作が目白押しな2026年秋、映画館で観たい3選！ (フィガロジャポン) - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-26T05:19:21Z",
+      "sources": [
+        {
+          "id": "a8152556cdf008",
+          "name": "Yahoo!ニュース",
+          "title": "話題作が目白押しな2026年秋、映画館で観たい3選！ (フィガロジャポン) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcC1zQ0k5RjU5S2VsemZPZDJtSXNySUQyUFpBaEd0Mlg1a1FqU0ZXcFNjdUJTekdtMUpFdV9FVjdYM19JV295dUpzeW8yY1NIQW05VFBYTGNUMGJlclZqMmFiRHdHNHlGSXJ6VGxxcElKeTZ2cmJGV3VaWG92M2tXVWtIelRlV2poX0ZUMkRR?oc=5",
+          "publishedAt": "2026-09-26T05:19:21Z"
+        },
+        {
+          "id": "4a93bb08356625",
+          "name": "madameFIGARO.jp",
+          "title": "『オデュッセイア』だけじゃない！ 話題作が目白押しな2026年秋、映画館で観たい３選！ - madameFIGARO.jp",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91MV9iRVA1eUhMSXhXYTNndElhUkt5eVZqeFEwLXFBNmxuSTg1MXp4X3BHUjZVZks2RDJoU1NiWjk2ZjZ0UW1qdXJvWXRrdHVpcjFUMDhpNGpKUQ?oc=5",
+          "publishedAt": "2026-09-25T23:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4e6fdfd69f8668",
+      "category": "internet",
+      "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング - skream.jp",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-25T12:00:00Z",
+      "sources": [
+        {
+          "id": "39baa7e622cbd3",
+          "name": "skream.jp",
+          "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング - skream.jp",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWUNORmJnVEhROEwzS29xQktqd1FPRmtIV3lZTVA4TXV0Q0VSSlFnaWlrVmpKRHgtbUNuX1MwQjJtMXFfYjF2VzN5dWhzcUhpemxEWmNnN3J1VVUtVng5YkxOcw?oc=5",
+          "publishedAt": "2026-09-25T12:00:00Z"
+        },
+        {
+          "id": "bf732cb226637a",
+          "name": "ナタリー",
+          "title": "Ayumu ImazuがSNSで話題の「結び」リリース、人と人との“縁”を歌うラブソング - ナタリー",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB5cjVORkU0NElLZktyNHpSNDd3ejlaaUJlOW5uWFREZVR1MG54RjlRajN5ZF9zMXlOTlBKRHlmN1RZODcyTzJ6STN4WnY?oc=5",
+          "publishedAt": "2026-09-25T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "636182459ed714",
+      "category": "internet",
+      "title": "イラン首都でUFOが飛行？ SNS話題、米の攻撃に不安 - 西日本新聞me",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-23T20:29:47Z",
+      "sources": [
+        {
+          "id": "0ec73fe0567407",
+          "name": "西日本新聞me",
+          "title": "イラン首都でUFOが飛行？ SNS話題、米の攻撃に不安 - 西日本新聞me",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vRUpBVGFkdUExYURNYkVjYUR0OGFxcFNFNG83eXRLNk9fSU9XVEFuZmtCWTc0TzNFT0lXM0sxdzVSUl8wRms1SnRwYUFHeDRLU2tYQ0Jn?oc=5",
+          "publishedAt": "2026-09-23T20:29:47Z"
+        },
+        {
+          "id": "4673f95d218b66",
+          "name": "Yahoo!ニュース",
+          "title": "イラン首都でUFOが飛行？ SNS話題、米の攻撃に不安（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wX2V3SEpNWjJ2ZGUtSmd3Z2QtaG1PY3JmZmJhUU03M0JGSnVmN1lIOHRkb1RGYUl4TnhjYUJhMWxXd3NVdTB0WE5BeXpVMXpORTRSZFczQ1NKQzZPMWg5aDlLWml1dFFqSGlBU05pRW1tSnR4LXdBaTJ3UG03a0U?oc=5",
+          "publishedAt": "2026-09-23T20:29:24Z"
+        }
+      ]
+    },
+    {
+      "id": "a04864948bcb5e",
+      "category": "entertainment",
+      "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 (読売テレビ) - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-22T23:53:03Z",
+      "sources": [
+        {
+          "id": "78c6d79946e450",
+          "name": "Yahoo!ニュース",
+          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 (読売テレビ) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcTAtRE5QYV84R29CaGwzVVh1V05CYW9BaFgxazhZTFJiR0t0eG5VX3B2ZVZ2T3g5Q1ZPVTdkWk00eGxONHp1QUo3aWJiYjh6d1JsaFRNTlBGSk9DUHBpV3J5MnFVR3ptRVlwMUljeTE1WExUTGxYS2FXcjdybl9WME5hcUI4OENpY1NXMnl3?oc=5",
+          "publishedAt": "2026-09-22T23:53:03Z"
+        },
+        {
+          "id": "52f21f20b6a6fb",
+          "name": "日テレNEWS NNN",
+          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 - 日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcWpHQzJEU2tXcG1kOGNSSFNBSl9SS3ROSXNCTGtZSTBPVE9kam1zaGRfeGlHOW9DQ1VfckZmTnUxX1NOWHJMSTYwMmx4ejI0N1QxcWtOU3VJQS1VWjgtWE9jdTVWcC1ERDdYYkJ4a21abS15OEtWV3NJZ05rNEI5YXJRbHZKWms?oc=5",
+          "publishedAt": "2026-09-22T23:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c29a55b7d7a3e2",
+      "category": "entertainment",
+      "title": "SNSで話題の「ブレーメンの音楽隊」が板橋区立文化会館に初登場！ドレミパイプで贈る、笑顔あふれるクリスマスコンサートを12月19日（土）に開催 | 公益財団法人板橋区文化・国際交流財団のプレスリリース - PR TIMES",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-15T07:00:00Z",
+      "sources": [
+        {
+          "id": "b56402f73a140d",
+          "name": "PR TIMES",
+          "title": "SNSで話題の「ブレーメンの音楽隊」が板橋区立文化会館に初登場！ドレミパイプで贈る、笑顔あふれるクリスマスコンサートを12月19日（土）に開催 | 公益財団法人板橋区文化・国際交流財団のプレスリリース - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00am92N1pWUF9YUTNKQTJibXdkc3ZrNnZZa29XUk5yRDlDRHl2Z29yV2I4dmN0SWw2VGU4UG55aFVudXdXTHMyQ21WY0pvMWJrUktSTl9wS1dCTnI4eWZWMndFYm93b29RaHc?oc=5",
+          "publishedAt": "2026-09-15T07:00:00Z"
+        },
+        {
+          "id": "4b508965e858ad",
+          "name": "エンタメラッシュ",
+          "title": "SNSで話題の「ブレーメンの音楽隊」が板橋区立文化会館に初登場！ドレミパイプで贈る、笑顔あふれるクリスマスコンサートを12月19日（土）に開催 - エンタメラッシュ",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE54LWdtNFRJenlXRW5Gb0k3MkhWemJiYjBWOWNQcUVneVhqRDR0VFlaUkNOOHFPd2VBcG9Yc3U1YXFOSEU?oc=5",
+          "publishedAt": "2026-09-15T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "31518bfd42739b",
+      "category": "politics",
+      "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - asahi.com",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-27T10:00:00Z",
+      "sources": [
+        {
+          "id": "713aab293bc942",
+          "name": "asahi.com",
+          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - asahi.com",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVG9CWEFLVTZGVEFxdnBHZmFjSkRUM2RJckVaWUI1aFZlaHVKQmRPTHk1TlFKakgxZ1g2MjZFTUZ6TkZsX3g5WmRLc2tybkpIVndGekVoaUJDZDRDZVBEaUg3ZXhXZ1lNWFdRMWFJQkJDSV8zLVFsRFVuZFViemhmNTNkRU5OYkVpbW9odHlvdEc?oc=5",
+          "publishedAt": "2026-09-27T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "44fa6743829ac4",
+      "category": "economy",
+      "title": "9月28日～10月2日に決算発表を予定している企業リスト - 四季報オンライン",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-27T09:00:00Z",
+      "sources": [
+        {
+          "id": "072f3a2c272cc6",
+          "name": "四季報オンライン",
+          "title": "9月28日～10月2日に決算発表を予定している企業リスト - 四季報オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41QU16VVBrUFFYZTA2U1dyWTBlSlREMFM1dU9lQVA4M0FsV3IycVhXQVhDZXUxbE5vZEdLSmxSSnVXTm1ieXJIa0Y2Z3luQWswVXU5djBGUQ?oc=5",
+          "publishedAt": "2026-09-27T09:00:00Z"
+        },
+        {
+          "id": "793598b81d9593",
+          "name": "四季報オンライン",
+          "title": "7月27～31日に決算発表を予定している企業リスト - 四季報オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1xV1FaeXJqbVVVeE4wVE9OdFZRRloxWXBiX3plQjhSWDVjcnZZOUFmbVJwdDF1enlBZF9wYWRseHI1MmFrTWZyeVBBT3A4THNUY3ByN2tKbw?oc=5",
+          "publishedAt": "2026-07-26T09:12:19Z"
+        }
+      ]
+    },
+    {
+      "id": "65b465bae68daa",
+      "category": "internet",
+      "title": "SNSで話題の『教育番組』からタマ (全4種）＋パウル＆はかせがフィギュア化＆予約開始。お得な全5種セットも！ - 電撃オンライン",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-27T08:56:00Z",
+      "sources": [
+        {
+          "id": "f9bebd07e7a6a0",
+          "name": "電撃オンライン",
+          "title": "SNSで話題の『教育番組』からタマ (全4種）＋パウル＆はかせがフィギュア化＆予約開始。お得な全5種セットも！ - 電撃オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sUHJROTZQWFZZZUw0MGpzMTZGVWdralRncFFJZkJYZmJyN2VzejY1cDJxZ1A3aXdUMHcxellTek9KeWw3VW5tQkptODJqT00wTXQ1MVprZzk3QQ?oc=5",
+          "publishedAt": "2026-09-27T08:56:00Z"
+        }
+      ]
+    },
+    {
+      "id": "35d5b045899304",
+      "category": "internet",
+      "title": "SNSで話題の無印良品「メッシュ巾着」が旅行・銭湯に最適。ストレスなく使える工夫が詰まっていた - Business Insider Japan",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-27T01:00:00Z",
+      "sources": [
+        {
+          "id": "a9fe85f88747eb",
+          "name": "Business Insider Japan",
+          "title": "SNSで話題の無印良品「メッシュ巾着」が旅行・銭湯に最適。ストレスなく使える工夫が詰まっていた - Business Insider Japan",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOVh5LWZVZ05HWk5nMEF5TVNSeWh0Nkpzc3M4YXBkbDBpdkZxa3pHVTZIbG5pSE1yMTdCZnFDMmRTYVBCTi1FRzRqWWlnVzQ5dllDcjU5WXh0blE5VEVpaFFwRllaSnRmTWVQYl9fSzhEcmw0YmZwRzJ5QjczN2NZNmREMGJxb3RGODVvSHBCWDViM1cwVUhjQkRES3VEamxHVENWbVB3?oc=5",
+          "publishedAt": "2026-09-27T01:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "eca346b8477c3d",
+      "category": "economy",
+      "title": "教えて！ニュースライブ 正義のミカタ 9月26日(土)放送分 米中首脳会談の結果は？高市総理はどう対応すべき？AI開発で人類滅亡の危機！？日銀が利上げ決定！日本経済は減速？どうなる円安｜バラエティ｜見逃し無料配信はTVer！人気の動画見放題 - TVer",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-26T06:18:31Z",
+      "sources": [
+        {
+          "id": "6e438f83d5fa6e",
+          "name": "TVer",
+          "title": "教えて！ニュースライブ 正義のミカタ 9月26日(土)放送分 米中首脳会談の結果は？高市総理はどう対応すべき？AI開発で人類滅亡の危機！？日銀が利上げ決定！日本経済は減速？どうなる円安｜バラエティ｜見逃し無料配信はTVer！人気の動画見放題 - TVer",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9ERXU0aU9tODRaOFpzdXprb1ByeW5DNTBKRmlOTjMwMFk4UFVUTWlTWmFPcXhuZjB4YndpdHF2eW5vZEVvb1FlLWRyTQ?oc=5",
+          "publishedAt": "2026-09-26T06:18:31Z"
+        }
+      ]
+    },
+    {
+      "id": "e479e44fa13438",
+      "category": "economy",
+      "title": "来週の中国主要企業決算 なし - みんかぶ FX/為替",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-25T22:35:57Z",
+      "sources": [
+        {
+          "id": "019648a62f3d1a",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の中国主要企業決算 なし - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZRGJSWkJkVjRYblBtNDV2X2JVRkp1SVM4Y0VxMTFnOUNhYm1UdTVaYU4zRDN4NWN4ejhSZFJuVFExVGR3WGEtbA?oc=5",
+          "publishedAt": "2026-09-25T22:35:57Z"
+        },
+        {
+          "id": "6b0a6e3e6b6640",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の米主要企業決算 マイクロン、アクセンチュア、ナイキ - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5tZEx5U3FfQTFrNlpLZmlKN3ZlRWNJR0VhaDMyYTNLc0JXdk5mZEZlNWJ2eFlMUEEyMG1ZdXl1VW1CdUxNc1lOZQ?oc=5",
+          "publishedAt": "2026-09-25T22:30:57Z"
+        }
+      ]
+    },
+    {
+      "id": "de83b438ce848b",
+      "category": "entertainment",
+      "title": "パパイヤら 芸能界相次ぐ体調不良 - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-25T11:13:46Z",
+      "sources": [
+        {
+          "id": "93c8ff9b080895",
+          "name": "Yahoo!ニュース",
+          "title": "パパイヤら 芸能界相次ぐ体調不良 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBINUN2WUpEaVI3RWJ6M2pNUUV2bktLS0MzREhvd3lXWXBJOGpCRWloNmlUeURXd3RnSTZXaThpTGIwX01PajBJZUFjMXpVTFdq?oc=5",
+          "publishedAt": "2026-09-25T11:13:46Z"
+        },
+        {
+          "id": "7b10f05416f714",
+          "name": "Yahoo!ニュース",
+          "title": "芸能界で相次ぐ体調不良 今月に入りパパイヤ鈴木、Snow Man岩本照、デニス植野、水谷豊ら（スポニチアネックス） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IaTFFT3Y2ZE4yZVNlYzBIa1ZWMXVKY0lZcFBXbWZILU91Sng2SXYxbDgyaHVKUnlFNklCai1Fb0FuMUpKRE9MUTF0cFZNdjNnelp4VlU1OXhzMnRrbU5Pc1ZfSTJqc2kyQXJJZVRDd3pzTGpjZXJGcHk4SU5BMXc?oc=5",
+          "publishedAt": "2026-09-25T09:59:28Z"
+        }
+      ]
+    },
+    {
+      "id": "ab556a3606d2b7",
+      "category": "economy",
+      "title": "円相場 一時1ドル＝157円台まで値上がり - NHKニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-25T10:07:39Z",
+      "sources": [
+        {
+          "id": "71aee0da25cbe0",
+          "name": "NHKニュース",
+          "title": "円相場 一時1ドル＝157円台まで値上がり - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0eHNMY0lhY0I0QXktOHVMTWRjVnlMeFNGU3ZiWUJ5LUxpbDFGb3RfV3FGVDNycFBsVEt6b0h2ck5yakRnN2w3cHRFMElraV9keTdWLUlzUFlHeHdSd3JV?oc=5",
+          "publishedAt": "2026-09-25T10:07:39Z"
+        },
+        {
+          "id": "4fd43ca07abd33",
+          "name": "NHKニュース",
+          "title": "円相場 値下がり 1ドル＝158円台に - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55eWNPSGo5ZWxRREJSSjBxU1pRVVNsV01JUlRETVk5RE1tUURYM3pRdkJEVVlGcVBCdzhZTUZkV0t6RmJiWTNkZ3QzMGpIcVVpeDNpbm15VGNTSTZUdjlZ?oc=5",
+          "publishedAt": "2026-09-24T02:56:08Z"
+        }
+      ]
+    },
+    {
+      "id": "321d9b29dcc417",
+      "category": "economy",
+      "title": "日本株の決算を読み解く 2026年度の会社計画では6割強が経常増益、共通点は？ 野村證券ストラテジストが解説 - nomura.co.jp",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-25T07:00:00Z",
+      "sources": [
+        {
+          "id": "291d69558cc6ab",
+          "name": "nomura.co.jp",
+          "title": "日本株の決算を読み解く 2026年度の会社計画では6割強が経常増益、共通点は？ 野村證券ストラテジストが解説 - nomura.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMaDV1Mlk1bFE3Wl9iUFpXVU9nMHNkTzVBck1vQzZnenF0Um5HQnVYbFNLQi1RMzFQc0hhRWZNeXpKTldZellTSE1iMDc4Zlk5Um9jRU5Tc2JsY0pLcmcw?oc=5",
+          "publishedAt": "2026-09-25T07:00:00Z"
+        },
+        {
+          "id": "bdb1574216dc67",
+          "name": "nomura.co.jp",
+          "title": "2026年度1Q決算の超速報 全体の3分の2が増益も、株価は悪材料へのネガティブ反応が目立つ 野村證券ストラテジストが解説 - nomura.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yUGdHeTlkVzZ2c3M4R1BwTzI5WTh4TVJ0SEk1RERMWVdNTW1yWDI2QnhET2tyQ0U5YkhqT2M0b1hJRlFqT1d0R3NaQlJDeF9XVVNvT1JkaFpFdVhQYm5r?oc=5",
+          "publishedAt": "2026-09-25T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "175ee121ffbc33",
+      "category": "economy",
+      "title": "米ドル円が一時157円台、円買い介入か 155～160円なら業績改善期待続く 野村證券ストラテジストが解説 - nomura.co.jp",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-25T07:00:00Z",
+      "sources": [
+        {
+          "id": "91f995a5c3de5a",
+          "name": "nomura.co.jp",
+          "title": "米ドル円が一時157円台、円買い介入か 155～160円なら業績改善期待続く 野村證券ストラテジストが解説 - nomura.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVN3NtdTYtSDY1ajFqSHd1R0dpQ3BzWk9TSVR0Zk9PR1k0UFVxRVJKeVJhbUU3V3NQV2cwNjJtSndqVnhnM2VkWUhyMDlvc25hRHpJTzh4N1RUZ0xmNHow?oc=5",
+          "publishedAt": "2026-09-25T07:00:00Z"
+        },
+        {
+          "id": "363b8fc380d452",
+          "name": "nomura.co.jp",
+          "title": "円買い介入後のTOPIX傾向は？ 現行水準の米ドル・円相場であれば、日本企業の収益にプラス 野村證券ストラテジストが解説 - nomura.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pQ1ZheHdWQVp3V1pQcGZaWVFUNUlKdVFhdW5qdDZGenRaMnluZEFUd0hXVjlBSTJBc2syVlpSalBYMGJfVUdLb3Rjd1g5SkZqOWtiSFFidTNnOEx3RWE0?oc=5",
+          "publishedAt": "2026-09-25T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c37e089e0044a4",
+      "category": "politics",
+      "title": "とどのつまりは\"身内ウケ\"？ 空席目立つ議場とトランプ｢日本の首相｣連呼が浮き彫りにする｢高市国連外交｣の微妙っぷり - 東洋経済オンライン",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-25T04:00:00Z",
+      "sources": [
+        {
+          "id": "54c4eaee636eca",
+          "name": "東洋経済オンライン",
+          "title": "とどのつまりは\"身内ウケ\"？ 空席目立つ議場とトランプ｢日本の首相｣連呼が浮き彫りにする｢高市国連外交｣の微妙っぷり - 東洋経済オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mWkEyU1ZnMjVZVGV2RnJlWnZZRWtSUmVGcDN5RXBpOGVBSDctTm1tbXJNTzlFUm5ZMWplSHFsWDFKVUlWZ3E2a3F3RTNUQ281dmpteDU4NzJxX0E?oc=5",
+          "publishedAt": "2026-09-25T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "a5264335edee78",
+      "category": "politics",
+      "title": "「話が長い」「上から目線」…日本のリベラルは嫌われる？ 政治学者が指摘する“弱者憑依”とは？「“自分こそが代弁者”のスタンスに違和感」（ABEMA TIMES） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-25T02:00:37Z",
+      "sources": [
+        {
+          "id": "4205c1579aae58",
+          "name": "Yahoo!ニュース",
+          "title": "「話が長い」「上から目線」…日本のリベラルは嫌われる？ 政治学者が指摘する“弱者憑依”とは？「“自分こそが代弁者”のスタンスに違和感」（ABEMA TIMES） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YaXpWWG1ZazM2ekhTVGlpNVhxbzFyYVBRY1dkbTVCc2hRYm5OZFBuS20wU3c5aVdpY0VqRS1QczRwUlBEVFQzTklnWmI1cGcyWWRmbXVCTU1MajduNjBIeGg2S2R3WU1Vd24tV0V5cWtPQVBpdVJMOTZfZmlZNXc?oc=5",
+          "publishedAt": "2026-09-25T02:00:37Z"
+        }
+      ]
+    }
+  ]
 }
