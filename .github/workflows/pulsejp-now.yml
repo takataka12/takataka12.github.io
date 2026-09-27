@@ -1,0 +1,31 @@
+name: Update Pulse JP NOW
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-now:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate NOW feed
+        run: python pulsejp/backend/generate_now.py
+
+      - name: Commit NOW feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pulsejp/now.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update Pulse JP NOW"
+          git push
