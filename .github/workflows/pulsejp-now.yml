@@ -2,6 +2,12 @@ name: Update Pulse JP NOW
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "pulsejp/backend/generate_now.py"
+      - "pulsejp/now-trigger.txt"
+      - ".github/workflows/pulsejp-now.yml"
   schedule:
     - cron: "17 * * * *"
 
