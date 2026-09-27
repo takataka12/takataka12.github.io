@@ -1,0 +1,1 @@
+Initial NOW generation trigger.
