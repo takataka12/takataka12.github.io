@@ -157,11 +157,49 @@ def build_prompt(raw: dict, edition: str) -> str:
 {json.dumps(raw, ensure_ascii=False)}
 """.strip()
 
-def call_openai(prompt: str) -> dict:
+def fallback_digest(raw: dict) -> dict:
+    topics = []
+    for category, clusters in raw.items():
+        for cluster_item in clusters[:3]:
+            headlines = cluster_item.get("headlines", [])
+            if not headlines:
+                continue
+            first = headlines[0]
+            count = int(cluster_item.get("coverage_count", 1))
+            sources = []
+            for h in headlines[:5]:
+                sources.append({
+                    "name": h.get("source", "情報源"),
+                    "title": h.get("title", ""),
+                    "url": h.get("link", ""),
+                    "publishedAt": h.get("published_at"),
+                })
+            topics.append({
+                "id": cluster_item.get("cluster_id", "topic"),
+                "category": category,
+                "title": first.get("title", ""),
+                "whatHappened": f"{count}媒体以上で関連見出しが確認されています。詳細は元記事で確認してください。",
+                "whyTrending": "複数媒体で同時に扱われているため、現在の注目話題として抽出しました。" if count > 1 else "新着見出しとして抽出しました。",
+                "context": "AI要約用のAPIキーが未設定のため、見出し情報のみを表示しています。",
+                "points": ["元記事リンクから詳細を確認できます"],
+                "sourceCount": count,
+                "sources": sources,
+                "caution": "見出しだけを基にした暫定表示です。",
+            })
+    return {
+        "headline": "いま話題のニュース",
+        "overview": "現在は見出しベースの暫定版です。OpenAI APIキーを設定すると、朝刊・夜刊をAIが編集します。",
+        "topics": topics,
+    }
+
+def call_openai(prompt: str, raw: dict) -> dict:
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
-        raise RuntimeError("OPENAI_API_KEY is not set")
-    from openai import OpenAI
+        return fallback_digest(raw)
+    try:
+        from openai import OpenAI
+    except ImportError:
+        return fallback_digest(raw)
     client = OpenAI(api_key=api_key)
     response = client.responses.create(model=MODEL, input=prompt)
     text = response.output_text.strip()
@@ -216,7 +254,7 @@ def main() -> None:
     now_jst = dt.datetime.now(JST)
     edition = "朝刊" if now_jst.hour < 12 else "夜刊"
     raw = source_payload(collect())
-    result = call_openai(build_prompt(raw, edition))
+    result = call_openai(build_prompt(raw, edition), raw)
     digest = normalize(result, edition)
     OUT.write_text(json.dumps(digest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"wrote {OUT} ({len(digest['topics'])} topics)")
