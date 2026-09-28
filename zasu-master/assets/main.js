@@ -15,7 +15,7 @@ async function startZasu(button,status){
       localStorage.setItem("zasu_beta_access_token",String(body.access_token||""));
       localStorage.setItem("zasu_visitor_id",String(body.visitor_id||visitorId));
       sessionStorage.setItem("zasu_session_id",String(body.session_id||sessionId));
-      window.location.assign("https://takataka12.github.io/zasu-master/upload.html");
+      window.location.assign("upload.html");
     }else if(status){status.textContent="今月の無料枠は終了しました。"}
   }catch(err){if(status)status.textContent=err?.message||"受付に失敗しました."}
   finally{button.disabled=false;button.textContent=originalText}
