@@ -16,7 +16,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import FileResponse
 from starlette.background import BackgroundTask
 
-from supabase import create_client
+from urllib.parse import quote
 
 ENGINE_VERSION = "0.4.1"
 
@@ -26,7 +26,6 @@ POLL_INTERVAL = float(os.environ.get("POLL_INTERVAL", "5"))
 WORKER_ID = os.environ.get("WORKER_ID") or f"railway-{socket.gethostname()}"
 SUPABASE_URL_PUBLIC = os.environ["SUPABASE_URL_PUBLIC"]
 SUPABASE_PUBLISHABLE_KEY = os.environ["SUPABASE_PUBLISHABLE_KEY"]
-storage_client = create_client(SUPABASE_URL_PUBLIC, SUPABASE_PUBLISHABLE_KEY)
 
 app = FastAPI(title="ZASU MASTER PUNCH Worker", version=ENGINE_VERSION)
 _stop = asyncio.Event()
@@ -56,14 +55,32 @@ def _upload_signed_sync(ticket: dict[str, Any], path: Path) -> None:
     size = path.stat().st_size
     if size > 50 * 1024 * 1024:
         raise RuntimeError(f"result_file_too_large:{path.name}:{size}")
+
     content_type = "audio/mp4" if path.suffix.lower() == ".m4a" else "audio/flac"
+    encoded_path = "/".join(quote(part, safe="") for part in str(ticket["path"]).split("/"))
+    signed_url = (
+        SUPABASE_URL_PUBLIC.rstrip("/")
+        + "/storage/v1/object/upload/sign/master-results/"
+        + encoded_path
+        + "?token="
+        + quote(str(ticket["token"]), safe="")
+    )
+
+    # Upload to the signed Storage endpoint directly instead of using supabase-py.
+    # A successful signed upload may return an empty response body; supabase-py can
+    # try to decode that as JSON and raise "Expecting value: line 1 column 1".
     with path.open("rb") as f:
-        storage_client.storage.from_("master-results").upload_to_signed_url(
-            path=ticket["path"],
-            token=ticket["token"],
-            file=f,
-            file_options={"content-type": content_type},
+        response = httpx.put(
+            signed_url,
+            headers={
+                "apikey": SUPABASE_PUBLISHABLE_KEY,
+                "x-upsert": "false",
+            },
+            data={"cacheControl": "3600"},
+            files={"": (path.name, f, content_type)},
+            timeout=1800.0,
         )
+    response.raise_for_status()
 
 
 async def upload_signed(ticket: dict[str, Any], path: Path) -> None:
