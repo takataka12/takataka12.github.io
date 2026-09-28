@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-09-28T00:08:39Z",
+  "generatedAt": "2026-09-28T18:18:16Z",
   "edition": "朝刊",
   "headline": "3分で今日を把握",
-  "overview": "仙台の文化イベントや芸能・映画情報、政治の論点、円相場や企業決算、SNSで話題の投稿などが見出しを集めています。記事本文は確認していないため、各話題の詳細や経緯は未確認です。",
+  "overview": "エンタメでは仙台のチャイナフェスや東山紀之氏のSMILE-UP.社長退任予定などが報じられています。経済では日本企業の中国事業や円相場、ネットではSNSで話題になった作品・商品が注目されています。",
   "isSample": false,
   "topics": [
     {
-      "id": "entertainment-sendai-china-fest",
+      "id": "entertainment-china-festival-sendai",
       "category": "entertainment",
-      "title": "仙台市内でチャイナフェス、中国文化を紹介",
-      "whatHappened": "仙台市青葉区でチャイナフェスが開かれたと報じられています。グルメや音楽を通じて中国文化に触れるイベントとされています。",
-      "whyTrending": "同じイベントの話題が複数媒体で報じられています。",
-      "context": "開催日や参加者数などの詳細は、入力見出しからは確認できません。",
+      "title": "仙台市内でチャイナフェス、中国文化に触れる催し",
+      "whatHappened": "仙台市青葉区でチャイナフェスが開かれたと報じられています。話題のグルメや音楽を通じて中国文化に触れるイベントとされています。",
+      "whyTrending": "地域で開催された文化イベントとして、複数媒体が同じ話題を報じています。",
+      "context": "開催規模や来場者数などの詳細は、入力情報だけでは確認できません。",
       "points": [
-        "会場は仙台市青葉区と報じられている",
-        "グルメや音楽が取り上げられている",
-        "中国文化に触れるイベントとされている"
+        "仙台市内で開催",
+        "グルメや音楽を紹介",
+        "中国文化に触れる催し"
       ],
       "sourceCount": 2,
       "sources": [
@@ -24,7 +24,7 @@
           "name": "TBS NEWS DIG",
           "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
-          "publishedAt": "2026-09-26T07:37:00Z"
+          "publishedAt": "2026-09-26T12:11:56Z"
         },
         {
           "id": "16219b3aac2f",
@@ -34,58 +34,58 @@
           "publishedAt": "2026-09-26T07:38:13Z"
         }
       ],
-      "caution": "イベントの規模や内容の詳細は未確認です。"
+      "caution": "入力は見出し情報に限られ、イベントの具体的な内容や反応の詳細は未確認です。"
     },
     {
-      "id": "entertainment-suzuki-nana-birthday",
+      "id": "entertainment-higashiyama-smile-up",
       "category": "entertainment",
-      "title": "鈴木奈々、芸能界の先輩の誕生日を料理で祝う",
-      "whatHappened": "鈴木奈々が「芸能界の大先輩」の誕生日を祝ったとする話題が報じられています。巨大な料理にフォロワーが驚いたと見出しにあります。",
-      "whyTrending": "同じ投稿・出来事が複数媒体で取り上げられています。",
-      "context": "祝われた人物や料理の詳細は、入力見出しからは確認できません。",
+      "title": "東山紀之氏、SMILE-UP.社長を退任へ",
+      "whatHappened": "東山紀之氏がSMILE-UP.社長を退任する予定だと東スポWEBが報じています。芸能界への復帰を含め、今後の進路は未定とされています。",
+      "whyTrending": "社長退任と今後の活動方針が報じられ、複数媒体で取り上げられています。",
+      "context": "見出しでは、東山氏が「良い影響を与えられるような道を」と語ったとされています。",
       "points": [
-        "鈴木奈々の誕生日祝いが話題",
-        "巨大な料理が取り上げられている",
-        "フォロワーの反応が紹介されている"
+        "SMILE-UP.社長を退任へ",
+        "芸能界復帰を含め今後は未定",
+        "本人のコメントが見出しに掲載"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "8ee452f28ce8",
-          "name": "読売新聞",
-          "title": "鈴木奈々「芸能界の大先輩」の誕生日を祝う巨大料理にフォロワー驚き！「上手」「おいしそう」「デッカイイ」 - 読売新聞",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80bTR0LVpUSVY0RmFFTFExdjVvcUpwTmx6NXNfaGJwU1ZoUERWaGtCdHdFN3FvT0dRaUR5Y1diNm93MG1KWHFZQTVNbHdqTWNvcXE3ZDhlb1BCSndEWkp6THFFcWdWTm5KMTNnNVFYQmE?oc=5",
-          "publishedAt": "2026-09-27T22:29:00Z"
+          "id": "99a631094fe3",
+          "name": "東スポWEB",
+          "title": "東山紀之氏 SMILE-UP.社長退任へ…芸能界復帰含め今後は未定「良い影響を与えられるような道を」",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01R1ppLURMQWhMaUxFYmZxQm1XWXp0cEQtVEN0TFQyYkhqeWpTN1gyVlMyeUxoOGg4cjMzNlY3SEVVTVNPMnA5NmxhUVY0akd1bzkzd013UDJodmsx?oc=5",
+          "publishedAt": "2026-09-28T07:12:00Z"
         },
         {
-          "id": "ff0ac636cafb",
-          "name": "スポーツ報知",
-          "title": "鈴木奈々「芸能界の大先輩」の誕生日を祝う巨大料理にフォロワー驚き！「上手」「おいしそう」「デッカイイ」 - スポーツ報知",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80Z0tLVnFIT0g2WUx6TnlxMTBsdzNNaFJjelpZSWhxOWZHMlZhRXpab0lFaDFpRldlYTFPQjA4emd2SHFoeWVJSHJwLUdxWFh3aENLdDhRTEo2S2dQbmQ1WkVR?oc=5",
-          "publishedAt": "2026-09-27T22:28:00Z"
+          "id": "8b881d874f18",
+          "name": "Yahoo!ニュース",
+          "title": "東山紀之氏 SMILE-UP.社長退任へ…芸能界復帰含め今後は未定「良い影響を与えられるような道を」（東スポWEB） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhNXdveWZfNXhvOVM5Zm8tLTY4ZmdUNVhIbThuclhhNk95LUJrNTBGN09jTDFuRG9YRGd0b2JYM3k1ZGtKUDdzQVFobHBpWFBhei14T2NJdHAxTWp5QnFmZE96YnZEeU9qVUtXTDFVWk5kWnRuaHA1MUtySFRRVFE?oc=5",
+          "publishedAt": "2026-09-28T07:20:26Z"
         }
       ],
-      "caution": "SNS上の投稿内容を扱った報道で、人物や出来事の詳細は未確認です。"
+      "caution": "退任の時期や手続き、今後の正式な活動予定は見出しからは確認できません。"
     },
     {
-      "id": "entertainment-govt-tieup-cancellation",
+      "id": "entertainment-government-tieup",
       "category": "entertainment",
-      "title": "官公庁と映画・番組のタイアップ中止をめぐる報道",
-      "whatHappened": "官公庁が話題の映画や番組と予定していたタイアップが、間もなく中止になったと報じられています。見出しでは、「犯罪を美化」「配慮が欠けている」といった批判が紹介されています。",
-      "whyTrending": "タイアップの中止と批判の広がりが複数媒体で報じられています。",
-      "context": "対象となった作品や官公庁、批判の経緯は入力見出しだけでは特定できません。",
+      "title": "官公庁と話題作のタイアップ中止をめぐり批判",
+      "whatHappened": "官公庁が話題の映画や番組と行う予定だったタイアップが、間もなく中止になったと報じられています。報道では「犯罪を美化している」「配慮が欠けている」といった批判が出たとされています。",
+      "whyTrending": "官公庁の広報と映像作品の関係をめぐる問題として報じられています。",
+      "context": "中止となった作品名や官公庁、タイアップの具体的内容は、入力情報だけでは確認できません。",
       "points": [
-        "官公庁と映画・番組のタイアップが中止と報じられている",
-        "批判の言葉として犯罪の美化などが挙げられている",
-        "中止理由の詳細は未確認"
+        "官公庁と映画・番組のタイアップ",
+        "中止になったと報道",
+        "批判の声が紹介されている"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "a18157e1322d",
+          "id": "d335d3eca326",
           "name": "日テレNEWS NNN",
-          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 - 日テレNEWS NNN",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcWpHQzJEU2tXcG1kOGNSSFNBSl9SS3ROSXNCTGtZSTBPVE9kam1zaGRfeGlHOW9DQ1VfckZmTnUxX1NOWHJMSTYwMmx4ejI0N1QxcWtOU3VJQS1VWjgtWE9jdTVWcC1ERDdYYkJ4a21abS15OEtWV3NJZ05rNEI5YXJRbHZKWms?oc=5",
+          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcWpHQzJEU2tXcG1kOGNSSFNBSl9SS3ROSXNCTGtZSTBPVE9kam1zaGRfeGlHOW9DQ1VfckZmTnUxX1NOWjHMSTYwMmx4ejI0N1QxcWtOU3VJQS1VWjgtWE9jdTVWcC1ERDdYYkJ4a21abS15OEtWV3NJZ05rNEI5YXJRbHZKWms?oc=5",
           "publishedAt": "2026-09-22T23:00:00Z"
         },
         {
@@ -96,121 +96,135 @@
           "publishedAt": "2026-09-22T23:53:03Z"
         }
       ],
-      "caution": "批判は報道で紹介された意見であり、作品や関係者への評価を事実認定するものではありません。"
+      "caution": "批判は報道で紹介された意見であり、作品やタイアップが犯罪を美化したと事実認定されたわけではありません。"
     },
     {
-      "id": "politics-ishihara-tv-regular",
+      "id": "politics-ishihara-news-program",
       "category": "politics",
-      "title": "石原伸晃氏、情報番組の水曜レギュラーに",
-      "whatHappened": "石原伸晃氏が日本テレビ系情報番組「ニュースto」の水曜レギュラーになると報じられています。本人の発言として「政治の人脈と経験を生かす」と紹介されています。",
-      "whyTrending": "就任と本人のコメントが複数媒体で報じられています。",
-      "context": "番組の開始時期や具体的な出演内容は、入力見出しからは確認できません。",
+      "title": "石原伸晃氏、日本テレビ系情報番組の水曜レギュラーへ",
+      "whatHappened": "石原伸晃氏が日本テレビ系情報番組「ニュースto」の水曜レギュラーになると報じられています。石原氏は「政治の人脈と経験を生かす」と述べたとされています。",
+      "whyTrending": "政治経験者の情報番組レギュラー就任として報じられています。",
+      "context": "番組での具体的な役割や出演開始時期は、入力情報だけでは確認できません。",
       "points": [
-        "石原伸晃氏が水曜レギュラーと報じられている",
-        "番組名は「ニュースto」",
-        "本人は政治の人脈と経験を生かすと述べたとされる"
+        "水曜レギュラー就任",
+        "日本テレビ系情報番組「ニュースto」",
+        "政治の人脈と経験を生かすと発言"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "9a5dfa3efe08",
-          "name": "ｄメニューニュース",
-          "title": "石原伸晃氏「政治の人脈と経験生かす」　日本テレビ系情報番組「ニュースto」水曜レギュラー - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdV9yZHJ5MEp0VXpPMlZGRzlCVmZGT3JGVkZNeE9sb1Nmd0M3Y2dDS3R0TWJYQm9GVUluUFhBc2xBMG1pQ05MakkwX1hFN29uY0lBOUZGTEtnbzRQa2VYcGkxRTJENDBaODlvaGxhb0JlV3VQUlhUMnpCM0tBUmRnYTlQYnJ3LVQ2b2NEWGJmOGtiaUhfSWx3b3FZLTZhN3PSAaQBQVVfeXFMTklnT3ZMa2FvallSZGktaUtnWWdTLXFBOU5jWV9xeUd2RnV6MldZTGlLQjJ1V1dYUHN5YVoyVC12bXBWT1p4MjMxNVcycVF5Tnd5Smt2TVFNX240cXJuNURzMG83WGJ6b1VyeUplWUpkMTZmN3NkM1Z0RzFRZjdraXNwMUpZdW9TRGdORDNBcnFIdm1TMlhLZXdzd0g3NGE3RkFsVUQ?oc=5",
-          "publishedAt": "2026-09-27T20:06:03Z"
+          "id": "de9a9629d6ae",
+          "name": "Yahoo!ニュース",
+          "title": "石原伸晃氏「政治の人脈と経験生かす」 日本テレビ系情報番組「ニュースto」水曜レギュラー（日刊スポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xUlNXOUZxUlBKbDVTZEJxQWtKNUpvbm1JMHpZVlU2TEg2MERSSW9pV2VkelV6MnZpRG9VOWxDNVY4cHhsSmlGVU1waTEtSFlNUkYwTjNIYW0xeGk2RHowSUJwV0Y4QzdQQ2x6WndWQ19hbElVSDRjVEtwallJRmM?oc=5",
+          "publishedAt": "2026-09-27T20:00:01Z"
         },
         {
           "id": "99507fe7cf12",
           "name": "日刊スポーツ",
-          "title": "石原伸晃氏「政治の人脈と経験生かす」 日本テレビ系情報番組「ニュースto」水曜レギュラー - 日刊スポーツ",
+          "title": "石原伸晃氏「政治の人脈と経験生かす」 日本テレビ系情報番組「ニュースto」水曜レギュラー",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSTc5TGV0TVR2MzdkaWd3REJnb0dybmhGZDA4aXg1SE12M1BoYlNHUDlidk5pNlhoMlpHbVAwQnM5SlBNaVBtSjJuaEltYWVPLUw2UDU0YzhFSk0xWXYwSWFKN3pSN1NxWWFyRXNub085RVJNakUwRTF3Y0VQWjJBa2JGMEVqZTRMU2ZDLUluOUlWSFc3RWc?oc=5",
-          "publishedAt": "2026-09-27T10:00:00Z"
+          "publishedAt": "2026-09-27T20:14:40Z"
         }
       ],
-      "caution": "番組内での発言や役割の詳細は未確認です。"
+      "caution": "出演内容や番組内での政治的発言については、入力情報からは確認できません。"
     },
     {
-      "id": "politics-gender-gap-editorial",
+      "id": "politics-switzerland-neutrality",
       "category": "politics",
-      "title": "日本の男女格差をめぐる社説",
-      "whatHappened": "朝日新聞の社説が、日本の男女格差は依然として深刻だと論じています。政治・経済で実効性のある方策を求める内容と見出しにあります。",
-      "whyTrending": "政治・経済分野の男女格差を扱う社説として掲載されています。",
-      "context": "社説の具体的な根拠や提案内容は、入力見出しからは確認できません。",
+      "title": "スイス、厳格な中立政策の提案を否決",
+      "whatHappened": "スイスで中立政策の厳格化が否決されたと報じられています。これにより、政府に政策を柔軟に運用する余地が残るとされています。",
+      "whyTrending": "スイスの外交・安全保障政策に関わる判断として、複数媒体が報じています。",
+      "context": "否決された提案の具体的内容や投票結果の詳細は、入力情報だけでは確認できません。",
       "points": [
-        "男女格差が論点になっている",
-        "政治・経済分野が挙げられている",
-        "実効性のある方策を求めている"
+        "中立政策の厳格化を否決",
+        "政府に柔軟な運用余地",
+        "スイスの政策判断"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sources": [
         {
-          "id": "f812b373f274",
-          "name": "朝日新聞",
-          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oeFJCdE02OXd2c1IzM2I5dWlwTmh1b1pjUUpScHVIUjhwLWt3S1kwVmhHV09BaFAzSGd2V1VteDZTY2VEMkdOZl9wa0NJN3E4UFZPbl9WVl9TVE1GN0w5RENQdTJwbk0?oc=5",
-          "publishedAt": "2026-09-27T10:00:00Z"
-        }
-      ],
-      "caution": "社説は媒体の論説であり、見出しから確認できるのは主張の概要です。"
-    },
-    {
-      "id": "politics-opposition-role-survey",
-      "category": "politics",
-      "title": "野党に期待する役割を問う記事",
-      "whatHappened": "日本の政治で野党に最も期待する役割は何かを問う記事が掲載されています。入力見出しからは、調査結果や回答の詳細は確認できません。",
-      "whyTrending": "野党の役割をめぐる問いがニュースサイトで取り上げられています。",
-      "context": "質問形式の記事とみられますが、調査方法や結果は未確認です。",
-      "points": [
-        "野党に期待する役割がテーマ",
-        "日本の政治に関する問いかけ",
-        "回答内容は入力から確認できない"
-      ],
-      "sourceCount": 1,
-      "sources": [
+          "id": "12864ae3d99d",
+          "name": "TBS NEWS DIG",
+          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OYTVMMF91b29Wb29FOVV1NVV3a3pMS3V0eUdESWdhU0VoeW81ZjZybWFYNTd1VndaYWJuTHVzclZQRUtpMjIzOVJ4VVB3VWtvbUxBUzNkU2ppbmZRQy1Qay1CN3lBblU0UkxPaGllcVFMMUVRZm53RUxXaVo?oc=5",
+          "publishedAt": "2026-09-28T02:33:04Z"
+        },
         {
-          "id": "c54c0bb0f6d9",
+          "id": "67eefba4c352",
           "name": "Yahoo!ニュース",
-          "title": "日本の政治において、野党に最も期待する役割は何ですか？ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FdE0xSTl4MThnOTJqOWZRYTNreXZsbGtoWEx2SFJwS19EbkVzS21iNElGUmRnR1V4V2RrTHdoUEZSSUk3UkQ3RndTZ1M?oc=5",
-          "publishedAt": "2026-09-26T15:13:32Z"
+          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk?oc=5",
+          "publishedAt": "2026-09-28T01:32:14Z"
         }
       ],
-      "caution": "調査結果や世論の傾向を示すものかどうかは未確認です。"
+      "caution": "投票の主体や賛否の内訳、政策への影響は詳細未確認です。"
     },
     {
-      "id": "economy-us-japan-interest-rates",
+      "id": "economy-japan-china-business",
       "category": "economy",
-      "title": "米国が日本に求める金利政策の「矛盾」を論じる記事",
-      "whatHappened": "米国が日本に「金利を上げろ、でも下げろ」と求めたとする「矛盾」の真意を扱う記事が掲載されています。日本がリフレ政策から脱却すべき理由も論じる見出しです。",
-      "whyTrending": "日米の金利政策と日本の金融政策をめぐる論点が取り上げられています。",
-      "context": "米国側の具体的な発言や記事の分析内容は、入力見出しからは確認できません。",
+      "title": "日本企業の中国事業、「製造拠点」から「巨大市場」へ認識変化",
+      "whatHappened": "日本企業の中国に関わる事業がピーク時から約3割減ったと報じられています。一方で、中国を「製造拠点」ではなく「巨大市場」と捉える認識の変化も紹介されています。",
+      "whyTrending": "日本企業と中国経済の関係の変化を示す話題として、複数媒体が報じています。",
+      "context": "減少の対象や基準となるピーク時、調査方法は見出しからは確認できません。",
       "points": [
-        "日米の金利政策が論点",
-        "米国の要求を「矛盾」と表現している",
-        "日本のリフレ政策からの脱却を論じている"
+        "日本企業の中国事業がピーク時から約3割減",
+        "中国の位置づけに変化",
+        "製造拠点から巨大市場へ"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "240a84fd2728",
+          "name": "日テレNEWS NNN",
+          "title": "日本企業の「中国離れ」進む ピーク時から約3割減 「製造拠点」から「巨大市場」へと認識変化 - 日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5FeTVJa0pnR0FaVUEwR2VoMy16TEJUSEo4cHlsbDZULUtyOTFiOEQtNnZZWW9WV0w4bnAzVGliZUhobkFDUlBuZ1BBdnJoejBSckluaEhLUDFWd3xHdTJhWW9CQkNrd3NLZTYxQUhXZDIyLW0xVEpsVC1ZYko?oc=5",
+          "publishedAt": "2026-09-28T04:41:00Z"
+        },
+        {
+          "id": "4bfec9a4eb63",
+          "name": "Yahoo!ニュース",
+          "title": "日本企業の「中国離れ」進む ピーク時から約3割減 「製造拠点」から「巨大市場」へと認識変化（日テレNEWS NNN） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE56YU5KTnBwRW1fZmhEZWkxUzl4Q1RZS2NOaU9LTHhWU2tjU0V6VFRnNjEtc3RmN1U1OTFDanBTWWxYbjQ0RWJaS1pvVTdiRURxc1drTjd4QVo1MkVLUmhIUXA3N0FQNktJdlUyOTFlRFJJTFZrcHA1TTRy?oc=5",
+          "publishedAt": "2026-09-28T04:41:00Z"
+        }
+      ],
+      "caution": "「約3割減」が何を数えた数字か、対象企業や期間の詳細は未確認です。"
+    },
+    {
+      "id": "economy-yen-exchange-rate",
+      "category": "economy",
+      "title": "円相場、日米当局の協調対応を意識する展開",
+      "whatHappened": "円相場について、日米当局が協調して対応する可能性が意識され、円が値上がりしたと報じられています。別の見出しでは、1ドル＝158円台への値下がりも報じられています。",
+      "whyTrending": "円相場の変動と当局対応への市場の意識が注目されています。",
+      "context": "見出しには異なる時点の円相場の動きが含まれており、現在の水準や変動要因の詳細は未確認です。",
+      "points": [
+        "円相場の値上がりを報道",
+        "日米当局の協調対応を意識",
+        "別報道では1ドル＝158円台への値下がり"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "e2c6e713e2b3",
-          "name": "東洋経済オンライン",
-          "title": "｢金利を上げろ､でも下げろ｣アメリカが日本に求めた\"矛盾\"の真意､日本がリフレ政策から明確に脱却すべきこれだけの理由 - 東洋経済オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkTk5Oc1RKNUxyMnh5VmRhZnhHb2FFT0prRS1qMGk2X0hZZVNTcTMwNWlDbmVhX3M5bTVqN3YwXy0zQVZKcTZiTjhUVUdTdmhzQjJGREl1UTI5ejg?oc=5",
-          "publishedAt": "2026-09-26T23:00:00Z"
+          "id": "b5b6c1f96483",
+          "name": "news.web.nhk",
+          "title": "円相場 値上がり 日米当局が協調対応の可能性を意識 - news.web.nhk",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBEMG9KWWptQnlrYm12cjdjTk5xWlotZno2c2VBU2tIc0U2T1QzcW5QMlpxeGQ5aGItcE0xRHpCMFROREZXYlNPR2RmbDBhWms5anpiRmRtbXZNaEoxXzU0?oc=5",
+          "publishedAt": "2026-09-28T09:18:16Z"
         }
       ],
-      "caution": "記事の論旨であり、米国政府の公式な要求内容を確認したものではありません。"
+      "caution": "入力には異なる日時の相場見出しがあり、値動きの現在地を一つに特定することはできません。"
     },
     {
-      "id": "economy-japan-stocks-earnings",
+      "id": "economy-japan-stock-earnings",
       "category": "economy",
-      "title": "日本株の決算、増益企業の共通点を解説",
-      "whatHappened": "野村證券のストラテジストが、日本株の決算を読み解く記事が掲載されています。2026年度の会社計画では、6割強が経常増益とする見出しです。",
-      "whyTrending": "企業決算の見通しと株価反応が投資関連の記事で扱われています。",
-      "context": "対象企業や増益の要因は、入力見出しからは確認できません。",
+      "title": "日本株、2026年度会社計画で増益企業が6割強との分析",
+      "whatHappened": "野村證券のストラテジストが、日本株の2026年度会社計画では6割強が経常増益とする分析を解説しています。別の見出しでは、2026年度第1四半期決算で全体の3分の2が増益とされています。",
+      "whyTrending": "企業決算と会社計画の見通しを扱う複数の解説記事が掲載されています。",
+      "context": "対象企業や集計方法、株価への具体的な影響は、入力情報だけでは確認できません。",
       "points": [
-        "2026年度の会社計画が対象",
-        "6割強が経常増益と見出しにある",
+        "2026年度会社計画で6割強が経常増益との分析",
+        "第1四半期決算で全体の3分の2が増益との見出し",
         "野村證券ストラテジストが解説"
       ],
       "sourceCount": 1,
@@ -218,122 +232,67 @@
         {
           "id": "291d69558cc6",
           "name": "nomura.co.jp",
-          "title": "日本株の決算を読み解く 2026年度の会社計画では6割強が経常増益、共通点は？ 野村證券ストラテジストが解説 - nomura.co.jp",
+          "title": "日本株の決算を読み解く 2026年度の会社計画では6割強が経常増益、共通点は？ 野村證券ストラテジストが解説",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMaDV1Mlk1bFE3Wl9iUFpXVU9nMHNkTzVBck1vQzZnenF0Um5HQnVYbFNLQi1RMzFQc0hhRWZNeXpKTldZellTSE1iMDc4Zlk5Um9jRU5Tc2JsY0pLcmcw?oc=5",
           "publishedAt": "2026-09-25T07:00:00Z"
         }
       ],
-      "caution": "「6割強」は記事見出しの情報で、業績全体や今後の株価を示すものではありません。"
+      "caution": "これは証券会社ストラテジストによる分析の見出しであり、将来の業績や株価を保証するものではありません。"
     },
     {
-      "id": "economy-yen-intervention",
-      "category": "economy",
-      "title": "ドル円、一時157円台と円買い介入をめぐる報道",
-      "whatHappened": "米ドル円が一時157円台となり、円買い介入かとの見方を示す記事が掲載されています。別の見出しでは、1ドル158円台への円安進行も報じられています。",
-      "whyTrending": "円相場の急な変動と為替介入の可能性が複数の見出しで扱われています。",
-      "context": "実際に介入が行われたかどうかは、入力見出しだけでは確認できません。",
-      "points": [
-        "一時157円台との見出しがある",
-        "1ドル158円台との報道もある",
-        "円買い介入かとの見方が示されている"
-      ],
-      "sourceCount": 1,
-      "sources": [
-        {
-          "id": "91f995a5c3de",
-          "name": "nomura.co.jp",
-          "title": "米ドル円が一時157円台、円買い介入か 155～160円なら業績改善期待続く 野村證券ストラテジストが解説 - nomura.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVN3NtdTYtSDY1ajFqSHd1R0dpQ3BzWk9TSVR0Zk9PR1k0UFVxRVJKeVJhbUU3V3NQV2cwNjJtSndqVnhnM2VkWUhyMDlvc25hRHpJTzh4N1RUZ0xmNHow?oc=5",
-          "publishedAt": "2026-09-25T07:00:00Z"
-        }
-      ],
-      "caution": "為替介入の有無は未確認です。為替水準や企業業績に関する記述は記事の見解を含みます。"
-    },
-    {
-      "id": "internet-iran-ufo-claims",
+      "id": "internet-lolly-sweet-lolly-video",
       "category": "internet",
-      "title": "イラン首都の「UFO」映像がSNSで話題に",
-      "whatHappened": "イランの首都でUFOが飛行したのではないかという情報がSNSで話題になったと報じられています。見出しでは、米国の攻撃への不安も背景として挙げられています。",
-      "whyTrending": "同じ話題が複数の報道機関で取り上げられています。",
-      "context": "飛行物体の正体や映像の真偽は、入力見出しからは確認できません。",
+      "title": "『ロリースイートロリー』の動画公開、SNSで話題と報道",
+      "whatHappened": "ほしあらん先生が描く青春ガールズストーリー『ロリースイートロリー』の動画がYouTubeで公開されたと報じられています。XやTikTokで大きな話題を呼んでいると紹介されています。",
+      "whyTrending": "動画公開とSNS上の反響を扱う記事が複数媒体で掲載されています。",
+      "context": "動画の内容や再生数、SNS上の具体的な反応は、入力情報だけでは確認できません。",
       "points": [
-        "イラン首都でのUFO情報がSNSで話題",
-        "米国の攻撃への不安が見出しにある",
-        "物体の正体は未確認"
-      ],
-      "sourceCount": 4,
-      "sources": [
-        {
-          "id": "7e2cc8cd36d6",
-          "name": "Yahoo!ニュース",
-          "title": "イラン首都でUFOが飛行？ SNS話題、米の攻撃に不安（共同通信） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wX2V3SEpNWjJ2ZGUtSmd3Z2QtaG1PY3JmZmJhUU03M0JGSnVmN1lIOHRkb1RGYUl4TnhjYUJhMWxXd3NVdTB0WE5BeXpVMXpORTRSZFczQ1NKQzZPMWg5aDlLWml1dFFqSGlBU05pRW1tSnR4LXdBaTJ3UG03a0U?oc=5",
-          "publishedAt": "2026-09-23T20:29:24Z"
-        },
-        {
-          "id": "285e664257ed",
-          "name": "西日本新聞me",
-          "title": "イラン首都でUFOが飛行？ SNS話題、米の攻撃に不安 - 西日本新聞me",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vRUpBVGFkdUExYURNYkVjYUR0OGFxcFNFNG83eXRLNk9fSU9XVEFuZmtCWTc0TzNFT0lXM0sxdzVSUl8wRms1SnRwYUFHeDRLU2tYQ0Jn?oc=5",
-          "publishedAt": "2026-09-23T20:29:47Z"
-        }
-      ],
-      "caution": "UFOの存在や映像の真偽は確認されていません。SNS上の情報を事実として受け取らない注意が必要です。"
-    },
-    {
-      "id": "internet-elegance-coffret",
-      "category": "internet",
-      "title": "エレガンスのコフレがSNSで話題",
-      "whatHappened": "化粧品ブランド「エレガンス」のコフレがSNSで話題になっていると報じられています。見出しでは、予約開始日を狙うのがよさそうだと紹介されています。",
-      "whyTrending": "商品情報が複数媒体で取り上げられています。",
-      "context": "商品の価格、内容、予約開始日は入力見出しからは確認できません。",
-      "points": [
-        "エレガンスのコフレが話題",
-        "SNS上の反響が取り上げられている",
-        "予約に関する情報が示唆されている"
+        "YouTubeで動画公開",
+        "XとTikTokで話題と報道",
+        "作者はほしあらん先生"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "e8d5fe2c017e",
-          "name": "東京バーゲンマニア",
-          "title": "「破格だよね」エレガンスのコフレがSNSで話題！予約開始日を狙うのがよさそう。 - 東京バーゲンマニア",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5NRzZhSjY4R1c3NzNmQ2xBbEk4bTFlbzM0UG83S0tZbHNYeWNmTTR5RWpHaF9QSjRHOW9uWTJSTXF3a0h0d2Z4MFhNUXBYMS1Kd1hB?oc=5",
-          "publishedAt": "2026-09-27T08:38:00Z"
+          "id": "c4fa48c94409",
+          "name": "時事ドットコム",
+          "title": "SNSで共感の声続々！X、TikTokともに大きな話題を呼んでいる、ほしあらん先生が描く青春ガールズストーリー『ロリースイートロリー』の動画がYouTubeで公開",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTEhYQTN6bVBlbmhSNzNQQmdvcG5hOVhUQzVlaERLWlFVa2VncHRCYkN2dzlUeTJrNVdxYVhBeEZ0THNrMGhEM0J0LWg0QkhwcWdPdUNZYWdiUzVFQk5NMXlGVWRORWJwejlVZWtZ?oc=5",
+          "publishedAt": "2026-09-28T15:10:00Z"
         },
         {
-          "id": "74f25bcfea16",
-          "name": "千葉テレビ放送株式会社",
-          "title": "「破格だよね」エレガンスのコフレがSNSで話題！予約開始日を狙うのがよさそう。 - 千葉テレビ放送株式会社",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9laFB2ZjBfX016REZMdkMzRFpzcGRSZ1YtaUdSLXFLSXdGVHVmVU50TjE3bkFiVFc4UnU2d2dwZFlFNFlEelBHMWRmRG5YYVhfU2h6NWpvMkdMb3VSMlRJ?oc=5",
-          "publishedAt": "2026-09-27T08:41:26Z"
+          "id": "c57df3990e69",
+          "name": "PR TIMES",
+          "title": "SNSで共感の声続々！X、TikTokともに大きな話題を呼んでいる、ほしあらん先生が描く青春ガールズストーリー『ロリースイートロリー』の動画がYouTubeで公開",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55UWRHaWUzNEJhTXJvcDBSQ2lHZG1tWUtuMFpBZG96ZXd0ZzQ4dUpzZURzd1hobzA1V0R1YTVXR2Fja2dTdjRLSURIOHdMMVF2VzhBRkdpajZCSkFrN1JRQ2I2TmpCamVBZHc?oc=5",
+          "publishedAt": "2026-09-28T03:10:01Z"
         }
       ],
-      "caution": "価格や在庫、予約条件は未確認です。"
+      "caution": "「大きな話題」「共感の声続々」は記事見出しの表現で、反響の規模は未確認です。"
     },
     {
-      "id": "internet-china-delivery-robots",
+      "id": "internet-difference-free-bookstore",
       "category": "internet",
-      "title": "中国の無人配送車、実際の利用状況に注目",
-      "whatHappened": "SNSで話題になった中国の無人配送車について、実際にどこを走り、何に役立っているのかを扱う記事が掲載されています。",
-      "whyTrending": "無人配送車の実用性をSNS上の話題から掘り下げる記事として注目されています。",
-      "context": "走行場所や用途の具体的な内容は、入力見出しからは確認できません。",
+      "title": "「差別のない本屋」をめぐる投稿がXでトレンド入り",
+      "whatHappened": "「差別のない本屋」という話題がXでトレンド入りしたと報じられています。記事では、同調圧力や表現の自由、「ヘイト本」を誰が判断するのかという論点が紹介されています。",
+      "whyTrending": "書店と差別表現をめぐる議論が、SNS上のトレンドとして取り上げられています。",
+      "context": "発端となった出来事や関係者の具体的な主張は、入力情報だけでは確認できません。",
       "points": [
-        "中国の無人配送車がテーマ",
-        "SNSで話題になったとされている",
-        "走行場所と用途を扱う記事"
+        "Xでトレンド入りと報道",
+        "同調圧力と表現の自由が論点",
+        "「ヘイト本」の判断主体を問題提起"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "d5121ac08aa2",
-          "name": "36Kr Japan",
-          "title": "SNSで話題の中国「無人配送車」 実際はどこを走り、何の役に立っているのか - 36Kr Japan",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBabmhaQzJyQWREb1NwWTQ1b09qSGsyWG5tZHdOTkl5Q0pDYTVJLW1Db0JSbFJjLXp3UVgw?oc=5",
-          "publishedAt": "2026-09-24T23:05:08Z"
+          "id": "57499f2ad557",
+          "name": "gendai.media",
+          "title": "Xでトレンド入り『差別のない本屋』が突きつけた、日本の「同調圧力」と「表現の自由」のジレンマ…「ヘイト本」は誰が決めるのか",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lZWdXenJpbGpEdmFSZjdrVU0tdGJHYW1GY2xfWFQtdUVQNU5JWjRmQ3JtdkNFTE5DRDZ4WmN5eUdwM0N1LXM3YjU0TkNYMDQ?oc=5",
+          "publishedAt": "2026-08-30T07:00:00Z"
         }
       ],
-      "caution": "無人配送車の普及状況や効果は、記事本文を確認していないため未確認です。"
+      "caution": "記事は論点を提示する内容で、個別の書籍や関係者に関する事実認定は入力から確認できません。"
     }
   ]
 }
