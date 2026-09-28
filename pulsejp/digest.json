@@ -1,66 +1,97 @@
 {
-  "generatedAt": "2026-09-27T18:11:08Z",
+  "generatedAt": "2026-09-28T00:08:39Z",
   "edition": "朝刊",
   "headline": "3分で今日を把握",
-  "overview": "仙台のチャイナフェスや国会の女性用トイレ増設、円相場の動きなどが報じられています。SNSでは化粧品コフレや新曲、イラン首都での「UFO」目撃情報などが話題になっていますが、詳細は見出しで確認できる範囲に限られます。",
+  "overview": "仙台の文化イベントや芸能・映画情報、政治の論点、円相場や企業決算、SNSで話題の投稿などが見出しを集めています。記事本文は確認していないため、各話題の詳細や経緯は未確認です。",
   "isSample": false,
   "topics": [
     {
-      "id": "entertainment-china-festival-sendai",
+      "id": "entertainment-sendai-china-fest",
       "category": "entertainment",
-      "title": "仙台市内でチャイナフェス、グルメや音楽で中国文化を紹介",
-      "whatHappened": "仙台市青葉区でチャイナフェスが開かれたと報じられています。話題のグルメや音楽を通じて中国文化に触れる催しとされています。",
-      "whyTrending": "地域イベントの開催が複数媒体で報じられています。",
-      "context": "開催内容の詳細や来場者数などは、入力情報からは確認できません。",
+      "title": "仙台市内でチャイナフェス、中国文化を紹介",
+      "whatHappened": "仙台市青葉区でチャイナフェスが開かれたと報じられています。グルメや音楽を通じて中国文化に触れるイベントとされています。",
+      "whyTrending": "同じイベントの話題が複数媒体で報じられています。",
+      "context": "開催日や参加者数などの詳細は、入力見出しからは確認できません。",
       "points": [
-        "会場は仙台市青葉区",
-        "グルメと音楽が紹介されたと報道",
-        "中国文化に触れるイベント"
+        "会場は仙台市青葉区と報じられている",
+        "グルメや音楽が取り上げられている",
+        "中国文化に触れるイベントとされている"
       ],
       "sourceCount": 2,
       "sources": [
         {
           "id": "8ffcdbf26297",
           "name": "TBS NEWS DIG",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
           "publishedAt": "2026-09-26T07:37:00Z"
         },
         {
-          "id": "66c878215a12",
+          "id": "16219b3aac2f",
           "name": "Yahoo!ニュース",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2dF?oc=5",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
           "publishedAt": "2026-09-26T07:38:13Z"
         }
       ],
-      "caution": "入力内の同一内容の別リンクにはURLの差異があり、記事本文の詳細は未確認です。"
+      "caution": "イベントの規模や内容の詳細は未確認です。"
     },
     {
-      "id": "entertainment-government-tieup-cancel",
+      "id": "entertainment-suzuki-nana-birthday",
       "category": "entertainment",
-      "title": "官公庁と話題作のタイアップ中止をめぐる批判が報じられる",
-      "whatHappened": "官公庁が話題の映画や番組と行う予定だったタイアップが、間もなく中止になったと報じられています。記事見出しでは、「犯罪を美化している」「配慮が欠けている」といった批判が紹介されています。",
-      "whyTrending": "官公庁とエンターテインメント作品の連携中止をめぐる批判が複数媒体で取り上げられています。",
-      "context": "対象となった作品名や中止の経緯は、入力情報からは確認できません。",
+      "title": "鈴木奈々、芸能界の先輩の誕生日を料理で祝う",
+      "whatHappened": "鈴木奈々が「芸能界の大先輩」の誕生日を祝ったとする話題が報じられています。巨大な料理にフォロワーが驚いたと見出しにあります。",
+      "whyTrending": "同じ投稿・出来事が複数媒体で取り上げられています。",
+      "context": "祝われた人物や料理の詳細は、入力見出しからは確認できません。",
       "points": [
-        "官公庁と映画・番組のタイアップ",
-        "中止になったと報道",
-        "批判の具体的内容が見出しに示されている"
+        "鈴木奈々の誕生日祝いが話題",
+        "巨大な料理が取り上げられている",
+        "フォロワーの反応が紹介されている"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "8ee452f28ce8",
+          "name": "読売新聞",
+          "title": "鈴木奈々「芸能界の大先輩」の誕生日を祝う巨大料理にフォロワー驚き！「上手」「おいしそう」「デッカイイ」 - 読売新聞",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80bTR0LVpUSVY0RmFFTFExdjVvcUpwTmx6NXNfaGJwU1ZoUERWaGtCdHdFN3FvT0dRaUR5Y1diNm93MG1KWHFZQTVNbHdqTWNvcXE3ZDhlb1BCSndEWkp6THFFcWdWTm5KMTNnNVFYQmE?oc=5",
+          "publishedAt": "2026-09-27T22:29:00Z"
+        },
+        {
+          "id": "ff0ac636cafb",
+          "name": "スポーツ報知",
+          "title": "鈴木奈々「芸能界の大先輩」の誕生日を祝う巨大料理にフォロワー驚き！「上手」「おいしそう」「デッカイイ」 - スポーツ報知",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80Z0tLVnFIT0g2WUx6TnlxMTBsdzNNaFJjelpZSWhxOWZHMlZhRXpab0lFaDFpRldlYTFPQjA4emd2SHFoeWVJSHJwLUdxWFh3aENLdDhRTEo2S2dQbmQ1WkVR?oc=5",
+          "publishedAt": "2026-09-27T22:28:00Z"
+        }
+      ],
+      "caution": "SNS上の投稿内容を扱った報道で、人物や出来事の詳細は未確認です。"
+    },
+    {
+      "id": "entertainment-govt-tieup-cancellation",
+      "category": "entertainment",
+      "title": "官公庁と映画・番組のタイアップ中止をめぐる報道",
+      "whatHappened": "官公庁が話題の映画や番組と予定していたタイアップが、間もなく中止になったと報じられています。見出しでは、「犯罪を美化」「配慮が欠けている」といった批判が紹介されています。",
+      "whyTrending": "タイアップの中止と批判の広がりが複数媒体で報じられています。",
+      "context": "対象となった作品や官公庁、批判の経緯は入力見出しだけでは特定できません。",
+      "points": [
+        "官公庁と映画・番組のタイアップが中止と報じられている",
+        "批判の言葉として犯罪の美化などが挙げられている",
+        "中止理由の詳細は未確認"
       ],
       "sourceCount": 2,
       "sources": [
         {
           "id": "a18157e1322d",
           "name": "日テレNEWS NNN",
-          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到",
+          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 - 日テレNEWS NNN",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcWpHQzJEU2tXcG1kOGNSSFNBSl9SS3ROSXNCTGtZSTBPVE9kam1zaGRfeGlHOW9DQ1VfckZmTnUxX1NOWHJMSTYwMmx4ejI0N1QxcWtOU3VJQS1VWjgtWE9jdTVWcC1ERDdYYkJ4a21abS15OEtWV3NJZ05rNEI5YXJRbHZKWms?oc=5",
           "publishedAt": "2026-09-22T23:00:00Z"
         },
         {
           "id": "545483d7a003",
           "name": "Yahoo!ニュース",
-          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 (読売テレビ)",
+          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 (読売テレビ) - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcTAtRE5QYV84R29CaGwzVVh1V05CYW9BaFgxazhZTFJiR0t0eG5VX3B2ZVZ2T3g5Q1ZPVTdkWk00eGxONHp1QUo3aWJiYjh6d1JsaFRNTlBGSk9DUHBpV3J5MnFVR3ptRVlwMUljeTE1WExUTGxYS2FXcjdybl9WME5hcUI4OENpY1NXMnl3?oc=5",
           "publishedAt": "2026-09-22T23:53:03Z"
         }
@@ -68,176 +99,241 @@
       "caution": "批判は報道で紹介された意見であり、作品や関係者への評価を事実認定するものではありません。"
     },
     {
-      "id": "politics-diet-womens-restrooms",
+      "id": "politics-ishihara-tv-regular",
       "category": "politics",
-      "title": "衆院、女性用トイレの増設を進めると報道",
-      "whatHappened": "衆院が女性用トイレの増設を進めていると報じられています。議員からの要望を受け、混雑問題への対応として環境改善を図るとされています。",
-      "whyTrending": "国会議事堂の利用環境に関する具体的な改善策として報じられています。",
-      "context": "増設する場所や完成時期などの詳細は、入力情報からは確認できません。",
+      "title": "石原伸晃氏、情報番組の水曜レギュラーに",
+      "whatHappened": "石原伸晃氏が日本テレビ系情報番組「ニュースto」の水曜レギュラーになると報じられています。本人の発言として「政治の人脈と経験を生かす」と紹介されています。",
+      "whyTrending": "就任と本人のコメントが複数媒体で報じられています。",
+      "context": "番組の開始時期や具体的な出演内容は、入力見出しからは確認できません。",
       "points": [
-        "対象は衆院の女性用トイレ",
-        "混雑問題への対応",
-        "議員要望を受けた環境改善"
+        "石原伸晃氏が水曜レギュラーと報じられている",
+        "番組名は「ニュースto」",
+        "本人は政治の人脈と経験を生かすと述べたとされる"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "31932916ea54",
-          "name": "西日本新聞me",
-          "title": "衆院、女性用トイレの増設進める 混雑問題に、議員要望で環境改善",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFQndVcUlhMkhQcDZxVHkyUTBuMHlMLXlYT1JHRWIxWmhaYmxoUXpyM0RBcXp5YlJzSzlibTAxbUt1WEwwbURyX2l3NVdoYktvUF9HYk9xdw?oc=5",
-          "publishedAt": "2026-09-27T06:23:17Z"
+          "id": "9a5dfa3efe08",
+          "name": "ｄメニューニュース",
+          "title": "石原伸晃氏「政治の人脈と経験生かす」　日本テレビ系情報番組「ニュースto」水曜レギュラー - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdV9yZHJ5MEp0VXpPMlZGRzlCVmZGT3JGVkZNeE9sb1Nmd0M3Y2dDS3R0TWJYQm9GVUluUFhBc2xBMG1pQ05MakkwX1hFN29uY0lBOUZGTEtnbzRQa2VYcGkxRTJENDBaODlvaGxhb0JlV3VQUlhUMnpCM0tBUmRnYTlQYnJ3LVQ2b2NEWGJmOGtiaUhfSWx3b3FZLTZhN3PSAaQBQVVfeXFMTklnT3ZMa2FvallSZGktaUtnWWdTLXFBOU5jWV9xeUd2RnV6MldZTGlLQjJ1V1dYUHN5YVoyVC12bXBWT1p4MjMxNVcycVF5Tnd5Smt2TVFNX240cXJuNURzMG83WGJ6b1VyeUplWUpkMTZmN3NkM1Z0RzFRZjdraXNwMUpZdW9TRGdORDNBcnFIdm1TMlhLZXdzd0g3NGE3RkFsVUQ?oc=5",
+          "publishedAt": "2026-09-27T20:06:03Z"
         },
         {
-          "id": "dde3106ce3ab",
-          "name": "四国新聞",
-          "title": "衆院、女性用トイレの増設を進める／混雑問題に、議員要望で環境改善",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lb19jbzl0blFQQk90YnFuaHdxT1BKODM4bm1lUXlTcEQ4V3lQcTNKRVUxeUZ5UFRlNjFrREs0c05FSnBmOGVLQ1pGRmdRWnJwX25PR2RXbGlSXzJjdHZZY2dsVzlVWHJSeDZQcFFKRQ?oc=5",
-          "publishedAt": "2026-09-27T05:51:00Z"
+          "id": "99507fe7cf12",
+          "name": "日刊スポーツ",
+          "title": "石原伸晃氏「政治の人脈と経験生かす」 日本テレビ系情報番組「ニュースto」水曜レギュラー - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSTc5TGV0TVR2MzdkaWd3REJnb0dybmhGZDA4aXg1SE12M1BoYlNHUDlidk5pNlhoMlpHbVAwQnM5SlBNaVBtSjJuaEltYWVPLUw2UDU0YzhFSk0xWXYwSWFKN3pSN1NxWWFyRXNub085RVJNakUwRTF3Y0VQWjJBa2JGMEVqZTRMU2ZDLUluOUlWSFc3RWc?oc=5",
+          "publishedAt": "2026-09-27T10:00:00Z"
         }
       ],
-      "caution": null
+      "caution": "番組内での発言や役割の詳細は未確認です。"
     },
     {
       "id": "politics-gender-gap-editorial",
       "category": "politics",
-      "title": "日本の男女格差をめぐり、実効性ある方策を求める社説",
-      "whatHappened": "朝日新聞が、日本の男女格差は依然として深刻だとする社説を掲載しています。政治・経済分野で実効性のある方策を求めています。",
-      "whyTrending": "男女格差を政治・経済の課題として論じる社説が報じられています。",
-      "context": "見出しは社説の主張を示すもので、具体的な政策内容や各党の反応は入力から確認できません。",
+      "title": "日本の男女格差をめぐる社説",
+      "whatHappened": "朝日新聞の社説が、日本の男女格差は依然として深刻だと論じています。政治・経済で実効性のある方策を求める内容と見出しにあります。",
+      "whyTrending": "政治・経済分野の男女格差を扱う社説として掲載されています。",
+      "context": "社説の具体的な根拠や提案内容は、入力見出しからは確認できません。",
       "points": [
-        "朝日新聞の社説",
-        "政治・経済分野の男女格差を論点化",
-        "実効性のある方策を要求"
+        "男女格差が論点になっている",
+        "政治・経済分野が挙げられている",
+        "実効性のある方策を求めている"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "713aab293bc9",
+          "id": "f812b373f274",
           "name": "朝日新聞",
-          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVG9CWEFLVTZGVEFxdnBHZmFjSkRUM2RJckVaWUI1aFZlaHVKQmRPTHk1TlFKakgxZ1g2MjZFTUZ6TkZsX3g5WmRLc2tybkpIVndGekVoaUJDZDRDZVBEaUg3ZXhXZ1lNWFdRMWFJQkJDSV8zLVFsRFVuZFViemhmNTNkRU5OYkVpbW9odHlvdEc?oc=5",
+          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oeFJCdE02OXd2c1IzM2I5dWlwTmh1b1pjUUpScHVIUjhwLWt3S1kwVmhHV09BaFAzSGd2V1VteDZTY2VEMkdOZl9wa0NJN3E4UFZPbl9WVl9TVE1GN0w5RENQdTJwbk0?oc=5",
           "publishedAt": "2026-09-27T10:00:00Z"
         }
       ],
-      "caution": "社説は媒体の論説であり、確認された政策決定や政府見解を示すものではありません。"
+      "caution": "社説は媒体の論説であり、見出しから確認できるのは主張の概要です。"
     },
     {
-      "id": "economy-yen-dollar-158",
-      "category": "economy",
-      "title": "円相場、1ドル＝157〜158円台の動きが報じられる",
-      "whatHappened": "円相場について、1ドル＝158円台に値下がりしたとの報道と、一時157円台まで値上がりしたとの報道があります。為替水準をめぐり、円買い介入への言及も見られます。",
-      "whyTrending": "円安・円高の動きと、介入の可能性をめぐる解説が複数報じられています。",
-      "context": "各記事の観測時点が異なるため、現在の相場水準や介入の有無は入力だけでは確定できません。",
+      "id": "politics-opposition-role-survey",
+      "category": "politics",
+      "title": "野党に期待する役割を問う記事",
+      "whatHappened": "日本の政治で野党に最も期待する役割は何かを問う記事が掲載されています。入力見出しからは、調査結果や回答の詳細は確認できません。",
+      "whyTrending": "野党の役割をめぐる問いがニュースサイトで取り上げられています。",
+      "context": "質問形式の記事とみられますが、調査方法や結果は未確認です。",
       "points": [
-        "1ドル＝157〜158円台が見出しに登場",
-        "円相場の値動きが報道された",
-        "円買い介入かとの見方も紹介"
+        "野党に期待する役割がテーマ",
+        "日本の政治に関する問いかけ",
+        "回答内容は入力から確認できない"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "ddb031acb5dd",
-          "name": "NHKニュース",
-          "title": "円相場 値下がり 1ドル＝158円台に",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55eWNPSGo5ZWxRREJSSjBxU1pRVVNsV01JUlRETVk5RE1tUURYM3pRdkJEVVlGcVBCdzhZTUZkV0t6RmJiWTNkZ3QzMGpIcVVpeDNpbm15VGNTSTZUdjlZ?oc=5",
-          "publishedAt": "2026-09-24T02:56:08Z"
+          "id": "c54c0bb0f6d9",
+          "name": "Yahoo!ニュース",
+          "title": "日本の政治において、野党に最も期待する役割は何ですか？ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9FdE0xSTl4MThnOTJqOWZRYTNreXZsbGtoWEx2SFJwS19EbkVzS21iNElGUmRnR1V4V2RrTHdoUEZSSUk3UkQ3RndTZ1M?oc=5",
+          "publishedAt": "2026-09-26T15:13:32Z"
         }
       ],
-      "caution": "相場は時間によって変動します。円買い介入の実施は、見出し上では確認できません。"
+      "caution": "調査結果や世論の傾向を示すものかどうかは未確認です。"
     },
     {
-      "id": "economy-interest-rate-policy-debate",
+      "id": "economy-us-japan-interest-rates",
       "category": "economy",
-      "title": "日本の金利政策と米国からの要求をめぐる論考が注目",
-      "whatHappened": "米国が日本に「金利を上げろ、でも下げろ」と求めたとする論考が報じられています。日本がリフレ政策から脱却すべき理由を論じる内容とされています。",
-      "whyTrending": "日本の金利政策と日米間の要求をめぐる、相反する政策課題が見出しで示されています。",
-      "context": "記事は論考・解説であり、米国政府が実際にどのような要求をしたかは見出しだけでは確認できません。",
+      "title": "米国が日本に求める金利政策の「矛盾」を論じる記事",
+      "whatHappened": "米国が日本に「金利を上げろ、でも下げろ」と求めたとする「矛盾」の真意を扱う記事が掲載されています。日本がリフレ政策から脱却すべき理由も論じる見出しです。",
+      "whyTrending": "日米の金利政策と日本の金融政策をめぐる論点が取り上げられています。",
+      "context": "米国側の具体的な発言や記事の分析内容は、入力見出しからは確認できません。",
       "points": [
-        "日本の金利政策を論点化",
-        "米国の要求をめぐる「矛盾」を指摘",
-        "リフレ政策からの脱却を主張"
+        "日米の金利政策が論点",
+        "米国の要求を「矛盾」と表現している",
+        "日本のリフレ政策からの脱却を論じている"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "sources": [
         {
-          "id": "ad91cbcd4116",
-          "name": "Yahoo!ニュース",
-          "title": "「金利を上げろ、でも下げろ」アメリカが日本に求めた“矛盾”の真意、日本がリフレ政策から明確に脱却すべきこれだけの理由",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01anB2TW0tNGotU2xTbFh6TWZYbGNubjFQQTd1YVVsbkYyUnpuUUduZTZ5TDVKNGRvbEozMHY0Uzl5TmV6bkxyOFhhaGtmbXh3a0dLVFU0ZENaemFXODFvc2txQXdwak9iU0RZVGxsLVk1X0xDcENJSHVhYzRxTG8?oc=5",
-          "publishedAt": "2026-09-26T23:00:40Z"
-        },
-        {
-          "id": "df3041eeb150",
+          "id": "e2c6e713e2b3",
           "name": "東洋経済オンライン",
-          "title": "｢金利を上げろ､でも下げろ｣アメリカが日本に求めた\"矛盾\"の真意､日本がリフレ政策から明確に脱却すべきこれだけの理由",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBSWtVanByMlFxdXBEdHBNenI4NERLLVRiUjJDdGZaRjJyLU5ncDZSZ2dNSlBhb2Z4WFJNYnV1M1RqSTJwakZ2b0loenNKVVptSkE?oc=5",
-          "publishedAt": "2026-09-26T23:01:25Z"
+          "title": "｢金利を上げろ､でも下げろ｣アメリカが日本に求めた\"矛盾\"の真意､日本がリフレ政策から明確に脱却すべきこれだけの理由 - 東洋経済オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkTk5Oc1RKNUxyMnh5VmRhZnhHb2FFT0prRS1qMGk2X0hZZVNTcTMwNWlDbmVhX3M5bTVqN3YwXy0zQVZKcTZiTjhUVUdTdmhzQjJGREl1UTI5ejg?oc=5",
+          "publishedAt": "2026-09-26T23:00:00Z"
         }
       ],
-      "caution": "見出しは論考の主張を示すもので、米国の公式要請や政策決定を確認したものではありません。"
+      "caution": "記事の論旨であり、米国政府の公式な要求内容を確認したものではありません。"
+    },
+    {
+      "id": "economy-japan-stocks-earnings",
+      "category": "economy",
+      "title": "日本株の決算、増益企業の共通点を解説",
+      "whatHappened": "野村證券のストラテジストが、日本株の決算を読み解く記事が掲載されています。2026年度の会社計画では、6割強が経常増益とする見出しです。",
+      "whyTrending": "企業決算の見通しと株価反応が投資関連の記事で扱われています。",
+      "context": "対象企業や増益の要因は、入力見出しからは確認できません。",
+      "points": [
+        "2026年度の会社計画が対象",
+        "6割強が経常増益と見出しにある",
+        "野村證券ストラテジストが解説"
+      ],
+      "sourceCount": 1,
+      "sources": [
+        {
+          "id": "291d69558cc6",
+          "name": "nomura.co.jp",
+          "title": "日本株の決算を読み解く 2026年度の会社計画では6割強が経常増益、共通点は？ 野村證券ストラテジストが解説 - nomura.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMaDV1Mlk1bFE3Wl9iUFpXVU9nMHNkTzVBck1vQzZnenF0Um5HQnVYbFNLQi1RMzFQc0hhRWZNeXpKTldZellTSE1iMDc4Zlk5Um9jRU5Tc2JsY0pLcmcw?oc=5",
+          "publishedAt": "2026-09-25T07:00:00Z"
+        }
+      ],
+      "caution": "「6割強」は記事見出しの情報で、業績全体や今後の株価を示すものではありません。"
+    },
+    {
+      "id": "economy-yen-intervention",
+      "category": "economy",
+      "title": "ドル円、一時157円台と円買い介入をめぐる報道",
+      "whatHappened": "米ドル円が一時157円台となり、円買い介入かとの見方を示す記事が掲載されています。別の見出しでは、1ドル158円台への円安進行も報じられています。",
+      "whyTrending": "円相場の急な変動と為替介入の可能性が複数の見出しで扱われています。",
+      "context": "実際に介入が行われたかどうかは、入力見出しだけでは確認できません。",
+      "points": [
+        "一時157円台との見出しがある",
+        "1ドル158円台との報道もある",
+        "円買い介入かとの見方が示されている"
+      ],
+      "sourceCount": 1,
+      "sources": [
+        {
+          "id": "91f995a5c3de",
+          "name": "nomura.co.jp",
+          "title": "米ドル円が一時157円台、円買い介入か 155～160円なら業績改善期待続く 野村證券ストラテジストが解説 - nomura.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVN3NtdTYtSDY1ajFqSHd1R0dpQ3BzWk9TSVR0Zk9PR1k0UFVxRVJKeVJhbUU3V3NQV2cwNjJtSndqVnhnM2VkWUhyMDlvc25hRHpJTzh4N1RUZ0xmNHow?oc=5",
+          "publishedAt": "2026-09-25T07:00:00Z"
+        }
+      ],
+      "caution": "為替介入の有無は未確認です。為替水準や企業業績に関する記述は記事の見解を含みます。"
+    },
+    {
+      "id": "internet-iran-ufo-claims",
+      "category": "internet",
+      "title": "イラン首都の「UFO」映像がSNSで話題に",
+      "whatHappened": "イランの首都でUFOが飛行したのではないかという情報がSNSで話題になったと報じられています。見出しでは、米国の攻撃への不安も背景として挙げられています。",
+      "whyTrending": "同じ話題が複数の報道機関で取り上げられています。",
+      "context": "飛行物体の正体や映像の真偽は、入力見出しからは確認できません。",
+      "points": [
+        "イラン首都でのUFO情報がSNSで話題",
+        "米国の攻撃への不安が見出しにある",
+        "物体の正体は未確認"
+      ],
+      "sourceCount": 4,
+      "sources": [
+        {
+          "id": "7e2cc8cd36d6",
+          "name": "Yahoo!ニュース",
+          "title": "イラン首都でUFOが飛行？ SNS話題、米の攻撃に不安（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wX2V3SEpNWjJ2ZGUtSmd3Z2QtaG1PY3JmZmJhUU03M0JGSnVmN1lIOHRkb1RGYUl4TnhjYUJhMWxXd3NVdTB0WE5BeXpVMXpORTRSZFczQ1NKQzZPMWg5aDlLWml1dFFqSGlBU05pRW1tSnR4LXdBaTJ3UG03a0U?oc=5",
+          "publishedAt": "2026-09-23T20:29:24Z"
+        },
+        {
+          "id": "285e664257ed",
+          "name": "西日本新聞me",
+          "title": "イラン首都でUFOが飛行？ SNS話題、米の攻撃に不安 - 西日本新聞me",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9vRUpBVGFkdUExYURNYkVjYUR0OGFxcFNFNG83eXRLNk9fSU9XVEFuZmtCWTc0TzNFT0lXM0sxdzVSUl8wRms1SnRwYUFHeDRLU2tYQ0Jn?oc=5",
+          "publishedAt": "2026-09-23T20:29:47Z"
+        }
+      ],
+      "caution": "UFOの存在や映像の真偽は確認されていません。SNS上の情報を事実として受け取らない注意が必要です。"
     },
     {
       "id": "internet-elegance-coffret",
       "category": "internet",
-      "title": "エレガンスのコフレがSNSで話題、予約開始日に注目",
-      "whatHappened": "化粧品ブランド「エレガンス」のコフレがSNSで話題になっていると報じられています。記事見出しでは、価格が「破格」と話題になり、予約開始日を狙うのがよさそうだと紹介されています。",
-      "whyTrending": "SNS上の反響と予約情報が複数媒体で取り上げられています。",
-      "context": "コフレの具体的な価格や商品内容、予約開始日は入力から確認できません。",
+      "title": "エレガンスのコフレがSNSで話題",
+      "whatHappened": "化粧品ブランド「エレガンス」のコフレがSNSで話題になっていると報じられています。見出しでは、予約開始日を狙うのがよさそうだと紹介されています。",
+      "whyTrending": "商品情報が複数媒体で取り上げられています。",
+      "context": "商品の価格、内容、予約開始日は入力見出しからは確認できません。",
       "points": [
         "エレガンスのコフレが話題",
-        "価格への反応が紹介された",
-        "予約開始日に注目が集まっている"
+        "SNS上の反響が取り上げられている",
+        "予約に関する情報が示唆されている"
       ],
       "sourceCount": 2,
       "sources": [
         {
           "id": "e8d5fe2c017e",
-          "name": "bg-mania.jp",
-          "title": "「破格だよね」エレガンスのコフレがSNSで話題！予約開始日を狙うのがよさそう。",
+          "name": "東京バーゲンマニア",
+          "title": "「破格だよね」エレガンスのコフレがSNSで話題！予約開始日を狙うのがよさそう。 - 東京バーゲンマニア",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5NRzZhSjY4R1c3NzNmQ2xBbEk4bTFlbzM0UG83S0tZbHNYeWNmTTR5RWpHaF9QSjRHOW9uWTJSTXF3a0h0d2Z4MFhNUXBYMS1Kd1hB?oc=5",
           "publishedAt": "2026-09-27T08:38:00Z"
         },
         {
           "id": "74f25bcfea16",
           "name": "千葉テレビ放送株式会社",
-          "title": "「破格だよね」エレガンスのコフレがSNSで話題！予約開始日を狙うのがよさそう。",
+          "title": "「破格だよね」エレガンスのコフレがSNSで話題！予約開始日を狙うのがよさそう。 - 千葉テレビ放送株式会社",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9laFB2ZjBfX016REZMdkMzRFpzcGRSZ1YtaUdSLXFLSXdGVHVmVU50TjE3bkFiVFc4UnU2d2dwZFlFNFlEelBHMWRmRG5YYVhfU2h6NWpvMkdMb3VSMlRJ?oc=5",
           "publishedAt": "2026-09-27T08:41:26Z"
         }
       ],
-      "caution": "「破格」などは記事見出しやSNS上の反応による表現で、価格の妥当性を示すものではありません。"
+      "caution": "価格や在庫、予約条件は未確認です。"
     },
     {
-      "id": "internet-iran-ufo-social-media",
+      "id": "internet-china-delivery-robots",
       "category": "internet",
-      "title": "イラン首都の「UFO」目撃情報がSNSで話題に",
-      "whatHappened": "イランの首都でUFOが飛行したのではないかという情報がSNSで話題になっていると報じられています。米国の攻撃への不安を背景にした話題とされています。",
-      "whyTrending": "SNS上で目撃情報が拡散し、国際情勢への不安と結び付いて報道されています。",
-      "context": "飛行物体の正体や目撃情報の真偽は、入力情報からは確認できません。",
+      "title": "中国の無人配送車、実際の利用状況に注目",
+      "whatHappened": "SNSで話題になった中国の無人配送車について、実際にどこを走り、何に役立っているのかを扱う記事が掲載されています。",
+      "whyTrending": "無人配送車の実用性をSNS上の話題から掘り下げる記事として注目されています。",
+      "context": "走行場所や用途の具体的な内容は、入力見出しからは確認できません。",
       "points": [
-        "場所はイラン首都",
-        "UFO飛行との情報がSNSで話題",
-        "米国の攻撃への不安が背景と報道"
+        "中国の無人配送車がテーマ",
+        "SNSで話題になったとされている",
+        "走行場所と用途を扱う記事"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "sources": [
         {
-          "id": "7e2cc8cd36d6",
-          "name": "Yahoo!ニュース",
-          "title": "イラン首都でUFOが飛行？ SNS話題、米の攻撃に不安（共同通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4wX2V3SEpNWjJ2ZGUtSmd3Z2QtaG1PY3JmZmJhUU03M0JGSnVmN1lIOHRkb1RGYUl4TnhjYUJhMWxXd3NVdTB0WE5BeXpVMXpORTRSZFczQ1NKQzZPMWg5aDlLWml1dFFqSGlBU05pRW1tSnR4LXdBaTJ3UG03a0U?oc=5",
-          "publishedAt": "2026-09-23T20:29:24Z"
-        },
-        {
-          "id": "998b2897345f",
-          "name": "西日本新聞me",
-          "title": "イラン首都でUFOが飛行？ SNS話題、米の攻撃に不安",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB9RUpBVGFkdUExYURNYkVjYUR0OGFxcFNFNG83eXRLNk9fSU9XVEFuZmtCWTc0TzNFT0lXM0sxdzVSUl8wRms1SnRwYUFHeDRLU2tYQ0Jn?oc=5",
-          "publishedAt": "2026-09-23T20:29:47Z"
+          "id": "d5121ac08aa2",
+          "name": "36Kr Japan",
+          "title": "SNSで話題の中国「無人配送車」 実際はどこを走り、何の役に立っているのか - 36Kr Japan",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBabmhaQzJyQWREb1NwWTQ1b09qSGsyWG5tZHdOTkl5Q0pDYTVJLW1Db0JSbFJjLXp3UVgw?oc=5",
+          "publishedAt": "2026-09-24T23:05:08Z"
         }
       ],
-      "caution": "「UFO」はSNS上の表現であり、未確認情報です。飛行物体の正体や軍事行動との関係は確認されていません。"
+      "caution": "無人配送車の普及状況や効果は、記事本文を確認していないため未確認です。"
     }
   ]
 }
