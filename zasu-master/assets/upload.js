@@ -69,7 +69,7 @@ button.addEventListener("click",async()=>{
   try{
     validateFile(selectedFile);
     const no=Number(savedNo);
-    if(!Number.isFinite(no)||no<1||!accessToken){location.href="https://zasumaster.com/beta.html";return;}
+    if(!Number.isFinite(no)||no<1||!accessToken){location.href="beta.html";return;}
 
     button.disabled=true;
     button.textContent="PREPARING...";
@@ -160,7 +160,7 @@ button.addEventListener("click",async()=>{
     }
 
     sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:accessToken}));
-    status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。処理キューへ登録されます。<br><a href="https://zasumaster.com/result.html" style="text-decoration:underline">→ マスタリング状況を見る</a></div>';
+    status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。処理キューへ登録されます。<br><a href="result.html" style="text-decoration:underline">→ マスタリング状況を見る</a></div>';
     fileInput.value="";
     selectedFile=null;
     fileMeta.textContent="ファイルはまだ選択されていません。";
