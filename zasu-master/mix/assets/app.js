@@ -167,6 +167,22 @@ function renderCommonMetrics(s){
   }
 }
 
+function setPreviewAudio(audio,primary,fallback){
+  audio.pause();
+  audio.removeAttribute("src");
+  audio.load();
+  let usedFallback=false;
+  audio.onerror=()=>{
+    if(usedFallback||!fallback||audio.src===fallback)return;
+    usedFallback=true;
+    audio.src=fallback;
+    audio.load();
+  };
+  audio.src=primary||fallback;
+  audio.preload="metadata";
+  audio.load();
+}
+
 function showPreview(s){
   q("#mixButton").disabled=false;
   readyMix={id:job.id,token:job.token};
@@ -177,10 +193,16 @@ function showPreview(s){
   q("#previewGate").hidden=false;
   q("#fullDownloads").hidden=true;
   q("#fullMasterHandoff").hidden=true;
-  q("#previewBeforeAudio").src=downloadUrl("preview_before");
-  q("#previewAfterAudio").src=downloadUrl("preview_mix");
-  q("#previewBeforeAudio").load();
-  q("#previewAfterAudio").load();
+  setPreviewAudio(
+    q("#previewBeforeAudio"),
+    s.preview_before_url||null,
+    downloadUrl("preview_before")
+  );
+  setPreviewAudio(
+    q("#previewAfterAudio"),
+    s.preview_mix_url||null,
+    downloadUrl("preview_mix")
+  );
   if(cfg.commerceEnabled){
     q("#unlockMixButton").textContent="UNLOCK FULL MIX — ¥500";
     q("#unlockFullButton").textContent="MIX + MASTER — ¥800";
