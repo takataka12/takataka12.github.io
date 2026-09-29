@@ -127,7 +127,7 @@ function render(body){
     const message={
       claimed:"処理サーバーを確保しました。まもなく音源解析を開始します。",
       downloading:"アップロード済み音源を処理サーバーへ安全に転送しています。",
-      mastering:"PUNCH ENGINEで音源を解析し、マスタリングしています。",
+      mastering:(body.mastering_profile==="loud_otv"?"LOUD / OTVプロファイルで高密度マスタリングしています。":"PUNCH ENGINEで音源を解析し、マスタリングしています。"),
       processing:"PUNCH ENGINEで音源を処理しています。",
       preparing_results:"マスタリング済み音源と比較用プレビューを書き出しています。",
       uploading_results:"完成データを保存しています。大きなマスターは安全に分割保存されます。",
@@ -151,10 +151,10 @@ function render(body){
   }
 
   if(s==="completed"){
-    setState("COMPLETED","MASTER READY.","PUNCH ENGINEの処理が完了しました。");
+    setState("COMPLETED","MASTER READY.",(body.profile_label||"STANDARD")+" のマスタリングが完了しました。");
     if(feedbackCard)feedbackCard.hidden=false;
     metrics.hidden=false;
-    q("#metricEngine").textContent=body.engine_version||"PUNCH";
+    q("#metricEngine").textContent=(body.engine_version||"PUNCH")+" / "+(body.profile_label||"STANDARD");
     q("#metricLufs").textContent=Number.isFinite(body.output_lufs)?body.output_lufs.toFixed(2)+" LUFS":"—";
     q("#metricTp").textContent=Number.isFinite(body.output_dbtp)?body.output_dbtp.toFixed(2)+" dBTP":"—";
 
