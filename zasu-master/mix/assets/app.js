@@ -1,6 +1,6 @@
 const cfg=window.ZASU_MIX_CONFIG||{};
 const q=s=>document.querySelector(s);
-let vocal=null,inst=null,style="modern",job=null,pollTimer=null;
+let vocal=null,inst=null,style="modern",job=null,pollTimer=null,readyMix=null;
 const STYLE_CONTROL_DEFAULTS={
   natural:{gain:0.5,reverb:8,body:0,presence:0,air:0},
   modern:{gain:2.0,reverb:14,body:0,presence:0,air:0.5},
@@ -137,11 +137,95 @@ function showResult(s){
   q("#resultRate").textContent=s.output_sample_rate?(Number(s.output_sample_rate)/1000).toFixed(Number(s.output_sample_rate)%1000?1:0)+" kHz":"—";
   q("#resultLufs").textContent=Number.isFinite(Number(s.output_lufs))?Number(s.output_lufs).toFixed(2)+" LUFS":"—";
   q("#resultTp").textContent=Number.isFinite(Number(s.output_true_peak))?Number(s.output_true_peak).toFixed(2)+" dBTP":"—";
-  q("#mixDownload").href=cfg.downloadBase.replace(/\/$/,"")+"/download/"+encodeURIComponent(job.id)+"/mix?token="+encodeURIComponent(job.token);
-  q("#vocalDownload").href=cfg.downloadBase.replace(/\/$/,"")+"/download/"+encodeURIComponent(job.id)+"/vocal?token="+encodeURIComponent(job.token);
+  readyMix={id:job.id,token:job.token};
+  sessionStorage.setItem("zasu_mix_ready",JSON.stringify(readyMix));
+  q("#mixDownload").href=cfg.downloadBase.replace(/\/$/,"")+"/download/"+encodeURIComponent(readyMix.id)+"/mix?token="+encodeURIComponent(readyMix.token);
+  q("#vocalDownload").href=cfg.downloadBase.replace(/\/$/,"")+"/download/"+encodeURIComponent(readyMix.id)+"/vocal?token="+encodeURIComponent(readyMix.token);
   q("#resultCard").hidden=false;
   q("#resultCard").scrollIntoView({behavior:"smooth",block:"start"});
   sessionStorage.removeItem("zasu_mix_job");
 }
+
+async function sendToMaster(profile){
+  const source=readyMix||job;
+  const statusEl=q("#masterHandoffStatus");
+  const buttons=[q("#sendStandard"),q("#sendLoud")];
+  if(!source?.id||!source?.token){
+    statusEl.textContent="完成MIX情報が見つかりません。もう一度MIXを完成させてください。";
+    statusEl.className="handoff-status error";
+    return;
+  }
+  const no=Number(localStorage.getItem("zasu_beta_application_no")||"");
+  const appToken=localStorage.getItem("zasu_beta_access_token")||"";
+  if(!Number.isFinite(no)||no<1||!appToken){
+    statusEl.innerHTML='ZASU MASTERの受付情報が必要です。<a href="../upload.html" style="text-decoration:underline">MASTERページを開く →</a>';
+    statusEl.className="handoff-status error";
+    return;
+  }
+
+  buttons.forEach(x=>x.disabled=true);
+  statusEl.textContent=(profile==="loud_otv"?"LOUD / OTV":"STANDARD")+"へ直接送っています…";
+  statusEl.className="handoff-status";
+  try{
+    const res=await fetch(cfg.directMasterEndpoint,{
+      method:"POST",
+      headers:authHeaders(),
+      body:JSON.stringify({
+        application_no:no,
+        access_token:appToken,
+        mix_job_id:source.id,
+        mix_access_token:source.token,
+        mastering_profile:profile
+      })
+    });
+    const body=await res.json().catch(()=>({}));
+    if(!res.ok){
+      const map={
+        beta_application_not_found:"ZASU MASTERの受付情報を確認してください。",
+        beta_not_accepted:"ZASU MASTERの受付がまだ有効になっていません。",
+        payment_required:"ZASU MASTERの利用権限を確認してください。",
+        mix_job_not_found:"完成MIXを確認できませんでした。",
+        mix_not_ready:"MIXがまだ完成していません。",
+        mix_expired:"MIXファイルの保存期限が切れています。",
+        mix_source_missing:"完成MIXファイルを確認できませんでした。"
+      };
+      throw new Error(map[body.error]||"ZASU MASTERへの送信に失敗しました。");
+    }
+
+    statusEl.textContent="MASTERING QUEUED. 結果画面へ移動します…";
+    statusEl.className="handoff-status success";
+    sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:appToken}));
+    setTimeout(()=>{location.href="../result.html"},350);
+  }catch(e){
+    statusEl.textContent=e?.message||"ZASU MASTERへの送信に失敗しました。";
+    statusEl.className="handoff-status error";
+    buttons.forEach(x=>x.disabled=false);
+  }
+}
+q("#sendStandard").addEventListener("click",()=>sendToMaster("standard"));
+q("#sendLoud").addEventListener("click",()=>sendToMaster("loud_otv"));
+
 const saved=sessionStorage.getItem("zasu_mix_job");
-if(saved){try{job=JSON.parse(saved);if(job?.id&&job?.token){q("#mixButton").disabled=true;setProgress(10,"RESTORING","前回のMIX状況を確認しています。");poll()}}catch(_){sessionStorage.removeItem("zasu_mix_job")}}
+if(saved){
+  try{
+    job=JSON.parse(saved);
+    if(job?.id&&job?.token){
+      q("#mixButton").disabled=true;
+      setProgress(10,"RESTORING","前回のMIX状況を確認しています。");
+      poll();
+    }
+  }catch(_){sessionStorage.removeItem("zasu_mix_job")}
+}else{
+  const ready=sessionStorage.getItem("zasu_mix_ready");
+  if(ready){
+    try{
+      job=JSON.parse(ready);
+      if(job?.id&&job?.token){
+        api("status",{job_id:job.id,access_token:job.token}).then(s=>{
+          if(s.status==="completed")showResult(s);
+          else if(s.status!=="failed"){setProgress(Number(s.progress||10),"RESTORING","MIX状況を確認しています。");poll()}
+        }).catch(()=>{});
+      }
+    }catch(_){sessionStorage.removeItem("zasu_mix_ready")}
+  }
+}
