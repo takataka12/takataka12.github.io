@@ -7,5 +7,6 @@ window.ZASU_MIX_CONFIG={
   anonKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNpd216cmFkdnJ0ZXRvdGFra2JpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAzNTk2MTEsImV4cCI6MjEwNTkzNTYxMX0.aF71_QHKtm5JxIN4h3Q-huwKBcdQEOg72fKxErINgMQ",
   downloadBase:"https://zasu-mix-worker-production.up.railway.app",
   directMasterEndpoint:"https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-master-from-zasu-mix",
+  masterSessionEndpoint:"https://siwmzradvrtetotakkbi.supabase.co/functions/v1/submit-beta-application",
   maxBytes:524288000
 };
