@@ -35,8 +35,17 @@ for(const [id,kind] of [["#vocalDrop","vocal"],["#instDrop","inst"]]){
 function dbText(v){
   const n=Number(v||0);return (n>0?"+":"")+n.toFixed(1)+" dB";
 }
+function syncAutoBalanceUi(){
+  const on=q("#autoBalance").checked;
+  q("#vocalGain").disabled=on;
+  q("#vocalGainValue").textContent=on?"AUTO":dbText(q("#vocalGain").value);
+  q("#autoBalanceHint").textContent=on
+    ?"ON — VOCAL LEVELは素材に合わせて自動決定します。"
+    :"OFF — VOCAL LEVELを手動で調整できます。";
+  q("#autoBalanceHint").classList.toggle("manual",!on);
+}
 function syncControlLabels(){
-  q("#vocalGainValue").textContent=dbText(q("#vocalGain").value);
+  if(!q("#autoBalance").checked)q("#vocalGainValue").textContent=dbText(q("#vocalGain").value);
   q("#reverbValue").textContent=Math.round(Number(q("#reverbAmount").value||0))+"%";
   q("#eqBodyValue").textContent=dbText(q("#eqBody").value);
   q("#eqPresenceValue").textContent=dbText(q("#eqPresence").value);
@@ -52,12 +61,14 @@ function applyStyleControls(name){
   syncControlLabels();
 }
 ["#vocalGain","#reverbAmount","#eqBody","#eqPresence","#eqAir"].forEach(id=>q(id).addEventListener("input",syncControlLabels));
+q("#autoBalance").addEventListener("change",()=>{syncControlLabels();syncAutoBalanceUi()});
 document.querySelectorAll(".style").forEach(x=>x.onclick=()=>{
   style=x.dataset.style;
   document.querySelectorAll(".style").forEach(y=>y.classList.toggle("active",y===x));
   applyStyleControls(style);
 });
 applyStyleControls("modern");
+syncAutoBalanceUi();
 
 async function uploadSet(ticketList,file,bucket,chunkSize,label,startPct,endPct){
   const total=ticketList.length;
@@ -82,6 +93,7 @@ async function start(){
       vocal_name:vocal.name,vocal_size_bytes:vocal.size,vocal_mime_type:vocal.type||"application/octet-stream",
       instrumental_name:inst.name,instrumental_size_bytes:inst.size,instrumental_mime_type:inst.type||"application/octet-stream",
       mix_style:style,
+      auto_balance:q("#autoBalance").checked,
       vocal_gain_db:Number(q("#vocalGain").value),
       reverb_amount:Number(q("#reverbAmount").value),
       eq_body_db:Number(q("#eqBody").value),
@@ -107,7 +119,7 @@ const stageCopy={
   queued:["QUEUED","MIXサーバーを待っています。"],
   claimed:["STARTING","AUTO MIX ENGINEを起動しています。"],
   downloading:["DOWNLOADING","音源を処理サーバーへ転送しています。"],
-  analyzing:["ANALYZING","音量・フォーマットを解析しています。"],
+  analyzing:["ANALYZING","音量・マスキング・フォーマットを解析しています。"],
   mixing:["AUTO MIXING","EQ / De-esser / Compressor / Vocal Level / Reverbを反映しています。"],
   preparing_results:["RENDERING","24-bit WAVを書き出しています。"],
   uploading_results:["SAVING","完成ファイルを保存しています。"],
@@ -137,6 +149,13 @@ function showResult(s){
   q("#resultRate").textContent=s.output_sample_rate?(Number(s.output_sample_rate)/1000).toFixed(Number(s.output_sample_rate)%1000?1:0)+" kHz":"—";
   q("#resultLufs").textContent=Number.isFinite(Number(s.output_lufs))?Number(s.output_lufs).toFixed(2)+" LUFS":"—";
   q("#resultTp").textContent=Number.isFinite(Number(s.output_true_peak))?Number(s.output_true_peak).toFixed(2)+" dBTP":"—";
+  const autoResult=q("#autoBalanceResult");
+  if(s.auto_balance===true&&Number.isFinite(Number(s.applied_vocal_gain_db))){
+    q("#autoBalanceResultValue").textContent=dbText(s.applied_vocal_gain_db);
+    autoResult.hidden=false;
+  }else{
+    autoResult.hidden=true;
+  }
   readyMix={id:job.id,token:job.token};
   sessionStorage.setItem("zasu_mix_ready",JSON.stringify(readyMix));
   q("#mixDownload").href=cfg.downloadBase.replace(/\/$/,"")+"/download/"+encodeURIComponent(readyMix.id)+"/mix?token="+encodeURIComponent(readyMix.token);
@@ -155,11 +174,16 @@ async function sendToMaster(profile){
     statusEl.className="handoff-status error";
     return;
   }
+  sessionStorage.setItem("zasu_mix_master_handoff",JSON.stringify({
+    mix_job_id:source.id,
+    mix_access_token:source.token,
+    mastering_profile:profile,
+    created_at:Date.now()
+  }));
   const no=Number(localStorage.getItem("zasu_beta_application_no")||"");
   const appToken=localStorage.getItem("zasu_beta_access_token")||"";
   if(!Number.isFinite(no)||no<1||!appToken){
-    statusEl.innerHTML='ZASU MASTERの受付情報が必要です。<a href="../upload.html" style="text-decoration:underline">MASTERページを開く →</a>';
-    statusEl.className="handoff-status error";
+    location.href="../upload.html?source=zasu_mix&profile="+encodeURIComponent(profile);
     return;
   }
 
@@ -194,6 +218,7 @@ async function sendToMaster(profile){
 
     statusEl.textContent="MASTERING QUEUED. 結果画面へ移動します…";
     statusEl.className="handoff-status success";
+    sessionStorage.removeItem("zasu_mix_master_handoff");
     sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:appToken}));
     setTimeout(()=>{location.href="../result.html"},350);
   }catch(e){
