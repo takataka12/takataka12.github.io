@@ -1,332 +1,346 @@
 {
-  "generatedAt": "2026-09-29T01:22:19Z",
+  "generatedAt": "2026-09-29T16:40:37Z",
   "edition": "朝刊",
   "headline": "3分で今日を把握",
-  "overview": "政治では国会改革や臨時国会での審議、経済では日本株決算や円相場が報じられています。エンタメ・ネット分野では、イベントや芸能界の動き、SNSで話題の商品・動画などが注目されています。",
+  "overview": "経済では円相場や日本株の動向、中国との経済交流に関する話題が報じられています。エンタメ・ネットでは映画、地域イベント、コンビニ商品などの話題が目立ちます。",
   "isSample": false,
   "topics": [
     {
-      "id": "entertainment-smile-up-president",
+      "id": "entertainment-china-festival-sendai",
       "category": "entertainment",
-      "title": "東山紀之氏、SMILE-UP.社長退任へ",
-      "whatHappened": "東山紀之氏がSMILE-UP.社長を退任する方向だと報じられています。芸能界への復帰を含め、今後については未定とされています。",
-      "whyTrending": "芸能界復帰の可能性を含む今後の進路が注目されているためとみられます。",
-      "context": "見出しでは、東山氏が「良い影響を与えられるような道」を目指す趣旨の発言をしたとされています。退任時期や後任などの詳細は未確認です。",
-      "points": [
-        "SMILE-UP.社長を退任する方向",
-        "芸能界復帰を含む今後は未定",
-        "東スポWEBが報道"
-      ],
-      "sourceCount": 2,
-      "sources": [
-        {
-          "id": "9c87820efffd",
-          "name": "Yahoo!ニュース",
-          "title": "東山紀之氏 SMILE-UP.社長退任へ…芸能界復帰含め今後は未定「良い影響を与えられるような道を」（東スポWEB）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhNXdveWZfNXhvOVM5Zm8tLTY4ZmdUNVhIbThuclhhNk95LUJrNTBGN09jTDFuRG9YRGd0b2JYM3k1ZGtKUDdzQVFobHBpWFBhei14T2NJdHAxTWp5QnFmZE96YnZEeU9qVUtXTDFVWk5kWnRuaHA1MUtySFRRVFE?oc=5",
-          "publishedAt": "2026-09-28T07:20:26Z"
-        },
-        {
-          "id": "ec9088d009ce",
-          "name": "東スポWEB",
-          "title": "東山紀之氏 SMILE-UP.社長退任へ…芸能界復帰含め今後は未定「良い影響を与えられるような道を」",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01R1ppLURMQWhMaUxFYmZxQm1XWXp0cEQtVEN0TFQyYkhqeWpTN1gyVlMyeUxoOGg4cjMzNlY3SEVVTVNPMnA5NmxhUVY0akd1bzkzd013UDJodmsx?oc=5",
-          "publishedAt": "2026-09-28T07:12:00Z"
-        }
-      ],
-      "caution": "退任が正式に完了したか、芸能界復帰の具体的計画があるかは見出しからは確認できません。"
-    },
-    {
-      "id": "entertainment-sendai-china-festival",
-      "category": "entertainment",
-      "title": "仙台市内でチャイナフェス、中国文化を紹介",
-      "whatHappened": "仙台市青葉区でチャイナフェスが開かれ、グルメや音楽を通じて中国文化に触れる催しとして報じられています。来場者やイベントの詳細は見出しからは確認できません。",
-      "whyTrending": "地域で開催された文化イベントとして、複数媒体が取り上げています。",
-      "context": "TBS NEWS DIGとtbc東北放送系の見出しで報じられています。開催日や会場規模などの詳細は未確認です。",
+      "title": "仙台でチャイナフェス、中国文化を紹介",
+      "whatHappened": "仙台市青葉区でチャイナフェスが開かれ、グルメや音楽を通じて中国文化に触れる催しとして報じられています。イベントの詳しい内容や来場者数は、見出しからは確認できません。",
+      "whyTrending": "同じイベントの報道が複数媒体で掲載されています。",
+      "context": "仙台市内で開催された文化イベントと報じられています。開催日や主催者などの詳細は未確認です。",
       "points": [
         "仙台市青葉区で開催",
-        "グルメや音楽を扱う催し",
-        "中国文化に触れるイベント"
+        "中国のグルメや音楽を紹介",
+        "文化に触れるイベントとして報道"
       ],
       "sourceCount": 2,
       "sources": [
         {
           "id": "8ffcdbf26297",
           "name": "TBS NEWS DIG",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
-          "publishedAt": "2026-09-26T12:11:56Z"
+          "publishedAt": "2026-09-26T07:37:00Z"
         },
         {
-          "id": "f1e11197534f",
+          "id": "16219b3aac2f",
           "name": "Yahoo!ニュース",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTF52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
           "publishedAt": "2026-09-26T07:38:13Z"
         }
       ],
-      "caution": "イベントの参加人数や内容の全体像は、入力見出しだけでは確認できません。"
+      "caution": "入力には同一内容とみられる別リンクも含まれています。記事全文の確認はしていません。"
     },
     {
-      "id": "entertainment-government-tieup-controversy",
+      "id": "entertainment-monaki",
       "category": "entertainment",
-      "title": "官公庁と話題作のタイアップ中止をめぐる批判",
-      "whatHappened": "官公庁が話題の映画や番組と予定していたタイアップが、間もなく中止になったと報じられています。見出しでは、「犯罪を美化している」「配慮が欠けている」といった批判が示されています。",
-      "whyTrending": "公的機関とエンタメ作品の連携の是非をめぐる批判が広がったと報じられているためです。",
-      "context": "どの官公庁や作品が対象なのか、また中止の正式な理由や経緯は見出しだけでは確認できません。",
+      "title": "「モナキが変わりすぎて話題」と報道",
+      "whatHappened": "音楽関連の見出しで、「モナキが変わりすぎて話題」と報じられています。特に「おヨネ」に注目が集まっているとされていますが、何がどのように変化したのかは見出しからは確認できません。",
+      "whyTrending": "ナタリーとYahoo!ニュースに同じ話題が掲載されています。",
+      "context": "「モナキ」や「おヨネ」に関する音楽・エンタメ記事とみられます。対象作品や人物の詳細は未確認です。",
       "points": [
-        "官公庁と映画・番組のタイアップが中止",
-        "作品内容への批判が示されている",
-        "日テレNEWS NNNが報道"
+        "モナキの変化が話題と報道",
+        "「おヨネ」に特に注目が集まっているとされる",
+        "詳細な内容は未確認"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "a18157e1322d",
-          "name": "日テレNEWS NNN",
-          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcWpHQzJEU2tXcG1kOGNSSFNBSl9SS3ROSXNCTGtZSTBPVE9kam1zaGRfeGlHOW9DQ1VfckZmTnUxX1NOWHJMSTYwMmx4ejI0N1QxcWtOU3VJQS1VWjgtWE9jdTVWcC1ERDdYYkJ4a21abS15OEtWV3NJZ05rNEI5YXJRbHZKWms?oc=5",
-          "publishedAt": "2026-09-22T23:00:00Z"
+          "id": "c10e9cbaa947",
+          "name": "ナタリー",
+          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
+          "publishedAt": "2026-09-26T07:00:00Z"
         },
         {
-          "id": "545483d7a003",
+          "id": "b071a6f5a142",
           "name": "Yahoo!ニュース",
-          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 (読売テレビ)",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcTAtRE5QYV84R29CaGwzVVh1V05CYW9BaFgxazhZTFJiR0t0eG5VX3B2ZVZ2T3g5Q1ZPVTdkWk00eGxONHp1QUo3aWJiYjh6d1JsaFRNTlBGSk9DUHBpV3J5MnFVR3ptRVlwMUljeTE1WExUTGxYS2FXcjdybl9WME5hcUI4OENpY1NXMnl3?oc=5",
-          "publishedAt": "2026-09-22T23:53:03Z"
+          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYEeE5XczN0c09MSkJSTnBDSDNR?oc=5",
+          "publishedAt": "2026-09-26T07:01:11Z"
         }
       ],
-      "caution": "批判は報道された意見であり、作品や関係者が実際に犯罪を美化したと確認されたわけではありません。"
+      "caution": "見出しだけでは、人物・作品・変更内容の特定や事実関係の詳細確認はできません。"
     },
     {
-      "id": "politics-diet-reform",
-      "category": "politics",
-      "title": "自民・村井氏が国会改革に意欲、野党は審議の形骸化をけん制",
-      "whatHappened": "自民党の村井氏が国会改革への意欲を示したと報じられています。一方、野党は審議の形骸化をけん制したとされています。",
-      "whyTrending": "国会運営の改革をめぐり、与党側の意欲と野党側の懸念が報じられているためです。",
-      "context": "改革の具体的内容や、野党側が示した対応の詳細は見出しからは確認できません。",
+      "id": "entertainment-autumn-films-2026",
+      "category": "entertainment",
+      "title": "2026年秋に映画館で観たい話題作を紹介",
+      "whatHappened": "madameFIGARO.jpが、2026年秋の話題作から映画館で観たい3作品を紹介しています。見出しでは『オデュッセイア』の名前が挙がっていますが、3作品の全容は確認できません。",
+      "whyTrending": "2026年秋の映画作品を扱う記事が複数媒体に掲載されています。",
+      "context": "秋の映画鑑賞に関する紹介記事です。作品の公開日や選定理由は見出しからは不明です。",
       "points": [
-        "村井氏が国会改革に意欲",
-        "野党が審議の形骸化をけん制",
-        "与野党双方の発言が報じられている"
+        "2026年秋の映画作品がテーマ",
+        "映画館で観たい3作品を紹介",
+        "『オデュッセイア』に言及"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "85772d6fedb4",
-          "name": "Yahoo!ニュース",
-          "title": "自民村井氏、国会改革に意欲 野党、審議の形骸化をけん制（共同通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0aDZHZmlTejlJS0dLcktGeVB3c25PYy0yTlU4ekVRSmR0S09RZXVZMFhSRkZ1aW5ZVVR3dkFwZldyYjJPVW9YUGN0cnVmUEw1SHRmNTN5d2wzOFExZDFQLXIyOUdCVzVSaVhaN3dIOFdmc3FaaVZSSXFaY1g1Vkk?oc=5",
-          "publishedAt": "2026-09-27T06:22:23Z"
+          "id": "20eee16f4334",
+          "name": "madameFIGARO.jp",
+          "title": "『オデュッセイア』だけじゃない！ 話題作が目白押しな2026年秋、映画館で観たい３選！ - madameFIGARO.jp",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91MV9iRVA1eUhMSXhXYTNndElhUkt5eVZqeFEwLXFBNmxuSTg1MXp4X3BHUjZVZks2RDJoU1NiWjk2ZjZ0UW1qdXJvWXRrdHVpcjFUMDhpNGpKUQ?oc=5",
+          "publishedAt": "2026-09-25T23:00:00Z"
         },
         {
-          "id": "fe6731d435f3",
-          "name": "福島民報デジタル",
-          "title": "自民村井氏、国会改革意欲 野党、審議形骸化けん制",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtMGxtbTBFWWluT3BTQ0R3bEdkWERaS3VJdkVtWFB6QjdyN0lGX3R0dlRGbFlfSVFlR05tR0hvcmpmbGhQbkFOM1FOT0FDUTQ?oc=5",
-          "publishedAt": "2026-09-28T02:00:00Z"
+          "id": "3e73d901cb69",
+          "name": "Yahoo!ニュース",
+          "title": "話題作が目白押しな2026年秋、映画館で観たい3選！ (フィガロジャポン) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcC1zQ0k5RjU5S2VsemZPZDJtSXNySUQyUFpBaEd0Mlg1a1FqU0ZXcFNjdUJTekdtMUpFdV9FVjdYM19JV295dUpzeW8yY1NIQW05VFBYTGNUMGJlclZqMmFiRHdHNHlGSXJ6VGxxcElKeTZ2cmJGV3VaWG92M2tXVWtIelRlV2poX0ZUMkRR?oc=5",
+          "publishedAt": "2026-09-26T00:30:40Z"
         }
       ],
-      "caution": "改革の成立や実施が決まったことを示す見出しではありません。"
+      "caution": "記事で紹介される具体的な作品名や評価は、見出しから確認できる範囲に限っています。"
     },
     {
-      "id": "politics-opposition-tax-cut",
+      "id": "politics-switzerland-neutrality",
       "category": "politics",
-      "title": "野党、臨時国会を前に充実審議を要求",
-      "whatHappened": "野党が、臨時国会を控えて充実した審議を求めることで一致したと報じられています。消費減税が論点として見出しに挙げられています。",
-      "whyTrending": "臨時国会を前に、消費減税を含む審議の進め方が報じられているためです。",
-      "context": "どの政党がどのような減税案を示しているか、審議日程の詳細は入力からは確認できません。",
+      "title": "スイス、中立政策の厳格化を否決と報道",
+      "whatHappened": "スイスで中立政策の厳格化が否決され、政府に柔軟な運用の余地が残ると報じられています。投票の詳細や今後の政策運用は、入力の見出しだけでは確認できません。",
+      "whyTrending": "Bloomberg系の報道が複数媒体で掲載されています。",
+      "context": "スイスの中立政策をめぐる判断に関する国際政治の話題です。",
       "points": [
-        "野党が充実審議を要求",
-        "臨時国会を控えた動き",
-        "消費減税が論点として示されている"
+        "中立政策の厳格化を否決と報道",
+        "政府に柔軟な運用余地が残るとされる",
+        "投票の詳細は未確認"
+      ],
+      "sourceCount": 3,
+      "sources": [
+        {
+          "id": "12864ae3d99d",
+          "name": "TBS NEWS DIG",
+          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OYTVMMF91b29Wb29FOVV1NVV3a3pMS3V0eUdESWdhU0VoeW81ZjZybWFYNTd1VndaYWJuTHVzclZQRUtpMjIzOVJ4VVB3VWtvbUxBUzNkU2ppbmZRQy1Qay1CN3lBblU0UkxPaGllcVFMMUVRZm53RUxXaVo?oc=5",
+          "publishedAt": "2026-09-28T02:33:04Z"
+        },
+        {
+          "id": "4242bb59e77f",
+          "name": "Bloomberg.com",
+          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxcng3bFFWMFd3Q3F0ckd1ckhkMTUzN1N0eVBacUZhNmtHLXdJanItTHVJU0FZV3hMZW9GN09nd3lnbTZoSzI2LWo0ZWhpczBjbUtQUHRLQlU5TjNZTjA1X0ZNTk1DUDlSaVB1TGl3MGxNVEI3WlE0?oc=5",
+          "publishedAt": "2026-09-28T00:04:00Z"
+        },
+        {
+          "id": "bfbd7a29d0fa",
+          "name": "Yahoo!ニュース",
+          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk?oc=5",
+          "publishedAt": "2026-09-28T01:32:14Z"
+        }
+      ],
+      "caution": "見出しに基づく要約です。否決の対象、投票結果の内訳、今後の影響は詳細未確認です。"
+    },
+    {
+      "id": "politics-china-taiwan-statement",
+      "category": "politics",
+      "title": "中国副首相、日本の一部政治家の台湾問題を批判と報道",
+      "whatHappened": "中国副首相が岩屋前外相に対し、日本の一部政治家が台湾問題で中国側の「ボトムライン」に挑もうとしていると述べたと、時事ドットコムが報じています。発言の具体的な場面や日本側の反応は、見出しからは確認できません。",
+      "whyTrending": "日中間の台湾問題をめぐる発言として速報で報じられています。",
+      "context": "中国側要人と岩屋前外相とのやり取りに関する報道です。",
+      "points": [
+        "中国副首相の発言とされる",
+        "台湾問題をめぐる中国側の懸念が示されたと報道",
+        "日本側の反応は未確認"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "c3dcc48660e7",
+          "id": "c920d0b384de",
           "name": "時事ドットコム",
-          "title": "野党、充実審議要求で一致 消費減税、臨時国会控え",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVExEaVd1VEhkd0JELWY1M2Mzc3dHRTJfMkpkcG9GQnVlV25BWG5xNnRFWVdwXzc2T2hBdjhOXzZ6cXVKTG5Xc3k0dXVXN1B4ZkRMUGZiTkYyZldPSmQwRXNUem5leDlvRWdqR0JSZDRYeWdGZEE4cTUwVUdxelkybjFn?oc=5",
-          "publishedAt": "2026-09-28T10:26:00Z"
+          "title": "【速報】中国副首相は岩屋前外相に「日本の一部政治家が台湾問題で中国側のボトムラインに挑もうとしている」と述べた - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pZi0yT05wTFQyZkNZVkZqMzBnNjRDbGhqbE1fUjlHZElfWktSeGlkeks1NWt2NWZrQU5NeFpscnlGN3QyQnJqRkU3cVFyREhob3lhUjhLbkd1NDFmWXlqVGxUblYtUQ?oc=5",
+          "publishedAt": "2026-09-29T08:26:00Z"
         }
       ],
-      "caution": "見出しからは、野党間の具体的な合意内容や消費減税の実現可能性は確認できません。"
+      "caution": "これは報道された発言内容です。発言の真偽や背景、日本側の見解は入力から確認できません。"
     },
     {
-      "id": "politics-gender-gap",
+      "id": "politics-gender-equality-japan",
       "category": "politics",
-      "title": "日本の男女格差、政治分野の格差が重いとの報道",
-      "whatHappened": "日本の男女平等をめぐり、順位が117位で、政治分野の格差が重いと報じられています。朝日新聞は政治・経済で実効性のある方策を求める社説を掲載しています。",
-      "whyTrending": "男女格差に関する評価と、政治・経済分野での対応をめぐる報道が重なっているためです。",
-      "context": "順位の対象となる調査名や評価時点、具体的な政策内容は見出しからは確認できません。",
+      "title": "日本の男女格差、政治分野の課題を指摘する報道",
+      "whatHappened": "日本の男女格差について、朝日新聞の社説が政治・経済で実効性のある方策を求めています。山陽新聞は、日本の男女平等順位が117位で、政治の格差が重いと報じています。",
+      "whyTrending": "複数の新聞が、日本の男女格差と政治分野の課題を取り上げています。",
+      "context": "社説とニュース見出しに基づく話題です。順位の調査名や対象時点などは、入力からは確認できません。",
       "points": [
-        "日本の男女平等が117位と報道",
-        "政治分野の格差が指摘されている",
-        "政治・経済での対策を求める社説"
+        "日本の男女格差がテーマ",
+        "政治・経済分野の対策を求める社説",
+        "男女平等順位117位との報道"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "c6c8bedf2c11",
-          "name": "山陽新聞",
-          "title": "男女平等１１７位 日本は政治の格差が重い",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFM1cXd6ZXVPTjk3cmdGTHJkS1YwUWlPWGJuRUVMME1GbWY0OGZJMXNDSHVaeWhDSUF1S2duWjBFMFR4TWZMYmRQWWQ2dnVUeU9XcVE?oc=5",
-          "publishedAt": "2026-09-28T23:00:00Z"
+          "id": "f812b373f274",
+          "name": "朝日新聞",
+          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oeFJCdE02OXd2c1IzM2I5dWlwTmh1b1pjUUpScHVIUjhwLWt3S1kwVmhHV09BaFAzSGd2V1VteDZTY2VEMkdOZl9wa0NJN3E4UFZPbl9WVl9TVE1GN0w5RENQdTJwbk0?oc=5",
+          "publishedAt": "2026-09-27T10:00:00Z"
         }
       ],
-      "caution": "順位や評価の算出方法、数値の出典は入力見出しだけでは確認できません。"
+      "caution": "朝日新聞の記事は社説であり、見解を含みます。順位の根拠や調査の詳細は未確認です。"
     },
     {
-      "id": "economy-japan-stock-earnings",
+      "id": "economy-yen-stocks-september-29",
       "category": "economy",
-      "title": "日本企業の決算、増益計画と株価反応を解説",
-      "whatHappened": "野村證券のストラテジストが、2026年度の会社計画では6割強が経常増益となるとの見方を解説しています。別の見出しでは、2026年度第1四半期決算で全体の3分の2が増益となる一方、株価は悪材料に敏感に反応したとされています。",
-      "whyTrending": "企業決算の増益傾向と、株価の反応が同時に注目されているためです。",
-      "context": "対象企業や集計範囲、株価反応の具体的な銘柄・数値は見出しからは確認できません。",
+      "title": "円相場は157円台、日経平均は396円安と報道",
+      "whatHappened": "9月29日午後5時時点の円相場は1ドル157円37～38銭と報じられています。同日の平均株価は396円安の6万5481円27銭でした。",
+      "whyTrending": "為替と株価の最新値が同日に報じられています。",
+      "context": "時事通信の為替・株価情報をYahoo!ファイナンスが掲載しています。",
       "points": [
-        "2026年度会社計画で6割強が経常増益との解説",
-        "第1四半期決算では全体の3分の2が増益との見出し",
-        "悪材料への株価反応が目立つと報道"
+        "午後5時の円相場は157円37～38銭",
+        "正午時点は157円35～35銭",
+        "平均株価は396円安"
+      ],
+      "sourceCount": 1,
+      "sources": [
+        {
+          "id": "21b7bd65b124",
+          "name": "Yahoo!ファイナンス",
+          "title": "円相場、157円37～38銭＝29日午後5時現在(時事通信) - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ1FsY1hZdW1hYzdsVkp1YWdER25teWtremdpbXZrcXJUYmxqYV8zSlFrM1dGVmUtSVJ6Y3lNZ2RYVmJ1Z3p5ak1wNkVjTUJJSW51blM0U0FzdTliUGktTE5BVWNoeEc5d0dzaWRQbTJtRnQybHBHNnp1WmtPaE9rbFdhZ2l3dWM?oc=5",
+          "publishedAt": "2026-09-29T09:00:27Z"
+        }
+      ],
+      "caution": "相場は指定時点の速報値です。変動要因やその後の値は入力から確認できません。"
+    },
+    {
+      "id": "economy-japan-equity-earnings",
+      "category": "economy",
+      "title": "日本企業の決算、増益企業が多いとの分析",
+      "whatHappened": "野村證券のストラテジストによる分析として、2026年度の会社計画では6割強が経常増益との見出しが出ています。2026年度第1四半期決算では全体の3分の2が増益とする見出しもあります。",
+      "whyTrending": "日本株の決算動向と企業計画を扱う分析記事が複数掲載されています。",
+      "context": "野村證券のストラテジストによる決算分析です。対象企業や集計方法は見出しからは確認できません。",
+      "points": [
+        "会社計画で6割強が経常増益との分析",
+        "第1四半期決算は3分の2が増益との見出し",
+        "株価は悪材料に反応しやすいとの指摘もある"
       ],
       "sourceCount": 1,
       "sources": [
         {
           "id": "291d69558cc6",
           "name": "nomura.co.jp",
-          "title": "日本株の決算を読み解く 2026年度の会社計画では6割強が経常増益、共通点は？ 野村證券ストラテジストが解説",
+          "title": "日本株の決算を読み解く 2026年度の会社計画では6割強が経常増益、共通点は？ 野村證券ストラテジストが解説 - nomura.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBMaDV1Mlk1bFE3Wl9iUFpXVU9nMHNkTzVBck1vQzZnenF0Um5HQnVYbFNLQi1RMzFQc0hhRWZNeXpKTldZellTSE1iMDc4Zlk5Um9jRU5Tc2JsY0pLcmcw?oc=5",
           "publishedAt": "2026-09-25T07:00:00Z"
         }
       ],
-      "caution": "増益見通しは解説記事の内容であり、個別企業の業績や株価の将来を保証するものではありません。"
+      "caution": "分析記事の見出しに基づく要約です。増益の具体的な企業名や業績数値は未確認です。"
     },
     {
-      "id": "economy-yen-dollar-market",
+      "id": "economy-keidanren-china-visit",
       "category": "economy",
-      "title": "円相場や海外市場の動きを報道",
-      "whatHappened": "米ドル円が一時157円台となり、円買い介入の可能性に言及する記事が掲載されています。別の市場記事では、ニューヨーク市場で株安・金利上昇・円の伸び悩みが報じられています。",
-      "whyTrending": "為替水準と海外市場の変動が、日本企業の収益や株式市場との関係で注目されているためです。",
-      "context": "実際に為替介入があったかどうかや、市場変動の詳しい要因は見出しからは確認できません。",
+      "title": "経団連、11月に中国視察団を派遣へ",
+      "whatHappened": "経団連が11月に中国視察団を派遣し、小規模な交流を通じて経済関係の維持を図ると、日本経済新聞が報じています。参加者や訪問先などの詳細は、見出しからは確認できません。",
+      "whyTrending": "日本経済団体による中国との経済交流に関する動きとして報じられています。",
+      "context": "経団連と中国の経済関係に関する報道です。",
       "points": [
-        "米ドル円が一時157円台",
-        "円買い介入の可能性に言及",
-        "NY市場は株安・金利上昇・円伸び悩みと報道"
+        "11月に中国視察団を派遣予定",
+        "小規模交流と報道",
+        "経済関係の維持を図るとされる"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "91f995a5c3de",
-          "name": "nomura.co.jp",
-          "title": "米ドル円が一時157円台、円買い介入か 155～160円なら業績改善期待続く 野村證券ストラテジストが解説",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVN3NtdTYtSDY1ajFqSHd1R0dpQ3BzWk9TSVR0Zk9PR1k0UFVxRVJKeVJhbUU3V3NQV2cwNjJtSndqVnhnM2VkWUhyMDlvc25hRHpJTzh4N1RUZ0xmNHow?oc=5",
-          "publishedAt": "2026-09-25T07:00:00Z"
+          "id": "a8e1720284a9",
+          "name": "日本経済新聞",
+          "title": "経団連、11月に中国視察団 小規模交流で経済関係の維持図る - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYQTdyd0MzeHpHYXZ3NFhvN0dZS0lFaU55VllSdUViRXdiVEh0YWZlWG8xWHJnb0NqVVlQRm93UHN0UXk2QV9UUUlNeHI0bU52VktPeFplX2p2M0FOanZBc1c1MUtMcm15WXEwRw?oc=5",
+          "publishedAt": "2026-09-29T09:33:05Z"
         }
       ],
-      "caution": "円買い介入の実施は見出しから確認できず、為替や株価の見通しは記事内の分析として報じられています。"
+      "caution": "訪問の具体的な日程、参加企業、協議内容は未確認です。"
     },
     {
-      "id": "economy-upcoming-earnings",
-      "category": "economy",
-      "title": "9月28日〜10月2日の決算発表予定企業を掲載",
-      "whatHappened": "東洋経済系の媒体が、9月28日から10月2日に決算発表を予定している企業のリストを掲載しています。対象企業の社名や発表内容は見出しからは確認できません。",
-      "whyTrending": "企業決算の発表予定を一覧で確認できる情報として掲載されています。",
-      "context": "入力には別日程の「7月27〜31日」のリストも含まれていますが、今回の見出しとは日付が異なります。",
-      "points": [
-        "9月28日〜10月2日の決算予定を掲載",
-        "企業リスト形式の記事",
-        "決算結果そのものではなく発表予定の情報"
-      ],
-      "sourceCount": 1,
-      "sources": [
-        {
-          "id": "072f3a2c272c",
-          "name": "shikiho.toyokeizai.net",
-          "title": "9月28日～10月2日に決算発表を予定している企業リスト",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE41QU16VVBrUFFYZTA2U1dyWTBlSlREMFM1dU9lQVA4M0FsV3IycVhXQVhDZXUxbE5vZEdLSmxSSnVXTm1ieXJIa0Y2Z3luQWswVXU5djBGUQ?oc=5",
-          "publishedAt": "2026-09-27T09:14:17Z"
-        }
-      ],
-      "caution": "入力上の日付には過去の日程を示す別見出しもあり、掲載情報の時点や更新状況は確認が必要です。"
-    },
-    {
-      "id": "internet-ayumu-imazu-new-song",
+      "id": "internet-familymart-trending-products",
       "category": "internet",
-      "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日に配信",
-      "whatHappened": "Ayumu Imazuが新曲「結び」を10月2日にリリースすると報じられています。曲は「赤い糸」をモチーフに、人と人との縁を描いたラブソングと紹介されています。",
-      "whyTrending": "SNSで話題になっている新曲の配信決定が複数媒体で報じられているためです。",
-      "context": "配信日は10月2日とされています。楽曲のチャート順位やSNS上の反響規模は見出しからは確認できません。",
+      "title": "ファミマの「238円ケーキ」などSNS話題商品を紹介",
+      "whatHappened": "ファミリーマートの238円ケーキがSNSで絶賛されているとして、話題の商品3点を紹介する記事が掲載されています。別の記事では、洋酒が香るカヌレやほろ苦いプリンタルトにも言及されています。",
+      "whyTrending": "SNSで話題とされるコンビニスイーツが複数媒体で紹介されています。",
+      "context": "ファミリーマートの商品を扱った紹介記事です。SNS上の投稿数や売上への影響は確認できません。",
       "points": [
-        "新曲「結び」を10月2日に配信",
-        "赤い糸をモチーフにしたラブソング",
-        "SNSで話題と報道"
+        "238円のケーキが話題と報道",
+        "SNSで絶賛されているとされる",
+        "カヌレやプリンタルトも紹介"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "3722fdb91680",
-          "name": "USENの音楽情報サイト",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbUtkdzRyUEI1NzdSTnY1N3RBb0ZnSVF4YS1DQTF0WEVKVjFsR2VTVEJWeTlsZFF2UHpGbVhkMU9SX1V0VFVYTEplWHN3NVRUVThJYlZ2R1ZlQ1g2RmotZDM4a0dNVV92NUow?oc=5",
-          "publishedAt": "2026-09-28T04:40:07Z"
+          "id": "8bc6ed1812d9",
+          "name": "au Webポータル",
+          "title": "「2日連続で食べた」「毎日買ってる」ファミマの『話題の238円ケーキ』SNSで絶賛されている、“バズり商品”を3つご紹介！ - au Webポータル",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjd0ExMTAwczlwWGk0YndBX2toTmotNTM2VS1TUGZvdnlSdTVZd01feHVxd1lFV1dtcXpiVmtRaEhqVTEtdldPOGk4NV9PYzI3WXJXR0JpTlVvQ1ZSajdaT0Z1bWI3LXM0Q2xFY1FB?oc=5",
+          "publishedAt": "2026-09-29T03:39:00Z"
         },
         {
-          "id": "d0e730d81845",
-          "name": "skream.jp",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWUNORmJnVEhROEwzS29xQktqd1FPRmtIV3lZTVA4TXV0Q0VSSlFnaWlrVmpKRHgtbUNuX1MwQjJtMXFfYjF2VzN5dWhzcUhpemxEWmNnN3J1VVUtVng5YkxOcw?oc=5",
-          "publishedAt": "2026-09-25T12:00:00Z"
-        }
-      ],
-      "caution": "SNSでの反響の規模や楽曲の評価は、入力見出しだけでは確認できません。"
-    },
-    {
-      "id": "internet-discrimination-free-bookstore",
-      "category": "internet",
-      "title": "「差別のない本屋」をめぐる表現の自由の議論",
-      "whatHappened": "Xでトレンド入りした「差別のない本屋」を題材に、同調圧力や表現の自由、「ヘイト本」を誰が決めるのかという論点を扱う記事が掲載されています。",
-      "whyTrending": "書店で扱う本の基準と、差別防止や表現の自由のバランスをめぐる議論がSNSで広がったと報じられているためです。",
-      "context": "記事は2026年8月30日付で、具体的な書店や発言者、議論の経緯は見出しからは確認できません。",
-      "points": [
-        "「差別のない本屋」がXでトレンド入り",
-        "同調圧力と表現の自由が論点",
-        "ヘイト本の判断主体を問題提起"
-      ],
-      "sourceCount": 1,
-      "sources": [
-        {
-          "id": "57499f2ad557",
-          "name": "現代ビジネス",
-          "title": "Xでトレンド入り『差別のない本屋』が突きつけた、日本の「同調圧力」と「表現の自由」のジレンマ…「ヘイト本」は誰が決めるのか",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9lZWdXenJpbGpEdmFSZjdrVU0tdGJHYW1GY2xfWFQtdUVQNU5JWjRmQ3JtdkNFTE5DRDZ4WmN5eUdwM0N1LXM3YjU0TkNYMDQ?oc=5",
-          "publishedAt": "2026-08-30T07:00:00Z"
-        }
-      ],
-      "caution": "記事の論点提示であり、書店や関係者の見解、社会的な合意を示すものではありません。"
-    },
-    {
-      "id": "internet-kungfu-cat",
-      "category": "internet",
-      "title": "「カンフー猫」の達人技がSNSで話題",
-      "whatHappened": "「カンフー猫」と呼ばれる猫の動きがSNSで話題になり、達人技の数々に「強そう」「かっこいい」と絶賛の声が寄せられたと報じられています。",
-      "whyTrending": "動きや映像に対するSNS上の反応が広がっているためとみられます。",
-      "context": "猫の名前や撮影場所、映像の詳細は見出しからは確認できません。",
-      "points": [
-        "「カンフー猫」がSNSで話題",
-        "達人技のような動きが注目された",
-        "「強そう」「かっこいい」との反応"
-      ],
-      "sourceCount": 1,
-      "sources": [
-        {
-          "id": "6820ed357519",
+          "id": "5414de773174",
           "name": "Yahoo!ニュース",
-          "title": "「カンフー猫」がSNSで話題⇒繰り出された”達人技”の数々に「強そう」「かっこいい」と絶賛の声（ハフポスト日本版）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvZnJkc2FGdzZ6Q2kxVFFpUXJxYU95bGE0c0lZeHdnRk1CSzNfdEZOOUFsd0NQZ3N2YUppZGlDcGdnSG04aUNORlZGWGE2bjFyYmpCVy04ckFZSHBERU0xTmU4Yl8zdVM5YVBIcmMwYkZTQVFPOGlfeUowaXBQclk?oc=5",
-          "publishedAt": "2026-09-28T22:10:30Z"
+          "title": "「2日連続で食べた」「毎日買ってる」ファミマの『話題の238円ケーキ』SNSで絶賛されている、“バズり商品”を3つご紹介！ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95dXFyTk5NRkVwaTFqVFdVMENSSW5PRUdKQVlXU0dJU19jbmdCU1dnZzNHU0ZjT0w1MFRKUEpjU2l1Uk1FWGNGVnZTVkxoa1l1aFo3LW9MNjRqN280LWhtdWtsZGVvaWJlS1NGTDU2eEZvNGI4Q3BkeEZDc1VNVlE?oc=5",
+          "publishedAt": "2026-09-29T03:35:01Z"
         }
       ],
-      "caution": "SNS上の反応は記事見出しに示された範囲の情報で、反響全体の規模は未確認です。"
+      "caution": "「絶賛」や「バズり」は記事の表現です。人気の規模や商品の販売状況は未確認です。"
+    },
+    {
+      "id": "internet-report-station-idol",
+      "category": "internet",
+      "title": "『報ステ』に映り込んだアイドルの服装が話題と報道",
+      "whatHappened": "『報道ステーション』に映り込んだとされるアイドルについて、ミニスカート姿にネットの注目が集まったと報じられています。アイドルの氏名や映り込みの経緯は、見出しからは確認できません。",
+      "whyTrending": "同じ話題が複数媒体で掲載されています。",
+      "context": "テレビ番組への映り込みと、その後のネット上の反応を扱った記事です。",
+      "points": [
+        "『報道ステーション』への映り込みが話題と報道",
+        "ミニスカート姿への反応を紹介",
+        "人物や経緯の詳細は未確認"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "436b87bfa703",
+          "name": "ｄメニューニュース",
+          "title": "『報ステ』映り込み話題のアイドル、ミニスカコーデにネット釘づけ「ヤバい」「スタイル抜群美女」 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaWNVVTdUOHNPU1RvdUlfb1dublRJMGJGYVRxSDdVcXBFTEJPNVowb3NyUUdlX2pEYTdGV1hINXJhQVF5Q2x6Nk92RkxvSGZJQ0hGZE9Rd2IyYVRQdEY1ZjlYUmM5bXNXQVdBVGNmNjgtc29Rd2J3Z1AyZ1c5b055dmdvQdIBiAFBVV95cUxQWWk1czVKWEVlMU1IQ0ZWOWxoWEdGaXlwMy1yOU1xTWh4clkxOWdHcTFKVUNKYk12dy1kRVZwRmg1cWdVRWdrQjRTYW5LR3RHZWFJa2tzWE1SQzBBQnVxRWdlMFBvRElqdVJRUjQzUnZEcllNNWVRT0ttd2pzdWJFX2ZoM3FsVEJF?oc=5",
+          "publishedAt": "2026-09-26T22:10:00Z"
+        },
+        {
+          "id": "66df1fb1ecaf",
+          "name": "ENCOUNT",
+          "title": "『報ステ』映り込み話題のアイドル、ミニスカコーデにネット釘づけ「ヤバい」「スタイル抜群美女」 - ENCOUNT",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3cU9ObS1qWWREc2kxeTd5M0NKNFRHNVY4dVhGckZyeHB2TUw2R1BqZkh3WlZTaU51UmhrY1l1SXFNR2J6MGdHWmVJUVNrTU10SmhB?oc=5",
+          "publishedAt": "2026-09-26T22:24:54Z"
+        }
+      ],
+      "caution": "見出しはネット上の反応を伝えるもので、人物の評価や話題の規模を確認したものではありません。"
+    },
+    {
+      "id": "internet-naruto-new-anime",
+      "category": "internet",
+      "title": "『NARUTO』完全新作アニメ情報、NYコミコンで公開へ",
+      "whatHappened": "『NARUTO』の完全新作アニメ情報が、NYコミコンで世界初公開される予定だと報じられています。具体的な公開日時や作品内容は、見出しからは確認できません。",
+      "whyTrending": "人気作品の新作アニメ情報として、SNSで話題になっていると報じられています。",
+      "context": "『NARUTO』関連の新作アニメ情報に関する告知です。",
+      "points": [
+        "完全新作アニメ情報を告知予定",
+        "NYコミコンで世界初公開と報道",
+        "作品内容や公開時期は未確認"
+      ],
+      "sourceCount": 1,
+      "sources": [
+        {
+          "id": "5e16f061c66a",
+          "name": "Yahoo!ニュース",
+          "title": "「遅かった…待っていたぞぉ！」SNSで話題沸騰！『NARUTO』完全新作アニメ情報がNYコミコンで世界初公開へ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zTzJWVVFNNEUxV1VFMEZOTDlIeGUzZTYwNGdORERheVc3alh6UEhwLTRJczFiRjFVdnhrV3NVSnRVeGJhOW9wUlhtVVBnaTI1Q2hack9WUVZkTjZRbk1SVkJoT19HbUxiQVdkSEZoZmdOTWVoMzUyX2dCX3ZTOUk?oc=5",
+          "publishedAt": "2026-09-29T09:18:16Z"
+        }
+      ],
+      "caution": "「完全新作」や「世界初公開」は見出しに基づく表現です。公式発表の詳細は記事全文未確認です。"
     }
   ]
 }
