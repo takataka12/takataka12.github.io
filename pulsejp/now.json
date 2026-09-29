@@ -1,68 +1,8 @@
 {
-  "generatedAt": "2026-09-29T15:51:45Z",
+  "generatedAt": "2026-09-29T20:47:05Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
-    {
-      "id": "b147b054f3c421",
-      "category": "politics",
-      "title": "中国、新たな政策を検討へ-不動産市場の安定や雇用促進、内需拡大で（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
-      "sourceCount": 3,
-      "latestPublishedAt": "2026-09-29T01:32:15Z",
-      "sources": [
-        {
-          "id": "ff069001f54266",
-          "name": "Yahoo!ニュース",
-          "title": "中国、新たな政策を検討へ-不動産市場の安定や雇用促進、内需拡大で（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5WZEU4TmljajhqWFlxQUNwV3hFYjV2MldJcFRtZGdwcXZzLVJud2lBYTdqSHJ6eTR0YjY0eXdGNXhIZ1duUzhmNXo4c0hEdV9pVEJUakJsYnJFNmFOV2ZtLTA5SjBNMGtNZ0JTWlBGNTB2X1BtdERJQUx4Ym12cGs?oc=5",
-          "publishedAt": "2026-09-29T01:32:15Z"
-        },
-        {
-          "id": "e5d20cd2aa656a",
-          "name": "TBS NEWS DIG",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OYTVMMF91b29Wb29FOVV1NVV3a3pMS3V0eUdESWdhU0VoeW81ZjZybWFYNTd1VndaYWJuTHVzclZQRUtpMjIzOVJ4VVB3VWtvbUxBUzNkU2ppbmZRQy1Qay1CN3lBblU0UkxPaGllcVFMMUVRZm53RUxXaVo?oc=5",
-          "publishedAt": "2026-09-28T02:33:04Z"
-        },
-        {
-          "id": "bfbd7a29d0fa89",
-          "name": "Yahoo!ニュース",
-          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk?oc=5",
-          "publishedAt": "2026-09-28T01:32:14Z"
-        },
-        {
-          "id": "cf437c670a7391",
-          "name": "Bloomberg.com",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxcng3bFFWMFd3Q3F0ckd1ckhkMTUzN1N0eVBacUZhNmtHLXdJanItTHVJU0FZV3hMZW9GN09nd3lnbTZoSzI2LWo0ZWhpczBjbUtQUHRLQlU5TjNZTjA1X0ZNTk1DUDlSaVB1TGl3MGxNVEI3WlE0?oc=5",
-          "publishedAt": "2026-09-28T00:04:00Z"
-        }
-      ]
-    },
-    {
-      "id": "ace58137d0d03b",
-      "category": "economy",
-      "title": "優勝の日本チーム アジア大会 - toyota.keizai.biz",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-29T15:12:54Z",
-      "sources": [
-        {
-          "id": "46a4847f4c7f1c",
-          "name": "toyota.keizai.biz",
-          "title": "優勝の日本チーム アジア大会 - toyota.keizai.biz",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rN1JCUTIweGNiWGhkRjc3YXZ1RlViZEtwTjB1ZndObVNMcEpwWVlHQ05QMWJMbGw0Z2RndWI0SkVndS11Q2J1ZWVsX1EwOWxaSVRZ?oc=5",
-          "publishedAt": "2026-09-29T15:12:54Z"
-        },
-        {
-          "id": "1284b99a1cda64",
-          "name": "調布経済新聞",
-          "title": "優勝の日本チーム アジア大会 - 調布経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15ZTlmdUJkYk84Qjh2My0xQk04MDR2Y0JVdWJmZUhMVDR3ZFFqWkZZXzdhTEloYkJsNnM3b1VwWktidElYYTUzTmM2WUtiUnFsUVE?oc=5",
-          "publishedAt": "2026-09-29T15:04:48Z"
-        }
-      ]
-    },
     {
       "id": "a28ac4ed4424ec",
       "category": "internet",
@@ -87,25 +27,25 @@
       ]
     },
     {
-      "id": "3416ff952d9b37",
+      "id": "00e6c11e0a7c03",
       "category": "politics",
-      "title": "マクロスコープ：迫る臨時国会、消費減税の参院審議に「簡単ではない」の声 - Reuters",
+      "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-29T02:40:00Z",
+      "latestPublishedAt": "2026-09-28T02:33:04Z",
       "sources": [
         {
-          "id": "2e1e45d7f179cb",
-          "name": "Reuters",
-          "title": "マクロスコープ：迫る臨時国会、消費減税の参院審議に「簡単ではない」の声 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQ3hRRE1CZzkzT24tM2RhZHFOeHhrQkdWYkt2UVV6VlVJQU42d1RNYXhlUElDM1d0T1JnMmE4ODVFUlRCdzM0RTktY052YTMtVzNHMHJxWVlzbTNobTN6NUFFZnFSMml4T3Q2Y3RzMDhfSk85bEJBdno4dzg1RktmVmVBS2p5UQ?oc=5",
-          "publishedAt": "2026-09-29T02:40:00Z"
+          "id": "12864ae3d99d03",
+          "name": "TBS NEWS DIG",
+          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OYTVMMF91b29Wb29FOVV1NVV3a3pMS3V0eUdESWdhU0VoeW81ZjZybWFYNTd1VndaYWJuTHVzclZQRUtpMjIzOVJ4VVB3VWtvbUxBUzNkU2ppbmZRQy1Qay1CN3lBblU0UkxPaGllcVFMMUVRZm53RUxXaVo?oc=5",
+          "publishedAt": "2026-09-28T02:33:04Z"
         },
         {
-          "id": "c84b62030c0416",
-          "name": "ニューズウィーク日本版",
-          "title": "マクロスコープ：迫る臨時国会、消費減税の参院審議に「簡単ではない」の声 - ニューズウィーク日本版",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB5TGVYSVY5MFU4Y0NrZnQ0aW1IUmIxdDZ2ZlJQVUxKNmVkQnQxTnhSQmhqUVFDcjZrUjJIMXpZdFNRbmxXVWlpdV9DaVQ0Vy1rRVBYdWN6Y3pvQQ?oc=5",
-          "publishedAt": "2026-09-29T02:40:00Z"
+          "id": "67eefba4c35212",
+          "name": "Yahoo!ニュース",
+          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk?oc=5",
+          "publishedAt": "2026-09-28T01:32:14Z"
         }
       ]
     },
@@ -209,25 +149,18 @@
       ]
     },
     {
-      "id": "64dfe752fe21cc",
+      "id": "7b30f7b66b1c01",
       "category": "economy",
-      "title": "来週の欧州主要企業決算 なし - みんかぶ",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-25T22:46:00Z",
+      "title": "ドラッカーと土光敏夫が1976年の対談で言い当てていた「日本の適切な経済成長」のシナリオ - ダイヤモンド・オンライン",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-29T19:20:00Z",
       "sources": [
         {
-          "id": "54622a0d9f5be5",
-          "name": "みんかぶ",
-          "title": "来週の欧州主要企業決算 なし - みんかぶ",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE04aHkySTlGbnRDLWo1cjRUTkhkVmZubDB1SXl0UkhuX056YXVqaWo1NVNTdjVaVmpNQnBwcy1nZzZGemc3VzE1UUgtS29nQWF1OWNLd0dxNDlDeXdBV0JrSmZn?oc=5",
-          "publishedAt": "2026-09-25T22:46:00Z"
-        },
-        {
-          "id": "3d6587f40ef0c6",
-          "name": "みんかぶ FX/為替",
-          "title": "来週の中国主要企業決算 なし - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZRGJSWkJkVjRYblBtNDV2X2JVRkp1SVM4Y0VxMTFnOUNhYm1UdTVaYU4zRDN4NWN4ejhSZFJuVFExVGR3WGEtbA?oc=5",
-          "publishedAt": "2026-09-25T22:35:57Z"
+          "id": "395eb434adb298",
+          "name": "ダイヤモンド・オンライン",
+          "title": "ドラッカーと土光敏夫が1976年の対談で言い当てていた「日本の適切な経済成長」のシナリオ - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1YaDRudUVjTjhzcmh0ZmlPNnBUVWhCRnBOTGZGcXJ0NUlNa3pvNGxianlxYUQtQkdQWHppa3cwWWNHYS1Oa3ZBUHpVOTHSAU9BVV95cUxNd1dmOUxQaWo1S3d0N2JyRlVhdWtwQXNnYWtQWDR3QkRmVnNza1REb0tXc1d3b1phM25SMU5lNmRnd0NfQ0d6cE1HTHgwM1dr?oc=5",
+          "publishedAt": "2026-09-29T19:20:00Z"
         }
       ]
     },
@@ -244,29 +177,6 @@
           "title": "見逃し配信中！ごはん泥棒!?ＳＮＳで話題の秋田名物「ぼだっこ」【あさイチ】 - nhk.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oRHhOYUlWWVdJdDl1UDdhVjVfa3F1XzBUWEdxc05MWmF4TkdwWXV0dXRjR1lGcGlmU2FLM3E4RTkzOWNfQTg1RXNRZzBNSGgzQzIwMnluYUpSZE5kSWE1MG5YeC0?oc=5",
           "publishedAt": "2026-09-29T12:11:58Z"
-        }
-      ]
-    },
-    {
-      "id": "7ee2cdb98fbbf6",
-      "category": "economy",
-      "title": "円相場 売り買いが交錯して小幅な値動きに - news.web.nhk",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T11:05:26Z",
-      "sources": [
-        {
-          "id": "0c01e41e950613",
-          "name": "news.web.nhk",
-          "title": "円相場 売り買いが交錯して小幅な値動きに - news.web.nhk",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UTjVWWnpzRlkwc1ZfclE1OWtING8wZUV4Tk16bHpoNjRKdFhCUUFuLTFsNDlVNndSNVVCSDVIWXhKSDNFLTNva0thd3JDbVdaY3FWWGViaTNNVnl4S2dF?oc=5",
-          "publishedAt": "2026-09-29T11:05:26Z"
-        },
-        {
-          "id": "4fd43ca07abd33",
-          "name": "news.web.nhk",
-          "title": "円相場 値下がり 1ドル＝158円台に - news.web.nhk",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE55eWNPSGo5ZWxRREJSSjBxU1pRVVNsV01JUlRETVk5RE1tUURYM3pRdkJEVVlGcVBCdzhZTUZkV0t6RmJiWTNkZ3QzMGpIcVVpeDNpbm15VGNTSTZUdjlZ?oc=5",
-          "publishedAt": "2026-09-24T02:56:08Z"
         }
       ]
     },
@@ -289,14 +199,14 @@
     {
       "id": "fb1cc64a953972",
       "category": "economy",
-      "title": "経団連、11月に中国視察団 小規模交流で経済関係の維持図る - nikkei.com",
+      "title": "経団連、11月に中国視察団 小規模交流で経済関係の維持図る - 日本経済新聞",
       "sourceCount": 1,
       "latestPublishedAt": "2026-09-29T09:33:05Z",
       "sources": [
         {
           "id": "a8e1720284a9a5",
-          "name": "nikkei.com",
-          "title": "経団連、11月に中国視察団 小規模交流で経済関係の維持図る - nikkei.com",
+          "name": "日本経済新聞",
+          "title": "経団連、11月に中国視察団 小規模交流で経済関係の維持図る - 日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYQTdyd0MzeHpHYXZ3NFhvN0dZS0lFaU55VllSdUViRXdiVEh0YWZlWG8xWHJnb0NqVVlQRm93UHN0UXk2QV9UUUlNeHI0bU52VktPeFplX2p2M0FOanZBc1c1MUtMcm15WXEwRw?oc=5",
           "publishedAt": "2026-09-29T09:33:05Z"
         }
@@ -319,32 +229,25 @@
       ]
     },
     {
-      "id": "577c6aad5e1d22",
+      "id": "d23aabd0852163",
       "category": "economy",
-      "title": "円小幅安、157円台前半＝東京市場(時事通信) - Yahoo!ファイナンス",
+      "title": "円相場、157円37～38銭＝29日午後5時現在(時事通信) - Yahoo!ファイナンス",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T09:00:34Z",
+      "latestPublishedAt": "2026-09-29T09:00:27Z",
       "sources": [
         {
-          "id": "99d4b07d2737f1",
-          "name": "Yahoo!ファイナンス",
-          "title": "円小幅安、157円台前半＝東京市場(時事通信) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTnc3dHpPSWx5NG44VlItZ0t4ZWFtTW5GMldmb2owLWN5OE1oakdDZGVtZTZfUmI0QVhfRmQwejBCdW4ySzBqS3R4UkpKdUtnbGJvRDlWQ0JmNmtkWHRRLWQ1VEc1NnpNbHNYNGE5STlQTnNfWlE1QUl0V3MxMWc5OEdyRTVULXc?oc=5",
-          "publishedAt": "2026-09-29T09:00:34Z"
-        },
-        {
-          "id": "50254577b66a40",
+          "id": "21b7bd65b12401",
           "name": "Yahoo!ファイナンス",
           "title": "円相場、157円37～38銭＝29日午後5時現在(時事通信) - Yahoo!ファイナンス",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ1FsY1hZdW1hYzdsVkp1YWdER25teWtremdpbXZrcXJUYmxqYV8zSlFrM1dGVmUtSVJ6Y3lNZ2RYVmJ1Z3p5ak1wNkVjTUJJSW51blM0U0FzdTliUGktTE5BVWNoeEc5d0dzaWRQbTJtRnQybHBHNnp1WmtPaE9rbFdhZ2l3dWM?oc=5",
           "publishedAt": "2026-09-29T09:00:27Z"
         },
         {
-          "id": "d6b7b65a6348b3",
+          "id": "819e4508214e87",
           "name": "Yahoo!ファイナンス",
-          "title": "396円安の6万5481円27銭＝29日の平均株価(時事通信) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOWxyeFRZMkZ4SVlWSE50Q2tVa2FxbVFXaVd4MFBGRXJWTExxVmZwcE52dzRqWThTeG9MaG9fNlpnS0pTV0FvaEdMU05vdlhQYmVLY3dSOW9LelZuZlZQMThmV21PRFM3dWRwci0ta0YzQTU2alVYV0J3WkxjdlM4Tk1qWC03MXM?oc=5",
-          "publishedAt": "2026-09-29T07:00:32Z"
+          "title": "円相場、157円35～35銭＝29日正午現在(時事通信) - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNENnZVV4RXhtdWQzUEw4MXR1Wkk4OGotdnJyRzlYV3RxWmlEVnpGTEhLODh0ZnFuYjdtNUpOWXdoMFN1Qnl3ZVFZMGRtSHZfcUZVM05PRHduTHdDZnM5UFUyUGMtX3BBTi13MHFzbzNGVzNVSERFYm1MeG4tbTJGaGk4V2h5Qms?oc=5",
+          "publishedAt": "2026-09-29T04:00:22Z"
         }
       ]
     },
@@ -429,22 +332,6 @@
       ]
     },
     {
-      "id": "bef6b672b1f9cd",
-      "category": "internet",
-      "title": "ファミマの「SNSで話題の商品」3選！洋酒が香るカヌレや、ほろ苦いプリンタルトなど、どれも絶品です！ - BuzzFeed",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T03:01:03Z",
-      "sources": [
-        {
-          "id": "405a78bd5f9b76",
-          "name": "BuzzFeed",
-          "title": "ファミマの「SNSで話題の商品」3選！洋酒が香るカヌレや、ほろ苦いプリンタルトなど、どれも絶品です！ - BuzzFeed",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWlY2UlBOaW1JejJWbTFLbTZ2SnNYaU8zaVJnS05zUUZ1dVZzdE1Ed3hXRFowSlFBbTVwNzFsRjlVR3dwZEVqbW15dkhlakFSUEo5QVlhVnprYWZaaXU4SG5TeGFyOFF4bkpoSXdjVWNyNWZnTkVwYmY5MHpHUTZ0U3daczZhQk9i?oc=5",
-          "publishedAt": "2026-09-29T03:01:03Z"
-        }
-      ]
-    },
-    {
       "id": "74c53b41415bbd",
       "category": "politics",
       "title": "日本の政治において、野党に最も期待する役割は何ですか？ - Yahoo!ニュース",
@@ -479,16 +366,80 @@
     {
       "id": "91aa3a2b53f337",
       "category": "entertainment",
-      "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟 - tokyo-sports.co.jp",
+      "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟 - 東スポWEB",
       "sourceCount": 1,
       "latestPublishedAt": "2026-09-28T20:00:00Z",
       "sources": [
         {
           "id": "6bed0d28cf522e",
-          "name": "tokyo-sports.co.jp",
-          "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟 - tokyo-sports.co.jp",
+          "name": "東スポWEB",
+          "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟 - 東スポWEB",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DNGNUdmZkQ2VrMzZjRnI4ek9RaGRqUnJ1d1dfbE9NWU81VXJxNzVjR25OOWFZWURmd0VDOEgzSDB4UDlNd2NiTEJ5c2tsWkRtRjhKUmVEUkltVlJJ?oc=5",
           "publishedAt": "2026-09-28T20:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c3bea3909d584c",
+      "category": "entertainment",
+      "title": "芸能界もしものピンチ対策会議！KEY TO LIT・猪狩蒼弥さん編！ - TVer",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-28T16:19:37Z",
+      "sources": [
+        {
+          "id": "0d3e64e12d7c7d",
+          "name": "TVer",
+          "title": "芸能界もしものピンチ対策会議！KEY TO LIT・猪狩蒼弥さん編！ - TVer",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtZnhaWmJlcXpkX0pYVXVCa2RNcUFnVlptUDNjODdPYktodDJia1drci1BZW13U3d0TmlIRzJ2YVAtOE1MYlM2TE90aw?oc=5",
+          "publishedAt": "2026-09-28T16:19:37Z"
+        }
+      ]
+    },
+    {
+      "id": "42471b9bff7137",
+      "category": "entertainment",
+      "title": "SMILE-UP.東山紀之社長「なぜ今」退任？　芸能界復帰は「何も考えていない」 - zakⅡ",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-28T08:16:23Z",
+      "sources": [
+        {
+          "id": "7bdf712bad8e6b",
+          "name": "zakⅡ",
+          "title": "SMILE-UP.東山紀之社長「なぜ今」退任？　芸能界復帰は「何も考えていない」 - zakⅡ",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NN0MzUWIya281MHhidTg1M3BaVDc3UC00ZVJXM3duOUt5SUF2M1RGdnhzZC1MTlM3LW9wZDZmQy1SQ053eWlSMHlLR0NvenNGR2RqTF9nSFp1eEQyeUY5b2FXSER0Um44UFBKdXFqLTBoNjNMTkEyNtIBjAFBVV95cUxQeFlrbTh1Z21WN09zdGJsSUVaXzk4QU1uWHJkWllETU5QQ2paOVV3VmhZUWRCWjBScU9pOTNSUEljOFlqT0R0b3E1c3Q5RGxsX2dURzNrZEdJRjJHa1VzWDJaY2NyVmU4UXZlbFFjQkZHM0haaXU4VDJSanNDR1BaaHBRZlhKb0xJS3pWWA?oc=5",
+          "publishedAt": "2026-09-28T08:16:23Z"
+        }
+      ]
+    },
+    {
+      "id": "ee6d358e34065e",
+      "category": "internet",
+      "title": "「文鳥界隈」から圧倒的共感！ SNSで話題のコミックエッセイ『うちの文鳥はカワイイの2乗』9/28発売 「わかる！」の嵐を呼んだ4コマ漫画が、加筆修正＆描き下ろしを加えて待望の書籍化 - アットプレス",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-28T01:20:00Z",
+      "sources": [
+        {
+          "id": "0bbeef8d31e519",
+          "name": "アットプレス",
+          "title": "「文鳥界隈」から圧倒的共感！ SNSで話題のコミックエッセイ『うちの文鳥はカワイイの2乗』9/28発売 「わかる！」の嵐を呼んだ4コマ漫画が、加筆修正＆描き下ろしを加えて待望の書籍化 - アットプレス",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WZnJEZEdBZFU0QVY5aTd3enB2dFZzeGRhdkFzQ3puV01XbFE5d2t1Y3hhOTE5amdCQkg2UzhmRTQ0eEZzNVpLVWxlRXhaMFk?oc=5",
+          "publishedAt": "2026-09-28T01:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9ffde763b25704",
+      "category": "politics",
+      "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-27T10:00:00Z",
+      "sources": [
+        {
+          "id": "f812b373f2749f",
+          "name": "朝日新聞",
+          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oeFJCdE02OXd2c1IzM2I5dWlwTmh1b1pjUUpScHVIUjhwLWt3S1kwVmhHV09BaFAzSGd2V1VteDZTY2VEMkdOZl9wa0NJN3E4UFZPbl9WVl9TVE1GN0w5RENQdTJwbk0?oc=5",
+          "publishedAt": "2026-09-27T10:00:00Z"
         }
       ]
     }
