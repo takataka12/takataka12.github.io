@@ -85,7 +85,8 @@ button.addEventListener("click",async()=>{
           application_no:no,access_token:accessToken,
           original_name:selectedFile.name,
           bytes:selectedFile.size,
-          mime_type:selectedFile.type||"application/octet-stream"
+          mime_type:selectedFile.type||"application/octet-stream",
+          mastering_profile:selectedMasteringProfile()
         })
       });
       let ticket={}; try{ticket=await ticketRes.json()}catch(_){}
@@ -124,7 +125,8 @@ button.addEventListener("click",async()=>{
         original_name:selectedFile.name,
         bytes:selectedFile.size,
         mime_type:selectedFile.type||"application/octet-stream",
-          visitor_id:visitorId,session_id:sessionId
+        visitor_id:visitorId,session_id:sessionId,
+        mastering_profile:selectedMasteringProfile()
       });
 
       status.textContent="音源を非公開ストレージへアップロードしています…";
@@ -155,7 +157,8 @@ button.addEventListener("click",async()=>{
 
       await edgePost(cfg.completeMixUploadEndpoint,{
         application_no:no,access_token:accessToken,
-        upload_id:ticket.upload_id
+        upload_id:ticket.upload_id,
+        mastering_profile:selectedMasteringProfile()
       });
     }
 
