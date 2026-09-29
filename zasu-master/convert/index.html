@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#080808">
 <title>ZASU CONVERT｜Audio Format Converter</title>
-<meta name="description" content="WAV / FLAC / AIFF / ALACを高品質変換。SoXR HQ対応のZASU MASTER無料ツール。">
-<link rel="stylesheet" href="assets/style.css?v=20260929-2305">
+<meta name="description" content="WAV / FLAC / AIFF / ALACを高品質変換。MP3 320kbps出力とSoXR HQに対応したZASU MASTER無料ツール。">
+<link rel="stylesheet" href="assets/style.css?v=20260929-2345">
 </head>
 <body>
 <header>
@@ -21,7 +21,7 @@
   <div class="wrap">
     <div class="kicker">ZASU MASTER / FREE TOOL</div>
     <h1>ZASU<br>CONVERT.</h1>
-    <p class="lead">音を変えずに、形式だけ整える。<br>WAV / FLAC / AIFF / ALACをSoXR HQで高品質変換。</p>
+    <p class="lead">音を変えずに、形式だけ整える。<br>WAV / FLAC / AIFF / ALACをSoXR HQで高品質変換。MP3 320kbps出力にも対応。</p>
   </div>
 </section>
 
@@ -46,6 +46,7 @@
       <button class="preset" data-preset="cd_master"><strong>CD MASTER</strong><span>44.1kHz / 16bit WAV + Dither</span></button>
       <button class="preset" data-preset="lossless_archive"><strong>LOSSLESS ARCHIVE</strong><span>FLAC / 元の解像度を維持</span></button>
       <button class="preset" data-preset="apple_lossless"><strong>APPLE LOSSLESS</strong><span>ALAC / 元の解像度を維持</span></button>
+      <button class="preset" data-preset="mp3_hq"><strong>MP3 HIGH QUALITY</strong><span>MP3 / 320kbps / 配布・確認用</span></button>
     </div>
 
     <div class="settings-grid">
@@ -55,6 +56,7 @@
           <option value="flac">FLAC</option>
           <option value="aiff">AIFF</option>
           <option value="alac">ALAC (.m4a)</option>
+          <option value="mp3">MP3 (320 kbps)</option>
         </select>
       </label>
       <label>SAMPLE RATE
@@ -98,7 +100,7 @@
     <div class="metrics">
       <div><span>FORMAT</span><strong id="resultFormat">—</strong></div>
       <div><span>SAMPLE RATE</span><strong id="resultRate">—</strong></div>
-      <div><span>BIT DEPTH</span><strong id="resultBits">—</strong></div>
+      <div><span>DEPTH / BITRATE</span><strong id="resultBits">—</strong></div>
       <div><span>SIZE</span><strong id="resultSize">—</strong></div>
     </div>
     <a id="downloadButton" class="btn" href="#">DOWNLOAD FILE</a>
@@ -114,7 +116,7 @@
 </main>
 
 <footer><div class="wrap">© 2026 ZASU MASTER / ZASU</div></footer>
-<script src="assets/config.js?v=20260929-2305"></script>
-<script src="assets/app.js?v=20260929-2305"></script>
+<script src="assets/config.js?v=20260929-2345"></script>
+<script src="assets/app.js?v=20260929-2345"></script>
 </body>
 </html>
