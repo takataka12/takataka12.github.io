@@ -10,6 +10,13 @@ from pathlib import Path
 from typing import Any
 
 
+AUTO_BALANCE_TARGET_DELTA_DB = {
+    "natural": -4.0,
+    "modern": -2.5,
+    "rock": -2.0,
+    "loud": -1.5,
+}
+
 STYLE_PARAMS = {
     "natural": {
         "hpf": 75, "body_db": -0.5, "presence_db": 1.0,
@@ -86,6 +93,64 @@ def analyze_loudness(path: Path) -> dict[str, float]:
         "lufs": _safe_float(d.get("input_i"), -18.0),
         "true_peak": _safe_float(d.get("input_tp"), -3.0),
         "lra": _safe_float(d.get("input_lra"), 0.0),
+    }
+
+
+def analyze_band_mean_db(path: Path, low_hz: int = 250, high_hz: int = 5000) -> float:
+    """Estimate average energy in the vocal-intelligibility band.
+
+    This deliberately uses a simple, deterministic FFmpeg pass.  It is not
+    source separation or an AI model; it is a masking-aware signal estimate
+    used only to choose a conservative vocal trim.
+    """
+    p = subprocess.run([
+        "ffmpeg", "-hide_banner", "-loglevel", "info", "-i", str(path),
+        "-af", f"highpass=f={low_hz},lowpass=f={high_hz},volumedetect",
+        "-f", "null", "-",
+    ], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=False)
+    text = p.stderr or ""
+    matches = re.findall(r"mean_volume:\s*(-?\d+(?:\.\d+)?)\s*dB", text)
+    if not matches:
+        return -40.0
+    return _safe_float(matches[-1], -40.0)
+
+
+def auto_balance_gain_db(
+    *,
+    style: str,
+    vocal_lufs: float,
+    instrumental_lufs: float,
+    vocal_band_db: float,
+    instrumental_band_db: float,
+    vocal_target: float,
+    instrumental_gain: float,
+    eq_presence_db: float,
+) -> tuple[float, dict[str, float]]:
+    style = style if style in AUTO_BALANCE_TARGET_DELTA_DB else "modern"
+
+    # Predict where the processed vocal will sit in the 250 Hz–5 kHz band.
+    # loudnorm moves the vocal toward vocal_target; presence EQ contributes
+    # only partially to average band energy, so use a conservative weighting.
+    normalization_gain = vocal_target - vocal_lufs
+    presence_total = float(STYLE_PARAMS[style]["presence_db"]) + float(eq_presence_db)
+    predicted_vocal_band = vocal_band_db + normalization_gain + (0.18 * presence_total)
+    adjusted_inst_band = instrumental_band_db + instrumental_gain
+
+    current_delta = predicted_vocal_band - adjusted_inst_band
+    target_delta = AUTO_BALANCE_TARGET_DELTA_DB[style]
+    raw_gain = target_delta - current_delta
+
+    # Keep AUTO BALANCE useful but conservative.  Manual mode remains available
+    # for intentionally extreme vocal placement.
+    gain = max(-2.0, min(5.0, raw_gain))
+    gain = round(gain * 2.0) / 2.0
+    return gain, {
+        "vocal_band_db": vocal_band_db,
+        "instrumental_band_db": instrumental_band_db,
+        "predicted_vocal_band_db": predicted_vocal_band,
+        "adjusted_instrumental_band_db": adjusted_inst_band,
+        "target_delta_db": target_delta,
+        "predicted_delta_before_gain_db": current_delta,
     }
 
 
@@ -167,12 +232,15 @@ def mix_files(
     eq_body_db: float = 0.0,
     eq_presence_db: float = 0.0,
     eq_air_db: float = 0.0,
+    auto_balance: bool = False,
 ) -> dict[str, Any]:
     style = style if style in STYLE_PARAMS else "modern"
     vp = probe_audio(vocal)
     ip = probe_audio(instrumental)
     vlevel = analyze_loudness(vocal)
     ilevel = analyze_loudness(instrumental)
+    vocal_band = analyze_band_mean_db(vocal)
+    instrumental_band = analyze_band_mean_db(instrumental)
 
     sample_rate = ip["sample_rate"]
     if sample_rate not in (44100, 48000, 88200, 96000):
@@ -180,9 +248,24 @@ def mix_files(
 
     target = vocal_target_lufs(ilevel["lufs"], style)
     inst_gain = instrumental_gain_db(ilevel["lufs"])
+
+    balance_meta: dict[str, float] = {}
+    applied_vocal_gain = float(vocal_gain_db)
+    if auto_balance:
+        applied_vocal_gain, balance_meta = auto_balance_gain_db(
+            style=style,
+            vocal_lufs=vlevel["lufs"],
+            instrumental_lufs=ilevel["lufs"],
+            vocal_band_db=vocal_band,
+            instrumental_band_db=instrumental_band,
+            vocal_target=target,
+            instrumental_gain=inst_gain,
+            eq_presence_db=eq_presence_db,
+        )
+
     vf = vocal_filter(
         style, target, sample_rate,
-        vocal_gain_db=vocal_gain_db,
+        vocal_gain_db=applied_vocal_gain,
         reverb_amount=reverb_amount,
         eq_body_db=eq_body_db,
         eq_presence_db=eq_presence_db,
@@ -213,13 +296,21 @@ def mix_files(
     mp = probe_audio(mix_out)
     wp = probe_audio(wet_out)
     return {
-        "engine": "ZASU MIX v0.2.1",
+        "engine": "ZASU MIX v0.3",
         "style": style,
         "vocal_input_lufs": round(vlevel["lufs"], 2),
         "instrumental_lufs": round(ilevel["lufs"], 2),
         "vocal_target_lufs": round(target, 2),
         "instrumental_gain_db": round(inst_gain, 2),
-        "vocal_gain_db": round(float(vocal_gain_db), 2),
+        "vocal_gain_db": round(float(applied_vocal_gain), 2),
+        "auto_balance": bool(auto_balance),
+        "auto_balance_gain_db": round(float(applied_vocal_gain), 2) if auto_balance else None,
+        "auto_balance_vocal_band_db": round(float(balance_meta.get("vocal_band_db", vocal_band)), 2),
+        "auto_balance_instrumental_band_db": round(float(balance_meta.get("instrumental_band_db", instrumental_band)), 2),
+        "auto_balance_predicted_vocal_band_db": round(float(balance_meta.get("predicted_vocal_band_db", 0.0)), 2) if auto_balance else None,
+        "auto_balance_adjusted_instrumental_band_db": round(float(balance_meta.get("adjusted_instrumental_band_db", 0.0)), 2) if auto_balance else None,
+        "auto_balance_target_delta_db": round(float(balance_meta.get("target_delta_db", 0.0)), 2) if auto_balance else None,
+        "auto_balance_delta_before_gain_db": round(float(balance_meta.get("predicted_delta_before_gain_db", 0.0)), 2) if auto_balance else None,
         "reverb_amount": int(reverb_amount),
         "eq_body_db": round(float(eq_body_db), 2),
         "eq_presence_db": round(float(eq_presence_db), 2),
@@ -237,7 +328,7 @@ def mix_files(
             "de-esser",
             "style compressor",
             "adaptive vocal loudness placement",
-            "manual vocal gain",
+            "masking-aware auto balance" if auto_balance else "manual vocal gain",
             "adjustable ambience/reverb",
             "3-band vocal tone offsets",
             "instrumental-safe balance",
@@ -274,6 +365,7 @@ def self_test() -> None:
                 eq_body_db=0.0,
                 eq_presence_db=0.0,
                 eq_air_db=0.0,
+                auto_balance=(style == "modern"),
             )
             if not mix_out.exists() or mix_out.stat().st_size <= 0:
                 raise RuntimeError(f"self_test_mix_missing:{style}")
@@ -283,6 +375,8 @@ def self_test() -> None:
                 raise RuntimeError(f"self_test_sample_rate:{style}")
             if report["output_true_peak"] > -1.5:
                 raise RuntimeError(f"self_test_limiter_headroom:{style}:{report['output_true_peak']}")
+            if style == "modern" and not (-2.0 <= float(report["vocal_gain_db"]) <= 5.0):
+                raise RuntimeError(f"self_test_auto_balance_gain:{report['vocal_gain_db']}")
         print("ZASU MIX self-test ready", flush=True)
 
 
