@@ -194,7 +194,7 @@ def mix_files(
         "[vproc]asplit=2[vwet][vmix];"
         f"[1:a]aresample={sample_rate}:resampler=soxr:precision=28,volume={inst_gain:.2f}dB[inst];"
         "[inst][vmix]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
-        "alimiter=limit=0.794328:attack=5:release=80[mix]"
+        "alimiter=limit=0.794328:attack=5:release=80:level=false[mix]"
     )
 
     cmd = [
@@ -213,7 +213,7 @@ def mix_files(
     mp = probe_audio(mix_out)
     wp = probe_audio(wet_out)
     return {
-        "engine": "ZASU MIX v0.2",
+        "engine": "ZASU MIX v0.2.1",
         "style": style,
         "vocal_input_lufs": round(vlevel["lufs"], 2),
         "instrumental_lufs": round(ilevel["lufs"], 2),
@@ -281,6 +281,8 @@ def self_test() -> None:
                 raise RuntimeError(f"self_test_wet_missing:{style}")
             if report["output_sample_rate"] != 48000:
                 raise RuntimeError(f"self_test_sample_rate:{style}")
+            if report["output_true_peak"] > -1.5:
+                raise RuntimeError(f"self_test_limiter_headroom:{style}:{report['output_true_peak']}")
         print("ZASU MIX self-test ready", flush=True)
 
 
