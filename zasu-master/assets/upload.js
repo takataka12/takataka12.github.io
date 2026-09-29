@@ -29,7 +29,7 @@ if(directMixHandoff){
   setMasteringProfile(directMixHandoff.mastering_profile);
   if(manualUploadSource)manualUploadSource.hidden=true;
   if(directMixSource)directMixSource.hidden=false;
-  button.textContent="START MASTERING";
+  button.textContent="START MASTERING PREVIEW";
   status.textContent="ZASU MIXの完成音源を受信しました。スタイルを確認して開始してください。";
 }
 
@@ -222,12 +222,13 @@ button.addEventListener("click",async()=>{
       await edgePost(cfg.completeMixUploadEndpoint,{
         application_no:no,access_token:accessToken,
         upload_id:ticket.upload_id,
-        mastering_profile:selectedMasteringProfile()
+        mastering_profile:selectedMasteringProfile(),
+        preview_only:true
       });
     }
 
     sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:accessToken}));
-    status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>音源を受け付けました。処理キューへ登録されます。<br><a href="result.html" style="text-decoration:underline">→ マスタリング状況を見る</a></div>';
+    status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>まず30秒の無料プレビューを作成します。<br><a href="result.html" style="text-decoration:underline">→ プレビュー状況を見る</a></div>';
     fileInput.value="";
     selectedFile=null;
     fileMeta.textContent="ファイルはまだ選択されていません。";
@@ -237,6 +238,6 @@ button.addEventListener("click",async()=>{
   }finally{
     progress.classList.remove("active");
     button.disabled=false;
-    button.textContent=directMixHandoff?"START MASTERING":"UPLOAD MIX";
+    button.textContent=directMixHandoff?"START MASTERING PREVIEW":"CREATE FREE PREVIEW";
   }
 });
