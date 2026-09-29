@@ -112,3 +112,53 @@ textarea{min-height:120px;resize:vertical}.form-row{display:grid;grid-template-c
 }
 
 .direct-mix-source{margin:2px 0 14px;padding:24px;border:1px solid #4b4b4b;border-radius:18px;background:linear-gradient(135deg,#151515,#0b0b0b)}.direct-mix-source[hidden]{display:none}.direct-mix-badge{display:inline-flex;padding:5px 9px;border:1px solid #555;border-radius:999px;color:#bdbdbd;font-size:9px;font-weight:900;letter-spacing:.14em;margin-bottom:12px}.direct-mix-source>strong{display:block;font-size:24px;letter-spacing:-.03em}.direct-mix-source>span{display:block;margin-top:7px;color:#999;font-size:12px;line-height:1.6}
+
+
+/* ZASU AUDIO home + pricing */
+.audio-home .audio-hero{padding:84px 0 56px;border-top:0;min-height:78vh;display:flex;align-items:center}
+.audio-eyebrow{font-size:12px;letter-spacing:.18em;color:#8f8f8f;font-weight:900}
+.audio-hero h1{font-size:clamp(72px,13vw,148px);margin:18px 0 8px}
+.audio-tagline{font-size:clamp(24px,4vw,46px);font-weight:900;letter-spacing:-.035em}
+.audio-hero p{margin:18px 0 0;max-width:760px}
+.audio-hero-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:28px}
+.audio-text-link{font-size:13px;color:#c7c7c7;font-weight:800;padding:10px 2px}
+.beta-strip{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:30px;padding:13px 15px;border:1px solid #2d2d2d;border-radius:14px;background:#0d0d0d;color:#a5a5a5;font-size:12px}
+.beta-strip strong{color:#fff;letter-spacing:.1em}.beta-strip a{margin-left:auto;color:#fff;font-weight:900}
+.audio-products h2,.audio-flow h2,.audio-pricing-teaser h2{margin-top:12px}
+.audio-product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
+.audio-product-card{display:flex;flex-direction:column;min-height:500px;padding:24px;border:1px solid #292929;border-radius:22px;background:#0f0f0f}
+.audio-product-card.featured{background:linear-gradient(150deg,#171717,#0b0b0b);border-color:#484848}
+.audio-product-card h3{font-size:clamp(36px,4.5vw,58px);line-height:.92;letter-spacing:-.055em;margin:8px 0 18px}
+.audio-product-card p{color:#a9a9a9;margin:0}
+.product-bottom{margin-top:auto;padding-top:28px;display:grid;gap:12px}.launch-price{font-size:13px;color:#cfcfcf;font-weight:900;letter-spacing:.03em}
+.flow-line{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr auto 1fr;align-items:center;gap:10px;margin-top:30px}
+.flow-line>div{padding:18px;border:1px solid #2a2a2a;border-radius:16px;background:#0d0d0d;min-height:118px}
+.flow-line>div span{font-size:10px;color:#707070;font-weight:900}.flow-line>div strong{display:block;margin-top:5px;font-size:15px}.flow-line>div small{display:block;color:#7e7e7e;margin-top:3px}.flow-line>b{color:#666}
+.full-offer{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;margin-top:22px;padding:26px;border:1px solid #444;border-radius:22px;background:linear-gradient(135deg,#171717,#0a0a0a)}
+.full-offer h3{font-size:clamp(42px,6vw,72px);line-height:.95;letter-spacing:-.055em;margin:8px 0 12px}.full-offer p{color:#aaa;margin:0}
+.full-offer-price{display:grid;justify-items:end}.full-offer-price small{color:#777;font-weight:900;letter-spacing:.12em}.full-offer-price strong{font-size:58px;line-height:1;letter-spacing:-.055em}.full-offer-price span{color:#888;font-size:12px;margin-bottom:12px}
+.pricing-hero{padding:92px 0 52px;border-top:0}.pricing-hero p{font-size:20px;color:#b8b8b8}
+.pricing-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.pricing-card{display:flex;flex-direction:column;padding:24px;border:1px solid #292929;border-radius:22px;background:#0f0f0f;min-height:430px}
+.pricing-card-featured{border-color:#ededed;background:linear-gradient(145deg,#181818,#0d0d0d)}
+.pricing-card h2{font-size:clamp(38px,5vw,60px);margin:10px 0 18px}.pricing-card p{color:#aaa}.pricing-card .btn{margin-top:auto}
+.big-price{display:flex;align-items:baseline;gap:8px;margin-bottom:14px}.big-price strong{font-size:54px;letter-spacing:-.055em}.big-price span{color:#888;font-size:12px}
+.payment-rule-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:28px}
+.payment-rule-grid>div,.faq-grid>div{padding:18px;border:1px solid #292929;border-radius:16px;background:#0d0d0d}.payment-rule-grid span{color:#777;font-size:11px;font-weight:900}.payment-rule-grid strong{display:block;margin-top:6px}.payment-rule-grid p,.faq-grid p{color:#8f8f8f;font-size:12px;margin:6px 0 0}
+.payment-note{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px;padding:14px 16px;border-left:3px solid #777;background:#101010;color:#999}.payment-note strong{color:#eee}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}
+@media(max-width:900px){
+  .audio-product-grid{grid-template-columns:1fr}
+  .audio-product-card{min-height:0}
+  .flow-line{grid-template-columns:1fr}.flow-line>b{display:none}
+  .full-offer{grid-template-columns:1fr}.full-offer-price{justify-items:start}
+  .pricing-grid{grid-template-columns:1fr}
+  .payment-rule-grid{grid-template-columns:1fr 1fr}
+}
+@media(max-width:620px){
+  .audio-home .audio-hero{padding-top:58px;min-height:0}
+  .audio-hero h1{font-size:clamp(66px,21vw,102px)}
+  .audio-hero-actions .btn{width:100%}
+  .beta-strip a{margin-left:0}
+  .payment-rule-grid,.faq-grid{grid-template-columns:1fr}
+}
