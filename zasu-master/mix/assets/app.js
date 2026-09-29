@@ -119,12 +119,14 @@ const stageCopy={
   queued:["QUEUED","MIXサーバーを待っています。"],
   claimed:["STARTING","AUTO MIX ENGINEを起動しています。"],
   downloading:["DOWNLOADING","音源を処理サーバーへ転送しています。"],
+  preview_select:["PREVIEW","30秒の試聴区間を準備しています。"],
   analyzing:["ANALYZING","音量・マスキング・フォーマットを解析しています。"],
   mixing:["AUTO MIXING","EQ / De-esser / Compressor / Vocal Level / Reverbを反映しています。"],
   preparing_results:["RENDERING","24-bit WAVを書き出しています。"],
   uploading_results:["SAVING","完成ファイルを保存しています。"],
   finalizing:["FINALIZING","最終確認しています。"],
   retrying:["RETRYING","一時的なエラーのため再試行しています。"],
+  preview_ready:["PREVIEW READY","無料試聴が完成しました。"],
   completed:["READY","AUTO MIXが完成しました。"]
 };
 
@@ -134,7 +136,10 @@ async function poll(){
     const s=await api("status",{job_id:job.id,access_token:job.token});
     const copy=stageCopy[s.stage]||["PROCESSING","AUTO MIX処理中です。"];
     setProgress(Number(s.progress||0),copy[0],copy[1]);
-    if(s.status==="completed"){showResult(s);return}
+    if(s.status==="completed"){
+      if(s.processing_phase==="preview"){showPreview(s);return}
+      showResult(s);return
+    }
     if(s.status==="failed"){q("#mixButton").disabled=false;q("#statusText").textContent=s.user_message||"MIXに失敗しました。";return}
     pollTimer=setTimeout(poll,2500);
   }catch(_){
@@ -143,8 +148,12 @@ async function poll(){
   }
 }
 
-function showResult(s){
-  q("#mixButton").disabled=false;
+function downloadUrl(kind){
+  const source=readyMix||job;
+  return cfg.downloadBase.replace(/\/$/,"")+"/download/"+encodeURIComponent(source.id)+"/"+kind+"?token="+encodeURIComponent(source.token);
+}
+
+function renderCommonMetrics(s){
   q("#resultStyle").textContent=String(s.mix_style||"").toUpperCase();
   q("#resultRate").textContent=s.output_sample_rate?(Number(s.output_sample_rate)/1000).toFixed(Number(s.output_sample_rate)%1000?1:0)+" kHz":"—";
   q("#resultLufs").textContent=Number.isFinite(Number(s.output_lufs))?Number(s.output_lufs).toFixed(2)+" LUFS":"—";
@@ -156,10 +165,78 @@ function showResult(s){
   }else{
     autoResult.hidden=true;
   }
+}
+
+function showPreview(s){
+  q("#mixButton").disabled=false;
   readyMix={id:job.id,token:job.token};
   sessionStorage.setItem("zasu_mix_ready",JSON.stringify(readyMix));
-  q("#mixDownload").href=cfg.downloadBase.replace(/\/$/,"")+"/download/"+encodeURIComponent(readyMix.id)+"/mix?token="+encodeURIComponent(readyMix.token);
-  q("#vocalDownload").href=cfg.downloadBase.replace(/\/$/,"")+"/download/"+encodeURIComponent(readyMix.id)+"/vocal?token="+encodeURIComponent(readyMix.token);
+  renderCommonMetrics(s);
+  q("#resultHeading").textContent="PREVIEW READY.";
+  q("#previewAbArea").hidden=false;
+  q("#previewGate").hidden=false;
+  q("#fullDownloads").hidden=true;
+  q("#fullMasterHandoff").hidden=true;
+  q("#previewBeforeAudio").src=downloadUrl("preview_before");
+  q("#previewAfterAudio").src=downloadUrl("preview_mix");
+  q("#previewBeforeAudio").load();
+  q("#previewAfterAudio").load();
+  if(cfg.commerceEnabled){
+    q("#unlockMixButton").textContent="UNLOCK FULL MIX — ¥500";
+    q("#unlockFullButton").textContent="MIX + MASTER — ¥800";
+    q("#previewGateCopy").textContent="試聴を確認してからSquareで決済。決済後にフル尺を処理します。";
+  }else{
+    q("#unlockMixButton").textContent="CREATE FULL MIX — FREE BETA";
+    q("#unlockFullButton").textContent="MIX + MASTER — FREE BETA";
+    q("#previewGateCopy").textContent="OPEN BETA中は決済なしでフル尺処理できます。";
+  }
+  q("#resultCard").hidden=false;
+  q("#resultCard").scrollIntoView({behavior:"smooth",block:"start"});
+  sessionStorage.removeItem("zasu_mix_job");
+}
+
+async function unlockFull(plan){
+  const source=readyMix||job;
+  const statusEl=q("#previewUnlockStatus");
+  if(!source?.id||!source?.token){statusEl.textContent="試聴ジョブが見つかりません。";return}
+  if(cfg.commerceEnabled){
+    localStorage.setItem("zasu_pending_unlock",JSON.stringify({
+      type:"mix",plan,job_id:source.id,access_token:source.token,created_at:Date.now()
+    }));
+    location.href=cfg.checkoutPage+"?plan="+encodeURIComponent(plan)+"&source=mix";
+    return;
+  }
+  const buttons=[q("#unlockMixButton"),q("#unlockFullButton")];
+  buttons.forEach(x=>x.disabled=true);
+  statusEl.textContent="フル尺MIXを準備しています…";
+  try{
+    const body=await api("unlock_full",{job_id:source.id,access_token:source.token});
+    if(body.processing_phase!=="full")throw new Error("unlock_failed");
+    job=source;
+    sessionStorage.setItem("zasu_mix_job",JSON.stringify(job));
+    q("#previewGate").hidden=true;
+    q("#previewAbArea").hidden=true;
+    q("#resultCard").hidden=true;
+    setProgress(10,"QUEUED","フル尺AUTO MIXを待っています。");
+    poll();
+  }catch(e){
+    statusEl.textContent=e?.message||"フル尺処理を開始できませんでした。";
+    buttons.forEach(x=>x.disabled=false);
+  }
+}
+
+function showResult(s){
+  q("#mixButton").disabled=false;
+  renderCommonMetrics(s);
+  q("#resultHeading").textContent="MIX READY.";
+  q("#previewAbArea").hidden=true;
+  q("#previewGate").hidden=true;
+  q("#fullDownloads").hidden=false;
+  q("#fullMasterHandoff").hidden=false;
+  readyMix={id:job.id,token:job.token};
+  sessionStorage.setItem("zasu_mix_ready",JSON.stringify(readyMix));
+  q("#mixDownload").href=downloadUrl("mix");
+  q("#vocalDownload").href=downloadUrl("vocal");
   q("#resultCard").hidden=false;
   q("#resultCard").scrollIntoView({behavior:"smooth",block:"start"});
   sessionStorage.removeItem("zasu_mix_job");
@@ -229,6 +306,8 @@ async function sendToMaster(profile){
 }
 q("#sendStandard").addEventListener("click",()=>sendToMaster("standard"));
 q("#sendLoud").addEventListener("click",()=>sendToMaster("loud_otv"));
+q("#unlockMixButton").addEventListener("click",()=>unlockFull("mix"));
+q("#unlockFullButton").addEventListener("click",()=>unlockFull("full"));
 
 const saved=sessionStorage.getItem("zasu_mix_job");
 if(saved){
@@ -247,7 +326,9 @@ if(saved){
       job=JSON.parse(ready);
       if(job?.id&&job?.token){
         api("status",{job_id:job.id,access_token:job.token}).then(s=>{
-          if(s.status==="completed")showResult(s);
+          if(s.status==="completed"){
+            if(s.processing_phase==="preview")showPreview(s);else showResult(s)
+          }
           else if(s.status!=="failed"){setProgress(Number(s.progress||10),"RESTORING","MIX状況を確認しています。");poll()}
         }).catch(()=>{});
       }
