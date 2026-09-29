@@ -10,11 +10,18 @@ from pathlib import Path
 from typing import Any
 
 
-AUTO_BALANCE_TARGET_DELTA_DB = {
-    "natural": -4.0,
-    "modern": -2.5,
-    "rock": -2.0,
-    "loud": -1.5,
+AUTO_BALANCE_LEAD_OFFSET_DB = {
+    "natural": 0.0,
+    "modern": 2.0,
+    "rock": 2.0,
+    "loud": 2.5,
+}
+
+AUTO_BALANCE_MAX_GAIN_DB = {
+    "natural": 3.0,
+    "modern": 5.0,
+    "rock": 5.0,
+    "loud": 5.0,
 }
 
 STYLE_PARAMS = {
@@ -126,31 +133,40 @@ def auto_balance_gain_db(
     instrumental_gain: float,
     eq_presence_db: float,
 ) -> tuple[float, dict[str, float]]:
-    style = style if style in AUTO_BALANCE_TARGET_DELTA_DB else "modern"
+    style = style if style in AUTO_BALANCE_LEAD_OFFSET_DB else "modern"
 
-    # Predict where the processed vocal will sit in the 250 Hz–5 kHz band.
-    # loudnorm moves the vocal toward vocal_target; presence EQ contributes
-    # only partially to average band energy, so use a conservative weighting.
-    normalization_gain = vocal_target - vocal_lufs
-    presence_total = float(STYLE_PARAMS[style]["presence_db"]) + float(eq_presence_db)
-    predicted_vocal_band = vocal_band_db + normalization_gain + (0.18 * presence_total)
-    adjusted_inst_band = instrumental_band_db + instrumental_gain
+    # The vocal chain already normalizes the dry vocal to vocal_target.
+    # AUTO BALANCE then places that processed vocal relative to the backing
+    # loudness.  A small mid-band density correction makes dense guitars /
+    # synths receive slightly more vocal level without letting one frequency
+    # measurement dominate the decision.
+    adjusted_inst_lufs = instrumental_lufs + instrumental_gain
+    lead_offset = AUTO_BALANCE_LEAD_OFFSET_DB[style]
+    desired_vocal_lufs = adjusted_inst_lufs + lead_offset
 
-    current_delta = predicted_vocal_band - adjusted_inst_band
-    target_delta = AUTO_BALANCE_TARGET_DELTA_DB[style]
-    raw_gain = target_delta - current_delta
+    inst_mid_density = instrumental_band_db - instrumental_lufs
+    if inst_mid_density > -6.0:
+        masking_correction = 0.5
+    elif inst_mid_density < -11.0:
+        masking_correction = -0.5
+    else:
+        masking_correction = 0.0
 
-    # Keep AUTO BALANCE useful but conservative.  Manual mode remains available
-    # for intentionally extreme vocal placement.
-    gain = max(-2.0, min(5.0, raw_gain))
+    raw_gain = desired_vocal_lufs - vocal_target + masking_correction
+    max_gain = AUTO_BALANCE_MAX_GAIN_DB[style]
+    gain = max(-2.0, min(max_gain, raw_gain))
     gain = round(gain * 2.0) / 2.0
+
+    predicted_effective_vocal_lufs = vocal_target + gain
     return gain, {
         "vocal_band_db": vocal_band_db,
         "instrumental_band_db": instrumental_band_db,
-        "predicted_vocal_band_db": predicted_vocal_band,
-        "adjusted_instrumental_band_db": adjusted_inst_band,
-        "target_delta_db": target_delta,
-        "predicted_delta_before_gain_db": current_delta,
+        "adjusted_instrumental_lufs": adjusted_inst_lufs,
+        "desired_vocal_lufs": desired_vocal_lufs,
+        "lead_offset_db": lead_offset,
+        "instrumental_mid_density_db": inst_mid_density,
+        "masking_correction_db": masking_correction,
+        "predicted_effective_vocal_lufs": predicted_effective_vocal_lufs,
     }
 
 
@@ -296,7 +312,7 @@ def mix_files(
     mp = probe_audio(mix_out)
     wp = probe_audio(wet_out)
     return {
-        "engine": "ZASU MIX v0.3",
+        "engine": "ZASU MIX v0.3.1",
         "style": style,
         "vocal_input_lufs": round(vlevel["lufs"], 2),
         "instrumental_lufs": round(ilevel["lufs"], 2),
@@ -307,10 +323,12 @@ def mix_files(
         "auto_balance_gain_db": round(float(applied_vocal_gain), 2) if auto_balance else None,
         "auto_balance_vocal_band_db": round(float(balance_meta.get("vocal_band_db", vocal_band)), 2),
         "auto_balance_instrumental_band_db": round(float(balance_meta.get("instrumental_band_db", instrumental_band)), 2),
-        "auto_balance_predicted_vocal_band_db": round(float(balance_meta.get("predicted_vocal_band_db", 0.0)), 2) if auto_balance else None,
-        "auto_balance_adjusted_instrumental_band_db": round(float(balance_meta.get("adjusted_instrumental_band_db", 0.0)), 2) if auto_balance else None,
-        "auto_balance_target_delta_db": round(float(balance_meta.get("target_delta_db", 0.0)), 2) if auto_balance else None,
-        "auto_balance_delta_before_gain_db": round(float(balance_meta.get("predicted_delta_before_gain_db", 0.0)), 2) if auto_balance else None,
+        "auto_balance_adjusted_instrumental_lufs": round(float(balance_meta.get("adjusted_instrumental_lufs", ilevel["lufs"] + inst_gain)), 2) if auto_balance else None,
+        "auto_balance_desired_vocal_lufs": round(float(balance_meta.get("desired_vocal_lufs", target)), 2) if auto_balance else None,
+        "auto_balance_lead_offset_db": round(float(balance_meta.get("lead_offset_db", 0.0)), 2) if auto_balance else None,
+        "auto_balance_instrumental_mid_density_db": round(float(balance_meta.get("instrumental_mid_density_db", 0.0)), 2) if auto_balance else None,
+        "auto_balance_masking_correction_db": round(float(balance_meta.get("masking_correction_db", 0.0)), 2) if auto_balance else None,
+        "auto_balance_effective_vocal_lufs": round(float(balance_meta.get("predicted_effective_vocal_lufs", target + applied_vocal_gain)), 2) if auto_balance else None,
         "reverb_amount": int(reverb_amount),
         "eq_body_db": round(float(eq_body_db), 2),
         "eq_presence_db": round(float(eq_presence_db), 2),
