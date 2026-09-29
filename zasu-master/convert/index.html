@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080808">
+<title>ZASU CONVERT｜Audio Format Converter</title>
+<meta name="description" content="WAV / FLAC / AIFF / ALACを高品質変換。SoXR HQ対応のZASU MASTER無料ツール。">
+<link rel="stylesheet" href="assets/style.css?v=20260929-1">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="../index.html"><span class="main">ZASU MASTER</span><span class="jp">ザスマス</span></a>
+    <nav><a href="../index.html">MASTER</a><a href="../upload.html">UPLOAD</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="kicker">ZASU MASTER / FREE TOOL</div>
+    <h1>ZASU<br>CONVERT.</h1>
+    <p class="lead">音を変えずに、形式だけ整える。<br>WAV / FLAC / AIFF / ALACをSoXR HQで高品質変換。</p>
+  </div>
+</section>
+
+<section>
+<div class="wrap convert-shell">
+  <div class="convert-card">
+    <div class="mode">01 / SOURCE</div>
+    <h2>音源を選ぶ</h2>
+    <label class="dropzone" id="dropzone" for="audioFile">
+      <input id="audioFile" type="file" accept=".wav,.wave,.flac,.aiff,.aif,.m4a,audio/*">
+      <strong>WAV / FLAC / AIFF / ALAC</strong>
+      <span>最大500MB・大きなファイルは自動分割アップロード</span>
+    </label>
+    <div class="file-meta" id="fileMeta">ファイルはまだ選択されていません。</div>
+  </div>
+
+  <div class="convert-card">
+    <div class="mode">02 / PRESET</div>
+    <h2>変換方法</h2>
+    <div class="preset-grid">
+      <button class="preset active" data-preset="keep_original"><strong>KEEP ORIGINAL</strong><span>サンプルレート・bit深度を維持</span></button>
+      <button class="preset" data-preset="cd_master"><strong>CD MASTER</strong><span>44.1kHz / 16bit WAV + Dither</span></button>
+      <button class="preset" data-preset="lossless_archive"><strong>LOSSLESS ARCHIVE</strong><span>FLAC / 元の解像度を維持</span></button>
+      <button class="preset" data-preset="apple_lossless"><strong>APPLE LOSSLESS</strong><span>ALAC / 元の解像度を維持</span></button>
+    </div>
+
+    <div class="settings-grid">
+      <label>OUTPUT FORMAT
+        <select id="outputFormat">
+          <option value="wav">WAV</option>
+          <option value="flac">FLAC</option>
+          <option value="aiff">AIFF</option>
+          <option value="alac">ALAC (.m4a)</option>
+        </select>
+      </label>
+      <label>SAMPLE RATE
+        <select id="sampleRate">
+          <option value="">KEEP ORIGINAL</option>
+          <option value="44100">44.1 kHz</option>
+          <option value="48000">48 kHz</option>
+          <option value="88200">88.2 kHz</option>
+          <option value="96000">96 kHz</option>
+        </select>
+      </label>
+      <label>BIT DEPTH
+        <select id="bitDepth">
+          <option value="">KEEP ORIGINAL</option>
+          <option value="16">16 bit</option>
+          <option value="24">24 bit</option>
+        </select>
+      </label>
+      <label class="dither-check"><input id="dither" type="checkbox"> TPDF DITHER <span>16bit化するときに使用</span></label>
+    </div>
+
+    <div class="quality-note">
+      <strong>SoXR HQ / Precision 28</strong>
+      <span>サンプルレート変換が必要な場合のみ高品質リサンプル。EQ・コンプ・リミッター・音圧変更は行いません。</span>
+    </div>
+  </div>
+
+  <div class="convert-card">
+    <div class="mode">03 / CONVERT</div>
+    <button class="btn" id="convertButton">CONVERT AUDIO</button>
+    <div class="job-progress" id="jobProgress" hidden>
+      <div class="progress-track"><span id="progressBar"></span></div>
+      <div class="progress-copy"><strong id="progressTitle">PREPARING</strong><span id="progressText">変換を準備しています。</span></div>
+    </div>
+    <div id="statusText" class="status-text"></div>
+  </div>
+
+  <div class="convert-card result-card" id="resultCard" hidden>
+    <div class="mode">READY</div>
+    <h2>CONVERT READY.</h2>
+    <div class="metrics">
+      <div><span>FORMAT</span><strong id="resultFormat">—</strong></div>
+      <div><span>SAMPLE RATE</span><strong id="resultRate">—</strong></div>
+      <div><span>BIT DEPTH</span><strong id="resultBits">—</strong></div>
+      <div><span>SIZE</span><strong id="resultSize">—</strong></div>
+    </div>
+    <a id="downloadButton" class="btn" href="#">DOWNLOAD FILE</a>
+    <p class="expire">変換ファイルは24時間で期限切れになります。</p>
+  </div>
+
+  <a class="master-cta" href="../upload.html">
+    <span><small>NEED MASTERING?</small><strong>そのままZASU MASTERへ</strong></span>
+    <b>→</b>
+  </a>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 ZASU MASTER / ZASU</div></footer>
+<script src="assets/config.js?v=20260929-1"></script>
+<script src="assets/app.js?v=20260929-1"></script>
+</body>
+</html>
