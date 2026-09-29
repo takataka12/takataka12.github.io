@@ -12,9 +12,9 @@ import httpx
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import StreamingResponse
 
-from mix_engine import mix_files
+from mix_engine import compute_mix_plan, mix_files
 
-SERVICE_VERSION = "0.4.0"
+SERVICE_VERSION = "0.4.1"
 PART_BYTES = 40 * 1024 * 1024
 
 WORKER_API_URL = os.environ["MIX_WORKER_API_URL"]
@@ -204,8 +204,19 @@ async def process_job(job: dict[str, Any]) -> None:
             work_inst = instrumental
             preview_start = 0.0
             preview_duration = int(job.get("preview_duration_seconds") or 30)
+            mix_plan = None
             if phase == "preview":
-                await stage(job_id, "preview_select", 34, "30_second_excerpt")
+                await stage(job_id, "analyzing", 32, "full_song_balance_plan")
+                mix_plan = await asyncio.to_thread(
+                    compute_mix_plan,
+                    vocal,
+                    instrumental,
+                    str(job.get("mix_style") or "modern"),
+                    vocal_gain_db=float(job.get("vocal_gain_db") or 0.0),
+                    eq_presence_db=float(job.get("eq_presence_db") or 0.0),
+                    auto_balance=bool(job.get("auto_balance") is True),
+                )
+                await stage(job_id, "preview_select", 38, "30_second_excerpt")
                 vd = await asyncio.to_thread(probe_duration, vocal)
                 idur = await asyncio.to_thread(probe_duration, instrumental)
                 usable = min(x for x in [vd, idur] if x > 0) if (vd > 0 or idur > 0) else float(preview_duration)
@@ -215,7 +226,7 @@ async def process_job(job: dict[str, Any]) -> None:
                 await asyncio.to_thread(extract_preview, vocal, work_vocal, preview_start, preview_duration)
                 await asyncio.to_thread(extract_preview, instrumental, work_inst, preview_start, preview_duration)
 
-            await stage(job_id, "analyzing", 40, "loudness_masking_and_format")
+            await stage(job_id, "analyzing", 42, "loudness_masking_and_format")
             await stage(job_id, "mixing", 52, f"phase={phase};style={job.get('mix_style','modern')}")
             report = await asyncio.to_thread(
                 mix_files,
@@ -230,6 +241,7 @@ async def process_job(job: dict[str, Any]) -> None:
                 float(job.get("eq_presence_db") or 0.0),
                 float(job.get("eq_air_db") or 0.0),
                 bool(job.get("auto_balance") is True),
+                mix_plan,
             )
             report["processing_phase"] = phase
 
