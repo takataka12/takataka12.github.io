@@ -83,7 +83,7 @@ const stageCopy={
   preparing_output:["PREPARING OUTPUT","完成ファイルを準備しています。"],
   uploading_output:["SAVING","完成ファイルを安全に保存しています。"],
   finalizing:["FINALIZING","最終確認しています。"],
-  retrying:["RETRYING","一時的なエラーのため再試行しています。],
+  retrying:["RETRYING","一時的なエラーのため再試行しています。"],
   completed:["READY","変換が完了しました。"]
 };
 async function poll(){
