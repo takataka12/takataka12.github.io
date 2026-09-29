@@ -17,7 +17,8 @@ COPY requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
 COPY app.py /app/app.py
-COPY cloud_memory_patch.py /app/cloud_memory_patch.py\nCOPY loud_otv_profile.py /app/loud_otv_profile.py
+COPY cloud_memory_patch.py /app/cloud_memory_patch.py
+COPY loud_otv_profile.py /app/loud_otv_profile.py
 COPY punch_engine.b64.* /app/
 RUN cat /app/punch_engine.b64.* | base64 -d > /app/punch_engine.py \
     && rm /app/punch_engine.b64.* \
