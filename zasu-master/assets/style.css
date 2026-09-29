@@ -110,3 +110,5 @@ textarea{min-height:120px;resize:vertical}.form-row{display:grid;grid-template-c
   .nav nav{gap:8px;font-size:10px}
   .brand .main{font-size:16px}
 }
+
+.direct-mix-source{margin:2px 0 14px;padding:24px;border:1px solid #4b4b4b;border-radius:18px;background:linear-gradient(135deg,#151515,#0b0b0b)}.direct-mix-source[hidden]{display:none}.direct-mix-badge{display:inline-flex;padding:5px 9px;border:1px solid #555;border-radius:999px;color:#bdbdbd;font-size:9px;font-weight:900;letter-spacing:.14em;margin-bottom:12px}.direct-mix-source>strong{display:block;font-size:24px;letter-spacing:-.03em}.direct-mix-source>span{display:block;margin-top:7px;color:#999;font-size:12px;line-height:1.6}
