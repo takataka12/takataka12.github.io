@@ -12,11 +12,12 @@ async function api(action,payload={}){
   return b;
 }
 function outputSettings(){
+  const fmt=q("#outputFormat").value;
   return{
-    output_format:q("#outputFormat").value,
+    output_format:fmt,
     sample_rate:q("#sampleRate").value?Number(q("#sampleRate").value):null,
-    bit_depth:q("#bitDepth").value?Number(q("#bitDepth").value):null,
-    dither:q("#dither").checked,
+    bit_depth:fmt==="mp3"?null:(q("#bitDepth").value?Number(q("#bitDepth").value):null),
+    dither:fmt==="mp3"?false:q("#dither").checked,
     preset
   }
 }
@@ -26,9 +27,19 @@ function applyPreset(name){
   if(name==="cd_master"){q("#outputFormat").value="wav";q("#sampleRate").value="44100";q("#bitDepth").value="16";q("#dither").checked=true}
   if(name==="lossless_archive"){q("#outputFormat").value="flac";q("#sampleRate").value="";q("#bitDepth").value="";q("#dither").checked=false}
   if(name==="apple_lossless"){q("#outputFormat").value="alac";q("#sampleRate").value="";q("#bitDepth").value="";q("#dither").checked=false}
+  if(name==="mp3_hq"){q("#outputFormat").value="mp3";q("#sampleRate").value="";q("#bitDepth").value="";q("#dither").checked=false}
   if(name==="keep_original"){q("#sampleRate").value="";q("#bitDepth").value="";q("#dither").checked=false}
+  syncLossyControls();
+}
+function syncLossyControls(){
+  const mp3=q("#outputFormat").value==="mp3";
+  q("#bitDepth").disabled=mp3;
+  q("#dither").disabled=mp3;
+  if(mp3){q("#bitDepth").value="";q("#dither").checked=false}
 }
 document.querySelectorAll(".preset").forEach(x=>x.onclick=()=>applyPreset(x.dataset.preset));
+q("#outputFormat").addEventListener("change",()=>{preset="custom";document.querySelectorAll(".preset").forEach(x=>x.classList.remove("active"));syncLossyControls()});
+syncLossyControls();
 
 function chooseFile(f){
   file=f||null;
@@ -122,7 +133,7 @@ function showResult(s){
   q("#convertButton").disabled=false;
   q("#resultFormat").textContent=String(s.output_format||"").toUpperCase();
   q("#resultRate").textContent=s.sample_rate?(Number(s.sample_rate)/1000).toFixed(s.sample_rate%1000?1:0)+" kHz":"—";
-  q("#resultBits").textContent=s.bit_depth?s.bit_depth+" bit":"—";
+  q("#resultBits").textContent=s.output_format==="mp3"?(s.bitrate_kbps||320)+" kbps":(s.bit_depth?s.bit_depth+" bit":"—");
   q("#resultSize").textContent=humanBytes(s.output_size_bytes);
   const dl=q("#downloadButton");
   dl.href=cfg.downloadBase.replace(/\/$/,"")+"/download/"+encodeURIComponent(job.id)+"?token="+encodeURIComponent(job.token);
