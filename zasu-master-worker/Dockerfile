@@ -22,6 +22,8 @@ COPY punch_engine.b64.* /app/
 RUN cat /app/punch_engine.b64.* | base64 -d > /app/punch_engine.py \
     && rm /app/punch_engine.b64.* \
     && python /app/cloud_memory_patch.py /app/punch_engine.py \
+    && python -m py_compile /app/app.py /app/punch_engine.py /app/loud_otv_profile.py \
+    && python -c "import loud_otv_profile as lp; assert lp.PROFILE_ID == 'loud_otv'; print('LOUD OTV profile ready')" \
     && mkdir -p /app/.numba_cache \
     && python -c "import numpy as np, punch_engine as p; p._gain_envelope_numba(np.array([0.1,0.2,0.1],dtype=np.float64),0.5,1,0.99); print('PUNCH numba cache ready')"
 
