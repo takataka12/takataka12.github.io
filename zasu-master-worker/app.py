@@ -19,7 +19,8 @@ from starlette.background import BackgroundTask
 from urllib.parse import quote
 
 ENGINE_VERSION = "0.4.1"
-SERVICE_VERSION = "1.0.0"
+SERVICE_VERSION = "1.1.0"
+LOUD_PROFILE_VERSION = "OTV-1.0"
 
 WORKER_API_URL = os.environ["MASTER_WORKER_API_URL"]
 WORKER_SECRET = os.environ["MASTER_WORKER_SECRET"]
@@ -264,22 +265,33 @@ def split_binary_file(source: Path, workdir: Path) -> list[Path]:
     return parts
 
 
-def process_sync(workdir: Path) -> tuple[dict[str, Any], dict[str, Path]]:
+def process_sync(workdir: Path, mastering_profile: str = "standard") -> tuple[dict[str, Any], dict[str, Path]]:
     input_path = workdir / "input"
     master_wav = workdir / "master.wav"
     fair_dir = workdir / "fair"
     fair_dir.mkdir(parents=True, exist_ok=True)
 
-    cmd = [
-        sys.executable,
-        "/app/punch_engine.py",
-        str(input_path),
-        str(master_wav),
-        "--true-peak",
-        "-0.8",
-        "--fair-ab",
-        str(fair_dir),
-    ]
+    mastering_profile = mastering_profile if mastering_profile in {"standard", "loud_otv"} else "standard"
+    if mastering_profile == "loud_otv":
+        cmd = [
+            sys.executable,
+            "/app/loud_otv_profile.py",
+            str(input_path),
+            str(master_wav),
+            "--fair-ab",
+            str(fair_dir),
+        ]
+    else:
+        cmd = [
+            sys.executable,
+            "/app/punch_engine.py",
+            str(input_path),
+            str(master_wav),
+            "--true-peak",
+            "-0.8",
+            "--fair-ab",
+            str(fair_dir),
+        ]
     proc = subprocess.run(
         cmd,
         stdout=subprocess.PIPE,
@@ -296,6 +308,13 @@ def process_sync(workdir: Path) -> tuple[dict[str, Any], dict[str, Path]]:
     if not report_path.exists():
         raise RuntimeError("punch_report_missing")
     report = json.loads(report_path.read_text(encoding="utf-8"))
+    if mastering_profile == "standard":
+        report["profile"] = {
+            "id": "standard",
+            "label": "STANDARD",
+            "version": "1.0",
+            "policy": "PUNCH adaptive / do-no-harm",
+        }
 
     master_flac = workdir / "master.flac"
     before_preview = workdir / "before_fair.m4a"
@@ -314,6 +333,9 @@ def process_sync(workdir: Path) -> tuple[dict[str, Any], dict[str, Path]]:
 
 async def process_job(job: dict[str, Any]) -> None:
     job_id = str(job["id"])
+    mastering_profile = str(job.get("mastering_profile") or "standard")
+    if mastering_profile not in {"standard", "loud_otv"}:
+        mastering_profile = "standard"
     tmp = Path(tempfile.mkdtemp(prefix="zasu-master-"))
     heartbeat_stop = asyncio.Event()
     heartbeat_task = asyncio.create_task(heartbeat_loop(job_id, heartbeat_stop))
@@ -329,12 +351,12 @@ async def process_job(job: dict[str, Any]) -> None:
             flush=True,
         )
 
-        await safe_stage(job_id, "mastering", 35, f"engine={ENGINE_VERSION}")
+        await safe_stage(job_id, "mastering", 35, f"engine={ENGINE_VERSION};profile={mastering_profile}")
         print(
-            f"job_stage id={job_id} stage=punch_start engine={ENGINE_VERSION}",
+            f"job_stage id={job_id} stage=punch_start engine={ENGINE_VERSION} profile={mastering_profile}",
             flush=True,
         )
-        report, outputs = await asyncio.to_thread(process_sync, tmp)
+        report, outputs = await asyncio.to_thread(process_sync, tmp, mastering_profile)
         print(f"job_stage id={job_id} stage=punch_done", flush=True)
 
         await safe_stage(job_id, "preparing_results", 70, "encode_and_package")
@@ -480,6 +502,8 @@ async def health() -> dict[str, Any]:
         "engine_version": ENGINE_VERSION,
         "worker_id": WORKER_ID,
         "chunked_master_support": True,
+        "mastering_profiles": ["standard", "loud_otv"],
+        "loud_profile_version": LOUD_PROFILE_VERSION,
     }
 
 
