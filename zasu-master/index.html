@@ -1,28 +1,99 @@
 <!doctype html>
 <html lang="ja">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>ZASU MASTER</title><link rel="stylesheet" href="assets/style.css?v=20260929-2355"></head>
-<body>
-<header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU MASTER</span><span class="jp">ザスマス</span></a><nav><a href="index.html">HOME</a><a href="upload.html">UPLOAD</a><a href="convert/">CONVERT</a></nav></div></header>
-<main><section class="hero" style="border-top:0;min-height:88vh;display:flex;align-items:center"><div class="wrap">
-<h1>ZASU<br>MASTER.</h1>
-<div class="kicker">FREE</div>
-<form id="betaForm"><input name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-10000px"><button class="btn" type="submit">START</button><div id="formStatus" class="mini"></div></form>
-</div></section>
-<section class="tools-section"><div class="wrap">
-  <div class="kicker">FREE TOOLS</div>
-  <div class="tool-card">
-    <div>
-      <div class="mode">ZASU CONVERT</div>
-      <h2>FORMAT.<br>YOUR AUDIO.</h2>
-      <p class="lead">WAV / FLAC / AIFF / ALAC / MP3 320kbps。SoXR HQで高品質に変換。CD MASTERプリセットにも対応。</p>
-      <div class="tool-badges">
-        <span>LOSSLESS</span><span>CD MASTER</span><span>MP3 320</span><span>SoXR HQ</span>
-      </div>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080808">
+<title>ZASU AUDIO｜MIX. MASTER. CONVERT.</title>
+<meta name="description" content="ZASU AUDIO。ボーカルMIX、マスタリング、高品質フォーマット変換をブラウザで。MIX. MASTER. CONVERT.">
+<link rel="stylesheet" href="assets/style.css?v=20260930-0432">
+</head>
+<body class="audio-home">
+<header><div class="wrap nav">
+  <a class="brand" href="index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a>
+  <nav><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="convert/">CONVERT</a><a href="pricing.html">PRICING</a></nav>
+</div></header>
+
+<main>
+<section class="audio-hero">
+  <div class="wrap">
+    <div class="audio-eyebrow">ZASU AUDIO / AUDIO PROCESSING SUITE</div>
+    <h1>ZASU<br>AUDIO.</h1>
+    <div class="audio-tagline">MIX. MASTER. CONVERT.</div>
+    <p>ボーカルとオケから、完成音源まで。<br>ブラウザだけで使えるZASUのオーディオプロセッシング。</p>
+    <div class="audio-hero-actions">
+      <a class="btn" href="mix/">START MIXING</a>
+      <a class="btn secondary" href="upload.html">START MASTERING</a>
+      <a class="audio-text-link" href="convert/">FREE AUDIO CONVERTER →</a>
     </div>
-    <a class="btn tool-open" href="convert/">OPEN ZASU CONVERT →</a>
+    <div class="beta-strip"><strong>OPEN BETA</strong><span>MIX / MASTERは現在無料。正式版のLaunch Priceを公開しました。</span><a href="pricing.html">PRICING →</a></div>
   </div>
-</div></section>
-<section class="howto"><div class="wrap"><div class="kicker">HOW TO USE</div><h2>WATCH.<br>UPLOAD.<br>MASTER.</h2><p class="lead">ZASU MASTERの使い方を動画で紹介しています。</p><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/8jn3pmVkuL4" title="ZASU MASTER 解説動画" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><form id="videoBetaForm" class="video-cta"><button class="btn" type="submit">TRY YOUR MIX — FREE</button><div id="videoFormStatus" class="mini"></div></form></div></section></main>
-<footer><div class="wrap"><div class="footer-links"><a href="convert/">ZASU CONVERT</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a></div></div></footer>
-<script src="assets/config.js?v=20260926-1600"></script><script src="assets/main.js?v=20260928-1225"></script>
-</body></html>
+</section>
+
+<section class="audio-products">
+  <div class="wrap">
+    <div class="kicker">THREE ENGINES. ONE FLOW.</div>
+    <h2>FROM VOCAL<br>TO MASTER.</h2>
+    <div class="audio-product-grid">
+      <article class="audio-product-card">
+        <div class="mode">01 / ZASU MIX</div>
+        <h3>AUTO<br>VOCAL MIX.</h3>
+        <p>Vocal + Instrumental。AUTO BALANCEで声とオケを解析し、EQ / Reverb / Vocal Levelまで調整。</p>
+        <div class="tool-badges"><span>AUTO BALANCE</span><span>24-BIT WAV</span><span>VOCAL STEM</span></div>
+        <div class="product-bottom"><span class="launch-price">Launch ¥500 / track</span><a class="btn secondary" href="mix/">OPEN MIX →</a></div>
+      </article>
+
+      <article class="audio-product-card featured">
+        <div class="mode">02 / ZASU MASTER</div>
+        <h3>FINISH<br>YOUR MIX.</h3>
+        <p>STANDARD / LOUD OTV。音源に合わせたアダプティブ処理と、音量を揃えたFAIR A/B。</p>
+        <div class="tool-badges"><span>STANDARD</span><span>LOUD / OTV</span><span>FAIR A/B</span></div>
+        <div class="product-bottom"><span class="launch-price">Launch ¥500 / track</span><a class="btn" href="upload.html">OPEN MASTER →</a></div>
+      </article>
+
+      <article class="audio-product-card">
+        <div class="mode">03 / ZASU CONVERT</div>
+        <h3>FORMAT.<br>YOUR AUDIO.</h3>
+        <p>WAV / FLAC / AIFF / ALACから各形式へ。SoXR HQ、CD MASTER、MP3 320kbpsに対応。</p>
+        <div class="tool-badges"><span>SoXR HQ</span><span>LOSSLESS</span><span>MP3 320</span></div>
+        <div class="product-bottom"><span class="launch-price">FREE</span><a class="btn secondary" href="convert/">OPEN CONVERT →</a></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="audio-flow">
+  <div class="wrap">
+    <div class="kicker">ONE CONTINUOUS WORKFLOW</div>
+    <h2>NO RE-UPLOAD.<br>JUST FINISH IT.</h2>
+    <div class="flow-line">
+      <div><span>01</span><strong>VOCAL + INST</strong><small>素材を入れる</small></div>
+      <b>→</b>
+      <div><span>02</span><strong>ZASU MIX</strong><small>AUTO BALANCE</small></div>
+      <b>→</b>
+      <div><span>03</span><strong>ZASU MASTER</strong><small>STANDARD / OTV</small></div>
+      <b>→</b>
+      <div><span>04</span><strong>ZASU CONVERT</strong><small>DELIVERY FORMAT</small></div>
+      <b>→</b>
+      <div><span>05</span><strong>READY</strong><small>配布・公開へ</small></div>
+    </div>
+    <div class="full-offer">
+      <div><div class="mode">ZASU AUDIO FULL PROCESS</div><h3>MIX → MASTER.</h3><p>完成したMIXを再アップロードせず、そのままマスタリングへ。</p></div>
+      <div class="full-offer-price"><small>LAUNCH PRICE</small><strong>¥800</strong><span>/ track</span><a class="btn" href="mix/">START FULL PROCESS →</a></div>
+    </div>
+  </div>
+</section>
+
+<section class="audio-pricing-teaser">
+  <div class="wrap">
+    <div class="kicker">SIMPLE PRICING</div>
+    <h2>PAY PER TRACK.<br>NO SUBSCRIPTION.</h2>
+    <p class="lead">CONVERTは無料。MIX / MASTERは1曲ごと。セットなら¥800。</p>
+    <a class="btn" href="pricing.html">SEE PRICING →</a>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><div class="footer-links"><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="convert/">CONVERT</a><a href="pricing.html">PRICING</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+</body>
+</html>
