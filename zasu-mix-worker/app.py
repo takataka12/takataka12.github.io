@@ -374,8 +374,9 @@ async def download(job_id: str, kind: str, token: str = Query(..., min_length=16
     }
     name = str(data.get("name") or defaults.get(kind, "ZASU_AUDIO.wav"))
     encoded = quote(name, safe="")
+    disposition = "inline" if kind.startswith("preview_") else "attachment"
     return StreamingResponse(
         stream_remote_parts(list(data.get("parts") or [])),
         media_type="audio/wav",
-        headers={"Content-Disposition": f"attachment; filename*=UTF-8''{encoded}", "Cache-Control": "no-store"},
+        headers={"Content-Disposition": f"{disposition}; filename*=UTF-8''{encoded}", "Cache-Control": "no-store"},
     )
