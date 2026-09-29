@@ -15,6 +15,10 @@ const feedbackCard=q("#feedbackCard");
 const feedbackForm=q("#feedbackForm");
 const feedbackStatus=q("#feedbackStatus");
 const feedbackSubmit=q("#feedbackSubmit");
+const previewMasterGate=q("#previewMasterGate");
+const unlockMasterButton=q("#unlockMasterButton");
+const unlockMasterStatus=q("#unlockMasterStatus");
+const previewMasterGateCopy=q("#previewMasterGateCopy");
 let pollTimer=null;
 let accessToken=localStorage.getItem("zasu_beta_access_token")||"";
 let applicationNo=Number(localStorage.getItem("zasu_beta_application_no")||0);
@@ -37,6 +41,7 @@ const stageLabels={
   retrying:"一時エラーから自動再試行中",
   claimed:"処理サーバーを確保しました",
   downloading:"音源を処理サーバーへ転送中",
+  preview_select:"30秒の試聴区間を準備中",
   mastering:"PUNCH ENGINEで解析・マスタリング中",
   processing:"PUNCH ENGINEで処理中",
   preparing_results:"完成音源を書き出しています",
@@ -72,6 +77,7 @@ function clearResult(){
   actions.innerHTML="";
   if(jobProgress)jobProgress.hidden=true;
   if(feedbackCard)feedbackCard.hidden=true;
+  if(previewMasterGate)previewMasterGate.hidden=true;
   beforeAudio.removeAttribute("src");
   afterAudio.removeAttribute("src");
 }
@@ -151,8 +157,15 @@ function render(body){
   }
 
   if(s==="completed"){
-    setState("COMPLETED","MASTER READY.",(body.profile_label||"STANDARD")+" のマスタリングが完了しました。");
-    if(feedbackCard)feedbackCard.hidden=false;
+    const isPreview=body.processing_mode==="preview";
+    setState(
+      isPreview?"PREVIEW READY":"COMPLETED",
+      isPreview?"30 SEC PREVIEW READY.":"MASTER READY.",
+      isPreview
+        ? (body.profile_label||"STANDARD")+" の30秒FAIR A/Bが完成しました。試聴後にフル尺へ進めます。"
+        : (body.profile_label||"STANDARD")+" のマスタリングが完了しました。"
+    );
+    if(feedbackCard)feedbackCard.hidden=isPreview;
     metrics.hidden=false;
     q("#metricEngine").textContent=(body.engine_version||"PUNCH")+" / "+(body.profile_label||"STANDARD");
     q("#metricLufs").textContent=Number.isFinite(body.output_lufs)?body.output_lufs.toFixed(2)+" LUFS":"—";
@@ -166,6 +179,21 @@ function render(body){
         audio.preload="metadata";
         audio.load();
       }
+    }
+
+    if(isPreview){
+      if(previewMasterGate){
+        previewMasterGate.hidden=false;
+        if(cfg.commerceEnabled){
+          unlockMasterButton.textContent="UNLOCK FULL MASTER — ¥500";
+          previewMasterGateCopy.textContent="試聴を確認してからSquareで決済。決済後にフル尺を処理します。";
+        }else{
+          unlockMasterButton.textContent="CREATE FULL MASTER — FREE BETA";
+          previewMasterGateCopy.textContent="OPEN BETA中は決済なしでフル尺処理できます。";
+        }
+        unlockMasterButton.dataset.previewJobId=String(body.job_id||"");
+      }
+      return false;
     }
 
     if(body.download_url){
@@ -229,6 +257,42 @@ function render(body){
   setState("UNKNOWN","状態を確認中","少し待って再読み込みしてください。");
   return true;
 }
+
+async function unlockMasterFull(){
+  const previewJobId=String(unlockMasterButton?.dataset.previewJobId||"");
+  if(!previewJobId){if(unlockMasterStatus)unlockMasterStatus.textContent="プレビュージョブが見つかりません。";return}
+  if(cfg.commerceEnabled){
+    localStorage.setItem("zasu_pending_unlock",JSON.stringify({
+      type:"master",plan:"master",preview_job_id:previewJobId,
+      application_no:Number(applicationNo),access_token:accessToken,created_at:Date.now()
+    }));
+    location.href="checkout.html?plan=master&source=master";
+    return;
+  }
+  unlockMasterButton.disabled=true;
+  if(unlockMasterStatus)unlockMasterStatus.textContent="フル尺マスタリングを準備しています…";
+  try{
+    const res=await fetch(cfg.unlockMasterFullEndpoint,{
+      method:"POST",
+      headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},
+      body:JSON.stringify({
+        application_no:Number(applicationNo),
+        access_token:accessToken,
+        preview_job_id:previewJobId
+      })
+    });
+    const body=await res.json().catch(()=>({}));
+    if(!res.ok)throw new Error(body.error||"unlock_failed");
+    if(previewMasterGate)previewMasterGate.hidden=true;
+    if(unlockMasterStatus)unlockMasterStatus.textContent="";
+    setState("QUEUED","フル尺処理待ち","プレビュー確認済み。フル尺マスタリングを開始します。");
+    setTimeout(check,800);
+  }catch(e){
+    if(unlockMasterStatus)unlockMasterStatus.textContent=e?.message||"フル尺処理を開始できませんでした。";
+    unlockMasterButton.disabled=false;
+  }
+}
+if(unlockMasterButton)unlockMasterButton.addEventListener("click",unlockMasterFull);
 
 async function check(){
   const no=Number(applicationNo);
