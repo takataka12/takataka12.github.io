@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MIX Upload｜ZASU MASTER</title>
 <meta name="description" content="ZASU MASTER Closed Beta参加者向けのMIXアップロードページです。">
-<link rel="stylesheet" href="assets/style.css?v=20260929-2355">
+<link rel="stylesheet" href="assets/style.css?v=20260930-0410">
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU MASTER</span><span class="jp">ザスマス</span></a><nav><a href="index.html">HOME</a><a href="upload.html">UPLOAD</a><a href="convert/">CONVERT</a></nav></div></header>
@@ -42,12 +42,19 @@
       </div>
     </div>
 
-    <label class="dropzone" id="dropzone" for="mixFile">
-      <input id="mixFile" type="file" accept=".wav,.wave,.flac,audio/wav,audio/x-wav,audio/wave,audio/flac,audio/x-flac">
-      <strong>WAV / FLACを選択</strong>
-      <span>最大50MB・ここへドラッグ＆ドロップもできます</span>
-    </label>
-    <div class="file-meta" id="fileMeta">ファイルはまだ選択されていません。</div>
+    <div id="directMixSource" class="direct-mix-source" hidden>
+      <div class="direct-mix-badge">ZASU MIX</div>
+      <strong>ZASU MIXから受信済み</strong>
+      <span>完成した24-bit MIXをそのままマスタリングへ渡します。再アップロードは不要です。</span>
+    </div>
+    <div id="manualUploadSource">
+      <label class="dropzone" id="dropzone" for="mixFile">
+        <input id="mixFile" type="file" accept=".wav,.wave,.flac,audio/wav,audio/x-wav,audio/wave,audio/flac,audio/x-flac">
+        <strong>WAV / FLACを選択</strong>
+        <span>最大50MB・ここへドラッグ＆ドロップもできます</span>
+      </label>
+      <div class="file-meta" id="fileMeta">ファイルはまだ選択されていません。</div>
+    </div>
     <button class="btn" id="uploadButton" type="button" style="margin-top:16px;width:100%">UPLOAD MIX</button>
     <div class="progress" id="uploadProgress"><span></span></div>
     <div class="upload-status" id="uploadStatus"></div>
@@ -57,5 +64,5 @@
 </main>
 <footer><div class="wrap"><div class="footer-links"><a href="index.html">HOME</a><a href="convert/">ZASU CONVERT</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a></div><div>© 2026 ZASU MASTER / ZASU</div></div></footer>
 <script src="assets/config.js?v=20260926-1320"></script>
-<script src="assets/upload.js?v=20260929-1945"></script>
+<script src="assets/upload.js?v=20260930-0410"></script>
 </body></html>
