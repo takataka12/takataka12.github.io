@@ -1,6 +1,6 @@
 const cfg=window.ZASU_CONVERT_CONFIG||{};
 const q=s=>document.querySelector(s);
-let file=null,preset="keep_original",job=null,pollTimer=null;
+let file=null,preset="keep_original",job=null,pollTimer=null,masterHandoff=null;
 
 function humanBytes(n){n=Number(n||0);if(n<1024*1024)return(n/1024).toFixed(1)+" KB";return(n/1024/1024).toFixed(1)+" MB"}
 function setProgress(p,title,text){q("#jobProgress").hidden=false;q("#progressBar").style.width=Math.max(0,Math.min(100,p))+"%";q("#progressTitle").textContent=title;q("#progressText").textContent=text}
@@ -54,12 +54,29 @@ async function uploadChunks(ticket){
 }
 
 async function start(){
-  if(!file){q("#statusText").textContent="音源ファイルを選択してください。";return}
-  if(file.size>cfg.maxBytes){q("#statusText").textContent="最大500MBです。";return}
+  if(!masterHandoff&&!file){q("#statusText").textContent="音源ファイルを選択してください。";return}
+  if(file&&file.size>cfg.maxBytes){q("#statusText").textContent="最大500MBです。";return}
   const b=q("#convertButton");b.disabled=true;q("#resultCard").hidden=true;q("#statusText").textContent="";
   try{
     setProgress(3,"PREPARING","変換ジョブを準備しています。");
     const settings=outputSettings();
+
+    if(masterHandoff){
+      const ticket=await api("create_from_master",{
+        application_no:Number(masterHandoff.application_no),
+        master_access_token:String(masterHandoff.access_token||""),
+        master_job_id:String(masterHandoff.master_job_id||""),
+        ...settings
+      });
+      job={id:ticket.job_id,token:ticket.access_token};
+      sessionStorage.setItem("zasu_convert_job",JSON.stringify(job));
+      sessionStorage.removeItem("zasu_convert_master_handoff");
+      masterHandoff=null;
+      setProgress(12,"QUEUED","ZASU MASTER完成音源を直接引き継ぎました。");
+      poll();
+      return;
+    }
+
     const ticket=await api("create_upload",{original_name:file.name,size_bytes:file.size,mime_type:file.type||"application/octet-stream",...settings});
     job={id:ticket.job_id,token:ticket.access_token};
     sessionStorage.setItem("zasu_convert_job",JSON.stringify(job));
@@ -114,5 +131,19 @@ function showResult(s){
   q("#resultCard").scrollIntoView({behavior:"smooth",block:"start"});
   sessionStorage.removeItem("zasu_convert_job");
 }
+const handoffRaw=sessionStorage.getItem("zasu_convert_master_handoff");
+if(handoffRaw){
+  try{
+    const h=JSON.parse(handoffRaw);
+    if(h?.application_no&&h?.access_token&&h?.master_job_id){
+      masterHandoff=h;
+      q("#dropzone").hidden=true;
+      q("#fileMeta").classList.add("master-source");
+      q("#fileMeta").textContent="ZASU MASTER完成音源を直接使用 — "+String(h.profile_label||"MASTER");
+      q("#statusText").textContent="再アップロード不要です。変換方法を選んでCONVERT AUDIOを押してください。";
+    }
+  }catch(_){sessionStorage.removeItem("zasu_convert_master_handoff")}
+}
+
 const saved=sessionStorage.getItem("zasu_convert_job");
 if(saved){try{job=JSON.parse(saved);if(job?.id&&job?.token){q("#convertButton").disabled=true;setProgress(10,"RESTORING","前回の変換状況を確認しています。");poll()}}catch(_){sessionStorage.removeItem("zasu_convert_job")}}
