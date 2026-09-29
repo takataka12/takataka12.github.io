@@ -16,7 +16,7 @@ async function startZasu(button,status){
       localStorage.setItem("zasu_visitor_id",String(body.visitor_id||visitorId));
       sessionStorage.setItem("zasu_session_id",String(body.session_id||sessionId));
       window.location.assign("upload.html");
-    }else if(status){status.textContent="今月の無料枠は終了しました。"}
+    }else if(status){status.textContent="無料プレビュー受付を開始できませんでした。"}
   }catch(err){if(status)status.textContent=err?.message||"受付に失敗しました."}
   finally{button.disabled=false;button.textContent=originalText}
 }
