@@ -212,7 +212,11 @@ async def poll_loop() -> None:
     backoff = POLL_INTERVAL
     while True:
         try:
-            data = await worker_api({"action": "claim", "worker_id": WORKER_ID}, timeout=30)
+            data = await worker_api({
+                "action": "claim",
+                "worker_id": WORKER_ID,
+                "capabilities": ["auto_balance_v1"],
+            }, timeout=30)
             job = data.get("job")
             if job:
                 backoff = POLL_INTERVAL
