@@ -3,6 +3,7 @@
 Independent conversion worker for ZASU MASTER tools.
 
 - WAV / FLAC / AIFF / ALAC output
+- MP3 320 kbps CBR output for delivery / preview copies
 - 44.1 / 48 / 88.2 / 96 kHz
 - 16 / 24-bit
 - SoXR HQ resampling (precision 28)
