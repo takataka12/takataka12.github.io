@@ -262,6 +262,38 @@ async function unlockMasterFull(){
   const previewJobId=String(unlockMasterButton?.dataset.previewJobId||"");
   if(!previewJobId){if(unlockMasterStatus)unlockMasterStatus.textContent="プレビュージョブが見つかりません。";return}
   if(cfg.commerceEnabled){
+    let existingCheckout=null;
+    try{existingCheckout=JSON.parse(localStorage.getItem("zasu_audio_checkout")||"null")}catch(_){}
+    if(existingCheckout?.plan==="full"&&existingCheckout?.order_id&&existingCheckout?.order_access_token){
+      unlockMasterButton.disabled=true;
+      if(unlockMasterStatus)unlockMasterStatus.textContent="FULL PROCESSのMASTERクレジットを確認しています…";
+      try{
+        const res=await fetch(cfg.unlockMasterFullEndpoint,{
+          method:"POST",
+          headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},
+          body:JSON.stringify({
+            application_no:Number(applicationNo),
+            access_token:accessToken,
+            preview_job_id:previewJobId,
+            order_id:existingCheckout.order_id,
+            order_access_token:existingCheckout.order_access_token
+          })
+        });
+        const body=await res.json().catch(()=>({}));
+        if(res.ok){
+          if(previewMasterGate)previewMasterGate.hidden=true;
+          setState("QUEUED","フル尺処理待ち","FULL PROCESSのMASTERクレジットを使って開始します。");
+          setTimeout(check,800);
+          return;
+        }
+        if(!["credit_required","wrong_source","payment_required"].includes(String(body.error||"")))throw new Error(body.error||"unlock_failed");
+      }catch(e){
+        if(unlockMasterStatus)unlockMasterStatus.textContent=e?.message||"クレジット確認に失敗しました。";
+        unlockMasterButton.disabled=false;
+        return;
+      }
+      unlockMasterButton.disabled=false;
+    }
     localStorage.setItem("zasu_pending_unlock",JSON.stringify({
       type:"master",plan:"master",preview_job_id:previewJobId,
       application_no:Number(applicationNo),access_token:accessToken,created_at:Date.now()
