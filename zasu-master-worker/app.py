@@ -19,7 +19,8 @@ from starlette.background import BackgroundTask
 from urllib.parse import quote
 
 ENGINE_VERSION = "0.4.1"
-SERVICE_VERSION = "1.1.0"\nLOUD_PROFILE_VERSION = "OTV-1.0"
+SERVICE_VERSION = "1.1.0"
+LOUD_PROFILE_VERSION = "OTV-1.0"
 
 WORKER_API_URL = os.environ["MASTER_WORKER_API_URL"]
 WORKER_SECRET = os.environ["MASTER_WORKER_SECRET"]
@@ -500,7 +501,9 @@ async def health() -> dict[str, Any]:
         "service_version": SERVICE_VERSION,
         "engine_version": ENGINE_VERSION,
         "worker_id": WORKER_ID,
-        "chunked_master_support": True,\n        "mastering_profiles": ["standard", "loud_otv"],\n        "loud_profile_version": LOUD_PROFILE_VERSION,
+        "chunked_master_support": True,
+        "mastering_profiles": ["standard", "loud_otv"],
+        "loud_profile_version": LOUD_PROFILE_VERSION,
     }
 
 
