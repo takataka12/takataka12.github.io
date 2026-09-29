@@ -190,7 +190,8 @@ button.addEventListener("click",async()=>{
         bytes:selectedFile.size,
         mime_type:selectedFile.type||"application/octet-stream",
         visitor_id:visitorId,session_id:sessionId,
-        mastering_profile:selectedMasteringProfile()
+        mastering_profile:selectedMasteringProfile(),
+        preview_only:true
       });
 
       status.textContent="音源を非公開ストレージへアップロードしています…";
