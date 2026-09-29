@@ -19,7 +19,7 @@ from starlette.background import BackgroundTask
 from urllib.parse import quote
 
 ENGINE_VERSION = "0.4.1"
-SERVICE_VERSION = "1.1.0"
+SERVICE_VERSION = "1.1.1"
 LOUD_PROFILE_VERSION = "OTV-1.0"
 
 WORKER_API_URL = os.environ["MASTER_WORKER_API_URL"]
@@ -344,10 +344,18 @@ async def process_job(job: dict[str, Any]) -> None:
         await safe_stage(job_id, "downloading", 15, "source_download")
         print(f"job_stage id={job_id} stage=download_start", flush=True)
         input_path = tmp / "input"
-        await download_to(job["input_url"], input_path)
+        input_part_urls = [str(x) for x in (job.get("input_part_urls") or []) if x]
+        if input_part_urls:
+            await download_parts_to(input_part_urls, input_path)
+        else:
+            input_url = str(job.get("input_url") or "")
+            if not input_url:
+                raise RuntimeError("input_source_missing")
+            await download_to(input_url, input_path)
         print(
             f"job_stage id={job_id} stage=download_done "
-            f"bytes={input_path.stat().st_size}",
+            f"bytes={input_path.stat().st_size} "
+            f"parts={len(input_part_urls) if input_part_urls else 1}",
             flush=True,
         )
 
@@ -502,6 +510,7 @@ async def health() -> dict[str, Any]:
         "engine_version": ENGINE_VERSION,
         "worker_id": WORKER_ID,
         "chunked_master_support": True,
+        "direct_zasu_mix_handoff": True,
         "mastering_profiles": ["standard", "loud_otv"],
         "loud_profile_version": LOUD_PROFILE_VERSION,
     }
