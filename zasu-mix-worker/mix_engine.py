@@ -170,6 +170,47 @@ def auto_balance_gain_db(
     }
 
 
+def compute_mix_plan(
+    vocal: Path,
+    instrumental: Path,
+    style: str,
+    *,
+    vocal_gain_db: float = 0.0,
+    eq_presence_db: float = 0.0,
+    auto_balance: bool = False,
+) -> dict[str, Any]:
+    style = style if style in STYLE_PARAMS else "modern"
+    vlevel = analyze_loudness(vocal)
+    ilevel = analyze_loudness(instrumental)
+    vocal_band = analyze_band_mean_db(vocal)
+    instrumental_band = analyze_band_mean_db(instrumental)
+    target = vocal_target_lufs(ilevel["lufs"], style)
+    inst_gain = instrumental_gain_db(ilevel["lufs"])
+    applied_gain = float(vocal_gain_db)
+    balance_meta: dict[str, float] = {}
+    if auto_balance:
+        applied_gain, balance_meta = auto_balance_gain_db(
+            style=style,
+            vocal_lufs=vlevel["lufs"],
+            instrumental_lufs=ilevel["lufs"],
+            vocal_band_db=vocal_band,
+            instrumental_band_db=instrumental_band,
+            vocal_target=target,
+            instrumental_gain=inst_gain,
+            eq_presence_db=eq_presence_db,
+        )
+    return {
+        "vocal_input_lufs": vlevel["lufs"],
+        "instrumental_lufs": ilevel["lufs"],
+        "vocal_band_db": vocal_band,
+        "instrumental_band_db": instrumental_band,
+        "vocal_target_lufs": target,
+        "instrumental_gain_db": inst_gain,
+        "vocal_gain_db": applied_gain,
+        "balance_meta": balance_meta,
+    }
+
+
 def instrumental_gain_db(inst_lufs: float) -> float:
     if inst_lufs > -7.0:
         return -2.5
@@ -249,35 +290,33 @@ def mix_files(
     eq_presence_db: float = 0.0,
     eq_air_db: float = 0.0,
     auto_balance: bool = False,
+    mix_plan: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     style = style if style in STYLE_PARAMS else "modern"
     vp = probe_audio(vocal)
     ip = probe_audio(instrumental)
-    vlevel = analyze_loudness(vocal)
-    ilevel = analyze_loudness(instrumental)
-    vocal_band = analyze_band_mean_db(vocal)
-    instrumental_band = analyze_band_mean_db(instrumental)
+
+    plan = mix_plan or compute_mix_plan(
+        vocal,
+        instrumental,
+        style,
+        vocal_gain_db=vocal_gain_db,
+        eq_presence_db=eq_presence_db,
+        auto_balance=auto_balance,
+    )
+    vlevel = {"lufs": float(plan.get("vocal_input_lufs", -18.0))}
+    ilevel = {"lufs": float(plan.get("instrumental_lufs", -18.0))}
+    vocal_band = float(plan.get("vocal_band_db", -40.0))
+    instrumental_band = float(plan.get("instrumental_band_db", -40.0))
 
     sample_rate = ip["sample_rate"]
     if sample_rate not in (44100, 48000, 88200, 96000):
         sample_rate = 48000
 
-    target = vocal_target_lufs(ilevel["lufs"], style)
-    inst_gain = instrumental_gain_db(ilevel["lufs"])
-
-    balance_meta: dict[str, float] = {}
-    applied_vocal_gain = float(vocal_gain_db)
-    if auto_balance:
-        applied_vocal_gain, balance_meta = auto_balance_gain_db(
-            style=style,
-            vocal_lufs=vlevel["lufs"],
-            instrumental_lufs=ilevel["lufs"],
-            vocal_band_db=vocal_band,
-            instrumental_band_db=instrumental_band,
-            vocal_target=target,
-            instrumental_gain=inst_gain,
-            eq_presence_db=eq_presence_db,
-        )
+    target = float(plan.get("vocal_target_lufs", vocal_target_lufs(ilevel["lufs"], style)))
+    inst_gain = float(plan.get("instrumental_gain_db", instrumental_gain_db(ilevel["lufs"])))
+    applied_vocal_gain = float(plan.get("vocal_gain_db", vocal_gain_db))
+    balance_meta = plan.get("balance_meta") if isinstance(plan.get("balance_meta"), dict) else {}
 
     vf = vocal_filter(
         style, target, sample_rate,
@@ -312,7 +351,7 @@ def mix_files(
     mp = probe_audio(mix_out)
     wp = probe_audio(wet_out)
     return {
-        "engine": "ZASU MIX v0.3.1",
+        "engine": "ZASU MIX v0.4.1",
         "style": style,
         "vocal_input_lufs": round(vlevel["lufs"], 2),
         "instrumental_lufs": round(ilevel["lufs"], 2),
