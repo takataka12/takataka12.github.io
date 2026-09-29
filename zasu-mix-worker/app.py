@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import asyncio
 import os
+import subprocess
 import tempfile
 from pathlib import Path
 from typing import Any, AsyncIterator
@@ -13,7 +14,7 @@ from fastapi.responses import StreamingResponse
 
 from mix_engine import mix_files
 
-SERVICE_VERSION = "0.3.1"
+SERVICE_VERSION = "0.4.0"
 PART_BYTES = 40 * 1024 * 1024
 
 WORKER_API_URL = os.environ["MIX_WORKER_API_URL"]
@@ -90,6 +91,46 @@ async def download_parts(parts: list[dict[str, Any]], dest: Path) -> None:
                 print(f"download_part_done {dest.name} {i+1}/{len(parts)}", flush=True)
 
 
+def probe_duration(path: Path) -> float:
+    p = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=nw=1:nk=1", str(path)],
+        stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=False,
+    )
+    try:
+        return max(0.0, float((p.stdout or "0").strip()))
+    except ValueError:
+        return 0.0
+
+
+def extract_preview(source: Path, dest: Path, start_seconds: float, duration_seconds: int) -> None:
+    subprocess.run(
+        [
+            "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+            "-ss", f"{max(0.0,start_seconds):.3f}", "-t", str(max(1,duration_seconds)),
+            "-i", str(source), "-c:a", "pcm_s24le", str(dest),
+        ],
+        check=True,
+    )
+
+
+def create_fair_before(vocal: Path, instrumental: Path, dest: Path, target_lufs: float, sample_rate: int) -> None:
+    graph = (
+        f"[0:a]aresample={sample_rate}:resampler=soxr:precision=28[v];"
+        f"[1:a]aresample={sample_rate}:resampler=soxr:precision=28[i];"
+        "[i][v]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
+        f"loudnorm=I={target_lufs:.2f}:TP=-2.3:LRA=7[out]"
+    )
+    subprocess.run(
+        [
+            "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+            "-i", str(vocal), "-i", str(instrumental),
+            "-filter_complex", graph, "-map", "[out]",
+            "-ar", str(sample_rate), "-c:a", "pcm_s24le", str(dest),
+        ],
+        check=True,
+    )
+
+
 def split_file(source: Path, root: Path, prefix: str) -> list[Path]:
     parts: list[Path] = []
     with source.open("rb") as src:
@@ -150,20 +191,36 @@ async def process_job(job: dict[str, Any]) -> None:
             root = Path(td)
             vocal = root / "vocal.input"
             instrumental = root / "instrumental.input"
-            mix_out = root / "ZASU_MIX_24bit.wav"
-            wet_out = root / "ZASU_VOCAL_WET_24bit.wav"
+            phase = str(job.get("processing_phase") or "full")
+            mix_out = root / ("ZASU_MIX_PREVIEW.wav" if phase == "preview" else "ZASU_MIX_24bit.wav")
+            wet_out = root / ("preview_wet.wav" if phase == "preview" else "ZASU_VOCAL_WET_24bit.wav")
 
             await stage(job_id, "downloading", 18, "vocal")
             await download_parts(list(job.get("vocal_parts") or []), vocal)
             await stage(job_id, "downloading", 28, "instrumental")
             await download_parts(list(job.get("instrumental_parts") or []), instrumental)
 
-            await stage(job_id, "analyzing", 38, "loudness_and_format")
-            await stage(job_id, "mixing", 50, f"style={job.get('mix_style','modern')}")
+            work_vocal = vocal
+            work_inst = instrumental
+            preview_start = 0.0
+            preview_duration = int(job.get("preview_duration_seconds") or 30)
+            if phase == "preview":
+                await stage(job_id, "preview_select", 34, "30_second_excerpt")
+                vd = await asyncio.to_thread(probe_duration, vocal)
+                idur = await asyncio.to_thread(probe_duration, instrumental)
+                usable = min(x for x in [vd, idur] if x > 0) if (vd > 0 or idur > 0) else float(preview_duration)
+                preview_start = max(0.0, min(max(0.0, usable - preview_duration), usable * 0.25))
+                work_vocal = root / "vocal.preview.wav"
+                work_inst = root / "instrumental.preview.wav"
+                await asyncio.to_thread(extract_preview, vocal, work_vocal, preview_start, preview_duration)
+                await asyncio.to_thread(extract_preview, instrumental, work_inst, preview_start, preview_duration)
+
+            await stage(job_id, "analyzing", 40, "loudness_masking_and_format")
+            await stage(job_id, "mixing", 52, f"phase={phase};style={job.get('mix_style','modern')}")
             report = await asyncio.to_thread(
                 mix_files,
-                vocal,
-                instrumental,
+                work_vocal,
+                work_inst,
                 mix_out,
                 wet_out,
                 str(job.get("mix_style") or "modern"),
@@ -174,20 +231,40 @@ async def process_job(job: dict[str, Any]) -> None:
                 float(job.get("eq_air_db") or 0.0),
                 bool(job.get("auto_balance") is True),
             )
+            report["processing_phase"] = phase
 
-            await stage(job_id, "preparing_results", 76, "24bit_wav")
-            await stage(job_id, "uploading_results", 82, "mix")
-            await upload_output(job_id, "mix", mix_out, "ZASU_MIX_24bit.wav", root)
-            await stage(job_id, "uploading_results", 90, "wet_vocal")
-            await upload_output(job_id, "vocal", wet_out, "ZASU_VOCAL_WET_24bit.wav", root)
+            if phase == "preview":
+                before_out = root / "ZASU_MIX_BEFORE_PREVIEW.wav"
+                await asyncio.to_thread(
+                    create_fair_before,
+                    work_vocal,
+                    work_inst,
+                    before_out,
+                    float(report.get("output_lufs") or -14.0),
+                    int(report.get("output_sample_rate") or 48000),
+                )
+                report["preview_start_seconds"] = round(preview_start, 3)
+                report["preview_duration_seconds"] = preview_duration
+                report["preview_fair_ab"] = True
+                await stage(job_id, "preparing_results", 76, "preview_ab")
+                await stage(job_id, "uploading_results", 83, "preview_before")
+                await upload_output(job_id, "preview_before", before_out, "ZASU_MIX_BEFORE_PREVIEW.wav", root)
+                await stage(job_id, "uploading_results", 90, "preview_after")
+                await upload_output(job_id, "preview_mix", mix_out, "ZASU_MIX_PREVIEW.wav", root)
+            else:
+                await stage(job_id, "preparing_results", 76, "24bit_wav")
+                await stage(job_id, "uploading_results", 82, "mix")
+                await upload_output(job_id, "mix", mix_out, "ZASU_MIX_24bit.wav", root)
+                await stage(job_id, "uploading_results", 90, "wet_vocal")
+                await upload_output(job_id, "vocal", wet_out, "ZASU_VOCAL_WET_24bit.wav", root)
 
             await stage(job_id, "finalizing", 96, "verify_outputs")
             await worker_api({
                 "action": "complete", "job_id": job_id, "worker_id": WORKER_ID, "report": report,
             }, timeout=60)
             print(
-                f"mix_complete id={job_id} style={job.get('mix_style')} "
-                f"mix_bytes={mix_out.stat().st_size} wet_bytes={wet_out.stat().st_size}",
+                f"mix_complete id={job_id} phase={phase} style={job.get('mix_style')} "
+                f"mix_bytes={mix_out.stat().st_size}",
                 flush=True,
             )
     except Exception as exc:
@@ -215,7 +292,7 @@ async def poll_loop() -> None:
             data = await worker_api({
                 "action": "claim",
                 "worker_id": WORKER_ID,
-                "capabilities": ["auto_balance_v1"],
+                "capabilities": ["auto_balance_v1", "preview_v1"],
             }, timeout=30)
             job = data.get("job")
             if job:
@@ -257,10 +334,11 @@ async def health() -> dict[str, Any]:
         "service": "zasu-mix-worker",
         "version": SERVICE_VERSION,
         "styles": ["natural", "modern", "rock", "loud"],
-        "outputs": ["mixed_24bit_wav", "wet_vocal_24bit_wav"],
+        "outputs": ["preview_fair_ab", "mixed_24bit_wav", "wet_vocal_24bit_wav"],
         "controls": ["auto_balance", "vocal_gain_db", "reverb_amount", "eq_body_db", "eq_presence_db", "eq_air_db"],
         "pitch_correction": False,
         "timing_correction": False,
+        "preview_before_payment": True,
         "mastering_isolated": True,
     }
 
@@ -277,7 +355,7 @@ async def stream_remote_parts(parts: list[dict[str, Any]]) -> AsyncIterator[byte
 
 @app.get("/download/{job_id}/{kind}")
 async def download(job_id: str, kind: str, token: str = Query(..., min_length=16)) -> StreamingResponse:
-    if kind not in {"mix", "vocal"}:
+    if kind not in {"mix", "vocal", "preview_mix", "preview_before"}:
         raise HTTPException(status_code=400, detail="invalid_kind")
     try:
         data = await worker_api({
@@ -288,7 +366,13 @@ async def download(job_id: str, kind: str, token: str = Query(..., min_length=16
         raise HTTPException(status_code=exc.response.status_code, detail="download_unavailable")
     except Exception:
         raise HTTPException(status_code=502, detail="download_unavailable")
-    name = str(data.get("name") or ("ZASU_MIX.wav" if kind=="mix" else "ZASU_VOCAL_WET.wav"))
+    defaults = {
+        "mix": "ZASU_MIX.wav",
+        "vocal": "ZASU_VOCAL_WET.wav",
+        "preview_mix": "ZASU_MIX_PREVIEW.wav",
+        "preview_before": "ZASU_MIX_BEFORE_PREVIEW.wav",
+    }
+    name = str(data.get("name") or defaults.get(kind, "ZASU_AUDIO.wav"))
     encoded = quote(name, safe="")
     return StreamingResponse(
         stream_remote_parts(list(data.get("parts") or [])),
