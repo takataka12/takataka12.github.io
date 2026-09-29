@@ -12,6 +12,8 @@ window.ZASU_MASTER_CONFIG = {
   completeMixUploadEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/complete-mix-upload",
   directMasterFromMixEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-master-from-zasu-mix",
   masteringStatusEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/mastering-status",
+  unlockMasterFullEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/unlock-zasu-master-full",
+  mixApiEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/zasu-mix-api",
   feedbackEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/submit-master-feedback",
   supabaseUrl: "https://siwmzradvrtetotakkbi.supabase.co",
   supabasePublishableKey: "sb_publishable_-rY9u8jnlhS0Qg1XmPlqKg_ViQ0sZYn",
