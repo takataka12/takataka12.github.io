@@ -1,4 +1,6 @@
 window.ZASU_MIX_CONFIG={
+  commerceEnabled:false,
+  checkoutPage:"../checkout.html",
   api:"https://siwmzradvrtetotakkbi.supabase.co/functions/v1/zasu-mix-api",
   supabaseUrl:"https://siwmzradvrtetotakkbi.supabase.co",
   publishableKey:"sb_publishable_-rY9u8jnlhS0Qg1XmPlqKg_ViQ0sZYn",
