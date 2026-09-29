@@ -11,7 +11,7 @@ const p=plans[plan]||plans.full;
 q("#checkoutPlan").textContent=p.name;
 q("#checkoutPrice").textContent="¥"+p.price.toLocaleString("ja-JP");
 q("#checkoutDescription").textContent=p.description;
-const btn=q("#checkoutButton"),status=q("#checkoutStatus");
+const btn=q("#checkoutButton"),status=q("#checkoutStatus"),legalConfirm=q("#legalConfirm");
 if(!cfg.commerceEnabled){
   btn.textContent="OPEN BETA — TRY FREE";
   status.textContent="現在はOPEN BETAのため決済は発生しません。";
@@ -19,6 +19,7 @@ if(!cfg.commerceEnabled){
 }else{
   btn.textContent="PAY WITH SQUARE";
   btn.onclick=async()=>{
+    if(!legalConfirm?.checked){status.textContent="特商法表記・返金ポリシー・利用規約を確認してください。";return;}
     if(!cfg.audioCheckoutEndpoint){status.textContent="CHECKOUT IS NOT READY.";return;}
     status.textContent="Square Checkoutを準備しています…";
     btn.disabled=true;
