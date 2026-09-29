@@ -199,6 +199,23 @@ function render(body){
       actions.appendChild(a);
     }
 
+    if(body.job_id){
+      const c=document.createElement("button");
+      c.className="btn secondary";
+      c.type="button";
+      c.textContent="OPEN IN ZASU CONVERT";
+      c.addEventListener("click",()=>{
+        sessionStorage.setItem("zasu_convert_master_handoff",JSON.stringify({
+          application_no:Number(applicationNo),
+          access_token:accessToken,
+          master_job_id:String(body.job_id),
+          profile_label:body.profile_label||"STANDARD"
+        }));
+        location.href="convert/";
+      });
+      actions.appendChild(c);
+    }
+
     if(body.report_url){
       const a=document.createElement("a");
       a.className="btn secondary";
