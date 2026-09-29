@@ -7,7 +7,7 @@ const button=q("#uploadButton");
 const status=q("#uploadStatus");
 const progress=q("#uploadProgress");
 const paymentNotice=q("#paymentNotice");
-let selectedFile=null;
+let selectedFile=null;\nfunction selectedMasteringProfile(){return q('input[name="masteringProfile"]:checked')?.value||"standard"}
 
 const savedNo=localStorage.getItem("zasu_beta_application_no")||"";const accessToken=localStorage.getItem("zasu_beta_access_token")||"";const visitorId=localStorage.getItem("zasu_visitor_id")||"";const sessionId=sessionStorage.getItem("zasu_session_id")||crypto.randomUUID();sessionStorage.setItem("zasu_session_id",sessionId);
 function humanBytes(n){
@@ -57,7 +57,7 @@ async function edgePost(url,payload){
       payment_required:"この受付ではアップロード権限を確認できませんでした。",
       upload_limit_reached:"この受付番号はすでに1曲アップロード済みです。",
       file_too_large:"ファイルが50MBを超えています。",
-      unsupported_file_type:"現在対応しているのはWAV / FLACです。"
+      unsupported_file_type:"現在対応しているのはWAV / FLACです。",\n      unsupported_mastering_profile:"マスタリングスタイルを確認してください。"
     };
     throw new Error(map[body.error]||"処理に失敗しました。時間を置いてもう一度お試しください。");
   }
@@ -114,7 +114,7 @@ button.addEventListener("click",async()=>{
       const doneRes=await fetch(base+"/upload-complete",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
-        body:JSON.stringify({application_no:no,access_token:accessToken,upload_id:ticket.upload_id})
+        body:JSON.stringify({application_no:no,access_token:accessToken,upload_id:ticket.upload_id,mastering_profile:selectedMasteringProfile()})
       });
       let done={}; try{done=await doneRes.json()}catch(_){}
       if(!doneRes.ok) throw new Error(done.detail==="size_mismatch"?"アップロードサイズの確認に失敗しました。":"アップロード確認に失敗しました。");
