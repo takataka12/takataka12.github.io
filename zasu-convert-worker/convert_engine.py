@@ -48,7 +48,7 @@ def probe_audio(path: Path) -> dict[str, Any]:
 
 
 def output_suffix(fmt: str) -> str:
-    return {"wav": ".wav", "flac": ".flac", "aiff": ".aiff", "alac": ".m4a"}[fmt]
+    return {"wav": ".wav", "flac": ".flac", "aiff": ".aiff", "alac": ".m4a", "mp3": ".mp3"}[fmt]
 
 
 def _codec_args(fmt: str, bit_depth: int) -> list[str]:
@@ -60,6 +60,8 @@ def _codec_args(fmt: str, bit_depth: int) -> list[str]:
         return ["-c:a", "flac", "-compression_level", "8", "-sample_fmt", "s16" if bit_depth == 16 else "s32"]
     if fmt == "alac":
         return ["-c:a", "alac", "-sample_fmt", "s16p" if bit_depth == 16 else "s32p", "-f", "ipod"]
+    if fmt == "mp3":
+        return ["-c:a", "libmp3lame", "-b:a", "320k", "-f", "mp3"]
     raise RuntimeError("unsupported_output_format")
 
 
@@ -84,8 +86,9 @@ def convert_file(
         "-map_metadata", "0",
     ]
 
+    is_mp3 = output_format == "mp3"
     needs_resample = out_rate != before["sample_rate"]
-    needs_dither = bool(dither and out_bits == 16 and before["bit_depth"] > 16)
+    needs_dither = bool((not is_mp3) and dither and out_bits == 16 and before["bit_depth"] > 16)
     if needs_resample or needs_dither:
         opts = [
             f"osr={out_rate}",
@@ -118,10 +121,11 @@ def convert_file(
         "output_format": output_format,
         "output_codec": after["codec_name"],
         "output_sample_rate": after["sample_rate"],
-        "output_bit_depth": out_bits,
+        "output_bit_depth": None if is_mp3 else out_bits,
+        "bitrate_kbps": 320 if is_mp3 else None,
         "dither_applied": needs_dither,
         "resampler": "SoXR HQ precision=28" if needs_resample or needs_dither else "not required",
-        "audio_processing": "format/sample-rate/bit-depth conversion only; no EQ, compression, limiting, or loudness normalization",
+        "audio_processing": ("MP3 320 kbps encoding; no EQ, compression, limiting, or loudness normalization" if is_mp3 else "format/sample-rate/bit-depth conversion only; no EQ, compression, limiting, or loudness normalization"),
     }
 
 
@@ -139,6 +143,7 @@ def self_test() -> None:
             ("flac", 48000, 24, False),
             ("aiff", 44100, 24, False),
             ("alac", 48000, 24, False),
+            ("mp3", 48000, 24, False),
         ]
         for fmt, sr, bits, dither in cases:
             dst = root / ("out" + output_suffix(fmt))
