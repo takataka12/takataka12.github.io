@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mastering Status｜ZASU MASTER</title>
 <meta name="description" content="ZASU MASTER OPEN BETAのマスタリング進行状況と結果を確認します。">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=20260929-1130">
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU MASTER</span><span class="jp">ザスマス</span></a><nav><a href="index.html">HOME</a><a href="upload.html">UPLOAD</a></nav></div></header>
@@ -12,7 +12,7 @@
 <section class="hero" style="padding-bottom:34px;border-top:0"><div class="wrap">
 <div class="kicker">PUNCH ENGINE / Job Status</div>
 <h1 style="font-size:clamp(46px,8vw,82px)">MASTERING<br>STATUS.</h1>
-<p>マスタリング結果。</p>
+<p>処理工程から完成音源まで、このページで確認できます。</p>
 </div></section>
 
 <section><div class="wrap result-shell">
@@ -20,6 +20,11 @@
   <div class="status-pill"><span class="status-dot"></span><span id="statusLabel">WAITING</span></div>
   <div class="result-state" id="resultState">処理状況を確認しています。</div>
   <p id="resultMessage" class="muted">音源アップロード後は、このページを開いたままでも自動更新します。</p>
+
+  <div id="jobProgress" class="job-progress" hidden>
+    <div class="job-progress-track"><span id="jobProgressBar"></span></div>
+    <div id="jobProgressText" class="job-progress-text">処理状況を取得しています。</div>
+  </div>
 
   <div id="metrics" class="metric-grid" hidden>
     <div class="metric"><span class="label">Engine</span><strong id="metricEngine">—</strong></div>
@@ -52,6 +57,6 @@
 </div></section>
 </main>
 <footer><div class="wrap"><div class="footer-links"><a href="index.html">HOME</a><a href="upload.html">UPLOAD MIX</a><a href="terms.html">利用規約</a></div><div>© 2026 ZASU MASTER / ZASU</div></div></footer>
-<script src="assets/config.js?v=20260926-1410"></script>
-<script src="assets/result.js?v=20260926-1458"></script>
+<script src="assets/config.js?v=20260929-1130"></script>
+<script src="assets/result.js?v=20260929-1130"></script>
 </body></html>
