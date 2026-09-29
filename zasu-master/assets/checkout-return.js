@@ -1,6 +1,8 @@
 const q=s=>document.querySelector(s);
 const cfg=window.ZASU_MASTER_CONFIG||{};
 const title=q("#returnTitle"),text=q("#returnText"),actions=q("#returnActions");
+let paymentPollTimer=null;
+let paymentPollCount=0;
 function addAction(label,href,primary=true){const a=document.createElement("a");a.className="btn"+(primary?"":" secondary");a.href=href;a.textContent=label;actions.appendChild(a)}
 function routeFor(plan){return plan==="master"?"result.html":"mix/"}
 async function unlockPaidPreview(saved){
@@ -45,6 +47,8 @@ async function unlockPaidPreview(saved){
   return {ok:true,href:routeFor(saved.plan)};
 }
 async function check(){
+  if(paymentPollTimer){clearTimeout(paymentPollTimer);paymentPollTimer=null}
+  actions.innerHTML="";
   let saved=null;try{saved=JSON.parse(localStorage.getItem("zasu_audio_checkout")||"null")}catch(_){}
   const orderParam=new URLSearchParams(location.search).get("order")||"";
   if(!saved?.order_id||!saved?.order_access_token||saved.order_id!==orderParam){
@@ -71,8 +75,18 @@ async function check(){
       return;
     }
     title.innerHTML="PAYMENT<br>PROCESSING.";
-    text.textContent="Squareから決済完了通知を待っています。数秒後にもう一度確認してください。";
-    const b=document.createElement("button");b.className="btn";b.type="button";b.textContent="CHECK AGAIN";b.onclick=()=>{actions.innerHTML="";title.innerHTML="CHECKING<br>PAYMENT.";text.textContent="決済状況を確認しています。";check()};actions.appendChild(b);
+    text.textContent="Squareから決済完了通知を待っています。この画面で自動確認します。";
+    const b=document.createElement("button");b.className="btn";b.type="button";b.textContent="CHECK NOW";b.onclick=()=>{paymentPollCount=0;title.innerHTML="CHECKING<br>PAYMENT.";text.textContent="決済状況を確認しています。";check()};actions.appendChild(b);
+    if(paymentPollCount<12){
+      paymentPollCount+=1;
+      paymentPollTimer=setTimeout(()=>{
+        title.innerHTML="CHECKING<br>PAYMENT.";
+        text.textContent="決済状況を自動確認しています…";
+        check();
+      },2500);
+    }else{
+      text.textContent="決済完了通知に時間がかかっています。決済済みの場合はCHECK NOWでもう一度確認できます。";
+    }
   }catch(e){
     title.innerHTML="PAYMENT<br>CHECK FAILED.";
     text.textContent=e?.message||"決済状況を確認できませんでした。";
