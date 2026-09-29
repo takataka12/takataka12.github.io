@@ -14,7 +14,7 @@ from fastapi.responses import StreamingResponse
 
 from mix_engine import compute_mix_plan, mix_files
 
-SERVICE_VERSION = "0.4.1"
+SERVICE_VERSION = "0.4.2"
 PART_BYTES = 40 * 1024 * 1024
 
 WORKER_API_URL = os.environ["MIX_WORKER_API_URL"]
@@ -126,6 +126,19 @@ def create_fair_before(vocal: Path, instrumental: Path, dest: Path, target_lufs:
             "-i", str(vocal), "-i", str(instrumental),
             "-filter_complex", graph, "-map", "[out]",
             "-ar", str(sample_rate), "-c:a", "pcm_s24le", str(dest),
+        ],
+        check=True,
+    )
+
+
+def encode_preview_m4a(source: Path, dest: Path) -> None:
+    subprocess.run(
+        [
+            "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+            "-i", str(source),
+            "-c:a", "aac", "-b:a", "192k",
+            "-movflags", "+faststart",
+            str(dest),
         ],
         check=True,
     )
@@ -258,11 +271,20 @@ async def process_job(job: dict[str, Any]) -> None:
                 report["preview_start_seconds"] = round(preview_start, 3)
                 report["preview_duration_seconds"] = preview_duration
                 report["preview_fair_ab"] = True
-                await stage(job_id, "preparing_results", 76, "preview_ab")
+
+                # Browser previews use AAC/M4A with faststart instead of 24-bit PCM WAV.
+                # This avoids Safari/Chrome media decode errors while keeping the
+                # actual full-resolution MIX pipeline WAV-only.
+                before_preview = root / "ZASU_MIX_BEFORE_PREVIEW.m4a"
+                after_preview = root / "ZASU_MIX_PREVIEW.m4a"
+                await asyncio.to_thread(encode_preview_m4a, before_out, before_preview)
+                await asyncio.to_thread(encode_preview_m4a, mix_out, after_preview)
+
+                await stage(job_id, "preparing_results", 76, "browser_preview_aac")
                 await stage(job_id, "uploading_results", 83, "preview_before")
-                await upload_output(job_id, "preview_before", before_out, "ZASU_MIX_BEFORE_PREVIEW.wav", root)
+                await upload_output(job_id, "preview_before", before_preview, "ZASU_MIX_BEFORE_PREVIEW.m4a", root)
                 await stage(job_id, "uploading_results", 90, "preview_after")
-                await upload_output(job_id, "preview_mix", mix_out, "ZASU_MIX_PREVIEW.wav", root)
+                await upload_output(job_id, "preview_mix", after_preview, "ZASU_MIX_PREVIEW.m4a", root)
             else:
                 await stage(job_id, "preparing_results", 76, "24bit_wav")
                 await stage(job_id, "uploading_results", 82, "mix")
@@ -346,7 +368,7 @@ async def health() -> dict[str, Any]:
         "service": "zasu-mix-worker",
         "version": SERVICE_VERSION,
         "styles": ["natural", "modern", "rock", "loud"],
-        "outputs": ["preview_fair_ab", "mixed_24bit_wav", "wet_vocal_24bit_wav"],
+        "outputs": ["preview_fair_ab_aac", "mixed_24bit_wav", "wet_vocal_24bit_wav"],
         "controls": ["auto_balance", "vocal_gain_db", "reverb_amount", "eq_body_db", "eq_presence_db", "eq_air_db"],
         "pitch_correction": False,
         "timing_correction": False,
@@ -387,8 +409,14 @@ async def download(job_id: str, kind: str, token: str = Query(..., min_length=16
     name = str(data.get("name") or defaults.get(kind, "ZASU_AUDIO.wav"))
     encoded = quote(name, safe="")
     disposition = "inline" if kind.startswith("preview_") else "attachment"
+    lower_name = name.lower()
+    media_type = "audio/mp4" if lower_name.endswith((".m4a", ".mp4")) else "audio/wav"
     return StreamingResponse(
         stream_remote_parts(list(data.get("parts") or [])),
-        media_type="audio/wav",
-        headers={"Content-Disposition": f"{disposition}; filename*=UTF-8''{encoded}", "Cache-Control": "no-store"},
+        media_type=media_type,
+        headers={
+            "Content-Disposition": f"{disposition}; filename*=UTF-8''{encoded}",
+            "Cache-Control": "no-store",
+            "X-Content-Type-Options": "nosniff",
+        },
     )
