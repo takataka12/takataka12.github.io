@@ -77,6 +77,8 @@ def convert_file(
     out_rate = int(sample_rate or before["sample_rate"])
     out_bits = int(bit_depth or before["bit_depth"])
     out_bits = 16 if out_bits <= 16 else 24
+    if output_format == "mp3" and out_rate not in (44100, 48000):
+        out_rate = 44100 if before["sample_rate"] % 44100 == 0 else 48000
 
     cmd = [
         "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
