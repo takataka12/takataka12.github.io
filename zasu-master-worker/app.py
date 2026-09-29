@@ -19,7 +19,7 @@ from starlette.background import BackgroundTask
 from urllib.parse import quote
 
 ENGINE_VERSION = "0.4.1"
-SERVICE_VERSION = "1.1.1"
+SERVICE_VERSION = "1.2.0"
 LOUD_PROFILE_VERSION = "OTV-1.0"
 
 WORKER_API_URL = os.environ["MASTER_WORKER_API_URL"]
@@ -265,6 +265,32 @@ def split_binary_file(source: Path, workdir: Path) -> list[Path]:
     return parts
 
 
+def probe_duration(path: Path) -> float:
+    proc = subprocess.run(
+        ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "default=nw=1:nk=1", str(path)],
+        stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, check=False,
+    )
+    try:
+        return max(0.0, float((proc.stdout or "0").strip()))
+    except ValueError:
+        return 0.0
+
+
+def extract_preview_input(source: Path, dest: Path, duration_seconds: int) -> tuple[float, int]:
+    duration = probe_duration(source)
+    preview_duration = max(10, min(45, int(duration_seconds or 30)))
+    start = max(0.0, min(max(0.0, duration - preview_duration), duration * 0.25))
+    subprocess.run(
+        [
+            "ffmpeg", "-hide_banner", "-loglevel", "error", "-y",
+            "-ss", f"{start:.3f}", "-t", str(preview_duration),
+            "-i", str(source), "-c:a", "pcm_s24le", str(dest),
+        ],
+        check=True,
+    )
+    return start, preview_duration
+
+
 def process_sync(workdir: Path, mastering_profile: str = "standard") -> tuple[dict[str, Any], dict[str, Path]]:
     input_path = workdir / "input"
     master_wav = workdir / "master.wav"
@@ -336,6 +362,9 @@ async def process_job(job: dict[str, Any]) -> None:
     mastering_profile = str(job.get("mastering_profile") or "standard")
     if mastering_profile not in {"standard", "loud_otv"}:
         mastering_profile = "standard"
+    processing_mode = str(job.get("processing_mode") or "full")
+    if processing_mode not in {"preview", "full"}:
+        processing_mode = "full"
     tmp = Path(tempfile.mkdtemp(prefix="zasu-master-"))
     heartbeat_stop = asyncio.Event()
     heartbeat_task = asyncio.create_task(heartbeat_loop(job_id, heartbeat_stop))
@@ -359,13 +388,28 @@ async def process_job(job: dict[str, Any]) -> None:
             flush=True,
         )
 
-        await safe_stage(job_id, "mastering", 35, f"engine={ENGINE_VERSION};profile={mastering_profile}")
+        preview_start = 0.0
+        preview_duration = int(job.get("preview_duration_seconds") or 30)
+        if processing_mode == "preview":
+            await safe_stage(job_id, "preview_select", 28, "30_second_excerpt")
+            preview_path = tmp / "preview_input.wav"
+            preview_start, preview_duration = await asyncio.to_thread(
+                extract_preview_input, input_path, preview_path, preview_duration
+            )
+            input_path.unlink(missing_ok=True)
+            preview_path.replace(input_path)
+
+        await safe_stage(job_id, "mastering", 35, f"engine={ENGINE_VERSION};profile={mastering_profile};mode={processing_mode}")
         print(
             f"job_stage id={job_id} stage=punch_start engine={ENGINE_VERSION} profile={mastering_profile}",
             flush=True,
         )
         report, outputs = await asyncio.to_thread(process_sync, tmp, mastering_profile)
-        print(f"job_stage id={job_id} stage=punch_done", flush=True)
+        report["processing_mode"] = processing_mode
+        if processing_mode == "preview":
+            report["preview_start_seconds"] = round(preview_start, 3)
+            report["preview_duration_seconds"] = preview_duration
+        print(f"job_stage id={job_id} stage=punch_done mode={processing_mode}", flush=True)
 
         await safe_stage(job_id, "preparing_results", 70, "encode_and_package")
         master = outputs["master"]
@@ -461,7 +505,7 @@ async def poll_loop() -> None:
     while not _stop.is_set():
         try:
             result = await worker_api(
-                {"action": "claim", "worker_id": WORKER_ID},
+                {"action": "claim", "worker_id": WORKER_ID, "capabilities": ["preview_v1"]},
                 timeout=20,
                 retries=3,
             )
@@ -511,6 +555,7 @@ async def health() -> dict[str, Any]:
         "worker_id": WORKER_ID,
         "chunked_master_support": True,
         "direct_zasu_mix_handoff": True,
+        "preview_before_payment": True,
         "mastering_profiles": ["standard", "loud_otv"],
         "loud_profile_version": LOUD_PROFILE_VERSION,
     }
