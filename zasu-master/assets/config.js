@@ -1,6 +1,6 @@
 window.ZASU_MASTER_CONFIG = {
   brandName: "ZASU AUDIO",
-  commerceEnabled: false,
+  commerceEnabled: true,
   checkoutProvider: "square",
   launchPrices: { mix: 500, master: 500, full: 800, convert: 0 },
   audioCheckoutEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-zasu-audio-checkout",
