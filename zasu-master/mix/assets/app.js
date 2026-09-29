@@ -1,6 +1,12 @@
 const cfg=window.ZASU_MIX_CONFIG||{};
 const q=s=>document.querySelector(s);
 let vocal=null,inst=null,style="modern",job=null,pollTimer=null;
+const STYLE_CONTROL_DEFAULTS={
+  natural:{gain:0.5,reverb:8,body:0,presence:0,air:0},
+  modern:{gain:2.0,reverb:14,body:0,presence:0,air:0.5},
+  rock:{gain:1.5,reverb:12,body:0.5,presence:0.5,air:0},
+  loud:{gain:2.5,reverb:10,body:0,presence:1.0,air:0}
+};
 
 function humanBytes(n){n=Number(n||0);if(n<1024*1024)return(n/1024).toFixed(1)+" KB";return(n/1024/1024).toFixed(1)+" MB"}
 function authHeaders(){return{"Content-Type":"application/json","apikey":cfg.publishableKey,"Authorization":"Bearer "+cfg.anonKey}}
@@ -26,10 +32,32 @@ for(const [id,kind] of [["#vocalDrop","vocal"],["#instDrop","inst"]]){
   ["dragleave","drop"].forEach(t=>el.addEventListener(t,e=>{e.preventDefault();el.classList.remove("drag")}));
   el.addEventListener("drop",e=>pick(kind,e.dataTransfer?.files?.[0]));
 }
+function dbText(v){
+  const n=Number(v||0);return (n>0?"+":"")+n.toFixed(1)+" dB";
+}
+function syncControlLabels(){
+  q("#vocalGainValue").textContent=dbText(q("#vocalGain").value);
+  q("#reverbValue").textContent=Math.round(Number(q("#reverbAmount").value||0))+"%";
+  q("#eqBodyValue").textContent=dbText(q("#eqBody").value);
+  q("#eqPresenceValue").textContent=dbText(q("#eqPresence").value);
+  q("#eqAirValue").textContent=dbText(q("#eqAir").value);
+}
+function applyStyleControls(name){
+  const d=STYLE_CONTROL_DEFAULTS[name]||STYLE_CONTROL_DEFAULTS.modern;
+  q("#vocalGain").value=String(d.gain);
+  q("#reverbAmount").value=String(d.reverb);
+  q("#eqBody").value=String(d.body);
+  q("#eqPresence").value=String(d.presence);
+  q("#eqAir").value=String(d.air);
+  syncControlLabels();
+}
+["#vocalGain","#reverbAmount","#eqBody","#eqPresence","#eqAir"].forEach(id=>q(id).addEventListener("input",syncControlLabels));
 document.querySelectorAll(".style").forEach(x=>x.onclick=()=>{
   style=x.dataset.style;
   document.querySelectorAll(".style").forEach(y=>y.classList.toggle("active",y===x));
+  applyStyleControls(style);
 });
+applyStyleControls("modern");
 
 async function uploadSet(ticketList,file,bucket,chunkSize,label,startPct,endPct){
   const total=ticketList.length;
@@ -53,7 +81,12 @@ async function start(){
     const ticket=await api("create_job",{
       vocal_name:vocal.name,vocal_size_bytes:vocal.size,vocal_mime_type:vocal.type||"application/octet-stream",
       instrumental_name:inst.name,instrumental_size_bytes:inst.size,instrumental_mime_type:inst.type||"application/octet-stream",
-      mix_style:style
+      mix_style:style,
+      vocal_gain_db:Number(q("#vocalGain").value),
+      reverb_amount:Number(q("#reverbAmount").value),
+      eq_body_db:Number(q("#eqBody").value),
+      eq_presence_db:Number(q("#eqPresence").value),
+      eq_air_db:Number(q("#eqAir").value)
     });
     job={id:ticket.job_id,token:ticket.access_token};
     sessionStorage.setItem("zasu_mix_job",JSON.stringify(job));
@@ -75,7 +108,7 @@ const stageCopy={
   claimed:["STARTING","AUTO MIX ENGINEを起動しています。"],
   downloading:["DOWNLOADING","音源を処理サーバーへ転送しています。"],
   analyzing:["ANALYZING","音量・フォーマットを解析しています。"],
-  mixing:["AUTO MIXING","EQ / De-esser / Compressor / Balanceを自動調整しています。"],
+  mixing:["AUTO MIXING","EQ / De-esser / Compressor / Vocal Level / Reverbを反映しています。"],
   preparing_results:["RENDERING","24-bit WAVを書き出しています。"],
   uploading_results:["SAVING","完成ファイルを保存しています。"],
   finalizing:["FINALIZING","最終確認しています。"],
