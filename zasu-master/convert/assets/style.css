@@ -16,3 +16,10 @@ footer{border-top:1px solid #202020;padding:30px 0 48px;color:#6f6f6f;font-size:
 @media(max-width:700px){.nav nav{display:none}.hero{padding-top:48px}.hero h1{font-size:78px}.lead{font-size:16px}.convert-card{padding:18px;border-radius:18px}.preset-grid,.settings-grid{grid-template-columns:1fr}.dither-check{grid-column:1}.metrics{grid-template-columns:1fr 1fr}.progress-copy{display:block}.progress-copy span{display:block;text-align:left;margin-top:5px}.dropzone strong{font-size:24px}}
 
 .file-meta.master-source{border-color:#e8e8e8;background:#151515;color:#f3f3f3;font-weight:850}
+
+@media(max-width:700px){
+  .nav{gap:10px}
+  .nav nav{display:flex;gap:9px;font-size:10px}
+  .brand .main{font-size:17px}
+  .brand .jp{display:none}
+}
