@@ -14,7 +14,7 @@ from fastapi.responses import StreamingResponse
 
 from convert_engine import convert_file, output_suffix
 
-SERVICE_VERSION = "0.1.0"
+SERVICE_VERSION = "0.2.0"
 PART_BYTES = 40 * 1024 * 1024
 
 WORKER_API_URL = os.environ["CONVERT_WORKER_API_URL"]
@@ -249,8 +249,9 @@ async def health() -> dict[str, Any]:
         "ok": True,
         "service": "zasu-convert-worker",
         "version": SERVICE_VERSION,
-        "formats": ["wav", "flac", "aiff", "alac"],
+        "formats": ["wav", "flac", "aiff", "alac", "mp3"],
         "resampler": "SoXR HQ precision=28",
+        "mp3": "320 kbps CBR / libmp3lame",
         "mastering_isolated": True,
     }
 
