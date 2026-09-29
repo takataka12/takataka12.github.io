@@ -25,7 +25,10 @@ if(!cfg.commerceEnabled){
     try{
       const visitorId=localStorage.getItem("zasu_visitor_id")||crypto.randomUUID();
       localStorage.setItem("zasu_visitor_id",visitorId);
-      const res=await fetch(cfg.audioCheckoutEndpoint,{method:"POST",headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},body:JSON.stringify({plan,visitor_id:visitorId})});
+      let pending=null;try{pending=JSON.parse(localStorage.getItem("zasu_pending_unlock")||"null")}catch(_){}
+      const sourceType=pending?.type==="mix"?"mix":pending?.type==="master"?"master":null;
+      const sourceId=sourceType==="mix"?pending?.job_id:sourceType==="master"?pending?.preview_job_id:null;
+      const res=await fetch(cfg.audioCheckoutEndpoint,{method:"POST",headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},body:JSON.stringify({plan,visitor_id:visitorId,source_type:sourceType,source_id:sourceId})});
       const body=await res.json().catch(()=>({}));
       if(!res.ok||!body.payment_url||!body.order_id||!body.order_access_token)throw new Error(body.error||"CHECKOUT FAILED");
       localStorage.setItem("zasu_audio_checkout",JSON.stringify({order_id:body.order_id,order_access_token:body.order_access_token,plan,created_at:Date.now()}));
