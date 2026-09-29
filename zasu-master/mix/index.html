@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#080808">
 <title>ZASU MIX｜Auto Vocal Mix Prototype</title>
 <meta name="description" content="ドライボーカルとインストをアップロードして自動MIX。ZASU MIX v0.3プロトタイプ。">
-<link rel="stylesheet" href="assets/style.css?v=20260930-004">
+<link rel="stylesheet" href="assets/style.css?v=20260930-0500">
 </head>
 <body>
 <header>
@@ -114,7 +114,7 @@
 
   <div class="mix-card result-card" id="resultCard" hidden>
     <div class="mode">READY</div>
-    <h2>MIX READY.</h2>
+    <h2 id="resultHeading">MIX READY.</h2>
     <div class="metrics">
       <div><span>STYLE</span><strong id="resultStyle">—</strong></div>
       <div><span>SAMPLE RATE</span><strong id="resultRate">—</strong></div>
@@ -125,11 +125,26 @@
       <span>AUTO BALANCE</span><strong id="autoBalanceResultValue">—</strong>
       <small>250Hz–5kHzのマスキング解析から自動配置</small>
     </div>
-    <div class="download-grid">
+    <div id="previewAbArea" class="preview-ab" hidden>
+      <div class="preview-ab-head"><span>FREE 30-SECOND PREVIEW</span><strong>BEFORE / AFTER</strong><small>音量を揃えて比較できます。</small></div>
+      <div class="preview-audio-grid">
+        <label><strong>BEFORE / FAIR</strong><audio id="previewBeforeAudio" controls preload="metadata"></audio></label>
+        <label><strong>ZASU MIX / FAIR</strong><audio id="previewAfterAudio" controls preload="metadata"></audio></label>
+      </div>
+    </div>
+    <div id="previewGate" class="preview-gate" hidden>
+      <div><small>LIKE THE PREVIEW?</small><strong>フル尺を仕上げる</strong><span id="previewGateCopy">OPEN BETA中は無料でフル尺処理できます。</span></div>
+      <div class="preview-unlock-grid">
+        <button id="unlockMixButton" class="btn" type="button">CREATE FULL MIX — FREE BETA</button>
+        <button id="unlockFullButton" class="btn secondary" type="button">MIX + MASTER — FREE BETA</button>
+      </div>
+      <div id="previewUnlockStatus" class="handoff-status"></div>
+    </div>
+    <div class="download-grid" id="fullDownloads">
       <a id="mixDownload" class="btn" href="#">DOWNLOAD MIXED 24-BIT WAV</a>
       <a id="vocalDownload" class="btn secondary" href="#">DOWNLOAD VOCAL WET STEM</a>
     </div>
-    <div class="next-step master-handoff">
+    <div class="next-step master-handoff" id="fullMasterHandoff">
       <span><small>NEXT STEP / NO RE-UPLOAD</small><strong>ZASU MASTERで仕上げる</strong></span>
       <div class="master-choice-grid">
         <button id="sendStandard" class="master-choice" type="button">
@@ -148,7 +163,7 @@
 </main>
 
 <footer><div class="wrap">© 2026 ZASU AUDIO / ZASU WORKS — ZASU MIX PROTOTYPE</div></footer>
-<script src="assets/config.js?v=20260930-004"></script>
-<script src="assets/app.js?v=20260930-004"></script>
+<script src="assets/config.js?v=20260930-0500"></script>
+<script src="assets/app.js?v=20260930-0500"></script>
 </body>
 </html>
