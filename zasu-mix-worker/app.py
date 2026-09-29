@@ -13,7 +13,7 @@ from fastapi.responses import StreamingResponse
 
 from mix_engine import mix_files
 
-SERVICE_VERSION = "0.1.0"
+SERVICE_VERSION = "0.2.0"
 PART_BYTES = 40 * 1024 * 1024
 
 WORKER_API_URL = os.environ["MIX_WORKER_API_URL"]
@@ -161,7 +161,17 @@ async def process_job(job: dict[str, Any]) -> None:
             await stage(job_id, "analyzing", 38, "loudness_and_format")
             await stage(job_id, "mixing", 50, f"style={job.get('mix_style','modern')}")
             report = await asyncio.to_thread(
-                mix_files, vocal, instrumental, mix_out, wet_out, str(job.get("mix_style") or "modern")
+                mix_files,
+                vocal,
+                instrumental,
+                mix_out,
+                wet_out,
+                str(job.get("mix_style") or "modern"),
+                float(job.get("vocal_gain_db") or 0.0),
+                int(job.get("reverb_amount") or 0),
+                float(job.get("eq_body_db") or 0.0),
+                float(job.get("eq_presence_db") or 0.0),
+                float(job.get("eq_air_db") or 0.0),
             )
 
             await stage(job_id, "preparing_results", 76, "24bit_wav")
@@ -243,6 +253,7 @@ async def health() -> dict[str, Any]:
         "version": SERVICE_VERSION,
         "styles": ["natural", "modern", "rock", "loud"],
         "outputs": ["mixed_24bit_wav", "wet_vocal_24bit_wav"],
+        "controls": ["vocal_gain_db", "reverb_amount", "eq_body_db", "eq_presence_db", "eq_air_db"],
         "pitch_correction": False,
         "timing_correction": False,
         "mastering_isolated": True,
