@@ -56,7 +56,7 @@ async function edgePost(url,payload){
       beta_application_not_found:"受付番号が見つかりません。",
       beta_not_accepted:"この受付番号はまだβ参加枠に入っていません。",
       payment_required:"この受付ではアップロード権限を確認できませんでした。",
-      upload_limit_reached:"この受付番号はすでに1曲アップロード済みです。",
+      upload_limit_reached:"この受付番号では、選択したマスタリングスタイルはすでに1曲アップロード済みです。",
       file_too_large:"ファイルが50MBを超えています。",
       unsupported_file_type:"現在対応しているのはWAV / FLACです。",
       unsupported_mastering_profile:"マスタリングスタイルを確認してください。"
