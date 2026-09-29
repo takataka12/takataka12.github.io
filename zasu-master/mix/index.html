@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#080808">
 <title>ZASU MIX｜Auto Vocal Mix Prototype</title>
-<meta name="description" content="ドライボーカルとインストをアップロードして自動MIX。ZASU MIX v0.2プロトタイプ。">
-<link rel="stylesheet" href="assets/style.css?v=20260930-003">
+<meta name="description" content="ドライボーカルとインストをアップロードして自動MIX。ZASU MIX v0.3プロトタイプ。">
+<link rel="stylesheet" href="assets/style.css?v=20260930-004">
 </head>
 <body>
 <header>
@@ -19,7 +19,7 @@
 <main>
 <section class="hero">
   <div class="wrap">
-    <div class="kicker">AUTO VOCAL MIX / PROTOTYPE v0.2</div>
+    <div class="kicker">AUTO VOCAL MIX / PROTOTYPE v0.3</div>
     <h1>ZASU<br>MIX.</h1>
     <p class="lead">ドライボーカルとインストから、自動で2MIXを作る。<br>まずは歌ってみた・ロック/ラウド系向けの試作版です。</p>
   </div>
@@ -62,7 +62,7 @@
     </div>
 
     <div class="engine-note">
-      <strong>AUTO MIX ENGINE v0.2</strong>
+      <strong>AUTO MIX ENGINE v0.3</strong>
       <span>HPF / EQ / De-esser / Compressor / Vocal Level / Ambience / Safety Limiterを自動調整。</span>
       <small>※ ピッチ補正・タイミング補正はまだ行いません。</small>
     </div>
@@ -71,6 +71,16 @@
   <div class="mix-card control-card">
     <div class="mode">03 / VOCAL CONTROL</div>
     <h2>声を自分で追い込む</h2>
+    <div class="auto-balance-panel">
+      <label class="auto-balance-toggle">
+        <span>
+          <strong>AUTO BALANCE</strong>
+          <small>ボーカルとオケのマスキングを解析して、声の前後感を自動調整</small>
+        </span>
+        <input id="autoBalance" type="checkbox" checked>
+      </label>
+      <div id="autoBalanceHint" class="auto-balance-hint">ON — VOCAL LEVELは素材に合わせて自動決定します。</div>
+    </div>
     <div class="control-list">
       <label class="control-row">
         <span><strong>VOCAL LEVEL</strong><small>オケに対するボーカル音量</small></span>
@@ -89,7 +99,7 @@
       <label><span>PRESENCE <small>3.2kHz</small></span><output id="eqPresenceValue">0.0 dB</output><input id="eqPresence" type="range" min="-4" max="4" step="0.5" value="0"></label>
       <label><span>AIR <small>10kHz</small></span><output id="eqAirValue">0.0 dB</output><input id="eqAir" type="range" min="-4" max="4" step="0.5" value="0"></label>
     </div>
-    <div class="mini-note">STYLEを選ぶと推奨値に戻ります。そこから好みに合わせて微調整できます。</div>
+    <div class="mini-note">AUTO BALANCEをOFFにするとVOCAL LEVELを手動調整できます。EQ / REVERBはAUTO BALANCE中でも自由に変更できます。</div>
   </div>
 
   <div class="mix-card">
@@ -110,6 +120,10 @@
       <div><span>SAMPLE RATE</span><strong id="resultRate">—</strong></div>
       <div><span>OUTPUT LUFS</span><strong id="resultLufs">—</strong></div>
       <div><span>TRUE PEAK</span><strong id="resultTp">—</strong></div>
+    </div>
+    <div id="autoBalanceResult" class="auto-balance-result" hidden>
+      <span>AUTO BALANCE</span><strong id="autoBalanceResultValue">—</strong>
+      <small>250Hz–5kHzのマスキング解析から自動配置</small>
     </div>
     <div class="download-grid">
       <a id="mixDownload" class="btn" href="#">DOWNLOAD MIXED 24-BIT WAV</a>
@@ -134,7 +148,7 @@
 </main>
 
 <footer><div class="wrap">© 2026 ZASU MASTER / ZASU — ZASU MIX PROTOTYPE</div></footer>
-<script src="assets/config.js?v=20260930-003"></script>
-<script src="assets/app.js?v=20260930-003"></script>
+<script src="assets/config.js?v=20260930-004"></script>
+<script src="assets/app.js?v=20260930-004"></script>
 </body>
 </html>
