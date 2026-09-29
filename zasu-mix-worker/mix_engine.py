@@ -105,13 +105,29 @@ def vocal_target_lufs(inst_lufs: float, style: str) -> float:
     return max(-20.0, min(-13.0, target))
 
 
-def vocal_filter(style: str, target_lufs: float, sample_rate: int) -> str:
+def vocal_filter(
+    style: str,
+    target_lufs: float,
+    sample_rate: int,
+    vocal_gain_db: float = 0.0,
+    reverb_amount: int = 12,
+    eq_body_db: float = 0.0,
+    eq_presence_db: float = 0.0,
+    eq_air_db: float = 0.0,
+) -> str:
     p = STYLE_PARAMS[style]
+    body = max(-8.0, min(8.0, float(p["body_db"]) + float(eq_body_db)))
+    presence = max(-8.0, min(8.0, float(p["presence_db"]) + float(eq_presence_db)))
+    air = max(-4.0, min(4.0, float(eq_air_db)))
+    gain = max(-6.0, min(6.0, float(vocal_gain_db)))
+    reverb = max(0, min(40, int(reverb_amount)))
+
     parts = [
         f"aresample={sample_rate}:resampler=soxr:precision=28",
         f"highpass=f={p['hpf']}",
-        f"equalizer=f=220:t=q:w=1.1:g={p['body_db']}",
-        f"equalizer=f=3200:t=q:w=1.0:g={p['presence_db']}",
+        f"equalizer=f=220:t=q:w=1.1:g={body:.2f}",
+        f"equalizer=f=3200:t=q:w=1.0:g={presence:.2f}",
+        f"equalizer=f=10000:t=q:w=0.7:g={air:.2f}",
         "deesser=i=0.28:m=0.45:f=0.55:s=o",
         (
             "acompressor="
@@ -121,13 +137,37 @@ def vocal_filter(style: str, target_lufs: float, sample_rate: int) -> str:
         ),
         f"loudnorm=I={target_lufs:.2f}:TP=-3.0:LRA=7",
     ]
-    if p["echo"]:
-        delay, decay = p["echo"]
-        parts.append(f"aecho=0.8:0.88:{delay}:{decay}")
+
+    if reverb > 0:
+        wet = reverb / 40.0
+        decays = [
+            0.18 * wet,
+            0.13 * wet,
+            0.09 * wet,
+            0.06 * wet,
+        ]
+        parts.append(
+            "aecho=0.82:0.90:38|73|119|171:"
+            + "|".join(f"{d:.4f}" for d in decays)
+        )
+
+    if abs(gain) >= 0.01:
+        parts.append(f"volume={gain:.2f}dB")
     return ",".join(parts)
 
 
-def mix_files(vocal: Path, instrumental: Path, mix_out: Path, wet_out: Path, style: str) -> dict[str, Any]:
+def mix_files(
+    vocal: Path,
+    instrumental: Path,
+    mix_out: Path,
+    wet_out: Path,
+    style: str,
+    vocal_gain_db: float = 0.0,
+    reverb_amount: int = 12,
+    eq_body_db: float = 0.0,
+    eq_presence_db: float = 0.0,
+    eq_air_db: float = 0.0,
+) -> dict[str, Any]:
     style = style if style in STYLE_PARAMS else "modern"
     vp = probe_audio(vocal)
     ip = probe_audio(instrumental)
@@ -140,14 +180,21 @@ def mix_files(vocal: Path, instrumental: Path, mix_out: Path, wet_out: Path, sty
 
     target = vocal_target_lufs(ilevel["lufs"], style)
     inst_gain = instrumental_gain_db(ilevel["lufs"])
-    vf = vocal_filter(style, target, sample_rate)
+    vf = vocal_filter(
+        style, target, sample_rate,
+        vocal_gain_db=vocal_gain_db,
+        reverb_amount=reverb_amount,
+        eq_body_db=eq_body_db,
+        eq_presence_db=eq_presence_db,
+        eq_air_db=eq_air_db,
+    )
 
     graph = (
         f"[0:a]{vf}[vproc];"
         "[vproc]asplit=2[vwet][vmix];"
         f"[1:a]aresample={sample_rate}:resampler=soxr:precision=28,volume={inst_gain:.2f}dB[inst];"
         "[inst][vmix]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,"
-        "alimiter=limit=0.891251:attack=5:release=50[mix]"
+        "alimiter=limit=0.794328:attack=5:release=80[mix]"
     )
 
     cmd = [
@@ -166,12 +213,17 @@ def mix_files(vocal: Path, instrumental: Path, mix_out: Path, wet_out: Path, sty
     mp = probe_audio(mix_out)
     wp = probe_audio(wet_out)
     return {
-        "engine": "ZASU MIX v0.1",
+        "engine": "ZASU MIX v0.2",
         "style": style,
         "vocal_input_lufs": round(vlevel["lufs"], 2),
         "instrumental_lufs": round(ilevel["lufs"], 2),
         "vocal_target_lufs": round(target, 2),
         "instrumental_gain_db": round(inst_gain, 2),
+        "vocal_gain_db": round(float(vocal_gain_db), 2),
+        "reverb_amount": int(reverb_amount),
+        "eq_body_db": round(float(eq_body_db), 2),
+        "eq_presence_db": round(float(eq_presence_db), 2),
+        "eq_air_db": round(float(eq_air_db), 2),
         "output_lufs": round(mixed["lufs"], 2),
         "output_true_peak": round(mixed["true_peak"], 2),
         "output_sample_rate": mp["sample_rate"],
@@ -185,9 +237,11 @@ def mix_files(vocal: Path, instrumental: Path, mix_out: Path, wet_out: Path, sty
             "de-esser",
             "style compressor",
             "adaptive vocal loudness placement",
-            "style ambience",
+            "manual vocal gain",
+            "adjustable ambience/reverb",
+            "3-band vocal tone offsets",
             "instrumental-safe balance",
-            "-1 dBFS safety limiter",
+            "-2 dBFS mix safety limiter",
         ],
         "note": "Prototype auto-mix. No pitch correction or timing correction.",
     }
@@ -213,7 +267,14 @@ def self_test() -> None:
         for style in STYLE_PARAMS:
             mix_out = root / f"{style}_mix.wav"
             wet_out = root / f"{style}_wet.wav"
-            report = mix_files(vocal, inst, mix_out, wet_out, style)
+            report = mix_files(
+                vocal, inst, mix_out, wet_out, style,
+                vocal_gain_db=2.0 if style == "modern" else (2.5 if style == "loud" else 0.0),
+                reverb_amount=14 if style == "modern" else 10,
+                eq_body_db=0.0,
+                eq_presence_db=0.0,
+                eq_air_db=0.0,
+            )
             if not mix_out.exists() or mix_out.stat().st_size <= 0:
                 raise RuntimeError(f"self_test_mix_missing:{style}")
             if not wet_out.exists() or wet_out.stat().st_size <= 0:
