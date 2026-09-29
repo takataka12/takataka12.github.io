@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MIX Upload｜ZASU MASTER</title>
 <meta name="description" content="ZASU MASTER Closed Beta参加者向けのMIXアップロードページです。">
-<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css?v=20260929-1945">
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU MASTER</span><span class="jp">ザスマス</span></a><nav><a href="index.html">HOME</a></nav></div></header>
@@ -19,6 +19,28 @@
 <div class="upload-shell">
   <div class="upload-box">
     <h2 style="font-size:34px">MIXを送る</h2>
+
+    <div class="profile-picker">
+      <div class="mode">MASTERING STYLE</div>
+      <div class="profile-grid">
+        <label class="profile-choice">
+          <input type="radio" name="masteringProfile" value="standard" checked>
+          <span class="profile-choice-card">
+            <span class="profile-title">STANDARD</span>
+            <span class="profile-desc">Balanced / Punchy / Natural</span>
+            <span class="profile-note">PUNCHの現行アダプティブ処理。自然さとパンチを優先。</span>
+          </span>
+        </label>
+        <label class="profile-choice">
+          <input type="radio" name="masteringProfile" value="loud_otv">
+          <span class="profile-choice-card">
+            <span class="profile-title">LOUD <em>OTV</em></span>
+            <span class="profile-desc">Aggressive / Dense / Modern Loudness</span>
+            <span class="profile-note">REFERENCE12由来。約 -4.2 LUFSを基準に、安全時は自動で少し戻します。</span>
+          </span>
+        </label>
+      </div>
+    </div>
 
     <label class="dropzone" id="dropzone" for="mixFile">
       <input id="mixFile" type="file" accept=".wav,.wave,.flac,audio/wav,audio/x-wav,audio/wave,audio/flac,audio/x-flac">
@@ -35,5 +57,5 @@
 </main>
 <footer><div class="wrap"><div class="footer-links"><a href="index.html">HOME</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a></div><div>© 2026 ZASU MASTER / ZASU</div></div></footer>
 <script src="assets/config.js?v=20260926-1320"></script>
-<script src="assets/upload.js?v=20260928-1225"></script>
+<script src="assets/upload.js?v=20260929-1945"></script>
 </body></html>
