@@ -4,6 +4,7 @@ window.ZASU_MASTER_CONFIG = {
   paymentStatusEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/payment-status",
   createMixUploadEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-mix-upload",
   completeMixUploadEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/complete-mix-upload",
+  directMasterFromMixEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-master-from-zasu-mix",
   masteringStatusEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/mastering-status",
   feedbackEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/submit-master-feedback",
   supabaseUrl: "https://siwmzradvrtetotakkbi.supabase.co",
