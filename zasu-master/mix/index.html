@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080808">
+<title>ZASU MIX｜Auto Vocal Mix Prototype</title>
+<meta name="description" content="ドライボーカルとインストをアップロードして自動MIX。ZASU MIX v0.1プロトタイプ。">
+<link rel="stylesheet" href="assets/style.css?v=20260930-001">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="../index.html"><span class="main">ZASU MASTER</span><span class="jp">ザスマス</span></a>
+    <nav><a href="../index.html">HOME</a><a href="../upload.html">MASTER</a><a href="../convert/">CONVERT</a></nav>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="wrap">
+    <div class="kicker">AUTO VOCAL MIX / PROTOTYPE v0.1</div>
+    <h1>ZASU<br>MIX.</h1>
+    <p class="lead">ドライボーカルとインストから、自動で2MIXを作る。<br>まずは歌ってみた・ロック/ラウド系向けの試作版です。</p>
+  </div>
+</section>
+
+<section>
+<div class="wrap mix-shell">
+  <div class="mix-card">
+    <div class="mode">01 / SOURCES</div>
+    <h2>2つの音源を入れる</h2>
+    <div class="source-grid">
+      <div>
+        <label class="dropzone" id="vocalDrop" for="vocalFile">
+          <input id="vocalFile" type="file" accept=".wav,.wave,.flac,.aiff,.aif,.m4a,.mp3,audio/*">
+          <strong>DRY VOCAL</strong>
+          <span>エフェクト前のボーカル</span>
+        </label>
+        <div class="file-meta" id="vocalMeta">ボーカル未選択</div>
+      </div>
+      <div>
+        <label class="dropzone" id="instDrop" for="instFile">
+          <input id="instFile" type="file" accept=".wav,.wave,.flac,.aiff,.aif,.m4a,.mp3,audio/*">
+          <strong>INSTRUMENTAL</strong>
+          <span>カラオケ / オケ音源</span>
+        </label>
+        <div class="file-meta" id="instMeta">インスト未選択</div>
+      </div>
+    </div>
+    <div class="mini-note">各ファイル最大500MB。大きなファイルは自動で分割アップロードします。</div>
+  </div>
+
+  <div class="mix-card">
+    <div class="mode">02 / MIX STYLE</div>
+    <h2>ボーカルの方向性</h2>
+    <div class="style-grid">
+      <button class="style" data-style="natural"><strong>NATURAL</strong><span>原音重視 / 軽いコンプ / 控えめな空間</span></button>
+      <button class="style active" data-style="modern"><strong>MODERN</strong><span>明瞭 / 前に出る / 現代的</span></button>
+      <button class="style" data-style="rock"><strong>ROCK</strong><span>太さ / 存在感 / ロック向け</span></button>
+      <button class="style" data-style="loud"><strong>LOUD</strong><span>強めのコンプ / 前面 / ラウド系</span></button>
+    </div>
+
+    <div class="engine-note">
+      <strong>AUTO MIX ENGINE v0.1</strong>
+      <span>HPF / EQ / De-esser / Compressor / Vocal Level / Ambience / Safety Limiterを自動調整。</span>
+      <small>※ ピッチ補正・タイミング補正はまだ行いません。</small>
+    </div>
+  </div>
+
+  <div class="mix-card">
+    <div class="mode">03 / MIX</div>
+    <button class="btn" id="mixButton">CREATE AUTO MIX</button>
+    <div class="job-progress" id="jobProgress" hidden>
+      <div class="progress-track"><span id="progressBar"></span></div>
+      <div class="progress-copy"><strong id="progressTitle">PREPARING</strong><span id="progressText">準備しています。</span></div>
+    </div>
+    <div class="status-text" id="statusText"></div>
+  </div>
+
+  <div class="mix-card result-card" id="resultCard" hidden>
+    <div class="mode">READY</div>
+    <h2>MIX READY.</h2>
+    <div class="metrics">
+      <div><span>STYLE</span><strong id="resultStyle">—</strong></div>
+      <div><span>SAMPLE RATE</span><strong id="resultRate">—</strong></div>
+      <div><span>OUTPUT LUFS</span><strong id="resultLufs">—</strong></div>
+      <div><span>TRUE PEAK</span><strong id="resultTp">—</strong></div>
+    </div>
+    <div class="download-grid">
+      <a id="mixDownload" class="btn" href="#">DOWNLOAD MIXED 24-BIT WAV</a>
+      <a id="vocalDownload" class="btn secondary" href="#">DOWNLOAD VOCAL WET STEM</a>
+    </div>
+    <div class="next-step">
+      <span><small>NEXT STEP</small><strong>ZASU MASTERで仕上げる</strong></span>
+      <a href="../upload.html">OPEN MASTER →</a>
+    </div>
+    <p class="expire">結果ファイルは24時間で期限切れになります。</p>
+  </div>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">© 2026 ZASU MASTER / ZASU — ZASU MIX PROTOTYPE</div></footer>
+<script src="assets/config.js?v=20260930-001"></script>
+<script src="assets/app.js?v=20260930-001"></script>
+</body>
+</html>
