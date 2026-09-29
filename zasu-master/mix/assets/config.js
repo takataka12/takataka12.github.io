@@ -1,5 +1,5 @@
 window.ZASU_MIX_CONFIG={
-  commerceEnabled:false,
+  commerceEnabled:true,
   checkoutPage:"../checkout.html",
   api:"https://siwmzradvrtetotakkbi.supabase.co/functions/v1/zasu-mix-api",
   supabaseUrl:"https://siwmzradvrtetotakkbi.supabase.co",
