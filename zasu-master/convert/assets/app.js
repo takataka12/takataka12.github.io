@@ -35,10 +35,15 @@ function syncLossyControls(){
   const mp3=q("#outputFormat").value==="mp3";
   q("#bitDepth").disabled=mp3;
   q("#dither").disabled=mp3;
-  if(mp3){q("#bitDepth").value="";q("#dither").checked=false}
+  if(mp3){
+    q("#bitDepth").value="";
+    q("#dither").checked=false;
+    if(["88200","96000"].includes(q("#sampleRate").value))q("#sampleRate").value="";
+  }
 }
 document.querySelectorAll(".preset").forEach(x=>x.onclick=()=>applyPreset(x.dataset.preset));
 q("#outputFormat").addEventListener("change",()=>{preset="custom";document.querySelectorAll(".preset").forEach(x=>x.classList.remove("active"));syncLossyControls()});
+q("#sampleRate").addEventListener("change",()=>{if(q("#outputFormat").value==="mp3"&&["88200","96000"].includes(q("#sampleRate").value)){q("#sampleRate").value="";q("#statusText").textContent="MP3は44.1 / 48 kHzで出力します。"}});
 syncLossyControls();
 
 function chooseFile(f){
