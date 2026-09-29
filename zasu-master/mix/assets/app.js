@@ -264,6 +264,32 @@ function showResult(s){
   sessionStorage.removeItem("zasu_mix_job");
 }
 
+async function ensureMasterPreviewSession(){
+  let no=Number(localStorage.getItem("zasu_beta_application_no")||"");
+  let appToken=localStorage.getItem("zasu_beta_access_token")||"";
+  if(Number.isFinite(no)&&no>0&&appToken)return {no,appToken};
+
+  let visitorId=localStorage.getItem("zasu_visitor_id");
+  if(!visitorId){visitorId=crypto.randomUUID();localStorage.setItem("zasu_visitor_id",visitorId)}
+  const sessionId=crypto.randomUUID();
+  sessionStorage.setItem("zasu_session_id",sessionId);
+  const res=await fetch(cfg.masterSessionEndpoint,{
+    method:"POST",
+    headers:authHeaders(),
+    body:JSON.stringify({website:"",visitor_id:visitorId,session_id:sessionId})
+  });
+  const body=await res.json().catch(()=>({}));
+  if(!res.ok||body.status!=="accepted"||!body.application_no||!body.access_token){
+    throw new Error("MASTERプレビュー用セッションを準備できませんでした。");
+  }
+  no=Number(body.application_no);appToken=String(body.access_token);
+  localStorage.setItem("zasu_beta_application_no",String(no));
+  localStorage.setItem("zasu_beta_access_token",appToken);
+  localStorage.setItem("zasu_visitor_id",String(body.visitor_id||visitorId));
+  sessionStorage.setItem("zasu_session_id",String(body.session_id||sessionId));
+  return {no,appToken};
+}
+
 async function sendToMaster(profile){
   const source=readyMix||job;
   const statusEl=q("#masterHandoffStatus");
@@ -279,15 +305,19 @@ async function sendToMaster(profile){
     mastering_profile:profile,
     created_at:Date.now()
   }));
-  const no=Number(localStorage.getItem("zasu_beta_application_no")||"");
-  const appToken=localStorage.getItem("zasu_beta_access_token")||"";
-  if(!Number.isFinite(no)||no<1||!appToken){
-    location.href="../upload.html?source=zasu_mix&profile="+encodeURIComponent(profile);
+  buttons.forEach(x=>x.disabled=true);
+  statusEl.textContent="無料30秒MASTERプレビューを準備しています…";
+  let no,appToken;
+  try{
+    const session=await ensureMasterPreviewSession();
+    no=session.no;appToken=session.appToken;
+  }catch(e){
+    statusEl.textContent=e?.message||"MASTERプレビューを開始できませんでした。";
+    statusEl.className="handoff-status error";
+    buttons.forEach(x=>x.disabled=false);
     return;
   }
-
-  buttons.forEach(x=>x.disabled=true);
-  statusEl.textContent=(profile==="loud_otv"?"LOUD / OTV":"STANDARD")+"へ直接送っています…";
+  statusEl.textContent=(profile==="loud_otv"?"LOUD / OTV":"STANDARD")+"の無料30秒プレビューへ送っています…";
   statusEl.className="handoff-status";
   try{
     const res=await fetch(cfg.directMasterEndpoint,{
@@ -315,7 +345,7 @@ async function sendToMaster(profile){
       throw new Error(map[body.error]||"ZASU MASTERへの送信に失敗しました。");
     }
 
-    statusEl.textContent="MASTERING QUEUED. 結果画面へ移動します…";
+    statusEl.textContent="30 SEC MASTER PREVIEW QUEUED. 結果画面へ移動します…";
     statusEl.className="handoff-status success";
     sessionStorage.removeItem("zasu_mix_master_handoff");
     sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:appToken}));
