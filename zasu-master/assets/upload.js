@@ -7,8 +7,31 @@ const button=q("#uploadButton");
 const status=q("#uploadStatus");
 const progress=q("#uploadProgress");
 const paymentNotice=q("#paymentNotice");
+const directMixSource=q("#directMixSource");
+const manualUploadSource=q("#manualUploadSource");
 let selectedFile=null;
+let directMixHandoff=null;
+try{
+  const raw=sessionStorage.getItem("zasu_mix_master_handoff");
+  const parsed=raw?JSON.parse(raw):null;
+  if(parsed?.mix_job_id&&parsed?.mix_access_token&&(!parsed.created_at||Date.now()-Number(parsed.created_at)<24*3600*1000)){
+    directMixHandoff=parsed;
+  }else if(raw){
+    sessionStorage.removeItem("zasu_mix_master_handoff");
+  }
+}catch(_){sessionStorage.removeItem("zasu_mix_master_handoff")}
 function selectedMasteringProfile(){return q('input[name="masteringProfile"]:checked')?.value||"standard"}
+function setMasteringProfile(value){
+  const target=q('input[name="masteringProfile"][value="'+(value==="loud_otv"?"loud_otv":"standard")+'"]');
+  if(target)target.checked=true;
+}
+if(directMixHandoff){
+  setMasteringProfile(directMixHandoff.mastering_profile);
+  if(manualUploadSource)manualUploadSource.hidden=true;
+  if(directMixSource)directMixSource.hidden=false;
+  button.textContent="START MASTERING";
+  status.textContent="ZASU MIXの完成音源を受信しました。スタイルを確認して開始してください。";
+}
 
 const savedNo=localStorage.getItem("zasu_beta_application_no")||"";const accessToken=localStorage.getItem("zasu_beta_access_token")||"";const visitorId=localStorage.getItem("zasu_visitor_id")||"";const sessionId=sessionStorage.getItem("zasu_session_id")||crypto.randomUUID();sessionStorage.setItem("zasu_session_id",sessionId);
 function humanBytes(n){
@@ -68,8 +91,49 @@ async function edgePost(url,payload){
 button.addEventListener("click",async()=>{
   status.textContent="";
   try{
-    validateFile(selectedFile);
     const no=Number(savedNo);
+    if(directMixHandoff){
+      if(!Number.isFinite(no)||no<1||!accessToken){location.href="beta.html";return;}
+      button.disabled=true;
+      button.textContent="SENDING...";
+      progress.classList.add("active");
+      status.textContent="ZASU MIXの完成音源をMASTERへ渡しています…";
+      const res=await fetch(cfg.directMasterFromMixEndpoint,{
+        method:"POST",
+        headers:{
+          "Content-Type":"application/json",
+          "apikey":cfg.betaAnonKey,
+          "Authorization":"Bearer "+cfg.betaAnonKey
+        },
+        body:JSON.stringify({
+          application_no:no,
+          access_token:accessToken,
+          mix_job_id:directMixHandoff.mix_job_id,
+          mix_access_token:directMixHandoff.mix_access_token,
+          mastering_profile:selectedMasteringProfile()
+        })
+      });
+      let body={};try{body=await res.json()}catch(_){}
+      if(!res.ok){
+        const map={
+          beta_application_not_found:"受付番号が見つかりません。",
+          beta_not_accepted:"この受付番号はまだ利用できません。",
+          payment_required:"ZASU MASTERの利用権限を確認できませんでした。",
+          mix_job_not_found:"ZASU MIXの完成音源を確認できませんでした。",
+          mix_not_ready:"ZASU MIXがまだ完成していません。",
+          mix_expired:"ZASU MIXの保存期限が切れています。",
+          mix_source_missing:"ZASU MIXの完成ファイルを確認できませんでした。"
+        };
+        throw new Error(map[body.error]||"ZASU MIXからMASTERへの受け渡しに失敗しました。");
+      }
+      sessionStorage.removeItem("zasu_mix_master_handoff");
+      sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:accessToken}));
+      status.textContent="MASTERING QUEUED. 結果画面へ移動します…";
+      location.href="result.html";
+      return;
+    }
+
+    validateFile(selectedFile);
     if(!Number.isFinite(no)||no<1||!accessToken){location.href="beta.html";return;}
 
     button.disabled=true;
@@ -173,6 +237,6 @@ button.addEventListener("click",async()=>{
   }finally{
     progress.classList.remove("active");
     button.disabled=false;
-    button.textContent="UPLOAD MIX";
+    button.textContent=directMixHandoff?"START MASTERING":"UPLOAD MIX";
   }
 });
