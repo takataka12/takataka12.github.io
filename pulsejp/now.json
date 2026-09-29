@@ -1,28 +1,51 @@
 {
-  "generatedAt": "2026-09-28T22:00:50Z",
+  "generatedAt": "2026-09-29T01:57:25Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "406f05c1966254",
-      "category": "internet",
-      "title": "SNSで共感の声続々！X、TikTokともに大きな話題を呼んでいる、ほしあらん先生が描く青春ガールズストーリー『ロリースイートロリー』の動画がYouTubeで公開 - 時事ドットコム",
+      "id": "a4873a04fbbee9",
+      "category": "entertainment",
+      "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟（東スポWEB） - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-28T15:10:00Z",
+      "latestPublishedAt": "2026-09-28T20:20:19Z",
       "sources": [
         {
-          "id": "5110b75664fc1a",
-          "name": "時事ドットコム",
-          "title": "SNSで共感の声続々！X、TikTokともに大きな話題を呼んでいる、ほしあらん先生が描く青春ガールズストーリー『ロリースイートロリー』の動画がYouTubeで公開 - 時事ドットコム",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YQTN6bVBlbmhSNzNQQmdvcG5hOVhUQzVlaERLWlFVa2VncHRCYkN2dzlUeTJrNVdxYVhBeEZ0THNrMGhEM0J0LWg0QkhwcWdPdUNZYWdiUzVFQk5NMXlGVWRORWJwejlVZWtZ?oc=5",
-          "publishedAt": "2026-09-28T15:10:00Z"
+          "id": "64fac927c9519d",
+          "name": "Yahoo!ニュース",
+          "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟（東スポWEB） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UYkRfQ1RkdGlYbExKRDRYdTNCWmcxR0txMFk5ck42bUMxMFlBejJhSm1wWVFzaUFDT0Z6UlJ1M0ctUG5nZ3hSSjZzSmYtNWx5ejRDdjI3M3p1LU04OVUwZ0VLTUdBZW1TRzNzZEhBQUo3UDVhemc1aDl0WS1jdFU?oc=5",
+          "publishedAt": "2026-09-28T20:20:19Z"
         },
         {
-          "id": "c57df3990e69e6",
-          "name": "PR TIMES",
-          "title": "SNSで共感の声続々！X、TikTokともに大きな話題を呼んでいる、ほしあらん先生が描く青春ガールズストーリー『ロリースイートロリー』の動画がYouTubeで公開 - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55UWRHaWUzNEJhTXJvcDBSQ2lHZG1tWUtuMFpBZG96ZXd0ZzQ4dUpzZURzd1hobzA1V0R1YTVXR2Fja2dTdjRLSURIOHdMMVF2VzhBRkdpajZCSkFrN1JRQ2I2TmpCamVBZHc?oc=5",
-          "publishedAt": "2026-09-28T03:10:01Z"
+          "id": "2fc5de65fd7d59",
+          "name": "au Webポータル",
+          "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟 - au Webポータル",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iaDM4MzVJRXpxdHdxLXVXYzZuRXp4THpJd1B4Ri16U254OXo0RHpNMWI1bEEwU3N6eWRDTWlNNkVLWlotMzZrTjBZdGQzYXluQXhNbnI1SldoWjkyeGhCTUh1Tjh6TzlGejlSQ1Bjci13dGVyRURPdA?oc=5",
+          "publishedAt": "2025-09-29T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "a70208df2ee804",
+      "category": "entertainment",
+      "title": "地域に根付く芸能披露 東根で伝承祭、県内外から出演（山形新聞） - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-28T07:40:13Z",
+      "sources": [
+        {
+          "id": "19d6c083ea0772",
+          "name": "Yahoo!ニュース",
+          "title": "地域に根付く芸能披露 東根で伝承祭、県内外から出演（山形新聞） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yVjZZcHN2Y3FKLXN5VXM3aXEtRU45am9HMnNhME1JaVl6QWhPTEh0NjJOMFI0dFJQenlvamVkdHZPQWM5cFlBTVRTQTllMVhrZU5FNVZlODlmLWZuY2h0NnJHY3ZnWlFOMWJXc1EwbDQycE9yOWN4ZE9ocmxOTTA?oc=5",
+          "publishedAt": "2026-09-28T07:40:13Z"
+        },
+        {
+          "id": "a556d9c93235e1",
+          "name": "山形新聞",
+          "title": "【早出し】地域に根付く芸能披露 東根で伝承祭、県内外から出演 - 山形新聞",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3RVBHQkx5NDBtdjdyc1dmb2h2bjctMXRZenZhbUFaeFh5Q0NUbmhIa2QtXzkzT3pHNGpYR25aZ0hrSjhRYkI4TklXb1FwcWttNGVEbUxENWpGNWlNVnUtWGk0cEpZNlRnSktHUldHcw?oc=5",
+          "publishedAt": "2026-09-28T07:40:00Z"
         }
       ]
     },
@@ -42,33 +65,33 @@
         },
         {
           "id": "ec9088d009ce55",
-          "name": "東スポWEB",
-          "title": "東山紀之氏 SMILE-UP.社長退任へ…芸能界復帰含め今後は未定「良い影響を与えられるような道を」 - 東スポWEB",
+          "name": "tokyo-sports.co.jp",
+          "title": "東山紀之氏 SMILE-UP.社長退任へ…芸能界復帰含め今後は未定「良い影響を与えられるような道を」 - tokyo-sports.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01R1ppLURMQWhMaUxFYmZxQm1XWXp0cEQtVEN0TFQyYkhqeWpTN1gyVlMyeUxoOGg4cjMzNlY3SEVVTVNPMnA5NmxhUVY0akd1bzkzd013UDJodmsx?oc=5",
           "publishedAt": "2026-09-28T07:12:00Z"
         }
       ]
     },
     {
-      "id": "00e6c11e0a7c03",
-      "category": "politics",
-      "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
+      "id": "596afa0b55ca93",
+      "category": "internet",
+      "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - e.usen.com",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-28T02:33:04Z",
+      "latestPublishedAt": "2026-09-28T04:40:07Z",
       "sources": [
         {
-          "id": "12864ae3d99d03",
-          "name": "TBS NEWS DIG",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OYTVMMF91b29Wb29FOVV1NVV3a3pMS3V0eUdESWdhU0VoeW81ZjZybWFYNTd1VndaYWJuTHVzclZQRUtpMjIzOVJ4VVB3VWtvbUxBUzNkU2ppbmZRQy1Qay1CN3lBblU0UkxPaGllcVFMMUVRZm53RUxXaVo?oc=5",
-          "publishedAt": "2026-09-28T02:33:04Z"
+          "id": "994fa16f304a4a",
+          "name": "e.usen.com",
+          "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - e.usen.com",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbUtkdzRyUEI1NzdSTnYxN3RBb0ZnSVF4YS1DQTF0WEVKVjFsR2VTVEJWeTlsZFF2UHpGbVhkMU9SX1V0VFVYTEplWHN3NVRUVThJYlZ2R1ZlQ1g2RmotZDM4a0dNVV92NUow?oc=5",
+          "publishedAt": "2026-09-28T04:40:07Z"
         },
         {
-          "id": "67eefba4c35212",
-          "name": "Yahoo!ニュース",
-          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk?oc=5",
-          "publishedAt": "2026-09-28T01:32:14Z"
+          "id": "d0e730d818452b",
+          "name": "skream.jp",
+          "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング - skream.jp",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWUNORmJnVEhROEwzS29xQktqd1FPRmtIV3lZTVA4TXV0Q0VSSlFnaWlrVmpKRHgtbUNuX1MwQjJtMXFfYjF2VzN5dWhzcUhpemxEWmNnN3J1VVUtVng5YkxOcw?oc=5",
+          "publishedAt": "2026-09-25T12:00:00Z"
         }
       ]
     },
@@ -176,14 +199,14 @@
       "category": "entertainment",
       "title": "話題作が目白押しな2026年秋、映画館で観たい3選！ (フィガロジャポン) - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-26T05:19:21Z",
+      "latestPublishedAt": "2026-09-26T00:30:40Z",
       "sources": [
         {
           "id": "a8152556cdf008",
           "name": "Yahoo!ニュース",
           "title": "話題作が目白押しな2026年秋、映画館で観たい3選！ (フィガロジャポン) - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcC1zQ0k5RjU5S2VsemZPZDJtSXNySUQyUFpBaEd0Mlg1a1FqU0ZXcFNjdUJTekdtMUpFdV9FVjdYM19JV295dUpzeW8yY1NIQW05VFBYTGNUMGJlclZqMmFiRHdHNHlGSXJ6VGxxcElKeTZ2cmJGV3VaWG92M2tXVWtIelRlV2poX0ZUMkRR?oc=5",
-          "publishedAt": "2026-09-26T05:19:21Z"
+          "publishedAt": "2026-09-26T00:30:40Z"
         },
         {
           "id": "4a93bb08356625",
@@ -191,29 +214,6 @@
           "title": "『オデュッセイア』だけじゃない！ 話題作が目白押しな2026年秋、映画館で観たい３選！ - madameFIGARO.jp",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91MV9iRVA1eUhMSXhXYTNndElhUkt5eVZqeFEwLXFBNmxuSTg1MXp4X3BHUjZVZks2RDJoU1NiWjk2ZjZ0UW1qdXJvWXRrdHVpcjFUMDhpNGpKUQ?oc=5",
           "publishedAt": "2026-09-25T23:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "a4adb9f5bd3ca9",
-      "category": "politics",
-      "title": "【キーパーソン直撃】今後の政権運営どう臨む？ 国会改革や消費減税…高市政権の“最側近”木原長官と維新・遠藤補佐官が“たこ焼きパーティー”で語ったこと（日テレNEWS NNN） - ｄメニューニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-25T23:10:00Z",
-      "sources": [
-        {
-          "id": "a1cecc0ec9bc37",
-          "name": "ｄメニューニュース",
-          "title": "【キーパーソン直撃】今後の政権運営どう臨む？ 国会改革や消費減税…高市政権の“最側近”木原長官と維新・遠藤補佐官が“たこ焼きパーティー”で語ったこと（日テレNEWS NNN） - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOc0hVN2c3Vkt0TkpDbVgzdS0zU2Jucnk5Ti1GNVdhWlcwampQYUxfd21oS0d2Y3d3N1lzVkRWclB2MFEyd1NRZ09NN0luRzFfR3NyYzlSRFZaMWVWX3JhdUhRX3NXdlBFRU5ITWhYWEVYa3ZqeTc3bldOYnJCUlZVelV3eXVIbVhSWnhralV5Y1I?oc=5",
-          "publishedAt": "2026-09-25T23:10:00Z"
-        },
-        {
-          "id": "49b800b2f12508",
-          "name": "Yahoo!ニュース",
-          "title": "【キーパーソン直撃】今後の政権運営どう臨む？ 国会改革や消費減税…高市政権の“最側近”木原長官と維新・遠藤補佐官が“たこ焼きパーティー”で語ったこと（日テレNEWS NNN） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSmg5R3lSZmpHYllaWGtYTk1FZ3M5WUJUcVY5RnYwd1l3bHotZ2tCOFVWUGlTZnhIOG82alRORC00QmNNZUFTbExST1BaOUwxZVNsTVlsc1VRM0dqRndvcHlGeUJKRlhvNFQyWGNIR18yTGV4cC00QnJ3eTFWY0E5aWZjcTFjWjRI?oc=5",
-          "publishedAt": "2026-09-25T23:10:00Z"
         }
       ]
     },
@@ -241,71 +241,82 @@
       ]
     },
     {
-      "id": "a04864948bcb5e",
-      "category": "entertainment",
-      "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 (読売テレビ) - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-22T23:53:03Z",
-      "sources": [
-        {
-          "id": "78c6d79946e450",
-          "name": "Yahoo!ニュース",
-          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 (読売テレビ) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcTAtRE5QYV84R29CaGwzVVh1V05CYW9BaFgxazhZTFJiR0t0eG5VX3B2ZVZ2T3g5Q1ZPVTdkWk00eGxONHp1QUo3aWJiYjh6d1JsaFRNTlBGSk9DUHBpV3J5MnFVR3ptRVlwMUljeTE1WExUTGxYS2FXcjdybl9WME5hcUI4OENpY1NXMnl3?oc=5",
-          "publishedAt": "2026-09-22T23:53:03Z"
-        },
-        {
-          "id": "52f21f20b6a6fb",
-          "name": "日テレNEWS NNN",
-          "title": "【ナゼ】官公庁が話題の映画や番組とタイアップも間もなく中止…｢犯罪を美化｣｢配慮が欠けている｣と批判殺到 - 日テレNEWS NNN",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcWpHQzJEU2tXcG1kOGNSSFNBSl9SS3ROSXNCTGtZSTBPVE9kam1zaGRfeGlHOW9DQ1VfckZmTnUxX1NOWHJMSTYwMmx4ejI0N1QxcWtOU3VJQS1VWjgtWE9jdTVWcC1ERDdYYkJ4a21abS15OEtWV3NJZ05rNEI5YXJRbHZKWms?oc=5",
-          "publishedAt": "2026-09-22T23:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "c29a55b7d7a3e2",
-      "category": "entertainment",
-      "title": "SNSで話題の「ブレーメンの音楽隊」が板橋区立文化会館に初登場！ドレミパイプで贈る、笑顔あふれるクリスマスコンサートを12月19日（土）に開催 | 公益財団法人板橋区文化・国際交流財団のプレスリリース - PR TIMES",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-15T07:00:00Z",
-      "sources": [
-        {
-          "id": "b56402f73a140d",
-          "name": "PR TIMES",
-          "title": "SNSで話題の「ブレーメンの音楽隊」が板橋区立文化会館に初登場！ドレミパイプで贈る、笑顔あふれるクリスマスコンサートを12月19日（土）に開催 | 公益財団法人板橋区文化・国際交流財団のプレスリリース - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00am92N1pWUF9YUTNKQTJibXdkc3ZrNnZZa29XUk5yRDlDRHl2Z29yV2I4dmN0SWw2VGU4UG55aFVudXdXTHMyQ21WY0pvMWJrUktSTl9wS1dCTnI4eWZWMndFYm93b29RaHc?oc=5",
-          "publishedAt": "2026-09-15T07:00:00Z"
-        },
-        {
-          "id": "4b508965e858ad",
-          "name": "エンタメラッシュ",
-          "title": "SNSで話題の「ブレーメンの音楽隊」が板橋区立文化会館に初登場！ドレミパイプで贈る、笑顔あふれるクリスマスコンサートを12月19日（土）に開催 - エンタメラッシュ",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE54LWdtNFRJenlXRW5Gb0k3MkhWemJiYjBWOWNQcUVneVhqRDR0VFlaUkNOOHFPd2VBcG9Yc3U1YXFOSEU?oc=5",
-          "publishedAt": "2026-09-15T07:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "c7bdac5ec99f61",
+      "id": "46fa7290857790",
       "category": "economy",
-      "title": "欧州マーケットダイジェスト・28日 株失速・金利上昇・円伸び悩み(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+      "title": "不利な競争環境で日本車シェアが減少、猛攻しかける中国メーカー タイから見る日本の現在地、物価上昇や円安で訪日客が「初の逆転」（47NEWS） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T18:25:06Z",
+      "latestPublishedAt": "2026-09-29T01:32:22Z",
       "sources": [
         {
-          "id": "738e56ff8adcf0",
-          "name": "Yahoo!ファイナンス",
-          "title": "欧州マーケットダイジェスト・28日 株失速・金利上昇・円伸び悩み(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS2pDSlFBWmd5U2dsYXZpR0s4cldUb3BJSjFaWnc1akU3SGlpLXNwU0VTZTM1dnFoVWdJOWFGUk5KM25YcEgtTTJxR0JSV3V4RVFFdUw4dXhkMURIaTNDSG5rcE8zYk14d1dLOS1zQkN6aFBwWmZMY29sVG5LVmVic1U1YU84Ync?oc=5",
-          "publishedAt": "2026-09-28T18:25:06Z"
-        },
+          "id": "9ff87148003021",
+          "name": "Yahoo!ニュース",
+          "title": "不利な競争環境で日本車シェアが減少、猛攻しかける中国メーカー タイから見る日本の現在地、物価上昇や円安で訪日客が「初の逆転」（47NEWS） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBPWUVndGpzMHR0ZGtaTlhwMnJHS1BjNGlxdmJhV2ZvRS0tOU5vTEQ4Y2g4SzhjZmRVZU1GNDNYUE5Xb0I2UmR3YUphanRuSmE5MVAtdnNvSThjdDRXRlgzZk14MWM5NjM5NFhyLVRiUlRvZ1BiTVVWSGRCU0V6bXM?oc=5",
+          "publishedAt": "2026-09-29T01:32:22Z"
+        }
+      ]
+    },
+    {
+      "id": "74c53b41415bbd",
+      "category": "politics",
+      "title": "日本の政治において、野党に最も期待する役割は何ですか？ - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-28T23:47:27Z",
+      "sources": [
         {
-          "id": "88c1ec85dea331",
-          "name": "Yahoo!ファイナンス",
-          "title": "日本、オセアニア時間の主な経済指標・28日(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDhHaHh5bFNDakVpM2RVWExIV1Z0UmFHNVZkTHhQQUt2eFZUc0JkMVBnVU9yOXI1OEtpX0hYWk1lXzNHbUFHeUU0WVdIUUpuN0RhWGd4NUpXTEZ3QzhXZFA1YmpHdmxEeWREczNiVGNWSHBjMTdOWER6Yk5DXy1CUjhMNHBVNW8?oc=5",
-          "publishedAt": "2026-09-28T04:51:04Z"
+          "id": "419217023da137",
+          "name": "Yahoo!ニュース",
+          "title": "日本の政治において、野党に最も期待する役割は何ですか？ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBpdDEtN0RISFJiYzNVV19Sdy1Bd3JwZ3hHeU44RFJnNW9VZkItZHN2WWpvMmdwTFRwQUpSVlZfNUZCUGdWY0JCSmZDOE8?oc=5",
+          "publishedAt": "2026-09-28T23:47:27Z"
+        }
+      ]
+    },
+    {
+      "id": "5fdf30559bfd4f",
+      "category": "politics",
+      "title": "男女平等１１７位 日本は政治の格差が重い - 山陽新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-28T23:00:00Z",
+      "sources": [
+        {
+          "id": "8855e07e79189f",
+          "name": "山陽新聞",
+          "title": "男女平等１１７位 日本は政治の格差が重い - 山陽新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WcXd6ZXVPTjk3cmdGTHJkS1YwUWlPWGJuRUVMME1GbWY0OGZJMXNDSHVaeWhDSUF1S2duWjBFMFR4TWZMYmRQWWQ2dnVUeU9XcVE?oc=5",
+          "publishedAt": "2026-09-28T23:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "adfde7aa454231",
+      "category": "internet",
+      "title": "「カンフー猫」がSNSで話題⇒繰り出された”達人技”の数々に「強そう」「かっこいい」と絶賛の声（ハフポスト日本版） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-28T22:10:30Z",
+      "sources": [
+        {
+          "id": "6820ed3575198b",
+          "name": "Yahoo!ニュース",
+          "title": "「カンフー猫」がSNSで話題⇒繰り出された”達人技”の数々に「強そう」「かっこいい」と絶賛の声（ハフポスト日本版） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvZnJkc2FGdzZ6Q2kxVFFpUXJxYU95bGE0c0lZeHdnRk1CSzNfdEZOOUFsd0NQZ3N2YUppZGlDcGdnSG04aUNORlZGWGE2bjFyYmpCVy04ckFZSHBERU0xTmU4Yl8zdVM5YVBIcmMwYkZTQVFPOGlfeUowaXBQclk?oc=5",
+          "publishedAt": "2026-09-28T22:10:30Z"
+        }
+      ]
+    },
+    {
+      "id": "c6fb88405d7088",
+      "category": "economy",
+      "title": "日本経済新聞 朝刊 - 日本経済新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-28T21:16:05Z",
+      "sources": [
+        {
+          "id": "a540a4464335a2",
+          "name": "日本経済新聞",
+          "title": "日本経済新聞 朝刊 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX2FXZzZEYUJ3cHN6cFdHSGRUSWl6MGN3RDVXYndqM3VCb0FKUDNTNHNqUU1fV0ZqcHdLYzZITVBYMkZsZ0JqS084RTgwbi1rOThOejc0UWZ0NElZTF9oMHlXTEJMcERrTzlWRjRkZXpjS0otdklhN1BnaDAxVDAtNE96QXQ1LXdFa3hsRU1OZS0yMElSVlVzX1diZ29XMzA?oc=5",
+          "publishedAt": "2026-09-28T21:16:05Z"
         }
       ]
     },
@@ -326,18 +337,57 @@
       ]
     },
     {
-      "id": "0d5e7ecff35ce0",
-      "category": "internet",
-      "title": "【コストコ】SNSで話題！「美味しすぎる」「リピ買い中」ファン続出の絶品スイーツ5選（舞） - エキスパート - Yahoo!ニュース",
+      "id": "8d2535b587b817",
+      "category": "economy",
+      "title": "為替相場 29日（日本時間 9時） - nippon.com",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T10:55:16Z",
+      "latestPublishedAt": "2026-09-28T18:01:33Z",
       "sources": [
         {
-          "id": "cb8332350215fb",
-          "name": "Yahoo!ニュース",
-          "title": "【コストコ】SNSで話題！「美味しすぎる」「リピ買い中」ファン続出の絶品スイーツ5選（舞） - エキスパート - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdmJWLTZhcUpaR2JsRXpWb1JFUFpDZkhjdE82cnlBSUdoTXBzdjhlMjRldXZ0bFJ4WmRtV1ljVVZiY3RSd0VpVXpXb3duZ0pxVjBuanhkZE1WVjZXS1IzaW81Vk1IelJBOEdESTNlY3JORHhCTmlDaDZwOUd1bGxMRmNNYkY1TDhu?oc=5",
-          "publishedAt": "2026-09-28T10:55:16Z"
+          "id": "c2b3b04b31b2e0",
+          "name": "nippon.com",
+          "title": "為替相場 29日（日本時間 9時） - nippon.com",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42a3hNN3ZrNTdkeXk0NHEzSk5ZaTh4eWFEcWZSeWN5WUN1RmZSY0dVdDBsMlExV0FZMVdIbUR2ajc1SkNYWXFjSkc2LXItT0NtaTJsamdGdDFmNHlQY2thZVJLcw?oc=5",
+          "publishedAt": "2026-09-28T18:01:33Z"
+        }
+      ]
+    },
+    {
+      "id": "406f05c1966254",
+      "category": "internet",
+      "title": "SNSで共感の声続々！X、TikTokともに大きな話題を呼んでいる、ほしあらん先生が描く青春ガールズストーリー『ロリースイートロリー』の動画がYouTubeで公開 - 時事ドットコム",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-28T15:10:00Z",
+      "sources": [
+        {
+          "id": "5110b75664fc1a",
+          "name": "時事ドットコム",
+          "title": "SNSで共感の声続々！X、TikTokともに大きな話題を呼んでいる、ほしあらん先生が描く青春ガールズストーリー『ロリースイートロリー』の動画がYouTubeで公開 - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YQTN6bVBlbmhSNzNQQmdvcG5hOVhUQzVlaERLWlFVa2VncHRCYkN2dzlUeTJrNVdxYVhBeEZ0THNrMGhEM0J0LWg0QkhwcWdPdUNZYWdiUzVFQk5NMXlGVWRORWJwejlVZWtZ?oc=5",
+          "publishedAt": "2026-09-28T15:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2d5c75d9cc2fec",
+      "category": "politics",
+      "title": "野党、充実審議要求で一致 消費減税、臨時国会控え - 時事ドットコム",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-28T10:26:00Z",
+      "sources": [
+        {
+          "id": "c3dcc48660e7cf",
+          "name": "時事ドットコム",
+          "title": "野党、充実審議要求で一致 消費減税、臨時国会控え - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVExEaVd1VEhkd0JELWY1M2Mzc3dHRTJfMkpkcG9GQnVlV25BWG5xNnRFWVdwXzc2T2hBdjhOXzZ6cXVKTG5Xc3k0dXVXN1B4ZkRMUGZiTkYyZldPSmQwRXNUem5leDlvRWdqR0JSZDRYeWdGZEE4cTUwVUdxelkybjFn?oc=5",
+          "publishedAt": "2026-09-28T10:26:00Z"
+        },
+        {
+          "id": "771a04e70da780",
+          "name": "時事ドットコム",
+          "title": "野党、充実審議要求で一致 消費減税、臨時国会控え - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QZWVkSlRVMHRVUHNpOVFmTWctc2tQS3A5bmg5ZEIzT2FjRWFCVmlKSVU0NUN1RWRVbTNfTWNFYzZhU01udTN1bkFVd0E2Zl9DY3lWVTAzTjYxOEtVVW1OSVREdw?oc=5",
+          "publishedAt": "2026-09-28T10:26:00Z"
         }
       ]
     },
@@ -360,14 +410,14 @@
     {
       "id": "afd180a1d1f26a",
       "category": "internet",
-      "title": "ノース・ウェスト13歳、テーマパークでの表情が「つまらなさそう」とSNSで話題 「一緒に行く人って大事」「親がついていくべき」 - ELLEgirl",
+      "title": "ノース・ウェスト13歳、テーマパークでの表情が「つまらなさそう」とSNSで話題 「一緒に行く人って大事」「親がついていくべき」 - ellegirl.jp",
       "sourceCount": 1,
       "latestPublishedAt": "2026-09-28T09:27:47Z",
       "sources": [
         {
           "id": "9ed670edce253f",
-          "name": "ELLEgirl",
-          "title": "ノース・ウェスト13歳、テーマパークでの表情が「つまらなさそう」とSNSで話題 「一緒に行く人って大事」「親がついていくべき」 - ELLEgirl",
+          "name": "ellegirl.jp",
+          "title": "ノース・ウェスト13歳、テーマパークでの表情が「つまらなさそう」とSNSで話題 「一緒に行く人って大事」「親がついていくべき」 - ellegirl.jp",
           "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTVFiUGo1R1RTSUpod1RacmJLMEpOSWIyaVJjVE1wMmcxT2s1V2phWEx2clZxRFEyeWVyTk5nWjVWaU1lVGNOd2xwUDItMnZHM0JGUUctQTVzRklsVVpUcW9KSkVTam9LTnEtLTFRN1lYOTdjYUhmVzRPV3NUcGFrX3NJaVVyY3ltZkdnVkZtODg5S0V5dXNqdkM5bXV6QjRqZTdGUTlPVk0?oc=5",
           "publishedAt": "2026-09-28T09:27:47Z"
         }
@@ -406,89 +456,18 @@
       ]
     },
     {
-      "id": "50822dba5ec3d0",
-      "category": "economy",
-      "title": "日本企業の「中国離れ」進む ピーク時から約3割減 「製造拠点」から「巨大市場」へと認識変化 - 日テレNEWS NNN",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T04:41:00Z",
-      "sources": [
-        {
-          "id": "30c2d265ebecf4",
-          "name": "日テレNEWS NNN",
-          "title": "日本企業の「中国離れ」進む ピーク時から約3割減 「製造拠点」から「巨大市場」へと認識変化 - 日テレNEWS NNN",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5FeTVJa0pnR0FaVUEwR2VoMy16TEJUSEo4cHlsbDZULUtyOTFiOEQtNnZZWW9WV0w4bnAzVGliZUhobkFDUlBuZ1BBdnJoejBSckluaEhLUDFWd2xHdTJhWW9CQkNrd3NLZTYxQUhXZDIyLW0xVEpsVC1ZYko?oc=5",
-          "publishedAt": "2026-09-28T04:41:00Z"
-        }
-      ]
-    },
-    {
-      "id": "7cb87578af5d3f",
+      "id": "0083854e86ff1a",
       "category": "internet",
-      "title": "ヴィニシウスのおそろいリングが話題 SNSの写真だけで「指輪の値段」は分かる？ジュエリー査定の専門家が解説 - アットプレス",
+      "title": "日本人投手の“行動”が「本当のスポーツマンシップ」 韓国SNSで話題「私の考えが浅かった」 - full-count.jp",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T03:00:00Z",
+      "latestPublishedAt": "2026-09-28T07:43:45Z",
       "sources": [
         {
-          "id": "2b378216285847",
-          "name": "アットプレス",
-          "title": "ヴィニシウスのおそろいリングが話題 SNSの写真だけで「指輪の値段」は分かる？ジュエリー査定の専門家が解説 - アットプレス",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05dDVJVTBiaVROUXloaTNCUWtnVWtaS040dkx3YVFVYmRic293TURKQkNEUURMa1E5OWNnd08wSUlUZ05odHVxdjhtS1o0SXc?oc=5",
-          "publishedAt": "2026-09-28T03:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "6dd84dbe69b5e7",
-      "category": "entertainment",
-      "title": "【ヤフコメで話題】「ちいかわ映画の“分かりにくさ”と大人ファンの増加」「絵柄や内容への賛否」 - ちいかわ人気の背景と受け止め方 - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-27T22:34:00Z",
-      "sources": [
-        {
-          "id": "aab0e38f94d95e",
-          "name": "Yahoo!ニュース",
-          "title": "【ヤフコメで話題】「ちいかわ映画の“分かりにくさ”と大人ファンの増加」「絵柄や内容への賛否」 - ちいかわ人気の背景と受け止め方 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hOV9yTTVCc3Z4X1A0bkFqY1pROFFabTV6N1FHSElaTDN4Y3VMQTNkbTRFUUpWTnRzN1J6NEFwQXFNVE9oR1NSR2VXck53MGpfX0YtMFdYbm1ydm4wSWRwd1gwcFVyaFFLQmJsbF9YMmppeFhobThoendCb3hwUGs?oc=5",
-          "publishedAt": "2026-09-27T22:34:00Z"
-        },
-        {
-          "id": "f3a2494d5dfdf6",
-          "name": "Yahoo!ニュース",
-          "title": "【ヤフコメで話題】「ちいかわ映画の“分かりにくさ”と大人ファンの増加」「絵柄や内容への賛否」 - ちいかわ人気の背景と受け止め方 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdW41Q2stRGRNcmRhWnVVam93ZU5lN3JjSGdXMmFlX0JfSEMyNk1LOTJFS2NzcGp3SVFYb0Y3cXluY29qY0xvSDZjSzJCQmd4bURJTXdLT3NPb0dhWDNJeFl3VDZHa2t3Ul9OTEVjRWJNRUJ3Y0trX2FYVWMwR2JlVXljM2NlenZtTjR3WUNR?oc=5",
-          "publishedAt": "2026-09-27T22:34:00Z"
-        }
-      ]
-    },
-    {
-      "id": "9ffde763b25704",
-      "category": "politics",
-      "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-27T10:00:00Z",
-      "sources": [
-        {
-          "id": "f812b373f2749f",
-          "name": "朝日新聞",
-          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oeFJCdE02OXd2c1IzM2I5dWlwTmh1b1pjUUpScHVIUjhwLWt3S1kwVmhHV09BaFAzSGd2V1VteDZTY2VEMkdOZl9wa0NJN3E4UFZPbl9WVl9TVE1GN0w5RENQdTJwbk0?oc=5",
-          "publishedAt": "2026-09-27T10:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "9ffde763b25704",
-      "category": "economy",
-      "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-27T10:00:00Z",
-      "sources": [
-        {
-          "id": "f812b373f2749f",
-          "name": "朝日新聞",
-          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oeFJCdE02OXd2c1IzM2I5dWlwTmh1b1pjUUpScHVIUjhwLWt3S1kwVmhHV09BaFAzSGd2V1VteDZTY2VEMkdOZl9wa0NJN3E4UFZPbl9WVl9TVE1GN0w5RENQdTJwbk0?oc=5",
-          "publishedAt": "2026-09-27T10:00:00Z"
+          "id": "3474889ef1c648",
+          "name": "full-count.jp",
+          "title": "日本人投手の“行動”が「本当のスポーツマンシップ」 韓国SNSで話題「私の考えが浅かった」 - full-count.jp",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9OZFZzc2xfSVdJcllvOE1lbGNFYkhmbThuaHU0U3R1RjE3aWFwRVRhWjVUeXRkRXlqNmo4R091Q09INjFWZTlqdTI2NmdLWWJKU0liZlkyZU8?oc=5",
+          "publishedAt": "2026-09-28T07:43:45Z"
         }
       ]
     }
