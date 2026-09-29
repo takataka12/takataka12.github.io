@@ -13,7 +13,7 @@ from fastapi.responses import StreamingResponse
 
 from mix_engine import mix_files
 
-SERVICE_VERSION = "0.3.0"
+SERVICE_VERSION = "0.3.1"
 PART_BYTES = 40 * 1024 * 1024
 
 WORKER_API_URL = os.environ["MIX_WORKER_API_URL"]
