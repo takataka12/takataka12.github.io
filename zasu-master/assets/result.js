@@ -120,26 +120,49 @@ function render(body){
   }
 
   if(s==="queued"){
+    const isPreview=body.processing_mode==="preview";
     if(stage==="retrying"){
-      setState("RETRYING","自動再試行中",body.user_message||"一時的なエラーを検知しました。処理を自動でやり直しています。");
+      setState("RETRYING",isPreview?"無料プレビューを再試行中":"自動再試行中",body.user_message||"一時的なエラーを検知しました。処理を自動でやり直しています。");
     }else{
-      setState("QUEUED","処理待ち","音源を受け付けました。処理サーバーの空きを待っています。");
+      setState(
+        isPreview?"FREE PREVIEW / QUEUED":"QUEUED",
+        isPreview?"30秒MASTER試聴の処理待ち":"処理待ち",
+        isPreview
+          ?"これは無料の30秒プレビューです。フル尺MASTERは試聴後に¥500で解放できます。"
+          :"音源を受け付けました。処理サーバーの空きを待っています。"
+      );
     }
     setProgress(body);
     return true;
   }
 
   if(s==="processing"){
-    const message={
-      claimed:"処理サーバーを確保しました。まもなく音源解析を開始します。",
-      downloading:"アップロード済み音源を処理サーバーへ安全に転送しています。",
-      mastering:(body.mastering_profile==="loud_otv"?"LOUD / OTVプロファイルで高密度マスタリングしています。":"PUNCH ENGINEで音源を解析し、マスタリングしています。"),
-      processing:"PUNCH ENGINEで音源を処理しています。",
-      preparing_results:"マスタリング済み音源と比較用プレビューを書き出しています。",
-      uploading_results:"完成データを保存しています。大きなマスターは安全に分割保存されます。",
-      finalizing:"完成ファイルを検証し、ダウンロードを準備しています。"
-    }[stage]||"マスタリング処理を実行しています。このページは自動更新されます。";
-    setState(stage.toUpperCase().replaceAll("_"," "),"マスタリング中",message);
+    const isPreview=body.processing_mode==="preview";
+    const message=isPreview
+      ? ({
+          claimed:"無料30秒プレビュー用の処理サーバーを確保しました。",
+          downloading:"音源から試聴用データを準備しています。",
+          preview_select:"30秒の試聴区間を選んでいます。",
+          mastering:(body.mastering_profile==="loud_otv"?"LOUD / OTVの30秒プレビューを作成しています。":"STANDARDの30秒プレビューを作成しています。"),
+          processing:"30秒のMASTERプレビューを処理しています。",
+          preparing_results:"FAIR A/B用の30秒音源を書き出しています。",
+          uploading_results:"無料プレビューを保存しています。",
+          finalizing:"30秒プレビューを最終確認しています。"
+        }[stage]||"無料30秒MASTERプレビューを作成しています。")
+      : ({
+          claimed:"処理サーバーを確保しました。まもなく音源解析を開始します。",
+          downloading:"アップロード済み音源を処理サーバーへ安全に転送しています。",
+          mastering:(body.mastering_profile==="loud_otv"?"LOUD / OTVプロファイルで高密度マスタリングしています。":"PUNCH ENGINEで音源を解析し、マスタリングしています。"),
+          processing:"PUNCH ENGINEで音源を処理しています。",
+          preparing_results:"マスタリング済み音源と比較用プレビューを書き出しています。",
+          uploading_results:"完成データを保存しています。大きなマスターは安全に分割保存されます。",
+          finalizing:"完成ファイルを検証し、ダウンロードを準備しています。"
+        }[stage]||"マスタリング処理を実行しています。このページは自動更新されます。");
+    setState(
+      isPreview?"FREE 30 SEC PREVIEW":stage.toUpperCase().replaceAll("_"," "),
+      isPreview?"無料MASTER試聴を作成中":"マスタリング中",
+      message
+    );
     setProgress(body);
     return true;
   }
@@ -185,8 +208,8 @@ function render(body){
       if(previewMasterGate){
         previewMasterGate.hidden=false;
         if(cfg.commerceEnabled){
-          unlockMasterButton.textContent="UNLOCK FULL MASTER — ¥500";
-          previewMasterGateCopy.textContent="試聴を確認してからSquareで決済。決済後にフル尺を処理します。";
+          unlockMasterButton.textContent="BUY FULL MASTER — ¥500";
+          previewMasterGateCopy.textContent="ここまでの30秒試聴は無料です。フル尺MASTERはSquare決済 ¥500 の後に処理します。";
         }else{
           unlockMasterButton.textContent="CREATE FULL MASTER — FREE BETA";
           previewMasterGateCopy.textContent="OPEN BETA中は決済なしでフル尺処理できます。";
