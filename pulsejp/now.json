@@ -1,42 +1,51 @@
 {
-  "generatedAt": "2026-09-30T13:43:28Z",
+  "generatedAt": "2026-09-30T19:19:58Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "a6dd2425d71d7a",
-      "category": "internet",
-      "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン) - Yahoo!ニュース",
-      "sourceCount": 3,
-      "latestPublishedAt": "2026-09-30T06:30:00Z",
+      "id": "5abf41f6b62d5b",
+      "category": "economy",
+      "title": "喜ぶ日本イレブン アジア大会 - 習志野経済新聞",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-30T17:18:43Z",
       "sources": [
         {
-          "id": "661c4f4b9a600b",
-          "name": "Yahoo!ニュース",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1BZSTRkR21PZlMzYkRPRF85dzZJQzZNMVY4SFVWUnBrSndERWJBUnVJRWdJQ0pVdWJ4ajhndUwyTzkxVVVuZkdWRURsRG15b19WQUF2bGJjdko4NGVNVG9FZUc2RExKT3NOa1BWclAxSlpybGJwQVJhWl9PZ01uTHRCdXBUU3FmZFVqSjBR?oc=5",
-          "publishedAt": "2026-09-30T06:30:00Z"
+          "id": "1e3b18a0b8daa6",
+          "name": "習志野経済新聞",
+          "title": "喜ぶ日本イレブン アジア大会 - 習志野経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZbzBDaDd4azRWdjdfby04MVZFTXFWMW9lUkpZczJSVmpWTEx1NGljeVhDd2tFM0RKbzBnYW1faGdncGRXSkVkMHFUWTlUSkpzLWZDU29SUQ?oc=5",
+          "publishedAt": "2026-09-30T17:18:43Z"
         },
         {
-          "id": "6a7978ea860b20",
-          "name": "佐賀新聞",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - 佐賀新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01SXBoek40N3MxQ1gyNFBaRVJueFZudHRYd05uVzZ6WnN2YTRBZlRoMmh5YWwtajlDN09BZFB2VnVrSFh3RW1KcTA5dnI2R3VOcFJDdndR?oc=5",
-          "publishedAt": "2026-09-30T06:30:00Z"
+          "id": "fad0e4a5f46479",
+          "name": "盛岡経済新聞",
+          "title": "喜ぶ日本イレブン アジア大会 - 盛岡経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKRGphZ0JWNmZ1S0M3bUhoNzFqQmlYREhpWnY5OG44Z0JqQlc4empvMHl5ZjdJSnhBYkZNcU9PeHdXclQtVXRPT1p4Y2RRTzdZeG5xSw?oc=5",
+          "publishedAt": "2026-09-30T15:03:21Z"
+        }
+      ]
+    },
+    {
+      "id": "abd5bdff5f7ae7",
+      "category": "entertainment",
+      "title": "【大沢樹生】5年のブランクに本音ポロリ「本当に怖い」＜芸能動画＞ - テレ朝NEWS",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-30T11:28:39Z",
+      "sources": [
+        {
+          "id": "276cb2abb82159",
+          "name": "テレ朝NEWS",
+          "title": "【大沢樹生】5年のブランクに本音ポロリ「本当に怖い」＜芸能動画＞ - テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1WWXJKSnNMWnNjN3FubGM2aDhmR19RUGJvbndwSUlDNWg3RnAzQko5T0hQTEhwLUZnWDU4T0xXUmNCYlBoakRTUW81NFVCOXdtaGF1TlgwWmd6SHE0ek44NEVpNDEzdlJYV2EyR01zLTU?oc=5",
+          "publishedAt": "2026-09-30T11:28:39Z"
         },
         {
-          "id": "182143605ac7b4",
-          "name": "オリコンニュース",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbURvRl83M3ZJWDh6WXZHbzEwTjlmX1o5Y0NxaXNrLUxUaFpMU3ZwZ0NFWlBCRkU3d1ZxVjM4NW13MHY5cXRUcVlRTVVQeXp1YzhIWlp3?oc=5",
-          "publishedAt": "2026-09-30T06:30:00Z"
-        },
-        {
-          "id": "f9c6173abb5eff",
-          "name": "オリコンニュース",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WZmZqY2lvZlloRWNONjR0aTNoR0tzZ2xONlpLRUpCSkVQQVhwUWN5RmFabktsMThfVEh0azJDajdGeC0tY3B6QmZmVF9WZU9kaTBzbzNHc21pekN3SmtYc3BuYUItSFRLYWc?oc=5",
-          "publishedAt": "2026-09-30T06:30:00Z"
+          "id": "a017a79c7e1615",
+          "name": "khb東日本放送",
+          "title": "【大沢樹生】5年のブランクに本音ポロリ「本当に怖い」＜芸能動画＞ - khb東日本放送",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sRmVzN2JDa2dFYlU4SEZKV0pCanhjR19xYTNHY0FSeG1EVWNpSk10WFhPVFNIbTdDTzhvU3FUUzNGVlNmeGtWc2dOOVlxQjA?oc=5",
+          "publishedAt": "2026-09-30T11:28:39Z"
         }
       ]
     },
@@ -117,25 +126,32 @@
       ]
     },
     {
-      "id": "7c6dd16dfce8d7",
-      "category": "economy",
-      "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - 文化放送",
+      "id": "d79aa3891f869c",
+      "category": "internet",
+      "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - オリコンニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-30T02:36:03Z",
+      "latestPublishedAt": "2026-09-30T06:30:00Z",
       "sources": [
         {
-          "id": "b5f7660ead344c",
-          "name": "文化放送",
-          "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - 文化放送",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vR24wY1JWUFRTc2tnZlZGdm5KdV9NSVhWLWZIZlltR1E5QUFfQzdLRE4tSnYwajhrRi01dU1kb2ZWS3NpMUVqU3BFYVZjSkJkazlxQUxB?oc=5",
-          "publishedAt": "2026-09-30T02:36:03Z"
+          "id": "ed0e558a9546ed",
+          "name": "オリコンニュース",
+          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - オリコンニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbURvRl83M3ZJWDh6WXZHbzEwTjlmX1o5Y0NxaXNrLUxUaFpMU3ZwZ0NFWlBCRkU3d1ZxVjM4NW13MHY5cXRUcVlRTVVQeXp1YzhIWlp3?oc=5",
+          "publishedAt": "2026-09-30T06:30:00Z"
         },
         {
-          "id": "56dca28b1831e3",
-          "name": "radiko news",
-          "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - radiko news",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wajhma3Fha1YxNmdkMmtaVmNqejJjT01wMzVEWlZWdElibG1rWHQxMXdfVm1VMm9Wemt3TEUzY0FBRnpfRzQ0aE91N1VscEJxZ0gwSjlDV0xCN1dMV0ow?oc=5",
-          "publishedAt": "2026-09-30T02:34:31Z"
+          "id": "1149786688f260",
+          "name": "Yahoo!ニュース",
+          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1BZSTRkR21PZlMzYkRPRF85dzZJQzZNMVY4SFVWUnBrSndERWJBUnVJRWdJQ0pVdWJ4ajhndUwyTzkxVVVuZkdWRURsRG15b19WQUF2bGJjdko4NGVNVG9FZUc2RExKT3NOa1BWclAxSlpybGJwQVJhWl9PZ01uTHRCdXBUU3FmZFVqSjBR?oc=5",
+          "publishedAt": "2026-09-30T06:30:00Z"
+        },
+        {
+          "id": "a60fc8da6d9fba",
+          "name": "オリコンニュース",
+          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - オリコンニュース",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WZmZqY2lvZlloRWNONjR0aTNoR0tzZ2xONlpLRUpCSkVQQVhwUWN5RmFabktsMThfVEh0azJDajdGeC0tY3B6QmZmVF9WZU9kaTBzbzNHc21pekN3SmtYc3BuYUItSFRLYWc?oc=5",
+          "publishedAt": "2026-09-30T06:30:00Z"
         }
       ]
     },
@@ -182,6 +198,29 @@
           "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング - skream.jp",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWUNORmJnVEhROEwzS29xQktqd1FPRmtIV3lZTVA4TXV0Q0VSSlFnaWlrVmpKRHgtbUNuX1MwQjJtMXFfYjF2VzN5dWhzcUhpemxEWmNnN3J1VVUtVng5YkxOcw?oc=5",
           "publishedAt": "2026-09-25T12:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "bf9598870edc49",
+      "category": "politics",
+      "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - TBS NEWS DIG",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-28T00:04:21Z",
+      "sources": [
+        {
+          "id": "e447be747936eb",
+          "name": "TBS NEWS DIG",
+          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DUTVyMVhiM0s2Y2V0ZUNjWW81QlZLaXpNZUhVYlVmNmp5RHJiSVAtTVgzRDhiQV9nUFdQU2VBVVZtRE1HTHgzQ3dUTldvczUxbGlFOUVUajlDd2tNb2JrbjRBcGZEVWc?oc=5",
+          "publishedAt": "2026-09-28T00:04:21Z"
+        },
+        {
+          "id": "4242bb59e77f1b",
+          "name": "bloomberg.com",
+          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxcng3bFFWMFd3Q3F0ckd1ckhkMTUzN1N0eVBacUZhNmtHLXdJanItTHVJU0FZV3hMZW9GN09nd3lnbTZoSzI2LWo0ZWhpczBjbUtQUHRLQlU5TjNZTjA1X0ZNTk1DUDlSaVB1TGl3MGxNVEI3WlE0?oc=5",
+          "publishedAt": "2026-09-28T00:04:00Z"
         }
       ]
     },
@@ -254,58 +293,81 @@
         },
         {
           "id": "4a93bb08356625",
-          "name": "madameFIGARO.jp",
-          "title": "『オデュッセイア』だけじゃない！ 話題作が目白押しな2026年秋、映画館で観たい３選！ - madameFIGARO.jp",
+          "name": "madamefigaro.jp",
+          "title": "『オデュッセイア』だけじゃない！ 話題作が目白押しな2026年秋、映画館で観たい３選！ - madamefigaro.jp",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91MV9iRVA1eUhMSXhXYTNndElhUkt5eVZqeFEwLXFBNmxuSTg1MXp4X3BHUjZVZks2RDJoU1NiWjk2ZjZ0UW1qdXJvWXRrdHVpcjFUMDhpNGpKUQ?oc=5",
           "publishedAt": "2026-09-25T23:00:00Z"
         }
       ]
     },
     {
-      "id": "95ef5d3f8c54ba",
-      "category": "economy",
-      "title": "走れ！コータローレポート責任ある経済政策こそ - jcp-osaka.jp",
+      "id": "14c7e6c635a961",
+      "category": "internet",
+      "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで（LIMO） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T11:58:48Z",
+      "latestPublishedAt": "2026-09-30T19:16:33Z",
       "sources": [
         {
-          "id": "5edd2aadb12010",
-          "name": "jcp-osaka.jp",
-          "title": "走れ！コータローレポート責任ある経済政策こそ - jcp-osaka.jp",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE13TWRfWWpWbzdLTXQxZVlzRGtSbW5fcThBZ2JvcUtaN05NU1dMaThxNXNiTXVLS2ZpbDFuRDZscWNaVlVVRS1zZWVnSXlKQXh6NGc?oc=5",
-          "publishedAt": "2026-09-30T11:58:48Z"
+          "id": "99ae68b510bf5b",
+          "name": "Yahoo!ニュース",
+          "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで（LIMO） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sdFBXckZ2N19DbXJfWTljdjJlWnFOM0RVX1UtajdVbGptS25COUlpNE1fWVllQkplV3VMU252NGNnZ1ZfMnpzbEIzQm1DSGdhcGlYVEV5RGJUSUVVVnZCZExKWE5FUTNVWVBkaTQ2dklZSHJtV2FvY3FCeExtNW8?oc=5",
+          "publishedAt": "2026-09-30T19:16:33Z"
         }
       ]
     },
     {
-      "id": "4dceb4a5aa1c2b",
+      "id": "b7965ceef8fd3e",
       "category": "economy",
-      "title": "太洋物産、宅配ピザ「ナポリの窯」売却 堀江貴文氏は業務執行取締役に - 日本経済新聞",
+      "title": "Ｓｃｏｐｅ：AIと日本経済の行方 「二つの空間」負の連鎖懸念＝木村旬（論説委員） - 毎日新聞",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T10:50:34Z",
+      "latestPublishedAt": "2026-09-30T17:02:18Z",
       "sources": [
         {
-          "id": "664f2c61d74b91",
+          "id": "91a5d6b6f274af",
+          "name": "毎日新聞",
+          "title": "Ｓｃｏｐｅ：AIと日本経済の行方 「二つの空間」負の連鎖懸念＝木村旬（論説委員） - 毎日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lT3lJSUtFQms5YUtGZzRNR2U1OFVkcjY4M1duVThNVzhHTER0eW5naFpGMWIxeG9hU0t0Sm9BZzhIR05QLUZRcloyQUF3MzJCS2NsNWZCYWt0UUZlOGlORlZTVTE1SU11?oc=5",
+          "publishedAt": "2026-09-30T17:02:18Z"
+        }
+      ]
+    },
+    {
+      "id": "cfc80a7e74a419",
+      "category": "economy",
+      "title": "変容する米国経済（5）「金融化」で広がる所得格差 - 日本経済新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-30T17:00:00Z",
+      "sources": [
+        {
+          "id": "c782aaf843a3fd",
           "name": "日本経済新聞",
-          "title": "太洋物産、宅配ピザ「ナポリの窯」売却 堀江貴文氏は業務執行取締役に - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8xQVNic0xXZGI1NklhcUhIWFRadllSYVgwRUJTbTFLYWd3YXctaGNzRVVlYXZWMWtFakczaGl2TDluTDhBX3RHUkxmSTVNNWVkTTBzMkJveUh0Q0ZmSDlXWjVyc1pHRjhMVXVMSA?oc=5",
-          "publishedAt": "2026-09-30T10:50:34Z"
+          "title": "変容する米国経済（5）「金融化」で広がる所得格差 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12SHJUTzB1UHlqX1Jrak9DNHVOYU54MnBYZm1jcVlrZG9WSGVuZGxMV3g3UWNXdVg0dHFFTnU3QldlUDdnMFlDLVJzTy1NN0hfM0tHLVBibnFlc2ZEM1diNDRCTUhBcmcwR0s4QQ?oc=5",
+          "publishedAt": "2026-09-30T17:00:00Z"
         }
       ]
     },
     {
-      "id": "bd54b47d1f7f92",
+      "id": "02e79886f90ccf",
       "category": "economy",
-      "title": "第207回「なぜ日本人の生産性はドイツ人の半分なのか（9）－ 失われた30年を生み出した大きな要因 － 」 - rieti.go.jp",
+      "title": "【企業決算】資金利益伸び過去最高益 ちゅうぎんフィナンシャルグループ（５月１日発表）＝２０２６年３月期、連結 - 山陽新聞",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T07:54:03Z",
+      "latestPublishedAt": "2026-09-30T09:52:41Z",
       "sources": [
         {
-          "id": "ef34e982b16efa",
-          "name": "rieti.go.jp",
-          "title": "第207回「なぜ日本人の生産性はドイツ人の半分なのか（9）－ 失われた30年を生み出した大きな要因 － 」 - rieti.go.jp",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81dUFHLVVXbGppOFNuS3BpSno0Y0o4M3hvYW9VV1V1T1dYS1l4eERCNGpoQW10NW83bXRYVE9xcWNOTDNMS25oWHAzZ1lKLWJBUmdQeE5mbWtMRHgwLTREOU8yS09HcU9tREVCRg?oc=5",
-          "publishedAt": "2026-09-30T07:54:03Z"
+          "id": "02b456f15eba76",
+          "name": "山陽新聞",
+          "title": "【企業決算】資金利益伸び過去最高益 ちゅうぎんフィナンシャルグループ（５月１日発表）＝２０２６年３月期、連結 - 山陽新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xTEVMLXRoVmNQU3RmQ0c0aTFrNXdVSUpFSmVsd3ZKT1VUX3h4Qm9vTm9VUDBVcTNnWUItd1RJS0hHYlphRG9aOHQ3SHZUdWRLcEE?oc=5",
+          "publishedAt": "2026-09-30T09:52:41Z"
+        },
+        {
+          "id": "fc6eb5baf78651",
+          "name": "山陽新聞",
+          "title": "【企業決算】運賃引き上げ増収増益 岡山県貨物運送（５月８日発表）＝２０２６年３月期、連結 - 山陽新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wTXBhZEZTOTF4SEtIclZ1WHdKZFZYUXpyWHI1Nk5IZmoyZ19NYUV4N1RUUFgxSHRtUDU0V0hTdXFlSUU1TFdRQ05Hc0NEWXRSWlE?oc=5",
+          "publishedAt": "2026-09-29T20:57:18Z"
         }
       ]
     },
@@ -342,6 +404,22 @@
       ]
     },
     {
+      "id": "7c6dd16dfce8d7",
+      "category": "economy",
+      "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - 文化放送",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-30T02:36:03Z",
+      "sources": [
+        {
+          "id": "b5f7660ead344c",
+          "name": "文化放送",
+          "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - 文化放送",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vR24wY1JWUFRTc2tnZlZGdm5KdV9NSVhWLWZIZlltR1E5QUFfQzdLRE4tSnYwajhrRi01dU1kb2ZWS3NpMUVqU3BFYVZjSkJkazlxQUxB?oc=5",
+          "publishedAt": "2026-09-30T02:36:03Z"
+        }
+      ]
+    },
+    {
       "id": "56000c3efabc9f",
       "category": "politics",
       "title": "松下政経塾は京都大学で、寄附講義「日本の政治と経済：関西からの視点」を開講します - PR TIMES",
@@ -358,73 +436,18 @@
       ]
     },
     {
-      "id": "3d2bec246e9a76",
-      "category": "internet",
-      "title": "「毒ガエルみたいでド派手！」「意外とお買い得」などSNSで話題！ ヤマハの新世代スーパースポーツ「YZF-R9」の2027年モデルは“新色”が大反響 - VAGUE(ヴァーグ)",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T22:10:06Z",
-      "sources": [
-        {
-          "id": "7f9d3ba153d8c5",
-          "name": "VAGUE(ヴァーグ)",
-          "title": "「毒ガエルみたいでド派手！」「意外とお買い得」などSNSで話題！ ヤマハの新世代スーパースポーツ「YZF-R9」の2027年モデルは“新色”が大反響 - VAGUE(ヴァーグ)",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1EZ3FOUzhRMlFvUXI4X3JZZUljaDkwSmg5WEJNR0g2THF6bm1neHhLTDFOd2FreVVuWEVIcDVNMGUwOHFjUEE?oc=5",
-          "publishedAt": "2026-09-29T22:10:06Z"
-        }
-      ]
-    },
-    {
-      "id": "f7094f0141c890",
+      "id": "9cb78170f927f7",
       "category": "politics",
-      "title": "《発足から25年》小泉純一郎政権は日本をどう変えたのか？ 竹中平蔵氏が語るレガシーと課題「“ぶっ壊す政治”はワンマンとは違う。高市政権は残された未完の改革に着手すべし」 - news-postseven.com",
+      "title": "国際政治学者×池上彰＃2 アメリカ・中国に日本はどう立ち向かう？資源のない日本「資源不足は自然災害だと思え」！？インドと上手に付き合う秘訣｜池上彰がいま話を聞きたい30人 - テレ東BIZ",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T22:00:00Z",
+      "latestPublishedAt": "2026-09-29T17:10:34Z",
       "sources": [
         {
-          "id": "318314b25ee3fe",
-          "name": "news-postseven.com",
-          "title": "《発足から25年》小泉純一郎政権は日本をどう変えたのか？ 竹中平蔵氏が語るレガシーと課題「“ぶっ壊す政治”はワンマンとは違う。高市政権は残された未完の改革に着手すべし」 - news-postseven.com",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TX2FHblVHRUhlVmx2c3JPQzVnTXJHNWZGSERRVF8zcnRzb3VWMlhSLUZSSjFCTlU2R0ItMVVFWFJOSS1MejR6RVJyZFJZMlVlaGdQaUMwLWk0LXpPMDBxQWJTcXZucEgtVTBORlBvNnRtOTlwd1lB?oc=5",
-          "publishedAt": "2026-09-29T22:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "b40536706584ac",
-      "category": "economy",
-      "title": "日本経済新聞 朝刊 - 日本経済新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T21:47:23Z",
-      "sources": [
-        {
-          "id": "f7bec7ae219cb9",
-          "name": "日本経済新聞",
-          "title": "日本経済新聞 朝刊 - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUWtteDU1X09MbjBoX2J2dmQxNWloSGs2QWRCZjF5VDBBRGFsMGpOOFJBZi1vQUJ1M0xpZWtkekFWN0pmXzI5cm5kRWpYd2RXc05pNzA4TnhRXy1ZQ1ZGWWZWay1Od0lBQXc4NVdBbkxBYWt2aVJ0dWMwOFRyMWtsSXRqSGVUUi10Zk94V25NOHVUOHJFR3dsSEdPTklhT2s?oc=5",
-          "publishedAt": "2026-09-29T21:47:23Z"
-        },
-        {
-          "id": "e0f21d435ea55b",
-          "name": "日本経済新聞",
-          "title": "日本経済新聞 朝刊 - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTZiR2VNdTc1RDBKS1FJNENBUzJpNDZ0VlJ1WnppZ1Q0RHI0cWtBam4zZ2RmcW1rY2ZyckI1a3lUVlFVbVVORGllb1ljZkdiTWhXeFhqRDhWbUlXSG1XU19KY0d4Z01QUDdCRVBTWWEtcE9ZZDlqM0J2RFhnNk05WFR6dWYyazZTQkpRMUpzWTJmYXcxZnFXQ0FfSU9jVXc?oc=5",
-          "publishedAt": "2026-09-29T21:15:20Z"
-        }
-      ]
-    },
-    {
-      "id": "7dd74b88d9e2d0",
-      "category": "politics",
-      "title": "記者コラム「清流」 「日本一」のスローガン 政治部・森田憲吾 - 静岡新聞DIGITAL",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T21:00:00Z",
-      "sources": [
-        {
-          "id": "f5d903e74f11a4",
-          "name": "静岡新聞DIGITAL",
-          "title": "記者コラム「清流」 「日本一」のスローガン 政治部・森田憲吾 - 静岡新聞DIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZcjVKVXJQc0NFOXpVeno0c1lTT3RqM0stZGg5ZmIxcDhnRnVmeVVxQ0N6Z0VWX1R5RUFPNGV5eFJOdEl4MFl6dkFMbk9NQQ?oc=5",
-          "publishedAt": "2026-09-29T21:00:00Z"
+          "id": "aa93ad1cd51301",
+          "name": "テレ東BIZ",
+          "title": "国際政治学者×池上彰＃2 アメリカ・中国に日本はどう立ち向かう？資源のない日本「資源不足は自然災害だと思え」！？インドと上手に付き合う秘訣｜池上彰がいま話を聞きたい30人 - テレ東BIZ",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TaF9IczV3TFFTenpIb244N0RjcXZLMUdDY1ZEQ1lfVVpIcmM1S2FwOXpZQU1BTFpXbGhOUWVGZjVucnFIbk14ZDA5ajlSY0FDelZpWkx0S01jWkp2S290aFM4dVA?oc=5",
+          "publishedAt": "2026-09-29T17:10:34Z"
         }
       ]
     },
@@ -445,50 +468,41 @@
       ]
     },
     {
+      "id": "d23aabd0852163",
+      "category": "economy",
+      "title": "円相場、157円37～38銭＝29日午後5時現在(時事通信) - Yahoo!ファイナンス",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-29T09:00:27Z",
+      "sources": [
+        {
+          "id": "21b7bd65b12401",
+          "name": "Yahoo!ファイナンス",
+          "title": "円相場、157円37～38銭＝29日午後5時現在(時事通信) - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ1FsY1hZdW1hYzdsVkp1YWdER25teWtremdpbXZrcXJUYmxqYV8zSlFrM1dGVmUtSVJ6Y3lNZ2RYVmJ1Z3p5ak1wNkVjTUJJSW51blM0U0FzdTliUGktTE5BVWNoeEc5d0dzaWRQbTJtRnQybHBHNnp1WmtPaE9rbFdhZ2l3dWM?oc=5",
+          "publishedAt": "2026-09-29T09:00:27Z"
+        },
+        {
+          "id": "ef6e3f838c9e0c",
+          "name": "Yahoo!ファイナンス",
+          "title": "570円安の6万5307円00銭＝29日午前の平均株価(時事通信) - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORm96WXFjSk9QRUh5dWF5YzBIRld2Tm9weWhIdGFyTU92S0otWVVOa2lYNGJSYXdWQzV5WG9SZmZJak9mSlh1RUpBM0NQR1VHSkZVVExVZFNkenJQRkFJVG4wS1djUjlPUzNwb0N2ckZrM2twTWpTS2lRM2FYVkdhWE5xLXkxeUU?oc=5",
+          "publishedAt": "2026-09-29T03:00:32Z"
+        }
+      ]
+    },
+    {
       "id": "593d307a1c56f8",
       "category": "politics",
-      "title": "【速報】中国副首相は岩屋前外相に「日本の一部政治家が台湾問題で中国側のボトムラインに挑もうとしている」と述べた - 時事ドットコム",
+      "title": "【速報】中国副首相は岩屋前外相に「日本の一部政治家が台湾問題で中国側のボトムラインに挑もうとしている」と述べた - jiji.com",
       "sourceCount": 1,
       "latestPublishedAt": "2026-09-29T08:26:00Z",
       "sources": [
         {
           "id": "c920d0b384dea7",
-          "name": "時事ドットコム",
-          "title": "【速報】中国副首相は岩屋前外相に「日本の一部政治家が台湾問題で中国側のボトムラインに挑もうとしている」と述べた - 時事ドットコム",
+          "name": "jiji.com",
+          "title": "【速報】中国副首相は岩屋前外相に「日本の一部政治家が台湾問題で中国側のボトムラインに挑もうとしている」と述べた - jiji.com",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pZi0yT05wTFQyZkNZVkZqMzBnNjRDbGhqbE1fUjlHZElfWktSeGlkeks1NWt2NWZrQU5NeFpscnlGN3QyQnJqRkU3cVFyREhob3lhUjhLbkd1NDFmWXlqVGxUblYtUQ?oc=5",
           "publishedAt": "2026-09-29T08:26:00Z"
-        }
-      ]
-    },
-    {
-      "id": "667ecab1fe22bf",
-      "category": "entertainment",
-      "title": "小島瑠璃子「芸能だけになるのが怖かった」 芸能活動休止の裏側・起業した理由を明かす - オリコンニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T07:30:00Z",
-      "sources": [
-        {
-          "id": "515fcc9f66d3fd",
-          "name": "オリコンニュース",
-          "title": "小島瑠璃子「芸能だけになるのが怖かった」 芸能活動休止の裏側・起業した理由を明かす - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCWE91Y2ZWT01pVy1wd3phTktuODB0d2tXOUI3Tld2RmVKVGQ5cldWLTI3bnVCSEs3VnJiREs5WjE4cmNFZUg2SF9wanZtZEtLWVk1dGhB?oc=5",
-          "publishedAt": "2026-09-29T07:30:00Z"
-        }
-      ]
-    },
-    {
-      "id": "5fdf30559bfd4f",
-      "category": "politics",
-      "title": "男女平等１１７位 日本は政治の格差が重い - sanyonews.jp",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T23:00:00Z",
-      "sources": [
-        {
-          "id": "8855e07e79189f",
-          "name": "sanyonews.jp",
-          "title": "男女平等１１７位 日本は政治の格差が重い - sanyonews.jp",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WcXd6ZXVPTjk3cmdGTHJkS1YwUWlPWGJuRUVMME1GbWY0OGZJMXNDSHVaeWhDSUF1S2duWjBFMFR4TWZMYmRQWWQ2dnVUeU9XcVE?oc=5",
-          "publishedAt": "2026-09-28T23:00:00Z"
         }
       ]
     }
