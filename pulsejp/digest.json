@@ -1,275 +1,250 @@
 {
-  "generatedAt": "2026-09-30T00:53:29Z",
+  "generatedAt": "2026-09-30T16:33:02Z",
   "edition": "朝刊",
   "headline": "3分で今日を把握",
-  "overview": "経済では日本の鉱工業生産速報や円相場に関する記事が注目されています。政治・エンタメ・ネットでは、スイスの中立政策、中国側の発言、映画や音楽、SNSで話題になった情報が報じられています。",
+  "overview": "芸能では芸能界引退の報告や仙台のチャイナフェスが報じられています。政治・経済では資産公開を巡る報道や企業買収、インターネットではSNSで話題の商品・漫画の動きが注目されています。",
   "isSample": false,
   "topics": [
     {
-      "id": "entertainment-kuramoto-obituary",
+      "id": "entertainment-retirement-reports",
       "category": "entertainment",
-      "title": "倉本聰さん死去、芸能界から悼む声",
-      "whatHappened": "倉本聰さんが亡くなったとYahoo!ニュースが報じています。芸能界から寄せられた追悼の声が紹介されているとみられます。",
-      "whyTrending": "著名な脚本家の訃報と、芸能界からの反応が報じられているためです。",
-      "context": "見出しからは、死去したことと芸能界から悼む声があること以外の詳細は確認できません。",
+      "title": "元NMB48メンバーと元ラストアイドル女優が芸能界引退へ",
+      "whatHappened": "29歳の元NMB48メンバーが、約16年間の活動に幕を閉じるとして芸能界引退を報告したと報じられています。元ラストアイドルの22歳女優についても、来年5月いっぱいで引退する意向が報じられています。",
+      "whyTrending": "複数媒体が相次いで引退報告を伝えているためです。",
+      "context": "元NMB48メンバーは約16年間の活動、元ラストアイドル女優は今後について考えた結果として引退を決めたと、見出しで示されています。詳細な理由は未確認です。",
       "points": [
-        "倉本聰さんの死去が報じられた",
-        "芸能界から追悼の声が出ているとされる"
+        "29歳の元NMB48メンバーが引退を報告",
+        "元ラストアイドルの22歳女優は来年5月いっぱいで引退へ",
+        "引退後の活動については詳細未確認"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sources": [
         {
-          "id": "1c76288fafa2",
-          "name": "Yahoo!ニュース",
-          "title": "倉本聰さん死去 芸能界から悼む声",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15SUZfdHIwZkVWUEFHckpWV2E0ZkF1cVluVmVVMVVldFJua2JoUXdYTmkweVJfZTFXNjZGQk00UEtjSEhvckhPR2Z3YU9wWlZ2",
-          "publishedAt": "2026-09-28T03:07:03Z"
+          "id": "cf336b9e9c67",
+          "name": "ｄメニューニュース",
+          "title": "29歳・元NMB48メンバー　芸能界引退を報告「約16年間の活動に幕を閉じます」",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdUZDRGdxb2hFRWJBSWJQZFgwRTlrUzNPV0lhSWo3bHh1Y05EeElxNlN0RF9mTU1jWHo5bDZfRHdJRGtXbHpnQUdLdVhnYmh0dExtaVNHWlZFc2o3TXVJV0p5VUZoZzFpUUNPWkRCaUs5QjFDN3V2amswdFd0VkYtbFYxTWlaQ2FoY21reW1fakh2cVRoMnNv0gGcAUFVX3lxTE15RW02SzVsT1ZZSEJsZHJOYlAwSlNHZ29pRFAwT1NlajNYeUdaWWF6bkE4V2tmUThGaUxsYmJBTTFhZDNqQVdCVEF2V0tzclEtSzZFQXB6TEliNndZc19wcHZTbER0ZUFNeHRlU29FTVI5WWM1MXhfdkFXV3hiSFZqRjBiV2l1alB5WThaWnhoMU1UUzdVTERJbC13SA?oc=5",
+          "publishedAt": "2026-09-30T11:55:00Z"
+        },
+        {
+          "id": "ee16c159cd59",
+          "name": "sponichi.co.jp",
+          "title": "元ラストアイドル22歳女優 芸能界引退へ 来年5月いっぱいで「これからについてじっくり考えた結果」",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMlZ6Wk5NblQtYlc3ZWR0cUN6d3hxV1pYRWhMZFVvVERSTlcxNFZaMXdmdVNGUEd1d3dNU2FtZnp2SkE1R1FBd0VCYUM2UllhMjNoYklDMm9NeWYzWDFEVVY1OG8wN0VTRTc4WkhhZ2Q0SG1SYmR1TlgydkJTaXRGWktjUF9oZElxc1M3UXVtcGJmVng5N1E?oc=5",
+          "publishedAt": "2026-09-30T16:00:03Z"
         }
       ],
-      "caution": "訃報の詳しい経緯や人物情報は、入力見出しだけでは未確認です。"
+      "caution": "いずれも見出しに基づく情報で、本人の詳しい説明や今後の活動は未確認です。"
     },
     {
       "id": "entertainment-sendai-china-festival",
       "category": "entertainment",
-      "title": "仙台市内でチャイナフェス、中国文化を紹介",
-      "whatHappened": "仙台市青葉区でチャイナフェスが開かれ、グルメや音楽を通じて中国文化に触れる催しとして報じられています。複数媒体が同じ話題を伝えています。",
-      "whyTrending": "地域イベントの開催が複数媒体で取り上げられているためです。",
-      "context": "見出しでは会場の詳しい規模や開催期間、来場者数は確認できません。",
+      "title": "仙台市内でチャイナフェス、中国文化に触れる催し",
+      "whatHappened": "仙台市青葉区でチャイナフェスが開かれ、グルメや音楽を通じて中国文化に触れる催しとして報じられています。",
+      "whyTrending": "地域のイベントとして、複数媒体が同じ催しを取り上げています。",
+      "context": "開催期間や来場者数などの詳細は、入力見出しからは確認できません。",
       "points": [
-        "仙台市青葉区で開催",
-        "グルメや音楽を通じて中国文化を紹介",
-        "TBS NEWS DIGとYahoo!ニュースが報道"
+        "会場は仙台市青葉区",
+        "グルメや音楽を展開",
+        "中国文化を紹介するイベント"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "79f08c3586bc",
+          "id": "8ffcdbf26297",
           "name": "TBS NEWS DIG",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
           "publishedAt": "2026-09-26T07:37:00Z"
         },
         {
-          "id": "2f1332ae00ce",
+          "id": "16219b3aac2f",
           "name": "Yahoo!ニュース",
           "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
           "publishedAt": "2026-09-26T07:38:13Z"
         }
       ],
-      "caution": null
+      "caution": "イベントの規模や具体的な内容は未確認です。"
     },
     {
-      "id": "entertainment-ayumu-new-song",
-      "category": "entertainment",
-      "title": "Ayumu Imazu、新曲「結び」を10月2日に配信",
-      "whatHappened": "Ayumu Imazuが新曲「結び」を10月2日に配信すると報じられています。曲は「赤い糸」をモチーフに、人と人との縁を描いたラブソングとされています。",
-      "whyTrending": "SNSで話題になった新曲のリリース決定が複数媒体で報じられているためです。",
-      "context": "配信日と楽曲のモチーフは見出しで確認できますが、SNSでの反響の規模は未確認です。",
-      "points": [
-        "新曲名は「結び」",
-        "10月2日に配信予定",
-        "「赤い糸」をモチーフにした楽曲"
-      ],
-      "sourceCount": 2,
-      "sources": [
-        {
-          "id": "698e83f113f3",
-          "name": "skream.jp",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWUNORmJnVEhROEwzS29xQktqd1FPRmtIV3lZTVA4TXV0Q0VSSlFnaWlrVmpKRHgtbUNuX1MwQjJtMXFfYjF2VzN5dWhzcUhpemxEWmNnN3J1VVUtVng5YkxOcw",
-          "publishedAt": "2026-09-25T12:00:00Z"
-        },
-        {
-          "id": "7539fe287593",
-          "name": "USENの音楽情報サイト",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5hbUtkdzRyUEI1NzdSTnYxN3RBb0ZnSVF4YS1DQTF0WEVKVjFsR2VTVEJWeTlsZFF2UHpGbVhkMU9SX1V0VFVYTEplWHN3NVRUVThJYlZ2R1ZlQ1g2RmotZDM4a0dNVV92NUow",
-          "publishedAt": "2026-09-28T04:40:07Z"
-        }
-      ],
-      "caution": "SNS上の反響の具体的な内容や規模は未確認です。"
-    },
-    {
-      "id": "politics-switzerland-neutrality",
+      "id": "politics-aso-asset-report",
       "category": "politics",
-      "title": "スイス、中立政策の厳格化を否決",
-      "whatHappened": "スイスで中立政策の厳格化が否決されたと報じられています。これにより、政府に柔軟な運用の余地が残るとされています。",
-      "whyTrending": "同国の外交・安全保障政策に関わる判断として、複数媒体が報じているためです。",
-      "context": "見出しからは、否決の方法や投票結果の詳細、今後の具体的な政策運用は確認できません。",
+      "title": "麻生太郎氏の資産公開を巡る報道、事務所は確認中と回答",
+      "whatHappened": "麻生太郎氏について、国会に報告されていない土地3カ所があるとする報道が出ています。報道では資産公開法違反の可能性が指摘され、事務所は「現在確認中です」と回答したとされています。",
+      "whyTrending": "複数媒体が、国会議員の資産公開に関わる問題として同じ報道を伝えています。",
+      "context": "資産公開法違反に当たるかどうかや、土地の扱いについては、入力情報だけでは確認できません。",
       "points": [
-        "中立政策の厳格化を否決",
-        "政府に柔軟な運用余地が残ると報じられている"
+        "土地3カ所を巡る報道",
+        "資産公開法違反の可能性が指摘されている",
+        "事務所は確認中と回答したと報じられている"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sources": [
         {
-          "id": "ae0151b7c21b",
-          "name": "TBS NEWS DIG",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OYTVMMF91b29Wb29FOVV1NVV3a3pMS3V0eUdESWdhU0VoeW81ZjZybWFYNTd1VndaYWJuTHVzclZQRUtpMjIzOVJ4VVB3VWtvbUxBUzNkU2ppbmZRQy1Qay1CN3lBblU0UkxPaGllcVFMMUVRZm53RUxXaVo",
-          "publishedAt": "2026-09-28T02:33:04Z"
-        },
-        {
-          "id": "66c3dadf6cd5",
+          "id": "e5938fa44dc0",
           "name": "Yahoo!ニュース",
-          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk",
-          "publishedAt": "2026-09-28T01:32:14Z"
+          "title": "麻生太郎氏に“隠し資産”土地3カ所発覚…国会に報告せず、資産公開法違反の可能性《事務所は「現在確認中です」と回答》",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hNkNmaVk4aFZmeHVmTDZ3Q1NxbHQzdGdvSDJ6elhVRUJicTQtU1pCUnNVcnVWazc0ckxDZUdBN0x5dzIyT2dYc0dqcnRLQVVycFNVcGU0aDRmSTlrR0k1anVLZjVhbUMzS1ZOZlFOVE1qclpPWDhDbGx0TkUwUFU?oc=5",
+          "publishedAt": "2026-09-30T07:12:16Z"
+        },
+        {
+          "id": "c0f7b084f467",
+          "name": "文春オンライン",
+          "title": "麻生太郎氏に“隠し資産”土地3カ所発覚…国会に報告せず、資産公開法違反の可能性《事務所は「現在確認中です」と回答》",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBCWHNublpWMllPeU9Ta0xsYVJRX3dfekZNY2JPdG1IZ3dLNmFKTTE1R0l5UDBuWTY0VkZXV3NUcV80UWhJZk9wcmpYNGoyeHZ2VHJ2VFdsWQ?oc=5",
+          "publishedAt": "2026-09-30T07:00:00Z"
+        },
+        {
+          "id": "a2044c76c189",
+          "name": "Infoseek",
+          "title": "麻生太郎氏に“隠し資産”土地3カ所発覚…国会に報告せず、資産公開法違反の可能性《事務所は「現在確認中です」と回答》",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5JcVNpUkJ3VFFUb3VHX2xvT2JIT2haM0lSbVFZR0lrQWZWdjhEbmJBQjlDRFhDemJYejJQZXVDT1NiZURLQTVhbXc5Q3dsamlld2lKUUNiV01nemw0NUE?oc=5",
+          "publishedAt": "2026-09-30T07:00:00Z"
         }
       ],
-      "caution": "政策変更の具体的内容や国際的な影響は、入力見出しだけでは未確認です。"
+      "caution": "「隠し資産」や法違反は見出しに基づく報道上の表現であり、事実や違法性が確定したわけではありません。"
     },
     {
-      "id": "politics-china-taiwan-statement",
+      "id": "politics-gender-gap",
       "category": "politics",
-      "title": "中国副首相、日本の一部政治家の台湾問題を巡る動きを批判と報道",
-      "whatHappened": "時事ドットコムは、中国副首相が岩屋前外相に対し、日本の一部政治家が台湾問題で中国側の「ボトムライン」に挑もうとしていると述べたと報じています。これは中国側の発言として伝えられています。",
-      "whyTrending": "台湾問題を巡る中国側の対日発言として報じられているためです。",
-      "context": "発言の相手と趣旨は見出しで確認できますが、発言の詳しい前後関係や日本側の反応は未確認です。",
+      "title": "日本の男女格差を巡り、政治分野の格差が課題と報道",
+      "whatHappened": "日本の男女格差について、政治・経済で実効性のある対策を求める社説が掲載されています。別の報道では、日本の男女平等順位が117位で、政治の格差が重いとされています。",
+      "whyTrending": "男女格差に関する社説や順位報道が相次いでいるためです。",
+      "context": "順位の調査名や算出方法、具体的な政策内容は入力見出しからは確認できません。",
       "points": [
-        "中国副首相が岩屋前外相に発言したと報道",
-        "日本の一部政治家の台湾問題を巡る動きに言及",
-        "中国側の立場を示す発言として伝えられている"
+        "日本の男女平等順位は117位と報じられている",
+        "政治分野の格差が課題とされている",
+        "朝日新聞は実効性のある方策を求める社説を掲載"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "05b74eaedc69",
-          "name": "時事ドットコム",
-          "title": "【速報】中国副首相は岩屋前外相に「日本の一部政治家が台湾問題で中国側のボトムラインに挑もうとしている」と述べた",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pZi0yT05wTFQyZkNZVkZqMzBnNjRDbGhqbE1fUjlHZElfWktSeGlkeks1NWt2NWZrQU5NeFpscnlGN3QyQnJqRkU3cVFyREhob3lhUjhLbkd1NDFmWXlqVGxUblYtUQ",
-          "publishedAt": "2026-09-29T08:26:00Z"
+          "id": "8855e07e7918",
+          "name": "山陽新聞",
+          "title": "男女平等１１７位 日本は政治の格差が重い",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WcXd6ZXVPTjk3cmdGTHJkS1YwUWlPWGJuRUVMME1GbWY0OGZJMXNDSHVaeWhDSUF1S2duWjBFMFR4TWZMYmRQWWQ2dnVUeU9XcVE?oc=5",
+          "publishedAt": "2026-09-28T23:00:00Z"
         }
       ],
-      "caution": "見出しは中国側の発言内容を伝えたもので、日本政府や岩屋前外相の見解は未確認です。"
+      "caution": "順位の根拠となる調査や各紙の論説は、記事本文を確認していないため詳細未確認です。"
     },
     {
-      "id": "politics-gender-gap-japan",
-      "category": "politics",
-      "title": "日本の男女格差、政治分野の課題を指摘する報道",
-      "whatHappened": "朝日新聞は、日本の男女格差が依然として深刻だとする社説を掲載しています。山陽新聞は「男女平等117位」とし、政治の格差が重いと報じています。",
-      "whyTrending": "日本の男女格差、とりわけ政治分野の差を扱う記事が複数報じられているためです。",
-      "context": "順位の対象となる指標や調査時点、具体的な政策内容は見出しだけでは確認できません。",
-      "points": [
-        "男女格差が依然として課題と指摘",
-        "政治分野の格差が重いと報道",
-        "山陽新聞は「男女平等117位」と報じている"
-      ],
-      "sourceCount": 1,
-      "sources": [
-        {
-          "id": "3caf4d7c3e62",
-          "name": "朝日新聞",
-          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oeFJCdE02OXd2c1IzM2I5dWlwTmh1b1pjUUpScHVIUjhwLWt3S1kwVmhHV09BaFAzSGd2V1VteDZTY2VEMkdOZl9wa0NJN3E4UFZPbl9WVl9TVE1GN0w5RENQdTJwbk0",
-          "publishedAt": "2026-09-27T10:00:00Z"
-        }
-      ],
-      "caution": "「117位」がどの国際指標を指すか、朝日新聞社説の具体的な根拠は入力からは未確認です。"
-    },
-    {
-      "id": "economy-industrial-production",
+      "id": "economy-toysrus-japan-acquisition",
       "category": "economy",
-      "title": "日本の鉱工業生産速報値が公表",
-      "whatHappened": "日本の経済指標として、鉱工業生産の速報値が取り上げられています。見出しからは指標が公表されたことは確認できますが、数値や前月比は確認できません。",
-      "whyTrending": "国内景気をみる主要経済指標の速報として報じられているためです。",
-      "context": "鉱工業生産の具体的な結果や市場予想との比較は、入力見出しだけでは不明です。",
+      "title": "ドンキ運営のパンパシHD、トイザらス日本事業を買収へ",
+      "whatHappened": "パンパシフィック・インターナショナルホールディングスが、トイザらス日本事業を買収するとの報道が出ています。別の見出しでは、全150店舗を継承するとされています。",
+      "whyTrending": "大手小売企業による玩具専門店事業の買収として報じられ、パンパシHDの株価続落にも言及されています。",
+      "context": "買収条件や完了時期、株価下落の具体的な要因は入力見出しからは確認できません。",
       "points": [
-        "対象は日本の鉱工業生産",
-        "速報値として報じられている",
-        "具体的な数値は未確認"
+        "トイザらス日本事業の買収が報じられている",
+        "全150店舗を継承すると報じられている",
+        "パンパシHDの株価続落にも言及"
+      ],
+      "sourceCount": 1,
+      "sources": [
+        {
+          "id": "b7d5e20cbfa7",
+          "name": "日本経済新聞",
+          "title": "ドンキ、「トイザらス」日本事業を買収 全150店舗を継承",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TUF93T2ZNbm5ONm9uS2t3bDkzU0J6X2dLYnhzbzVEaldQMkN0NWl0TUNyaG5JcG1EeURuOHlJa1hKNVd6TVBMbzhLNlhnbUpsNnE4VGx5dU5mV2VBcUwxSkR0RWZpeW1kM1oybg?oc=5",
+          "publishedAt": "2026-09-29T11:00:00Z"
+        }
+      ],
+      "caution": "買収の正式決定や手続きの進捗は、見出しだけでは確認できません。"
+    },
+    {
+      "id": "economy-australia-private-credit",
+      "category": "economy",
+      "title": "豪プライベートクレジット大手、一部解約停止と報道",
+      "whatHappened": "オーストラリアのプライベートクレジット大手が、一部の解約を停止したと報じられています。決算を巡り、監査法人が疑義を示したとされています。",
+      "whyTrending": "金融商品の解約停止と監査を巡る問題が同時に報じられているためです。",
+      "context": "対象企業名、停止の範囲、監査法人の具体的な指摘内容は入力見出しからは確認できません。",
+      "points": [
+        "一部解約の停止が報じられている",
+        "決算を巡り監査法人が疑義を示したとされる",
+        "詳細な影響は未確認"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "7da6801065f7",
-          "name": "みんかぶ FX/為替",
-          "title": "日本経済指標【鉱工業生産（速報値）】 - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5yb01Wdm5zQ2l5bVZpVzZVRTd6UXc4UTBYUjVSdzZ3ZEJrX09LQ3JFWVRWdk9uTEZXQTA5R3pDZmxuTmlEUG9QaQ",
-          "publishedAt": "2026-09-29T23:50:57Z"
+          "id": "2dd3c6150a59",
+          "name": "Reuters",
+          "title": "豪プライベートクレジット大手、一部解約停止 決算巡り監査法人が疑義",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUFQ1N1FOSWxMWTVZWDNKU25PYmt1WHE5aThxVm9WMEcwQk16Z24tOEVabU92d05iUWxlVkgwSlpPVUF1OXUyMEpTWGpQUEVBMlV4UkRtYS1vdmUxc2JRQnRCVmpsOU80OXdmSkRTZWUxazJLaU5GWFNYb1NIeVVLSEV2Y21BUQ?oc=5",
+          "publishedAt": "2026-09-30T09:45:44Z"
         },
         {
-          "id": "8be25257a181",
-          "name": "みんかぶ",
-          "title": "日本経済指標【鉱工業生産（速報値）】 - みんかぶ",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGalJJQURsSGR6MnFWcnBqUTRSYlcxaDNBaFRzVUJKTjBVdW9ubTl3X3cweklyN3BEY05QbzEzTE5VN1I1WHhsYQ",
-          "publishedAt": "2026-09-30T00:00:00Z"
+          "id": "a5a291beb7a2",
+          "name": "ｄメニューニュース",
+          "title": "豪プライベートクレジット大手、一部解約停止　決算巡り監査法人が疑義",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd05WdUZWblIxS09kNkNhcnlPWldlcGlIX25ENjFiN29sTFVwZ0ttWUdteVlPNWR6QWJ5bms2cXExMk9GY3l3WkxTWDlrVDNZMW1zdzlKVWNUY1ZsZzJNbkx0Qkwza3dPa3BBaWxleXR3bllzU2wzVUVIUHhlbmxHTU1R0gGHAUFVX3lxTE1vZ3NfdjlmNFVvSDNMRmRzcGZuQTBBSzRIdTNKUlZTM3N4c3BiTE1NLXJlZDhkc1RrSV83WjhYc3RXWFZuM2tuUjdOSnp4bDBPUlZoRmtVZWRPM2hzMnBYRmRldWJnWi1ocHAtUVQ4a19fN2ZuWFdlbU9zcjRibGdnQ3FLN2ZFVQ?oc=5",
+          "publishedAt": "2026-09-30T09:45:00Z"
         }
       ],
-      "caution": "生産指数の水準、増減率、市場への影響は未確認です。"
+      "caution": "対象企業や財務上の問題の詳細は未確認です。"
     },
     {
-      "id": "economy-usdjpy-157",
-      "category": "economy",
-      "title": "米ドル円、一時157円台との報道",
-      "whatHappened": "米ドル円が一時157円台となり、円買い介入の可能性に言及する記事が報じられています。野村證券の解説として、155～160円の水準では企業業績への期待が続くとの見方も紹介されています。",
-      "whyTrending": "円相場の水準と、為替介入の可能性が注目されているためです。",
-      "context": "見出しでは一時的な水準と専門家の見方が示されていますが、実際に介入があったかは確認できません。",
-      "points": [
-        "米ドル円が一時157円台",
-        "円買い介入かとの見方が示されている",
-        "155～160円なら業績改善期待が続くとの解説"
-      ],
-      "sourceCount": 1,
-      "sources": [
-        {
-          "id": "a469fb47d8da",
-          "name": "nomura.co.jp",
-          "title": "米ドル円が一時157円台、円買い介入か 155～160円なら業績改善期待続く 野村證券ストラテジストが解説",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBVN3NtdTYtSDY1ajFqSHd1R0dpQ3BzWk9TSVR0Zk9PR1k0UFVxRVJKeVJhbUU3V3NQV2cwNjJtSndqVnhnM2VkWUhyMDlvc25hRHpJTzh4N1RUZ0xmNHow",
-          "publishedAt": "2026-09-25T07:00:00Z"
-        }
-      ],
-      "caution": "為替介入の実施は見出しから確認できず、専門家の見通しは予測・見解です。"
-    },
-    {
-      "id": "internet-naruto-new-anime",
+      "id": "internet-muji-pomme-chocolat",
       "category": "internet",
-      "title": "『NARUTO』完全新作アニメ情報、NYコミコンで公開へ",
-      "whatHappened": "『NARUTO』の完全新作アニメに関する情報が、NYコミコンで世界初公開される予定だと報じられています。SNSではファンの反応が広がっているとされています。",
-      "whyTrending": "人気作品の新作アニメ情報と、SNS上のファンの反応が注目されているためです。",
-      "context": "公開予定は確認できますが、新作の内容や放送時期、制作体制は見出しからは未確認です。",
+      "title": "無印良品「ポムショコラ」、SNSで話題の商品が再発売",
+      "whatHappened": "無印良品の「ポムショコラ」が、昨年SNSで話題になった商品として、きょうから順次発売されると報じられています。発売告知は160万表示に達したとされています。",
+      "whyTrending": "昨年SNSで話題になった商品の再発売と、高い告知表示数が注目されています。",
+      "context": "商品の価格や販売店舗、表示数の集計時点は入力見出しからは確認できません。",
       "points": [
-        "完全新作アニメ情報を公開予定",
-        "公開場所はNYコミコン",
-        "SNSで話題になっていると報道"
+        "きょうから順次発売",
+        "昨年SNSで話題になった商品",
+        "告知は160万表示と報じられている"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sources": [
         {
-          "id": "5babe4c04883",
+          "id": "661c4f4b9a60",
           "name": "Yahoo!ニュース",
-          "title": "「遅かった…待っていたぞぉ！」SNSで話題沸騰！『NARUTO』完全新作アニメ情報がNYコミコンで世界初公開へ",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zTzJWVVFNNEUxV1VFMEZOTDlIeGUzZTYwNGdORERheVc3alh6UEhwLTRJczFiRjFVdnhrV3NVSnRVeGJhOW9wUlhtVVBnaTI1Q2hack9WUVZkTjZRbk1SVkJoT19HbUxiQVdkSEZoZmdOTWVoMzUyX2dCX3ZTOUk",
-          "publishedAt": "2026-09-29T09:18:16Z"
+          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン)",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1BZSTRkR21PZlMzYkRPRF85dzZJQzZNMVY4SFVWUnBrSndERWJBUnVJRWdJQ0pVdWJ4ajhndUwyTzkxVVVuZkdWRURsRG15b19WQUF2bGJjdko4NGVNVG9FZUc2RExKT3NOa1BWclAxSlpybGJwQVJhWl9PZ01uTHRCdXBUU3FmZFVqSjBR?oc=5",
+          "publishedAt": "2026-09-30T06:30:00Z"
+        },
+        {
+          "id": "c2802dcbf1fb",
+          "name": "佐賀新聞",
+          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01SXBoek40N3MxQ1gyNFBaRVJueFZudHRd05uVzZ6WnN2YTRBZlRoMmh5YWwtajlDN09BZFB2VnVrSFh3RW1KcTA5dnI2R3VOcFJDdndR?oc=5",
+          "publishedAt": "2026-09-30T06:30:00Z"
+        },
+        {
+          "id": "a60fc8da6d9f",
+          "name": "オリコンニュース",
+          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WZmZqY2lvZlloRWNONjR0aTNoR0tzZ2xONlpLRUpCSkVQQVhwUWN5RmFabktsMThfVEh0azJDajdGeC0tY3B6QmZmVF9WZU9kaTBzbzNHc21pekN3SmtYc3BuYUItSFRLYWc?oc=5",
+          "publishedAt": "2026-09-30T06:30:00Z"
         }
       ],
-      "caution": "「完全新作」の具体的な内容や公開時期は未確認です。"
+      "caution": "「160万表示」は報道された数値で、反響や販売状況を示すものとは限りません。"
     },
     {
-      "id": "internet-akita-bodakko",
+      "id": "internet-sengoku-construction-manga",
       "category": "internet",
-      "title": "秋田名物「ぼだっこ」がSNSで話題",
-      "whatHappened": "NHK「あさイチ」で紹介された秋田名物「ぼだっこ」がSNSで話題になったと報じられています。番組の見逃し配信も案内されています。",
-      "whyTrending": "テレビ番組で紹介された地域の食文化がSNSで注目されたためです。",
-      "context": "見出しからは「ぼだっこ」の詳しい内容やSNSでの反応数は確認できません。",
+      "title": "SNSで話題の漫画「戦国工務店」が書籍化へ",
+      "whatHappened": "工務店の職人が戦国時代にタイムスリップする漫画「戦国工務店」が書籍化されると報じられています。発売日は2026年11月11日とする告知があります。",
+      "whyTrending": "SNSで話題になった作品の書籍化発表として注目されています。",
+      "context": "作品の連載媒体や発行部数などの詳細は、入力見出しからは確認できません。",
       "points": [
-        "秋田名物「ぼだっこ」が話題",
-        "NHK「あさイチ」で紹介",
-        "見逃し配信中と案内"
+        "SNSで話題になった漫画",
+        "工務店の職人が戦国時代にタイムスリップする設定",
+        "2026年11月11日発売予定と告知"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "294e052a8112",
-          "name": "nhk.or.jp",
-          "title": "見逃し配信中！ごはん泥棒!?ＳＮＳで話題の秋田名物「ぼだっこ」【あさイチ】",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oRHhOYUlWWVdJdDl1UDdhVjVfa3F1XzBUWEdxc05MWmF4TkdwWXV0dXRjR1lGcGlmU2FLM3E4RTkzOWNfQTg1RXNRZzBNSGgzQzIwMnluYUpSZE5kSWE1MG5YeC0",
-          "publishedAt": "2026-09-29T12:11:58Z"
+          "id": "7656dc3d8453",
+          "name": "PR TIMES",
+          "title": "【麒麟・川島明さん絶賛！】SNSで話題沸騰のマンガ『戦国工務店』が待望の書籍化！ 2026年11月11日（水）発売決定",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JOWZCU0tsWEE0SlJwXzBmRkpfaHp4c2dPY0ZVV29maGIxVjJJbUI3bDVzX0dQaWluY0FjYkNweDg5MUdBNkViaGtQTkhRbHlJVmEwaE9TU3dnU1BoUmYzXzdRVEs2TXIxNEE?oc=5",
+          "publishedAt": "2026-09-30T03:00:02Z"
         }
       ],
-      "caution": "番組内容やSNS上の反響の規模は、入力見出しだけでは未確認です。"
+      "caution": "「話題沸騰」や著名人の評価は告知元・見出し上の表現であり、人気の規模は未確認です。"
     }
   ]
 }
