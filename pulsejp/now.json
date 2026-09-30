@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-09-29T20:47:05Z",
+  "generatedAt": "2026-09-30T00:27:54Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "a28ac4ed4424ec",
-      "category": "internet",
-      "title": "「2日連続で食べた」「毎日買ってる」ファミマの『話題の238円ケーキ』SNSで絶賛されている、“バズり商品”を3つご紹介！ - au Webポータル",
+      "id": "927a6354d12a75",
+      "category": "economy",
+      "title": "日本経済指標【鉱工業生産（速報値）】 - みんかぶ",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-29T03:39:00Z",
+      "latestPublishedAt": "2026-09-30T00:00:00Z",
       "sources": [
         {
-          "id": "8bc6ed1812d936",
-          "name": "au Webポータル",
-          "title": "「2日連続で食べた」「毎日買ってる」ファミマの『話題の238円ケーキ』SNSで絶賛されている、“バズり商品”を3つご紹介！ - au Webポータル",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBjd0ExMTAwczlwWGk0YndBX2toTmotNTM2VS1TUGZvdnlSdTVZd01feHVxd1lFV1dtcXpiVmtRaEhqVTEtdldPOGk4NV9PYzI3WXJXR0JpTlVvQ1ZSajdaT0Z1bWI3LXM0Q2xFY1FB?oc=5",
-          "publishedAt": "2026-09-29T03:39:00Z"
+          "id": "2a14e943a947e0",
+          "name": "みんかぶ",
+          "title": "日本経済指標【鉱工業生産（速報値）】 - みんかぶ",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGalJJQURsSGR6MnFWcnBqUTRSYlcxaDNBaFRzVUJKTjBVdW9ubTl3X3cweklyN3BEY05QbzEzTE5VN1I1WHhsYQ?oc=5",
+          "publishedAt": "2026-09-30T00:00:00Z"
         },
         {
-          "id": "5414de77317441",
-          "name": "Yahoo!ニュース",
-          "title": "「2日連続で食べた」「毎日買ってる」ファミマの『話題の238円ケーキ』SNSで絶賛されている、“バズり商品”を3つご紹介！ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE95dXFyTk5NRkVwaTFqVFdVMENSSW5PRUdKQVlXU0dJU19jbmdCU1dnZzNHU0ZjT0w1MFRKUEpjU2l1Uk1FWGNGVnZTVkxoa1l1aFo3LW9MNjRqN280LWhtdWtsZGVvaWJlS1NGTDU2eEZvNGI4Q3BkeEZDc1VNVlE?oc=5",
-          "publishedAt": "2026-09-29T03:35:01Z"
+          "id": "e06d39f6aee6a6",
+          "name": "みんかぶ FX/為替",
+          "title": "日本経済指標【鉱工業生産（速報値）】 - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5yb01Wdm5zQ2l5bVZpVzZVRTd6UXc4UTBYUjVSdzZ3ZEJrX09LQ3JFWVRWdk9uTEZXQTA5R3pDZmxuTmlEUG9QaQ?oc=5",
+          "publishedAt": "2026-09-29T23:50:57Z"
         }
       ]
     },
@@ -149,6 +149,109 @@
       ]
     },
     {
+      "id": "d6bde1d4051790",
+      "category": "internet",
+      "title": "日本一揺れる船の動画がSNSで話題に - x.com",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-30T00:00:05Z",
+      "sources": [
+        {
+          "id": "e9649cc2926631",
+          "name": "x.com",
+          "title": "日本一揺れる船の動画がSNSで話題に - x.com",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5UaXRKSXNQblRsUklzWWFsSnZNMGdDYU9uNnZLVHMtWFFBSGNGbVl3LWRxbjBHMENPcXBkLUFfUXlydW9CZFRkV0c1ZkZ2cDlsNmFSVEtQVQ?oc=5",
+          "publishedAt": "2026-09-30T00:00:05Z"
+        }
+      ]
+    },
+    {
+      "id": "7b8e595d411b80",
+      "category": "internet",
+      "title": "「毒ガエルみたいでド派手！」「意外とお買い得」などSNSで話題！ ヤマハの新世代スーパースポーツ「YZF-R9」の2027年モデルは“新色”が大反響 - ｄメニューニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-29T22:21:19Z",
+      "sources": [
+        {
+          "id": "65c4460eafe546",
+          "name": "ｄメニューニュース",
+          "title": "「毒ガエルみたいでド派手！」「意外とお買い得」などSNSで話題！ ヤマハの新世代スーパースポーツ「YZF-R9」の2027年モデルは“新色”が大反響 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbkJNNzVEWks5MG5ORjBPczZ2MEJBU3hsUTlfWmZ5VjhUTzRhYWFCanVuMks1aDgtWUFUS3VnY0E5aHhNMGRmZFhMMnVSRl95SE5iaFZTS2R5Wm5HalA0UWlrbEV5V2xFV2JOMWxERWZPX2dhRWZFOXdMWk9vMjU2Um5vdmxIeF9TQmNUOGZZVkE0VWl1NS0xS2RYbE5KVl8xVXM4ZUpxQllaek5xbFVRVzdObndwU3hxUTZ2NlNtcWpHQXY5aGpn0gF3QVVfeXFMTTBGTmc4VGl3U0ZaeUIxUms1dTlaQTdHbm1tRHo5MW9ablktYm93Tk04WHJYNlhCempIaEFOU3FXYzNIQUdSLVlETnZweVg2ODF0VVd0MzJReHcxN2RmSkhzTlZ1cXhXM29oVTlQYVJvbUtwZTR3UUU?oc=5",
+          "publishedAt": "2026-09-29T22:21:19Z"
+        }
+      ]
+    },
+    {
+      "id": "f7094f0141c890",
+      "category": "politics",
+      "title": "《発足から25年》小泉純一郎政権は日本をどう変えたのか？ 竹中平蔵氏が語るレガシーと課題「“ぶっ壊す政治”はワンマンとは違う。高市政権は残された未完の改革に着手すべし」 - NEWSポストセブン",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-29T22:00:00Z",
+      "sources": [
+        {
+          "id": "318314b25ee3fe",
+          "name": "NEWSポストセブン",
+          "title": "《発足から25年》小泉純一郎政権は日本をどう変えたのか？ 竹中平蔵氏が語るレガシーと課題「“ぶっ壊す政治”はワンマンとは違う。高市政権は残された未完の改革に着手すべし」 - NEWSポストセブン",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1TX2FHblVHRUhlVmx2c3JPQzVnTXJHNWZGSERRVF8zcnRzb3VWMlhSLUZSSjFCTlU2R0ItMVVFWFJOSS1MejR6RVJyZFJZMlVlaGdQaUMwLWk0LXpPMDBxQWJTcXZucEgtVTBORlBvNnRtOTlwd1lB?oc=5",
+          "publishedAt": "2026-09-29T22:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "b40536706584ac",
+      "category": "economy",
+      "title": "日本経済新聞 朝刊 - 日本経済新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-29T21:47:23Z",
+      "sources": [
+        {
+          "id": "f7bec7ae219cb9",
+          "name": "日本経済新聞",
+          "title": "日本経済新聞 朝刊 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUWtteDU1X09MbjBoX2J2dmQxNWloSGs2QWRCZjF5VDBBRGFsMGpOOFJBZi1vQUJ1M0xpZWtkekFWN0pmXzI5cm5kRWpYd2RXc05pNzA4TnhRXy1ZQ1ZGWWZWay1Od0lBQXc4NVdBbkxBYWt2aVJ0dWMwOFRyMWtsSXRqSGVUUi10Zk94V25NOHVUOHJFR3dsSEdPTklhT2s?oc=5",
+          "publishedAt": "2026-09-29T21:47:23Z"
+        },
+        {
+          "id": "e0f21d435ea55b",
+          "name": "日本経済新聞",
+          "title": "日本経済新聞 朝刊 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTZiR2VNdTc1RDBKS1FJNENBUzJpNDZ0VlJ1WnppZ1Q0RHI0cWtBam4zZ2RmcW1rY2ZyckI1a3lUVlFVbVVORGllb1ljZkdiTWhXeFhqRDhWbUlXSG1XU19KY0d4Z01QUDdCRVBTWWEtcE9ZZDlqM0J2RFhnNk05WFR6dWYyazZTQkpRMUpzWTJmYXcxZnFXQ0FfSU9jVXc?oc=5",
+          "publishedAt": "2026-09-29T21:15:20Z"
+        }
+      ]
+    },
+    {
+      "id": "d8648e8a1cfec6",
+      "category": "economy",
+      "title": "「財政赤字＝悪」と決めつける議論がいかがわしい“明確な理由”とは？ - ダイヤモンド・オンライン",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-29T21:35:00Z",
+      "sources": [
+        {
+          "id": "12ddc025cf5a58",
+          "name": "ダイヤモンド・オンライン",
+          "title": "「財政赤字＝悪」と決めつける議論がいかがわしい“明確な理由”とは？ - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE81TGxoZmVHajNXUXhqS1FnMV8tSGswR2taRUNxeUVwUHBkbDdvM2dScWxOSjAwUnZPZDVhV0MyMjBjUlpKRGs5M3BuY3PSAU9BVV95cUxOcTVSNDlNS2Z4LWtkWVMtT0R5cS1BZm1RMndBNGJsUzRuZmI3Ui1TWVA4OWY2Z2swcHdZSUduTmNFNEptUER0dTBBLWc5TGRV?oc=5",
+          "publishedAt": "2026-09-29T21:35:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7dd74b88d9e2d0",
+      "category": "politics",
+      "title": "記者コラム「清流」 「日本一」のスローガン 政治部・森田憲吾 - 静岡新聞DIGITAL",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-29T21:00:00Z",
+      "sources": [
+        {
+          "id": "f5d903e74f11a4",
+          "name": "静岡新聞DIGITAL",
+          "title": "記者コラム「清流」 「日本一」のスローガン 政治部・森田憲吾 - 静岡新聞DIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZcjVKVXJQc0NFOXpVeno0c1lTT3RqM0stZGg5ZmIxcDhnRnVmeVVxQ0N6Z0VWX1R5RUFPNGV5eFJOdEl4MFl6dkFMbk9NQQ?oc=5",
+          "publishedAt": "2026-09-29T21:00:00Z"
+        }
+      ]
+    },
+    {
       "id": "7b30f7b66b1c01",
       "category": "economy",
       "title": "ドラッカーと土光敏夫が1976年の対談で言い当てていた「日本の適切な経済成長」のシナリオ - ダイヤモンド・オンライン",
@@ -181,38 +284,6 @@
       ]
     },
     {
-      "id": "619f0a35b1f17e",
-      "category": "politics",
-      "title": "日本の為政者は四つの政治文書の原点に戻るべき　中国外交部 - ｄメニューニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T10:15:00Z",
-      "sources": [
-        {
-          "id": "5460f5d7998314",
-          "name": "ｄメニューニュース",
-          "title": "日本の為政者は四つの政治文書の原点に戻るべき　中国外交部 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNS0NQRElxbnFhbVp5bGZhVnd3aHpoTlhUbnNMcGVkZnNZbGhHaDJpaFNIYlROZU02ZjBybHJSS0E3NGR6YkN5dGpJOE1aWG9tOEJMSUZtR01UZEU5dDBodXQ2enRZSnQyLUZzRFF3X0JLWmg4bFZPa1JKY2ZFRWlkbG9nV1RjYURPNDVJdE53YkpISWdoQldjS1lnUjRvakV4c29USW1KUnYwcTlwM25TcWxSSERQZUMtREJ4RXNTckN4Q1piZUdDaTlBVEcyME9jUmdMUUtpczFKOVg0X3hmVNIBkAFBVV95cUxNMU8wZDFYeVg2V2M3dGQ3WmFFcVdSWjR4NEZ2UFpCTG1sbWtkdEMzTHhEalRTSGpHMHNNVm0xRDAzbWVhUXNCRHNVWlVNd1o3NGQ4YmNHQkFOVTBlc3ZlRnE0SXBjNUFuTXFwYkI3dVNoaWQzeTJGMTluTGQwNGktQ08xZjVoZGxtYU1ra085Yl8?oc=5",
-          "publishedAt": "2026-09-29T10:15:00Z"
-        }
-      ]
-    },
-    {
-      "id": "fb1cc64a953972",
-      "category": "economy",
-      "title": "経団連、11月に中国視察団 小規模交流で経済関係の維持図る - 日本経済新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T09:33:05Z",
-      "sources": [
-        {
-          "id": "a8e1720284a9a5",
-          "name": "日本経済新聞",
-          "title": "経団連、11月に中国視察団 小規模交流で経済関係の維持図る - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYQTdyd0MzeHpHYXZ3NFhvN0dZS0lFaU55VllSdUViRXdiVEh0YWZlWG8xWHJnb0NqVVlQRm93UHN0UXk2QV9UUUlNeHI0bU52VktPeFplX2p2M0FOanZBc1c1MUtMcm15WXEwRw?oc=5",
-          "publishedAt": "2026-09-29T09:33:05Z"
-        }
-      ]
-    },
-    {
       "id": "504e3d8fad0203",
       "category": "internet",
       "title": "「遅かった…待っていたぞぉ！」SNSで話題沸騰！『NARUTO』完全新作アニメ情報がNYコミコンで世界初公開へ - Yahoo!ニュース",
@@ -225,29 +296,6 @@
           "title": "「遅かった…待っていたぞぉ！」SNSで話題沸騰！『NARUTO』完全新作アニメ情報がNYコミコンで世界初公開へ - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zTzJWVVFNNEUxV1VFMEZOTDlIeGUzZTYwNGdORERheVc3alh6UEhwLTRJczFiRjFVdnhrV3NVSnRVeGJhOW9wUlhtVVBnaTI1Q2hack9WUVZkTjZRbk1SVkJoT19HbUxiQVdkSEZoZmdOTWVoMzUyX2dCX3ZTOUk?oc=5",
           "publishedAt": "2026-09-29T09:18:16Z"
-        }
-      ]
-    },
-    {
-      "id": "d23aabd0852163",
-      "category": "economy",
-      "title": "円相場、157円37～38銭＝29日午後5時現在(時事通信) - Yahoo!ファイナンス",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T09:00:27Z",
-      "sources": [
-        {
-          "id": "21b7bd65b12401",
-          "name": "Yahoo!ファイナンス",
-          "title": "円相場、157円37～38銭＝29日午後5時現在(時事通信) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ1FsY1hZdW1hYzdsVkp1YWdER25teWtremdpbXZrcXJUYmxqYV8zSlFrM1dGVmUtSVJ6Y3lNZ2RYVmJ1Z3p5ak1wNkVjTUJJSW51blM0U0FzdTliUGktTE5BVWNoeEc5d0dzaWRQbTJtRnQybHBHNnp1WmtPaE9rbFdhZ2l3dWM?oc=5",
-          "publishedAt": "2026-09-29T09:00:27Z"
-        },
-        {
-          "id": "819e4508214e87",
-          "name": "Yahoo!ファイナンス",
-          "title": "円相場、157円35～35銭＝29日正午現在(時事通信) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNENnZVV4RXhtdWQzUEw4MXR1Wkk4OGotdnJyRzlYV3RxWmlEVnpGTEhLODh0ZnFuYjdtNUpOWXdoMFN1Qnl3ZVFZMGRtSHZfcUZVM05PRHduTHdDZnM5UFUyUGMtX3BBTi13MHFzbzNGVzNVSERFYm1MeG4tbTJGaGk4V2h5Qms?oc=5",
-          "publishedAt": "2026-09-29T04:00:22Z"
         }
       ]
     },
@@ -316,38 +364,6 @@
       ]
     },
     {
-      "id": "a8bc6e4f1cc8aa",
-      "category": "internet",
-      "title": "キャラクターコラボとして大正解…VWのミニバン『ID. Buzz』、ドラえもんコラボがSNSで話題に - CAR CARE PLUS",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T05:00:03Z",
-      "sources": [
-        {
-          "id": "b693b04fc2d058",
-          "name": "CAR CARE PLUS",
-          "title": "キャラクターコラボとして大正解…VWのミニバン『ID. Buzz』、ドラえもんコラボがSNSで話題に - CAR CARE PLUS",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5XRDRGeVNBZDJvUmNTY09JeFJNUDFBeGl2eEFOcUE5dGFFeENOTVotWnNCNVpod1M5dFdMODR2OG5XTF9USHNrcm1wOThtb3l2VkM5QUFIbkxSWUVJWjhrb2N3?oc=5",
-          "publishedAt": "2026-09-29T05:00:03Z"
-        }
-      ]
-    },
-    {
-      "id": "74c53b41415bbd",
-      "category": "politics",
-      "title": "日本の政治において、野党に最も期待する役割は何ですか？ - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T23:47:27Z",
-      "sources": [
-        {
-          "id": "419217023da137",
-          "name": "Yahoo!ニュース",
-          "title": "日本の政治において、野党に最も期待する役割は何ですか？ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBpdDEtN0RISFJiYzNVV19Sdy1Bd3JwZ3hHeU44RFJnNW9VZkItZHN2WWpvMmdwTFRwQUpSVlZfNUZCUGdWY0JCSmZDOE8?oc=5",
-          "publishedAt": "2026-09-28T23:47:27Z"
-        }
-      ]
-    },
-    {
       "id": "5fdf30559bfd4f",
       "category": "politics",
       "title": "男女平等１１７位 日本は政治の格差が重い - 山陽新聞",
@@ -396,50 +412,34 @@
       ]
     },
     {
-      "id": "42471b9bff7137",
-      "category": "entertainment",
-      "title": "SMILE-UP.東山紀之社長「なぜ今」退任？　芸能界復帰は「何も考えていない」 - zakⅡ",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T08:16:23Z",
-      "sources": [
-        {
-          "id": "7bdf712bad8e6b",
-          "name": "zakⅡ",
-          "title": "SMILE-UP.東山紀之社長「なぜ今」退任？　芸能界復帰は「何も考えていない」 - zakⅡ",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1NN0MzUWIya281MHhidTg1M3BaVDc3UC00ZVJXM3duOUt5SUF2M1RGdnhzZC1MTlM3LW9wZDZmQy1SQ053eWlSMHlLR0NvenNGR2RqTF9nSFp1eEQyeUY5b2FXSER0Um44UFBKdXFqLTBoNjNMTkEyNtIBjAFBVV95cUxQeFlrbTh1Z21WN09zdGJsSUVaXzk4QU1uWHJkWllETU5QQ2paOVV3VmhZUWRCWjBScU9pOTNSUEljOFlqT0R0b3E1c3Q5RGxsX2dURzNrZEdJRjJHa1VzWDJaY2NyVmU4UXZlbFFjQkZHM0haaXU4VDJSanNDR1BaaHBRZlhKb0xJS3pWWA?oc=5",
-          "publishedAt": "2026-09-28T08:16:23Z"
-        }
-      ]
-    },
-    {
-      "id": "ee6d358e34065e",
+      "id": "596afa0b55ca93",
       "category": "internet",
-      "title": "「文鳥界隈」から圧倒的共感！ SNSで話題のコミックエッセイ『うちの文鳥はカワイイの2乗』9/28発売 「わかる！」の嵐を呼んだ4コマ漫画が、加筆修正＆描き下ろしを加えて待望の書籍化 - アットプレス",
+      "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - USENの音楽情報サイト",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T01:20:00Z",
+      "latestPublishedAt": "2026-09-28T04:40:07Z",
       "sources": [
         {
-          "id": "0bbeef8d31e519",
-          "name": "アットプレス",
-          "title": "「文鳥界隈」から圧倒的共感！ SNSで話題のコミックエッセイ『うちの文鳥はカワイイの2乗』9/28発売 「わかる！」の嵐を呼んだ4コマ漫画が、加筆修正＆描き下ろしを加えて待望の書籍化 - アットプレス",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1WZnJEZEdBZFU0QVY5aTd3enB2dFZzeGRhdkFzQ3puV01XbFE5d2t1Y3hhOTE5amdCQkg2UzhmRTQ0eEZzNVpLVWxlRXhaMFk?oc=5",
-          "publishedAt": "2026-09-28T01:20:00Z"
+          "id": "994fa16f304a4a",
+          "name": "USENの音楽情報サイト",
+          "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - USENの音楽情報サイト",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbUtkdzRyUEI1NzdSTnYxN3RBb0ZnSVF4YS1DQTF0WEVKVjFsR2VTVEJWeTlsZFF2UHpGbVhkMU9SX1V0VFVYTEplWHN3NVRUVThJYlZ2R1ZlQ1g2RmotZDM4a0dNVV92NUow?oc=5",
+          "publishedAt": "2026-09-28T04:40:07Z"
         }
       ]
     },
     {
-      "id": "9ffde763b25704",
-      "category": "politics",
-      "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
+      "id": "2ed11d9728ee0b",
+      "category": "entertainment",
+      "title": "倉本聰さん死去 芸能界から悼む声 - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-27T10:00:00Z",
+      "latestPublishedAt": "2026-09-28T03:07:03Z",
       "sources": [
         {
-          "id": "f812b373f2749f",
-          "name": "朝日新聞",
-          "title": "【社説】日本の男女格差は依然深刻 政治・経済で実効性のある方策を - 朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oeFJCdE02OXd2c1IzM2I5dWlwTmh1b1pjUUpScHVIUjhwLWt3S1kwVmhHV09BaFAzSGd2V1VteDZTY2VEMkdOZl9wa0NJN3E4UFZPbl9WVl9TVE1GN0w5RENQdTJwbk0?oc=5",
-          "publishedAt": "2026-09-27T10:00:00Z"
+          "id": "c5dd6b1b71d8a1",
+          "name": "Yahoo!ニュース",
+          "title": "倉本聰さん死去 芸能界から悼む声 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15SUZfdHIwZkVWUEFHckpWV2E0ZkF1cVluVmVVMVVldFJua2JoUXdYTmkweVJfZTFXNjZGQk00UEtjSEhvckhPR2Z3YU9wWlZ2?oc=5",
+          "publishedAt": "2026-09-28T03:07:03Z"
         }
       ]
     }
