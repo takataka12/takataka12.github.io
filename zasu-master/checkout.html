@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="ja">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Checkout｜ZASU AUDIO</title><link rel="stylesheet" href="assets/style.css?v=20260930-0600"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Checkout｜ZASU AUDIO</title><link rel="stylesheet" href="assets/style.css?v=20260930-0600"><link rel="stylesheet" href="assets/supporter.css?v=20260930-1"></head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a><nav><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="convert/">CONVERT</a><a href="pricing.html">PRICING</a></nav></div></header>
-<main><section class="pricing-hero"><div class="wrap"><div class="kicker">SECURE CHECKOUT / SQUARE</div><h1>ONE TRACK.<br>ONE PAYMENT.</h1><p>30秒プレビュー確認後のZASU AUDIO共通チェックアウト。</p></div></section>
+<main><section class="pricing-hero"><div class="wrap"><div class="kicker">SECURE CHECKOUT / SQUARE + SUPPORTER TICKET</div><h1>ONE TRACK.<br>ONE PAYMENT.</h1><p>30秒プレビュー確認後のZASU AUDIO共通チェックアウト。</p></div></section>
 <section><div class="wrap"><div class="checkout-shell">
   <div class="checkout-card">
     <div class="mode">SELECTED PLAN</div>
@@ -13,12 +13,23 @@
     <label class="legal-confirm"><input id="legalConfirm" type="checkbox"><span><a href="tokushoho.html" target="_blank" rel="noopener">特定商取引法に基づく表記</a>、<a href="refund.html" target="_blank" rel="noopener">返金・キャンセルポリシー</a>、<a href="terms.html" target="_blank" rel="noopener">利用規約</a>を確認しました。</span></label>
     <button id="checkoutButton" class="btn" type="button">CONTINUE</button>
     <div id="checkoutStatus" class="mini"></div>
+
+    <div class="checkout-supporter">
+      <div class="checkout-supporter-label">CAMPFIRE SUPPORTER / USE TICKET</div>
+      <div class="checkout-supporter-row">
+        <input id="checkoutSupporterCode" type="password" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ZSW-XXXX-XXXX-XXXX-XXXX">
+        <button id="checkoutSupporterButton" class="btn secondary" type="button">USE TICKET</button>
+      </div>
+      <small id="checkoutSupporterHint">MIX / MASTERは1枚、MIX + MASTERは2枚を使用します。先に30秒プレビューを作成してください。</small>
+      <div id="checkoutSupporterStatus" class="mini"></div>
+    </div>
   </div>
   <div class="checkout-card">
     <div class="mode">PAYMENT RULES</div>
-    <ul class="clean"><li>決済前に30秒プレビュー</li><li>Squareオンライン決済</li><li>1曲単位・自動更新なし</li><li>処理失敗ではクレジットを消費しない</li><li>FULLはMIX + MASTERの2工程</li></ul>
+    <ul class="clean"><li>決済前に30秒プレビュー</li><li>Squareオンライン決済</li><li>支援者はZASU AUDIOチケットを利用可能</li><li>1曲単位・自動更新なし</li><li>処理失敗ではクレジットを消費しない設計</li><li>FULLはMIX + MASTERの2工程</li></ul>
+    <p class="mini"><a href="supporter.html">SUPPORTER PORTALで残高を確認 →</a></p>
   </div>
 </div></div></section></main>
-<footer><div class="wrap"><div class="footer-links"><a href="index.html">ZASU AUDIO</a><a href="pricing.html">PRICING</a><a href="tokushoho.html">特商法</a><a href="refund.html">返金ポリシー</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a><a href="contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
-<script src="assets/config.js?v=20260930-0432"></script><script src="assets/checkout.js?v=20260930-0600"></script>
+<footer><div class="wrap"><div class="footer-links"><a href="index.html">ZASU AUDIO</a><a href="pricing.html">PRICING</a><a href="supporter.html">SUPPORTER PORTAL</a><a href="tokushoho.html">特商法</a><a href="refund.html">返金ポリシー</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a><a href="contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<script src="assets/config.js?v=20260930-supporter1"></script><script src="assets/checkout.js?v=20260930-supporter1"></script>
 </body></html>
