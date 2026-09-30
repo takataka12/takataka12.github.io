@@ -1,74 +1,74 @@
 {
-  "generatedAt": "2026-09-30T00:27:54Z",
+  "generatedAt": "2026-09-30T06:43:14Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "927a6354d12a75",
-      "category": "economy",
-      "title": "日本経済指標【鉱工業生産（速報値）】 - みんかぶ",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-30T00:00:00Z",
-      "sources": [
-        {
-          "id": "2a14e943a947e0",
-          "name": "みんかぶ",
-          "title": "日本経済指標【鉱工業生産（速報値）】 - みんかぶ",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGalJJQURsSGR6MnFWcnBqUTRSYlcxaDNBaFRzVUJKTjBVdW9ubTl3X3cweklyN3BEY05QbzEzTE5VN1I1WHhsYQ?oc=5",
-          "publishedAt": "2026-09-30T00:00:00Z"
-        },
-        {
-          "id": "e06d39f6aee6a6",
-          "name": "みんかぶ FX/為替",
-          "title": "日本経済指標【鉱工業生産（速報値）】 - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5yb01Wdm5zQ2l5bVZpVzZVRTd6UXc4UTBYUjVSdzZ3ZEJrX09LQ3JFWVRWdk9uTEZXQTA5R3pDZmxuTmlEUG9QaQ?oc=5",
-          "publishedAt": "2026-09-29T23:50:57Z"
-        }
-      ]
-    },
-    {
-      "id": "00e6c11e0a7c03",
+      "id": "544ec777eb27de",
       "category": "politics",
-      "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
+      "title": "米国民がポピュリズム政策支持、既成政治勢力に拒否感 - WSJ",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-28T02:33:04Z",
+      "latestPublishedAt": "2026-09-30T05:01:00Z",
       "sources": [
         {
-          "id": "12864ae3d99d03",
-          "name": "TBS NEWS DIG",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 フォトギャラリー | TBS CROSS DIG with Bloomberg - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1OYTVMMF91b29Wb29FOVV1NVV3a3pMS3V0eUdESWdhU0VoeW81ZjZybWFYNTd1VndaYWJuTHVzclZQRUtpMjIzOVJ4VVB3VWtvbUxBUzNkU2ppbmZRQy1Qay1CN3lBblU0UkxPaGllcVFMMUVRZm53RUxXaVo?oc=5",
-          "publishedAt": "2026-09-28T02:33:04Z"
+          "id": "da038763019b2b",
+          "name": "WSJ",
+          "title": "米国民がポピュリズム政策支持、既成政治勢力に拒否感 - WSJ",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQb0tnMGNjU0Zzd3FZbkpuNkpvYWhlMDJXM1Q1SnpUR1BFbmJGaWtacEprWE02VVVWeG1uTzNfMmlmWG5WSkRuUmdyS2pvamIwZGZScGM4cGp5SW1GcWN2cThSYUJxeFBrdG1QSXpsUHlWY1Q2aVV4c21XZXFOcVBLUXlBZVV0WDJkbThwQmFON2FJMEdiZXo5eDRQVFFrZHp2amt3d2d0dVY1dWtXd0tvRDFLQ0U?oc=5",
+          "publishedAt": "2026-09-30T05:01:00Z"
         },
         {
-          "id": "67eefba4c35212",
-          "name": "Yahoo!ニュース",
-          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk?oc=5",
-          "publishedAt": "2026-09-28T01:32:14Z"
+          "id": "ec4b6120d25c5e",
+          "name": "ダイヤモンド・オンライン",
+          "title": "米国民がポピュリズム政策支持、既成政治勢力に拒否感 | The Wall Street Journal発 - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ibGJyMnc1N1ZwOFVBNkJVOENZZ18zMU5Ldm4wOXRqLUtkaW1iNDZMcnhKOWYzN3Zla0tVdWFETkZWeFFfLTA0MWtMZmc?oc=5",
+          "publishedAt": "2026-09-30T05:01:00Z"
         }
       ]
     },
     {
-      "id": "4b0c2c1de6087d",
-      "category": "internet",
-      "title": "『報ステ』映り込み話題のアイドル、ミニスカコーデにネット釘づけ「ヤバい」「スタイル抜群美女」 - ENCOUNT",
+      "id": "4598df64d6857d",
+      "category": "entertainment",
+      "title": "14歳で芸能界へ、40代で恋愛ドラマ急増…中村ゆりさん（享年44）が話題作に欠かせない俳優だった理由《最後の作品では…》 - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-26T22:24:54Z",
+      "latestPublishedAt": "2026-09-30T01:12:17Z",
       "sources": [
         {
-          "id": "d8e6e0b574ee9a",
-          "name": "ENCOUNT",
-          "title": "『報ステ』映り込み話題のアイドル、ミニスカコーデにネット釘づけ「ヤバい」「スタイル抜群美女」 - ENCOUNT",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3cU9ObS1qWWREc2kxeTd5M0NKNFRHNVY4dVhGckZyeHB2TUw2R1BqZkh3WlZTaU51UmhrY1l1SXFNR2J6MGdHWmVJUVNrTU10SmhB?oc=5",
-          "publishedAt": "2026-09-26T22:24:54Z"
+          "id": "cb8227fab1fcce",
+          "name": "Yahoo!ニュース",
+          "title": "14歳で芸能界へ、40代で恋愛ドラマ急増…中村ゆりさん（享年44）が話題作に欠かせない俳優だった理由《最後の作品では…》 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdk9CNVJEdFh5eUF6TFM0NEo0T1duTGItNmZpUEpRNjZlQmpRMzFNbWx2SVVVMkNWa090dGxiQ1Q2STAzTjN0bmNJbkVCQkxOc3EwMWpEVW9yQnZvQjh1X3pjMTg1bkw1T3U2ODlab29Wdk5PVWRqaWE0azhDNTRtU2VmYUVrOEIz?oc=5",
+          "publishedAt": "2026-09-30T01:12:17Z"
         },
         {
-          "id": "9e86d35ced6bea",
-          "name": "ｄメニューニュース",
-          "title": "『報ステ』映り込み話題のアイドル、ミニスカコーデにネット釘づけ「ヤバい」「スタイル抜群美女」 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNaWNVVTdUOHNPU1RvdUlfb1dublRJMGJGYVRxSDdVcXBFTEJPNVowb3NyUUdlX2pEYTdGV1hINXJhQVF5Q2x6Nk92RkxvSGZJQ0hGZE9Rd2IyYVRQdEY1ZjlYUmM5bXNXQVdBVGNmNjgtc29Rd2J3Z1AyZ1c5b055dmdvQdIBiAFBVV95cUxQWWk1czVKWEVlMU1IQ0ZWOWxoWEdGaXlwMy1yOU1xTWh4clkxOWdHcTFKVUNKYk12dy1kRVZwRmg1cWdVRWdrQjRTYW5LR3RHZWFJa2tzWE1SQzBBQnVxRWdlMFBvRElqdVJRUjQzUnZEcllNNWVRT0ttd2pzdWJFX2ZoM3FsVEJF?oc=5",
-          "publishedAt": "2026-09-26T22:10:00Z"
+          "id": "a2ab283613a174",
+          "name": "文春オンライン",
+          "title": "14歳で芸能界へ、40代で恋愛ドラマ急増…中村ゆりさん（享年44）が話題作に欠かせない俳優だった理由《最後の作品では…》 - 文春オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1rX3BLS1YwbFAxcENoeVRscGFJLUFLTGt6LW5fNXh5TTNpbXBnWkNlZ3I0eVhiZ0NKMUpWanhpMHhvV0lfeFhUNk56Yw?oc=5",
+          "publishedAt": "2026-09-30T01:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "596afa0b55ca93",
+      "category": "internet",
+      "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - USENの音楽情報サイト",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-28T04:40:07Z",
+      "sources": [
+        {
+          "id": "994fa16f304a4a",
+          "name": "USENの音楽情報サイト",
+          "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - USENの音楽情報サイト",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbUtkdzRyUEI1NzdSTnYxN3RBb0ZnSVF4YS1DQTF0WEVKVjFsR2VTVEJWeTlsZFF2UHpGbVhkMU9SX1V0VFVYTEplWHN3NVRUVThJYlZ2R1ZlQ1g2RmotZDM4a0dNVV92NUow?oc=5",
+          "publishedAt": "2026-09-28T04:40:07Z"
+        },
+        {
+          "id": "d0e730d818452b",
+          "name": "skream.jp",
+          "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング - skream.jp",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWUNORmJnVEhROEwzS29xQktqd1FPRmtIV3lZTVA4TXV0Q0VSSlFnaWlrVmpKRHgtbUNuX1MwQjJtMXFfYjF2VzN5dWhzcUhpemxEWmNnN3J1VVUtVng5YkxOcw?oc=5",
+          "publishedAt": "2026-09-25T12:00:00Z"
         }
       ]
     },
@@ -126,18 +126,18 @@
       ]
     },
     {
-      "id": "c46da6175717c8",
+      "id": "33b8e5d8fea5eb",
       "category": "entertainment",
       "title": "話題作が目白押しな2026年秋、映画館で観たい3選！ (フィガロジャポン) - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-26T00:30:40Z",
+      "latestPublishedAt": "2026-09-26T05:26:31Z",
       "sources": [
         {
-          "id": "a8152556cdf008",
+          "id": "3d659eade347f5",
           "name": "Yahoo!ニュース",
           "title": "話題作が目白押しな2026年秋、映画館で観たい3選！ (フィガロジャポン) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcC1zQ0k5RjU5S2VsemZPZDJtSXNySUQyUFpBaEd0Mlg1a1FqU0ZXcFNjdUJTekdtMUpFdV9FVjdYM19JV295dUpzeW8yY1NIQW05VFBYTGNUMGJlclZqMmFiRHdHNHlGSXJ6VGxxcElKeTZ2cmJGV3VaWG92M2tXVWtIelRlV2poX0ZUMkRR?oc=5",
-          "publishedAt": "2026-09-26T00:30:40Z"
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbjlmUEpxd1dQRTBpR2dtM0E1cXlmSkJZZXJPWUhRaWRENlBTT1VobDNmMEJ6dURmOWR4V1d4QTJVWExkZnB5OElFbm5zMldZZlZfdjEtZGE1ZXlhMVB2czRERFMyZVlLZkRkTkZHVmtrSmpHY0QyYXc4Q3hOMFFfSlhWenhvbXo1QmZDeURR?oc=5",
+          "publishedAt": "2026-09-26T05:26:31Z"
         },
         {
           "id": "4a93bb08356625",
@@ -149,34 +149,167 @@
       ]
     },
     {
-      "id": "d6bde1d4051790",
+      "id": "9df417f5eed79f",
       "category": "internet",
-      "title": "日本一揺れる船の動画がSNSで話題に - x.com",
+      "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示（オリコン） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T00:00:05Z",
+      "latestPublishedAt": "2026-09-30T06:30:00Z",
       "sources": [
         {
-          "id": "e9649cc2926631",
-          "name": "x.com",
-          "title": "日本一揺れる船の動画がSNSで話題に - x.com",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5UaXRKSXNQblRsUklzWWFsSnZNMGdDYU9uNnZLVHMtWFFBSGNGbVl3LWRxbjBHMENPcXBkLUFfUXlydW9CZFRkV0c1ZkZ2cDlsNmFSVEtQVQ?oc=5",
-          "publishedAt": "2026-09-30T00:00:05Z"
+          "id": "e0390cbadfda98",
+          "name": "Yahoo!ニュース",
+          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示（オリコン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQME0tVTJRM0pMcUlsLUswX2dfdzlCSlRsUzdsYmpQMnNOd1NmNTJ1QUswbElCWERQeTdLdTIyanNhWllQekZXWDJUVThoRmx1UHlJaGFpemhpRGRWenBJYkNaREZrUHZWMXVkaVhRTFN3cUVvejI0Ykt6a0FOb1E?oc=5",
+          "publishedAt": "2026-09-30T06:30:00Z"
         }
       ]
     },
     {
-      "id": "7b8e595d411b80",
+      "id": "f32d5019032285",
       "category": "internet",
-      "title": "「毒ガエルみたいでド派手！」「意外とお買い得」などSNSで話題！ ヤマハの新世代スーパースポーツ「YZF-R9」の2027年モデルは“新色”が大反響 - ｄメニューニュース",
+      "title": "【麒麟・川島明さん絶賛！】SNSで話題沸騰のマンガ『戦国工務店』が待望の書籍化！ 2026年11月11日（水）発売決定 - 時事ドットコム",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T22:21:19Z",
+      "latestPublishedAt": "2026-09-30T06:16:00Z",
       "sources": [
         {
-          "id": "65c4460eafe546",
-          "name": "ｄメニューニュース",
-          "title": "「毒ガエルみたいでド派手！」「意外とお買い得」などSNSで話題！ ヤマハの新世代スーパースポーツ「YZF-R9」の2027年モデルは“新色”が大反響 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbkJNNzVEWks5MG5ORjBPczZ2MEJBU3hsUTlfWmZ5VjhUTzRhYWFCanVuMks1aDgtWUFUS3VnY0E5aHhNMGRmZFhMMnVSRl95SE5iaFZTS2R5Wm5HalA0UWlrbEV5V2xFV2JOMWxERWZPX2dhRWZFOXdMWk9vMjU2Um5vdmxIeF9TQmNUOGZZVkE0VWl1NS0xS2RYbE5KVl8xVXM4ZUpxQllaek5xbFVRVzdObndwU3hxUTZ2NlNtcWpHQXY5aGpn0gF3QVVfeXFMTTBGTmc4VGl3U0ZaeUIxUms1dTlaQTdHbm1tRHo5MW9ablktYm93Tk04WHJYNlhCempIaEFOU3FXYzNIQUdSLVlETnZweVg2ODF0VVd0MzJReHcxN2RmSkhzTlZ1cXhXM29oVTlQYVJvbUtwZTR3UUU?oc=5",
-          "publishedAt": "2026-09-29T22:21:19Z"
+          "id": "39b274f0e2a63e",
+          "name": "時事ドットコム",
+          "title": "【麒麟・川島明さん絶賛！】SNSで話題沸騰のマンガ『戦国工務店』が待望の書籍化！ 2026年11月11日（水）発売決定 - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9aOVZZbUpWMm5tY2cwMTdRbTJEUDh4ZzZPOS1pT2phZE1uMGtaUlpuaTNKQ0ZrZVlPUFRoU2F5MlQwUVdycWlGMjhOMkkzZ2t0bE0zUVZndXh0eU1GZ09SRmtzTEswT25fWWRn?oc=5",
+          "publishedAt": "2026-09-30T06:16:00Z"
+        }
+      ]
+    },
+    {
+      "id": "bf40e2a9126f05",
+      "category": "economy",
+      "title": "日本経済新聞社：半期報告書－第155期(2026/01/01－2026/12/31) (有価証券報告書) ：日経会社情報DIGITAL - nikkei.com",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-30T03:51:04Z",
+      "sources": [
+        {
+          "id": "03d5e3d44dc0fc",
+          "name": "nikkei.com",
+          "title": "日本経済新聞社：半期報告書－第155期(2026/01/01－2026/12/31) (有価証券報告書) ：日経会社情報DIGITAL - nikkei.com",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JNklBcWkwMUhYdDdHaFZpOWlkSFpraHBxNGthOXJwS2VZNHJ2bTNHUXppcS0xTzg3YnVja0VMNGxMaFAtU3hHR0dHcC01Q2owaHVZVXdqaFV5ZVEyQlEzaXdoajB1dElld3F4Rw?oc=5",
+          "publishedAt": "2026-09-30T03:51:04Z"
+        }
+      ]
+    },
+    {
+      "id": "09baedc1a1081a",
+      "category": "politics",
+      "title": "議会の意思決定の質と政府の政策実施の質を向上させるための取り組みを調整する。 - Vietnam.vn",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-30T03:42:42Z",
+      "sources": [
+        {
+          "id": "aeb1c885287d3c",
+          "name": "Vietnam.vn",
+          "title": "議会の意思決定の質と政府の政策実施の質を向上させるための取り組みを調整する。 - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTm92aE9RU0NPallMdmFJcjZPWEtnWHB3bmZPRVVtaXdPeUxCRkNCa1VGZS15Y2tjbVRtTEtRamFLTVhRUWdSRm9iWjJHSzBWOThKbldpYmx4Ync5VFMwVl9KZE1qWUN1R081amtPU3BhTFU1bk1LZXhDeVdVQm9PNTZVal80bkpxQnotVFlzcmFWbTUwSjNmOW1aVFgtNlVTV2lucVpuT1FYYmIyZ2xCQ1otaEY5Q3E0WFE?oc=5",
+          "publishedAt": "2026-09-30T03:42:42Z"
+        },
+        {
+          "id": "fcb079b0d4af47",
+          "name": "Vietnam.vn",
+          "title": "議会の意思決定と政府の政策実施の質を向上させる。 - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPb3BoN3dmQS0ya1JyZ1ZjRjM4T2NnM1NKNzZzdVN2OWVwWWtkMTVmZk1oT005ZEpFS0xnSjZYbEdmVUl3Um1yb0VqOTBfUDg4NWdHX21tRHNZdWVyWTZXWHhfQUhkaHlvWmg1QjhzNFRhQmI0X1pHZHJWUDgtLU9Nb0hkRFlpc2g2MEd5M01SR1JpWVk2?oc=5",
+          "publishedAt": "2026-09-29T23:56:41Z"
+        }
+      ]
+    },
+    {
+      "id": "4c2104e973a121",
+      "category": "economy",
+      "title": "日経平均後場寄り付き：前日比898.66円高の66379.93円｜FX・為替ニュース - ザイFX！",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-30T03:33:00Z",
+      "sources": [
+        {
+          "id": "f31bca37c9e283",
+          "name": "ザイFX！",
+          "title": "日経平均後場寄り付き：前日比898.66円高の66379.93円｜FX・為替ニュース - ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9taUVWVXluQlZsLUllVG93UlVBUW9CWWc2STR0bG5iMVdXWWJyQl9zNlR3aGF0RnUtUzJlZVBwYnZfbm50ZExtR1YzTElYaGN3Z2c?oc=5",
+          "publishedAt": "2026-09-30T03:33:00Z"
+        },
+        {
+          "id": "d290ac532af8de",
+          "name": "ザイFX！",
+          "title": "日経平均前場引け：前日比837.54円高の66318.81円｜FX・為替ニュース - ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rbllfd3VkMEg4ckd3U2hPV0t4bEszX1IwQXRDeFJvSjQzVVZSR28wbFRndWQ1SVlGYTRYMlk2cHh1blhkdTdMS2Y1Mlp2dUlWUEE?oc=5",
+          "publishedAt": "2026-09-30T02:42:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8461de6ddcdfef",
+      "category": "economy",
+      "title": "日経平均は大幅反発、プラス圏で堅調推移／ランチタイムコメント(フィスコ) - Yahoo!ファイナンス",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-30T03:03:54Z",
+      "sources": [
+        {
+          "id": "ad5aada82ad513",
+          "name": "Yahoo!ファイナンス",
+          "title": "日経平均は大幅反発、プラス圏で堅調推移／ランチタイムコメント(フィスコ) - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbXdZYUZCck1ydGtiUy1uQXB4SnczWlZ0OG1qSlFoNVd5ck91VlRQWUZNclJTZE9qd3FmREhJdjhoLTV1bGlxeEJ6YWdMWXZWeEFKSGpORDR6eld6M3pCcXo4NDRtYVJJb1ZRY2RUYlNtVEZFQ3Fka0lkTHowcURIYy1HRncyQkk?oc=5",
+          "publishedAt": "2026-09-30T03:03:54Z"
+        },
+        {
+          "id": "ece26c231da26c",
+          "name": "Yahoo!ファイナンス",
+          "title": "日経平均は661円高、寄り後は底堅く推移(フィスコ) - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMTZheEpvdk5WT3R5SE42bTRGWjhFa2szYVc4V3pMYkctbFVMMkdsaENVUDlrMWFaSVloSjNKSzI0MHZXUEgzVkRwYkV2SV9LQ2xnSlNmTXd5ZnZqVXB3bmx1elc3d1dOWnZKTS13VE9TZFF4eC1PblU5N21PX3ZabkN4X3l1OGM?oc=5",
+          "publishedAt": "2026-09-30T00:07:37Z"
+        }
+      ]
+    },
+    {
+      "id": "7c6dd16dfce8d7",
+      "category": "economy",
+      "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - 文化放送",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-30T02:36:03Z",
+      "sources": [
+        {
+          "id": "b5f7660ead344c",
+          "name": "文化放送",
+          "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - 文化放送",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vR24wY1JWUFRTc2tnZlZGdm5KdV9NSVhWLWZIZlltR1E5QUFfQzdLRE4tSnYwajhrRi01dU1kb2ZWS3NpMUVqU3BFYVZjSkJkazlxQUxB?oc=5",
+          "publishedAt": "2026-09-30T02:36:03Z"
+        }
+      ]
+    },
+    {
+      "id": "56000c3efabc9f",
+      "category": "politics",
+      "title": "松下政経塾は京都大学で、寄附講義「日本の政治と経済：関西からの視点」を開講します - PR TIMES",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-30T00:30:01Z",
+      "sources": [
+        {
+          "id": "3b0811742356c0",
+          "name": "PR TIMES",
+          "title": "松下政経塾は京都大学で、寄附講義「日本の政治と経済：関西からの視点」を開講します - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FNVVKMy1CUXpjOEVEa1J6VEVSTlQtQUNOMU9tdHdwVmYyNVUxSEZiMWx6UW4xUE5NN0RVeUd2a09nb0dMb2RmUi1nOHF6V3hySXhheG9Gcm9wNkFmSmtwdV9HYU5lV01XdEE?oc=5",
+          "publishedAt": "2026-09-30T00:30:01Z"
+        }
+      ]
+    },
+    {
+      "id": "3d2bec246e9a76",
+      "category": "internet",
+      "title": "「毒ガエルみたいでド派手！」「意外とお買い得」などSNSで話題！ ヤマハの新世代スーパースポーツ「YZF-R9」の2027年モデルは“新色”が大反響 - VAGUE(ヴァーグ)",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-09-29T22:10:06Z",
+      "sources": [
+        {
+          "id": "7f9d3ba153d8c5",
+          "name": "VAGUE(ヴァーグ)",
+          "title": "「毒ガエルみたいでド派手！」「意外とお買い得」などSNSで話題！ ヤマハの新世代スーパースポーツ「YZF-R9」の2027年モデルは“新色”が大反響 - VAGUE(ヴァーグ)",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1EZ3FOUzhRMlFvUXI4X3JZZUljaDkwSmg5WEJNR0g2THF6bm1neHhLTDFOd2FreVVuWEVIcDVNMGUwOHFjUEE?oc=5",
+          "publishedAt": "2026-09-29T22:10:06Z"
         }
       ]
     },
@@ -199,39 +332,23 @@
     {
       "id": "b40536706584ac",
       "category": "economy",
-      "title": "日本経済新聞 朝刊 - 日本経済新聞",
+      "title": "日本経済新聞 朝刊 - nikkei.com",
       "sourceCount": 1,
       "latestPublishedAt": "2026-09-29T21:47:23Z",
       "sources": [
         {
           "id": "f7bec7ae219cb9",
-          "name": "日本経済新聞",
-          "title": "日本経済新聞 朝刊 - 日本経済新聞",
+          "name": "nikkei.com",
+          "title": "日本経済新聞 朝刊 - nikkei.com",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUWtteDU1X09MbjBoX2J2dmQxNWloSGs2QWRCZjF5VDBBRGFsMGpOOFJBZi1vQUJ1M0xpZWtkekFWN0pmXzI5cm5kRWpYd2RXc05pNzA4TnhRXy1ZQ1ZGWWZWay1Od0lBQXc4NVdBbkxBYWt2aVJ0dWMwOFRyMWtsSXRqSGVUUi10Zk94V25NOHVUOHJFR3dsSEdPTklhT2s?oc=5",
           "publishedAt": "2026-09-29T21:47:23Z"
         },
         {
           "id": "e0f21d435ea55b",
-          "name": "日本経済新聞",
-          "title": "日本経済新聞 朝刊 - 日本経済新聞",
+          "name": "nikkei.com",
+          "title": "日本経済新聞 朝刊 - nikkei.com",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYTZiR2VNdTc1RDBKS1FJNENBUzJpNDZ0VlJ1WnppZ1Q0RHI0cWtBam4zZ2RmcW1rY2ZyckI1a3lUVlFVbVVORGllb1ljZkdiTWhXeFhqRDhWbUlXSG1XU19KY0d4Z01QUDdCRVBTWWEtcE9ZZDlqM0J2RFhnNk05WFR6dWYyazZTQkpRMUpzWTJmYXcxZnFXQ0FfSU9jVXc?oc=5",
           "publishedAt": "2026-09-29T21:15:20Z"
-        }
-      ]
-    },
-    {
-      "id": "d8648e8a1cfec6",
-      "category": "economy",
-      "title": "「財政赤字＝悪」と決めつける議論がいかがわしい“明確な理由”とは？ - ダイヤモンド・オンライン",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T21:35:00Z",
-      "sources": [
-        {
-          "id": "12ddc025cf5a58",
-          "name": "ダイヤモンド・オンライン",
-          "title": "「財政赤字＝悪」と決めつける議論がいかがわしい“明確な理由”とは？ - ダイヤモンド・オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE81TGxoZmVHajNXUXhqS1FnMV8tSGswR2taRUNxeUVwUHBkbDdvM2dScWxOSjAwUnZPZDVhV0MyMjBjUlpKRGs5M3BuY3PSAU9BVV95cUxOcTVSNDlNS2Z4LWtkWVMtT0R5cS1BZm1RMndBNGJsUzRuZmI3Ui1TWVA4OWY2Z2swcHdZSUduTmNFNEptUER0dTBBLWc5TGRV?oc=5",
-          "publishedAt": "2026-09-29T21:35:00Z"
         }
       ]
     },
@@ -252,22 +369,6 @@
       ]
     },
     {
-      "id": "7b30f7b66b1c01",
-      "category": "economy",
-      "title": "ドラッカーと土光敏夫が1976年の対談で言い当てていた「日本の適切な経済成長」のシナリオ - ダイヤモンド・オンライン",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T19:20:00Z",
-      "sources": [
-        {
-          "id": "395eb434adb298",
-          "name": "ダイヤモンド・オンライン",
-          "title": "ドラッカーと土光敏夫が1976年の対談で言い当てていた「日本の適切な経済成長」のシナリオ - ダイヤモンド・オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1YaDRudUVjTjhzcmh0ZmlPNnBUVWhCRnBOTGZGcXJ0NUlNa3pvNGxianlxYUQtQkdQWHppa3cwWWNHYS1Oa3ZBUHpVOTHSAU9BVV95cUxNd1dmOUxQaWo1S3d0N2JyRlVhdWtwQXNnYWtQWDR3QkRmVnNza1REb0tXc1d3b1phM25SMU5lNmRnd0NfQ0d6cE1HTHgwM1dr?oc=5",
-          "publishedAt": "2026-09-29T19:20:00Z"
-        }
-      ]
-    },
-    {
       "id": "e5bff459f35c9b",
       "category": "internet",
       "title": "見逃し配信中！ごはん泥棒!?ＳＮＳで話題の秋田名物「ぼだっこ」【あさイチ】 - nhk.or.jp",
@@ -280,22 +381,6 @@
           "title": "見逃し配信中！ごはん泥棒!?ＳＮＳで話題の秋田名物「ぼだっこ」【あさイチ】 - nhk.or.jp",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oRHhOYUlWWVdJdDl1UDdhVjVfa3F1XzBUWEdxc05MWmF4TkdwWXV0dXRjR1lGcGlmU2FLM3E4RTkzOWNfQTg1RXNRZzBNSGgzQzIwMnluYUpSZE5kSWE1MG5YeC0?oc=5",
           "publishedAt": "2026-09-29T12:11:58Z"
-        }
-      ]
-    },
-    {
-      "id": "504e3d8fad0203",
-      "category": "internet",
-      "title": "「遅かった…待っていたぞぉ！」SNSで話題沸騰！『NARUTO』完全新作アニメ情報がNYコミコンで世界初公開へ - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T09:18:16Z",
-      "sources": [
-        {
-          "id": "5e16f061c66adf",
-          "name": "Yahoo!ニュース",
-          "title": "「遅かった…待っていたぞぉ！」SNSで話題沸騰！『NARUTO』完全新作アニメ情報がNYコミコンで世界初公開へ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zTzJWVVFNNEUxV1VFMEZOTDlIeGUzZTYwNGdORERheVc3alh6UEhwLTRJczFiRjFVdnhrV3NVSnRVeGJhOW9wUlhtVVBnaTI1Q2hack9WUVZkTjZRbk1SVkJoT19HbUxiQVdkSEZoZmdOTWVoMzUyX2dCX3ZTOUk?oc=5",
-          "publishedAt": "2026-09-29T09:18:16Z"
         }
       ]
     },
@@ -332,34 +417,18 @@
       ]
     },
     {
-      "id": "9dcc9bf568bb8b",
-      "category": "economy",
-      "title": "タシケントで日本ウズベキスタン経済合同会議が開催、AI・デジタル分野などの展望報告(日本、ウズベキスタン) | ビジネス短信 - jetro.go.jp",
+      "id": "85eba8414f35ce",
+      "category": "internet",
+      "title": "「どんなお写真を...?」SNSで話題だった“天皇陛下のスマホ写真” 宮内庁が2枚を公開 ネコバスとカオナシで雅子さまと笑顔の2S ジブリパークご訪問 - わたしとニュース【(火)-(金)ひる12時~生放送】 - 最新ニュース (ニュース) | 無料動画・見逃し配信を見るなら - abema.tv",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T06:16:05Z",
+      "latestPublishedAt": "2026-09-29T05:45:46Z",
       "sources": [
         {
-          "id": "d5e7d6524a252a",
-          "name": "jetro.go.jp",
-          "title": "タシケントで日本ウズベキスタン経済合同会議が開催、AI・デジタル分野などの展望報告(日本、ウズベキスタン) | ビジネス短信 - jetro.go.jp",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvOExHaWs3WXVQZDV2ZzY0WUlvQ19ZRVN2NGFUTFYxYjladXVKZmt1alltTUdxT01fRGE3UXpJbF9Kdi1vZEtxUkJPMFBqdVZsYlktanZGaklhMVQwNDBENW5STFZtN1ZWYnc3T0xB?oc=5",
-          "publishedAt": "2026-09-29T06:16:05Z"
-        }
-      ]
-    },
-    {
-      "id": "32cd6619f740e8",
-      "category": "politics",
-      "title": "日本の総人口、1億2297万人 - nippon.com",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T05:17:06Z",
-      "sources": [
-        {
-          "id": "af7bcdc2c2c142",
-          "name": "nippon.com",
-          "title": "日本の総人口、1億2297万人 - nippon.com",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5YTFBQU3RzTTNRSFBhejZmMFpKQjc2LXFYcEZGZXJ2bDA1NnFqaTE5eDNCdlVtSjYyd0JqMkVyYWV6aC1mN2ltdi1jM0xhN0lwNzVBckZSX3VIWXo4VFFSY29Faw?oc=5",
-          "publishedAt": "2026-09-29T05:17:06Z"
+          "id": "338e111ed7cd05",
+          "name": "abema.tv",
+          "title": "「どんなお写真を...?」SNSで話題だった“天皇陛下のスマホ写真” 宮内庁が2枚を公開 ネコバスとカオナシで雅子さまと笑顔の2S ジブリパークご訪問 - わたしとニュース【(火)-(金)ひる12時~生放送】 - 最新ニュース (ニュース) | 無料動画・見逃し配信を見るなら - abema.tv",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TTUJUUkZTODdHR0JBVGZHRTg5a3dKTmJKdmlYTDVTSkpsVDBpbTk3WjRUaEQzNDF4V2FRX1pwN0hNTHk3MFFmX04tQVVYR1VfQTZkRk5ldGI?oc=5",
+          "publishedAt": "2026-09-29T05:45:46Z"
         }
       ]
     },
@@ -382,64 +451,16 @@
     {
       "id": "91aa3a2b53f337",
       "category": "entertainment",
-      "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟 - 東スポWEB",
+      "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟 - 東スポWeb",
       "sourceCount": 1,
       "latestPublishedAt": "2026-09-28T20:00:00Z",
       "sources": [
         {
           "id": "6bed0d28cf522e",
-          "name": "東スポWEB",
-          "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟 - 東スポWEB",
+          "name": "東スポWeb",
+          "title": "東山紀之氏「白紙」強調も…芸能界復帰は既定路線 用意される旧ジャニーズ事後処理の〝対価〟 - 東スポWeb",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9DNGNUdmZkQ2VrMzZjRnI4ek9RaGRqUnJ1d1dfbE9NWU81VXJxNzVjR25OOWFZWURmd0VDOEgzSDB4UDlNd2NiTEJ5c2tsWkRtRjhKUmVEUkltVlJJ?oc=5",
           "publishedAt": "2026-09-28T20:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "c3bea3909d584c",
-      "category": "entertainment",
-      "title": "芸能界もしものピンチ対策会議！KEY TO LIT・猪狩蒼弥さん編！ - TVer",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T16:19:37Z",
-      "sources": [
-        {
-          "id": "0d3e64e12d7c7d",
-          "name": "TVer",
-          "title": "芸能界もしものピンチ対策会議！KEY TO LIT・猪狩蒼弥さん編！ - TVer",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAtZnhaWmJlcXpkX0pYVXVCa2RNcUFnVlptUDNjODdPYktodDJia1drci1BZW13U3d0TmlIRzJ2YVAtOE1MYlM2TE90aw?oc=5",
-          "publishedAt": "2026-09-28T16:19:37Z"
-        }
-      ]
-    },
-    {
-      "id": "596afa0b55ca93",
-      "category": "internet",
-      "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - USENの音楽情報サイト",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T04:40:07Z",
-      "sources": [
-        {
-          "id": "994fa16f304a4a",
-          "name": "USENの音楽情報サイト",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - USENの音楽情報サイト",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbUtkdzRyUEI1NzdSTnYxN3RBb0ZnSVF4YS1DQTF0WEVKVjFsR2VTVEJWeTlsZFF2UHpGbVhkMU9SX1V0VFVYTEplWHN3NVRUVThJYlZ2R1ZlQ1g2RmotZDM4a0dNVV92NUow?oc=5",
-          "publishedAt": "2026-09-28T04:40:07Z"
-        }
-      ]
-    },
-    {
-      "id": "2ed11d9728ee0b",
-      "category": "entertainment",
-      "title": "倉本聰さん死去 芸能界から悼む声 - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T03:07:03Z",
-      "sources": [
-        {
-          "id": "c5dd6b1b71d8a1",
-          "name": "Yahoo!ニュース",
-          "title": "倉本聰さん死去 芸能界から悼む声 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE15SUZfdHIwZkVWUEFHckpWV2E0ZkF1cVluVmVVMVVldFJua2JoUXdYTmkweVJfZTFXNjZGQk00UEtjSEhvckhPR2Z3YU9wWlZ2?oc=5",
-          "publishedAt": "2026-09-28T03:07:03Z"
         }
       ]
     }
