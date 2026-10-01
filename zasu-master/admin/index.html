@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex,nofollow,noarchive">
 <meta name="theme-color" content="#080808">
 <title>ZASU AUDIO ADMIN</title>
-<link rel="stylesheet" href="assets/style.css?v=20261001-queue1">
+<link rel="stylesheet" href="assets/style.css?v=20261001-health1">
 </head>
 <body>
 <header>
@@ -48,6 +48,19 @@
         <button id="refreshButton" class="mini-btn">REFRESH</button>
         <button id="lockButton" class="mini-btn">LOCK</button>
       </div>
+    </section>
+
+    <section id="systemHealth" class="system-health operational">
+      <div class="system-health-main">
+        <div class="system-health-title"><i></i><div><span>SYSTEM HEALTH / v1</span><strong id="healthHeadline">CHECKING</strong><small id="healthSubline">最新の自動点検結果を取得しています。</small></div></div>
+        <div id="healthCheckedAt" class="health-checked">—</div>
+      </div>
+      <div class="health-service-grid">
+        <div><span>MIX</span><strong id="healthMix">—</strong><small id="healthMixDetail">—</small></div>
+        <div><span>MASTER</span><strong id="healthMaster">—</strong><small id="healthMasterDetail">—</small></div>
+        <div><span>CONVERT</span><strong id="healthConvert">—</strong><small id="healthConvertDetail">—</small></div>
+      </div>
+      <div id="healthIssues" class="health-issues"></div>
     </section>
 
     <section class="metric-grid">
@@ -165,6 +178,6 @@
 
 <footer><div class="wrap">ZASU AUDIO ADMIN / PRIVATE OPERATIONS</div></footer>
 <script src="assets/config.js?v=20261001-admin1"></script>
-<script src="assets/admin.js?v=20261001-queue1"></script>
+<script src="assets/admin.js?v=20261001-health1"></script>
 </body>
 </html>
