@@ -18,6 +18,34 @@ async function api(action,payload={}){
   return b;
 }
 function setProgress(p,title,text){q("#jobProgress").hidden=false;q("#progressBar").style.width=Math.max(0,Math.min(100,p))+"%";q("#progressTitle").textContent=title;q("#progressText").textContent=text}
+function renderQueueStatus(s){
+  const box=q("#queueStatus");
+  if(!box)return;
+  box.classList.remove("ready","processing","waiting");
+  if(!s||!["queued","processing"].includes(String(s.status||""))){
+    box.hidden=true;
+    return;
+  }
+  box.hidden=false;
+  if(s.status==="processing"){
+    box.classList.add("processing");
+    q("#queueHeadline").textContent="NOW PROCESSING";
+    const waiting=Number(s.queue_waiting_total||0);
+    q("#queueDetail").textContent=waiting>0?"処理中 / 後ろに待機 "+waiting+"件":"処理サーバーで実行中です。";
+    return;
+  }
+  const ahead=Math.max(0,Number(s.jobs_ahead||0));
+  const pos=Math.max(1,Number(s.queue_position||1));
+  if(ahead===0){
+    box.classList.add("ready");
+    q("#queueHeadline").textContent="READY / NO WAIT";
+    q("#queueDetail").textContent="待機なし。次に処理されます。";
+  }else{
+    box.classList.add("waiting");
+    q("#queueHeadline").textContent="POSITION "+pos;
+    q("#queueDetail").textContent="あなたの前に "+ahead+"件 / 現在の待機 "+Number(s.queue_waiting_total||0)+"件";
+  }
+}
 function formatDuration(seconds){
   const n=Math.max(0,Number(seconds||0));
   const m=Math.floor(n/60),sec=Math.round(n%60);
@@ -197,6 +225,7 @@ async function poll(){
   clearTimeout(pollTimer);if(!job)return;
   try{
     const s=await api("status",{job_id:job.id,access_token:job.token});
+    renderQueueStatus(s);
     const copy=stageCopy[s.stage]||["PROCESSING","AUTO MIX処理中です。"];
     setProgress(Number(s.progress||0),copy[0],copy[1]);
     if(s.preflight_report&&Object.keys(s.preflight_report).length){
@@ -220,6 +249,7 @@ async function poll(){
 
 function showPreflightReview(s){
   clearTimeout(pollTimer);
+  if(q("#queueStatus"))q("#queueStatus").hidden=true;
   renderPreflight(s.preflight_report||{},"warning");
   q("#mixButton").disabled=true;
   q("#statusText").textContent="Preflightで確認項目があります。音源を確認するか、このまま続行してください。";
@@ -294,6 +324,7 @@ function setPreviewAudio(audio,primary,fallback){
 
 function showPreview(s){
   q("#mixButton").disabled=false;
+  if(q("#queueStatus"))q("#queueStatus").hidden=true;
   readyMix={id:job.id,token:job.token};
   sessionStorage.setItem("zasu_mix_ready",JSON.stringify(readyMix));
   renderCommonMetrics(s);
@@ -414,6 +445,7 @@ async function unlockFull(plan){
 
 function showResult(s){
   q("#mixButton").disabled=false;
+  if(q("#queueStatus"))q("#queueStatus").hidden=true;
   renderCommonMetrics(s);
   q("#resultHeading").textContent="MIX READY.";
   q("#previewAbArea").hidden=true;
