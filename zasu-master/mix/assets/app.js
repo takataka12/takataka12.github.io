@@ -195,11 +195,6 @@ function showPreview(s){
   q("#fullDownloads").hidden=true;
   q("#fullMasterHandoff").hidden=true;
   setPreviewAudio(
-    q("#previewBeforeAudio"),
-    s.preview_before_url||null,
-    downloadUrl("preview_before")
-  );
-  setPreviewAudio(
     q("#previewAfterAudio"),
     s.preview_mix_url||null,
     downloadUrl("preview_mix")
