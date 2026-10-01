@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex,nofollow,noarchive">
 <meta name="theme-color" content="#080808">
 <title>ZASU AUDIO ADMIN</title>
-<link rel="stylesheet" href="assets/style.css?v=20261001-feedback1">
+<link rel="stylesheet" href="assets/style.css?v=20261001-queue1">
 </head>
 <body>
 <header>
@@ -63,6 +63,11 @@
         <div class="mini-metrics">
           <div><span>ACTIVE / WAITING</span><strong id="queueCount">—</strong></div>
           <div><span>PREFLIGHT REVIEW</span><strong id="reviewCount">—</strong></div>
+        </div>
+        <div class="service-queue-grid">
+          <div><span>MIX</span><strong id="mixQueueState">—</strong><small id="mixQueueDetail">—</small></div>
+          <div><span>MASTER</span><strong id="masterQueueState">—</strong><small id="masterQueueDetail">—</small></div>
+          <div><span>CONVERT</span><strong id="convertQueueState">—</strong><small id="convertQueueDetail">—</small></div>
         </div>
         <div class="table-wrap">
           <table><thead><tr><th>SERVICE</th><th>STATUS</th><th>STAGE</th><th>AGE</th></tr></thead><tbody id="currentJobsBody"></tbody></table>
@@ -160,6 +165,6 @@
 
 <footer><div class="wrap">ZASU AUDIO ADMIN / PRIVATE OPERATIONS</div></footer>
 <script src="assets/config.js?v=20261001-admin1"></script>
-<script src="assets/admin.js?v=20261001-feedback2"></script>
+<script src="assets/admin.js?v=20261001-queue1"></script>
 </body>
 </html>
