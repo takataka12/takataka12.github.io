@@ -302,6 +302,7 @@ function showPreview(s){
   q("#previewGate").hidden=false;
   q("#fullDownloads").hidden=true;
   q("#fullMasterHandoff").hidden=true;
+  if(q("#mixFeedbackCard"))q("#mixFeedbackCard").hidden=true;
   setPreviewAudio(
     q("#previewAfterAudio"),
     s.preview_mix_url||null,
@@ -419,6 +420,7 @@ function showResult(s){
   q("#previewGate").hidden=true;
   q("#fullDownloads").hidden=false;
   q("#fullMasterHandoff").hidden=false;
+  if(q("#mixFeedbackCard"))q("#mixFeedbackCard").hidden=false;
   readyMix={id:job.id,token:job.token};
   sessionStorage.setItem("zasu_mix_ready",JSON.stringify(readyMix));
   q("#mixDownload").href=downloadUrl("mix");
@@ -427,6 +429,82 @@ function showResult(s){
   q("#resultCard").scrollIntoView({behavior:"smooth",block:"start"});
   sessionStorage.removeItem("zasu_mix_job");
 }
+
+let mixFeedbackSentiment=0;
+const mixFeedbackTags=new Set();
+
+function selectMixFeedbackSentiment(value){
+  mixFeedbackSentiment=Number(value);
+  mixFeedbackTags.clear();
+  document.querySelectorAll("[data-mix-feedback-sentiment]").forEach(btn=>{
+    btn.classList.toggle("active",Number(btn.dataset.mixFeedbackSentiment)===mixFeedbackSentiment);
+  });
+  document.querySelectorAll("[data-mix-feedback-tag]").forEach(btn=>btn.classList.remove("active"));
+  q("#mixFeedbackDetails").hidden=false;
+  q("#mixFeedbackPositiveTags").hidden=mixFeedbackSentiment!==1;
+  q("#mixFeedbackNegativeTags").hidden=mixFeedbackSentiment!==-1;
+  q("#mixFeedbackStatus").textContent="";
+  q("#mixFeedbackStatus").className="handoff-status";
+}
+
+document.querySelectorAll("[data-mix-feedback-sentiment]").forEach(btn=>{
+  btn.addEventListener("click",()=>selectMixFeedbackSentiment(btn.dataset.mixFeedbackSentiment));
+});
+document.querySelectorAll("[data-mix-feedback-tag]").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    const tag=String(btn.dataset.mixFeedbackTag||"");
+    if(!tag)return;
+    if(mixFeedbackTags.has(tag))mixFeedbackTags.delete(tag);else mixFeedbackTags.add(tag);
+    btn.classList.toggle("active",mixFeedbackTags.has(tag));
+  });
+});
+
+async function sendMixFeedback(){
+  const source=readyMix||job;
+  const statusEl=q("#mixFeedbackStatus");
+  const send=q("#mixFeedbackSend");
+  if(!mixFeedbackSentiment){
+    statusEl.textContent="👍 または 👎 を選んでください。";
+    return;
+  }
+  if(!source?.id||!source?.token){
+    statusEl.textContent="完成MIX情報を確認できません。";
+    return;
+  }
+  send.disabled=true;
+  send.textContent="SENDING...";
+  statusEl.textContent="";
+  try{
+    const res=await fetch(cfg.feedbackEndpoint,{
+      method:"POST",
+      headers:authHeaders(),
+      body:JSON.stringify({
+        service:"mix",
+        job_id:source.id,
+        access_token:source.token,
+        sentiment:mixFeedbackSentiment,
+        tags:Array.from(mixFeedbackTags),
+        comment:q("#mixFeedbackComment")?.value||""
+      })
+    });
+    const body=await res.json().catch(()=>({}));
+    if(!res.ok){
+      if(body.error==="not_completed")throw new Error("フル尺MIX完了後に送信できます。");
+      throw new Error("送信できませんでした。");
+    }
+    sessionStorage.setItem("zasu_feedback_mix_"+source.id,String(mixFeedbackSentiment));
+    statusEl.innerHTML="<strong>THANK YOU.</strong> フィードバックを保存しました。";
+    statusEl.className="handoff-status success";
+    send.textContent="FEEDBACK SENT";
+    q("#mixFeedbackDetails").querySelectorAll("button,textarea").forEach(el=>el.disabled=true);
+    document.querySelectorAll("[data-mix-feedback-sentiment]").forEach(el=>el.disabled=true);
+  }catch(e){
+    statusEl.textContent=e?.message||"送信できませんでした。";
+    send.disabled=false;
+    send.textContent="SEND FEEDBACK";
+  }
+}
+if(q("#mixFeedbackSend"))q("#mixFeedbackSend").addEventListener("click",sendMixFeedback);
 
 async function ensureMasterPreviewSession(){
   let no=Number(localStorage.getItem("zasu_beta_application_no")||"");
