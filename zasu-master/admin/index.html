@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex,nofollow,noarchive">
 <meta name="theme-color" content="#080808">
 <title>ZASU AUDIO ADMIN</title>
-<link rel="stylesheet" href="assets/style.css?v=20261001-alerts1">
+<link rel="stylesheet" href="assets/style.css?v=20261001-abuse1">
 </head>
 <body>
 <header>
@@ -80,6 +80,24 @@
         <div class="section-head"><span>ALERT LOG</span><h2>Recent Incident / Recovery</h2></div>
         <div class="table-wrap">
           <table><thead><tr><th>TYPE</th><th>SUBJECT</th><th>DELIVERY</th><th>TIME</th></tr></thead><tbody id="alertEventsBody"></tbody></table>
+        </div>
+      </article>
+    </section>
+
+    <section class="two-col abuse-row">
+      <article class="panel abuse-panel">
+        <div class="section-head"><span>ABUSE PROTECTION / v1</span><h2>Rate Limit</h2></div>
+        <div class="mini-metrics three">
+          <div><span>ATTEMPTS</span><strong id="abuseAttempts">—</strong></div>
+          <div><span>BLOCKED</span><strong id="abuseBlocked">—</strong></div>
+          <div><span>BLOCK RATE</span><strong id="abuseRate">—</strong></div>
+        </div>
+        <div id="abuseScopes" class="abuse-scope-grid"></div>
+      </article>
+      <article class="panel">
+        <div class="section-head"><span>BLOCK LOG</span><h2>Recent blocked requests</h2></div>
+        <div class="table-wrap">
+          <table><thead><tr><th>SCOPE</th><th>REASON</th><th>TIME</th></tr></thead><tbody id="abuseBody"></tbody></table>
         </div>
       </article>
     </section>
@@ -199,6 +217,6 @@
 
 <footer><div class="wrap">ZASU AUDIO ADMIN / PRIVATE OPERATIONS</div></footer>
 <script src="assets/config.js?v=20261001-admin1"></script>
-<script src="assets/admin.js?v=20261001-alerts1"></script>
+<script src="assets/admin.js?v=20261001-abuse1"></script>
 </body>
 </html>
