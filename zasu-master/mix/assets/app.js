@@ -18,12 +18,64 @@ async function api(action,payload={}){
   return b;
 }
 function setProgress(p,title,text){q("#jobProgress").hidden=false;q("#progressBar").style.width=Math.max(0,Math.min(100,p))+"%";q("#progressTitle").textContent=title;q("#progressText").textContent=text}
+function formatDuration(seconds){
+  const n=Math.max(0,Number(seconds||0));
+  const m=Math.floor(n/60),sec=Math.round(n%60);
+  return m+":"+String(sec).padStart(2,"0");
+}
+function resetPreflightUi(){
+  const panel=q("#preflightPanel");
+  if(!panel)return;
+  panel.hidden=true;
+  panel.classList.remove("pass","warning");
+  q("#preflightWarnings").innerHTML="";
+  q("#preflightActions").hidden=true;
+}
+function renderPreflight(report,status="pass"){
+  const panel=q("#preflightPanel");
+  if(!panel||!report||typeof report!=="object")return;
+  const warning=status==="warning"||report.requires_review===true||report.verdict==="warning";
+  panel.hidden=false;
+  panel.classList.toggle("warning",warning);
+  panel.classList.toggle("pass",!warning);
+  q("#preflightTitle").textContent=warning?"CHECK RECOMMENDED":"PRE-FLIGHT OK";
+  q("#preflightLead").textContent=warning
+    ?"MIX前に1点以上確認してください。問題なければそのまま続行できます。"
+    :"長さ・頭出しリスク・入力レベルに大きな問題は見つかりませんでした。";
+  q("#preflightVocalDuration").textContent=formatDuration(report.vocal_duration_seconds);
+  q("#preflightInstDuration").textContent=formatDuration(report.instrumental_duration_seconds);
+  q("#preflightVocalLevel").textContent=Number.isFinite(Number(report.vocal_lufs))
+    ?Number(report.vocal_lufs).toFixed(1)+" LUFS / "+Number(report.vocal_true_peak_dbtp).toFixed(1)+" dBTP"
+    :"—";
+  q("#preflightInstLevel").textContent=Number.isFinite(Number(report.instrumental_lufs))
+    ?Number(report.instrumental_lufs).toFixed(1)+" LUFS / "+Number(report.instrumental_true_peak_dbtp).toFixed(1)+" dBTP"
+    :"—";
+  const vocalLead=Number(report.vocal_leading_silence_seconds||0);
+  const ratio=Number(report.duration_ratio||0);
+  q("#preflightHead").textContent=warning?"CHECK":"OK";
+  q("#preflightHead").nextElementSibling.textContent=
+    "Vocal head "+vocalLead.toFixed(2)+"s / Length "+(ratio>0?(ratio*100).toFixed(0)+"%":"—");
+  const warnings=q("#preflightWarnings");
+  warnings.innerHTML="";
+  for(const item of (Array.isArray(report.checks)?report.checks:[])){
+    const box=document.createElement("div");
+    box.className="preflight-warning";
+    const strong=document.createElement("strong");
+    strong.textContent=String(item.title||item.code||"CHECK");
+    const span=document.createElement("span");
+    span.textContent=String(item.message||"音源を確認してください。");
+    box.append(strong,span);
+    warnings.appendChild(box);
+  }
+  q("#preflightActions").hidden=!warning;
+}
 function pick(kind,file){
   if(kind==="vocal")vocal=file||null;else inst=file||null;
   const el=q(kind==="vocal"?"#vocalMeta":"#instMeta");
   const f=kind==="vocal"?vocal:inst;
   el.textContent=f?(f.name+" — "+humanBytes(f.size)):(kind==="vocal"?"ボーカル未選択":"インスト未選択");
   el.classList.toggle("ready",!!f);
+  resetPreflightUi();
 }
 // iOS/Safari can suppress "change" when the same file is selected again.
 // Reset only the native file-input value before the picker opens; the current
@@ -92,7 +144,7 @@ async function uploadSet(ticketList,file,bucket,chunkSize,label,startPct,endPct)
 async function start(){
   if(!vocal||!inst){q("#statusText").textContent="DRY VOCALとINSTRUMENTALの両方を選択してください。";return}
   if(vocal.size>cfg.maxBytes||inst.size>cfg.maxBytes){q("#statusText").textContent="各ファイル最大500MBです。";return}
-  const b=q("#mixButton");b.disabled=true;q("#resultCard").hidden=true;q("#statusText").textContent="";
+  const b=q("#mixButton");b.disabled=true;q("#resultCard").hidden=true;q("#statusText").textContent="";resetPreflightUi();
   try{
     setProgress(3,"PREPARING","MIXジョブを準備しています。");
     const ticket=await api("create_job",{
@@ -122,6 +174,11 @@ q("#mixButton").onclick=start;
 
 const stageCopy={
   uploading:["UPLOADING","音源をアップロードしています。"],
+  preflight_queued:["PRE-FLIGHT","音源チェックを待っています。"],
+  preflight_claimed:["PRE-FLIGHT","音源チェックを開始しています。"],
+  preflight_analyzing:["PRE-FLIGHT","長さ・頭出し・入力レベルを確認しています。"],
+  preflight_ok:["PRE-FLIGHT OK","チェック完了。AUTO MIXへ進みます。"],
+  preflight_review:["CHECK REQUIRED","MIX前に音源を確認してください。"],
   queued:["QUEUED","MIXサーバーを待っています。"],
   claimed:["STARTING","AUTO MIX ENGINEを起動しています。"],
   downloading:["DOWNLOADING","音源を処理サーバーへ転送しています。"],
@@ -142,6 +199,13 @@ async function poll(){
     const s=await api("status",{job_id:job.id,access_token:job.token});
     const copy=stageCopy[s.stage]||["PROCESSING","AUTO MIX処理中です。"];
     setProgress(Number(s.progress||0),copy[0],copy[1]);
+    if(s.preflight_report&&Object.keys(s.preflight_report).length){
+      renderPreflight(s.preflight_report,s.stage==="preflight_review"?"warning":s.preflight_status);
+    }
+    if(s.stage==="preflight_review"||s.status==="awaiting_review"){
+      showPreflightReview(s);
+      return;
+    }
     if(s.status==="completed"){
       if(s.processing_phase==="preview"){showPreview(s);return}
       showResult(s);return
@@ -153,6 +217,45 @@ async function poll(){
     pollTimer=setTimeout(poll,6000);
   }
 }
+
+function showPreflightReview(s){
+  clearTimeout(pollTimer);
+  renderPreflight(s.preflight_report||{},"warning");
+  q("#mixButton").disabled=true;
+  q("#statusText").textContent="Preflightで確認項目があります。音源を確認するか、このまま続行してください。";
+  q("#preflightPanel").scrollIntoView({behavior:"smooth",block:"center"});
+}
+
+async function continueAfterPreflight(){
+  if(!job?.id||!job?.token)return;
+  const button=q("#preflightContinue");
+  const change=q("#preflightChangeFiles");
+  button.disabled=true;change.disabled=true;
+  q("#statusText").textContent="確認済みとしてAUTO MIXを再開します。";
+  try{
+    const body=await api("approve_preflight",{job_id:job.id,access_token:job.token});
+    if(body.status!=="queued")throw new Error("preflight_resume_failed");
+    q("#preflightActions").hidden=true;
+    q("#preflightTitle").textContent="CHECKED / CONTINUING";
+    q("#preflightLead").textContent="確認済みとしてAUTO MIXを続行します。";
+    setProgress(10,"QUEUED","AUTO MIX ENGINEを待っています。");
+    poll();
+  }catch(e){
+    q("#statusText").textContent=e?.message||"MIXを再開できませんでした。";
+    button.disabled=false;change.disabled=false;
+  }
+}
+function changePreflightFiles(){
+  clearTimeout(pollTimer);
+  job=null;
+  sessionStorage.removeItem("zasu_mix_job");
+  q("#mixButton").disabled=false;
+  q("#preflightActions").hidden=true;
+  q("#statusText").textContent="音源を選び直して、もう一度CREATE AUTO MIXを押してください。";
+  q("#vocalDrop").scrollIntoView({behavior:"smooth",block:"center"});
+}
+q("#preflightContinue").addEventListener("click",continueAfterPreflight);
+q("#preflightChangeFiles").addEventListener("click",changePreflightFiles);
 
 function downloadUrl(kind){
   const source=readyMix||job;
