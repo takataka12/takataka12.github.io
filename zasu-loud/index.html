@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#070707">
+  <meta name="description" content="ZASU LOUD — LOUDER. NOT WORSE. 音圧を、壊さず前へ。ZASU WORKSのmacOS向けラウドネス・プロセッサー。AU / VST3。">
+  <meta property="og:title" content="ZASU LOUD — LOUDER. NOT WORSE.">
+  <meta property="og:description" content="音圧を、壊さず前へ。4x oversampling / transient protect / low-end protect / loud guard / match。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zasuofficial.jp/zasu-loud/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://zasuofficial.jp/zasu-loud/">
+  <title>ZASU LOUD — LOUDER. NOT WORSE.</title>
+  <style>
+    :root{
+      --bg:#050505;--panel:#0a0a0b;--panel2:#101011;--text:#f5f5f2;
+      --muted:#8e8e93;--line:#252528;--yellow:#ffd91a;--yellow2:#bda000;
+      --good:#77f2a0;--danger:#ff5148;
+    }
+    *{box-sizing:border-box}
+    html{background:var(--bg);scroll-behavior:smooth}
+    body{
+      margin:0;color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue","Hiragino Sans","Yu Gothic",sans-serif;
+      background:
+        radial-gradient(circle at 78% 7%,rgba(255,217,26,.11),transparent 30rem),
+        radial-gradient(circle at 0% 46%,rgba(255,255,255,.04),transparent 24rem),
+        var(--bg);
+      overflow-x:hidden
+    }
+    body:before{
+      content:"";position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.08;
+      background-image:linear-gradient(rgba(255,255,255,.04) 1px,transparent 1px);
+      background-size:100% 4px;mix-blend-mode:screen
+    }
+    a{color:inherit;text-decoration:none}
+    button{font:inherit}
+    .wrap{width:min(1120px,100%);margin:auto;padding:0 22px 90px}
+    .nav{
+      height:70px;display:flex;align-items:center;justify-content:space-between;
+      border-bottom:1px solid var(--line);position:relative;z-index:3
+    }
+    .brand{font-weight:1000;letter-spacing:-.025em;font-size:18px}
+    .brand span{color:var(--yellow)}
+    .navlinks{display:flex;align-items:center;gap:22px;font-size:10px;font-weight:900;letter-spacing:.16em}
+    .navlinks a{color:#939397}.navlinks a:hover{color:#fff}
+    .navbuy{
+      padding:11px 15px;border:1px solid rgba(255,217,26,.5);color:var(--yellow)!important;
+      background:rgba(255,217,26,.04)
+    }
+    .hero{
+      min-height:720px;display:grid;grid-template-columns:1.04fr .96fr;align-items:center;
+      gap:48px;padding:72px 0 78px;border-bottom:1px solid var(--line)
+    }
+    .eyebrow{font-size:10px;font-weight:1000;letter-spacing:.27em;color:var(--yellow)}
+    .hero h1{
+      margin:17px 0 0;font-size:clamp(72px,10vw,150px);line-height:.78;
+      letter-spacing:-.075em;font-weight:1000
+    }
+    .hero h1 small{
+      display:block;margin-top:23px;font-size:clamp(17px,2vw,25px);line-height:1;
+      letter-spacing:.14em;color:var(--yellow);font-weight:950
+    }
+    .lead{
+      max-width:560px;margin:29px 0 0;color:#b6b6ba;font-size:16px;line-height:1.95;
+      letter-spacing:.01em
+    }
+    .lead strong{color:#fff}
+    .hero-actions{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin-top:32px}
+    .primary,.secondary{
+      display:inline-flex;align-items:center;justify-content:center;min-height:52px;
+      padding:0 22px;font-size:11px;font-weight:1000;letter-spacing:.16em;border:1px solid var(--line)
+    }
+    .primary{background:var(--yellow);color:#080808;border-color:var(--yellow)}
+    .secondary{background:#0b0b0c;color:#e5e5e8}
+    .price-note{margin-top:15px;font-size:10px;color:#69696e;letter-spacing:.09em}
+    .price-note b{color:var(--yellow)}
+    .plugin{
+      position:relative;border:1px solid #38383c;border-radius:18px;
+      background:linear-gradient(145deg,#111113,#080809);padding:24px;
+      box-shadow:0 36px 80px rgba(0,0,0,.55),0 0 70px rgba(255,217,26,.06);
+      transform:perspective(1200px) rotateY(-4deg) rotateX(2deg)
+    }
+    .plugin:before{
+      content:"";position:absolute;inset:1px;border-radius:17px;pointer-events:none;
+      background:linear-gradient(135deg,rgba(255,255,255,.055),transparent 24%)
+    }
+    .plugin-head{display:flex;justify-content:space-between;align-items:flex-start}
+    .plugin-logo{font-size:27px;line-height:.9;font-weight:1000;letter-spacing:-.035em}
+    .plugin-logo span{display:block;margin-top:8px;font-size:9px;letter-spacing:.12em;color:var(--yellow)}
+    .power{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;border:2px solid #67676b;color:#aaa}
+    .plugin-grid{display:grid;grid-template-columns:.72fr 1.18fr .75fr;gap:18px;margin-top:28px;align-items:center}
+    .mini-knobs{display:grid;grid-template-columns:1fr 1fr;gap:18px 12px}
+    .kgrp{text-align:center}.kgrp small,.meter small{font-size:8px;color:#9a9aa0;font-weight:900;letter-spacing:.12em}
+    .knob{
+      width:70px;height:70px;margin:7px auto;border-radius:50%;position:relative;
+      background:radial-gradient(circle at 50% 45%,#262629 0 14%,#151517 15% 62%,#0b0b0c 63%);
+      border:1px solid #333337
+    }
+    .knob:before{
+      content:"";position:absolute;inset:-6px;border-radius:50%;
+      border:6px solid transparent;border-top-color:var(--yellow);border-left-color:var(--yellow);
+      transform:rotate(-18deg)
+    }
+    .knob:after{
+      content:"";position:absolute;width:2px;height:23px;background:#ddd;left:50%;top:10px;
+      transform-origin:50% 25px;transform:rotate(14deg)
+    }
+    .knob.sm{width:56px;height:56px}.knob.sm:after{height:18px;top:8px}.knob.sm:before{border-width:5px}
+    .big-wrap{text-align:center}
+    .big-label{font-size:10px;font-weight:1000;letter-spacing:.17em}
+    .bigknob{
+      width:184px;height:184px;margin:12px auto 8px;border-radius:50%;position:relative;
+      background:radial-gradient(circle,#19191b 0 32%,#111113 33% 64%,#080809 65%);
+      border:1px solid #353539;box-shadow:inset 0 0 34px rgba(0,0,0,.6)
+    }
+    .bigknob:before{
+      content:"";position:absolute;inset:-10px;border-radius:50%;border:10px solid transparent;
+      border-top-color:var(--yellow);border-left-color:var(--yellow);transform:rotate(-28deg)
+    }
+    .bigknob:after{
+      content:"";position:absolute;width:4px;height:57px;background:#eee;left:50%;top:22px;
+      transform-origin:50% 70px;transform:rotate(-9deg);border-radius:3px
+    }
+    .big-value{font-size:12px;font-weight:1000;letter-spacing:.1em}
+    .modes{display:flex;justify-content:center;gap:5px;margin-top:18px}
+    .modes span{padding:8px 10px;border:1px solid #414145;font-size:7px;font-weight:1000;letter-spacing:.08em}
+    .modes .active{background:var(--yellow);color:#080808;border-color:var(--yellow)}
+    .meters{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;height:145px;align-items:end}
+    .bar{position:relative;height:100%;background:#151517;border:1px solid #242428}
+    .bar i{position:absolute;left:0;right:0;bottom:0;background:linear-gradient(#737378,#38383c);height:82%}
+    .bar:nth-child(2) i{height:72%}.bar:nth-child(3) i{height:90%}.bar:nth-child(4) i{height:58%}
+    .meter-labels{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;text-align:center;margin-top:6px;font-size:7px;color:#77777d}
+    .plugin-foot{display:flex;justify-content:space-between;margin-top:19px;padding-top:13px;border-top:1px solid #27272b;font-size:8px;color:#65656b;letter-spacing:.12em}
+    .plugin-foot b{color:#cfcfd2}
+    .proof{
+      display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)
+    }
+    .proof div{padding:25px 18px;border-right:1px solid var(--line)}
+    .proof div:last-child{border-right:0}
+    .proof b{display:block;font-size:18px;letter-spacing:-.02em}
+    .proof span{display:block;margin-top:6px;font-size:9px;color:#67676d;letter-spacing:.13em;font-weight:800}
+    section.block{padding:82px 0;border-bottom:1px solid var(--line)}
+    .section-top{display:grid;grid-template-columns:.7fr 1.3fr;gap:40px;margin-bottom:34px}
+    .section-top .n{font-size:10px;color:var(--yellow);font-weight:1000;letter-spacing:.2em}
+    .section-top h2{margin:0;font-size:clamp(37px,5vw,64px);line-height:.95;letter-spacing:-.05em}
+    .section-top p{margin:17px 0 0;color:#89898f;line-height:1.9;font-size:13px;max-width:650px}
+    .feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+    .feature{
+      min-height:210px;padding:24px;border:1px solid var(--line);background:rgba(10,10,11,.82);
+      position:relative;overflow:hidden
+    }
+    .feature:after{
+      content:"";position:absolute;width:110px;height:110px;border-radius:50%;
+      border:1px solid rgba(255,217,26,.11);right:-36px;top:-36px
+    }
+    .feature .tag{font-size:9px;color:var(--yellow);font-weight:1000;letter-spacing:.15em}
+    .feature h3{margin:35px 0 0;font-size:20px;letter-spacing:-.025em}
+    .feature p{margin:11px 0 0;color:#77777d;font-size:12px;line-height:1.75}
+    .chain{
+      display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--line)
+    }
+    .chain div{padding:22px 14px;min-height:110px;border-right:1px solid var(--line);background:#09090a}
+    .chain div:last-child{border-right:0}
+    .chain b{font-size:11px;letter-spacing:.1em}.chain span{display:block;margin-top:9px;font-size:10px;color:#66666c;line-height:1.5}
+    .chain em{font-style:normal;color:var(--yellow);font-size:9px;font-weight:1000}
+    .preset-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+    .preset{padding:17px 10px;border:1px solid var(--line);background:#0b0b0c;text-align:center;font-size:10px;font-weight:1000;letter-spacing:.08em}
+    .preset:first-child{border-color:#434348;color:#aaa}.preset:not(:first-child){border-color:rgba(255,217,26,.22)}
+    .match{
+      display:grid;grid-template-columns:1.1fr .9fr;border:1px solid var(--line);background:#09090a
+    }
+    .match-copy{padding:40px}.match-copy b{color:var(--yellow);font-size:10px;letter-spacing:.18em}
+    .match-copy h3{margin:12px 0 0;font-size:37px;letter-spacing:-.045em}
+    .match-copy p{color:#84848a;font-size:13px;line-height:1.85}
+    .ab{display:grid;grid-template-columns:1fr 1fr;border-left:1px solid var(--line)}
+    .ab div{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:12px}
+    .ab div+div{border-left:1px solid var(--line)}
+    .ab strong{font-size:34px}.ab span{font-size:8px;letter-spacing:.17em;color:#737379}
+    .ab .after strong{color:var(--yellow)}
+    .system{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    .sys{padding:23px;border:1px solid var(--line);background:#0a0a0b}
+    .sys small{color:#6e6e74;font-size:9px;letter-spacing:.15em;font-weight:900}
+    .sys strong{display:block;margin-top:9px;font-size:17px}
+    .buy{
+      padding:90px 0;text-align:center;position:relative;overflow:hidden
+    }
+    .buy:before{
+      content:"ZASU LOUD";position:absolute;left:50%;top:50%;transform:translate(-50%,-54%);
+      font-size:clamp(90px,19vw,220px);font-weight:1000;white-space:nowrap;letter-spacing:-.08em;
+      color:rgba(255,255,255,.018);pointer-events:none
+    }
+    .buy-in{position:relative;z-index:1}
+    .buy .mini{font-size:10px;color:var(--yellow);font-weight:1000;letter-spacing:.21em}
+    .buy h2{font-size:clamp(46px,7vw,82px);margin:16px 0 0;letter-spacing:-.055em}
+    .price{display:flex;justify-content:center;align-items:end;gap:13px;margin-top:27px}
+    .price strong{font-size:58px;letter-spacing:-.06em}.price del{color:#5f5f65;font-size:17px;margin-bottom:10px}
+    .limited{margin-top:5px;color:#77777d;font-size:10px;letter-spacing:.12em}
+    .buy-button{
+      width:min(440px,100%);min-height:60px;margin:28px auto 0;display:flex;align-items:center;justify-content:center;
+      background:#1a1a1c;border:1px solid #333338;color:#77777c;font-size:11px;font-weight:1000;letter-spacing:.17em;cursor:not-allowed
+    }
+    .buy-note{font-size:10px;color:#5e5e63;margin-top:12px}
+    .facts{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;margin-top:27px;color:#8d8d92;font-size:9px;font-weight:900;letter-spacing:.1em}
+    .facts span:before{content:"✓";color:var(--yellow);margin-right:7px}
+    .faq{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    details{border:1px solid var(--line);background:#09090a;padding:19px 20px}
+    summary{cursor:pointer;font-size:12px;font-weight:900;list-style:none}
+    summary::-webkit-details-marker{display:none}
+    details p{color:#77777d;font-size:11px;line-height:1.8;margin:14px 0 0}
+    footer{
+      padding:28px 0 0;display:flex;justify-content:space-between;gap:20px;
+      color:#48484e;font-size:9px;letter-spacing:.13em
+    }
+    @media(max-width:860px){
+      .hero{grid-template-columns:1fr;min-height:auto;padding:58px 0}
+      .plugin{max-width:620px;margin:auto;transform:none}
+      .proof{grid-template-columns:1fr 1fr}.proof div:nth-child(2){border-right:0}
+      .proof div:nth-child(-n+2){border-bottom:1px solid var(--line)}
+      .section-top{grid-template-columns:1fr}.feature-grid{grid-template-columns:1fr 1fr}
+      .chain{grid-template-columns:1fr}.chain div{border-right:0;border-bottom:1px solid var(--line)}
+      .chain div:last-child{border-bottom:0}.preset-grid{grid-template-columns:repeat(3,1fr)}
+      .match{grid-template-columns:1fr}.ab{min-height:180px;border-left:0;border-top:1px solid var(--line)}
+    }
+    @media(max-width:600px){
+      .wrap{padding:0 14px 70px}.nav{height:60px}.navlinks a:not(.navbuy){display:none}
+      .hero h1{font-size:22vw}.lead{font-size:14px}.plugin{padding:17px;border-radius:14px}
+      .plugin-grid{grid-template-columns:.8fr 1.2fr;gap:12px}.meters-wrap{grid-column:1/-1}
+      .bigknob{width:150px;height:150px}.bigknob:after{height:45px;transform-origin:50% 59px}
+      .knob{width:56px;height:56px}.knob:after{height:18px}.knob:before{border-width:5px}
+      section.block{padding:60px 0}.feature-grid,.system,.faq{grid-template-columns:1fr}
+      .preset-grid{grid-template-columns:1fr 1fr}.match-copy{padding:27px}
+      .proof div{padding:20px 12px}.price strong{font-size:50px}
+      footer{flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="nav">
+      <a class="brand" href="/portal/">ZASU <span>WORKS</span></a>
+      <div class="navlinks">
+        <a href="#features">FEATURES</a>
+        <a href="#workflow">ENGINE</a>
+        <a href="#system">SYSTEM</a>
+        <a class="navbuy" href="#buy">BUY / ¥2,980</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div>
+        <div class="eyebrow">ZASU WORKS / AUDIO PLUGIN</div>
+        <h1>ZASU<br>LOUD.<small>LOUDER. NOT WORSE.</small></h1>
+        <p class="lead">
+          <strong>音圧を、壊さず前へ。</strong><br>
+          ZASU LOUDは、ただ音を潰して大きくするだけのリミッターではありません。
+          低域、トランジェント、ピーク、素材のラウドさを見ながら、複数段で音圧を作るmacOS向けラウドネス・プロセッサーです。
+        </p>
+        <div class="hero-actions">
+          <a class="primary" href="#buy">LAUNCH PRICE — ¥2,980</a>
+          <a class="secondary" href="#features">SEE THE ENGINE ↓</a>
+        </div>
+        <div class="price-note"><b>通常価格 ¥3,500</b> / ローンチ期間のみ ¥2,980</div>
+      </div>
+
+      <div class="plugin" aria-label="ZASU LOUD plugin interface illustration">
+        <div class="plugin-head">
+          <div class="plugin-logo">ZASU LOUD<span>LOUDER. NOT WORSE.</span></div>
+          <div class="power">◯</div>
+        </div>
+        <div class="plugin-grid">
+          <div class="mini-knobs">
+            <div class="kgrp"><small>PUNCH</small><div class="knob sm"></div></div>
+            <div class="kgrp"><small>TONE</small><div class="knob sm"></div></div>
+            <div class="kgrp"><small>OUTPUT</small><div class="knob sm"></div></div>
+            <div class="kgrp"><small>LINK</small><div class="knob sm"></div></div>
+          </div>
+          <div class="big-wrap">
+            <div class="big-label">LOUD</div>
+            <div class="bigknob"></div>
+            <div class="big-value">+6.0 dB</div>
+            <div class="modes"><span>NORMAL</span><span class="active">LOUD</span><span>EXTREME</span></div>
+          </div>
+          <div class="meters-wrap">
+            <div class="meters"><div class="bar"><i></i></div><div class="bar"><i></i></div><div class="bar"><i></i></div><div class="bar"><i></i></div></div>
+            <div class="meter-labels"><span>IN</span><span>OUT</span><span>PEAK</span><span>GR</span></div>
+          </div>
+        </div>
+        <div class="plugin-foot"><span><b>4×</b> OVERSAMPLING</span><span>AU / VST3</span><span>v1.1.2</span></div>
+      </div>
+    </header>
+
+    <section class="proof">
+      <div><b>4×</b><span>OVERSAMPLING</span></div>
+      <div><b>3 MODES</b><span>NORMAL / LOUD / EXTREME</span></div>
+      <div><b>6 PRESETS</b><span>FACTORY PROGRAMS</span></div>
+      <div><b>AU / VST3</b><span>APPLE SILICON / macOS</span></div>
+    </section>
+
+    <section class="block" id="features">
+      <div class="section-top">
+        <div class="n">01 / WHY IT HITS</div>
+        <div>
+          <h2>音圧は上げる。<br>気持ちよさは残す。</h2>
+          <p>ひとつのリミッターに全部を任せず、壊れやすい要素を先に守ってからラウド化。ZASU LOUDは“押し潰す”より“前へ出す”ための設計です。</p>
+        </div>
+      </div>
+      <div class="feature-grid">
+        <article class="feature"><div class="tag">LOW-END PROTECT</div><h3>低域を守る。</h3><p>キックやベースの芯が先に潰れないよう、低域の挙動を穏やかに保護します。</p></article>
+        <article class="feature"><div class="tag">TRANSIENT PROTECT</div><h3>アタックを残す。</h3><p>PUNCHに応じてトランジェントを逃がし、スネアやキックの立ち上がりを残します。</p></article>
+        <article class="feature"><div class="tag">ALREADY LOUD GUARD</div><h3>押しすぎない。</h3><p>すでにラウドな素材を検知し、内部Driveを自動バックオフ。必要以上に壊しません。</p></article>
+        <article class="feature"><div class="tag">CLIPPER → LIMITER</div><h3>仕事を分散。</h3><p>ピーク整理と最終制御を2段に分け、1つの処理だけへ負荷を集中させません。</p></article>
+        <article class="feature"><div class="tag">STEREO LINK</div><h3>像をコントロール。</h3><p>左右のゲインリダクションのリンク量を調整。ステレオ像を保ちながら押し込めます。</p></article>
+        <article class="feature"><div class="tag">MATCH</div><h3>大きさに騙されない。</h3><p>処理後だけ音量を下げるFAIR A/B。音量差を減らして、本当に良くなったか確認できます。</p></article>
+      </div>
+    </section>
+
+    <section class="block" id="workflow">
+      <div class="section-top">
+        <div class="n">02 / ENGINE</div>
+        <div>
+          <h2>ただの“LOUDノブ”ではない。</h2>
+          <p>操作はシンプル。でも内部では、ZASU MASTER開発で培った「素材を見ながら無理をさせない」考え方をリアルタイム処理へ落とし込んでいます。</p>
+        </div>
+      </div>
+      <div class="chain">
+        <div><em>01</em><br><b>TONE</b><span>入力の質感を調整。</span></div>
+        <div><em>02</em><br><b>PROTECT</b><span>Low-end / transientを保護。</span></div>
+        <div><em>03</em><br><b>CLIP</b><span>ピークを先に整理。</span></div>
+        <div><em>04</em><br><b>LIMIT</b><span>最後の密度とCeilingを制御。</span></div>
+        <div><em>05</em><br><b>MATCH</b><span>FAIR A/B用に出力を整える。</span></div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="section-top">
+        <div class="n">03 / MODES & PRESETS</div>
+        <div>
+          <h2>まず選ぶ。<br>あとはLOUDを回す。</h2>
+          <p>初見でも迷わない3モードとFactory Program。細かく追い込むことも、数秒で決めることもできます。</p>
+        </div>
+      </div>
+      <div class="preset-grid">
+        <div class="preset">ZASU DEFAULT</div>
+        <div class="preset">MASTER</div>
+        <div class="preset">METAL</div>
+        <div class="preset">VOCAL</div>
+        <div class="preset">DRUM BUS</div>
+        <div class="preset">MAX LOUD</div>
+      </div>
+      <div class="modes" style="margin-top:18px;justify-content:flex-start">
+        <span>NORMAL</span><span class="active">LOUD</span><span>EXTREME</span>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="match">
+        <div class="match-copy">
+          <b>FAIR A/B</b>
+          <h3>MATCHで、本当に良い方を選ぶ。</h3>
+          <p>音が大きくなれば、それだけで良く聞こえます。MATCHは処理後の音量を下げて、音圧差による錯覚を減らします。LOUDを上げた意味があるか、耳で判断できます。</p>
+        </div>
+        <div class="ab">
+          <div><strong>A</strong><span>BYPASS / ORIGINAL</span></div>
+          <div class="after"><strong>B</strong><span>ZASU LOUD / MATCHED</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="system">
+      <div class="section-top">
+        <div class="n">04 / SYSTEM</div>
+        <div>
+          <h2>macOSで、すぐ使える。</h2>
+          <p>正式版InstallerはDeveloper ID署名・Apple Notarization・Staple・Gatekeeper検証まで完了した配布用パッケージです。</p>
+        </div>
+      </div>
+      <div class="system">
+        <div class="sys"><small>PLATFORM</small><strong>macOS / Apple Silicon</strong></div>
+        <div class="sys"><small>FORMATS</small><strong>Audio Unit (AU) / VST3</strong></div>
+        <div class="sys"><small>VALIDATED</small><strong>Logic Pro / Apple AU Validation</strong></div>
+        <div class="sys"><small>RELEASE</small><strong>ZASU LOUD v1.1.2</strong></div>
+      </div>
+    </section>
+
+    <section class="buy" id="buy">
+      <div class="buy-in">
+        <div class="mini">INTRODUCTORY LAUNCH PRICE</div>
+        <h2>LOUDER.<br>NOT WORSE.</h2>
+        <div class="price"><strong>¥2,980</strong><del>¥3,500</del></div>
+        <div class="limited">ローンチ期間限定価格 / 通常価格 ¥3,500</div>
+        <div class="buy-button" aria-disabled="true">PURCHASE LINK — COMING SOON</div>
+        <div class="buy-note">決済リンク公開後、このボタンからすぐ購入できるようになります。</div>
+        <div class="facts">
+          <span>AU + VST3</span><span>APPLE NOTARIZED</span><span>FACTORY PRESETS</span><span>ONE-TIME PURCHASE</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="section-top">
+        <div class="n">05 / FAQ</div>
+        <div><h2>よくある質問。</h2></div>
+      </div>
+      <div class="faq">
+        <details><summary>ZASU LOUDは何をするプラグインですか？</summary><p>マスター、ドラムバス、ボーカルなどへ挿して、ピーク整理・クリップ・リミット・保護処理を組み合わせながら音圧と密度を上げるラウドネス・プロセッサーです。</p></details>
+        <details><summary>Limiterとの違いは？</summary><p>最終段だけで音圧を稼ぐのではなく、low-end protect、transient protect、clipper、limiter、Already Loud Guardなど複数の処理へ仕事を分散しています。</p></details>
+        <details><summary>どのDAWで使えますか？</summary><p>AUまたはVST3を読み込めるmacOS DAW向けです。正式版ではLogic Pro / AU Validationで検証しています。</p></details>
+        <details><summary>Intel Macでも使えますか？</summary><p>現在の正式版はApple Silicon向けです。Intel / Universal 2対応は今後の対応候補です。</p></details>
+      </div>
+    </section>
+
+    <footer>
+      <span>© <span id="year"></span> ZASU WORKS — TOKYO, JAPAN</span>
+      <span>ZASU LOUD v1.1.2 / LOUDER. NOT WORSE.</span>
+    </footer>
+  </main>
+  <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
