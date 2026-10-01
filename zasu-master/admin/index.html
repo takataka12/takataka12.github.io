@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex,nofollow,noarchive">
 <meta name="theme-color" content="#080808">
 <title>ZASU AUDIO ADMIN</title>
-<link rel="stylesheet" href="assets/style.css?v=20261001-admin1">
+<link rel="stylesheet" href="assets/style.css?v=20261001-feedback1">
 </head>
 <body>
 <header>
@@ -87,6 +87,26 @@
     </section>
 
     <section class="two-col">
+      <article class="panel feedback-admin">
+        <div class="section-head"><span>FEEDBACK / v1</span><h2>User Satisfaction</h2></div>
+        <div class="feedback-score"><strong id="feedbackRate">—</strong><span>POSITIVE</span></div>
+        <div class="mini-metrics three">
+          <div><span>TOTAL</span><strong id="feedbackTotal">—</strong></div>
+          <div><span>👍 POSITIVE</span><strong id="feedbackPositive">—</strong></div>
+          <div><span>👎 NEGATIVE</span><strong id="feedbackNegative">—</strong></div>
+        </div>
+        <div class="feedback-service-grid">
+          <div><span>MIX</span><strong id="feedbackMix">—</strong></div>
+          <div><span>MASTER</span><strong id="feedbackMaster">—</strong></div>
+        </div>
+      </article>
+      <article class="panel">
+        <div class="section-head"><span>FEEDBACK TAGS</span><h2>What users say</h2></div>
+        <div id="feedbackTags" class="bars"></div>
+      </article>
+    </section>
+
+    <section class="two-col">
       <article class="panel">
         <div class="section-head"><span>STORAGE</span><h2>Supabase Storage</h2></div>
         <div class="mini-metrics">
@@ -133,6 +153,6 @@
 
 <footer><div class="wrap">ZASU AUDIO ADMIN / PRIVATE OPERATIONS</div></footer>
 <script src="assets/config.js?v=20261001-admin1"></script>
-<script src="assets/admin.js?v=20261001-admin1"></script>
+<script src="assets/admin.js?v=20261001-feedback1"></script>
 </body>
 </html>
