@@ -107,6 +107,7 @@ function render(body){
   setText("#feedbackMix",fmtInt(mixFb.total||0)+" / 👍 "+mixRate+"%");
   setText("#feedbackMaster",fmtInt(masterFb.total||0)+" / 👍 "+masterRate+"%");
   renderBars("#feedbackTags",fb.tags||{});
+  renderFeedback(Array.isArray(fb.recent)?fb.recent:[]);
 
   const storage=body.storage||{};
   setText("#storageTotal",fmtBytes(storage.total_bytes));
@@ -128,6 +129,22 @@ function renderJobs(rows){
   const tbody=q("#currentJobsBody");tbody.innerHTML="";
   if(!rows.length){const tr=document.createElement("tr");const cell=td("現在、待機・処理中のジョブはありません。");cell.colSpan=4;cell.className="empty";tr.appendChild(cell);tbody.appendChild(tr);return}
   for(const x of rows){const tr=document.createElement("tr");tr.append(td(x.service,true),td(x.status),td(x.stage),td(age(x.created_at)));tbody.appendChild(tr)}
+}
+function renderFeedback(rows){
+  const tbody=q("#feedbackBody");tbody.innerHTML="";
+  if(!rows.length){
+    const tr=document.createElement("tr");
+    const cell=td("まだFeedback v1の回答はありません。");
+    cell.colSpan=5;cell.className="empty";tr.appendChild(cell);tbody.appendChild(tr);return;
+  }
+  for(const x of rows){
+    const tr=document.createElement("tr");
+    const vote=Number(x.sentiment)===1?"👍":"👎";
+    const tags=(Array.isArray(x.tags)?x.tags:[]).join(", ")||"—";
+    const comment=String(x.comment||"—").slice(0,180);
+    tr.append(td(String(x.service||"").toUpperCase(),true),td(vote),td(tags),td(comment),td(dt(x.created_at)));
+    tbody.appendChild(tr);
+  }
 }
 function renderErrors(rows){
   const tbody=q("#errorsBody");tbody.innerHTML="";
