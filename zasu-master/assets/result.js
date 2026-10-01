@@ -23,6 +23,7 @@ const devMode=new URLSearchParams(location.search).get("dev")==="1";
 let pollTimer=null;
 let accessToken=localStorage.getItem("zasu_beta_access_token")||"";
 let applicationNo=Number(localStorage.getItem("zasu_beta_application_no")||0);
+let activeJobId=sessionStorage.getItem("zasu_result_job_id")||"";
 
 const handoffRaw=sessionStorage.getItem("zasu_result_handoff");
 if(handoffRaw){
@@ -112,6 +113,10 @@ function addRetryAction(){
 
 function render(body){
   clearResult();
+  if(body?.job_id){
+    activeJobId=String(body.job_id);
+    sessionStorage.setItem("zasu_result_job_id",activeJobId);
+  }
   const s=body.status;
   const stage=String(body.stage||s||"");
 
@@ -306,6 +311,10 @@ async function unlockMasterFull(){
         });
         const body=await res.json().catch(()=>({}));
         if(res.ok){
+          if(body.job_id){
+            activeJobId=String(body.job_id);
+            sessionStorage.setItem("zasu_result_job_id",activeJobId);
+          }
           if(previewMasterGate)previewMasterGate.hidden=true;
           setState("QUEUED","フル尺処理待ち","FULL PROCESSのMASTERクレジットを使って開始します。");
           setTimeout(check,800);
@@ -340,6 +349,10 @@ async function unlockMasterFull(){
     });
     const body=await res.json().catch(()=>({}));
     if(!res.ok)throw new Error(body.error||"unlock_failed");
+    if(body.job_id){
+      activeJobId=String(body.job_id);
+      sessionStorage.setItem("zasu_result_job_id",activeJobId);
+    }
     if(previewMasterGate)previewMasterGate.hidden=true;
     if(unlockMasterStatus)unlockMasterStatus.textContent="";
     setState("QUEUED","フル尺処理待ち","プレビュー確認済み。フル尺マスタリングを開始します。");
@@ -392,6 +405,10 @@ async function unlockMasterDev(){
       }
       throw new Error(body.error||"dev_unlock_failed");
     }
+    if(body.job_id){
+      activeJobId=String(body.job_id);
+      sessionStorage.setItem("zasu_result_job_id",activeJobId);
+    }
     if(previewMasterGate)previewMasterGate.hidden=true;
     if(unlockMasterStatus)unlockMasterStatus.textContent="";
     setState("DEV / QUEUED","DEV FULL MASTER 処理待ち","管理者DEVモードで決済をスキップし、フル尺マスタリングを開始します。");
@@ -413,7 +430,11 @@ async function check(){
   }
 
   try{
-    const body=await post({application_no:no,access_token:accessToken});
+    const body=await post({
+      application_no:no,
+      access_token:accessToken,
+      ...(activeJobId?{job_id:activeJobId}:{})
+    });
     const shouldPoll=render(body);
     if(pollTimer)clearTimeout(pollTimer);
     if(shouldPoll)pollTimer=setTimeout(check,7000);
