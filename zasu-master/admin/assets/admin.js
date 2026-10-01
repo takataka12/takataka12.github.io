@@ -73,7 +73,7 @@ function render(body){
   setText("#generatedAt","UPDATED "+dt(body.generated_at));
   renderHealth(body.health||{});
   renderAlerts(body.alerts||{});
-  renderCostGuard(body.cost_guard||{});
+  renderCostGuard(body.cost_guard||{},body.alerts||{});
   renderAbuse(body.abuse||{});
   const mix=body.mix||{},master=body.master||{},convert=body.convert||{},orders=body.orders||{};
   setText("#mixTotal",fmtInt(mix.total));setText("#mixMeta","SUCCESS "+success(mix)+"% / FAILED "+fmtInt(mix.failed));
@@ -160,7 +160,7 @@ async function costGuardAction(action){
     pauseBtn.disabled=false;resumeBtn.disabled=false;
   }
 }
-function renderCostGuard(costGuard){
+function renderCostGuard(costGuard,alerts){
   const state=costGuard?.state||{};
   const paused=state.emergency_paused===true;
   const root=q("#costGuardBrake");
@@ -170,6 +170,10 @@ function renderCostGuard(costGuard){
     ?String(state.pause_reason||"processing paused")
     :"新規処理の受付は通常稼働中です。");
   setText("#costGuardAuto",state.auto_enabled===false?"OFF":"ON");
+  const delivery=alerts?.delivery||{};
+  const notifyReady=delivery.domain_verified===true&&delivery.transport_enabled===true&&delivery.api_key_configured===true&&delivery.recipient_configured===true;
+  const notifyPending=delivery.api_key_configured===true&&delivery.recipient_configured===true&&!notifyReady;
+  setText("#costGuardNotify",notifyReady?"ACTIVE":notifyPending?"DNS PENDING":"OFF");
   setText("#costGuardChecked",dt(state.last_evaluated_at));
   const m=state.last_metrics||{};
   const growth=Number(m.storage_growth_bytes_15m||0);
