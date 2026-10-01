@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="theme-color" content="#080808">
+<title>ZASU AUDIO ADMIN</title>
+<link rel="stylesheet" href="assets/style.css?v=20261001-admin1">
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="../index.html"><strong>ZASU AUDIO</strong><span>ADMIN / ZASU WORKS</span></a>
+    <div class="health"><i id="healthDot"></i><span id="healthText">LOCKED</span></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section class="hero">
+    <div class="kicker">OPERATIONS DASHBOARD / v1</div>
+    <h1>ADMIN.</h1>
+    <p>利用状況・処理状態・売上・Storage・エラーを一画面で確認。</p>
+  </section>
+
+  <section id="loginPanel" class="panel login-panel">
+    <div>
+      <span class="eyebrow">PRIVATE ACCESS</span>
+      <h2>管理者キーを入力</h2>
+      <p>キーはこのタブのsessionStorageだけに保持されます。</p>
+    </div>
+    <form id="loginForm">
+      <input id="adminKey" type="password" autocomplete="current-password" placeholder="ZASU DEV ADMIN KEY">
+      <button class="btn" type="submit">OPEN DASHBOARD</button>
+    </form>
+    <div id="loginStatus" class="status"></div>
+  </section>
+
+  <div id="dashboard" hidden>
+    <section class="toolbar">
+      <div class="range-group">
+        <button class="range active" data-hours="24">24H</button>
+        <button class="range" data-hours="168">7D</button>
+        <button class="range" data-hours="720">30D</button>
+      </div>
+      <div class="toolbar-right">
+        <span id="generatedAt">—</span>
+        <button id="refreshButton" class="mini-btn">REFRESH</button>
+        <button id="lockButton" class="mini-btn">LOCK</button>
+      </div>
+    </section>
+
+    <section class="metric-grid">
+      <article class="metric-card"><span>MIX JOBS</span><strong id="mixTotal">—</strong><small id="mixMeta">—</small></article>
+      <article class="metric-card"><span>MASTER JOBS</span><strong id="masterTotal">—</strong><small id="masterMeta">—</small></article>
+      <article class="metric-card"><span>CONVERT JOBS</span><strong id="convertTotal">—</strong><small id="convertMeta">—</small></article>
+      <article class="metric-card accent"><span>REVENUE</span><strong id="revenue">—</strong><small id="revenueMeta">—</small></article>
+    </section>
+
+    <section class="two-col">
+      <article class="panel">
+        <div class="section-head"><span>LIVE</span><h2>現在の処理状況</h2></div>
+        <div class="mini-metrics">
+          <div><span>ACTIVE / WAITING</span><strong id="queueCount">—</strong></div>
+          <div><span>PREFLIGHT REVIEW</span><strong id="reviewCount">—</strong></div>
+        </div>
+        <div class="table-wrap">
+          <table><thead><tr><th>SERVICE</th><th>STATUS</th><th>STAGE</th><th>AGE</th></tr></thead><tbody id="currentJobsBody"></tbody></table>
+        </div>
+      </article>
+
+      <article class="panel">
+        <div class="section-head"><span>PREFLIGHT</span><h2>Head Alignment Check</h2></div>
+        <div class="mini-metrics three">
+          <div><span>CHECKED</span><strong id="preflightChecked">—</strong></div>
+          <div><span>WARNING</span><strong id="preflightWarning">—</strong></div>
+          <div><span>OVERRIDE</span><strong id="preflightOverride">—</strong></div>
+        </div>
+        <div class="note" id="preflightNote">—</div>
+      </article>
+    </section>
+
+    <section class="three-col">
+      <article class="panel"><div class="section-head"><span>MIX</span><h2>Style</h2></div><div id="mixStyles" class="bars"></div></article>
+      <article class="panel"><div class="section-head"><span>MASTER</span><h2>Profile</h2></div><div id="masterProfiles" class="bars"></div></article>
+      <article class="panel"><div class="section-head"><span>MASTER</span><h2>Mode</h2></div><div id="masterModes" class="bars"></div></article>
+    </section>
+
+    <section class="two-col">
+      <article class="panel">
+        <div class="section-head"><span>STORAGE</span><h2>Supabase Storage</h2></div>
+        <div class="mini-metrics">
+          <div><span>TOTAL</span><strong id="storageTotal">—</strong></div>
+          <div><span>&gt;24H</span><strong id="storageOld">—</strong></div>
+        </div>
+        <div id="storageRows" class="storage-list"></div>
+      </article>
+
+      <article class="panel">
+        <div class="section-head"><span>AUTO CLEANUP</span><h2>24h Retention</h2></div>
+        <div class="cleanup-state"><i id="cleanupDot"></i><strong id="cleanupStatus">—</strong></div>
+        <dl class="details">
+          <div><dt>SCHEDULE</dt><dd id="cleanupSchedule">—</dd></div>
+          <div><dt>LAST RUN</dt><dd id="cleanupLast">—</dd></div>
+          <div><dt>ACTIVE</dt><dd id="cleanupActive">—</dd></div>
+        </dl>
+      </article>
+    </section>
+
+    <section class="two-col">
+      <article class="panel">
+        <div class="section-head"><span>COMMERCE</span><h2>Paid Plans</h2></div>
+        <div id="paidPlans" class="bars"></div>
+      </article>
+      <article class="panel">
+        <div class="section-head"><span>PROCESSING</span><h2>Performance</h2></div>
+        <div class="performance">
+          <div><span>MIX AVG</span><strong id="mixAvg">—</strong></div>
+          <div><span>MASTER AVG</span><strong id="masterAvg">—</strong></div>
+          <div><span>CONVERT AVG</span><strong id="convertAvg">—</strong></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="panel">
+      <div class="section-head"><span>ERROR LOG</span><h2>Recent errors</h2></div>
+      <div class="table-wrap">
+        <table><thead><tr><th>SERVICE</th><th>CODE</th><th>MESSAGE</th><th>TIME</th></tr></thead><tbody id="errorsBody"></tbody></table>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer><div class="wrap">ZASU AUDIO ADMIN / PRIVATE OPERATIONS</div></footer>
+<script src="assets/config.js?v=20261001-admin1"></script>
+<script src="assets/admin.js?v=20261001-admin1"></script>
+</body>
+</html>
