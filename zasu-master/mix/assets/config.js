@@ -8,5 +8,6 @@ window.ZASU_MIX_CONFIG={
   downloadBase:"https://zasu-mix-worker-production.up.railway.app",
   directMasterEndpoint:"https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-master-from-zasu-mix",
   masterSessionEndpoint:"https://siwmzradvrtetotakkbi.supabase.co/functions/v1/submit-beta-application",
+  feedbackEndpoint:"https://siwmzradvrtetotakkbi.supabase.co/functions/v1/submit-audio-feedback",
   maxBytes:524288000
 };
