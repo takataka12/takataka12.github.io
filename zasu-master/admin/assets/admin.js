@@ -95,6 +95,19 @@ function render(body){
   renderBars("#masterModes",body.master_modes||{});
   renderBars("#paidPlans",orders.plans||{});
 
+  const fb=body.feedback||{};
+  setText("#feedbackRate",fmtInt(fb.positive_rate)+"%");
+  setText("#feedbackTotal",fmtInt(fb.total));
+  setText("#feedbackPositive",fmtInt(fb.positive));
+  setText("#feedbackNegative",fmtInt(fb.negative));
+  const mixFb=fb.by_service?.mix||{};
+  const masterFb=fb.by_service?.master||{};
+  const mixRate=mixFb.total?Math.round(Number(mixFb.positive||0)/Number(mixFb.total)*100):0;
+  const masterRate=masterFb.total?Math.round(Number(masterFb.positive||0)/Number(masterFb.total)*100):0;
+  setText("#feedbackMix",fmtInt(mixFb.total||0)+" / 👍 "+mixRate+"%");
+  setText("#feedbackMaster",fmtInt(masterFb.total||0)+" / 👍 "+masterRate+"%");
+  renderBars("#feedbackTags",fb.tags||{});
+
   const storage=body.storage||{};
   setText("#storageTotal",fmtBytes(storage.total_bytes));
   setText("#storageOld",fmtBytes(storage.total_bytes_older_24h));
