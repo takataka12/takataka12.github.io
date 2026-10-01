@@ -11,6 +11,35 @@ async function api(action,payload={}){
   if(!r.ok)throw new Error(b.error||"request_failed");
   return b;
 }
+function renderQueueStatus(s){
+  const box=q("#queueStatus");
+  if(!box)return;
+  box.classList.remove("ready","processing","waiting");
+  if(!s||!["queued","processing"].includes(String(s.status||""))){
+    box.hidden=true;
+    return;
+  }
+  box.hidden=false;
+  if(s.status==="processing"){
+    box.classList.add("processing");
+    q("#queueHeadline").textContent="NOW PROCESSING";
+    const waiting=Number(s.queue_waiting_total||0);
+    q("#queueDetail").textContent=waiting>0?"処理中 / 後ろに待機 "+waiting+"件":"変換サーバーで実行中です。";
+    return;
+  }
+  const ahead=Math.max(0,Number(s.jobs_ahead||0));
+  const pos=Math.max(1,Number(s.queue_position||1));
+  if(ahead===0){
+    box.classList.add("ready");
+    q("#queueHeadline").textContent="READY / NO WAIT";
+    q("#queueDetail").textContent="待機なし。次に処理されます。";
+  }else{
+    box.classList.add("waiting");
+    q("#queueHeadline").textContent="POSITION "+pos;
+    q("#queueDetail").textContent="あなたの前に "+ahead+"件 / 現在の待機 "+Number(s.queue_waiting_total||0)+"件";
+  }
+}
+
 function outputSettings(){
   const fmt=q("#outputFormat").value;
   return{
@@ -124,6 +153,7 @@ async function poll(){
   if(!job)return;
   try{
     const s=await api("status",{job_id:job.id,access_token:job.token});
+    renderQueueStatus(s);
     const copy=stageCopy[s.stage]||["PROCESSING","変換処理中です。"];
     setProgress(Number(s.progress||0),copy[0],copy[1]);
     if(s.status==="completed"){showResult(s);return}
@@ -136,6 +166,7 @@ async function poll(){
 }
 function showResult(s){
   q("#convertButton").disabled=false;
+  if(q("#queueStatus"))q("#queueStatus").hidden=true;
   q("#resultFormat").textContent=String(s.output_format||"").toUpperCase();
   q("#resultRate").textContent=s.sample_rate?(Number(s.sample_rate)/1000).toFixed(s.sample_rate%1000?1:0)+" kHz":"—";
   q("#resultBits").textContent=s.output_format==="mp3"?(s.bitrate_kbps||320)+" kbps":(s.bit_depth?s.bit_depth+" bit":"—");
