@@ -1,6 +1,7 @@
 const cfg=window.ZASU_MIX_CONFIG||{};
 const q=s=>document.querySelector(s);
 let vocal=null,inst=null,style="modern",job=null,pollTimer=null,readyMix=null;
+const devMode=new URLSearchParams(location.search).get("dev")==="1";
 const STYLE_CONTROL_DEFAULTS={
   natural:{gain:0.5,reverb:8,body:0,presence:0,air:0},
   modern:{gain:2.0,reverb:14,body:0,presence:0,air:0.5},
@@ -203,6 +204,11 @@ function showPreview(s){
     s.preview_mix_url||null,
     downloadUrl("preview_mix")
   );
+  const devButton=q("#devUnlockMixButton");
+  if(devButton){
+    devButton.hidden=!devMode;
+    devButton.dataset.jobId=String((readyMix||job)?.id||"");
+  }
   if(cfg.commerceEnabled){
     q("#unlockMixButton").textContent="UNLOCK FULL MIX — ¥500";
     q("#unlockFullButton").textContent="MIX + MASTER — ¥800";
@@ -215,6 +221,61 @@ function showPreview(s){
   q("#resultCard").hidden=false;
   q("#resultCard").scrollIntoView({behavior:"smooth",block:"start"});
   sessionStorage.removeItem("zasu_mix_job");
+}
+
+async function unlockFullDev(){
+  const source=readyMix||job;
+  const statusEl=q("#previewUnlockStatus");
+  const devButton=q("#devUnlockMixButton");
+  if(!devMode||!source?.id||!source?.token){
+    if(statusEl)statusEl.textContent="DEV試聴ジョブが見つかりません。";
+    return;
+  }
+  let adminKey=sessionStorage.getItem("zasu_dev_admin_key")||"";
+  if(!adminKey){
+    adminKey=window.prompt("ZASU DEV ADMIN KEY")||"";
+    if(!adminKey)return;
+    sessionStorage.setItem("zasu_dev_admin_key",adminKey);
+  }
+
+  const buttons=[q("#unlockMixButton"),q("#unlockFullButton"),devButton].filter(Boolean);
+  buttons.forEach(x=>x.disabled=true);
+  if(statusEl)statusEl.textContent="DEV MODE — 決済なしでフル尺MIXを開始しています…";
+
+  try{
+    const r=await fetch(cfg.api,{
+      method:"POST",
+      headers:{
+        ...authHeaders(),
+        "x-zasu-admin-key":adminKey
+      },
+      body:JSON.stringify({
+        action:"unlock_full",
+        job_id:source.id,
+        access_token:source.token,
+        dev_mode:true
+      })
+    });
+    const body=await r.json().catch(()=>({}));
+    if(!r.ok){
+      if(r.status===401||body.error==="dev_unauthorized"){
+        sessionStorage.removeItem("zasu_dev_admin_key");
+        throw new Error("管理者キーが違います。");
+      }
+      throw new Error(body.error||"dev_unlock_failed");
+    }
+    if(body.processing_phase!=="full")throw new Error("dev_unlock_failed");
+    job=source;
+    sessionStorage.setItem("zasu_mix_job",JSON.stringify(job));
+    q("#previewGate").hidden=true;
+    q("#previewAbArea").hidden=true;
+    q("#resultCard").hidden=true;
+    setProgress(10,"DEV / QUEUED","管理者DEVモードで決済をスキップし、フル尺AUTO MIXを開始します。");
+    poll();
+  }catch(e){
+    if(statusEl)statusEl.textContent=e?.message||"DEVフル尺MIXを開始できませんでした。";
+    buttons.forEach(x=>x.disabled=false);
+  }
 }
 
 async function unlockFull(plan){
@@ -360,6 +421,7 @@ q("#sendStandard").addEventListener("click",()=>sendToMaster("standard"));
 q("#sendLoud").addEventListener("click",()=>sendToMaster("loud_otv"));
 q("#unlockMixButton").addEventListener("click",()=>unlockFull("mix"));
 q("#unlockFullButton").addEventListener("click",()=>unlockFull("full"));
+q("#devUnlockMixButton")?.addEventListener("click",unlockFullDev);
 
 const saved=sessionStorage.getItem("zasu_mix_job");
 if(saved){
