@@ -58,6 +58,10 @@ function setFile(file){
     status.textContent=err.message;
   }
 }
+// iOS/Safari may not fire "change" when the exact same file is selected twice.
+// Clear only the native input value before opening the picker; keep selectedFile
+// untouched so cancelling the picker does not lose the current selection.
+fileInput.addEventListener("click",()=>{fileInput.value="";});
 fileInput.addEventListener("change",()=>setFile(fileInput.files?.[0]));
 ["dragenter","dragover"].forEach(ev=>dropzone.addEventListener(ev,e=>{e.preventDefault();dropzone.classList.add("drag")}));
 ["dragleave","drop"].forEach(ev=>dropzone.addEventListener(ev,e=>{e.preventDefault();dropzone.classList.remove("drag")}));
