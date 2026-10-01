@@ -73,6 +73,7 @@ function render(body){
   setText("#generatedAt","UPDATED "+dt(body.generated_at));
   renderHealth(body.health||{});
   renderAlerts(body.alerts||{});
+  renderCostGuard(body.cost_guard||{});
   renderAbuse(body.abuse||{});
   const mix=body.mix||{},master=body.master||{},convert=body.convert||{},orders=body.orders||{};
   setText("#mixTotal",fmtInt(mix.total));setText("#mixMeta","SUCCESS "+success(mix)+"% / FAILED "+fmtInt(mix.failed));
@@ -131,6 +132,59 @@ function render(body){
   renderErrors(Array.isArray(body.recent_errors)?body.recent_errors:[]);
   setText("#healthText","ONLINE");q(".health").classList.add("online");
 }
+async function costGuardAction(action){
+  if(!adminKey)return;
+  const pause=action==="cost_guard_pause";
+  const message=pause
+    ?"新規MIX / MASTER / CONVERTの受付を一時停止します。進行中ジョブは継続します。実行しますか？"
+    :"COST GUARDの緊急停止を解除します。実行しますか？";
+  if(!window.confirm(message))return;
+  const pauseBtn=q("#costGuardPauseButton"),resumeBtn=q("#costGuardResumeButton");
+  pauseBtn.disabled=true;resumeBtn.disabled=true;
+  try{
+    const r=await fetch(cfg.endpoint,{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json",
+        "apikey":cfg.publishableKey,
+        "Authorization":"Bearer "+cfg.anonKey,
+        "x-zasu-admin-key":adminKey
+      },
+      body:JSON.stringify({action})
+    });
+    const body=await r.json().catch(()=>({}));
+    if(!r.ok)throw new Error(body.error||"cost_guard_action_failed");
+    await fetchStats();
+  }catch(e){
+    window.alert("COST GUARD操作に失敗しました: "+(e?.message||"unknown"));
+    pauseBtn.disabled=false;resumeBtn.disabled=false;
+  }
+}
+function renderCostGuard(costGuard){
+  const state=costGuard?.state||{};
+  const paused=state.emergency_paused===true;
+  const root=q("#costGuardBrake");
+  root.classList.toggle("paused",paused);
+  setText("#costGuardState",paused?"PAUSED":"READY");
+  setText("#costGuardReason",paused
+    ?String(state.pause_reason||"processing paused")
+    :"新規処理の受付は通常稼働中です。");
+  setText("#costGuardAuto",state.auto_enabled===false?"OFF":"ON");
+  setText("#costGuardChecked",dt(state.last_evaluated_at));
+  const m=state.last_metrics||{};
+  const growth=Number(m.storage_growth_bytes_15m||0);
+  const metrics=[
+    "10m accepted "+fmtInt(m.accepted_requests_10m||0),
+    "blocked "+fmtInt(m.blocked_requests_10m||0),
+    "queued "+fmtInt(m.queued_jobs_total||0),
+    "storage Δ15m "+fmtBytes(growth)
+  ];
+  setText("#costGuardMetrics",metrics.join(" / "));
+  const pauseBtn=q("#costGuardPauseButton"),resumeBtn=q("#costGuardResumeButton");
+  pauseBtn.disabled=paused;
+  resumeBtn.disabled=!paused;
+}
+
 function renderAbuse(abuse){
   setText("#abuseAttempts",fmtInt(abuse.attempts||0));
   setText("#abuseBlocked",fmtInt(abuse.blocked||0));
@@ -370,6 +424,8 @@ q("#loginForm").addEventListener("submit",e=>{
   e.preventDefault();const key=q("#adminKey").value.trim();if(!key)return;
   adminKey=key;sessionStorage.setItem("zasu_admin_key",key);sessionStorage.setItem("zasu_dev_admin_key",key);q("#adminKey").value="";fetchStats();
 });
+q("#costGuardPauseButton").addEventListener("click",()=>costGuardAction("cost_guard_pause"));
+q("#costGuardResumeButton").addEventListener("click",()=>costGuardAction("cost_guard_resume"));
 q("#refreshButton").addEventListener("click",fetchStats);
 q("#lockButton").addEventListener("click",()=>{sessionStorage.removeItem("zasu_admin_key");adminKey="";showLocked("ロックしました。")});
 document.querySelectorAll(".range").forEach(btn=>btn.addEventListener("click",()=>{
