@@ -10,11 +10,22 @@ const STYLE_CONTROL_DEFAULTS={
 };
 
 function humanBytes(n){n=Number(n||0);if(n<1024*1024)return(n/1024).toFixed(1)+" KB";return(n/1024/1024).toFixed(1)+" MB"}
-function authHeaders(){return{"Content-Type":"application/json","apikey":cfg.publishableKey,"Authorization":"Bearer "+cfg.anonKey}}
+function authHeaders(){
+  const h={"Content-Type":"application/json","apikey":cfg.publishableKey,"Authorization":"Bearer "+cfg.anonKey};
+  const admin=sessionStorage.getItem("zasu_admin_key")||sessionStorage.getItem("zasu_dev_admin_key");
+  if(admin)h["x-zasu-admin-key"]=admin;
+  return h;
+}
 async function api(action,payload={}){
   const r=await fetch(cfg.api,{method:"POST",headers:authHeaders(),body:JSON.stringify({action,...payload})});
   const b=await r.json().catch(()=>({}));
-  if(!r.ok)throw new Error(b.error||"request_failed");
+  if(!r.ok){
+    if(r.status===429||b.error==="rate_limited"){
+      const sec=Math.max(1,Number(b.retry_after_seconds||60));
+      throw new Error("短時間に処理リクエストが集中しています。約"+Math.ceil(sec/60)+"分後にもう一度お試しください。");
+    }
+    throw new Error(b.user_message||b.error||"request_failed");
+  }
   return b;
 }
 function setProgress(p,title,text){q("#jobProgress").hidden=false;q("#progressBar").style.width=Math.max(0,Math.min(100,p))+"%";q("#progressTitle").textContent=title;q("#progressText").textContent=text}
