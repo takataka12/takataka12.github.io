@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-01T00:56:11Z",
+  "generatedAt": "2026-10-01T17:11:00Z",
   "edition": "朝刊",
   "headline": "3分で今日を把握",
-  "overview": "芸能ではイベントや芸能人の移籍・独立に関する話題が報じられています。政治・経済では外国人政策、資産公開を巡る報道、企業の中国事業や金融市場への関心が目立ち、SNS発の商品の再発売や作品の書籍化も話題です。",
+  "overview": "政治では統一地方選の日程案や外国人政策を巡る動きが報じられています。経済では日経平均の大幅高、エンタメ・ネットではイベントや商品、SNS上の話題が注目されています。",
   "isSample": false,
   "topics": [
     {
-      "id": "entertainment-festival-sendai",
+      "id": "entertainment-china-festival-sendai",
       "category": "entertainment",
-      "title": "仙台市内でチャイナフェス、中国文化に触れる催し",
-      "whatHappened": "仙台市青葉区でチャイナフェスが開催されたと報じられています。グルメや音楽を通じて中国文化に触れる内容とされています。開催の詳細や来場者数は未確認です。",
-      "whyTrending": "地域イベントとして複数媒体が同じ話題を報じています。",
-      "context": "見出しでは、仙台市内で開催されたイベントであることが確認できます。",
+      "title": "仙台市でチャイナフェス、中国文化を紹介",
+      "whatHappened": "仙台市青葉区でチャイナフェスが開催されたと報じられています。話題のグルメや音楽を通じて、中国文化に触れるイベントとされています。",
+      "whyTrending": "地域イベントの開催が複数媒体で報じられています。",
+      "context": "会場の規模や参加者数などの詳細は、入力見出しからは確認できません。",
       "points": [
-        "会場は仙台市青葉区",
-        "グルメや音楽を展開",
+        "開催地は仙台市青葉区",
+        "グルメや音楽を扱うイベント",
         "中国文化に触れる催しと報道"
       ],
       "sourceCount": 2,
@@ -28,333 +28,326 @@
         },
         {
           "id": "16219b3aac2f",
-          "name": "news.yahoo.co.jp",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送）",
+          "name": "Yahoo!ニュース",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
           "publishedAt": "2026-09-26T07:38:13Z"
         }
       ],
-      "caution": "入力は見出しのみで、イベントの規模や内容の詳細は未確認です。"
+      "caution": "記事全文を確認していないため、イベントの具体的な内容や来場者数は未確認です。"
     },
     {
-      "id": "entertainment-agency-moves",
+      "id": "entertainment-monaki-change",
       "category": "entertainment",
-      "title": "芸能界で移籍・独立が相次ぐと報じられる",
-      "whatHappened": "芸能界で「再出発」の動きとして、移籍や独立が続いていると報じられています。見出しでは、竜星涼さんや岩田剛典さんに関する動きが挙げられています。具体的な契約内容や経緯は未確認です。",
-      "whyTrending": "複数媒体が同じ特集内容を報じ、著名人の活動基盤の変化に注目が集まっています。",
-      "context": "見出しでは、秋の動きとして芸能人の移籍・独立をまとめています。",
+      "title": "「モナキが変わりすぎて話題」と報道",
+      "whatHappened": "ナタリーが「モナキが変わりすぎて話題、特におヨネ」と報じています。見出しからは、何がどのように変化したのかは確認できません。",
+      "whyTrending": "同じ話題がナタリーとYahoo!ニュースで取り上げられています。",
+      "context": "「モナキ」や「おヨネ」の詳細な対象、変化の内容は入力からは不明です。",
       "points": [
-        "移籍や独立が続いていると報道",
-        "竜星涼さんの所属先に関する記述",
-        "岩田剛典さんの新会社設立に言及"
+        "ナタリーが報道",
+        "特に「おヨネ」に言及",
+        "変化の具体的内容は未確認"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "722e8d8fd155",
-          "name": "sponichi.co.jp",
-          "title": "芸能界「再出発」の秋 移籍や独立続々 竜星涼がオフィスにの、岩田剛典は新会社設立",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZlVqUWRtZE8yU2ZPOVFYUXJINDNydFB6Q1NXSkJKWEk3X2dtOHZGbml1cVhYSjNzbGt2cFdKVTQyanNHa1FXODVRa05DdXY3Q1ZzMFFfUkdRZ1UySUFrdWxBUFZLcmNqa0NTVHNwX3h2R05TQ0lEODNUdEpkeDZqQVZkRDBhSzcyYl9MbExlXzh3ZVoxRHc?oc=5",
-          "publishedAt": "2026-10-01T00:02:00Z"
+          "id": "c10e9cbaa947",
+          "name": "ナタリー",
+          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
+          "publishedAt": "2026-09-26T07:00:00Z"
         },
         {
-          "id": "042906bd25d6",
-          "name": "news.yahoo.co.jp",
-          "title": "芸能界「再出発」の秋 移籍や独立続々 竜星涼がオフィスにの、岩田剛典は新会社設立（スポニチアネックス）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zSDNoVEtQNlN1ZkJYQlZqNWd2NUNwb3RuWGd5NS1nQnNOTnlOUmhOTUs4NFlTZWRmT0F6YzlJRTlJM2VQbHRCcFhJNXVKeXVheFl6QmdIeTNzaUw5NlNBTVVLSzZVWHNZV192d0hWRUM5WEdzYUJxdnhJT3FuZ1k?oc=5",
-          "publishedAt": "2026-10-01T00:03:30Z"
+          "id": "2a10d16f1b0c",
+          "name": "Yahoo!ニュース",
+          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
+          "publishedAt": "2026-09-26T07:01:11Z"
         }
       ],
-      "caution": "見出し上の報道内容であり、各人の所属や会社設立の詳細は記事本文での確認が必要です。"
+      "caution": "見出しだけでは内容や対象を特定できず、詳細は未確認です。"
     },
     {
-      "id": "entertainment-yuri-nakamura",
+      "id": "entertainment-ito-shiro-retirement",
       "category": "entertainment",
-      "title": "中村ゆりさんの俳優としての歩みを振り返る記事が話題",
-      "whatHappened": "中村ゆりさんが14歳で芸能界入りし、40代で恋愛ドラマへの出演が増えたとする記事が報じられています。記事は、話題作に欠かせない俳優だった理由や最後の作品に触れています。",
-      "whyTrending": "複数媒体で人物の経歴や出演作を振り返る内容が掲載されています。",
-      "context": "見出しでは、中村さんを「享年44」と表記し、芸能活動の経歴を紹介しています。",
+      "title": "伊東四朗、来年6月で芸能活動引退と報道",
+      "whatHappened": "伊東四朗が来年6月で芸能活動を引退すると報じられています。Yahoo!ニュースでは、芸能界で活動進退の報告が相次いでいるとの見出しも掲載されています。",
+      "whyTrending": "引退に関する報道が掲載され、活動進退の話題と合わせて注目されています。",
+      "context": "引退の理由や具体的な活動予定は、入力見出しからは確認できません。",
       "points": [
-        "14歳で芸能界入りと報道",
-        "40代で恋愛ドラマへの出演が増えたと記載",
-        "最後の作品に言及"
+        "来年6月での引退と報道",
+        "対象は伊東四朗",
+        "引退理由などは未確認"
       ],
-      "sourceCount": 2,
+      "sourceCount": 1,
       "sources": [
         {
-          "id": "10a344bb2c24",
-          "name": "文春オンライン",
-          "title": "14歳で芸能界へ、40代で恋愛ドラマ急増…中村ゆりさん（享年44）が話題作に欠かせない俳優だった理由《最後の作品では…》",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1rX3BLS1YwbFAxcENoeVRscGFJLUFLTGt6LW5fNXh5TTNpbXBnWkNlZ3I0eVhiV0NKMUpWanhpMHhvV0lfeFhUNk56Yw?oc=5",
-          "publishedAt": "2026-09-30T01:00:00Z"
-        },
-        {
-          "id": "a0fa01e8e1c3",
-          "name": "news.yahoo.co.jp",
-          "title": "14歳で芸能界へ、40代で恋愛ドラマ急増…中村ゆりさん（享年44）が話題作に欠かせない俳優だった理由《最後の作品では…》",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWcGZCalhnazlmNEFLdURTUVVxTW5pMlhEbnI0bGRsSG5tTW5fYVBrelRUWkJkRmNkelN5c01pSVd1VWV0MnFnWU9uXzlDa1pjWk5QQU1iMXNZLV9fNEdnZGRmSTRLdGUxN1pDbEpZekRxWDc5aERsejZSbmJSSjQ?oc=5",
-          "publishedAt": "2026-09-30T01:12:17Z"
+          "id": "a443b25a3313",
+          "name": "Yahoo!ニュース",
+          "title": "伊東四朗 来年6月で芸能活動引退 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBENmQwS2FlM05scTBpdVJKUnNuZmFwVk14bW5EdTNLRkhybGtJNmxIcEtTUmNvTzdjeDBjQk04dEdDNlJMWHBfZEhjUmRUSkEt?oc=5",
+          "publishedAt": "2026-10-01T04:23:15Z"
         }
       ],
-      "caution": "生年・死去の経緯や「最後の作品」の詳細は、入力見出しだけでは確認できません。"
+      "caution": "引退時期は見出しに基づく報道内容であり、本人の発表内容や詳細は未確認です。"
     },
     {
-      "id": "politics-switzerland-neutrality",
+      "id": "politics-unified-local-election-date",
       "category": "politics",
-      "title": "スイス、中立政策の厳格化を否決と報じられる",
-      "whatHappened": "スイスで中立政策を厳格化する案が否決されたと報じられています。報道によると、政府には中立政策を柔軟に運用する余地が残るとされています。投票の詳細や背景は未確認です。",
-      "whyTrending": "複数の国際・国内媒体が同じ国民投票結果を報じています。",
-      "context": "論点は、スイスの中立政策をどの程度厳格に運用するかです。",
+      "title": "統一地方選、4月11日と25日投票で法案提出へ",
+      "whatHappened": "統一地方選の投票日を4月11日と25日とし、臨時国会に法案を提出する方針が報じられています。複数媒体が同じ日程案を伝えています。",
+      "whyTrending": "全国の地方選挙に関わる日程案が示され、複数媒体で報道されています。",
+      "context": "法案の成立状況や最終的な投票日は、入力見出しからは確認できません。",
       "points": [
-        "中立政策の厳格化案を否決と報道",
-        "政府に柔軟な運用余地が残るとされる",
-        "スイスの政策運営が焦点"
+        "投票日は4月11日と25日と報道",
+        "臨時国会への法案提出方針",
+        "最終決定の有無は未確認"
       ],
       "sourceCount": 3,
       "sources": [
         {
-          "id": "f4e347d48a71",
-          "name": "news.yahoo.co.jp",
-          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk?oc=5",
-          "publishedAt": "2026-09-28T01:32:14Z"
+          "id": "f69964b56c77",
+          "name": "Yahoo!ニュース",
+          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uU3l5bElaZ2ZndEV0Mm1uSFFKWFE1OG5VVWhrelBtU0JNNkl5WG9iWmgyczZNR1ppcmJtWjVhRVY2ZXRnbFdZcUllMHYxOWFXa2NxdHRxNFhxcWVGZUUtbFhldFFUWHhQVlpjLXhJYU5VVXlJWkRRWnBGWi1JeFU?oc=5",
+          "publishedAt": "2026-10-01T10:13:39Z"
         },
         {
-          "id": "201bcfe37ab9",
-          "name": "TBS NEWS DIG",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DUTVyMVhiM0s2Y2V0ZUNjWW81QlZLaXpNZUhVYlVmNmp5RHJiSVAtTVgzRDhiQV9nUFdQU2VBVVZtRE1HTHgzQ3dUTldvczUxbGlFOUVUajlDd2tNb2JrbjRBcGZEVWc?oc=5",
-          "publishedAt": "2026-09-28T00:04:21Z"
+          "id": "ffb00d2c7992",
+          "name": "日刊スポーツ",
+          "title": "統一選 ４月11、25日投票 臨時国会に法案提出へ - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUTF1Ti1MaElPekhYZFJlQXVLenRNZzZBWGotbFF4UDI5dVMwbUVsSVA2SE9CS3NwQUlheC1pa295RVp0SWJtQjJHajEzeEFGM3pvc1R2NG9pODAzMUhVS2g5QVZUNzQyV2szRDY5VDd1NVlyUzNFNVNHVFE3RDM4UHV5SVNtYzZ4NnFqN2tn?oc=5",
+          "publishedAt": "2026-10-01T10:32:10Z"
         },
         {
-          "id": "21efa8b0f0b1",
-          "name": "Bloomberg.com",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxcng3bFFWMFd3Q3F0ckd1ckhkMTUzN1N0eVBacUZhNmtHLXdJanItTHVJU0FZV3hMZW9GN09nd3lnbTZoSzI2LWo0ZWhpczBjbUtQUHRLQlU5TjNZTjA1X0ZNTk1DUDlSaVB1TGl3MGxNVEI3WlE0?oc=5",
-          "publishedAt": "2026-09-28T00:04:00Z"
+          "id": "4660a0966671",
+          "name": "ryukyushimpo.jp",
+          "title": "統一地方選４月１１、２５日投票 臨時国会に法案提出へ - ryukyushimpo.jp",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8yQW5vSl9WS29KdUZVOXp3Z1BsSzloMjYtOXhWY29OZ3lFTEVtLXA4X3V5a0h5NVhQczhtZHpDUUZBbi1OMmZCZHBHWmZHMzBjN0NfZVJrVzFtU3My?oc=5",
+          "publishedAt": "2026-10-01T10:13:41Z"
         }
       ],
-      "caution": "入力は見出しのみで、否決された案の具体的内容や投票結果の内訳は未確認です。"
+      "caution": "見出しは法案提出方針を伝えるもので、法案の内容や成立は未確認です。"
     },
     {
-      "id": "politics-aso-assets-report",
+      "id": "politics-land-permit-proposal",
       "category": "politics",
-      "title": "麻生太郎氏の資産報告を巡る報道、事務所は確認中と回答",
-      "whatHappened": "麻生太郎氏について、国会に報告されていない土地が3カ所あるとする報道が出ています。報道では資産公開法違反の可能性が指摘され、事務所は「現在確認中」と回答したとされています。",
-      "whyTrending": "政治家の資産公開と法令順守に関わる内容として報じられています。",
-      "context": "報道の焦点は、土地が資産公開の対象だったか、報告状況に問題があったかです。",
+      "title": "重要施設周辺の土地取得を許可制にする提言",
+      "whatHappened": "自民党の外国人政策本部が、安全保障上重要な施設周辺の土地取得を許可制とするよう政府に提言したと報じられています。これは同本部の提言であり、政府が制度化を決めたとの報道ではありません。",
+      "whyTrending": "安全保障と外国人政策に関わる制度案として、複数媒体が報じています。",
+      "context": "提言の対象範囲や政府の対応方針は、入力見出しからは確認できません。",
       "points": [
-        "土地3カ所を巡る報道",
-        "国会への未報告と指摘",
-        "事務所は確認中と回答したと報道"
+        "提言主体は自民党外国人政策本部",
+        "重要施設周辺の土地取得を許可制とする案",
+        "政府決定ではなく提言段階と報道"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "e5938fa44dc0",
-          "name": "news.yahoo.co.jp",
-          "title": "麻生太郎氏に“隠し資産”土地3カ所発覚…国会に報告せず、資産公開法違反の可能性《事務所は「現在確認中です」と回答》",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hNkNmaVk4aFZmeHVmTDZ3Q1NxbHQzdGdvSDJ6elhVRUJicTQtU1pCUnNVcnVWazc0ckxDZUdBN0x5dzIyT2dYc0dqcnRLQVVycFNVcGU0aDRmSTlrR0k1anVLZjVhbUMzS1ZOZlFOVE1qclpPWDhDbGx0TkUwUFU?oc=5",
-          "publishedAt": "2026-09-30T07:12:16Z"
+          "id": "b09fb3836c8f",
+          "name": "ｄメニューニュース",
+          "title": "安全保障上重要な施設周辺の土地取得を「許可制」に　自民・外国人政策本部が政府に提言 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10b1FJeEoxRmJjUUFKSHdPZVBZYnFod2ZNWXBKaWlDYjlrak5pY3lxN1hXTWdYZml2OGhHZ0EwZkNWSndLaTIyNUxZX29iUUVWamdBQUNGUHAzYWpGcGY1UXVqSU5NbXI1NHdtNjhIX2pBUdIBd0FVX3lxTFBaQTNaOHVRVUJ2UlBrNl9TTXNrU1Q2d1dNNUVyUExVd2JOZkRudlVlZ3dWYmF3WnJwT3MtN2RZdUUzLXp5RXlELUQ1N2hBbEhDVTNEdWswZnczRlBJeE9kS2tzMkpwTWxIWUJFZEtPUGFGbjVUMEgw?oc=5",
+          "publishedAt": "2026-10-01T09:24:00Z"
         },
         {
-          "id": "181850005bfb",
-          "name": "文春オンライン",
-          "title": "麻生太郎氏に“隠し資産”土地3カ所発覚…国会に報告せず、資産公開法違反の可能性《事務所は「現在確認中です」と回答》",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aMF9udmQ1SmkyMlFWXy1lTmdWbVpSS3N3YVM2N2xjLWV4c0dfWHpMVVlGUGYzbkxvVXhoeWZMdVl1aS1qelplVWZvNXd4cXEx?oc=5",
-          "publishedAt": "2026-09-30T07:00:00Z"
+          "id": "2ebf2ae2d71d",
+          "name": "TBS NEWS DIG",
+          "title": "安全保障上重要な施設周辺の土地取得を「許可制」に 自民・外国人政策本部が政府に提言 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVFhCTmhDLUEtVU9RRkFPODZacjRBX0dBdnFrWFlXaHNZZk14YUFmdVFmMDVndWV2dTRPVW1MYjVxRDQxUEhRWHVyaGNHMHZMRnRpUHNYMA?oc=5",
+          "publishedAt": "2026-10-01T09:24:25Z"
         }
       ],
-      "caution": "資産公開法違反は見出しで示された可能性であり、違反が確定したとは確認できません。土地の所有関係や報告義務の有無も未確認です。"
+      "caution": "提言の実現性、法案化、政府の採否は未確認です。"
     },
     {
-      "id": "politics-foreign-residency-policy",
+      "id": "politics-foreign-policy-permanent-residency",
       "category": "politics",
       "title": "外国人政策の厳格化と永住許可を巡る報道",
-      "whatHappened": "政府が「共生」を掲げる一方、外国人の永住を狭き門にする政策を進めていると報じられています。見出しでは、外国人政策の厳格化と政府の狙いが論点とされています。",
-      "whyTrending": "永住制度と外国人政策の方向性に関わるテーマとして報じられています。",
-      "context": "入力からは、共生政策と永住許可の厳格化が併記されていることが確認できます。",
+      "whatHappened": "毎日新聞が、政府の外国人政策厳格化と永住許可の要件を巡る記事を掲載しています。見出しでは「共生」を掲げつつ永住が狭き門になる状況や、政府の狙いに言及しています。",
+      "whyTrending": "外国人政策と永住制度の方向性を扱う記事として報じられています。",
+      "context": "具体的な制度変更や政府の正式決定については、入力見出しからは確認できません。",
       "points": [
-        "永住が狭き門になると報道",
-        "外国人政策の厳格化に言及",
-        "政府の狙いを分析する記事"
+        "永住許可を巡る厳格化を報道",
+        "「共生」と政策厳格化に言及",
+        "政府の狙いの詳細は未確認"
       ],
       "sourceCount": 1,
       "sources": [
         {
           "id": "b86af2057ace",
           "name": "毎日新聞",
-          "title": "「共生」掲げ永住「狭き門」に 外国人政策厳格化、政府の狙いは",
+          "title": "「共生」掲げ永住「狭き門」に 外国人政策厳格化、政府の狙いは - 毎日新聞",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83SWZ4cXZjUFBkNFdBZGN0TkxtVmpqMzRvTDBMZjI4b2lfWV9OcDZRUEZSRWh5eENqRXZIVVlBWVkxTHhZd1B3azFDaldBNEpoUUQ1UHlYY19ONFI2LWFsVVBUSExsZV9y?oc=5",
           "publishedAt": "2026-09-30T22:00:00Z"
         }
       ],
-      "caution": "制度変更の具体的内容、施行時期、政府の正式な説明は入力見出しだけでは未確認です。"
+      "caution": "見出しに基づく報道であり、制度の具体的内容や変更時期は未確認です。"
     },
     {
-      "id": "economy-australia-private-credit",
+      "id": "economy-nikkei-surge",
       "category": "economy",
-      "title": "豪プライベートクレジット大手、一部解約停止と報じられる",
-      "whatHappened": "オーストラリアのプライベートクレジット大手が、一部の解約を停止したと報じられています。決算を巡り、監査法人が疑義を示したことが見出しで示されています。対象商品や停止期間は未確認です。",
-      "whyTrending": "金融商品の解約停止と監査上の懸念が同時に報じられ、市場の注目を集めています。",
-      "context": "プライベートクレジットは企業などへの融資に関わる金融分野ですが、記事本文の詳細は未確認です。",
+      "title": "日経平均、2203円高の6万8956円で大引け",
+      "whatHappened": "10月1日の日経平均株価は、前日比2203円高の6万8956円で取引を終えたと報じられています。前場時点でも1602円高となっていました。",
+      "whyTrending": "日経平均が大幅に上昇したことが複数媒体で報じられています。",
+      "context": "上昇の具体的な要因は、入力見出しからは確認できません。",
       "points": [
-        "一部解約を停止と報道",
-        "決算を巡り監査法人が疑義",
-        "オーストラリアの大手事業者が対象"
+        "終値は6万8956円",
+        "前日比2203円高",
+        "前場では1602円高"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "2dd3c6150a59",
-          "name": "reuters.com",
-          "title": "豪プライベートクレジット大手、一部解約停止 決算巡り監査法人が疑義",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUFQ1N1FOSWxMWTVZWDNKU25PYmt1WHE5aThxVm9WMEcwQk16Z24tOEVabU92d05iUWxlVkgwSlpPVUF1OXUyMEpTWGpQUEVBMlV4UkRtYS1vdmUxc2JRQnRCVmpsOU80OXdmSkRTZWUxazJLaU5GWFNYb1NIeVVLSEV2Y21BUQ?oc=5",
-          "publishedAt": "2026-09-30T09:45:44Z"
+          "id": "963f77b394f9",
+          "name": "ザイFX！",
+          "title": "日経平均大引け：前日比2203.00円高の68956.72円｜FX・為替ニュース - ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00c0cwblBIYnhxZVJMY2xIeENDYWg3Y0pSeWdXdTZFV3B5ZGp6QTN5WldNQTE4SFdyZnFfVFNjbVM3cnMxUWRwZU9NY01leU1XMFE?oc=5",
+          "publishedAt": "2026-10-01T06:31:00Z"
         },
         {
-          "id": "a5a291beb7a2",
-          "name": "ｄメニューニュース",
-          "title": "豪プライベートクレジット大手、一部解約停止　決算巡り監査法人が疑義",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd05WdUZWblIxS09kNkNhcnlPWldlcGlIX25ENjFiN29sTFVwZ0ttWUdteVlPNWR6QWJ5bms2cXExMk9GY3l3WkxTWDlrVDNZMW1zdzlKVWNUY1ZsZzJNbkx0Qkwza3dPa3BBaWxleXR3bllzU2wzVUVIUHhlbmxHTU1R0gGHAUFVX3lxTE1vZ3NfdjlmNFVvSDNMRmRzcGZuQTBBSzRIdTNKUlZTM3N4c3BiTE1NLXJlZDhkc1RrSV83WjhYc3RXWFZuM2tuUjdOSnp4bDBPUlZoRmtVZWRPM2hzMnBYRmRldWJnWi1ocHAtUVQ4a19fN2ZuWFdlbU9zcjRibGdnQ3FLN2ZFVQ?oc=5",
-          "publishedAt": "2026-09-30T09:45:00Z"
+          "id": "c27374c22107",
+          "name": "株探",
+          "title": "日経平均1日大引け＝続伸、2203円高の6万8956円 - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1kSmpwLVhYVG9UamxvNnM0TWUwX3F5WFNMeEVBTjN6eUI5UlFJbHV3MkhCTmdQRF9PLXVteFM2cUJ5ejlENy1wSVN4UG14TU5nYXBmcEpFOENQSGJxNHFOUQ?oc=5",
+          "publishedAt": "2026-10-01T06:32:16Z"
         }
       ],
-      "caution": "監査法人の疑義の内容や、解約停止が一時的な措置かどうかは未確認です。"
+      "caution": "株価変動の背景や今後の見通しは、入力見出しからは確認できません。"
     },
     {
-      "id": "economy-japan-china-business",
+      "id": "economy-global-rates-impact",
       "category": "economy",
-      "title": "日本企業の中国進出がピーク時から約3割減と報じられる",
-      "whatHappened": "日本企業の中国進出がピーク時から約3割減ったと報じられています。中国を「製造拠点」から「巨大市場」へと捉え直す動きが見出しで示されています。",
-      "whyTrending": "日本企業の中国事業の位置付けが変化しているとの指摘が報じられています。",
-      "context": "入力では、進出企業数の減少と、中国事業の目的の変化が論点とされています。",
+      "title": "欧米金利の上昇と日本経済への影響を報道",
+      "whatHappened": "文化放送が、欧米金利がリーマン・ショック級に上昇しているとの見出しで、日本経済への影響を取り上げています。金利水準や影響の具体的内容は、見出しからは確認できません。",
+      "whyTrending": "海外金利の上昇が日本経済に与える影響を扱う報道として注目されています。",
+      "context": "「リーマン級」の比較対象や根拠は、入力からは未確認です。",
       "points": [
-        "中国進出企業がピーク時から約3割減",
-        "製造拠点から巨大市場へ認識が変化",
-        "日本企業の事業配置が焦点"
+        "欧米金利の上昇を報道",
+        "日本経済への影響を論点化",
+        "具体的な数値や見通しは未確認"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "30c2d265ebec",
-          "name": "日テレNEWS NNN",
-          "title": "日本企業の「中国離れ」進む ピーク時から約3割減 「製造拠点」から「巨大市場」へと認識変化",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5FeTVJa0pnR0FaVUEwR2VoMy16TEJUSEo4cHlsbDZULUtyOTFiOEQtNnZZWW9WV0w4bnAzVGliZUhobkFDUlBuZ1BBdnJoejBSckluaEhLUDFWd2xHdTJhWW9CQkNrd3NLZTYxQUhXZDIyLW0xVEpsVC1ZYko?oc=5",
-          "publishedAt": "2026-09-28T04:41:00Z"
+          "id": "b5f7660ead34",
+          "name": "文化放送",
+          "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - 文化放送",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vR24wY1JWUFRTc2tnZlZGdm5KdV9NSVhWLWZIZlltR1E5QUFfQzdLRE4tSnYwajhrRi01dU1kb2ZWS3NpMUVqU3BFYVZjSkJkazlxQUxB?oc=5",
+          "publishedAt": "2026-09-30T02:36:03Z"
         }
       ],
-      "caution": "減少の対象となる企業の定義や基準時点、統計の詳細は見出しだけでは未確認です。"
+      "caution": "金利の具体的な水準や「リーマン級」という評価の根拠は未確認です。"
     },
     {
-      "id": "economy-interest-rates-stocks",
+      "id": "economy-china-buyout-investment",
       "category": "economy",
-      "title": "利上げと日本株の関係を解説する記事が注目",
-      "whatHappened": "利上げが株安につながるという一般的な見方が、2026年の日本株には当てはまらない理由を解説する記事が掲載されています。見出しでは、その理由を「明確な理由」として紹介していますが、内容は未確認です。",
-      "whyTrending": "金利上昇局面での日本株の動きを扱うテーマとして関心を集めています。",
-      "context": "論点は、利上げと株価の関係が一律ではない可能性です。",
+      "title": "中国経済を巡りバイアウト投資機会を論じる報道",
+      "whatHappened": "Bloombergの記事として、中国経済が「日本化」し、低金利がバイアウト投資の追い風になる可能性を論じる見出しが掲載されています。投資機会についての見方を示した記事で、具体的な投資判断や結果を伝えるものではありません。",
+      "whyTrending": "中国経済の構造変化と投資への影響を扱う記事として取り上げられています。",
+      "context": "「日本化」の具体的な意味や低金利の状況は、入力見出しからは確認できません。",
       "points": [
-        "利上げと株安の通説を検討",
-        "2026年の日本株がテーマ",
-        "株価への影響を解説する記事"
+        "中国経済を「日本化」と表現",
+        "低金利を追い風とする見方",
+        "バイアウト投資の機会を論点化"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "1780d395d29b",
-          "name": "東洋経済オンライン",
-          "title": "｢利上げ＝株安｣という｢常識｣が､2026年の日本株には当てはまらない｢明確な理由｣とは何か",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9iNjNXRXdiNl9sQmVxMFVYZDJSTS1PYTJiSng5Y0JIY2NoZTNVZk5zX3hraUhhWGpkeVRBMEFoNTgzdnBaZkhBdHd1NEZTWlU1TXc?oc=5",
-          "publishedAt": "2026-09-27T22:30:00Z"
+          "id": "a21e8db454ee",
+          "name": "Yahoo!ニュース",
+          "title": "日本化する中国経済はバイアウト投資のチャンス－低金利が追い風（Bloomberg） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TaXFzaGZKNXZ1dDA3VzRmLW1PYnBsc2ZTVHlKN2d1cTZkTmNWV2NpaWxXUGpNcmFrcmJqZkl6cnNMek40NFNFRHlQeWRxcDJ0NllsV19ObXhIMzAxZWJmYVJHeUFYRjNqcElRZGl4ZDhkRC0zd0hUY28tWjJLU1k?oc=5",
+          "publishedAt": "2026-09-30T03:01:20Z"
         }
       ],
-      "caution": "記事が示す「理由」や、今後の株価見通しは入力見出しだけでは確認できません。"
+      "caution": "見出しは投資機会に関する見方を示すもので、投資成果や推奨を意味しません。"
     },
     {
-      "id": "internet-pomme-chocolat",
+      "id": "internet-fujiya-apple-gummy",
       "category": "internet",
-      "title": "無印良品の「ポムショコラ」が再発売、SNSで話題",
-      "whatHappened": "無印良品の「ポムショコラ」が、きょうから順次発売されると報じられています。昨年SNSで話題になり、今回の告知は160万表示に達したと見出しにあります。",
-      "whyTrending": "SNSで話題になった商品の再発売と、高い告知表示数が注目されています。",
-      "context": "見出しでは、商品の発売が順次始まることが示されています。",
+      "title": "不二家の「まるでりんごグミ」がSNSで話題",
+      "whatHappened": "不二家の「まるでりんごグミ」がSNSで話題になった商品として紹介されています。見出しでは、本格的なりんごのおいしさが楽しめるグミとされています。",
+      "whyTrending": "SNSで話題となった商品として、複数媒体が取り上げています。",
+      "context": "話題の規模や販売状況、利用者の反応の詳細は未確認です。",
       "points": [
-        "「ポムショコラ」を順次発売",
-        "昨年SNSで話題に",
-        "告知が160万表示"
+        "商品名は「まるでりんごグミ」",
+        "不二家の商品",
+        "SNSで話題と報道"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "ed0e558a9546",
-          "name": "oricon.co.jp",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbURvRl83M3ZJWDh6WXZHbzEwTjlmX1o5Y0NxaXNrLUxUaFpMU3ZwZ0NFWlBCRkU3d1ZxVjM4NW13MHY5cXRUcVlRTVVQeXp1YzhIWlp3?oc=5",
-          "publishedAt": "2026-09-30T06:30:00Z"
+          "id": "f6ce79af4422",
+          "name": "PR TIMES",
+          "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zRVAwelZWUFQwUkJfM1dlQUxkZ0N4bUZ1TWZrcTB4UVZFMnY1bHI1VExWdDlDbU9tVE15SFZvNjhmQXlzU2tZSm8wak45Z1BGTzNyWTlMalE3bkFJM3lvamhBbVQtd2ZqbEE?oc=5",
+          "publishedAt": "2026-10-01T05:00:02Z"
         },
         {
-          "id": "1149786688f2",
-          "name": "news.yahoo.co.jp",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン)",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1BZSTRkR21PZlMzYkRPRF85dzZJQzZNMVY4SFVWUnBrSndERWJBUnVJRWdJQ0pVdWJ4ajhndUwyTzkxVVVuZkdWRURsRG15b19WQUF2bGJjdko4NGVNVG9FZUc2RExKT3NOa1BWclAxSlpybGJwQVJhWl9PZ01uTHRCdXBUU3FmZFVqSjBR?oc=5",
-          "publishedAt": "2026-09-30T06:30:00Z"
+          "id": "8a46b30fd148",
+          "name": "時事ドットコム",
+          "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43eGNVbU5MeFF3elk4ZnJLeXAtSHpocS00a0ktdVVvczZYaWY5Y1dvSk53QzN6TElDeTJaQnN5Qk1GVlVxc3hBSnMxODZCZVZkdTNXeXdDS0tBdUhEUXRwSE5nb1lUYi1yaWtF?oc=5",
+          "publishedAt": "2026-10-01T07:46:00Z"
         }
       ],
-      "caution": "販売地域、価格、在庫状況、商品の詳細は入力見出しだけでは未確認です。"
+      "caution": "「SNSで話題」の具体的な投稿数や反響は未確認です。"
     },
     {
-      "id": "internet-sengoku-builder",
+      "id": "internet-korea-fireworks-toilet-brush",
+      "category": "internet",
+      "title": "韓国で「巨大花火」に見えた写真の正体が話題",
+      "whatHappened": "韓国のネット上で、高層ビル群に広がる「巨大花火」のような写真が話題になったと報じられています。写真の光の正体はトイレのブラシだったとされています。",
+      "whyTrending": "花火に見える写真と、実際の対象との意外な違いが複数媒体で取り上げられています。",
+      "context": "写真の撮影場所や経緯などの詳細は、入力見出しからは確認できません。",
+      "points": [
+        "韓国ネットで話題",
+        "高層ビル群に広がる光の写真",
+        "正体はトイレのブラシと報道"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "cf809530231e",
+          "name": "AFPBB News",
+          "title": "韓国ネットで話題の「巨大花火」写真…高層ビル群に広がる光の正体は「トイレのブラシ」 - AFPBB News",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFdEMyNzViVjBWcDdsdnhHeGxSOEx4M0RiY3FyWFVpWnFhdTZJWFRKeWlfVmYxUDkyMUVfUXJjeFlYM1NtOTNiaVpQLThkcFl2dGfSAVRBVV95cUxOODFtRUx2Zkd4d3VsTnIycV81VC1qUHNlRU9MazE2UVFMandFYWFLeExCT2ZzdzJoU2hLMUJBRXRBeVVKYTJYcmRNTjdoN3NYYXRncjc?oc=5",
+          "publishedAt": "2026-10-01T00:04:43Z"
+        },
+        {
+          "id": "64e29b61a749",
+          "name": "koreawave.jp",
+          "title": "韓国ネットで話題の「巨大花火」写真…高層ビル群に広がる光の正体は「トイレのブラシ」 - koreawave.jp",
+          "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPRDBSblFBRHI4TVl2ZXJHMGdYMFIzdW9lWlhvelZ3MHZZSnpRX0V2VF8yZXppMVhod2pTNE56UHBBZFozT0VQenRZcnlpRF9RR09ya0lOM0QwbHFZWndIQTBpa19rcjdZdzZjZm43QUE0TkRaUFlTYWc4QV9nb0R0ZXBVS1lmSEhKX1BRUEJGYkEzbTFlby1mM1E0QThZeWV4VGcyX1FaN1JsZUlFV1pGanFjTGtha1dkSnIyU2VRYlBFbXQ1QWtXV2pfMXUwQ2hUbzZQRlRhMElTNjZKa0NFTmhpT3RlRElDTEw0eGNNV3FHMXIzTll0ZXpnR2dPYU5EcjBSZWdDQWxCaHRoWkdaN3dsal9SczdQMDh2TWRyQ3JoenZmUVBfUzZnbGdtbnlRLUtWLUZ3?oc=5",
+          "publishedAt": "2026-09-30T20:15:57Z"
+        }
+      ],
+      "caution": "写真や対象物の詳細な状況は記事全文未確認です。"
+    },
+    {
+      "id": "internet-sengoku-construction-manga",
       "category": "internet",
       "title": "SNSで話題の漫画「戦国工務店」が書籍化へ",
-      "whatHappened": "SNSで話題の漫画「戦国工務店」が書籍化され、2026年11月11日に発売されると報じられています。工務店の職人が戦国時代にタイムスリップする作品と紹介されています。",
-      "whyTrending": "SNS発の漫画の書籍化決定と発売日が告知されています。",
-      "context": "作品設定として、工務店の職人が戦国時代へタイムスリップする内容が示されています。",
+      "whatHappened": "SNSで話題の漫画「戦国工務店」が書籍化されることが決まったと報じられています。工務店の職人が戦国時代にタイムスリップする作品と紹介されています。",
+      "whyTrending": "SNS発の漫画の書籍化決定が取り上げられています。",
+      "context": "発売日や出版社などの詳細は、入力見出しからは確認できません。",
       "points": [
-        "SNSで話題の漫画",
-        "書籍化が決定",
-        "発売日は2026年11月11日"
+        "作品名は「戦国工務店」",
+        "工務店の職人が戦国時代にタイムスリップする設定",
+        "書籍化が決定"
       ],
       "sourceCount": 1,
       "sources": [
         {
           "id": "cb4de846f668",
           "name": "タワーレコード オンライン",
-          "title": "SNSで話題の漫画「戦国工務店」書籍化決定。工務店の職人が戦国時代にタイムスリップ",
+          "title": "SNSで話題の漫画「戦国工務店」書籍化決定。工務店の職人が戦国時代にタイムスリップ - タワーレコード オンライン",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lZFNBZ0NBUVUxdy1PaGhBSVk0cUtyeW9MSHVnOTFWNzBHb0hndHZMQmlqMUUxRVpXQjctT0REY0VHakZlUmZYVGdFZHFpTU9IZkdkZG55RmQ3U1k?oc=5",
           "publishedAt": "2026-09-30T07:30:00Z"
         }
       ],
-      "caution": "発行元、価格、部数、SNS上での反響の規模は入力からは未確認です。"
-    },
-    {
-      "id": "internet-ayumu-imazu-musubi",
-      "category": "internet",
-      "title": "Ayumu Imazuの新曲「結び」、10月2日配信決定",
-      "whatHappened": "Ayumu Imazuさんの新曲「結び」が10月2日に配信されると報じられています。SNSで話題となった楽曲で、「赤い糸」をモチーフに人との縁を描くラブソングと紹介されています。",
-      "whyTrending": "SNSで話題になった新曲の配信日が決まり、複数媒体が報じています。",
-      "context": "楽曲のモチーフは「赤い糸」で、人と人との縁を描く作品とされています。",
-      "points": [
-        "新曲「結び」を配信予定",
-        "配信日は10月2日",
-        "「赤い糸」がモチーフ"
-      ],
-      "sourceCount": 2,
-      "sources": [
-        {
-          "id": "39baa7e622cb",
-          "name": "skream.jp",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWUNORmJnVEhROEwzS29xQktqd1FPRmtIV3lZTVA4TXV0Q0VSSlFnaWlrVmpKRHgtbUNuX1MwQjJtMXFfYjF2VzN5dWhzcUhpemxEWmNnN3J1VVUtVng5YkxOcw?oc=5",
-          "publishedAt": "2026-09-25T12:00:00Z"
-        },
-        {
-          "id": "4cb43eb2695e",
-          "name": "USENの音楽情報サイト",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbUtkdzRyUEI1NzdSTnYxN3RBb0ZnSVF4YS1DQTF0WEVKVjFsR2VTVEJWeTlsZFF2UHpGbVhkMU9SX1V0VFVYTEplWHN3NVRUVThJYlZ2R1ZlQ1g2RmotZDM4a0dNVV92NUow?oc=5",
-          "publishedAt": "2026-09-28T04:40:07Z"
-        }
-      ],
-      "caution": "配信先や楽曲の再生実績などの詳細は、入力見出しだけでは未確認です。"
+      "caution": "書籍の発売時期や販売規模は未確認です。"
     }
   ]
 }
