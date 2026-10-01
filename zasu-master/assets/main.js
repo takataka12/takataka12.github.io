@@ -6,9 +6,18 @@ async function startZasu(button,status){
     let visitorId=localStorage.getItem("zasu_visitor_id");
     if(!visitorId){visitorId=crypto.randomUUID();localStorage.setItem("zasu_visitor_id",visitorId)}
     const sessionId=crypto.randomUUID();sessionStorage.setItem("zasu_session_id",sessionId);
-    const res=await fetch(cfg.betaEndpoint,{method:"POST",headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},body:JSON.stringify({website:"",visitor_id:visitorId,session_id:sessionId})});
+    const headers={"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey};
+    const admin=sessionStorage.getItem("zasu_admin_key")||sessionStorage.getItem("zasu_dev_admin_key");
+    if(admin)headers["x-zasu-admin-key"]=admin;
+    const res=await fetch(cfg.betaEndpoint,{method:"POST",headers,body:JSON.stringify({website:"",visitor_id:visitorId,session_id:sessionId})});
     const body=await res.json().catch(()=>({}));
-    if(!res.ok)throw new Error("START FAILED");
+    if(!res.ok){
+      if(res.status===429||body.error==="rate_limited"){
+        const sec=Math.max(1,Number(body.retry_after_seconds||60));
+        throw new Error("短時間にアクセスが集中しています。約"+Math.ceil(sec/60)+"分後にもう一度お試しください。");
+      }
+      throw new Error(body.user_message||"START FAILED");
+    }
     if(body.status==="accepted"){
       localStorage.removeItem("zasu_beta_email");
       localStorage.setItem("zasu_beta_application_no",String(body.application_no));
