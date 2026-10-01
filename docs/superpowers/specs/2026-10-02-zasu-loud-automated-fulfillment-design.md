@@ -164,22 +164,24 @@ If any validation fails:
 
 ## 7. Email extraction
 
+Checkout custom fields are not assumed to be Order Custom Attributes.
+
 Preferred source:
-- Square order custom attributes containing a field whose normalized name/key includes:
-  - `メール`
-  - `email`
-  - `ダウンロード送付先`
+- Parse Square Order fulfillment notes for the explicit checkout custom field `ダウンロード送付先メールアドレス` (or normalized labels containing `ダウンロード送付先`, `メール`, or `email`).
+- Current Square guidance indicates checkout custom-field values are represented in `Order.fulfillments[].delivery_details.note`; this behavior must be treated defensively because the public Checkout reference does not define a dedicated value field.
 
 Fallback:
-- Square buyer/customer email if present in order/payment data.
+- `Payment.buyer_email_address`, which is a documented Payments API field.
 
-If multiple email values exist:
-- prefer the explicit custom-field download email.
+If both exist:
+- prefer the explicit checkout custom-field email.
 
 Normalize:
 - trim whitespace
 - lowercase
 - validate with a conservative email syntax check
+
+Do not rely on the Order Custom Attributes API for Checkout custom-field values.
 
 ## 8. Fulfillment sequence
 
