@@ -25,6 +25,11 @@ function pick(kind,file){
   el.textContent=f?(f.name+" — "+humanBytes(f.size)):(kind==="vocal"?"ボーカル未選択":"インスト未選択");
   el.classList.toggle("ready",!!f);
 }
+// iOS/Safari can suppress "change" when the same file is selected again.
+// Reset only the native file-input value before the picker opens; the current
+// File object in vocal/inst remains available if the user cancels.
+q("#vocalFile").addEventListener("click",()=>{q("#vocalFile").value="";});
+q("#instFile").addEventListener("click",()=>{q("#instFile").value="";});
 q("#vocalFile").addEventListener("change",()=>pick("vocal",q("#vocalFile").files?.[0]));
 q("#instFile").addEventListener("change",()=>pick("inst",q("#instFile").files?.[0]));
 for(const [id,kind] of [["#vocalDrop","vocal"],["#instDrop","inst"]]){
