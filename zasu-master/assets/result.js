@@ -63,6 +63,35 @@ function setState(label,title,message){
   resultMessage.textContent=message||"";
 }
 
+function renderQueueStatus(body){
+  const box=q("#queueStatus");
+  if(!box)return;
+  box.classList.remove("ready","processing","waiting");
+  if(!body||!["queued","processing"].includes(String(body.status||""))){
+    box.hidden=true;
+    return;
+  }
+  box.hidden=false;
+  if(body.status==="processing"){
+    box.classList.add("processing");
+    q("#queueHeadline").textContent="NOW PROCESSING";
+    const waiting=Number(body.queue_waiting_total||0);
+    q("#queueDetail").textContent=waiting>0?"処理中 / 後ろに待機 "+waiting+"件":"処理サーバーで実行中です。";
+    return;
+  }
+  const ahead=Math.max(0,Number(body.jobs_ahead||0));
+  const pos=Math.max(1,Number(body.queue_position||1));
+  if(ahead===0){
+    box.classList.add("ready");
+    q("#queueHeadline").textContent="READY / NO WAIT";
+    q("#queueDetail").textContent="待機なし。次に処理されます。";
+  }else{
+    box.classList.add("waiting");
+    q("#queueHeadline").textContent="POSITION "+pos;
+    q("#queueDetail").textContent="あなたの前に "+ahead+"件 / 現在の待機 "+Number(body.queue_waiting_total||0)+"件";
+  }
+}
+
 function setProgress(body){
   if(!jobProgress)return;
   const s=body?.status;
@@ -82,6 +111,7 @@ function clearResult(){
   abArea.hidden=true;
   actions.innerHTML="";
   if(jobProgress)jobProgress.hidden=true;
+  if(q("#queueStatus"))q("#queueStatus").hidden=true;
   if(feedbackCard)feedbackCard.hidden=true;
   if(previewMasterGate)previewMasterGate.hidden=true;
   if(devUnlockMasterButton)devUnlockMasterButton.hidden=true;
@@ -117,6 +147,7 @@ function addRetryAction(){
 
 function render(body){
   clearResult();
+  renderQueueStatus(body);
   if(body?.job_id){
     activeJobId=String(body.job_id);
     sessionStorage.setItem("zasu_result_job_id",activeJobId);
