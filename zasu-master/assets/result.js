@@ -19,6 +19,8 @@ const previewMasterGate=q("#previewMasterGate");
 const unlockMasterButton=q("#unlockMasterButton");
 const unlockMasterStatus=q("#unlockMasterStatus");
 const previewMasterGateCopy=q("#previewMasterGateCopy");
+const devUnlockMasterButton=q("#devUnlockMasterButton");
+const devMode=new URLSearchParams(location.search).get("dev")==="1";
 let pollTimer=null;
 let accessToken=localStorage.getItem("zasu_beta_access_token")||"";
 let applicationNo=Number(localStorage.getItem("zasu_beta_application_no")||0);
@@ -78,6 +80,7 @@ function clearResult(){
   if(jobProgress)jobProgress.hidden=true;
   if(feedbackCard)feedbackCard.hidden=true;
   if(previewMasterGate)previewMasterGate.hidden=true;
+  if(devUnlockMasterButton)devUnlockMasterButton.hidden=true;
   beforeAudio.removeAttribute("src");
   afterAudio.removeAttribute("src");
 }
@@ -215,6 +218,10 @@ function render(body){
           previewMasterGateCopy.textContent="OPEN BETA中は決済なしでフル尺処理できます。";
         }
         unlockMasterButton.dataset.previewJobId=String(body.job_id||"");
+        if(devUnlockMasterButton){
+          devUnlockMasterButton.dataset.previewJobId=String(body.job_id||"");
+          devUnlockMasterButton.hidden=!devMode;
+        }
       }
       return false;
     }
@@ -348,6 +355,59 @@ async function unlockMasterFull(){
   }
 }
 if(unlockMasterButton)unlockMasterButton.addEventListener("click",unlockMasterFull);
+
+async function unlockMasterDev(){
+  const previewJobId=String(devUnlockMasterButton?.dataset.previewJobId||"");
+  if(!devMode||!previewJobId){
+    if(unlockMasterStatus)unlockMasterStatus.textContent="DEVプレビュージョブが見つかりません。";
+    return;
+  }
+  let adminKey=sessionStorage.getItem("zasu_dev_admin_key")||"";
+  if(!adminKey){
+    adminKey=window.prompt("ZASU DEV ADMIN KEY")||"";
+    if(!adminKey)return;
+    sessionStorage.setItem("zasu_dev_admin_key",adminKey);
+  }
+
+  devUnlockMasterButton.disabled=true;
+  if(unlockMasterButton)unlockMasterButton.disabled=true;
+  if(unlockMasterStatus)unlockMasterStatus.textContent="DEV MODE — 決済なしでフル尺MASTERを開始しています…";
+
+  try{
+    const res=await fetch(cfg.unlockMasterFullEndpoint,{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json",
+        "apikey":cfg.betaAnonKey,
+        "Authorization":"Bearer "+cfg.betaAnonKey,
+        "x-zasu-admin-key":adminKey
+      },
+      body:JSON.stringify({
+        application_no:Number(applicationNo),
+        access_token:accessToken,
+        preview_job_id:previewJobId,
+        dev_mode:true
+      })
+    });
+    const body=await res.json().catch(()=>({}));
+    if(!res.ok){
+      if(res.status===401||body.error==="dev_unauthorized"){
+        sessionStorage.removeItem("zasu_dev_admin_key");
+        throw new Error("管理者キーが違います。");
+      }
+      throw new Error(body.error||"dev_unlock_failed");
+    }
+    if(previewMasterGate)previewMasterGate.hidden=true;
+    if(unlockMasterStatus)unlockMasterStatus.textContent="";
+    setState("DEV / QUEUED","DEV FULL MASTER 処理待ち","管理者DEVモードで決済をスキップし、フル尺マスタリングを開始します。");
+    setTimeout(check,800);
+  }catch(e){
+    if(unlockMasterStatus)unlockMasterStatus.textContent=e?.message||"DEVフル尺処理を開始できませんでした。";
+    devUnlockMasterButton.disabled=false;
+    if(unlockMasterButton)unlockMasterButton.disabled=false;
+  }
+}
+if(devUnlockMasterButton)devUnlockMasterButton.addEventListener("click",unlockMasterDev);
 
 async function check(){
   const no=Number(applicationNo);
