@@ -34,3 +34,10 @@ input[type="range"]{accent-color:#f4f4f4}
 .preflight-warnings{display:grid;gap:8px;margin-top:12px}.preflight-warning{padding:12px;border:1px solid #4f4635;border-radius:12px;background:#11100c}.preflight-warning strong{display:block;font-size:11px;letter-spacing:.05em}.preflight-warning span{display:block;color:#aaa;font-size:10px;margin-top:4px}
 .preflight-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}.preflight-actions[hidden]{display:none}
 @media(max-width:700px){.preflight-metrics,.preflight-actions{grid-template-columns:1fr}}
+
+
+/* ZASU AUDIO Feedback v1 */
+.feedback-v1{margin-top:14px;padding:18px;border:1px solid #303030;border-radius:16px;background:#0a0a0a}.feedback-v1[hidden]{display:none}.feedback-v1 h3{font-size:22px;margin:5px 0 3px}.feedback-v1>p{color:#858585;font-size:10px;margin:0}
+.feedback-sentiment{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:14px}.feedback-vote{appearance:none;display:flex;align-items:center;justify-content:center;gap:9px;min-height:62px;border:1px solid #353535;border-radius:13px;background:#0d0d0d;color:#fff;cursor:pointer}.feedback-vote span{font-size:23px}.feedback-vote strong{font-size:13px}.feedback-vote.active{border-color:#eee;box-shadow:inset 0 0 0 1px #eee;background:#171717}
+.feedback-details{margin-top:13px;padding-top:13px;border-top:1px solid #292929}.feedback-details[hidden],.feedback-tags[hidden]{display:none}.feedback-label{color:#858585;font-size:9px;font-weight:900;letter-spacing:.06em;margin-bottom:8px}.feedback-tags{display:flex;flex-wrap:wrap;gap:7px}.feedback-tags button{appearance:none;border:1px solid #343434;border-radius:999px;background:#0a0a0a;color:#aaa;padding:8px 11px;font-size:10px;cursor:pointer}.feedback-tags button.active{border-color:#eee;color:#fff;background:#191919}.feedback-details textarea{width:100%;min-height:88px;margin-top:12px;padding:12px;border:1px solid #303030;border-radius:12px;background:#090909;color:#fff;resize:vertical}.feedback-details .btn{margin-top:10px}.feedback-status.success{color:#eee;font-weight:800}
+@media(max-width:700px){.feedback-sentiment{grid-template-columns:1fr}}
