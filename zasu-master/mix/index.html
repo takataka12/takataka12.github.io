@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#080808">
 <title>ZASU MIX｜Auto Vocal Mix Prototype</title>
 <meta name="description" content="ドライボーカルとインストをアップロードして自動MIX。ZASU MIX。処理後30秒を無料試聴して、気に入ったらフル尺へ。">
-<link rel="stylesheet" href="assets/style.css?v=20261001-preflight1">
+<link rel="stylesheet" href="assets/style.css?v=20261001-feedback1">
 </head>
 <body>
 <header>
@@ -178,6 +178,38 @@
       </div>
       <div id="masterHandoffStatus" class="handoff-status"></div>
     </div>
+
+    <div id="mixFeedbackCard" class="feedback-v1" hidden>
+      <div class="mode">OPTIONAL FEEDBACK / v1</div>
+      <h3>このMIX、どうでしたか？</h3>
+      <p>1タップだけでもOKです。実際の利用結果を今後の改善に使います。</p>
+      <div class="feedback-sentiment">
+        <button class="feedback-vote" type="button" data-mix-feedback-sentiment="1"><span>👍</span><strong>良かった</strong></button>
+        <button class="feedback-vote" type="button" data-mix-feedback-sentiment="-1"><span>👎</span><strong>いまいち</strong></button>
+      </div>
+      <div id="mixFeedbackDetails" class="feedback-details" hidden>
+        <div class="feedback-label">当てはまるもの（任意・複数可）</div>
+        <div id="mixFeedbackPositiveTags" class="feedback-tags" hidden>
+          <button type="button" data-mix-feedback-tag="balance_good">バランスが良い</button>
+          <button type="button" data-mix-feedback-tag="vocal_clear">ボーカルが聴きやすい</button>
+          <button type="button" data-mix-feedback-tag="natural">自然</button>
+          <button type="button" data-mix-feedback-tag="powerful">迫力が出た</button>
+          <button type="button" data-mix-feedback-tag="would_use_again">また使いたい</button>
+        </div>
+        <div id="mixFeedbackNegativeTags" class="feedback-tags" hidden>
+          <button type="button" data-mix-feedback-tag="vocal_low">ボーカルが小さい</button>
+          <button type="button" data-mix-feedback-tag="vocal_high">ボーカルが大きい</button>
+          <button type="button" data-mix-feedback-tag="reverb_high">リバーブが多い</button>
+          <button type="button" data-mix-feedback-tag="reverb_low">リバーブが少ない</button>
+          <button type="button" data-mix-feedback-tag="harsh">少しキツい</button>
+          <button type="button" data-mix-feedback-tag="unnatural">不自然に感じる</button>
+          <button type="button" data-mix-feedback-tag="other">その他</button>
+        </div>
+        <textarea id="mixFeedbackComment" maxlength="1500" placeholder="コメント（任意）"></textarea>
+        <button id="mixFeedbackSend" class="btn secondary" type="button">SEND FEEDBACK</button>
+      </div>
+      <div id="mixFeedbackStatus" class="handoff-status"></div>
+    </div>
     <p class="expire">結果ファイルは24時間で期限切れになります。</p>
   </div>
 </div>
@@ -186,6 +218,6 @@
 
 <footer><div class="wrap"><div class="footer-links"><a href="../index.html">ZASU AUDIO</a><a href="../pricing.html">PRICING</a><a href="../tokushoho.html">特商法</a><a href="../refund.html">返金ポリシー</a><a href="../terms.html">利用規約</a><a href="../privacy.html">プライバシー</a><a href="../contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
 <script src="assets/config.js?v=20260930-0640"></script>
-<script src="assets/app.js?v=20261001-preflight1"></script>
+<script src="assets/app.js?v=20261001-feedback1"></script>
 </body>
 </html>
