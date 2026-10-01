@@ -94,6 +94,7 @@ async function edgePost(url,payload){
 
 button.addEventListener("click",async()=>{
   status.textContent="";
+  sessionStorage.removeItem("zasu_result_job_id");
   try{
     const no=Number(savedNo);
     if(directMixHandoff){
