@@ -73,6 +73,7 @@ function render(body){
   setText("#generatedAt","UPDATED "+dt(body.generated_at));
   renderHealth(body.health||{});
   renderAlerts(body.alerts||{});
+  renderAbuse(body.abuse||{});
   const mix=body.mix||{},master=body.master||{},convert=body.convert||{},orders=body.orders||{};
   setText("#mixTotal",fmtInt(mix.total));setText("#mixMeta","SUCCESS "+success(mix)+"% / FAILED "+fmtInt(mix.failed));
   setText("#masterTotal",fmtInt(master.total));setText("#masterMeta","SUCCESS "+success(master)+"% / FAILED "+fmtInt(master.failed));
@@ -130,6 +131,46 @@ function render(body){
   renderErrors(Array.isArray(body.recent_errors)?body.recent_errors:[]);
   setText("#healthText","ONLINE");q(".health").classList.add("online");
 }
+function renderAbuse(abuse){
+  setText("#abuseAttempts",fmtInt(abuse.attempts||0));
+  setText("#abuseBlocked",fmtInt(abuse.blocked||0));
+  setText("#abuseRate",fmtInt(abuse.block_rate||0)+"%");
+
+  const root=q("#abuseScopes");
+  root.innerHTML="";
+  const entries=Object.entries(abuse.scopes||{}).sort((a,b)=>Number(b[1]?.attempts||0)-Number(a[1]?.attempts||0));
+  if(!entries.length){
+    const div=document.createElement("div");
+    const span=document.createElement("span");span.textContent="STATUS";
+    const strong=document.createElement("strong");strong.textContent="NO DATA";
+    const small=document.createElement("small");small.textContent="新規ジョブ作成時に記録されます。";
+    div.append(span,strong,small);root.appendChild(div);
+  }else{
+    for(const [scope,v] of entries){
+      const div=document.createElement("div");
+      const span=document.createElement("span");span.textContent=String(scope).toUpperCase();
+      const strong=document.createElement("strong");strong.textContent=fmtInt(v.attempts||0);
+      const small=document.createElement("small");small.textContent="blocked "+fmtInt(v.blocked||0);
+      div.append(span,strong,small);root.appendChild(div);
+    }
+  }
+
+  const tbody=q("#abuseBody");
+  tbody.innerHTML="";
+  const rows=Array.isArray(abuse.recent_blocked)?abuse.recent_blocked:[];
+  if(!rows.length){
+    const tr=document.createElement("tr");
+    const cell=td("Rate Limitによるブロックはありません。");
+    cell.colSpan=3;cell.className="empty";tr.appendChild(cell);tbody.appendChild(tr);
+    return;
+  }
+  for(const x of rows){
+    const tr=document.createElement("tr");
+    tr.append(td(String(x.scope||"").toUpperCase(),true),td(String(x.reason||"rate_limit")),td(dt(x.created_at)));
+    tbody.appendChild(tr);
+  }
+}
+
 function renderAlerts(alerts){
   const delivery=alerts?.delivery||{};
   const state=alerts?.state||{};
