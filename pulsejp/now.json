@@ -1,81 +1,104 @@
 {
-  "generatedAt": "2026-10-01T05:53:37Z",
+  "generatedAt": "2026-10-01T13:14:37Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "093538c38ad745",
+      "id": "c523189f6dc3af",
       "category": "politics",
-      "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
+      "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ (2026年10月1日掲載) - ライブドアニュース",
       "sourceCount": 3,
-      "latestPublishedAt": "2026-09-28T01:32:14Z",
+      "latestPublishedAt": "2026-10-01T10:24:50Z",
       "sources": [
         {
-          "id": "f4e347d48a71f9",
+          "id": "29d78d9680330b",
+          "name": "ライブドアニュース",
+          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ (2026年10月1日掲載) - ライブドアニュース",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFByMG9YWl9WRUVqLWlyTmJLcGcyNUxRN1hBYnFkUnVuOGtRbWJ1XzdFcjZ5Vkp0VDZ1OV9VaUhISlVsV0hoLS1LelZxblNEeElLOGZtRHk3NmQ2b0NPX3c?oc=5",
+          "publishedAt": "2026-10-01T10:24:50Z"
+        },
+        {
+          "id": "432bd7dfc025a7",
+          "name": "Excite エキサイト",
+          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ - Excite エキサイト",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VTzhhSDBfNEc5a2ZZMEVpVGpTMzlzandEdFB1Q0gzLThpQlJPS0xwdE51dzViMENSTnp1alVPZ2daYllhUTd0bklkT0RRZ29FU2pNTVZFdlU1VGFVY1RfSjI3OE9KMl9LZVhpTWlPVk8?oc=5",
+          "publishedAt": "2026-10-01T10:14:00Z"
+        },
+        {
+          "id": "181f3ce78ecac3",
           "name": "Yahoo!ニュース",
-          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk?oc=5",
-          "publishedAt": "2026-09-28T01:32:14Z"
-        },
+          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uU3l5bElaZ2ZndEV0Mm1uSFFKWFE1OG5VVWhrelBtU0JNNkl5WG9iWmgyczZNR1ppcmJtWjVhRVY2ZXRnbFdZcUllMHYxOWFXa2NxdHRxNFhxcWVGZUUtbFhldFFUWHhQVlpjLXhJYU5VVXlJWkRRWnBGWi1JeFU?oc=5",
+          "publishedAt": "2026-10-01T10:13:39Z"
+        }
+      ]
+    },
+    {
+      "id": "914cbc45b485b2",
+      "category": "politics",
+      "title": "安全保障上重要な施設周辺の土地取得を「許可制」に 自民・外国人政策本部が政府に提言 - TBS NEWS DIG",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-01T09:24:25Z",
+      "sources": [
         {
-          "id": "4242bb59e77f1b",
-          "name": "Bloomberg.com",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxcng3bFFWMFd3Q3F0ckd1ckhkMTUzN1N0eVBacUZhNmtHLXdJanItTHVJU0FZV3hMZW9GN09nd3lnbTZoSzI2LWo0ZWhpczBjbUtQUHRLQlU5TjNZTjA1X0ZNTk1DUDlSaVB1TGl3MGxNVEI3WlE0?oc=5",
-          "publishedAt": "2026-09-28T00:04:27Z"
-        },
-        {
-          "id": "ed3d8c3f222cad",
+          "id": "63fc0269de6aa7",
           "name": "TBS NEWS DIG",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DUTVyMVhiM0s2Y2V0ZUNjWW81QlZLaXpNZUhVYlVmNmp5RHJiSVAtTVgzRDhiQV9nUFdQU2VBVVZtRE1HTHgzQ3dUTldvczUxbGlFOUVUajlDd2tNb2JrbjRBcGZEVWc?oc=5",
-          "publishedAt": "2026-09-28T00:04:21Z"
+          "title": "安全保障上重要な施設周辺の土地取得を「許可制」に 自民・外国人政策本部が政府に提言 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVFhCTmhDLUEtVU9RRkFPODZacjRBX0dBdnFrWFlXaHNZZk14YUFmdVFmMDVndWV2dTRPVW1MYjVxRDQxUEhRWHVyaGNHMHZMRnRpUHNYMA?oc=5",
+          "publishedAt": "2026-10-01T09:24:25Z"
+        },
+        {
+          "id": "65a696c7db97a3",
+          "name": "ｄメニューニュース",
+          "title": "安全保障上重要な施設周辺の土地取得を「許可制」に　自民・外国人政策本部が政府に提言 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10b1FJeEoxRmJjUUFKSHdPZVBZYnFod2ZNWXBKaWlDYjlrak5pY3lxN1hXTWdYZml2OGhHZ0EwZkNWSndLaTIyNUxZX29iUUVWamdBQUNGUHAzYWpGcGY1UXVqSU5NbXI1NHdtNjhIX2pBUdIBd0FVX3lxTFBaQTNaOHVRVUJ2UlBrNl9TTXNrU1Q2d1dNNUVyUExVd2JOZkRudlVlZ3dWYmF3WnJwT3MtN2RZdUUzLXp5RXlELUQ1N2hBbEhDVTNEdWswZnczRlBJeE9kS2tzMkpwTWxIWUJFZEtPUGFGbjVUMEgw?oc=5",
+          "publishedAt": "2026-10-01T09:24:00Z"
         }
       ]
     },
     {
-      "id": "4507253b5ae3a7",
+      "id": "3aa39973625d44",
       "category": "entertainment",
-      "title": "【速報】俳優の伊東四朗さんが芸能活動引退へ - 新潟日報",
+      "title": "【 伊東四朗（89）】 来年6月の “卒寿” を機に芸能活動引退へ 「『眼、耳、脳、腰、膝・・』すべてが急速に退化」「いい爺ィになりました」（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-01T04:22:00Z",
+      "latestPublishedAt": "2026-10-01T08:10:25Z",
       "sources": [
         {
-          "id": "cbf95f32a73a2c",
-          "name": "新潟日報",
-          "title": "【速報】俳優の伊東四朗さんが芸能活動引退へ - 新潟日報",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xaHAyTzRWenZUT2J1WjhtaEVVN2NUVmYyNGxlbF9wMU8yOWdoWEs5alBCY19pWHB0cW5ydm5jYjFEZUtlTlZnM0pSUDR3VWhUTS1vR0I5aURrbGUxTmc?oc=5",
-          "publishedAt": "2026-10-01T04:22:00Z"
+          "id": "56ae124b273663",
+          "name": "Yahoo!ニュース",
+          "title": "【 伊東四朗（89）】 来年6月の “卒寿” を機に芸能活動引退へ 「『眼、耳、脳、腰、膝・・』すべてが急速に退化」「いい爺ィになりました」（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBkcGI0S19qbEx2VTR5eDNVMC1RTGNoc0NWVEN2MTNvd055ai1BNkpXT3dTdjA0WjFDM3pxMXpBekNSa05TaHFIOTd2RjctM1c5QjUtMnJVODdGc1JXbXNWRTZGVzNDQTFtMTg0MWFqN0tKeTJ1SWw1V1NzY3lhTEU?oc=5",
+          "publishedAt": "2026-10-01T08:10:25Z"
         },
         {
-          "id": "085ed504ffcd21",
-          "name": "47NEWS",
-          "title": "【速報】伊東四朗さんが芸能活動引退へ - 47NEWS",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wR25ESE1nQy1GWTZ4RUlCLVB5X003RUhNSGJ1bmJ5alduaEpQcEM4ckU0X3Y1S0wtNGVTUnVyWG1GMmxlMFBVZGpFdw?oc=5",
-          "publishedAt": "2026-10-01T04:20:06Z"
+          "id": "17cf5dc9ad50e6",
+          "name": "テレ朝NEWS",
+          "title": "伊東四朗、来年6月の卒寿をもって芸能活動を引退「眼、耳、脳、腰、膝…すべてが急速に退化」約30年続いたラジオも終了 - テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBalEtbGgtczNyUXpQcGxTS3F3TGNnWjdydU1zRURyVWdfUHJMU1QwVVBZbFY1N3FUMTh5d3hwWm41UjZJUFo2aV8xODJlXzZUOEFJdFUxd20zNnFiNWdpVVdPU3IxMUQ4UC10X3V3dVY?oc=5",
+          "publishedAt": "2026-10-01T05:21:00Z"
         }
       ]
     },
     {
-      "id": "9a4aff1f57e915",
-      "category": "entertainment",
-      "title": "“天てれ戦士”池村咲良、芸能活動を休止　「おかえりモネ」や「どうする家康」で熱演披露 - topics.smt.docomo.ne.jp",
+      "id": "9c43765ce0820b",
+      "category": "internet",
+      "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - 時事ドットコム",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-01T01:20:00Z",
+      "latestPublishedAt": "2026-10-01T07:46:00Z",
       "sources": [
         {
-          "id": "d1f15759074547",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "“天てれ戦士”池村咲良、芸能活動を休止　「おかえりモネ」や「どうする家康」で熱演披露 - topics.smt.docomo.ne.jp",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMldjeHpMeEtQR0w0RE9nQ2YydC1aZVE1VUhKc2hKeXJrZ0JVLW9SVnpsdGdBRWpDOXVvQnUxaEpDdzZqZEV1eDFkSzItendUbk1tVzFLQTVQSmRjU2NZajVRWXFodGh1SVR6a21lYXJRZTdHb0ZyR21SX2lUU19DSkJuSmhuQ19MblNfSnhMNjBDRmlJZm9R0gGcAUFVX3lxTE1yVUxNMnRYNkpnTU0zTDJuQURwYnhic1FRRWFRbnlubFROZU9pdWtYZU9SbkFZTk5fb0w2T1VwS3hNSG5xYWFXMTc1eVVWOGFjbFFNUjdqTTJnWHVyQ3BlUlRWQng4a3dETDhSNWdXaFBBSjNiUl9pU213dHpCSV93dzgyNjBSbGh0V19wT0Rob00xVU9SMGRLR2tZcw?oc=5",
-          "publishedAt": "2026-10-01T01:20:00Z"
+          "id": "6cafb805c65ce8",
+          "name": "時事ドットコム",
+          "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE43eGNVbU5MeFF3elk4ZnJLeXAtSHpocS00a0ktdVVvczZYaWY5Y1dvSk53QzN6TElDeTJaQnN5Qk1GVlVxc3hBSnMxODZCZVZkdTNXeXdDS0tBdUhEUXRwSE5nb1lUYi1yaWtF?oc=5",
+          "publishedAt": "2026-10-01T07:46:00Z"
         },
         {
-          "id": "b2ba4193080ab4",
-          "name": "sponichi.co.jp",
-          "title": "“天てれ戦士”池村咲良、芸能活動を休止 「おかえりモネ」や「どうする家康」で熱演披露 - sponichi.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUHVHWWx4SHRqSjY4dWtkYkk3cUNhbVdka0tOLXpGeGxwUzd3UFF4X21fT3l1SFJqbzlPWlp1c0dPQmdBbVZlaDRCalZKRDRXV2hyQWlPWHpvcG9CTldVaGVPT0xwQmJLT0NmNzJaTmNhd2lNTHFKVzYwOXBvQ1J2N2xhdE5uVW5Nang1U01fVDN6RmhLT0E?oc=5",
-          "publishedAt": "2026-10-01T01:18:00Z"
+          "id": "9a2837cf9a3021",
+          "name": "PR TIMES",
+          "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zRVAwelZWUFQwUkJfM1dlQUxkZ0N4bUZ1TWZrcTB4UVZFMnY1bHI1VExWdDlDbU9tVE15SFZvNjhmQXlzU2tZSm8wak45Z1BGTzNyWTlMalE3bkFJM3lvamhBbVQtd2ZqbEE?oc=5",
+          "publishedAt": "2026-10-01T05:00:02Z"
         }
       ]
     },
@@ -122,29 +145,6 @@
           "title": "【新連載】話題映画のコミカライズ、追放系異世界スキルファンタジー、インモラルサスペンス、一挙３作品が9月から順次「マンガBANG」にて配信開始！ - PR TIMES",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05U3I1V2NkMVVLcTdQQ2lvbldPX2FFLXVWY0ZyaFAyTW9UTVNXMDFydnViUG13eXp3YXdxRE5aMjBXaGVCWmR1dDYxbjlaMV9VaEFYTTJGc1F1SWVmQno4Nk4xcW9ibnFWdEE?oc=5",
           "publishedAt": "2026-09-30T06:30:01Z"
-        }
-      ]
-    },
-    {
-      "id": "d79aa3891f869c",
-      "category": "internet",
-      "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - オリコンニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-30T06:30:00Z",
-      "sources": [
-        {
-          "id": "ed0e558a9546ed",
-          "name": "オリコンニュース",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbURvRl83M3ZJWDh6WXZHbzEwTjlmX1o5Y0NxaXNrLUxUaFpMU3ZwZ0NFWlBCRkU3d1ZxVjM4NW13MHY5cXRUcVlRTVVQeXp1YzhIWlp3?oc=5",
-          "publishedAt": "2026-09-30T06:30:00Z"
-        },
-        {
-          "id": "1149786688f260",
-          "name": "Yahoo!ニュース",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1BZSTRkR21PZlMzYkRPRF85dzZJQzZNMVY4SFVWUnBrSndERWJBUnVJRWdJQ0pVdWJ4ajhndUwyTzkxVVVuZkdWRURsRG15b19WQUF2bGJjdko4NGVNVG9FZUc2RExKT3NOa1BWclAxSlpybGJwQVJhWl9PZ01uTHRCdXBUU3FmZFVqSjBR?oc=5",
-          "publishedAt": "2026-09-30T06:30:00Z"
         }
       ]
     },
@@ -202,160 +202,270 @@
       ]
     },
     {
-      "id": "57a013fa408f1b",
-      "category": "entertainment",
-      "title": "大里中フェスタ 舞台躍動 伝統芸能やダンス成果披露 - 沖縄タイムス社",
+      "id": "e3575ec75b1886",
+      "category": "economy",
+      "title": "日本の首相、経済競争力の強化で円を支えると表明 - アラブニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T05:29:00Z",
+      "latestPublishedAt": "2026-10-01T11:59:57Z",
       "sources": [
         {
-          "id": "0b43f9f19f783a",
-          "name": "沖縄タイムス社",
-          "title": "大里中フェスタ 舞台躍動 伝統芸能やダンス成果披露 - 沖縄タイムス社",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vdGMxMi1oSGp6MVM1UWprNnpwb093azF0bTNBYUoxZS1xSnlndGNDNVhPRmc3S19sOUpLMDdTNFJmYWRLMmxXck5LanA2ZlFlLUh0RmFsYUFSUGZ5bHc?oc=5",
-          "publishedAt": "2026-10-01T05:29:00Z"
+          "id": "9eed7ff573be0c",
+          "name": "アラブニュース",
+          "title": "日本の首相、経済競争力の強化で円を支えると表明 - アラブニュース",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPZkdtUnc5ZHNkbGpsRVJvY1lFeHM4Nkp6U2pIaDJLeEhjdlE5Ni1xUy1aYkZXUUxya0lHeFdwTjd2aHBRS2NiRjlDNGREdzFXQnl5ajBLTTQycHM1ZmZNNGJKeGExbGJ4dmpNWnVBSlh5XzF3Qi1wSTE3RXBjM3o1RDUzSERJNW1uLXVQUXJkTktZZFNhNHF0MDJnR1kzNFNOM3ZQTE5FbmhBVDhPZjhiZG9FNWZaSEdOWjhvTXZFcDdOc1BpZ01lb3RuZmN4ZmRsVGlXN25iVlQzamp6VEVmTmlCSXRlVmF1UFhaM2Y2NF9IZkt6emhIT1o4RVBsakNUOGNsZUloNlRfTjY3Smlia2xHeVFac01mRTdheWlITWFzLWRsdWk5c2FlU2hBTlJpa0EzdjJWYnNUWkVuNkk3dW5BeU1wV1VFNWFhT0o5cGpuMTg0aFRDSkIzUQ?oc=5",
+          "publishedAt": "2026-10-01T11:59:57Z"
         }
       ]
     },
     {
-      "id": "447b70e4f382bc",
+      "id": "b78b59d10f7126",
       "category": "entertainment",
-      "title": "伊東四朗、来年6月の卒寿をもって芸能活動を引退「眼、耳、脳、腰、膝…すべてが急速に退化」約30年続いたラジオも終了 - テレ朝NEWS",
+      "title": "伊東四朗さん（89）芸能活動引退へ 来年90歳 舞台に立つ思い - テレ朝NEWS",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T05:21:00Z",
+      "latestPublishedAt": "2026-10-01T11:36:43Z",
       "sources": [
         {
-          "id": "ee2b5597d81d4b",
+          "id": "59cec7ff98f2b6",
           "name": "テレ朝NEWS",
-          "title": "伊東四朗、来年6月の卒寿をもって芸能活動を引退「眼、耳、脳、腰、膝…すべてが急速に退化」約30年続いたラジオも終了 - テレ朝NEWS",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBalEtbGgtczNyUXpQcGxTS3F3TGNnWjdydU1zRURyVWdfUHJMU1QwVVBZbFY1N3FUMTh5d3hwWm41UjZJUFo2aV8xODJlXzZUOEFJdFUxd20zNnFiNWdpVVdPU3IxMUQ4UC10X3V3dVY?oc=5",
-          "publishedAt": "2026-10-01T05:21:00Z"
+          "title": "伊東四朗さん（89）芸能活動引退へ 来年90歳 舞台に立つ思い - テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqdl9DY3RHalhOQk5tOHEtQWhqOE5reWNGcUxWOXJSdklXSTFmdWZuLWs1bDZKc2VVV0REYTNCcFQ1UFpRY2ZFSDNfRERId2M4OXlic1Q5My1MM1FHMWdUNU1Rb19wOUFrOENKUkZfOV8?oc=5",
+          "publishedAt": "2026-10-01T11:36:43Z"
         }
       ]
     },
     {
-      "id": "aeae32a83bc996",
+      "id": "67486c3f3f4feb",
+      "category": "economy",
+      "title": "日経平均終値2200円超上昇 6万9000円台に迫る（日テレNEWS NNN） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T07:31:00Z",
+      "sources": [
+        {
+          "id": "a50c0039c84eb5",
+          "name": "Yahoo!ニュース",
+          "title": "日経平均終値2200円超上昇 6万9000円台に迫る（日テレNEWS NNN） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE54NnFlMlZMam5zaWw4cGExSExJcEtuWVk0VU5ZTjdLRkMtOVJFMUwyNXEweFdLOTFuSkpNQUhmaDE1VF9SOTJiYWRyYVFiQmlETi1CR19rQ2sxdi1FQklMczluQWhSYmxobHVtYnNJaVZXX0kyeDdDM0lUNnh3YkE?oc=5",
+          "publishedAt": "2026-10-01T07:31:00Z"
+        },
+        {
+          "id": "9e1dedcaa78394",
+          "name": "Yahoo!ニュース",
+          "title": "【速報】日経平均2000円以上上昇 6万8000円台に（日テレNEWS NNN） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GT0wxdGJRX2dwSmdONnJsdkEtXzNFelYxMzF3bHFWdlduN1huWmJDQUcxLW9kU0FUeDcxU3laQzVYWUtxeXNrRGFtZVlMRkU2XzJwNzVpQi1EM3NoMnVmUUVuSmNoNDU5MjlWLW5DZVRfWERCZVQ2NlBJMkwwTkU?oc=5",
+          "publishedAt": "2026-10-01T05:06:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f61fc8be051687",
       "category": "internet",
-      "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - PR TIMES",
+      "title": "【ＳＮＳで話題沸騰】「サンリオキャラクターズ」×ワークマン ハローキティ＆クロミの「高機能×大人可愛い」新作アイテム通勤やお出かけがもっと楽しくなるアパレル＆ファッション小物 - PR TIMES",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T05:00:02Z",
+      "latestPublishedAt": "2026-10-01T07:12:53Z",
       "sources": [
         {
-          "id": "f6ce79af442243",
+          "id": "f4521305352867",
           "name": "PR TIMES",
-          "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zRVAwelZWUFQwUkJfM1dlQUxkZ0N4bUZ1TWZrcTB4UVZFMnY1bHI1VExWdDlDbU9tVE15SFZvNjhmQXlzU2tZSm8wak45Z1BGTzNyWTlMalE3bkFJM3lvamhBbVQtd2ZqbEE?oc=5",
-          "publishedAt": "2026-10-01T05:00:02Z"
+          "title": "【ＳＮＳで話題沸騰】「サンリオキャラクターズ」×ワークマン ハローキティ＆クロミの「高機能×大人可愛い」新作アイテム通勤やお出かけがもっと楽しくなるアパレル＆ファッション小物 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aYXZQR090YzUySWtIemtTdnJZYnhxVk44OUVhYzRmektzM3ZjOUpydXhseFhSOTFqNDd0ODRocXlYTUF5cTF2MkI0NGN3bk90RTZpc3RYeDk1TC1pYW1YREFGSE9XdVpoZlE?oc=5",
+          "publishedAt": "2026-10-01T07:12:53Z"
         }
       ]
     },
     {
-      "id": "42bc9f8718b843",
-      "category": "entertainment",
-      "title": "伊東四朗 来年6月で芸能活動引退 - Yahoo!ニュース",
+      "id": "881c35d6b34e54",
+      "category": "economy",
+      "title": "ドンキ、「トイザらス」日本事業買収を正式発表 10月末に全店取得へ - 日本経済新聞",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T04:23:15Z",
+      "latestPublishedAt": "2026-10-01T07:12:30Z",
       "sources": [
         {
-          "id": "a443b25a3313a1",
+          "id": "7de0ae8b8ac536",
+          "name": "日本経済新聞",
+          "title": "ドンキ、「トイザらス」日本事業買収を正式発表 10月末に全店取得へ - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBWb284RF9FWlhnRURIM3NrS0djQU5XdHVWeHZ6RGxTTkVNc25ZdWEtZDYya0NFM052TUpUTFNncDJ3cEl5R2QwNVNBXzFtNkdRRDQyMmp2enU1eG5GNUZ0OF9SSFpBU0xTR0pZbw?oc=5",
+          "publishedAt": "2026-10-01T07:12:30Z"
+        }
+      ]
+    },
+    {
+      "id": "1d4d1d0cb3779a",
+      "category": "entertainment",
+      "title": "伊東四朗、来年6月で芸能活動を引退 90歳の誕生日をもって「いい爺ィになりました」（シネマトゥデイ） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T06:32:01Z",
+      "sources": [
+        {
+          "id": "15e6381c4609e6",
+          "name": "Yahoo!ニュース",
+          "title": "伊東四朗、来年6月で芸能活動を引退 90歳の誕生日をもって「いい爺ィになりました」（シネマトゥデイ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82NVhYQmpudHdidlNqM3BUWGx1Q0lnUlNaUHpGcEtmRVVucTExaF90R3JtaUMxMVNHX0FmNzRYcUppS1B5bHRsbjJRNE1TSGtNeXpSMXdzRXZoNjRYQU0tcDhQOTZ4dkN6ZUFEWFgtbFI4bXo1SUlGVXBCdDV3YUE?oc=5",
+          "publishedAt": "2026-10-01T06:32:01Z"
+        },
+        {
+          "id": "f0f91786dc7f37",
           "name": "Yahoo!ニュース",
           "title": "伊東四朗 来年6月で芸能活動引退 - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBENmQwS2FlM05scTBpdVJKUnNuZmFwVk14bW5EdTNLRkhybGtJNmxIcEtTUmNvTzdjeDBjQk04dEdDNlJMWHBfZEhjUmRUSkEt?oc=5",
           "publishedAt": "2026-10-01T04:23:15Z"
+        }
+      ]
+    },
+    {
+      "id": "df5c2b75fc76ba",
+      "category": "economy",
+      "title": "日経平均大引け：前日比2203.00円高の68956.72円｜FX・為替ニュース - ザイFX！",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T06:31:00Z",
+      "sources": [
+        {
+          "id": "963f77b394f94f",
+          "name": "ザイFX！",
+          "title": "日経平均大引け：前日比2203.00円高の68956.72円｜FX・為替ニュース - ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE00c0cwblBIYnhxZVJMY2xIeENDYWg3Y0pSeWdXdTZFV3B5ZGp6QTN5WldNQTE4SFdyZnFfVFNjbVM3cnMxUWRwZU9NY01leU1XMFE?oc=5",
+          "publishedAt": "2026-10-01T06:31:00Z"
         },
         {
-          "id": "df528924076a1f",
-          "name": "Yahoo!ニュース",
-          "title": "伊東四朗、来年6月の“卒寿”を機に芸能活動の引退を発表 公式サイトに直筆メッセージ「皆さん ありがとーッ！」【全文掲載】 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PNERrVlI0bjBxUnltc2VuZU1lSUdHbnpXS2pMNzF3Z2Y5MEtwRGpERWlrazJmQURraHBxUVpFdU9lMGZMbjlYXzJvX0dRMFJwQUtfTjA2UUdHcHVkeVVBQVMzUlJHcHhUNnZjeG1kajhmWXo5YnhyYV9FZDZUX0E?oc=5",
-          "publishedAt": "2026-10-01T04:09:13Z"
-        }
-      ]
-    },
-    {
-      "id": "47395776ad68a9",
-      "category": "internet",
-      "title": "SNSで話題、銀座店に連日行列。「焼肉いのうえ」の黒毛和牛ひつまぶし御膳をお歳暮に｜10月1日予約開始 - MANTANWEB",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T04:22:51Z",
-      "sources": [
-        {
-          "id": "06d145c85bc0da",
-          "name": "MANTANWEB",
-          "title": "SNSで話題、銀座店に連日行列。「焼肉いのうえ」の黒毛和牛ひつまぶし御膳をお歳暮に｜10月1日予約開始 - MANTANWEB",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZQlR6NVpVNTlXWWtHWWRFdHpYbUNlMUs3VjhIWE0wa3BPTVpTMzhzbzMtTV9UZDFkSFZjRTNlZXNMYmU5a214Tld6TmdGWXlic1VNR0lQU0ZDS0o0anF3cHpqUFZKa0pKMEFmd0h1bFZ2YWFVMVE?oc=5",
-          "publishedAt": "2026-10-01T04:22:51Z"
-        }
-      ]
-    },
-    {
-      "id": "52780eb6995b24",
-      "category": "economy",
-      "title": "経済産業省後援『第12回日本アントレプレナー大賞』募集開始 - valuepress",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T04:00:00Z",
-      "sources": [
-        {
-          "id": "8a7a352b37a3c6",
-          "name": "valuepress",
-          "title": "経済産業省後援『第12回日本アントレプレナー大賞』募集開始 - valuepress",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2Wmo5OEFpUURpaTdMWHhQS1NkcGV0ZGxtU3pqVW1CRUZwdGRwMTJ5dm5jX1MtLV9DOS1mVlZFR1FNSHBXSEhTd25ETUU4LU5ZUXdkX1lnekpMSGs?oc=5",
-          "publishedAt": "2026-10-01T04:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "c6b3cef3b96faa",
-      "category": "economy",
-      "title": "日経平均後場寄り付き：前日比1662.59円高の68416.31円｜FX・為替ニュース - ザイFX！",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T03:30:00Z",
-      "sources": [
-        {
-          "id": "c75e1e4f58a6c1",
+          "id": "a511b0bbd0b0e4",
           "name": "ザイFX！",
           "title": "日経平均後場寄り付き：前日比1662.59円高の68416.31円｜FX・為替ニュース - ザイFX！",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YcnhTQWh4TDJlMXdfekVGV1lSLTNFSDV5bEUtQWt6SnlNdXg3czE5MjAwMDBXYXZISGhnbjQ5XzZReE50b29oa0Q4eEdsa09fLWc?oc=5",
           "publishedAt": "2026-10-01T03:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "77c40d92092400",
+      "category": "entertainment",
+      "title": "伊東四朗が芸能界引退を発表 来年９０歳「卒寿をもちまして引退をさせていただきます」（東スポWEB） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T06:20:26Z",
+      "sources": [
+        {
+          "id": "c8ea76793898cf",
+          "name": "Yahoo!ニュース",
+          "title": "伊東四朗が芸能界引退を発表 来年９０歳「卒寿をもちまして引退をさせていただきます」（東スポWEB） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mejg5cEk3YXVrQTk1ek9RaWpXQ0JReFM5eFkzb2Zvc2NDODVjbVllWUROU3FvZmdKc2tVRV9qeDRLbkFRWWJ6b1c4dlRqR2dFdElfRGpUWF9OdzlKbFdsSjJsUjYxNUtuNElpMW51Y0tJZEtISC1CUWZkVFdvckU?oc=5",
+          "publishedAt": "2026-10-01T06:20:26Z"
+        }
+      ]
+    },
+    {
+      "id": "ad532b3ddbf6e5",
+      "category": "internet",
+      "title": "SNSで話題「ふんばるず」のリストクッション第2弾登場 ちいかわやサンリオコラボも人気 - イザ！",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T06:20:21Z",
+      "sources": [
+        {
+          "id": "9ae6114b5e6d56",
+          "name": "イザ！",
+          "title": "SNSで話題「ふんばるず」のリストクッション第2弾登場 ちいかわやサンリオコラボも人気 - イザ！",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMURVT2ZaVU5yWkZWMThDa2VwR01kVGlfSWxzZGl2OVhoYWVlRXNEM0I3c3QyTm9SaENaSDQ4Z0Vkck9xUHpwaEtQbEU3SHF4QmVTQWNHT0QwQ3RxMFg5TEdCbFNBN0UyUlJWQmlNLW5DNHJqUXpBeXVHdWJER0FaaWJKUDB2YUdMZnFWYmVYMGxEY3kySVE?oc=5",
+          "publishedAt": "2026-10-01T06:20:21Z"
+        }
+      ]
+    },
+    {
+      "id": "1cd86152faa95d",
+      "category": "economy",
+      "title": "日本経済新聞に法学部の中山雅司教授と山本栄二客員教授への取材記事が掲載されました - soka.ac.jp",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T05:04:00Z",
+      "sources": [
+        {
+          "id": "57cd3aff42ce4b",
+          "name": "soka.ac.jp",
+          "title": "日本経済新聞に法学部の中山雅司教授と山本栄二客員教授への取材記事が掲載されました - soka.ac.jp",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mNXdxOVZGaTgtMlhnYU0xU1d6VHF0X0h5eXlQZnZlOXFPTFJCZnBGUFJoNE5ZdjNxTndpeDFHMExmZ0RvOEJmOFZCVDdTWFVCU2lmRg?oc=5",
+          "publishedAt": "2026-10-01T05:04:00Z"
+        }
+      ]
+    },
+    {
+      "id": "1ceaebc57090ff",
+      "category": "economy",
+      "title": "日経平均終値2203円高 マイクロン好業績で「半導体局所買い」 - 日本経済新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T02:57:34Z",
+      "sources": [
+        {
+          "id": "65a3680486b3d9",
+          "name": "日本経済新聞",
+          "title": "日経平均終値2203円高 マイクロン好業績で「半導体局所買い」 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92d2hZY0M1NWRnczF2S041RUU0czFURG14UVpCRU5zWDBHV2R6SnVXSlN6NEZDcUE2aXRGRFVKLWZBOWd4czk2ekowem5mMDJvOHYtQU9vWm9kSkNHeVpCbmJCa21TOUQ3UTJvRQ?oc=5",
+          "publishedAt": "2026-10-01T02:57:34Z"
         },
         {
-          "id": "65aed480103c5e",
-          "name": "ザイFX！",
-          "title": "日経平均前場引け：前日比1602.09円高の68355.81円｜FX・為替ニュース - ザイFX！",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBdVZFaFFyNTlyV1ZwdmdkYTNLckJURE4tb1BUWU5qdE81T1I3U1prVXBUSmQ2V1N5clppc1pRajBqVWJHSWxUMmp4OGFsMnBqWUE?oc=5",
-          "publishedAt": "2026-10-01T02:34:00Z"
+          "id": "6a4e42e71fd564",
+          "name": "日本経済新聞",
+          "title": "日経平均株価、続伸 終値は2203円高の6万8956円 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MdUpWV3FfUERQLVNSSGVocGprUjBKM2twTm14aXYydDNOOTNTcUd0OUhrZXh4dlpjblNtcHp4S1VrZVhQXzZJck1ORS01WDZ4ejRweWtPVTJpSVRZTFNmNWdNUmc3bEtONVpRVQ?oc=5",
+          "publishedAt": "2026-10-01T00:07:38Z"
+        }
+      ]
+    },
+    {
+      "id": "9a6a4426fdb4d3",
+      "category": "economy",
+      "title": "存在感を高める中南米 日本経済を支える重要地域に - rieti.go.jp",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T02:19:19Z",
+      "sources": [
+        {
+          "id": "498bbc8e040f54",
+          "name": "rieti.go.jp",
+          "title": "存在感を高める中南米 日本経済を支える重要地域に - rieti.go.jp",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1LSWZkRHMxQjBEOFNUdjJHN2ZfQjNyYUh2MGpGQWNzS204YXNyTldobk5UVlBodi1XQkh6Rm1rVkoyRDJHTUMteHJZeExlTkRCbVJVVmJzUmI3V0ZZdjcyRHA5VDdqdEViWnJxaVJlUzluQQ?oc=5",
+          "publishedAt": "2026-10-01T02:19:19Z"
+        }
+      ]
+    },
+    {
+      "id": "54bfa8e346566d",
+      "category": "entertainment",
+      "title": "【記事全文】芸能界で体調不良続出 山里亮太も 市川團十郎や山崎一、TOBEタレントや芸人の休養相次ぐ - スポニチ Sponichi Annex",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T01:46:00Z",
+      "sources": [
+        {
+          "id": "cd2ce4292e2887",
+          "name": "スポニチ Sponichi Annex",
+          "title": "【記事全文】芸能界で体調不良続出 山里亮太も 市川團十郎や山崎一、TOBEタレントや芸人の休養相次ぐ - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVhiS2k5S2owZnJvTFZ3Z1YtbElidTNsME1RZ1czandoMFNkclhUMTlpczNwbFFBeWpGWDV0WGViMERZcnR5NEl3bFlpTWY3c3FtT0pOeGU3aEVNdU9QMHUyY3NaenZ1M1ZYNUVzY2t1NnhibzUxWEJZdjhmOGM5NDN2T2k5MVB4VlpRS243QTJ1ZnJxUTJha2NZMA?oc=5",
+          "publishedAt": "2026-10-01T01:46:00Z"
+        }
+      ]
+    },
+    {
+      "id": "63f406f9add2c4",
+      "category": "economy",
+      "title": "日本での金融経済教育の現状 - 投資家応援ウィーク - 日経CNBC online",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T01:20:38Z",
+      "sources": [
+        {
+          "id": "ae2af0f704ead6",
+          "name": "日経CNBC online",
+          "title": "日本での金融経済教育の現状 - 投資家応援ウィーク - 日経CNBC online",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrQlNtWHJaekFtLU5LaFRHUWFKblhQbml3Z3lVQllJeXpEdU53YlQxX0Nkck5yXzFpOUN4emxaelFJbW95aXl2Qy1PZEs0bm1aY3FaMw?oc=5",
+          "publishedAt": "2026-10-01T01:20:38Z"
         }
       ]
     },
     {
       "id": "22ec5a14a452b2",
       "category": "politics",
-      "title": "歴史的転換点に立つ日本政治 行方を見極めるカギは「人事と日程」 - asahi.com",
+      "title": "歴史的転換点に立つ日本政治 行方を見極めるカギは「人事と日程」 - 朝日新聞",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-01T01:00:00Z",
       "sources": [
         {
           "id": "397d5df3d28f91",
-          "name": "asahi.com",
-          "title": "歴史的転換点に立つ日本政治 行方を見極めるカギは「人事と日程」 - asahi.com",
+          "name": "朝日新聞",
+          "title": "歴史的転換点に立つ日本政治 行方を見極めるカギは「人事と日程」 - 朝日新聞",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRDk2V1FZVGhXNVpVcGVWakxKcm1UeXhQN0JrVmJiVjVMSi11MlRJMW5iN3AzbktrX2FWcUJ3VF9KM3FiYmxaLTFQMTlVX0JLRno3bGotWjRUeXkwbnpkS0VxX3dKN2dzVjhLczNXd0JjblpmczJjeEVUbS1vNk5rZWh6c3M3VEE?oc=5",
           "publishedAt": "2026-10-01T01:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "2e429d5885b11e",
-      "category": "economy",
-      "title": "中国進出企業が3割減 日本企業は「どこで何をするか」の時代へ #エキスパートトピ（中村智彦） - エキスパート - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T23:15:17Z",
-      "sources": [
-        {
-          "id": "0daf311f0c5b48",
-          "name": "Yahoo!ニュース",
-          "title": "中国進出企業が3割減 日本企業は「どこで何をするか」の時代へ #エキスパートトピ（中村智彦） - エキスパート - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkF4OHJBV05DYzFKMTRyQkxndVpwNUx2MXRyM0piaEdLdG82WlpsUS00NlJTZ1lyNjlOVTNmQmtLd05jbTFuRnA4b05INTBNTmpTLU9yTERZTXRyMmZMTTFpdmhTcUpNUmE5YzVjemVOQUFxR0NxcXAxVUlQMUtncm9mRlNpc1VQ?oc=5",
-          "publishedAt": "2026-09-30T23:15:17Z"
         }
       ]
     },
@@ -374,121 +484,11 @@
           "publishedAt": "2026-09-30T22:00:00Z"
         },
         {
-          "id": "0620e9dcc902f1",
+          "id": "fb24688eeddcba",
           "name": "毎日新聞",
           "title": "「共生」掲げ永住「狭き門」に 外国人政策厳格化、政府の狙いは [写真特集1/4] - 毎日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5pR2RENWozUkJYOGJpX200REFVSEZxXzBEazJlNzdtSUpaSnoxQ0tvTFJzbDhpTS1ULVlUb0p4RnRqV2RITTcyTnBrMDh1RnJPM3pHOTh5YmhJNTZsRUZrM3VvYVdZdw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORzYzOEw3Z3hGUjBKd1JpeDhqaDQxWDZfdk4xYS11RmozeE1QekN5b0c1UDd0dGN4STlSaTJCQnFGamxkNjl1YXJUc1hURm9nNElrcTNVR0lzYkFuUTdYX0V2dThBaTF5UVlXcmFabGZZeXkxam1ib05JUGx6eTZYSmZhZGo0SWM?oc=5",
           "publishedAt": "2026-09-30T21:59:00Z"
-        }
-      ]
-    },
-    {
-      "id": "6270bda5b8468d",
-      "category": "politics",
-      "title": "【政界地獄耳・特別編】安倍首相から言われた一言 政界“裏面史”探り20年 一番変わったのは…（日刊スポーツ） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T21:00:01Z",
-      "sources": [
-        {
-          "id": "b5ec213677c202",
-          "name": "Yahoo!ニュース",
-          "title": "【政界地獄耳・特別編】安倍首相から言われた一言 政界“裏面史”探り20年 一番変わったのは…（日刊スポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YM3JxZkpTY2hzRlUwc0w4TVNRZUY3ajkteHBnMDNyM2dsczFuZWxXM2xnWEJEeldFZWZGMlhQclpDdEFySDRKcmtXOFd0TUFHR1F0SXhYZFFPRktmRU5hNkt4bFkxUDZYcU1ERHJIQTBVY2NUWkp2dFZoSmY3UjA?oc=5",
-          "publishedAt": "2026-09-30T21:00:01Z"
-        }
-      ]
-    },
-    {
-      "id": "7f8110d67df621",
-      "category": "internet",
-      "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで (LIMO) - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T19:57:30Z",
-      "sources": [
-        {
-          "id": "0594c7c9dc3540",
-          "name": "Yahoo!ニュース",
-          "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで (LIMO) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU2ZJT1RmZGl5SkpFMVE4VnpSUTlpR2hRUkR0UlJfSnNuZHFMNnE3Zlc3bmQwRjBhZnlYSklhQm94X2xDYTB3TTA1Z0pxNzZtSjNQeE9DcHNBbUp6M0NxMWZycFlSUll3NUs0ZGpPQXZzX2tfck56aHlCVW1wYnRWMWtBaFhFUnJYb1dILXd3?oc=5",
-          "publishedAt": "2026-09-30T19:57:30Z"
-        },
-        {
-          "id": "ff3ce9b6e5dc41",
-          "name": "Yahoo!ニュース",
-          "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで（LIMO） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sdFBXckZ2N19DbXJfWTljdjJlWnFOM0RVX1UtajdVbGptS25COUlpNE1fWVllQkplV3VMU252NGNnZ1ZfMnpzbEIzQm1DSGdhcGlYVEV5RGJUSUVVVnZCZExKWE5FUTNVWVBkaTQ2dklZSHJtV2FvY3FCeExtNW8?oc=5",
-          "publishedAt": "2026-09-30T19:10:48Z"
-        }
-      ]
-    },
-    {
-      "id": "02e79886f90ccf",
-      "category": "economy",
-      "title": "【企業決算】資金利益伸び過去最高益 ちゅうぎんフィナンシャルグループ（５月１日発表）＝２０２６年３月期、連結 - 山陽新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T09:52:41Z",
-      "sources": [
-        {
-          "id": "02b456f15eba76",
-          "name": "山陽新聞",
-          "title": "【企業決算】資金利益伸び過去最高益 ちゅうぎんフィナンシャルグループ（５月１日発表）＝２０２６年３月期、連結 - 山陽新聞",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9xTEVMLXRoVmNQU3RmQ0c0aTFrNXdVSUpFSmVsd3ZKT1VUX3h4Qm9vTm9VUDBVcTNnWUItd1RJS0hHYlphRG9aOHQ3SHZUdWRLcEE?oc=5",
-          "publishedAt": "2026-09-30T09:52:41Z"
-        },
-        {
-          "id": "fc6eb5baf78651",
-          "name": "山陽新聞",
-          "title": "【企業決算】運賃引き上げ増収増益 岡山県貨物運送（５月８日発表）＝２０２６年３月期、連結 - 山陽新聞",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4wTXBhZEZTOTF4SEtIclZ1WHdKZFZYUXpyWHI1Nk5IZmoyZ19NYUV4N1RUUFgxSHRtUDU0V0hTdXFlSUU1TFdRQ05Hc0NEWXRSWlE?oc=5",
-          "publishedAt": "2026-09-30T06:12:23Z"
-        }
-      ]
-    },
-    {
-      "id": "b2a199b2d51aca",
-      "category": "internet",
-      "title": "SNSで話題の漫画「戦国工務店」書籍化決定。工務店の職人が戦国時代にタイムスリップ - タワーレコード オンライン",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T07:30:00Z",
-      "sources": [
-        {
-          "id": "cb4de846f66898",
-          "name": "タワーレコード オンライン",
-          "title": "SNSで話題の漫画「戦国工務店」書籍化決定。工務店の職人が戦国時代にタイムスリップ - タワーレコード オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lZFNBZ0NBUVUxdy1PaGhBSVk0cUtyeW9MSHVnOTFWNzBHb0hndHZMQmlqMUUxRVpXQjctT0REY0VHakZlUmZYVGdFZHFpTU9IZkdkZG55RmQ3U1k?oc=5",
-          "publishedAt": "2026-09-30T07:30:00Z"
-        }
-      ]
-    },
-    {
-      "id": "7c6dd16dfce8d7",
-      "category": "economy",
-      "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - joqr.co.jp",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T02:36:03Z",
-      "sources": [
-        {
-          "id": "b5f7660ead344c",
-          "name": "joqr.co.jp",
-          "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - joqr.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vR24wY1JWUFRTc2tnZlZGdm5KdV9NSVhWLWZIZlltR1E5QUFfQzdLRE4tSnYwajhrRi01dU1kb2ZWS3NpMUVqU3BFYVZjSkJkazlxQUxB?oc=5",
-          "publishedAt": "2026-09-30T02:36:03Z"
-        }
-      ]
-    },
-    {
-      "id": "56000c3efabc9f",
-      "category": "politics",
-      "title": "松下政経塾は京都大学で、寄附講義「日本の政治と経済：関西からの視点」を開講します - PR TIMES",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T00:30:01Z",
-      "sources": [
-        {
-          "id": "3b0811742356c0",
-          "name": "PR TIMES",
-          "title": "松下政経塾は京都大学で、寄附講義「日本の政治と経済：関西からの視点」を開講します - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FNVVKMy1CUXpjOEVEa1J6VEVSTlQtQUNOMU9tdHdwVmYyNVUxSEZiMWx6UW4xUE5NN0RVeUd2a09nb0dMb2RmUi1nOHF6V3hySXhheG9Gcm9wNkFmSmtwdV9HYU5lV01XdEE?oc=5",
-          "publishedAt": "2026-09-30T00:30:01Z"
         }
       ]
     }
