@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex,nofollow,noarchive">
 <meta name="theme-color" content="#080808">
 <title>ZASU AUDIO ADMIN</title>
-<link rel="stylesheet" href="assets/style.css?v=20261001-abuse1">
+<link rel="stylesheet" href="assets/style.css?v=20261002-costguard11">
 </head>
 <body>
 <header>
@@ -86,7 +86,23 @@
 
     <section class="two-col abuse-row">
       <article class="panel abuse-panel">
-        <div class="section-head"><span>COST GUARD / v1</span><h2>Rate Limit / Abuse Protection</h2></div>
+        <div class="section-head"><span>COST GUARD / v1.1</span><h2>Emergency Brake + Rate Limit</h2></div>
+        <div id="costGuardBrake" class="cost-guard-brake">
+          <div>
+            <span>EMERGENCY BRAKE</span>
+            <strong id="costGuardState">—</strong>
+            <small id="costGuardReason">—</small>
+          </div>
+          <div class="cost-guard-actions">
+            <button id="costGuardPauseButton" class="mini-btn guard-pause" type="button">PAUSE NEW JOBS</button>
+            <button id="costGuardResumeButton" class="mini-btn" type="button">RESUME</button>
+          </div>
+        </div>
+        <div class="guard-status-grid">
+          <div><span>AUTO</span><strong id="costGuardAuto">—</strong></div>
+          <div><span>LAST CHECK</span><strong id="costGuardChecked">—</strong></div>
+        </div>
+        <div id="costGuardMetrics" class="note">—</div>
         <div class="mini-metrics three">
           <div><span>ATTEMPTS</span><strong id="abuseAttempts">—</strong></div>
           <div><span>BLOCKED</span><strong id="abuseBlocked">—</strong></div>
@@ -217,6 +233,6 @@
 
 <footer><div class="wrap">ZASU AUDIO ADMIN / PRIVATE OPERATIONS</div></footer>
 <script src="assets/config.js?v=20261001-admin1"></script>
-<script src="assets/admin.js?v=20261001-abuse1"></script>
+<script src="assets/admin.js?v=20261002-costguard11"></script>
 </body>
 </html>
