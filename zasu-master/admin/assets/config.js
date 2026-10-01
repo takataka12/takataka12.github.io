@@ -1,0 +1,5 @@
+window.ZASU_ADMIN_CONFIG={
+  endpoint:"https://siwmzradvrtetotakkbi.supabase.co/functions/v1/zasu-admin-stats",
+  publishableKey:"sb_publishable_-rY9u8jnlhS0Qg1XmPlqKg_ViQ0sZYn",
+  anonKey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYXNlIiwicmVmIjoic2l3bXpyYWR2cnRldG90YWtrYmkiLCJyb2xlIjoiYW5vbiIsImlhdCI6MTc5MDM1OTYxMSwiZXhwIjoyMTA1OTM1NjExfQ.aF71_QHKtm5JxIN4h3Q-huwKBcdQEOg72fKxErINgMQ"
+};
