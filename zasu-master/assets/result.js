@@ -5,7 +5,6 @@ const resultState=q("#resultState");
 const resultMessage=q("#resultMessage");
 const metrics=q("#metrics");
 const abArea=q("#abArea");
-const beforeAudio=q("#beforeAudio");
 const afterAudio=q("#afterAudio");
 const actions=q("#resultActions");
 const jobProgress=q("#jobProgress");
@@ -81,7 +80,6 @@ function clearResult(){
   if(feedbackCard)feedbackCard.hidden=true;
   if(previewMasterGate)previewMasterGate.hidden=true;
   if(devUnlockMasterButton)devUnlockMasterButton.hidden=true;
-  beforeAudio.removeAttribute("src");
   afterAudio.removeAttribute("src");
 }
 
@@ -148,7 +146,7 @@ function render(body){
           preview_select:"30秒の試聴区間を選んでいます。",
           mastering:(body.mastering_profile==="loud_otv"?"LOUD / OTVの30秒プレビューを作成しています。":"STANDARDの30秒プレビューを作成しています。"),
           processing:"30秒のMASTERプレビューを処理しています。",
-          preparing_results:"FAIR A/B用の30秒音源を書き出しています。",
+          preparing_results:"30秒MASTER試聴を書き出しています。",
           uploading_results:"無料プレビューを保存しています。",
           finalizing:"30秒プレビューを最終確認しています。"
         }[stage]||"無料30秒MASTERプレビューを作成しています。")
@@ -157,7 +155,7 @@ function render(body){
           downloading:"アップロード済み音源を処理サーバーへ安全に転送しています。",
           mastering:(body.mastering_profile==="loud_otv"?"LOUD / OTVプロファイルで高密度マスタリングしています。":"PUNCH ENGINEで音源を解析し、マスタリングしています。"),
           processing:"PUNCH ENGINEで音源を処理しています。",
-          preparing_results:"マスタリング済み音源と比較用プレビューを書き出しています。",
+          preparing_results:"最終MASTERを書き出しています。",
           uploading_results:"完成データを保存しています。大きなマスターは安全に分割保存されます。",
           finalizing:"完成ファイルを検証し、ダウンロードを準備しています。"
         }[stage]||"マスタリング処理を実行しています。このページは自動更新されます。");
@@ -188,7 +186,7 @@ function render(body){
       isPreview?"PREVIEW READY":"COMPLETED",
       isPreview?"30 SEC PREVIEW READY.":"MASTER READY.",
       isPreview
-        ? (body.profile_label||"STANDARD")+" の30秒FAIR A/Bが完成しました。試聴後にフル尺へ進めます。"
+        ? (body.profile_label||"STANDARD")+" の30秒MASTER試聴が完成しました。気に入ったらフル尺へ進めます。"
         : (body.profile_label||"STANDARD")+" のマスタリングが完了しました。"
     );
     if(feedbackCard)feedbackCard.hidden=isPreview;
@@ -197,14 +195,11 @@ function render(body){
     q("#metricLufs").textContent=Number.isFinite(body.output_lufs)?body.output_lufs.toFixed(2)+" LUFS":"—";
     q("#metricTp").textContent=Number.isFinite(body.output_dbtp)?body.output_dbtp.toFixed(2)+" dBTP":"—";
 
-    if(body.fair_before_url&&body.fair_after_url){
+    if(isPreview&&body.preview_url){
       abArea.hidden=false;
-      beforeAudio.src=body.fair_before_url;
-      afterAudio.src=body.fair_after_url;
-      for(const audio of [beforeAudio,afterAudio]){
-        audio.preload="metadata";
-        audio.load();
-      }
+      afterAudio.src=body.preview_url;
+      afterAudio.preload="metadata";
+      afterAudio.load();
     }
 
     if(isPreview){
@@ -230,13 +225,13 @@ function render(body){
       const a=document.createElement("a");
       a.className="btn";
       a.href=body.download_url;
-      a.textContent="DOWNLOAD 24-BIT WAV";
+      a.textContent="DOWNLOAD FINAL 24-BIT WAV";
       actions.appendChild(a);
     }else if(body.download_ready&&cfg.workerBaseUrl){
       const a=document.createElement("button");
       a.className="btn";
       a.type="button";
-      a.textContent="DOWNLOAD 24-BIT WAV";
+      a.textContent="DOWNLOAD FINAL 24-BIT WAV";
       a.addEventListener("click",async()=>{
         a.disabled=true;
         a.textContent="PREPARING DOWNLOAD...";
@@ -251,7 +246,7 @@ function render(body){
           location.href=d.url;
         }catch(_){
           a.textContent="DOWNLOAD ERROR";
-          setTimeout(()=>{a.disabled=false;a.textContent="DOWNLOAD 24-BIT WAV"},1800);
+          setTimeout(()=>{a.disabled=false;a.textContent="DOWNLOAD FINAL 24-BIT WAV"},1800);
         }
       });
       actions.appendChild(a);
