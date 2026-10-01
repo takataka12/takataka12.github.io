@@ -67,18 +67,28 @@ fileInput.addEventListener("change",()=>setFile(fileInput.files?.[0]));
 ["dragleave","drop"].forEach(ev=>dropzone.addEventListener(ev,e=>{e.preventDefault();dropzone.classList.remove("drag")}));
 dropzone.addEventListener("drop",e=>setFile(e.dataTransfer?.files?.[0]));
 
+function edgeHeaders(){
+  const h={
+    "Content-Type":"application/json",
+    "apikey":cfg.betaAnonKey,
+    "Authorization":"Bearer "+cfg.betaAnonKey
+  };
+  const admin=sessionStorage.getItem("zasu_admin_key")||sessionStorage.getItem("zasu_dev_admin_key");
+  if(admin)h["x-zasu-admin-key"]=admin;
+  return h;
+}
 async function edgePost(url,payload){
   const res=await fetch(url,{
     method:"POST",
-    headers:{
-      "Content-Type":"application/json",
-      "apikey":cfg.betaAnonKey,
-      "Authorization":"Bearer "+cfg.betaAnonKey
-    },
+    headers:edgeHeaders(),
     body:JSON.stringify(payload)
   });
   let body={}; try{body=await res.json()}catch(_){}
   if(!res.ok){
+    if(res.status===429||body.error==="rate_limited"){
+      const sec=Math.max(1,Number(body.retry_after_seconds||60));
+      throw new Error("短時間に処理リクエストが集中しています。約"+Math.ceil(sec/60)+"分後にもう一度お試しください。");
+    }
     const map={
       beta_application_not_found:"受付番号が見つかりません。",
       beta_not_accepted:"この受付番号はまだβ参加枠に入っていません。",
@@ -105,11 +115,7 @@ button.addEventListener("click",async()=>{
       status.textContent="ZASU MIXの完成音源をMASTERへ渡しています…";
       const res=await fetch(cfg.directMasterFromMixEndpoint,{
         method:"POST",
-        headers:{
-          "Content-Type":"application/json",
-          "apikey":cfg.betaAnonKey,
-          "Authorization":"Bearer "+cfg.betaAnonKey
-        },
+        headers:edgeHeaders(),
         body:JSON.stringify({
           application_no:no,
           access_token:accessToken,
@@ -120,6 +126,10 @@ button.addEventListener("click",async()=>{
       });
       let body={};try{body=await res.json()}catch(_){}
       if(!res.ok){
+        if(res.status===429||body.error==="rate_limited"){
+          const sec=Math.max(1,Number(body.retry_after_seconds||60));
+          throw new Error("短時間にMASTERリクエストが集中しています。約"+Math.ceil(sec/60)+"分後にもう一度お試しください。");
+        }
         const map={
           beta_application_not_found:"受付番号が見つかりません。",
           beta_not_accepted:"この受付番号はまだ利用できません。",
