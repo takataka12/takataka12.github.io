@@ -81,6 +81,9 @@ function render(body){
   const jobs=Array.isArray(body.current_jobs)?body.current_jobs:[];
   setText("#queueCount",fmtInt(jobs.length));
   setText("#reviewCount",fmtInt(jobs.filter(x=>x.status==="awaiting_review").length));
+  renderServiceQueue(jobs,"MIX","#mixQueueState","#mixQueueDetail");
+  renderServiceQueue(jobs,"MASTER","#masterQueueState","#masterQueueDetail");
+  renderServiceQueue(jobs,"CONVERT","#convertQueueState","#convertQueueDetail");
   renderJobs(jobs);
 
   const pf=body.preflight||{};
@@ -124,6 +127,22 @@ function render(body){
 
   renderErrors(Array.isArray(body.recent_errors)?body.recent_errors:[]);
   setText("#healthText","ONLINE");q(".health").classList.add("online");
+}
+function renderServiceQueue(rows,service,stateSel,detailSel){
+  const list=rows.filter(x=>x.service===service);
+  const processing=list.filter(x=>x.status==="processing").length;
+  const waiting=list.filter(x=>x.status==="queued").length;
+  const review=list.filter(x=>x.status==="awaiting_review").length;
+  let state="READY";
+  if(processing>0)state="PROCESSING";
+  else if(waiting>0)state="WAITING";
+  else if(review>0)state="REVIEW";
+  setText(stateSel,state);
+  const parts=[];
+  if(processing)parts.push("processing "+processing);
+  if(waiting)parts.push("waiting "+waiting);
+  if(review)parts.push("review "+review);
+  setText(detailSel,parts.length?parts.join(" / "):"no wait");
 }
 function renderJobs(rows){
   const tbody=q("#currentJobsBody");tbody.innerHTML="";
