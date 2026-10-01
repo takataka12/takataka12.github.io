@@ -72,6 +72,7 @@ async function fetchStats(){
 function render(body){
   setText("#generatedAt","UPDATED "+dt(body.generated_at));
   renderHealth(body.health||{});
+  renderAlerts(body.alerts||{});
   const mix=body.mix||{},master=body.master||{},convert=body.convert||{},orders=body.orders||{};
   setText("#mixTotal",fmtInt(mix.total));setText("#mixMeta","SUCCESS "+success(mix)+"% / FAILED "+fmtInt(mix.failed));
   setText("#masterTotal",fmtInt(master.total));setText("#masterMeta","SUCCESS "+success(master)+"% / FAILED "+fmtInt(master.failed));
@@ -129,6 +130,64 @@ function render(body){
   renderErrors(Array.isArray(body.recent_errors)?body.recent_errors:[]);
   setText("#healthText","ONLINE");q(".health").classList.add("online");
 }
+function renderAlerts(alerts){
+  const delivery=alerts?.delivery||{};
+  const state=alerts?.state||{};
+  const events=Array.isArray(alerts?.recent)?alerts.recent:[];
+
+  const ready=delivery.domain_verified===true&&delivery.transport_enabled===true&&delivery.api_key_configured===true&&delivery.recipient_configured===true;
+  const statusEl=q("#alertTransportStatus");
+  statusEl.classList.remove("pending","active","degraded");
+  if(ready){
+    statusEl.textContent="ACTIVE";
+    statusEl.classList.add("active");
+    setText("#alertTransportDetail","Critical incident / recovery mail is enabled.");
+  }else{
+    statusEl.textContent="SETUP PENDING";
+    statusEl.classList.add("pending");
+    const missing=[];
+    if(delivery.domain_verified!==true)missing.push("DNS");
+    if(delivery.api_key_configured!==true)missing.push("API KEY");
+    if(delivery.transport_enabled!==true)missing.push("ENABLE");
+    setText("#alertTransportDetail","Waiting: "+(missing.join(" / ")||"configuration"));
+  }
+
+  const incidentEl=q("#alertIncidentState");
+  incidentEl.classList.remove("pending","active","degraded");
+  if(state.active===true){
+    incidentEl.textContent="ACTIVE";
+    incidentEl.classList.add("degraded");
+    setText("#alertIncidentSince",state.active_since?"since "+dt(state.active_since):"critical condition active");
+  }else{
+    incidentEl.textContent="NONE";
+    incidentEl.classList.add("active");
+    setText("#alertIncidentSince","No active critical incident.");
+  }
+
+  setText("#alertProvider",String(delivery.provider||"resend").toUpperCase());
+  setText("#alertDomain",delivery.sending_domain||"—");
+  setText("#alertLastEvent",state.last_event_type?String(state.last_event_type).toUpperCase()+" / "+dt(state.last_event_at):"—");
+
+  const tbody=q("#alertEventsBody");
+  tbody.innerHTML="";
+  if(!events.length){
+    const tr=document.createElement("tr");
+    const cell=td("Critical incident / recovery event はまだありません。");
+    cell.colSpan=4;cell.className="empty";tr.appendChild(cell);tbody.appendChild(tr);
+    return;
+  }
+  for(const x of events){
+    const tr=document.createElement("tr");
+    tr.append(
+      td(String(x.event_type||"").toUpperCase(),true),
+      td(String(x.subject||"—").slice(0,120)),
+      td(String(x.delivery_status||"—").toUpperCase()),
+      td(dt(x.created_at))
+    );
+    tbody.appendChild(tr);
+  }
+}
+
 function renderServiceQueue(rows,service,stateSel,detailSel){
   const list=rows.filter(x=>x.service===service);
   const processing=list.filter(x=>x.status==="processing").length;
