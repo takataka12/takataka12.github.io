@@ -6,7 +6,7 @@
 <meta name="robots" content="noindex,nofollow,noarchive">
 <meta name="theme-color" content="#080808">
 <title>ZASU AUDIO ADMIN</title>
-<link rel="stylesheet" href="assets/style.css?v=20261001-health1">
+<link rel="stylesheet" href="assets/style.css?v=20261001-alerts1">
 </head>
 <body>
 <header>
@@ -61,6 +61,27 @@
         <div><span>CONVERT</span><strong id="healthConvert">—</strong><small id="healthConvertDetail">—</small></div>
       </div>
       <div id="healthIssues" class="health-issues"></div>
+    </section>
+
+    <section class="two-col alerts-row">
+      <article class="panel alert-panel">
+        <div class="section-head"><span>ALERTS / v1</span><h2>Email Alert Transport</h2></div>
+        <div class="alert-transport">
+          <div><span>STATUS</span><strong id="alertTransportStatus">—</strong><small id="alertTransportDetail">—</small></div>
+          <div><span>ACTIVE INCIDENT</span><strong id="alertIncidentState">—</strong><small id="alertIncidentSince">—</small></div>
+        </div>
+        <dl class="details">
+          <div><dt>PROVIDER</dt><dd id="alertProvider">—</dd></div>
+          <div><dt>SENDING DOMAIN</dt><dd id="alertDomain">—</dd></div>
+          <div><dt>LAST EVENT</dt><dd id="alertLastEvent">—</dd></div>
+        </dl>
+      </article>
+      <article class="panel">
+        <div class="section-head"><span>ALERT LOG</span><h2>Recent Incident / Recovery</h2></div>
+        <div class="table-wrap">
+          <table><thead><tr><th>TYPE</th><th>SUBJECT</th><th>DELIVERY</th><th>TIME</th></tr></thead><tbody id="alertEventsBody"></tbody></table>
+        </div>
+      </article>
     </section>
 
     <section class="metric-grid">
@@ -178,6 +199,6 @@
 
 <footer><div class="wrap">ZASU AUDIO ADMIN / PRIVATE OPERATIONS</div></footer>
 <script src="assets/config.js?v=20261001-admin1"></script>
-<script src="assets/admin.js?v=20261001-health1"></script>
+<script src="assets/admin.js?v=20261001-alerts1"></script>
 </body>
 </html>
