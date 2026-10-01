@@ -1,35 +1,104 @@
 {
-  "generatedAt": "2026-09-30T23:49:32Z",
+  "generatedAt": "2026-10-01T05:53:37Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
       "id": "093538c38ad745",
       "category": "politics",
-      "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - news.yahoo.co.jp",
+      "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
       "sourceCount": 3,
       "latestPublishedAt": "2026-09-28T01:32:14Z",
       "sources": [
         {
           "id": "f4e347d48a71f9",
-          "name": "news.yahoo.co.jp",
-          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - news.yahoo.co.jp",
+          "name": "Yahoo!ニュース",
+          "title": "スイス、中立政策の厳格化を否決-政府に柔軟な運用余地（TBS CROSS DIG with Bloomberg） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9HZG96T29TRFZlUzh2UmdiUGs3TVRTZzFMdzBEWnZQQW5RQkMta0swRXdxSDlBVTFNOXpHS2dOWHhfTnJLcDRpMi1LX096aDVPS2oxMDMzRF9VVzRNMHJMdWJLQTV5QjVOUkJoNml0UkRJNE02eWNRN1FzYzlTWEk?oc=5",
           "publishedAt": "2026-09-28T01:32:14Z"
         },
         {
-          "id": "201bcfe37ab9c6",
+          "id": "4242bb59e77f1b",
+          "name": "Bloomberg.com",
+          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - Bloomberg.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxcng3bFFWMFd3Q3F0ckd1ckhkMTUzN1N0eVBacUZhNmtHLXdJanItTHVJU0FZV3hMZW9GN09nd3lnbTZoSzI2LWo0ZWhpczBjbUtQUHRLQlU5TjNZTjA1X0ZNTk1DUDlSaVB1TGl3MGxNVEI3WlE0?oc=5",
+          "publishedAt": "2026-09-28T00:04:27Z"
+        },
+        {
+          "id": "ed3d8c3f222cad",
           "name": "TBS NEWS DIG",
           "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9DUTVyMVhiM0s2Y2V0ZUNjWW81QlZLaXpNZUhVYlVmNmp5RHJiSVAtTVgzRDhiQV9nUFdQU2VBVVZtRE1HTHgzQ3dUTldvczUxbGlFOUVUajlDd2tNb2JrbjRBcGZEVWc?oc=5",
           "publishedAt": "2026-09-28T00:04:21Z"
+        }
+      ]
+    },
+    {
+      "id": "4507253b5ae3a7",
+      "category": "entertainment",
+      "title": "【速報】俳優の伊東四朗さんが芸能活動引退へ - 新潟日報",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-01T04:22:00Z",
+      "sources": [
+        {
+          "id": "cbf95f32a73a2c",
+          "name": "新潟日報",
+          "title": "【速報】俳優の伊東四朗さんが芸能活動引退へ - 新潟日報",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5xaHAyTzRWenZUT2J1WjhtaEVVN2NUVmYyNGxlbF9wMU8yOWdoWEs5alBCY19pWHB0cW5ydm5jYjFEZUtlTlZnM0pSUDR3VWhUTS1vR0I5aURrbGUxTmc?oc=5",
+          "publishedAt": "2026-10-01T04:22:00Z"
         },
         {
-          "id": "21efa8b0f0b104",
-          "name": "Bloomberg.com",
-          "title": "スイス、中立政策の厳格化を否決－政府に柔軟な運用余地 - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxcng3bFFWMFd3Q3F0ckd1ckhkMTUzN1N0eVBacUZhNmtHLXdJanItTHVJU0FZV3hMZW9GN09nd3lnbTZoSzI2LWo0ZWhpczBjbUtQUHRLQlU5TjNZTjA1X0ZNTk1DUDlSaVB1TGl3MGxNVEI3WlE0?oc=5",
-          "publishedAt": "2026-09-28T00:04:00Z"
+          "id": "085ed504ffcd21",
+          "name": "47NEWS",
+          "title": "【速報】伊東四朗さんが芸能活動引退へ - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4wR25ESE1nQy1GWTZ4RUlCLVB5X003RUhNSGJ1bmJ5alduaEpQcEM4ckU0X3Y1S0wtNGVTUnVyWG1GMmxlMFBVZGpFdw?oc=5",
+          "publishedAt": "2026-10-01T04:20:06Z"
+        }
+      ]
+    },
+    {
+      "id": "9a4aff1f57e915",
+      "category": "entertainment",
+      "title": "“天てれ戦士”池村咲良、芸能活動を休止　「おかえりモネ」や「どうする家康」で熱演披露 - topics.smt.docomo.ne.jp",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-01T01:20:00Z",
+      "sources": [
+        {
+          "id": "d1f15759074547",
+          "name": "topics.smt.docomo.ne.jp",
+          "title": "“天てれ戦士”池村咲良、芸能活動を休止　「おかえりモネ」や「どうする家康」で熱演披露 - topics.smt.docomo.ne.jp",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMldjeHpMeEtQR0w0RE9nQ2YydC1aZVE1VUhKc2hKeXJrZ0JVLW9SVnpsdGdBRWpDOXVvQnUxaEpDdzZqZEV1eDFkSzItendUbk1tVzFLQTVQSmRjU2NZajVRWXFodGh1SVR6a21lYXJRZTdHb0ZyR21SX2lUU19DSkJuSmhuQ19MblNfSnhMNjBDRmlJZm9R0gGcAUFVX3lxTE1yVUxNMnRYNkpnTU0zTDJuQURwYnhic1FRRWFRbnlubFROZU9pdWtYZU9SbkFZTk5fb0w2T1VwS3hNSG5xYWFXMTc1eVVWOGFjbFFNUjdqTTJnWHVyQ3BlUlRWQng4a3dETDhSNWdXaFBBSjNiUl9pU213dHpCSV93dzgyNjBSbGh0V19wT0Rob00xVU9SMGRLR2tZcw?oc=5",
+          "publishedAt": "2026-10-01T01:20:00Z"
+        },
+        {
+          "id": "b2ba4193080ab4",
+          "name": "sponichi.co.jp",
+          "title": "“天てれ戦士”池村咲良、芸能活動を休止 「おかえりモネ」や「どうする家康」で熱演披露 - sponichi.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUHVHWWx4SHRqSjY4dWtkYkk3cUNhbVdka0tOLXpGeGxwUzd3UFF4X21fT3l1SFJqbzlPWlp1c0dPQmdBbVZlaDRCalZKRDRXV2hyQWlPWHpvcG9CTldVaGVPT0xwQmJLT0NmNzJaTmNhd2lNTHFKVzYwOXBvQ1J2N2xhdE5uVW5Nang1U01fVDN6RmhLT0E?oc=5",
+          "publishedAt": "2026-10-01T01:18:00Z"
+        }
+      ]
+    },
+    {
+      "id": "58f6e43c00c702",
+      "category": "internet",
+      "title": "韓国ネットで話題の「巨大花火」写真…高層ビル群に広がる光の正体は「トイレのブラシ」 - afpbb.com",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-01T00:04:43Z",
+      "sources": [
+        {
+          "id": "cf809530231eef",
+          "name": "afpbb.com",
+          "title": "韓国ネットで話題の「巨大花火」写真…高層ビル群に広がる光の正体は「トイレのブラシ」 - afpbb.com",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFdEMyNzViVjBWcDdsdnhHeGxSOEx4M0RiY3FyWFVpWnFhdTZJWFRKeWlfVmYxUDkyMUVfUXJjeFlYM1NtOTNiaVpQLThkcFl2dGfSAVRBVV95cUxOODFtRUx2Zkd4d3VsTnIycV81VC1qUHNlRU9MazE2UVFMandFYWFLeExCT2ZzdzJoU2hLMUJBRXRBeVVKYTJYcmRNTjdoN3NYYXRncjc?oc=5",
+          "publishedAt": "2026-10-01T00:04:43Z"
+        },
+        {
+          "id": "64e29b61a749f7",
+          "name": "KOREA WAVE",
+          "title": "韓国ネットで話題の「巨大花火」写真…高層ビル群に広がる光の正体は「トイレのブラシ」 - KOREA WAVE",
+          "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPRDBSblFBRHI4TVl2ZXJHMGdYMFIzdW9lWlhvelZ3MHZZSnpRX0V2VF8yZXppMVhod2pTNE56UHBBZFozT0VQenRZcnlpRF9RR09ya0lOM0QwbHFZWndIQTBpa19rcjdZdzZjZm43QUE0TkRaUFlTYWc4QV9nb0R0ZXBVS1lmSEhKX1BRUEJGYkEzbTFlby1mM1E0QThZeWV4VGcyX1FaN1JsZUlFV1pGanFjTGtha1dkSnIyU2VRYlBFbXQ1QWtXV2pfMXUwQ2hUbzZQRlRhMElTNjZKa0NFTmhpT3RlRElDTEw0eGNNV3FHMXIzTll0ZXpnR2dPYU5EcjBSZWdDQWxCaHRoWkdaN3dsal9SczdQMDh2TWRyQ3JoenZmUVBfUzZnbGdtbnlRLUtWLUZ3?oc=5",
+          "publishedAt": "2026-09-30T20:15:57Z"
         }
       ]
     },
@@ -57,145 +126,39 @@
       ]
     },
     {
-      "id": "3f2328b3acc29b",
-      "category": "economy",
-      "title": "豪プライベートクレジット大手、一部解約停止 決算巡り監査法人が疑義 - Reuters",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-30T09:45:44Z",
-      "sources": [
-        {
-          "id": "2dd3c6150a59ed",
-          "name": "Reuters",
-          "title": "豪プライベートクレジット大手、一部解約停止 決算巡り監査法人が疑義 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUFQ1N1FOSWxMWTVZWDNKU25PYmt1WHE5aThxVm9WMEcwQk16Z24tOEVabU92d05iUWxlVkgwSlpPVUF1OXUyMEpTWGpQUEVBMlV4UkRtYS1vdmUxc2JRQnRCVmpsOU80OXdmSkRTZWUxazJLaU5GWFNYb1NIeVVLSEV2Y21BUQ?oc=5",
-          "publishedAt": "2026-09-30T09:45:44Z"
-        },
-        {
-          "id": "a5a291beb7a271",
-          "name": "ｄメニューニュース",
-          "title": "豪プライベートクレジット大手、一部解約停止　決算巡り監査法人が疑義 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNd05WdUZWblIxS09kNkNhcnlPWldlcGlIX25ENjFiN29sTFVwZ0ttWUdteVlPNWR6QWJ5bms2cXExMk9GY3l3WkxTWDlrVDNZMW1zdzlKVWNUY1ZsZzJNbkx0Qkwza3dPa3BBaWxleXR3bllzU2wzVUVIUHhlbmxHTU1R0gGHAUFVX3lxTE1vZ3NfdjlmNFVvSDNMRmRzcGZuQTBBSzRIdTNKUlZTM3N4c3BiTE1NLXJlZDhkc1RrSV83WjhYc3RXWFZuM2tuUjdOSnp4bDBPUlZoRmtVZWRPM2hzMnBYRmRldWJnWi1ocHAtUVQ4a19fN2ZuWFdlbU9zcjRibGdnQ3FLN2ZFVQ?oc=5",
-          "publishedAt": "2026-09-30T09:45:00Z"
-        }
-      ]
-    },
-    {
-      "id": "96fc2cb69c8f88",
-      "category": "politics",
-      "title": "麻生太郎氏に“隠し資産”土地3カ所発覚…国会に報告せず、資産公開法違反の可能性《事務所は「現在確認中です」と回答》 - news.yahoo.co.jp",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-30T07:12:16Z",
-      "sources": [
-        {
-          "id": "e5938fa44dc0a2",
-          "name": "news.yahoo.co.jp",
-          "title": "麻生太郎氏に“隠し資産”土地3カ所発覚…国会に報告せず、資産公開法違反の可能性《事務所は「現在確認中です」と回答》 - news.yahoo.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hNkNmaVk4aFZmeHVmTDZ3Q1NxbHQzdGdvSDJ6elhVRUJicTQtU1pCUnNVcnVWazc0ckxDZUdBN0x5dzIyT2dYc0dqcnRLQVVycFNVcGU0aDRmSTlrR0k1anVLZjVhbUMzS1ZOZlFOVE1qclpPWDhDbGx0TkUwUFU?oc=5",
-          "publishedAt": "2026-09-30T07:12:16Z"
-        },
-        {
-          "id": "181850005bfb0f",
-          "name": "文春オンライン",
-          "title": "麻生太郎氏に“隠し資産”土地3カ所発覚…国会に報告せず、資産公開法違反の可能性《事務所は「現在確認中です」と回答》 - 文春オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5aMF9udmQ1SmkyMlFWXy1lTmdWbVpSS3N3YVM2N2xjLWV4c0dfWHpMVVlGUGYzbkxvVXhoeWZMdVl1aS1qelplVWZvNXd4cXEx?oc=5",
-          "publishedAt": "2026-09-30T07:00:00Z"
-        },
-        {
-          "id": "f053d7c8509175",
-          "name": "文春オンライン",
-          "title": "麻生太郎氏に“隠し資産”土地3カ所発覚…国会に報告せず、資産公開法違反の可能性《事務所は「現在確認中です」と回答》 - 文春オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9vSkFmdWF4V2RQajI0eWJlQTc2Ung5T3BZbHREZEhFVTU4b2dHazRCVTlLa2ZmUkxPbG01SENoZi1MNHlLN2ZYd0p1bw?oc=5",
-          "publishedAt": "2026-09-30T07:00:00Z"
-        }
-      ]
-    },
-    {
       "id": "d79aa3891f869c",
       "category": "internet",
-      "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - oricon.co.jp",
+      "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - オリコンニュース",
       "sourceCount": 2,
       "latestPublishedAt": "2026-09-30T06:30:00Z",
       "sources": [
         {
           "id": "ed0e558a9546ed",
-          "name": "oricon.co.jp",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - oricon.co.jp",
+          "name": "オリコンニュース",
+          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - オリコンニュース",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1DbURvRl83M3ZJWDh6WXZHbzEwTjlmX1o5Y0NxaXNrLUxUaFpMU3ZwZ0NFWlBCRkU3d1ZxVjM4NW13MHY5cXRUcVlRTVVQeXp1YzhIWlp3?oc=5",
           "publishedAt": "2026-09-30T06:30:00Z"
         },
         {
-          "id": "acee48d3457ce9",
-          "name": "oricon.co.jp",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 - oricon.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WZmZqY2lvZlloRWNONjR0aTNoR0tzZ2xONlpLRUpCSkVQQVhwUWN5RmFabktsMThfVEh0azJDajdGeC0tY3B6QmZmVF9WZU9kaTBzbzNHc21pekN3SmtYc3BuYUItSFRLYWc?oc=5",
-          "publishedAt": "2026-09-30T06:30:00Z"
-        },
-        {
-          "id": "deee16b9a4e764",
-          "name": "news.yahoo.co.jp",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン) - news.yahoo.co.jp",
+          "id": "1149786688f260",
+          "name": "Yahoo!ニュース",
+          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン) - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1BZSTRkR21PZlMzYkRPRF85dzZJQzZNMVY4SFVWUnBrSndERWJBUnVJRWdJQ0pVdWJ4ajhndUwyTzkxVVVuZkdWRURsRG15b19WQUF2bGJjdko4NGVNVG9FZUc2RExKT3NOa1BWclAxSlpybGJwQVJhWl9PZ01uTHRCdXBUU3FmZFVqSjBR?oc=5",
           "publishedAt": "2026-09-30T06:30:00Z"
         }
       ]
     },
     {
-      "id": "b042c9582e1919",
-      "category": "entertainment",
-      "title": "14歳で芸能界へ、40代で恋愛ドラマ急増…中村ゆりさん（享年44）が話題作に欠かせない俳優だった理由《最後の作品では…》 - news.yahoo.co.jp",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-30T01:12:17Z",
-      "sources": [
-        {
-          "id": "7f9a84e5e84689",
-          "name": "news.yahoo.co.jp",
-          "title": "14歳で芸能界へ、40代で恋愛ドラマ急増…中村ゆりさん（享年44）が話題作に欠かせない俳優だった理由《最後の作品では…》 - news.yahoo.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBWcGZCalhnazlmNEFLdURTUVVxTW5pMlhEbnI0bGRsSG5tTW5fYVBrelRUWkJkRmNkelN5c01pSVd1VWV0MnFnWU9uXzlDa1pjWk5QQU1iMXNZLV9fNEdnZGRmSTRLdGUxN1pDbEpZekRxWDc5aERsejZSbmJSSjQ?oc=5",
-          "publishedAt": "2026-09-30T01:12:17Z"
-        },
-        {
-          "id": "a2ab283613a174",
-          "name": "文春オンライン",
-          "title": "14歳で芸能界へ、40代で恋愛ドラマ急増…中村ゆりさん（享年44）が話題作に欠かせない俳優だった理由《最後の作品では…》 - 文春オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1rX3BLS1YwbFAxcENoeVRscGFJLUFLTGt6LW5fNXh5TTNpbXBnWkNlZ3I0eVhiZ0NKMUpWanhpMHhvV0lfeFhUNk56Yw?oc=5",
-          "publishedAt": "2026-09-30T01:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "596afa0b55ca93",
-      "category": "internet",
-      "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - USENの音楽情報サイト",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-28T04:40:07Z",
-      "sources": [
-        {
-          "id": "994fa16f304a4a",
-          "name": "USENの音楽情報サイト",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - USENの音楽情報サイト",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbUtkdzRyUEI1NzdSTnYxN3RBb0ZnSVF4YS1DQTF0WEVKVjFsR2VTVEJWeTlsZFF2UHpGbVhkMU9SX1V0VFVYTEplWHN3NVRUVThJYlZ2R1ZlQ1g2RmotZDM4a0dNVV92NUow?oc=5",
-          "publishedAt": "2026-09-28T04:40:07Z"
-        },
-        {
-          "id": "d0e730d818452b",
-          "name": "skream.jp",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング - skream.jp",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWUNORmJnVEhROEwzS29xQktqd1FPRmtIV3lZTVA4TXV0Q0VSSlFnaWlrVmpKRHgtbUNuX1MwQjJtMXFfYjF2VzN5dWhzcUhpemxEWmNnN3J1VVUtVng5YkxOcw?oc=5",
-          "publishedAt": "2026-09-25T12:00:00Z"
-        }
-      ]
-    },
-    {
       "id": "2590c3204089f3",
       "category": "entertainment",
-      "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - news.yahoo.co.jp",
+      "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
       "sourceCount": 2,
       "latestPublishedAt": "2026-09-26T07:38:13Z",
       "sources": [
         {
           "id": "b98945f5d909c2",
-          "name": "news.yahoo.co.jp",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - news.yahoo.co.jp",
+          "name": "Yahoo!ニュース",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
           "publishedAt": "2026-09-26T07:38:13Z"
         },
@@ -218,39 +181,181 @@
     {
       "id": "1f256ad39b5a90",
       "category": "entertainment",
-      "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - news.yahoo.co.jp",
+      "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
       "sourceCount": 2,
       "latestPublishedAt": "2026-09-26T07:01:11Z",
       "sources": [
         {
           "id": "bbbe73ed1abfda",
-          "name": "news.yahoo.co.jp",
-          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - news.yahoo.co.jp",
+          "name": "Yahoo!ニュース",
+          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
           "publishedAt": "2026-09-26T07:01:11Z"
         },
         {
           "id": "3af021ad77f484",
-          "name": "natalie.mu",
-          "title": "モナキが変わりすぎて話題、特におヨネ - natalie.mu",
+          "name": "ナタリー",
+          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
           "publishedAt": "2026-09-26T07:00:00Z"
         }
       ]
     },
     {
+      "id": "57a013fa408f1b",
+      "category": "entertainment",
+      "title": "大里中フェスタ 舞台躍動 伝統芸能やダンス成果披露 - 沖縄タイムス社",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T05:29:00Z",
+      "sources": [
+        {
+          "id": "0b43f9f19f783a",
+          "name": "沖縄タイムス社",
+          "title": "大里中フェスタ 舞台躍動 伝統芸能やダンス成果披露 - 沖縄タイムス社",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vdGMxMi1oSGp6MVM1UWprNnpwb093azF0bTNBYUoxZS1xSnlndGNDNVhPRmc3S19sOUpLMDdTNFJmYWRLMmxXck5LanA2ZlFlLUh0RmFsYUFSUGZ5bHc?oc=5",
+          "publishedAt": "2026-10-01T05:29:00Z"
+        }
+      ]
+    },
+    {
+      "id": "447b70e4f382bc",
+      "category": "entertainment",
+      "title": "伊東四朗、来年6月の卒寿をもって芸能活動を引退「眼、耳、脳、腰、膝…すべてが急速に退化」約30年続いたラジオも終了 - テレ朝NEWS",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T05:21:00Z",
+      "sources": [
+        {
+          "id": "ee2b5597d81d4b",
+          "name": "テレ朝NEWS",
+          "title": "伊東四朗、来年6月の卒寿をもって芸能活動を引退「眼、耳、脳、腰、膝…すべてが急速に退化」約30年続いたラジオも終了 - テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBalEtbGgtczNyUXpQcGxTS3F3TGNnWjdydU1zRURyVWdfUHJMU1QwVVBZbFY1N3FUMTh5d3hwWm41UjZJUFo2aV8xODJlXzZUOEFJdFUxd20zNnFiNWdpVVdPU3IxMUQ4UC10X3V3dVY?oc=5",
+          "publishedAt": "2026-10-01T05:21:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aeae32a83bc996",
+      "category": "internet",
+      "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - PR TIMES",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T05:00:02Z",
+      "sources": [
+        {
+          "id": "f6ce79af442243",
+          "name": "PR TIMES",
+          "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zRVAwelZWUFQwUkJfM1dlQUxkZ0N4bUZ1TWZrcTB4UVZFMnY1bHI1VExWdDlDbU9tVE15SFZvNjhmQXlzU2tZSm8wak45Z1BGTzNyWTlMalE3bkFJM3lvamhBbVQtd2ZqbEE?oc=5",
+          "publishedAt": "2026-10-01T05:00:02Z"
+        }
+      ]
+    },
+    {
+      "id": "42bc9f8718b843",
+      "category": "entertainment",
+      "title": "伊東四朗 来年6月で芸能活動引退 - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T04:23:15Z",
+      "sources": [
+        {
+          "id": "a443b25a3313a1",
+          "name": "Yahoo!ニュース",
+          "title": "伊東四朗 来年6月で芸能活動引退 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBENmQwS2FlM05scTBpdVJKUnNuZmFwVk14bW5EdTNLRkhybGtJNmxIcEtTUmNvTzdjeDBjQk04dEdDNlJMWHBfZEhjUmRUSkEt?oc=5",
+          "publishedAt": "2026-10-01T04:23:15Z"
+        },
+        {
+          "id": "df528924076a1f",
+          "name": "Yahoo!ニュース",
+          "title": "伊東四朗、来年6月の“卒寿”を機に芸能活動の引退を発表 公式サイトに直筆メッセージ「皆さん ありがとーッ！」【全文掲載】 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PNERrVlI0bjBxUnltc2VuZU1lSUdHbnpXS2pMNzF3Z2Y5MEtwRGpERWlrazJmQURraHBxUVpFdU9lMGZMbjlYXzJvX0dRMFJwQUtfTjA2UUdHcHVkeVVBQVMzUlJHcHhUNnZjeG1kajhmWXo5YnhyYV9FZDZUX0E?oc=5",
+          "publishedAt": "2026-10-01T04:09:13Z"
+        }
+      ]
+    },
+    {
+      "id": "47395776ad68a9",
+      "category": "internet",
+      "title": "SNSで話題、銀座店に連日行列。「焼肉いのうえ」の黒毛和牛ひつまぶし御膳をお歳暮に｜10月1日予約開始 - MANTANWEB",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T04:22:51Z",
+      "sources": [
+        {
+          "id": "06d145c85bc0da",
+          "name": "MANTANWEB",
+          "title": "SNSで話題、銀座店に連日行列。「焼肉いのうえ」の黒毛和牛ひつまぶし御膳をお歳暮に｜10月1日予約開始 - MANTANWEB",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ZQlR6NVpVNTlXWWtHWWRFdHpYbUNlMUs3VjhIWE0wa3BPTVpTMzhzbzMtTV9UZDFkSFZjRTNlZXNMYmU5a214Tld6TmdGWXlic1VNR0lQU0ZDS0o0anF3cHpqUFZKa0pKMEFmd0h1bFZ2YWFVMVE?oc=5",
+          "publishedAt": "2026-10-01T04:22:51Z"
+        }
+      ]
+    },
+    {
+      "id": "52780eb6995b24",
+      "category": "economy",
+      "title": "経済産業省後援『第12回日本アントレプレナー大賞』募集開始 - valuepress",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T04:00:00Z",
+      "sources": [
+        {
+          "id": "8a7a352b37a3c6",
+          "name": "valuepress",
+          "title": "経済産業省後援『第12回日本アントレプレナー大賞』募集開始 - valuepress",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2Wmo5OEFpUURpaTdMWHhQS1NkcGV0ZGxtU3pqVW1CRUZwdGRwMTJ5dm5jX1MtLV9DOS1mVlZFR1FNSHBXSEhTd25ETUU4LU5ZUXdkX1lnekpMSGs?oc=5",
+          "publishedAt": "2026-10-01T04:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c6b3cef3b96faa",
+      "category": "economy",
+      "title": "日経平均後場寄り付き：前日比1662.59円高の68416.31円｜FX・為替ニュース - ザイFX！",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T03:30:00Z",
+      "sources": [
+        {
+          "id": "c75e1e4f58a6c1",
+          "name": "ザイFX！",
+          "title": "日経平均後場寄り付き：前日比1662.59円高の68416.31円｜FX・為替ニュース - ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1YcnhTQWh4TDJlMXdfekVGV1lSLTNFSDV5bEUtQWt6SnlNdXg3czE5MjAwMDBXYXZISGhnbjQ5XzZReE50b29oa0Q4eEdsa09fLWc?oc=5",
+          "publishedAt": "2026-10-01T03:30:00Z"
+        },
+        {
+          "id": "65aed480103c5e",
+          "name": "ザイFX！",
+          "title": "日経平均前場引け：前日比1602.09円高の68355.81円｜FX・為替ニュース - ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBBdVZFaFFyNTlyV1ZwdmdkYTNLckJURE4tb1BUWU5qdE81T1I3U1prVXBUSmQ2V1N5clppc1pRajBqVWJHSWxUMmp4OGFsMnBqWUE?oc=5",
+          "publishedAt": "2026-10-01T02:34:00Z"
+        }
+      ]
+    },
+    {
+      "id": "22ec5a14a452b2",
+      "category": "politics",
+      "title": "歴史的転換点に立つ日本政治 行方を見極めるカギは「人事と日程」 - asahi.com",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T01:00:00Z",
+      "sources": [
+        {
+          "id": "397d5df3d28f91",
+          "name": "asahi.com",
+          "title": "歴史的転換点に立つ日本政治 行方を見極めるカギは「人事と日程」 - asahi.com",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRDk2V1FZVGhXNVpVcGVWakxKcm1UeXhQN0JrVmJiVjVMSi11MlRJMW5iN3AzbktrX2FWcUJ3VF9KM3FiYmxaLTFQMTlVX0JLRno3bGotWjRUeXkwbnpkS0VxX3dKN2dzVjhLczNXd0JjblpmczJjeEVUbS1vNk5rZWh6c3M3VEE?oc=5",
+          "publishedAt": "2026-10-01T01:00:00Z"
+        }
+      ]
+    },
+    {
       "id": "2e429d5885b11e",
       "category": "economy",
-      "title": "中国進出企業が3割減 日本企業は「どこで何をするか」の時代へ #エキスパートトピ（中村智彦） - エキスパート - news.yahoo.co.jp",
+      "title": "中国進出企業が3割減 日本企業は「どこで何をするか」の時代へ #エキスパートトピ（中村智彦） - エキスパート - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T23:15:58Z",
+      "latestPublishedAt": "2026-09-30T23:15:17Z",
       "sources": [
         {
           "id": "0daf311f0c5b48",
-          "name": "news.yahoo.co.jp",
-          "title": "中国進出企業が3割減 日本企業は「どこで何をするか」の時代へ #エキスパートトピ（中村智彦） - エキスパート - news.yahoo.co.jp",
+          "name": "Yahoo!ニュース",
+          "title": "中国進出企業が3割減 日本企業は「どこで何をするか」の時代へ #エキスパートトピ（中村智彦） - エキスパート - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVkF4OHJBV05DYzFKMTRyQkxndVpwNUx2MXRyM0piaEdLdG82WlpsUS00NlJTZ1lyNjlOVTNmQmtLd05jbTFuRnA4b05INTBNTmpTLU9yTERZTXRyMmZMTTFpdmhTcUpNUmE5YzVjemVOQUFxR0NxcXAxVUlQMUtncm9mRlNpc1VQ?oc=5",
-          "publishedAt": "2026-09-30T23:15:58Z"
+          "publishedAt": "2026-09-30T23:15:17Z"
         }
       ]
     },
@@ -278,96 +383,41 @@
       ]
     },
     {
-      "id": "4eb2dbcad4645b",
-      "category": "economy",
-      "title": "日本経済新聞 朝刊 - 日本経済新聞",
+      "id": "6270bda5b8468d",
+      "category": "politics",
+      "title": "【政界地獄耳・特別編】安倍首相から言われた一言 政界“裏面史”探り20年 一番変わったのは…（日刊スポーツ） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T21:39:12Z",
+      "latestPublishedAt": "2026-09-30T21:00:01Z",
       "sources": [
         {
-          "id": "d9fc81d1f21a3a",
-          "name": "日本経済新聞",
-          "title": "日本経済新聞 朝刊 - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOElueVM4Y2tSRHpYbk9XclRUdXJka0dRNXBJTlI2dkc2Zl93S0NMajRpQmNWX2xhTDY5Wlh4U0FQSWN0RS15ZHNjbk5kUzhabW1TdzZ6eHRvTWE2X1RrZURmS0hyalhtVmdzNUR6Y1gxbjhSUU1QWjVRWkdKcHlPS0lpaUJFZ0ItWEE0THF4WHkydXBHZzhmTHlHaC1oUXd4TDZmRmpOM05leFU4NlNtOA?oc=5",
-          "publishedAt": "2026-09-30T21:39:12Z"
-        },
-        {
-          "id": "2238569d7a4a38",
-          "name": "日本経済新聞",
-          "title": "日本経済新聞 朝刊 - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd3pnWUVWWGR3RFFXQThiejE1ZFl6YVdfT3JUOU90YkVtaUdNaG4zblpsVVpyd3p2ZFJHYTZsV0prbklTMVFCVVkydDNKV21tcUFOM0FKT2NfTnRyY0haeWlZaWpFd1Exb1RYbGg2cWI0OWdFWG4yQ1ZPRU1oVDcyVGJjdktlZ0FMNVdNdzNTM3BGeDl2V1pQb0JRdDdDSXZyamxLdGhMb1Q3Z2VpT2FTaw?oc=5",
-          "publishedAt": "2026-09-30T21:01:40Z"
+          "id": "b5ec213677c202",
+          "name": "Yahoo!ニュース",
+          "title": "【政界地獄耳・特別編】安倍首相から言われた一言 政界“裏面史”探り20年 一番変わったのは…（日刊スポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YM3JxZkpTY2hzRlUwc0w4TVNRZUY3ajkteHBnMDNyM2dsczFuZWxXM2xnWEJEeldFZWZGMlhQclpDdEFySDRKcmtXOFd0TUFHR1F0SXhYZFFPRktmRU5hNkt4bFkxUDZYcU1ERHJIQTBVY2NUWkp2dFZoSmY3UjA?oc=5",
+          "publishedAt": "2026-09-30T21:00:01Z"
         }
       ]
     },
     {
       "id": "7f8110d67df621",
       "category": "internet",
-      "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで (LIMO) - news.yahoo.co.jp",
+      "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで (LIMO) - Yahoo!ニュース",
       "sourceCount": 1,
       "latestPublishedAt": "2026-09-30T19:57:30Z",
       "sources": [
         {
           "id": "0594c7c9dc3540",
-          "name": "news.yahoo.co.jp",
-          "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで (LIMO) - news.yahoo.co.jp",
+          "name": "Yahoo!ニュース",
+          "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで (LIMO) - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQU2ZJT1RmZGl5SkpFMVE4VnpSUTlpR2hRUkR0UlJfSnNuZHFMNnE3Zlc3bmQwRjBhZnlYSklhQm94X2xDYTB3TTA1Z0pxNzZtSjNQeE9DcHNBbUp6M0NxMWZycFlSUll3NUs0ZGpPQXZzX2tfck56aHlCVW1wYnRWMWtBaFhFUnJYb1dILXd3?oc=5",
           "publishedAt": "2026-09-30T19:57:30Z"
         },
         {
           "id": "ff3ce9b6e5dc41",
-          "name": "news.yahoo.co.jp",
-          "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで（LIMO） - news.yahoo.co.jp",
+          "name": "Yahoo!ニュース",
+          "title": "友人からの一言がきっかけに。SNSで話題の美容師に出会うまで（LIMO） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1sdFBXckZ2N19DbXJfWTljdjJlWnFOM0RVX1UtajdVbGptS25COUlpNE1fWVllQkplV3VMU252NGNnZ1ZfMnpzbEIzQm1DSGdhcGlYVEV5RGJUSUVVVnZCZExKWE5FUTNVWVBkaTQ2dklZSHJtV2FvY3FCeExtNW8?oc=5",
-          "publishedAt": "2026-09-30T19:16:33Z"
-        }
-      ]
-    },
-    {
-      "id": "a9d9908c27e3d3",
-      "category": "entertainment",
-      "title": "29歳・元NMB48メンバー　芸能界引退を報告「約16年間の活動に幕を閉じます」 - ｄメニューニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T11:55:00Z",
-      "sources": [
-        {
-          "id": "cf336b9e9c67e4",
-          "name": "ｄメニューニュース",
-          "title": "29歳・元NMB48メンバー　芸能界引退を報告「約16年間の活動に幕を閉じます」 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdUZDRGdxb2hFRWJBSWJQZFgwRTlrUzNPV0lhSWo3bHh1Y05EeElxNlN0RF9mTU1jWHo5bDZfRHdJRGtXbHpnQUdLdVhnYmh0dExtaVNHWlZFc2o3TXVJV0p5VUZoZzFpUUNPWkRCaUs5QjFDN3V2amswdFd0VkYtbFYxTWlaQ2FoY21reW1fakh2cVRoMnNv0gGcAUFVX3lxTE15RW02SzVsT1ZZSEJsZHJOYlAwSlNHZ29pRFAwT1NlajNYeUdaWWF6bkE4V2tmUThGaUxsYmJBTTFhZDNqQVdCVEF2V0tzclEtSzZFQXB6TEliNndZc19wcHZTbER0ZUFNeHRlU29FTVI5WWM1MXhfdkFXV3hiSFZqRjBiV2l1alB5WThaWnhoMU1UUzdVTERJbC13SA?oc=5",
-          "publishedAt": "2026-09-30T11:55:00Z"
-        }
-      ]
-    },
-    {
-      "id": "7175e330094d85",
-      "category": "entertainment",
-      "title": "22歳の元人気アイドル 芸能活動終了を発表｢これまでとは違う道へと進むことを決断いたしました｣ - よろず〜ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T11:45:00Z",
-      "sources": [
-        {
-          "id": "4d4f2510d7adea",
-          "name": "よろず〜ニュース",
-          "title": "22歳の元人気アイドル 芸能活動終了を発表｢これまでとは違う道へと進むことを決断いたしました｣ - よろず〜ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAtdFFpVFVvUW5yRWxKeHZNeFV4SEJzSzlXSVloM1R5bm1INDJLWEl2Rm1xSF85MzhUeTNGaE5mTDFKc3VtdXZ1R0wtUGlxOFZ1?oc=5",
-          "publishedAt": "2026-09-30T11:45:00Z"
-        }
-      ]
-    },
-    {
-      "id": "b8609d932e6390",
-      "category": "economy",
-      "title": "インフレ､金利上昇が常態化…世界の｢戦時経済｣突入で一人負けする日本の行く末 - PRESIDENT Online（プレジデントオンライン）",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T11:01:56Z",
-      "sources": [
-        {
-          "id": "75914e4bfdc063",
-          "name": "PRESIDENT Online（プレジデントオンライン）",
-          "title": "インフレ､金利上昇が常態化…世界の｢戦時経済｣突入で一人負けする日本の行く末 - PRESIDENT Online（プレジデントオンライン）",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBXemczQTM3NXRVM0ZjVFg1STdaZERfNEZlRXZDdktCVVNwejRLeG1vR3dMRWNJZEVkc0JqXzBYM0dub0ZNbHVYX1l4Q2xkRXc?oc=5",
-          "publishedAt": "2026-09-30T11:01:56Z"
+          "publishedAt": "2026-09-30T19:10:48Z"
         }
       ]
     },
@@ -411,98 +461,34 @@
       ]
     },
     {
-      "id": "0db6e32864c7c0",
-      "category": "internet",
-      "title": "【麒麟・川島明さん絶賛！】SNSで話題沸騰のマンガ『戦国工務店』が待望の書籍化！ 2026年11月11日（水）発売決定 - PR TIMES",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-30T03:00:02Z",
-      "sources": [
-        {
-          "id": "7656dc3d845335",
-          "name": "PR TIMES",
-          "title": "【麒麟・川島明さん絶賛！】SNSで話題沸騰のマンガ『戦国工務店』が待望の書籍化！ 2026年11月11日（水）発売決定 - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JOWZCU0tsWEE0SlJwXzBmRkpfaHp4c2dPY0ZVV29maGIxVjJJbUI3bDVzX0dQaWluY0FjYkNweDg5MUdBNkViaGtQTkhRbHlJVmEwaE9TU3dnU1BoUmYzXzdRVEs2TXIxNEE?oc=5",
-          "publishedAt": "2026-09-30T03:00:02Z"
-        }
-      ]
-    },
-    {
       "id": "7c6dd16dfce8d7",
       "category": "economy",
-      "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - 文化放送",
+      "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - joqr.co.jp",
       "sourceCount": 1,
       "latestPublishedAt": "2026-09-30T02:36:03Z",
       "sources": [
         {
           "id": "b5f7660ead344c",
-          "name": "文化放送",
-          "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - 文化放送",
+          "name": "joqr.co.jp",
+          "title": "欧米金利がリーマン級に上昇。今後、日本経済への影響は - joqr.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5vR24wY1JWUFRTc2tnZlZGdm5KdV9NSVhWLWZIZlltR1E5QUFfQzdLRE4tSnYwajhrRi01dU1kb2ZWS3NpMUVqU3BFYVZjSkJkazlxQUxB?oc=5",
           "publishedAt": "2026-09-30T02:36:03Z"
         }
       ]
     },
     {
-      "id": "e5bff459f35c9b",
-      "category": "internet",
-      "title": "見逃し配信中！ごはん泥棒!?ＳＮＳで話題の秋田名物「ぼだっこ」【あさイチ】 - nhk.or.jp",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T12:11:58Z",
-      "sources": [
-        {
-          "id": "1a374da99127a7",
-          "name": "nhk.or.jp",
-          "title": "見逃し配信中！ごはん泥棒!?ＳＮＳで話題の秋田名物「ぼだっこ」【あさイチ】 - nhk.or.jp",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9oRHhOYUlWWVdJdDl1UDdhVjVfa3F1XzBUWEdxc05MWmF4TkdwWXV0dXRjR1lGcGlmU2FLM3E4RTkzOWNfQTg1RXNRZzBNSGgzQzIwMnluYUpSZE5kSWE1MG5YeC0?oc=5",
-          "publishedAt": "2026-09-29T12:11:58Z"
-        }
-      ]
-    },
-    {
-      "id": "593d307a1c56f8",
+      "id": "56000c3efabc9f",
       "category": "politics",
-      "title": "【速報】中国副首相は岩屋前外相に「日本の一部政治家が台湾問題で中国側のボトムラインに挑もうとしている」と述べた - 時事ドットコム",
+      "title": "松下政経塾は京都大学で、寄附講義「日本の政治と経済：関西からの視点」を開講します - PR TIMES",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T08:26:00Z",
+      "latestPublishedAt": "2026-09-30T00:30:01Z",
       "sources": [
         {
-          "id": "c920d0b384dea7",
-          "name": "時事ドットコム",
-          "title": "【速報】中国副首相は岩屋前外相に「日本の一部政治家が台湾問題で中国側のボトムラインに挑もうとしている」と述べた - 時事ドットコム",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1pZi0yT05wTFQyZkNZVkZqMzBnNjRDbGhqbE1fUjlHZElfWktSeGlkeks1NWt2NWZrQU5NeFpscnlGN3QyQnJqRkU3cVFyREhob3lhUjhLbkd1NDFmWXlqVGxUblYtUQ?oc=5",
-          "publishedAt": "2026-09-29T08:26:00Z"
-        }
-      ]
-    },
-    {
-      "id": "e4051e132291e8",
-      "category": "entertainment",
-      "title": "関連動画 | 小島瑠璃子「芸能だけになるのが怖かった」 芸能活動休止の裏側・起業した理由を明かす - oricon.co.jp",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-29T07:30:00Z",
-      "sources": [
-        {
-          "id": "4bc49e1681cdb8",
-          "name": "oricon.co.jp",
-          "title": "関連動画 | 小島瑠璃子「芸能だけになるのが怖かった」 芸能活動休止の裏側・起業した理由を明かす - oricon.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9jWUlFOFRLVy1SYW8zVWNHdEw3UG8xeDNuU1NrN1gzSjNKMVBxLWdZNkJrTmE3Y1ExWV9STDhYZm10SDZYRGlGbmg3MFVHUDd6QXRJTzRrTUpZQVpTQk1aaDJzWi1EM3VMdGc?oc=5",
-          "publishedAt": "2026-09-29T07:30:00Z"
-        }
-      ]
-    },
-    {
-      "id": "5fdf30559bfd4f",
-      "category": "politics",
-      "title": "男女平等１１７位 日本は政治の格差が重い - 山陽新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-09-28T23:00:00Z",
-      "sources": [
-        {
-          "id": "8855e07e79189f",
-          "name": "山陽新聞",
-          "title": "男女平等１１７位 日本は政治の格差が重い - 山陽新聞",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WcXd6ZXVPTjk3cmdGTHJkS1YwUWlPWGJuRUVMME1GbWY0OGZJMXNDSHVaeWhDSUF1S2duWjBFMFR4TWZMYmRQWWQ2dnVUeU9XcVE?oc=5",
-          "publishedAt": "2026-09-28T23:00:00Z"
+          "id": "3b0811742356c0",
+          "name": "PR TIMES",
+          "title": "松下政経塾は京都大学で、寄附講義「日本の政治と経済：関西からの視点」を開講します - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FNVVKMy1CUXpjOEVEa1J6VEVSTlQtQUNOMU9tdHdwVmYyNVUxSEZiMWx6UW4xUE5NN0RVeUd2a09nb0dMb2RmUi1nOHF6V3hySXhheG9Gcm9wNkFmSmtwdV9HYU5lV01XdEE?oc=5",
+          "publishedAt": "2026-09-30T00:30:01Z"
         }
       ]
     }
