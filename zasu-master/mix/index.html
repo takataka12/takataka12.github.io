@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#080808">
 <title>ZASU MIX｜Auto Vocal Mix Prototype</title>
 <meta name="description" content="ドライボーカルとインストをアップロードして自動MIX。ZASU MIX。処理後30秒を無料試聴して、気に入ったらフル尺へ。">
-<link rel="stylesheet" href="assets/style.css?v=20260930-0640">
+<link rel="stylesheet" href="assets/style.css?v=20261001-preflight1">
 </head>
 <body>
 <header>
@@ -54,6 +54,23 @@
       <small>歌い出し前の無音部分も削除せず、両方とも同じ 0:00 から始まる状態でアップロードしてください。頭出しが合っていれば、そのまま自動MIXできます。</small>
     </div>
     <div class="mini-note">各ファイル最大500MB。大きなファイルは自動で分割アップロードします。</div>
+    <div id="preflightPanel" class="preflight-panel" hidden>
+      <div class="preflight-head">
+        <span>HEAD ALIGNMENT / PRE-FLIGHT CHECK v1</span>
+        <strong id="preflightTitle">CHECKING…</strong>
+        <small id="preflightLead">ボーカルとインストの状態を確認しています。</small>
+      </div>
+      <div class="preflight-metrics">
+        <div><span>VOCAL</span><strong id="preflightVocalDuration">—</strong><small id="preflightVocalLevel">—</small></div>
+        <div><span>INSTRUMENTAL</span><strong id="preflightInstDuration">—</strong><small id="preflightInstLevel">—</small></div>
+        <div><span>HEAD</span><strong id="preflightHead">—</strong><small>先頭無音 / 長さを確認</small></div>
+      </div>
+      <div id="preflightWarnings" class="preflight-warnings"></div>
+      <div id="preflightActions" class="preflight-actions" hidden>
+        <button id="preflightContinue" class="btn" type="button">このままMIXを続ける</button>
+        <button id="preflightChangeFiles" class="btn secondary" type="button">音源を選び直す</button>
+      </div>
+    </div>
   </div>
 
   <div class="mix-card">
@@ -169,6 +186,6 @@
 
 <footer><div class="wrap"><div class="footer-links"><a href="../index.html">ZASU AUDIO</a><a href="../pricing.html">PRICING</a><a href="../tokushoho.html">特商法</a><a href="../refund.html">返金ポリシー</a><a href="../terms.html">利用規約</a><a href="../privacy.html">プライバシー</a><a href="../contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
 <script src="assets/config.js?v=20260930-0640"></script>
-<script src="assets/app.js?v=20261001-samefile1"></script>
+<script src="assets/app.js?v=20261001-preflight1"></script>
 </body>
 </html>
