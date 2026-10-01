@@ -1,0 +1,160 @@
+const cfg=window.ZASU_ADMIN_CONFIG||{};
+const q=s=>document.querySelector(s);
+let adminKey=sessionStorage.getItem("zasu_admin_key")||sessionStorage.getItem("zasu_dev_admin_key")||"";
+let hours=24;
+let refreshTimer=null;
+
+function fmtInt(v){return new Intl.NumberFormat("ja-JP").format(Number(v||0))}
+function fmtYen(v){return "¥"+fmtInt(v)}
+function fmtBytes(v){
+  let n=Number(v||0);const units=["B","KB","MB","GB","TB"];let i=0;
+  while(n>=1024&&i<units.length-1){n/=1024;i++}
+  return (i<2?n.toFixed(0):n.toFixed(n>=10?1:2))+" "+units[i];
+}
+function fmtSecs(v){
+  if(v==null||!Number.isFinite(Number(v)))return "—";
+  const n=Math.round(Number(v));if(n<60)return n+"s";
+  const m=Math.floor(n/60),s=n%60;return m+"m "+s+"s";
+}
+function success(s){
+  const done=Number(s.completed||0)+Number(s.failed||0);
+  return done?Math.round(Number(s.completed||0)/done*100):0;
+}
+function age(iso){
+  if(!iso)return "—";const ms=Date.now()-new Date(iso).getTime();
+  const min=Math.max(0,Math.floor(ms/60000));return min<60?min+"m":Math.floor(min/60)+"h "+(min%60)+"m";
+}
+function dt(iso){
+  if(!iso)return "—";return new Date(iso).toLocaleString("ja-JP",{month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit"});
+}
+function setText(id,value){q(id).textContent=value}
+function td(text,strong=false){
+  const x=document.createElement("td");if(strong){const s=document.createElement("strong");s.textContent=String(text??"—");x.appendChild(s)}else{x.textContent=String(text??"—")}return x;
+}
+function showLocked(message=""){
+  q("#dashboard").hidden=true;q("#loginPanel").hidden=false;
+  q("#healthText").textContent="LOCKED";q(".health").classList.remove("online");
+  q("#loginStatus").textContent=message;
+}
+function showOpen(){
+  q("#loginPanel").hidden=true;q("#dashboard").hidden=false;
+  q("#healthText").textContent="ONLINE";q(".health").classList.add("online");
+}
+async function fetchStats(){
+  if(!adminKey){showLocked();return}
+  setText("#healthText","SYNCING");
+  try{
+    const r=await fetch(cfg.endpoint,{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json",
+        "apikey":cfg.publishableKey,
+        "Authorization":"Bearer "+cfg.anonKey,
+        "x-zasu-admin-key":adminKey
+      },
+      body:JSON.stringify({hours})
+    });
+    const body=await r.json().catch(()=>({}));
+    if(r.status===401){
+      sessionStorage.removeItem("zasu_admin_key");
+      adminKey="";
+      showLocked("管理者キーを確認してください。");
+      return;
+    }
+    if(!r.ok)throw new Error(body.error||"admin_stats_failed");
+    render(body);showOpen();
+  }catch(e){
+    setText("#healthText","ERROR");q(".health").classList.remove("online");
+    if(!q("#dashboard").hidden)q("#generatedAt").textContent="取得エラー — "+(e?.message||"unknown");
+    else showLocked("統計を取得できませんでした。");
+  }
+}
+function render(body){
+  setText("#generatedAt","UPDATED "+dt(body.generated_at));
+  const mix=body.mix||{},master=body.master||{},convert=body.convert||{},orders=body.orders||{};
+  setText("#mixTotal",fmtInt(mix.total));setText("#mixMeta","SUCCESS "+success(mix)+"% / FAILED "+fmtInt(mix.failed));
+  setText("#masterTotal",fmtInt(master.total));setText("#masterMeta","SUCCESS "+success(master)+"% / FAILED "+fmtInt(master.failed));
+  setText("#convertTotal",fmtInt(convert.total));setText("#convertMeta","SUCCESS "+success(convert)+"% / FAILED "+fmtInt(convert.failed));
+  setText("#revenue",fmtYen(orders.revenue_jpy));setText("#revenueMeta",fmtInt(orders.paid)+" PAID / "+fmtInt(orders.total)+" ORDERS");
+  setText("#mixAvg",fmtSecs(mix.avg_seconds));setText("#masterAvg",fmtSecs(master.avg_seconds));setText("#convertAvg",fmtSecs(convert.avg_seconds));
+
+  const jobs=Array.isArray(body.current_jobs)?body.current_jobs:[];
+  setText("#queueCount",fmtInt(jobs.length));
+  setText("#reviewCount",fmtInt(jobs.filter(x=>x.status==="awaiting_review").length));
+  renderJobs(jobs);
+
+  const pf=body.preflight||{};
+  setText("#preflightChecked",fmtInt(pf.checked));
+  setText("#preflightWarning",fmtInt(pf.warning));
+  setText("#preflightOverride",fmtInt(pf.overridden));
+  const rate=pf.checked?Math.round((Number(pf.warning||0)+Number(pf.overridden||0))/Number(pf.checked)*100):0;
+  setText("#preflightNote","要確認率 "+rate+"% — 警告が多すぎる場合はPreflight閾値を見直す目安になります。");
+
+  renderBars("#mixStyles",body.mix_styles||{});
+  renderBars("#masterProfiles",body.master_profiles||{});
+  renderBars("#masterModes",body.master_modes||{});
+  renderBars("#paidPlans",orders.plans||{});
+
+  const storage=body.storage||{};
+  setText("#storageTotal",fmtBytes(storage.total_bytes));
+  setText("#storageOld",fmtBytes(storage.total_bytes_older_24h));
+  renderStorage(storage.buckets||{});
+
+  const clean=body.cleanup||{};
+  const ok=clean.active===true&&(clean.last_status==="succeeded"||clean.last_status==="success"||clean.last_status==null);
+  q(".cleanup-state").classList.toggle("ok",ok);
+  setText("#cleanupStatus",clean.last_status?String(clean.last_status).toUpperCase():(clean.active?"ACTIVE":"NO RUN YET"));
+  setText("#cleanupSchedule",clean.schedule||"—");
+  setText("#cleanupLast",dt(clean.last_end||clean.last_start));
+  setText("#cleanupActive",clean.active===true?"YES":"NO");
+
+  renderErrors(Array.isArray(body.recent_errors)?body.recent_errors:[]);
+  setText("#healthText","ONLINE");q(".health").classList.add("online");
+}
+function renderJobs(rows){
+  const tbody=q("#currentJobsBody");tbody.innerHTML="";
+  if(!rows.length){const tr=document.createElement("tr");const cell=td("現在、待機・処理中のジョブはありません。");cell.colSpan=4;cell.className="empty";tr.appendChild(cell);tbody.appendChild(tr);return}
+  for(const x of rows){const tr=document.createElement("tr");tr.append(td(x.service,true),td(x.status),td(x.stage),td(age(x.created_at)));tbody.appendChild(tr)}
+}
+function renderErrors(rows){
+  const tbody=q("#errorsBody");tbody.innerHTML="";
+  if(!rows.length){const tr=document.createElement("tr");const cell=td("直近エラーはありません。");cell.colSpan=4;cell.className="empty";tr.appendChild(cell);tbody.appendChild(tr);return}
+  for(const x of rows){
+    const tr=document.createElement("tr");
+    const message=x.user_message||x.last_error||"—";
+    tr.append(td(x.service,true),td(x.error_code||"—"),td(String(message).slice(0,160)),td(dt(x.created_at)));tbody.appendChild(tr);
+  }
+}
+function renderBars(selector,obj){
+  const root=q(selector);root.innerHTML="";
+  const entries=Object.entries(obj).sort((a,b)=>Number(b[1])-Number(a[1]));
+  if(!entries.length){const p=document.createElement("div");p.className="note";p.textContent="データなし";root.appendChild(p);return}
+  const max=Math.max(...entries.map(x=>Number(x[1])||0),1);
+  for(const [name,count] of entries){
+    const row=document.createElement("div");row.className="bar-row";
+    const label=document.createElement("label");label.textContent=String(name).toUpperCase();
+    const track=document.createElement("div");track.className="bar-track";const bar=document.createElement("i");bar.style.width=Math.max(3,Number(count)/max*100)+"%";track.appendChild(bar);
+    const n=document.createElement("b");n.textContent=fmtInt(count);row.append(label,track,n);root.appendChild(row);
+  }
+}
+function renderStorage(obj){
+  const root=q("#storageRows");root.innerHTML="";
+  const entries=Object.entries(obj).sort((a,b)=>Number(b[1]?.bytes||0)-Number(a[1]?.bytes||0));
+  for(const [name,v] of entries){
+    const row=document.createElement("div");row.className="storage-row";
+    const left=document.createElement("div");const strong=document.createElement("strong");strong.textContent=name;const sub=document.createElement("span");sub.textContent=fmtInt(v.objects)+" objects / >24h "+fmtInt(v.older_24h);left.append(strong,sub);
+    const size=document.createElement("span");size.textContent=fmtBytes(v.bytes);row.append(left,size);root.appendChild(row);
+  }
+}
+q("#loginForm").addEventListener("submit",e=>{
+  e.preventDefault();const key=q("#adminKey").value.trim();if(!key)return;
+  adminKey=key;sessionStorage.setItem("zasu_admin_key",key);sessionStorage.setItem("zasu_dev_admin_key",key);q("#adminKey").value="";fetchStats();
+});
+q("#refreshButton").addEventListener("click",fetchStats);
+q("#lockButton").addEventListener("click",()=>{sessionStorage.removeItem("zasu_admin_key");adminKey="";showLocked("ロックしました。")});
+document.querySelectorAll(".range").forEach(btn=>btn.addEventListener("click",()=>{
+  hours=Number(btn.dataset.hours||24);document.querySelectorAll(".range").forEach(x=>x.classList.toggle("active",x===btn));fetchStats();
+}));
+if(adminKey)fetchStats();else showLocked();
+refreshTimer=setInterval(()=>{if(adminKey&&!document.hidden)fetchStats()},60000);
+document.addEventListener("visibilitychange",()=>{if(!document.hidden&&adminKey)fetchStats()});
