@@ -30,7 +30,7 @@
 ## Review Focus
 
 - **A Square order has ¥2,980 JPY but is not ZASU LOUD:** must return `not_zasu_loud` and never create a purchase row or send mail. Covered in Task 2 validation tests.
-- **The custom email field is missing but Square exposes a buyer email:** must use the buyer email fallback; if neither is valid, fail closed. Covered in Task 2 extraction tests.
+- **The checkout custom email is absent from the Order fulfillment note but Square exposes `Payment.buyer_email_address`:** must use the documented payment email fallback; if neither is valid, fail closed. Covered in Task 2 extraction tests.
 - **Square sends both `payment.created` and `payment.updated` for the same payment:** only one delivery may be sent. Covered in Task 3 idempotency tests.
 - **Resend succeeds but a later duplicate webhook arrives:** the existing `sent` row must short-circuit before generating a second signed URL/email. Covered in Task 3 tests.
 - **The installer object is missing or URL signing fails:** no email may be sent and the purchase remains retryable with `delivery_status='failed'`. Covered in Task 3 failure tests.
@@ -123,7 +123,7 @@ git commit -m "feat: add ZASU LOUD fulfillment storage"
 - Produces:
   - `normalizeLabel(value: unknown): string`
   - `validEmail(value: unknown): string | null`
-  - `extractDeliveryEmail(attrs: unknown[], fallbackEmail?: unknown): string | null`
+  - `extractDeliveryEmail(order: unknown, fallbackEmail?: unknown): string | null`
   - `validateZasuLoudOrder(payment: unknown, order: unknown): { ok: true } | { ok: false; reason: string }`
   - `buildZasuLoudEmail(input: { downloadUrl: string; expiresHours: number }): { subject: string; text: string; html: string }`
 
@@ -133,8 +133,8 @@ Tests must assert:
 - exact `2980 JPY` + a line item whose normalized name contains `zasu loud` passes.
 - `3500 JPY`, wrong currency, or non-ZASU product fails.
 - case/spacing variants such as `ZASU  LOUD v1.1.2 for macOS` still match.
-- explicit custom field names containing `ダウンロード送付先`, `メール`, or `email` are preferred.
-- invalid explicit custom email falls back to valid buyer email.
+- an Order fulfillment `delivery_details.note` line containing `ダウンロード送付先`, `メール`, or `email` is preferred when it contains a valid email.
+- invalid or absent explicit checkout email falls back to valid `Payment.buyer_email_address`.
 - no valid email returns `null`.
 - email copy contains `ZASU LOUD v1.1.2`, `AU / VST3`, `Apple Silicon`, and `24時間`.
 
@@ -184,7 +184,7 @@ git commit -m "feat: validate ZASU LOUD purchases"
 **Interfaces:**
 - Consumes:
   - Task 2 core functions.
-  - `FulfillmentDeps` injected interface for DB, Square custom attributes, Storage signing, and Resend.
+  - `FulfillmentDeps` injected interface for DB, Storage signing, and Resend.
 - Produces:
   - `fulfillZasuLoudPurchase(input: FulfillmentInput, deps: FulfillmentDeps): Promise<FulfillmentResult>`
   - results: `not_zasu_loud`, `missing_email`, `already_sent`, `sent`, `failed`
@@ -193,10 +193,9 @@ git commit -m "feat: validate ZASU LOUD purchases"
 - `eventId: string`
 - `payment: unknown`
 - `order: unknown`
-- `fallbackEmail?: unknown`
+- `fallbackEmail?: unknown` (pass `payment.buyer_email_address`)
 
 `FulfillmentDeps` must expose focused methods:
-- `listOrderCustomAttributes(orderId: string): Promise<unknown[]>`
 - `findOrderByPaymentId(paymentId: string): Promise<ZasuLoudOrderRow | null>`
 - `upsertPendingOrder(row: PendingOrderInput): Promise<ZasuLoudOrderRow>`
 - `markAttempt(id: string): Promise<void>`
@@ -213,7 +212,8 @@ Use fake dependencies to assert:
 - two different Square event IDs for the same payment still send once.
 - missing installer/signing error marks delivery failed and does not send.
 - Resend failure marks delivery failed and leaves purchase retryable.
-- missing email creates no signed URL and sends nothing.
+- missing fulfillment-note email with a valid payment buyer email uses the fallback.
+- missing email from both sources creates no signed URL and sends nothing.
 - non-ZASU purchase writes no ZASU LOUD order.
 
 - [ ] **Step 2: Run tests and verify failure**
@@ -284,7 +284,8 @@ The initial `index.ts` must match the currently deployed v6 before edits.
 - [ ] **Step 2: Add real dependency adapters**
 
 Adapters must:
-- list order custom attributes using `GET /v2/orders/{order_id}/custom-attributes?visibility_filter=ALL&limit=100&with_definitions=true`;
+- parse the already re-fetched Square Order's `fulfillments[].delivery_details.note` for the explicit checkout email;
+- use `payment.buyer_email_address` as the documented fallback;
 - read/write `zasu_loud_orders` only through service-role Supabase;
 - create `86400` second signed URL for `zasu-loud-releases/v1.1.2/ZASU_LOUD_v1.1.2_macOS.pkg` with download filename enabled;
 - obtain existing server-side Resend configuration without exposing it to clients;
