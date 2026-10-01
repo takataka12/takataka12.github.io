@@ -14,7 +14,12 @@ q("#checkoutDescription").textContent=p.description;
 const btn=q("#checkoutButton"),status=q("#checkoutStatus"),legalConfirm=q("#legalConfirm");
 const supporterCode=q("#checkoutSupporterCode"),supporterButton=q("#checkoutSupporterButton"),supporterStatus=q("#checkoutSupporterStatus");
 function normalizeSupporterCode(v){return String(v||"").trim().toUpperCase().replace(/\s+/g,"")}
-function audioHeaders(){return{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey}}
+function audioHeaders(){
+  const h={"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey};
+  const admin=sessionStorage.getItem("zasu_admin_key")||sessionStorage.getItem("zasu_dev_admin_key");
+  if(admin)h["x-zasu-admin-key"]=admin;
+  return h;
+}
 function getPending(){try{return JSON.parse(localStorage.getItem("zasu_pending_unlock")||"null")}catch(_){return null}}
 function pendingSource(pending){
   const sourceType=pending?.type==="mix"?"mix":pending?.type==="master"?"master":null;
@@ -42,7 +47,11 @@ if(!cfg.commerceEnabled){
       const {sourceType,sourceId}=pendingSource(pending);
       const res=await fetch(cfg.audioCheckoutEndpoint,{method:"POST",headers:audioHeaders(),body:JSON.stringify({plan,visitor_id:visitorId,source_type:sourceType,source_id:sourceId})});
       const body=await res.json().catch(()=>({}));
-      if(!res.ok||!body.payment_url||!body.order_id||!body.order_access_token)throw new Error(body.error||"CHECKOUT FAILED");
+      if(res.status===429||body.error==="rate_limited"){
+        const sec=Math.max(1,Number(body.retry_after_seconds||60));
+        throw new Error("短時間に決済リクエストが集中しています。約"+Math.ceil(sec/60)+"分後にもう一度お試しください。");
+      }
+      if(!res.ok||!body.payment_url||!body.order_id||!body.order_access_token)throw new Error(body.user_message||body.error||"CHECKOUT FAILED");
       localStorage.setItem("zasu_audio_checkout",JSON.stringify({order_id:body.order_id,order_access_token:body.order_access_token,plan,created_at:Date.now(),supporter:false}));
       location.href=body.payment_url;
     }catch(e){status.textContent=e?.message||"CHECKOUT FAILED";btn.disabled=false}
