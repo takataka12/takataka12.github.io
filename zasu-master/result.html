@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Mastering Status｜ZASU MASTER</title>
 <meta name="description" content="ZASU MASTER OPEN BETAのマスタリング進行状況と結果を確認します。">
-<link rel="stylesheet" href="assets/style.css?v=20260930-0640">
+<link rel="stylesheet" href="assets/style.css?v=20261001-feedback1">
 </head>
 <body>
 <header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a><nav><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="convert/">CONVERT</a><a href="pricing.html">PRICING</a></nav></div></header>
@@ -50,22 +50,37 @@
   <div id="resultActions" class="result-actions"></div>
 </div>
 
-<div class="result-card" id="feedbackCard" hidden>
-  <div class="mode">OPTIONAL FEEDBACK</div>
+<div class="result-card feedback-v1" id="feedbackCard" hidden>
+  <div class="mode">OPTIONAL FEEDBACK / v1</div>
   <h2 style="font-size:30px;margin-bottom:8px">仕上がり、どうでしたか？</h2>
-  <p class="muted">OPEN BETA改善のため、よければ感想を教えてください。フィードバックは任意です。</p>
-  <form id="feedbackForm">
-    <div style="margin:18px 0"><label>仕上がり評価</label><select id="feedbackRating" required><option value="">選択してください</option><option value="5">5 — とても良い</option><option value="4">4 — 良い</option><option value="3">3 — 普通</option><option value="2">2 — いまひとつ</option><option value="1">1 — 良くない</option></select></div>
-    <div class="form-row"><div><label>元のMIXより良くなった？</label><select id="feedbackBetter" required><option value="">選択してください</option><option value="yes">はい</option><option value="same">同じくらい</option><option value="no">いいえ</option></select></div><div><label>また使いたい？</label><select id="feedbackAgain" required><option value="">選択してください</option><option value="yes">はい</option><option value="maybe">たぶん</option><option value="no">いいえ</option></select></div></div>
-    <label style="display:block;margin:18px 0"><input id="feedbackProblem" type="checkbox" style="width:auto;margin-right:8px">問題・違和感があった</label>
-    <div><label>コメント（任意）</label><textarea id="feedbackComment" maxlength="3000" placeholder="良かった点、気になった点、こうなってほしい等"></textarea></div>
-    <button id="feedbackSubmit" class="btn secondary" type="submit" style="width:100%;margin-top:16px">SEND FEEDBACK</button>
-    <div id="feedbackStatus" class="mini" style="margin-top:10px"></div>
-  </form>
+  <p class="muted">1タップだけでもOKです。今後のMIX / MASTER改善に使います。</p>
+  <div class="feedback-sentiment">
+    <button class="feedback-vote" type="button" data-feedback-sentiment="1"><span>👍</span><strong>良かった</strong></button>
+    <button class="feedback-vote" type="button" data-feedback-sentiment="-1"><span>👎</span><strong>いまいち</strong></button>
+  </div>
+  <div id="feedbackDetails" class="feedback-details" hidden>
+    <div class="feedback-label">当てはまるもの（任意・複数可）</div>
+    <div id="feedbackPositiveTags" class="feedback-tags" hidden>
+      <button type="button" data-feedback-tag="balance_good">バランスが良い</button>
+      <button type="button" data-feedback-tag="natural">自然</button>
+      <button type="button" data-feedback-tag="powerful">迫力が出た</button>
+      <button type="button" data-feedback-tag="would_use_again">また使いたい</button>
+    </div>
+    <div id="feedbackNegativeTags" class="feedback-tags" hidden>
+      <button type="button" data-feedback-tag="too_loud">音圧が強すぎる</button>
+      <button type="button" data-feedback-tag="not_loud_enough">音圧が足りない</button>
+      <button type="button" data-feedback-tag="harsh">少しキツい</button>
+      <button type="button" data-feedback-tag="unnatural">不自然に感じる</button>
+      <button type="button" data-feedback-tag="other">その他</button>
+    </div>
+    <textarea id="feedbackCommentV1" maxlength="1500" placeholder="コメント（任意）"></textarea>
+    <button id="feedbackSendV1" class="btn secondary" type="button">SEND FEEDBACK</button>
+  </div>
+  <div id="feedbackStatusV1" class="mini feedback-status"></div>
 </div>
 </div></section>
 </main>
 <footer><div class="wrap"><div class="footer-links"><a href="index.html">ZASU AUDIO</a><a href="pricing.html">PRICING</a><a href="tokushoho.html">特商法</a><a href="refund.html">返金ポリシー</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a><a href="contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
 <script src="assets/config.js?v=20261001-authfix1"></script>
-<script src="assets/result.js?v=20261001-jobpin1"></script>
+<script src="assets/result.js?v=20261001-feedback1"></script>
 </body></html>
