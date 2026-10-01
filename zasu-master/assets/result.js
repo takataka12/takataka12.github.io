@@ -11,9 +11,13 @@ const jobProgress=q("#jobProgress");
 const jobProgressBar=q("#jobProgressBar");
 const jobProgressText=q("#jobProgressText");
 const feedbackCard=q("#feedbackCard");
-const feedbackForm=q("#feedbackForm");
-const feedbackStatus=q("#feedbackStatus");
-const feedbackSubmit=q("#feedbackSubmit");
+const feedbackDetails=q("#feedbackDetails");
+const feedbackPositiveTags=q("#feedbackPositiveTags");
+const feedbackNegativeTags=q("#feedbackNegativeTags");
+const feedbackSendV1=q("#feedbackSendV1");
+const feedbackStatusV1=q("#feedbackStatusV1");
+let feedbackSentiment=0;
+const feedbackTags=new Set();
 const previewMasterGate=q("#previewMasterGate");
 const unlockMasterButton=q("#unlockMasterButton");
 const unlockMasterStatus=q("#unlockMasterStatus");
@@ -448,52 +452,78 @@ async function check(){
 
 check();
 
-if(feedbackForm){
-  feedbackForm.addEventListener("submit",async(e)=>{
-    e.preventDefault();
-    const no=Number(applicationNo);
-    const rating=Number(q("#feedbackRating").value);
-    const better=q("#feedbackBetter").value;
-    const again=q("#feedbackAgain").value;
-    if(!Number.isFinite(no)||no<1||!rating||!better||!again){
-      feedbackStatus.textContent="評価項目を選択してください。";
-      return;
-    }
-
-    feedbackSubmit.disabled=true;
-    feedbackSubmit.textContent="SENDING...";
-    feedbackStatus.textContent="";
-
-    try{
-      const res=await fetch(cfg.feedbackEndpoint,{
-        method:"POST",
-        headers:{
-          "Content-Type":"application/json",
-          "apikey":cfg.betaAnonKey,
-          "Authorization":"Bearer "+cfg.betaAnonKey
-        },
-        body:JSON.stringify({
-          application_no:no,
-          access_token:accessToken,
-          rating,
-          better_than_original:better,
-          would_use_again:again,
-          had_problem:q("#feedbackProblem").checked,
-          comment:q("#feedbackComment").value
-        })
-      });
-      const body=await res.json().catch(()=>({}));
-      if(!res.ok){
-        if(body.error==="master_not_completed")throw new Error("マスタリング完了後に送信できます。");
-        throw new Error("送信できませんでした。");
-      }
-      feedbackStatus.innerHTML="<strong>THANK YOU.</strong> フィードバックを保存しました。";
-      feedbackSubmit.textContent="FEEDBACK SENT";
-      feedbackForm.querySelectorAll("select,textarea,input,button").forEach(el=>el.disabled=true);
-    }catch(err){
-      feedbackStatus.textContent=err?.message||"送信できませんでした。";
-      feedbackSubmit.disabled=false;
-      feedbackSubmit.textContent="SEND FEEDBACK";
-    }
+function selectFeedbackSentiment(value){
+  feedbackSentiment=Number(value);
+  feedbackTags.clear();
+  document.querySelectorAll("[data-feedback-sentiment]").forEach(btn=>{
+    btn.classList.toggle("active",Number(btn.dataset.feedbackSentiment)===feedbackSentiment);
   });
+  document.querySelectorAll("[data-feedback-tag]").forEach(btn=>btn.classList.remove("active"));
+  if(feedbackDetails)feedbackDetails.hidden=false;
+  if(feedbackPositiveTags)feedbackPositiveTags.hidden=feedbackSentiment!==1;
+  if(feedbackNegativeTags)feedbackNegativeTags.hidden=feedbackSentiment!==-1;
+  if(feedbackStatusV1){feedbackStatusV1.textContent="";feedbackStatusV1.className="mini feedback-status";}
 }
+document.querySelectorAll("[data-feedback-sentiment]").forEach(btn=>{
+  btn.addEventListener("click",()=>selectFeedbackSentiment(btn.dataset.feedbackSentiment));
+});
+document.querySelectorAll("[data-feedback-tag]").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    const tag=String(btn.dataset.feedbackTag||"");
+    if(!tag)return;
+    if(feedbackTags.has(tag))feedbackTags.delete(tag);else feedbackTags.add(tag);
+    btn.classList.toggle("active",feedbackTags.has(tag));
+  });
+});
+
+async function sendFeedbackV1(){
+  const no=Number(applicationNo);
+  if(!feedbackSentiment){
+    if(feedbackStatusV1)feedbackStatusV1.textContent="👍 または 👎 を選んでください。";
+    return;
+  }
+  if(!activeJobId||!Number.isFinite(no)||no<1||!accessToken){
+    if(feedbackStatusV1)feedbackStatusV1.textContent="完成MASTER情報を確認できません。";
+    return;
+  }
+  feedbackSendV1.disabled=true;
+  feedbackSendV1.textContent="SENDING...";
+  if(feedbackStatusV1)feedbackStatusV1.textContent="";
+  try{
+    const res=await fetch(cfg.feedbackEndpoint,{
+      method:"POST",
+      headers:{
+        "Content-Type":"application/json",
+        "apikey":cfg.betaAnonKey,
+        "Authorization":"Bearer "+cfg.betaAnonKey
+      },
+      body:JSON.stringify({
+        service:"master",
+        job_id:activeJobId,
+        application_no:no,
+        access_token:accessToken,
+        sentiment:feedbackSentiment,
+        tags:Array.from(feedbackTags),
+        comment:q("#feedbackCommentV1")?.value||""
+      })
+    });
+    const body=await res.json().catch(()=>({}));
+    if(!res.ok){
+      if(body.error==="not_completed")throw new Error("フル尺MASTER完了後に送信できます。");
+      throw new Error("送信できませんでした。");
+    }
+    sessionStorage.setItem("zasu_feedback_master_"+activeJobId,String(feedbackSentiment));
+    if(feedbackStatusV1){
+      feedbackStatusV1.innerHTML="<strong>THANK YOU.</strong> フィードバックを保存しました。";
+      feedbackStatusV1.className="mini feedback-status success";
+    }
+    feedbackSendV1.textContent="FEEDBACK SENT";
+    if(feedbackDetails)feedbackDetails.querySelectorAll("button,textarea").forEach(el=>el.disabled=true);
+    document.querySelectorAll("[data-feedback-sentiment]").forEach(el=>el.disabled=true);
+  }catch(err){
+    if(feedbackStatusV1)feedbackStatusV1.textContent=err?.message||"送信できませんでした。";
+    feedbackSendV1.disabled=false;
+    feedbackSendV1.textContent="SEND FEEDBACK";
+  }
+}
+if(feedbackSendV1)feedbackSendV1.addEventListener("click",sendFeedbackV1);
