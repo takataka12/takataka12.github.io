@@ -71,6 +71,7 @@ async function fetchStats(){
 }
 function render(body){
   setText("#generatedAt","UPDATED "+dt(body.generated_at));
+  renderHealth(body.health||{});
   const mix=body.mix||{},master=body.master||{},convert=body.convert||{},orders=body.orders||{};
   setText("#mixTotal",fmtInt(mix.total));setText("#mixMeta","SUCCESS "+success(mix)+"% / FAILED "+fmtInt(mix.failed));
   setText("#masterTotal",fmtInt(master.total));setText("#masterMeta","SUCCESS "+success(master)+"% / FAILED "+fmtInt(master.failed));
@@ -143,6 +144,76 @@ function renderServiceQueue(rows,service,stateSel,detailSel){
   if(waiting)parts.push("waiting "+waiting);
   if(review)parts.push("review "+review);
   setText(detailSel,parts.length?parts.join(" / "):"no wait");
+}
+function renderHealth(health){
+  const latest=health?.latest||null;
+  const root=q("#systemHealth");
+  const issuesRoot=q("#healthIssues");
+  root.classList.remove("operational","attention","degraded");
+  issuesRoot.innerHTML="";
+
+  if(!latest){
+    root.classList.add("attention");
+    setText("#healthHeadline","NO HEALTH DATA");
+    setText("#healthSubline","Health Watchの初回チェックを待っています。");
+    setText("#healthCheckedAt","—");
+    for(const id of ["#healthMix","#healthMaster","#healthConvert"])setText(id,"—");
+    for(const id of ["#healthMixDetail","#healthMasterDetail","#healthConvertDetail"])setText(id,"—");
+    return;
+  }
+
+  const checkedMs=new Date(latest.checked_at).getTime();
+  const stale=!Number.isFinite(checkedMs)||Date.now()-checkedMs>15*60*1000;
+  const status=stale?"attention":String(latest.overall_status||"attention");
+  root.classList.add(status);
+  const issues=Array.isArray(latest.issues)?latest.issues:[];
+  const headline=stale
+    ?"HEALTH WATCH STALE"
+    :status==="operational"
+      ?"ALL SYSTEMS OPERATIONAL"
+      :status==="degraded"
+        ?"SERVICE DEGRADED"
+        :"SYSTEM ATTENTION";
+  setText("#healthHeadline",headline);
+  setText("#healthSubline",stale
+    ?"15分以上新しいHealth snapshotがありません。"
+    :status==="operational"
+      ?"MIX / MASTER / CONVERT / Storage / Cleanupに異常はありません。"
+      :issues.length+"件の確認項目があります。Core serviceの状態も下で確認できます。");
+  setText("#healthCheckedAt","CHECKED "+dt(latest.checked_at));
+
+  renderHealthService(latest.services?.mix,"#healthMix","#healthMixDetail");
+  renderHealthService(latest.services?.master,"#healthMaster","#healthMasterDetail");
+  renderHealthService(latest.services?.convert,"#healthConvert","#healthConvertDetail");
+
+  if(stale){
+    const box=document.createElement("div");box.className="health-issue";
+    const strong=document.createElement("strong");strong.textContent="HEALTH WATCH CHECK DELAYED";
+    const span=document.createElement("span");span.textContent="自動点検CronまたはHealth Functionを確認してください。";
+    box.append(strong,span);issuesRoot.appendChild(box);
+  }
+  for(const issue of issues){
+    const box=document.createElement("div");
+    box.className="health-issue "+(issue.severity==="critical"?"critical":"warning");
+    const strong=document.createElement("strong");strong.textContent=String(issue.title||issue.code||"HEALTH ISSUE");
+    const span=document.createElement("span");span.textContent=String(issue.detail||"確認が必要です。");
+    box.append(strong,span);issuesRoot.appendChild(box);
+  }
+  if(!stale&&!issues.length){
+    const ok=document.createElement("div");ok.className="health-ok";ok.textContent="No active health warnings.";issuesRoot.appendChild(ok);
+  }
+}
+function renderHealthService(service,stateSel,detailSel){
+  if(!service){setText(stateSel,"—");setText(detailSel,"—");return}
+  const up=String(service.health||"down")==="up";
+  setText(stateSel,up?"UP":"DOWN");
+  const qv=service.queue||{};
+  const parts=[];
+  if(Number.isFinite(Number(service.latency_ms)))parts.push(Math.round(Number(service.latency_ms))+"ms");
+  if(Number(qv.processing||0)>0)parts.push("processing "+Number(qv.processing||0));
+  if(Number(qv.queued||0)>0)parts.push("waiting "+Number(qv.queued||0));
+  if(Number(qv.stalled||0)>0)parts.push("stalled "+Number(qv.stalled||0));
+  setText(detailSel,parts.length?parts.join(" / "):(up?"ready":"health check failed"));
 }
 function renderJobs(rows){
   const tbody=q("#currentJobsBody");tbody.innerHTML="";
