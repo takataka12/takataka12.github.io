@@ -1,332 +1,360 @@
 {
-  "generatedAt": "2026-10-02T01:12:45Z",
+  "generatedAt": "2026-10-02T16:24:22Z",
   "edition": "朝刊",
   "headline": "3分で今日を把握",
-  "overview": "芸能界の活動休止・引退や、来春の統一地方選に向けた法案提出方針などが報じられています。経済では株価やAI需要、中国経済を巡る記事、ネットではSNSで話題の商品や画像が注目されています。",
+  "overview": "統一地方選の日程案や日本政府のロシア追加制裁、株価と原油を巡る懸念などが報じられています。芸能・ネットでは福原遥さんと久保建英選手の結婚報道、SNSで話題の商品やスポーツ中継が注目されています。",
   "isSample": false,
   "topics": [
     {
-      "id": "entertainment-career-changes",
+      "id": "entertainment-godzilla-gigo",
       "category": "entertainment",
-      "title": "芸能界で引退・移籍・独立など活動進退の報告が相次ぐ",
-      "whatHappened": "芸能界で、引退や所属先の変更、独立などの報告が相次いでいると報じられています。オリコンは『VIVANT』出演俳優を含む複数の発表を取り上げ、スポニチは今井翼さんの新会社設立や藤あや子さんの退所を報じています。",
-      "whyTrending": "複数の媒体が同時期に芸能人の活動進退を取り上げているためです。",
-      "context": "報道上の個別の発表内容は確認できますが、背景や各人の今後の活動の詳細は見出しからは未確認です。",
+      "title": "『ゴジラ-0.0』のGiGO限定景品が登場",
+      "whatHappened": "新作映画『ゴジラ-0.0』に関連するGiGO限定景品が登場すると報じられています。景品の詳細や展開時期は、入力見出しだけでは未確認です。",
+      "whyTrending": "アットプレス、Excite、インサイドの複数媒体が同じ話題を報じています。",
+      "context": "GiGO限定景品として展開される企画とみられますが、映画の内容や景品の種類は未確認です。",
       "points": [
-        "活動進退に関する報告が相次いでいると報じられている",
-        "今井翼さんの新会社設立が報じられている",
-        "藤あや子さんの退所が報じられている"
+        "対象作品は『ゴジラ-0.0』",
+        "GiGO限定景品として告知",
+        "景品の詳細は未確認"
       ],
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sources": [
         {
-          "id": "de4e1bba056b",
-          "name": "オリコンニュース",
-          "title": "【10月1日】芸能界、活動進退報告相次ぐ 引退、所属、独立… 『VIVANT』出演俳優も発表",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wS0FZenIyZTZGOTkzaXh5NmN4QTJKSjRQWnNWSDlFNXNKSTJRQ0JJWDJrZ3BOR3JIUnRLdkVfRHlsbnl0aDBsdVQxbmZNTElpRDUwRGhR?oc=5",
-          "publishedAt": "2026-10-01T11:32:00Z"
-        }
-      ],
-      "caution": "見出しで確認できるのは報告の存在と一部の内容で、各人の事情や詳細は未確認です。"
-    },
-    {
-      "id": "entertainment-ito-retirement",
-      "category": "entertainment",
-      "title": "伊東四朗さんが芸能活動引退を発表",
-      "whatHappened": "日刊スポーツは、伊東四朗さんが芸能活動からの引退を発表したと報じています。来年6月の卒寿の誕生日を節目に、ラジオ番組を終了するとされています。",
-      "whyTrending": "長年活動してきた俳優・タレントの引退発表として報じられているためです。",
-      "context": "引退時期やラジオ番組終了の節目は見出しで確認できますが、発表の詳細や今後の予定は未確認です。",
-      "points": [
-        "芸能活動引退を発表したと報じられている",
-        "来年6月の卒寿の誕生日を節目とする内容",
-        "ラジオ番組の終了が報じられている"
-      ],
-      "sourceCount": 1,
-      "sources": [
+          "id": "8aed6c277e95",
+          "name": "アットプレス",
+          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - アットプレス",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DeXc1cVY0QjRCVUMzTndkY0FMY3RrSDMzeEYtRjNscGRQby04aGJpdUM2ajJmN1Vsbkh6YjJvbzQ5RU5GQ1hUaVpjTlBuZm8?oc=5",
+          "publishedAt": "2026-10-02T01:00:00Z"
+        },
         {
-          "id": "fb5b40d3c53a",
-          "name": "日刊スポーツ",
-          "title": "伊東四朗「いい爺ィになりました」芸能活動引退発表、来年6月の卒寿誕生日節目にラジオ番組終了",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9BYlN1R0hGM0lsb25CVGFfVUJQNFZueDh0YVdCdkZjSjVlUFBCOHNvX09zM0FMRUwxRmRIZ19BMXBCc3UyQjE2cE0xM2RpRS1oOFcyQXh3bmx2X09QYU5DVW1xNVFMcV8yMEdTYnhUQTFNd3JZOWxZ0gF_QVVfeXFMUGk0bkhFaUZaZ3dBd0htdEFRcWphSlExWjJvdk5zbEUzelVXZWN1aERRczRVbktUQldLRm16NUtaNnVNNkNlMWl4WUVBazVZdktoeG1fNlBiMi1NZ3pFT2xYTG5BcTFIdjdCLS02UzZPV1RxZ282ZkM1dTNWM3E5NA?oc=5",
-          "publishedAt": "2026-10-01T04:03:00Z"
+          "id": "d7993ce56c16",
+          "name": "Excite エキサイト",
+          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - Excite エキサイト",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SWmtha0JjakVqbHFuSkNhRzJEUWRVNnBiQUF6Nm44SUJwMkstNFlLTjRqajdLaW1TcTk5bVBtRU5qenYzakF0UmdFUWV4U2p4SXhqQ2JGTk02SFQtZ2dEd0t3?oc=5",
+          "publishedAt": "2026-10-02T01:00:00Z"
+        },
+        {
+          "id": "b54aa3a21ebf",
+          "name": "インサイド",
+          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - インサイド",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzTmVXbTZ3TURqd1VjTFV2UEhXSkNHWDBjbVQ1YU9yYjJycmdVcXQxU3NBTG5rWlVncy03WDJPN0JxMVdaM2piZXQzdUY0cGpoOXl5Skl2TG5OLW42TVg3amE2TWRnMFNUN2lPbVdHbVozdw?oc=5",
+          "publishedAt": "2026-10-02T01:00:00Z"
         }
       ],
-      "caution": "引退発表の詳細や、ラジオ番組の具体的な終了時期は見出しからは未確認です。"
+      "caution": "入力は告知見出しのみで、景品の仕様や販売状況は確認できません。"
     },
     {
-      "id": "entertainment-sendai-china-festival",
+      "id": "entertainment-haruhata-kubo",
       "category": "entertainment",
-      "title": "仙台市内でチャイナフェス、中国文化に触れる催しが開催",
-      "whatHappened": "仙台市青葉区でチャイナフェスが開かれ、グルメや音楽を通じて中国文化に触れる催しとして報じられています。複数媒体が同じイベントを取り上げています。",
-      "whyTrending": "地域イベントの様子が複数媒体で報じられているためです。",
-      "context": "開催地と、グルメや音楽が紹介されたことは確認できますが、来場者数や開催期間などは見出しからは未確認です。",
+      "title": "福原遥さんと久保建英選手の結婚報道に注目",
+      "whatHappened": "福原遥さんと久保建英選手が結婚したとする見出しが、Infoseekとオリコンニュースで報じられています。芸能界から祝福の声が寄せられたとも報じられていますが、記事全文による詳細は未確認です。",
+      "whyTrending": "複数媒体が同時に報じ、関連してSNS上で驚きの反応が話題になったと報じられています。",
+      "context": "交際報道がなかったことへの反応がXのトレンド入りにつながったと、別の見出しで報じられています。",
       "points": [
-        "仙台市青葉区で開催されたと報じられている",
-        "グルメや音楽が紹介された",
-        "中国文化に触れるイベントとされている"
+        "結婚したとする報道",
+        "芸能界から祝福の声",
+        "SNS上の反応も話題"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "8ffcdbf26297",
-          "name": "TBS NEWS DIG",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
-          "publishedAt": "2026-09-26T07:37:00Z"
+          "id": "f5f1c29b06d9",
+          "name": "Infoseek",
+          "title": "福原遥＆久保建英が結婚 芸能界から祝福の声 柳ゆり菜「おめでとう」 - Infoseek",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CN0tkVFVYWXdpSmhvYjBLbXRxTDZJVlJ1TU1ITHUtdHhXbS1ZUmRLTnRfSkIwbUR0OUpRZlVyR3RfS3loaC1abUhVU1FMY19TTC1GTmJfeno3MFdya0dn?oc=5",
+          "publishedAt": "2026-10-02T12:32:00Z"
         },
         {
-          "id": "16219b3aac2f",
-          "name": "Yahoo!ニュース",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
-          "publishedAt": "2026-09-26T07:38:13Z"
+          "id": "ff95f434f6d7",
+          "name": "オリコンニュース",
+          "title": "福原遥＆久保建英が結婚 芸能界から祝福の声 柳ゆり菜「おめでとう」 - オリコンニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FdWcxaVJUd05ySWtpTzFFaVZmaGhyVTRRT01ta1JYa296WkQwMjBBX1RBcElDekRZX2ZhLXlKeEFkQXA0aWtqNjRKSVZsTUZXTmdITEtR?oc=5",
+          "publishedAt": "2026-10-02T12:32:00Z"
         }
       ],
-      "caution": null
+      "caution": "入力では結婚を伝える見出しが確認できますが、本人発表などの詳細は未確認です。"
+    },
+    {
+      "id": "entertainment-career-changes",
+      "category": "entertainment",
+      "title": "芸能界で移籍・独立など活動進退の報告が相次ぐ",
+      "whatHappened": "芸能界で、引退や所属変更、独立などの活動進退に関する報告が相次いでいると報じられています。今井翼さんの新会社設立や藤あや子さんの退所に触れた見出しもあります。",
+      "whyTrending": "複数の媒体が、秋に芸能人の移籍や独立が続いている話題として取り上げています。",
+      "context": "個別の発表内容や理由は、入力見出しだけでは確認できません。",
+      "points": [
+        "引退・所属変更・独立などを報告",
+        "今井翼さんの新会社設立との見出し",
+        "藤あや子さんの退所との見出し"
+      ],
+      "sourceCount": 1,
+      "sources": [
+        {
+          "id": "b348824a5fee",
+          "name": "Yahoo!ニュース",
+          "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vQ2lJVjUxbXhrbmxEY0JZNzd5U2lmMVg4c1ZhS0lpcUxjWlRXZ0tJcVMyVmltS184SE9xVmlRTFhleVhseEh6M2NmTVBmLXQ2?oc=5",
+          "publishedAt": "2026-10-01T13:22:30Z"
+        }
+      ],
+      "caution": "誰がどのような決定をしたか、理由や今後の活動は見出しからは限定的にしか確認できません。"
     },
     {
       "id": "politics-unified-local-election",
       "category": "politics",
-      "title": "統一地方選を4月11日・25日に投票、臨時国会に法案提出へ",
-      "whatHappened": "共同通信などは、統一地方選の投票日を4月11日と25日に設定する法案を臨時国会に提出する方針が報じられていると伝えています。投票日を2回に分ける内容とみられますが、法案の成立状況は入力からは確認できません。",
-      "whyTrending": "次回の統一地方選の日程に関わる法案提出方針が報じられているためです。",
-      "context": "投票日と臨時国会への法案提出方針は見出しで確認できます。法案の具体的な内容や成立時期は未確認です。",
+      "title": "統一地方選の投票日を4月11日・25日とする法案提出へ",
+      "whatHappened": "来春の統一地方選について、投票日を4月11日と25日とする方針が報じられています。臨時国会に関連法案を提出する予定とされています。",
+      "whyTrending": "複数の地方紙や共同通信系の見出しが同じ日程案を報じています。",
+      "context": "法案の提出が予定されている段階と報じられており、成立状況は入力から確認できません。",
       "points": [
-        "投票日は4月11日と25日と報じられている",
-        "臨時国会への法案提出方針が示されている",
-        "法案の成立状況は未確認"
+        "投票日は4月11日・25日とする案",
+        "臨時国会への法案提出へ",
+        "来春の統一地方選に関する動き"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sources": [
         {
-          "id": "f69964b56c77",
-          "name": "Yahoo!ニュース",
-          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ（共同通信）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uU3l5bElaZ2ZndEV0Mm1uSFFKWFE1OG5VVWhrelBtU0JNNkl5WG9iWmgyczZNR1ppcmJtWjVhRVY2ZXRnbFdZcUllMHYxOWFXa2NxdHRxNFhxcWVGZUUtbFhldFFUWHhQVlpjLXhJYU5VVXlJWkRRWnBGWi1JeFU?oc=5",
+          "id": "f92e1ca2c482",
+          "name": "沖縄タイムス社",
+          "title": "統一地方選４月１１、２５日投票 臨時国会に法案提出へ - 沖縄タイムス社",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mdGpKYTJyZHlvck5oU0QxMzNiRlRWQWpSS3k5TFRiVU1tbjBBbTdlMU44ZkFzMjRrWVd2UV9FQ211QmtHS2xLZS1ma1F4QzdSZGR3X095dWxoQXJJRGc?oc=5",
           "publishedAt": "2026-10-01T10:13:39Z"
         },
         {
-          "id": "432bd7dfc025",
-          "name": "Excite エキサイト",
-          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VTzhhSDBfNEc5a2ZZMEVpVGpTMzlzandEdFB1Q0gzLThpQlJPS0xwdE51dzViMENSTnp1alVPZ2daYllhUTd0bklkT0RRZ29FU2pNTVZFdlU1VGFVY1RfSjI3OE9KMl9LZVhpTWlPVk8?oc=5",
-          "publishedAt": "2026-10-01T10:14:00Z"
-        }
-      ],
-      "caution": "法案提出方針の報道であり、成立や最終的な投票日を確定するものではありません。"
-    },
-    {
-      "id": "politics-diet-reform",
-      "category": "politics",
-      "title": "臨時国会で首相の出席削減を含む国会改革が焦点に",
-      "whatHappened": "北海道新聞は、臨時国会で首相の出席を減らす案を含む国会改革が焦点になっていると報じています。野党側からは、議論を軽視することにつながるとの懸念が示されているとされています。",
-      "whyTrending": "臨時国会の運営と、与野党の主張の違いが報じられているためです。",
-      "context": "首相の出席削減を巡る動きと、野党の懸念が見出しで確認できます。具体的な改革案や協議の結果は未確認です。",
-      "points": [
-        "首相の国会出席削減が焦点と報じられている",
-        "国会改革を巡る議論が進んでいるとされている",
-        "野党が議論軽視への懸念を示していると報じられている"
-      ],
-      "sourceCount": 2,
-      "sources": [
-        {
-          "id": "60258fd66f39",
+          "id": "88da748a90e3",
           "name": "Yahoo!ニュース",
-          "title": "臨時国会、首相出席削減も焦点に 議論軽視の「国会改革」に懸念（北海道新聞）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lTWY3RExENEVteGpPVE1sQklnRkRCa25xcXBYYzVqTDJfTGVYOWxKYV9sUkZlcHozanRncHd2V3d2ekh0NUNXUUxDSHJkX2ZtOHUxR3lMYTBkU0pWYkdsa1Jya3hXSDd2MWFITWoxaHItWTFmVVFjWm1wd05IQUU?oc=5",
-          "publishedAt": "2026-10-01T21:00:37Z"
+          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ (共同通信) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRXV1TEVfUWpzUUdSaTBubkFPZG1BMTJ0cmlYOUhlSmx2X0tBUTRJRXFDQXdMSVB3VkUxcmxac3lEYnlZM2I2QlBMY056amNVdlBaamxQRmVHWjR3SzRsUlFjWmVCa01oNVJoSzFOTm5rVnlIOTJrLTRlTy1JWjg1LTFzODhNVThSWEhHWUhR?oc=5",
+          "publishedAt": "2026-10-01T10:13:39Z"
         },
         {
-          "id": "646f1c2589f1",
-          "name": "北海道新聞デジタル",
-          "title": "臨時国会 自民、首相の出席減狙う 「国会改革」焦点に急浮上 野党「議論軽視に拍車」懸念",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZDRfRGh4LXIweFdQY3NDYWExU2RGSnQxalJnYTA5REx4bHdQcFhqM2VVc00zWXdsR2paNUZwdWRzR2hiZ0NsVjR0bGREWFBVSy1BWVhFZUFmQQ?oc=5",
-          "publishedAt": "2026-10-01T19:00:00Z"
+          "id": "36a7d38ae7cd",
+          "name": "琉球新報デジタル",
+          "title": "来春統一選 ４月１１、２５日 臨時国会に法案提出へ - 琉球新報デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIZE9oX21tSWs1dFpIbl8ySGNMekRQMzIxMFlDako0eGhMNmZxcnpHNXRub3JuVEVrUFpJTkxrOEdpZXVXUjY2R2FtT2lRX25vQkIxLS0wbVU2NC1CWmdXdA?oc=5",
+          "publishedAt": "2026-10-01T20:00:00Z"
         }
       ],
-      "caution": "与党側の狙いと野党側の懸念は報道上の各当事者の主張であり、改革の実施を意味しません。"
+      "caution": "法案の成立や最終的な投票日は未確認です。"
     },
     {
-      "id": "politics-land-permits",
+      "id": "politics-foreign-residency-policy",
       "category": "politics",
-      "title": "重要施設周辺の土地取得を許可制にする提言",
-      "whatHappened": "自民党の外国人政策本部が、安全保障上重要な施設周辺の土地取得を許可制にするよう政府に提言したと報じられています。提言の対象や制度の具体的な内容は、入力の見出しからは確認できません。",
-      "whyTrending": "安全保障と土地取得を巡る新たな制度提言として報じられているためです。",
-      "context": "提言主体と、許可制を求める内容は確認できます。政府が採用するかどうかは未確認です。",
+      "title": "外国人政策の厳格化と永住許可を巡る報道",
+      "whatHappened": "政府が「共生」を掲げる一方、外国人の永住許可を狭き門にする政策を進めていると報じられています。政府の狙いを扱った記事とされていますが、具体的な制度内容は入力見出しだけでは確認できません。",
+      "whyTrending": "外国人政策の厳格化と永住制度の方向性を取り上げた報道として注目されています。",
+      "context": "見出しでは「共生」と政策厳格化の両面が示されていますが、政府の正式な説明や各制度の詳細は未確認です。",
       "points": [
-        "自民党の外国人政策本部が政府に提言したと報じられている",
-        "重要施設周辺の土地取得を許可制とする内容",
-        "政府の対応や制度化の時期は未確認"
-      ],
-      "sourceCount": 2,
-      "sources": [
-        {
-          "id": "b09fb3836c8f",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "安全保障上重要な施設周辺の土地取得を「許可制」に　自民・外国人政策本部が政府に提言",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10b1FJeEoxRmJjUUFKSHdPZVBZYnFod2ZNWXBKaWlDYjlrak5pY3lxN1hXTWdYZml2OGhHZ0EwZkNWSndLaTIyNUxZX29iUUVWamdBQUNGUHAzYWpGcGY1UXVqSU5NbXI1NHdtNjhIX2pBUdIBd0FVX3lxTFBaQTNaOHVRVUJ2UlBrNl9TTXNrU1Q2d1dNNUVyUExVd2JOZkRudlVlZ3dWYmF3WnJwT3MtN2RZdUUzLXp5RXlELUQ1N2hBbEhDVTNEdWswZnczRlBJeE9kS2tzMkpwTWxIWUJFZEtPUGFGbjVUMEgw?oc=5",
-          "publishedAt": "2026-10-01T09:24:00Z"
-        },
-        {
-          "id": "2ebf2ae2d71d",
-          "name": "TBS NEWS DIG",
-          "title": "安全保障上重要な施設周辺の土地取得を「許可制」に 自民・外国人政策本部が政府に提言",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVFhCTmhDLUEtVU9RRkFPODZacjRBX0dBdnFrWFlXaHNZZk14YUFmdVFmMDVndWV2dTRPVW1MYjVxRDQxUEhRWHVyaGNHMHZMRnRpUHNYMA?oc=5",
-          "publishedAt": "2026-10-01T09:24:25Z"
-        }
-      ],
-      "caution": "政党による提言の報道であり、政府の決定や国会での成立を示すものではありません。"
-    },
-    {
-      "id": "economy-nikkei-technical",
-      "category": "economy",
-      "title": "日経平均が8月高値に迫るとのテクニカル分析",
-      "whatHappened": "外為どっとコムは、日経平均株価について、8月高値に一気に迫る動きや75日線を上回ったことを伝えています。これはテクニカル分析の記事で、具体的な株価水準や今後の見通しは見出しからは確認できません。",
-      "whyTrending": "日経平均の上昇局面を示す分析として報じられているためです。",
-      "context": "8月高値への接近と75日線の上回りが見出しで確認できます。市場全体の要因や今後の値動きは未確認です。",
-      "points": [
-        "8月高値に迫るとする分析",
-        "75日線を上回ったと報じられている",
-        "今後の値動きは未確認"
+        "永住許可を巡る政策を報道",
+        "外国人政策の厳格化に言及",
+        "政府の狙いを扱う記事"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "68f8f1ca5e7a",
-          "name": "外為どっとコム",
-          "title": "【テクニカル】日経平均株価テクニカル分析－8月高値に一気に迫る",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAyNmFWSjZJcGdUVUZiMVZPWDVIYTRzbW5nQVNrU2wxbEVfbkxxcTRBUlpidHpjam9uQUFSNWdadk5KQ2JOc0lLaS1aYTdQYnJKSWIxWEhDMmszdDdEV043cDREVQ?oc=5",
-          "publishedAt": "2026-10-01T15:40:24Z"
-        }
-      ],
-      "caution": "テクニカル分析は将来の株価を保証するものではありません。"
-    },
-    {
-      "id": "economy-ai-small-business",
-      "category": "economy",
-      "title": "AI特需で中小企業の注文が急増と報道",
-      "whatHappened": "毎日新聞は、AI需要の高まりを背景に、中小企業への注文が急増していると報じています。日本経済の底上げにつながる可能性が示される一方、恩恵がいつまで続くかが論点として挙げられています。",
-      "whyTrending": "AI関連需要が中小企業にも広がっているとする経済記事が報じられているためです。",
-      "context": "AI特需による注文増加と、効果の持続性への問題提起が見出しで確認できます。対象企業や増加幅は未確認です。",
-      "points": [
-        "中小企業の注文が急増していると報じられている",
-        "AI特需が背景とされている",
-        "恩恵がいつまで続くかが論点"
-      ],
-      "sourceCount": 1,
-      "sources": [
-        {
-          "id": "70c6d88d323f",
+          "id": "b86af2057ace",
           "name": "毎日新聞",
-          "title": "経済プラス：急増する注文 AI特需に沸く中小、日本経済底上げも恩恵いつまで",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByVUhZNURuOEFyUTJBSFc4dzl2WERSZHM2LWJmTnUzRmpyNkRiZUxzdEJ5b1pteU9tSnRDQVRjYmhWazhLOWUxOVhWSVNpZmY3MF9GZUVLbDJ2a2M4M0pkOXZ1QUJMWHg0?oc=5",
-          "publishedAt": "2026-09-30T22:30:00Z"
+          "title": "「共生」掲げ永住「狭き門」に 外国人政策厳格化、政府の狙いは",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83SWZ4cXZjUFBkNFdBZGN0TkxtVmpqMzRvTDBMZjI4b2lfWV9OcDZRUEZSRWh5eENqRXZIVVlBWVkxTHhZd1B3azFDaldBNEpoUUQ1UHlYY19ONFI2LWFsVVBUSExsZV9y?oc=5",
+          "publishedAt": "2026-09-30T22:00:00Z"
         }
       ],
-      "caution": "AI需要の規模や個別企業への影響は、見出しからは未確認です。"
+      "caution": "制度変更の具体的内容や実施時期は、入力見出しだけでは未確認です。"
     },
     {
-      "id": "economy-china-slowdown",
-      "category": "economy",
-      "title": "中国経済の減速と日本企業の進出を巡る記事が相次ぐ",
-      "whatHappened": "中国経済について、日本の『失われた30年』をなぞるとの見方や、低金利を背景にした投資機会を指摘する記事が掲載されています。また、中国進出企業が3割減ったとの見出しもあります。",
-      "whyTrending": "中国経済の減速、日本企業の事業展開、投資機会を異なる観点から扱う記事が複数出ているためです。",
-      "context": "各見出しは中国経済や日本企業の動向についての分析・論考を示していますが、数値の定義や根拠、見通しの詳細は未確認です。",
+      "id": "politics-japan-qatar-energy",
+      "category": "politics",
+      "title": "日本とカタールがエネルギー協力強化で一致",
+      "whatHappened": "日本とカタールがエネルギー協力を強化し、ホルムズ海峡の安全確保で一致したと報じられています。会談の出席者や具体策は、見出しからは確認できません。",
+      "whyTrending": "エネルギー協力と中東の海上安全に関わる外交上の動きとして報じられています。",
+      "context": "ホルムズの安全確保が両国の協議事項として示されていますが、合意の範囲や実施内容は未確認です。",
       "points": [
-        "中国経済を日本の長期停滞と比較する記事がある",
-        "低金利を投資機会と見る記事がある",
-        "中国進出企業が3割減ったとの見出しがある"
+        "日本とカタールの協力強化",
+        "エネルギー分野が対象",
+        "ホルムズの安全確保で一致"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "9f94e47ae7d0",
-          "name": "ライブドアニュース",
-          "title": "朝食100円・若者失業率18.9%、中国経済が日本の失われた30年をなぞる (2026年10月2日掲載)",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5OUV9zd0RjV2JGVlJoZk1oeXJuUlRSYzRHQVg0WGpYYUhVdVVBVEpuN2U2RXVSZ0cxLVpQaFB3ZGdrQVFRenBXS2dPdk9fS291NTFpNUtBdTM2WklOalE?oc=5",
-          "publishedAt": "2026-10-01T21:03:37Z"
+          "id": "643eff3e260d",
+          "name": "福島民友新聞社",
+          "title": "日本とカタール、エネ協力強化 ホルムズ安全確保で一致:政治 - 福島民友新聞社",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xVl9BcmF1SHpWNFlNRXFXVFlWT2VGd2l1TjJKajEzVHc0ZmtQNlFkSW5pOTFyQ0MwRjB5VklRamdFS0VENk9KY0pMTEhxaUpmQU90d2pUMWxsVF9Jb1ZZeXRPSVNSZ3o4VFE?oc=5",
+          "publishedAt": "2026-10-02T08:32:00Z"
         }
       ],
-      "caution": "ここで示した内容は記事見出しに基づく分析・主張であり、中国経済全体の確定的な評価ではありません。"
+      "caution": "具体的な協力内容や安全確保の方法は未確認です。"
     },
     {
-      "id": "internet-korea-fireworks",
-      "category": "internet",
-      "title": "韓国ネットで話題の巨大な光の正体がトイレブラシと報道",
-      "whatHappened": "韓国のネット上で、高層ビル群に広がる『巨大花火』の写真が話題になったと報じられています。AFPBB Newsなどは、その正体がトイレのブラシだったと伝えています。",
-      "whyTrending": "花火のように見える画像と、意外な正体の組み合わせが注目を集めているためです。",
-      "context": "写真がネットで話題になったことと、トイレブラシが正体とされていることは見出しで確認できます。撮影場所や経緯の詳細は未確認です。",
+      "id": "economy-russia-sanctions",
+      "category": "economy",
+      "title": "日本政府がロシアへの追加制裁",
+      "whatHappened": "日本政府がロシアに追加制裁を実施したと報じられています。制裁の対象や内容は、入力見出しからは確認できません。",
+      "whyTrending": "複数の地域経済紙が同じニュースを報じています。",
+      "context": "日本政府による対ロシア措置として伝えられていますが、政策の詳細や発表主体は未確認です。",
       "points": [
-        "韓国ネットで写真が話題になったと報じられている",
-        "高層ビル群に広がる光が花火のように見える",
-        "正体はトイレのブラシとされている"
+        "ロシアへの追加制裁",
+        "日本政府の措置",
+        "対象・内容は未確認"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "cf809530231e",
-          "name": "AFPBB News",
-          "title": "韓国ネットで話題の「巨大花火」写真…高層ビル群に広がる光の正体は「トイレのブラシ」",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFdEMyNzViVjBWcDdsdnhHeGxSOEx4M0RiY3FyWFVpWnFhdTZJWFRKeWlfVmYxUDkyMUVfUXJjeFlYM1NtOTNiaVpQLThkcFl2dGfSAVRBVV95cUxOODFtRUx2Zkd4d3VsTnIycV81VC1qUHNlRU9MazE2UVFMandFYWFLeExCT2ZzdzJoU2hLMUJBRXRBeVVKYTJYcmRNTjdoN3NYYXRncjc?oc=5",
-          "publishedAt": "2026-10-01T00:04:43Z"
+          "id": "6ab2c8bf5ac0",
+          "name": "盛岡経済新聞",
+          "title": "日本政府、ロシアに追加制裁 - 盛岡経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZQlpYN1ZpYzlNdHFqUzBrMUlxZlRtc0gyNkVCOE1WYThqWUh1Q25VUEJGU1N2alBYNUFTM0cyaDgtTlhzYW9GMGU0Q1NKd2VUbkdJSg?oc=5",
+          "publishedAt": "2026-10-02T10:58:26Z"
         },
         {
-          "id": "64e29b61a749",
-          "name": "koreawave.jp",
-          "title": "韓国ネットで話題の「巨大花火」写真…高層ビル群に広がる光の正体は「トイレのブラシ」",
-          "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPRDBSblFBRHI4TVl2ZXJHMGdYMFIzdW9lWlhvelZ3MHZZSnpRX0V2VF8yZXppMVhod2pTNE56UHBBZFozT0VQenRZcnlpRF9RR09ya0lOM0QwbHFZWndIQTBpa19rcjdZdzZjZm43QUE0TkRaUFlTYWc4QV9nb0R0ZXBVS1lmSEhKX1BRUEJGYkEzbTFlby1mM1E0QThZeWV4VGcyX1FaN1JsZUlFV1pGanFjTGtha1dkSnIyU2VRYlBFbXQ1QWtXV2pfMXUwQ2hUbzZQRlRhMElTNjZKa0NFTmhpT3RlRElDTEw0eGNNV3FHMXIzTll0ZXpnR2dPYU5EcjBSZWdDQWxCaHRoWkdaN3dsal9SczdQMDh2TWRyQ3JoenZmUVBfUzZnbGdtbnlRLUtWLUZ3?oc=5",
-          "publishedAt": "2026-09-30T20:15:57Z"
+          "id": "8062ccb4c39a",
+          "name": "佐賀経済新聞",
+          "title": "日本政府、ロシアに追加制裁 - 佐賀経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uMVpMbVd3U1BxdDJlcnJvQUhudlEzN0M1cDR0allValNaU040QlYwRUtTNVZUVGl2YmdZN3dRbDBha1R3blBmNmhPTElqLWVp?oc=5",
+          "publishedAt": "2026-10-02T10:56:32Z"
         }
       ],
-      "caution": "画像の撮影経緯や真偽の詳細は、見出しからは未確認です。"
+      "caution": "制裁の具体的な対象、発効時期、経済への影響は未確認です。"
+    },
+    {
+      "id": "economy-japan-stocks-oil",
+      "category": "economy",
+      "title": "日本株が反落、原油高止まりによる影響を懸念",
+      "whatHappened": "10月2日の日本株が反落し、原油価格が高止まりしていることによる経済への影響が懸念されたと報じられています。株価の下落幅や市場指数は見出しからは確認できません。",
+      "whyTrending": "株式市場の動きと原油価格への警戒が同時に報じられています。",
+      "context": "原油高が経済に及ぼす影響への懸念が、株価反落の背景として見出しで示されています。",
+      "points": [
+        "10月2日の日本株は反落",
+        "原油高止まりを懸念",
+        "下落幅などは未確認"
+      ],
+      "sourceCount": 1,
+      "sources": [
+        {
+          "id": "8bd93849d416",
+          "name": "四季報オンライン",
+          "title": "2日の日本株は反落､原油高止まりによる経済影響が懸念 - 四季報オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBZlpLOVd6a3dOc2VNUnE4RXBtV1BualdSZVI2dS1zX1RYc1h2ZVJLN2dRZl9vZ1ZaTFZlNmhqU2dhMkxLLUF2YkVnX25ZTVd6OTFtYW9jRQ?oc=5",
+          "publishedAt": "2026-10-02T07:50:00Z"
+        }
+      ],
+      "caution": "市場全体の動きや原油価格の水準は、記事本文を確認できていないため不明です。"
+    },
+    {
+      "id": "economy-nuclear-rebuild-effect",
+      "category": "economy",
+      "title": "原発建て替えの経済波及効果を1基4.3兆円と推計",
+      "whatHappened": "日本原子力産業協会が、原発の建て替えによる経済波及効果を1基当たり4.3兆円と推計したと報じられています。推計の前提や対象期間は未確認です。",
+      "whyTrending": "原発建て替えの経済効果を具体的な金額で示した試算として報じられています。",
+      "context": "推計主体は日本原子力産業協会と見出しにありますが、建て替えの計画や政策決定を示すものかは未確認です。",
+      "points": [
+        "経済波及効果は1基4.3兆円との推計",
+        "推計主体は日本原子力産業協会",
+        "試算の前提は未確認"
+      ],
+      "sourceCount": 1,
+      "sources": [
+        {
+          "id": "2e770fafaf2a",
+          "name": "nikkei.com",
+          "title": "原発建て替えの経済波及効果「1基4.3兆円」 日本原子力産業協会推計 - nikkei.com",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZS0dBWmpLTjRvdUZSVHN3U2VKWXNhZmhpY0EyS3dpMW93QjZEaFlkdko0NjJmc21oY1RCbU1ia3lzeE1MV0FnSjZWU1hSZWNJUDM3UU1uMzBkY0xlYkNNOWtMaXFqODJZdF9SRQ?oc=5",
+          "publishedAt": "2026-10-02T10:18:43Z"
+        }
+      ],
+      "caution": "経済効果は団体による推計であり、実際の効果や建て替えの実施を確認したものではありません。"
+    },
+    {
+      "id": "internet-nadeshiko-broadcast",
+      "category": "internet",
+      "title": "なでしこ決勝の中継を巡るSNSの反応が話題",
+      "whatHappened": "なでしこの決勝戦の中継がないことへの疑問や、バレーボール中継との編成を巡る投稿がSNSで話題になったと報じられています。試合や放送の詳細は、見出しからは確認できません。",
+      "whyTrending": "SNS上の視聴者の反応を日刊スポーツとYahoo!ニュースが取り上げています。",
+      "context": "見出しでは、なでしこの決勝とバレーボールの準決勝の中継を比較する投稿が紹介されています。",
+      "points": [
+        "決勝中継の有無を巡る反応",
+        "SNS投稿が話題に",
+        "バレーボール中継との比較"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "105a34ea8a03",
+          "name": "日刊スポーツ",
+          "title": "【なでしこ】「決勝の中継ないんか」「バレーも人気種目なのはわかるけど準決勝だよ」SNS話題 - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sdElLWFNfTm1ZSnJ5dGxXWDdXNy1zTHJNYlZoZUEtVU5Rb1NWQTRYbXh4eF9ZRGxHZ2g3OHZFZ0Q1dkZacjdfYjM3SldjMk1CTFVteGZad1Z2ZzJWeFRFSzRoRGpfMWc0cml0UGkxM2N3ZUtxN3dTaTk4c9IBfkFVX3lxTFAwS1BpR0dZVzJKa3l6UXd4Wlp0bzh1NGtNYWpxRDF6d0tSS0czNzlOYzNEVzlhcDNPTTI5UE8xSlJ0cTNteVRCU29GXzNIY0ZKUWNoYXAtU2JOdThFc0QtTUhnUFFzV243U0hfR3dPS21iWDRFc21kU0FjZFpmUQ?oc=5",
+          "publishedAt": "2026-10-02T12:02:20Z"
+        },
+        {
+          "id": "b1c103f5244e",
+          "name": "Yahoo!ニュース",
+          "title": "【なでしこ】「決勝の中継ないんか」「バレーも人気種目なのはわかるけど準決勝だよ」SNS話題（日刊スポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zdXk0aVlNWGVRa3VUMld5ZkxFazFjbXNIV2lvTm5yWUtVQkM1TGtxVXVlZkVkZ2VLb0FkNmNiU283SzJvYXJLNEk4TUdwSmF1V05LbVp0dGE1d0Y5MjN3cmFmWnB2b2ZFUnpPOHc3Qjc4RkpkdEpySzhCR04tU1E?oc=5",
+          "publishedAt": "2026-10-02T12:02:22Z"
+        }
+      ],
+      "caution": "中継の実際の有無や放送編成の理由は、入力見出しだけでは未確認です。"
     },
     {
       "id": "internet-felissimo-misu-pouch",
       "category": "internet",
-      "title": "フェリシモの御簾ポーチがSNSで話題",
-      "whatHappened": "フェリシモの御簾をモチーフにしたポーチがSNSで話題になり、2万超の『いいね』を集めたと報じられています。商品の詳細や販売状況は見出しからは確認できません。",
-      "whyTrending": "SNS上で多数の反応を集めた商品として紹介されているためです。",
-      "context": "商品名とSNSでの反響は確認できますが、デザインの具体的な特徴や価格は未確認です。",
+      "title": "フェリシモの「御簾ポーチ」がSNSで話題",
+      "whatHappened": "フェリシモの「御簾ポーチ」がSNSで話題となり、2万超の「いいね」を集めたと報じられています。商品の仕様や反響の集計時点は未確認です。",
+      "whyTrending": "複数媒体が、SNS上で2万超の反応を集めた商品として紹介しています。",
+      "context": "商品名から、御簾をモチーフにしたポーチとみられますが、デザインや販売情報は見出しからは確認できません。",
       "points": [
-        "フェリシモの御簾ポーチが話題と報じられている",
-        "SNSで2万超の『いいね』を集めたとされている",
-        "価格や販売状況は未確認"
+        "商品は「御簾ポーチ」",
+        "SNSで話題",
+        "2万超の「いいね」と報道"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sources": [
         {
           "id": "d9d0ef042e90",
           "name": "online.bci.co.jp",
-          "title": "フェリシモ、御簾ポーチが話題 SNSで2万超の”いいね”",
+          "title": "フェリシモ、御簾ポーチが話題 SNSで2万超の”いいね” - online.bci.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zeXBDSHJXQnlJaEFHTURtcWxvcVJSVmtaRnBWa0VKMmljekIzNFZkRXJCQnhnbFIzb1V6YjlINFAwUXN3ZTBzSjhZLXF4SGZLXzdfNEdpRQ?oc=5",
-          "publishedAt": "2026-10-02T00:04:55Z"
+          "publishedAt": "2026-10-02T01:34:29Z"
+        },
+        {
+          "id": "4ed7bf2df6fd",
+          "name": "日流ウェブ",
+          "title": "フェリシモ／御簾ポーチが話題／ＳＮＳで２万超の”いいね”（2026年10月1日号） - 日流ウェブ",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9UMDFDRE5rUmt5aTFpQTgtZ3YxYkNOMGVJTktzRmVIdklhVUxCemx4ME5SM3BmRjRHOEtvRjBzNThpS18yQ0dJaGlQWFhoSWdlNmF1SV9zOA?oc=5",
+          "publishedAt": "2026-10-02T05:49:06Z"
         }
       ],
-      "caution": "SNS上の反響数は記事見出しに基づく情報で、集計時点や対象範囲は未確認です。"
+      "caution": "「いいね」の件数や商品の詳細は、各記事の全文確認が必要です。"
     },
     {
-      "id": "internet-iwrap-carrot",
+      "id": "internet-taiwan-anime-ranking",
       "category": "internet",
-      "title": "電子レンジで作る『アイラップにんじん』レシピがSNSで話題",
-      "whatHappened": "電子レンジだけで作る『アイラップにんじん』のレシピがSNSで話題になったと報じられています。投稿への反応として、『毎晩食べている』『甘い』といった声が紹介されています。",
-      "whyTrending": "手軽に作れるレシピとしてSNS上で反響を集めているためです。",
-      "context": "電子レンジを使うレシピとSNS上の反応は確認できますが、具体的な手順や調理時間は見出しからは未確認です。",
+      "title": "台湾のネットで「ヤニねこ」が話題数トップと報道",
+      "whatHappened": "台湾のネット上で話題になった2026年のアニメとして、「ヤニねこ」が話題数トップになったと報じられています。集計方法や対象作品の範囲は未確認です。",
+      "whyTrending": "台湾メディアの話題として複数媒体が取り上げています。",
+      "context": "台湾のネット上でのアニメ話題度に関する報道であり、日本国内の人気順位を示すものではありません。",
       "points": [
-        "電子レンジだけで作るレシピとされている",
-        "SNSで話題になったと報じられている",
-        "甘さや手軽さへの反応が紹介されている"
+        "対象は2026年のアニメ",
+        "台湾のネット上での話題数を紹介",
+        "「ヤニねこ」がトップとの報道"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sources": [
         {
-          "id": "8b754eeb38b4",
-          "name": "Yahoo!ニュース",
-          "title": "レンジだけ“アイラップにんじん”レシピがSNSで話題 「毎晩食べてる」「めっちゃ甘い」 (オトナンサー)",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN2t2dGJFYkxULWRXelN1ZzcwZXdiTFVCWDlTZjJvREJSNkdaM0Q0TGxvQ2FjSW5scTBPZi1tWHdYQnFvaW1uSTNaY0FaY1V6d00wOFNTNnlkVU1nTEpGS3hzMjJ0YlVOb3YxbXhLZFpBMW5jVk5ZYmVIRHoxU3JHVlpBVWtCU3FHeFBnVzVn?oc=5",
-          "publishedAt": "2026-10-01T06:15:00Z"
+          "id": "e7f9b1a0bc42",
+          "name": "ｄメニューニュース",
+          "title": "台湾のネット上で話題になった2026年のアニメは？「ヤニねこ」が話題数トップに―台湾メディア",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPajJLcGJwNmQ2a3ExWkMzdWpiSnZQb0c1R29RWVlpTl9CY0I4RmNqeUo1dm5MaHNBR3UyQ3FCcllZUVpfdTkwdWowME1qNXVyRVNieXBYWmhPVGRRRUI2eE5udUtSQVpXbUJXT19Qc3seXI0X0M5cE5PdGtISkF4dXB3WnBSaWVSS0FVa3drMNIBjwFBVV95cUxPajJLcGJwNmQ2a3ExWkMzdWpiSnZQb0c1R29RWVlpTl9CY0I4RmNqeUo1dm5MaHNBR3UyQ3FCcllZUVpfdTkwdWowME1qNXVyRVNieXBYWmhPVGRRRUI2eE5udUtSQVpXbUJXT19Qc3seXI0X0M5cE5PdGtISkF4dXB3WnBSaWVSS0FVa3drMA?oc=5",
+          "publishedAt": "2026-10-02T14:00:00Z"
+        },
+        {
+          "id": "12761a5606dd",
+          "name": "Record China",
+          "title": "台湾のネット上で話題になった2026年のアニメは？「ヤニねこ」が話題数トップに―台湾メディア",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDYVl5eUZ3WVNjYW5zcWxpQnhRdTQ2aVV1VElMRFlieXRzVU5qX0tSdGw3bnZOVWYxei1oWUE0dTIyMDZLTGFuaWF3eVVfOHo0MDVFVXNBNmlGSHhC?oc=5",
+          "publishedAt": "2026-10-02T14:00:01Z"
         }
       ],
-      "caution": "レシピの安全性や調理条件の詳細は、記事本文などで確認してください。"
+      "caution": "話題数の調査方法や母数は未確認で、日本全体の人気を示すものではありません。"
     }
   ]
 }
