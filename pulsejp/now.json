@@ -1,21 +1,44 @@
 {
-  "generatedAt": "2026-10-01T23:12:27Z",
+  "generatedAt": "2026-10-02T02:15:58Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
+    {
+      "id": "87ec4827a34cce",
+      "category": "internet",
+      "title": "フェリシモ／御簾ポーチが話題／ＳＮＳで２万超の”いいね”（2026年10月1日号） - 日流ウェブ",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-02T02:01:55Z",
+      "sources": [
+        {
+          "id": "977f1276a29d71",
+          "name": "日流ウェブ",
+          "title": "フェリシモ／御簾ポーチが話題／ＳＮＳで２万超の”いいね”（2026年10月1日号） - 日流ウェブ",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9UMDFDRE5rUmt5aTFpQTgtZ3YxYkNOMGVJTktzRmVIdklhVUxCemx4ME5SM3BmRjRHOEtvRjBzNThpS18yQ0dJaGlQWFhoSWdlNmF1SV9zOA?oc=5",
+          "publishedAt": "2026-10-02T02:01:55Z"
+        },
+        {
+          "id": "bdab780bd650e6",
+          "name": "online.bci.co.jp",
+          "title": "フェリシモ、御簾ポーチが話題 SNSで2万超の”いいね” - online.bci.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zeXBDSHJXQnlJaEFHTURtcWxvcVJSVmtaRnBWa0VKMmljekIzNFZkRXJCQnhnbFIzb1V6YjlINFAwUXN3ZTBzSjhZLXF4SGZLXzdfNEdpRQ?oc=5",
+          "publishedAt": "2026-10-02T00:04:55Z"
+        }
+      ]
+    },
     {
       "id": "be826019348de0",
       "category": "politics",
       "title": "臨時国会、首相出席削減も焦点に 議論軽視の「国会改革」に懸念（北海道新聞） - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-01T21:03:03Z",
+      "latestPublishedAt": "2026-10-01T21:00:37Z",
       "sources": [
         {
           "id": "60258fd66f3966",
           "name": "Yahoo!ニュース",
           "title": "臨時国会、首相出席削減も焦点に 議論軽視の「国会改革」に懸念（北海道新聞） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lTWY3RExENEVteGpPVE1sQklnRkRCa25xcXBYYzVqTDJfTGVYOWxKYV9sUkZlcHozanRncHd2V3d2ekh0NUNXUUxDSHJkX2ZtOHUxR3lMYTBkU0pWYkdsa1Jya3hXSDd2MWFITWoxaHItWTFmVVFjWm1wd05IQUU?oc=5",
-          "publishedAt": "2026-10-01T21:03:03Z"
+          "publishedAt": "2026-10-01T21:00:37Z"
         },
         {
           "id": "646f1c2589f16d",
@@ -23,59 +46,6 @@
           "title": "臨時国会 自民、首相の出席減狙う 「国会改革」焦点に急浮上 野党「議論軽視に拍車」懸念 - 北海道新聞デジタル",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1lZDRfRGh4LXIweFdQY3NDYWExU2RGSnQxalJnYTA5REx4bHdQcFhqM2VVc00zWXdsR2paNUZwdWRzR2hiZ0NsVjR0bGREWFBVSy1BWVhFZUFmQQ?oc=5",
           "publishedAt": "2026-10-01T19:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "531ecf8983d257",
-      "category": "politics",
-      "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ - Excite エキサイト",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-01T10:14:00Z",
-      "sources": [
-        {
-          "id": "74e516fc0817dc",
-          "name": "Excite エキサイト",
-          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ - Excite エキサイト",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VTzhhSDBfNEc5a2ZZMEVpVGpTMzlzandEdFB1Q0gzLThpQlJPS0xwdE51dzViMENSTnp1alVPZ2daYllhUTd0bklkT0RRZ29FU2pNTVZFdlU1VGFVY1RfSjI3OE9KMl9LZVhpTWlPVk8?oc=5",
-          "publishedAt": "2026-10-01T10:14:00Z"
-        },
-        {
-          "id": "15e4edda0ada7d",
-          "name": "Yahoo!ニュース",
-          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ（共同通信） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uU3l5bElaZ2ZndEV0Mm1uSFFKWFE1OG5VVWhrelBtU0JNNkl5WG9iWmgyczZNR1ppcmJtWjVhRVY2ZXRnbFdZcUllMHYxOWFXa2NxdHRxNFhxcWVGZUUtbFhldFFUWHhQVlpjLXhJYU5VVXlJWkRRWnBGWi1JeFU?oc=5",
-          "publishedAt": "2026-10-01T10:13:39Z"
-        },
-        {
-          "id": "7dcbe3b1619566",
-          "name": "Yahoo!ニュース",
-          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ (共同通信) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRXV1TEVfUWpzUUdSaTBubkFPZG1BMTJ0cmlYOUhlSmx2X0tBUTRJRXFDQXdMSVB3VkUxcmxac3lEYnlZM2I2QlBMY056amNVdlBaamxQRmVHWjR3SzRsUlFjWmVCa01oNVJoSzFOTm5rVnlIOTJrLTRlTy1JWjg1LTFzODhNVThSWEhHWUhR?oc=5",
-          "publishedAt": "2026-10-01T10:13:39Z"
-        }
-      ]
-    },
-    {
-      "id": "914cbc45b485b2",
-      "category": "politics",
-      "title": "安全保障上重要な施設周辺の土地取得を「許可制」に 自民・外国人政策本部が政府に提言 - TBS NEWS DIG",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-01T09:24:25Z",
-      "sources": [
-        {
-          "id": "63fc0269de6aa7",
-          "name": "TBS NEWS DIG",
-          "title": "安全保障上重要な施設周辺の土地取得を「許可制」に 自民・外国人政策本部が政府に提言 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5PVFhCTmhDLUEtVU9RRkFPODZacjRBX0dBdnFrWFlXaHNZZk14YUFmdVFmMDVndWV2dTRPVW1MYjVxRDQxUEhRWHVyaGNHMHZMRnRpUHNYMA?oc=5",
-          "publishedAt": "2026-10-01T09:24:25Z"
-        },
-        {
-          "id": "65a696c7db97a3",
-          "name": "ｄメニューニュース",
-          "title": "安全保障上重要な施設周辺の土地取得を「許可制」に　自民・外国人政策本部が政府に提言 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10b1FJeEoxRmJjUUFKSHdPZVBZYnFod2ZNWXBKaWlDYjlrak5pY3lxN1hXTWdYZml2OGhHZ0EwZkNWSndLaTIyNUxZX29iUUVWamdBQUNGUHAzYWpGcGY1UXVqSU5NbXI1NHdtNjhIX2pBUdIBd0FVX3lxTFBaQTNaOHVRVUJ2UlBrNl9TTXNrU1Q2d1dNNUVyUExVd2JOZkRudlVlZ3dWYmF3WnJwT3MtN2RZdUUzLXp5RXlELUQ1N2hBbEhDVTNEdWswZnczRlBJeE9kS2tzMkpwTWxIWUJFZEtPUGFGbjVUMEgw?oc=5",
-          "publishedAt": "2026-10-01T09:24:00Z"
         }
       ]
     },
@@ -99,29 +69,6 @@
           "title": "韓国ネットで話題の「巨大花火」写真…高層ビル群に広がる光の正体は「トイレのブラシ」 - KOREA WAVE",
           "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPRDBSblFBRHI4TVl2ZXJHMGdYMFIzdW9lWlhvelZ3MHZZSnpRX0V2VF8yZXppMVhod2pTNE56UHBBZFozT0VQenRZcnlpRF9RR09ya0lOM0QwbHFZWndIQTBpa19rcjdZdzZjZm43QUE0TkRaUFlTYWc4QV9nb0R0ZXBVS1lmSEhKX1BRUEJGYkEzbTFlby1mM1E0QThZeWV4VGcyX1FaN1JsZUlFV1pGanFjTGtha1dkSnIyU2VRYlBFbXQ1QWtXV2pfMXUwQ2hUbzZQRlRhMElTNjZKa0NFTmhpT3RlRElDTEw0eGNNV3FHMXIzTll0ZXpnR2dPYU5EcjBSZWdDQWxCaHRoWkdaN3dsal9SczdQMDh2TWRyQ3JoenZmUVBfUzZnbGdtbnlRLUtWLUZ3?oc=5",
           "publishedAt": "2026-09-30T20:15:57Z"
-        }
-      ]
-    },
-    {
-      "id": "596afa0b55ca93",
-      "category": "internet",
-      "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - e.usen.com",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-28T04:40:07Z",
-      "sources": [
-        {
-          "id": "994fa16f304a4a",
-          "name": "e.usen.com",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」を10月2日(金)にリリース決定。\"赤い糸\"をモチーフに、人と人との縁を描いたラブソング - e.usen.com",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1hbUtkdzRyUEI1NzdSTnYxN3RBb0ZnSVF4YS1DQTF0WEVKVjFsR2VTVEJWeTlsZFF2UHpGbVhkMU9SX1V0VFVYTEplWHN3NVRUVThJYlZ2R1ZlQ1g2RmotZDM4a0dNVV92NUow?oc=5",
-          "publishedAt": "2026-09-28T04:40:07Z"
-        },
-        {
-          "id": "d0e730d818452b",
-          "name": "skream.jp",
-          "title": "Ayumu Imazu、SNSで話題の新曲「結び」10/2配信決定。\"赤い糸\"モチーフに人と人との縁を描いたラヴ・ソング - skream.jp",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0yWUNORmJnVEhROEwzS29xQktqd1FPRmtIV3lZTVA4TXV0Q0VSSlFnaWlrVmpKRHgtbUNuX1MwQjJtMXFfYjF2VzN5dWhzcUhpemxEWmNnN3J1VVUtVng5YkxOcw?oc=5",
-          "publishedAt": "2026-09-25T12:00:00Z"
         }
       ]
     },
@@ -179,6 +126,54 @@
       ]
     },
     {
+      "id": "1e480fb60849ff",
+      "category": "economy",
+      "title": "事業共創カンパニーのRelic、一般社団法人日本経済団体連合会（経団連）に入会 - prtimes.jp",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T01:10:01Z",
+      "sources": [
+        {
+          "id": "7dca94f66c64b2",
+          "name": "prtimes.jp",
+          "title": "事業共創カンパニーのRelic、一般社団法人日本経済団体連合会（経団連）に入会 - prtimes.jp",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1xbVQyNG9tQWJhZmttN2toT3U4NXByN1pTNUliMmROZUFyZWE0cV9KeXFDMERqLVM5NVV3UDZzY0lvSUtIaVNHenA0X29uOGg2b0QtRGRqUlhTRUEwUmpFUFNSN2VMNHIzRkE?oc=5",
+          "publishedAt": "2026-10-02T01:10:01Z"
+        }
+      ]
+    },
+    {
+      "id": "132e320b12bd17",
+      "category": "economy",
+      "title": "日本経済指標【東京消費者物価指数】 - みんかぶ FX/為替",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T23:30:29Z",
+      "sources": [
+        {
+          "id": "6d9ace35c2150b",
+          "name": "みんかぶ FX/為替",
+          "title": "日本経済指標【東京消費者物価指数】 - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA5RjRvaFpPeVVkb2ZQa3pfeXFlbFNWVE85NVhDbU9ZUnJSb0gydEt3QXNDbEJqbnZrZUlYLWM2YklPcHZ6Y1lmNw?oc=5",
+          "publishedAt": "2026-10-01T23:30:29Z"
+        }
+      ]
+    },
+    {
+      "id": "61dd29ad95c996",
+      "category": "economy",
+      "title": "日本エネルギー経済研究所にフィッシング攻撃、所員6名のMicrosoft 365 アカウントに不正アクセス - ScanNetSecurity",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T23:05:21Z",
+      "sources": [
+        {
+          "id": "c5dbba4dad1f6e",
+          "name": "ScanNetSecurity",
+          "title": "日本エネルギー経済研究所にフィッシング攻撃、所員6名のMicrosoft 365 アカウントに不正アクセス - ScanNetSecurity",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9rVzJIdFlZTFFad3RDU3V4TUd2RmRDb2RVRjhNaG04eE1VdW5udzJmRVQxLXpzbnlmVDBUX2VoSmZmX0xwYWNqUUVsUjJGVFhTdlh0dzhYRWpWdjR1anM3NUNQZV9TWVRTRzBaUQ?oc=5",
+          "publishedAt": "2026-10-01T23:05:21Z"
+        }
+      ]
+    },
+    {
       "id": "599b3d99c9f059",
       "category": "economy",
       "title": "リユース経済新聞社、業界最大級のイベント「Reuse×Tech Conference」10月開催 リユース市場の最新動向が分かる - Yahoo!ニュース",
@@ -191,22 +186,6 @@
           "title": "リユース経済新聞社、業界最大級のイベント「Reuse×Tech Conference」10月開催 リユース市場の最新動向が分かる - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1VjRRdHhPc2xjUHNPUWZRbHFDczU5TTJ4OEZKbUNrZWlBOTdXR3FoeUFHZUZ0UVV1YWx2a0E0Z2pNRHVzSWdQbHhLZTVDOWpPNmNUWFJkZ0gtUF91dk03aWM2MV9vbEhuTnBQZDUzaDN4M2VsdU1vMldRNzJjc3M?oc=5",
           "publishedAt": "2026-10-01T22:37:41Z"
-        }
-      ]
-    },
-    {
-      "id": "f988706a6c41cb",
-      "category": "entertainment",
-      "title": "能楽、長唄など稽古開講 キッズ伝統芸能体験 - 東京新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T22:21:47Z",
-      "sources": [
-        {
-          "id": "6c722a3c3c99a6",
-          "name": "東京新聞",
-          "title": "能楽、長唄など稽古開講 キッズ伝統芸能体験 - 東京新聞",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jbFBhNE9mc0VLOWxXcDQ3Z3hNZDN5ZzV2QkRqdWtpam5JemhjRGMtQWU5QXNtMDY4bm84N2JqZ1RQZmpNMEozUFQzR2xCTV9Hc3BMemI3OW1fM3NrX2hROEJJMA?oc=5",
-          "publishedAt": "2026-10-01T22:21:47Z"
         }
       ]
     },
@@ -262,41 +241,34 @@
       ]
     },
     {
-      "id": "87e2cf5d6cbb4b",
+      "id": "e3575ec75b1886",
       "category": "economy",
-      "title": "NYマーケットダイジェスト・1日 株小幅高・金利低下・ドル底堅い(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+      "title": "日本の首相、経済競争力の強化で円を支えると表明 - arabnews.jp",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T21:20:04Z",
+      "latestPublishedAt": "2026-10-01T20:57:17Z",
       "sources": [
         {
-          "id": "1dc74d51f24516",
-          "name": "Yahoo!ファイナンス",
-          "title": "NYマーケットダイジェスト・1日 株小幅高・金利低下・ドル底堅い(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTlZMb2hWZHZIemFwa3AyRUwyOG5kMThvUUJBRnVhVzF2QTA1dFJ6OFpLMlZDaHdpT1M2a3RrQ2FtYVVScG1rSzRzRmJ0VVF6QkpHeWJMTGE1NFIxMFZZNTYyalRqZFR5UTNvWWE5WTN4bktPV29CLWZlZXJRV0ZCSFdRVmxtT2M?oc=5",
-          "publishedAt": "2026-10-01T21:20:04Z"
-        },
-        {
-          "id": "2228abd96d1c55",
-          "name": "Yahoo!ファイナンス",
-          "title": "欧州マーケットダイジェスト・1日 株安・金利低下・ユーロ安(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjU5WFJhTnhmcW5pY1lHdllUTDdMczc0MlAzNXF3VzNtckd2dXBpREs3RGlEZWJ0emFTcUZQOWRFTjliSjZac0FDcHp5RFFvWlBWNFQ3TFVJM0p4eC1MbWRiMlNSa293UWoyTzFwbTBfT0psTmVXOEFnZlpZeThKdlZESzZGODA?oc=5",
-          "publishedAt": "2026-10-01T18:25:06Z"
+          "id": "9eed7ff573be0c",
+          "name": "arabnews.jp",
+          "title": "日本の首相、経済競争力の強化で円を支えると表明 - arabnews.jp",
+          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPZkdtUnc5ZHNkbGpsRVJvY1lFeHM4Nkp6U2pIaDJLeEhjdlE5Ni1xUy1aYkZXUUxya0lHeFdwTjd2aHBRS2NiRjlDNGREdzFXQnl5ajBLTTQycHM1ZmZNNGJKeGExbGJ4dmpNWnVBSlh5XzF3Qi1wSTE3RXBjM3o1RDUzSERJNW1uLXVQUXJkTktZZFNhNHF0MDJnR1kzNFNOM3ZQTE5FbmhBVDhPZjhiZG9FNWZaSEdOWjhvTXZFcDdOc1BpZ01lb3RuZmN4ZmRsVGlXN25iVlQzamp6VEVmTmlCSXRlVmF1UFhaM2Y2NF9IZkt6emhIT1o4RVBsakNUOGNsZUloNlRfTjY3Smlia2xHeVFac01mRTdheWlITWFzLWRsdWk5c2FlU2hBTlJpa0EzdjJWYnNUWkVuNkk3dW5BeU1wV1VFNWFhT0o5cGpuMTg0aFRDSkIzUQ?oc=5",
+          "publishedAt": "2026-10-01T20:57:17Z"
         }
       ]
     },
     {
-      "id": "e3575ec75b1886",
-      "category": "economy",
-      "title": "日本の首相、経済競争力の強化で円を支えると表明 - アラブニュース",
+      "id": "bee12b0eb423b0",
+      "category": "politics",
+      "title": "上板町と日本生命、地域活性化へ協定 - 徳島新聞デジタル",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T17:59:57Z",
+      "latestPublishedAt": "2026-10-01T20:00:00Z",
       "sources": [
         {
-          "id": "9eed7ff573be0c",
-          "name": "アラブニュース",
-          "title": "日本の首相、経済競争力の強化で円を支えると表明 - アラブニュース",
-          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxPZkdtUnc5ZHNkbGpsRVJvY1lFeHM4Nkp6U2pIaDJLeEhjdlE5Ni1xUy1aYkZXUUxya0lHeFdwTjd2aHBRS2NiRjlDNGREdzFXQnl5ajBLTTQycHM1ZmZNNGJKeGExbGJ4dmpNWnVBSlh5XzF3Qi1wSTE3RXBjM3o1RDUzSERJNW1uLXVQUXJkTktZZFNhNHF0MDJnR1kzNFNOM3ZQTE5FbmhBVDhPZjhiZG9FNWZaSEdOWjhvTXZFcDdOc1BpZ01lb3RuZmN4ZmRsVGlXN25iVlQzamp6VEVmTmlCSXRlVmF1UFhaM2Y2NF9IZkt6emhIT1o4RVBsakNUOGNsZUloNlRfTjY3Smlia2xHeVFac01mRTdheWlITWFzLWRsdWk5c2FlU2hBTlJpa0EzdjJWYnNUWkVuNkk3dW5BeU1wV1VFNWFhT0o5cGpuMTg0aFRDSkIzUQ?oc=5",
-          "publishedAt": "2026-10-01T17:59:57Z"
+          "id": "dfb5c22b734f0f",
+          "name": "徳島新聞デジタル",
+          "title": "上板町と日本生命、地域活性化へ協定 - 徳島新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03WjR2akw4Qi01VC0taVczYU9ldWRkNEJIWk5BalRUb2NOSWtpbTgtUEtVRkhDaUR0NWN6QmN2amwzeGZ0eFVVdEltc1hSRE14V0RLUTdR?oc=5",
+          "publishedAt": "2026-10-01T20:00:00Z"
         }
       ]
     },
@@ -317,6 +289,29 @@
       ]
     },
     {
+      "id": "3f6162b4402327",
+      "category": "economy",
+      "title": "【テクニカル】日経平均株価テクニカル分析－8月高値に一気に迫る - 外為どっとコム",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T15:40:24Z",
+      "sources": [
+        {
+          "id": "68f8f1ca5e7a33",
+          "name": "外為どっとコム",
+          "title": "【テクニカル】日経平均株価テクニカル分析－8月高値に一気に迫る - 外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAyNmFWSjZJcGdUVUZiMVZPWDVIYTRzbW5nQVNrU2wxbEVfbkxxcTRBUlpidHpjam9uQUFSNWdadk5KQ2JOc0lLaS1aYTdQYnJKSWIxWEhDMmszdDdEV043cDREVQ?oc=5",
+          "publishedAt": "2026-10-01T15:40:24Z"
+        },
+        {
+          "id": "8689fd6375f9a9",
+          "name": "外為どっとコム",
+          "title": "【テクニカル】日経平均株価テクニカル分析－75日線を上回る - 外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90WWdGSlA2Y1VZVXZzVVVyTTdCVzNrczJWSzRCRlI0eDl4dUNKOG5Ua0E1bG9UYl9jc2ZyZlhCQlJUY1R3RHBUa3U2TkNNUm1LR1JVcy1RVkNqRk9yWlZPM2JjQQ?oc=5",
+          "publishedAt": "2026-09-30T19:24:06Z"
+        }
+      ]
+    },
+    {
       "id": "c9cbb1478671e6",
       "category": "entertainment",
       "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
@@ -329,6 +324,13 @@
           "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vQ2lJVjUxbXhrbmxEY0JZNzd5U2lmMVg4c1ZhS0lpcUxjWlRXZ0tJcVMyVmltS184SE9xVmlRTFhleVhseEh6M2NmTVBmLXQ2?oc=5",
           "publishedAt": "2026-10-01T13:22:30Z"
+        },
+        {
+          "id": "f0f91786dc7f37",
+          "name": "Yahoo!ニュース",
+          "title": "伊東四朗 来年6月で芸能活動引退 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBENmQwS2FlM05scTBpdVJKUnNuZmFwVk14bW5EdTNLRkhybGtJNmxIcEtTUmNvTzdjeDBjQk04dEdDNlJMWHBfZEhjUmRUSkEt?oc=5",
+          "publishedAt": "2026-10-01T04:23:15Z"
         }
       ]
     },
@@ -349,98 +351,96 @@
       ]
     },
     {
-      "id": "21da6261194218",
-      "category": "economy",
-      "title": "インドのゴヤル商工相率いる大規模経済ミッション団が来日、大阪で「インド・ビジネス・ロードショー」が開催 - jetro.go.jp",
+      "id": "689a0a9e08f391",
+      "category": "politics",
+      "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ（共同通信） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T06:31:42Z",
+      "latestPublishedAt": "2026-10-01T10:13:39Z",
       "sources": [
         {
-          "id": "f63c5c61be8558",
-          "name": "jetro.go.jp",
-          "title": "インドのゴヤル商工相率いる大規模経済ミッション団が来日、大阪で「インド・ビジネス・ロードショー」が開催 - jetro.go.jp",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE01RUhRdzVCUk5WVVVEMVNlRVktekdsR2x3bGJfQWttYXlaeEVvdHhuTWhhNzgxajMxT2gyc25Pcl9TclpzVVZ1a0pUMmpTR0VnTE9EcDktU181c1pCRTMwQWdkRkNBTDkxXzZUMHhB?oc=5",
-          "publishedAt": "2026-10-01T06:31:42Z"
+          "id": "f69964b56c772f",
+          "name": "Yahoo!ニュース",
+          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uU3l5bElaZ2ZndEV0Mm1uSFFKWFE1OG5VVWhrelBtU0JNNkl5WG9iWmgyczZNR1ppcmJtWjVhRVY2ZXRnbFdZcUllMHYxOWFXa2NxdHRxNFhxcWVGZUUtbFhldFFUWHhQVlpjLXhJYU5VVXlJWkRRWnBGWi1JeFU?oc=5",
+          "publishedAt": "2026-10-01T10:13:39Z"
+        },
+        {
+          "id": "88da748a90e314",
+          "name": "Yahoo!ニュース",
+          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ (共同通信) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRXV1TEVfUWpzUUdSaTBubkFPZG1BMTJ0cmlYOUhlSmx2X0tBUTRJRXFDQXdMSVB3VkUxcmxac3lEYnlZM2I2QlBMY056amNVdlBaamxQRmVHWjR3SzRsUlFjWmVCa01oNVJoSzFOTm5rVnlIOTJrLTRlTy1JWjg1LTFzODhNVThSWEhHWUhR?oc=5",
+          "publishedAt": "2026-10-01T10:13:39Z"
+        },
+        {
+          "id": "3cd029fe51333e",
+          "name": "Yahoo!ニュース",
+          "title": "政府、新規法案21本提出へ 臨時国会、消費減税など（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jc2ZwRDFld3lHYkEydUJtNERmLVUwNmgzdmFidEpuaUtha2hacmd4OUxiZDEzelFWZm9KWlZfUWF2VlRWaktkeHNNclUzQVU2RWgxQndIdTVPQy1qSVlIMnphNzBOYVU1Q3g2ZjQtMFBIRnRLQV9TRXZuWTBiV2M?oc=5",
+          "publishedAt": "2026-10-01T03:33:53Z"
         }
       ]
     },
     {
-      "id": "1cd86152faa95d",
-      "category": "economy",
-      "title": "日本経済新聞に法学部の中山雅司教授と山本栄二客員教授への取材記事が掲載されました - soka.ac.jp",
+      "id": "17d81b1e03afb3",
+      "category": "internet",
+      "title": "大型連休「国慶節」スタートも…京都で中国人観光客が激減 一方中国国内ではSNSである場所が話題に（読売テレビ） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T05:04:00Z",
+      "latestPublishedAt": "2026-10-01T08:10:00Z",
       "sources": [
         {
-          "id": "57cd3aff42ce4b",
-          "name": "soka.ac.jp",
-          "title": "日本経済新聞に法学部の中山雅司教授と山本栄二客員教授への取材記事が掲載されました - soka.ac.jp",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1mNXdxOVZGaTgtMlhnYU0xU1d6VHF0X0h5eXlQZnZlOXFPTFJCZnBGUFJoNE5ZdjNxTndpeDFHMExmZ0RvOEJmOFZCVDdTWFVCU2lmRg?oc=5",
-          "publishedAt": "2026-10-01T05:04:00Z"
+          "id": "8f103f58e86146",
+          "name": "Yahoo!ニュース",
+          "title": "大型連休「国慶節」スタートも…京都で中国人観光客が激減 一方中国国内ではSNSである場所が話題に（読売テレビ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJMFIxOG9fdHpmUjRheGoweW9GbEtfZnVfQUZqenZEWF9XWEg4TEpCUW9ZcmVqSmFYOTFBRi1ldmFXelFtTXhVMGZKWjBwa0EyTTNUZThXUXZpcDNyQlRId2FRS24yWnRLWE91Z0tvYWJBNVdhd2RuakdtNWI1Tms?oc=5",
+          "publishedAt": "2026-10-01T08:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ad532b3ddbf6e5",
+      "category": "internet",
+      "title": "SNSで話題「ふんばるず」のリストクッション第2弾登場 ちいかわやサンリオコラボも人気 - イザ！",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-01T06:20:21Z",
+      "sources": [
+        {
+          "id": "9ae6114b5e6d56",
+          "name": "イザ！",
+          "title": "SNSで話題「ふんばるず」のリストクッション第2弾登場 ちいかわやサンリオコラボも人気 - イザ！",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMURVT2ZaVU5yWkZWMThDa2VwR01kVGlfSWxzZGl2OVhoYWVlRXNEM0I3c3QyTm9SaENaSDQ4Z0Vkck9xUHpwaEtQbEU3SHF4QmVTQWNHT0QwQ3RxMFg5TEdCbFNBN0UyUlJWQmlNLW5DNHJqUXpBeXVHdWJER0FaaWJKUDB2YUdMZnFWYmVYMGxEY3kySVE?oc=5",
+          "publishedAt": "2026-10-01T06:20:21Z"
         }
       ]
     },
     {
       "id": "aeae32a83bc996",
       "category": "internet",
-      "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - PR TIMES",
+      "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - prtimes.jp",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-01T05:00:02Z",
       "sources": [
         {
           "id": "f6ce79af442243",
-          "name": "PR TIMES",
-          "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - PR TIMES",
+          "name": "prtimes.jp",
+          "title": "【不二家】SNSで話題となった、本格的なりんごのおいしさが楽しめるグミ♪「まるでりんごグミ」 - prtimes.jp",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zRVAwelZWUFQwUkJfM1dlQUxkZ0N4bUZ1TWZrcTB4UVZFMnY1bHI1VExWdDlDbU9tVE15SFZvNjhmQXlzU2tZSm8wak45Z1BGTzNyWTlMalE3bkFJM3lvamhBbVQtd2ZqbEE?oc=5",
           "publishedAt": "2026-10-01T05:00:02Z"
         }
       ]
     },
     {
-      "id": "abd3d6a1ad9152",
+      "id": "54bfa8e346566d",
       "category": "entertainment",
-      "title": "伊東四朗「いい爺ィになりました」芸能活動引退発表、来年6月の卒寿誕生日節目にラジオ番組終了 - 日刊スポーツ",
+      "title": "【記事全文】芸能界で体調不良続出 山里亮太も 市川團十郎や山崎一、TOBEタレントや芸人の休養相次ぐ - スポニチ Sponichi Annex",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T04:03:00Z",
+      "latestPublishedAt": "2026-10-01T01:46:00Z",
       "sources": [
         {
-          "id": "fb5b40d3c53a93",
-          "name": "日刊スポーツ",
-          "title": "伊東四朗「いい爺ィになりました」芸能活動引退発表、来年6月の卒寿誕生日節目にラジオ番組終了 - 日刊スポーツ",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9BYlN1R0hGM0lsb25CVGFfVUJQNFZueDh0YVdCdkZjSjVlUFBCOHNvX09zM0FMRUwxRmRIZ19BMXBCc3UyQjE2cE0xM2RpRS1oOFcyQXh3bmx2X09QYU5DVW1xNVFMcV8yMEdTYnhUQTFNd3JZOWxZ0gF_QVVfeXFMUGk0bkhFaUZaZ3dBd0htdEFRcWphSlExWjJvdk5zbEUzelVXZWN1aERRczRVbktUQldLRm16NUtaNnVNNkNlMWl4WUVBazVZdktoeG1fNlBiMi1NZ3pFT2xYTG5BcTFIdjdCLS02UzZPV1RxZ282ZkM1dTNWM3E5NA?oc=5",
-          "publishedAt": "2026-10-01T04:03:00Z"
-        }
-      ]
-    },
-    {
-      "id": "c5778373bb305e",
-      "category": "internet",
-      "title": "【セリア】SNSで「クオリティ高い」と話題！「立体デコ」ハロウィンシールを使ってみた【推し活】（もみ） - エキスパート - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T03:01:40Z",
-      "sources": [
-        {
-          "id": "b6b0ce8db4b1ed",
-          "name": "Yahoo!ニュース",
-          "title": "【セリア】SNSで「クオリティ高い」と話題！「立体デコ」ハロウィンシールを使ってみた【推し活】（もみ） - エキスパート - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPemRYLWRrem9NeEJMY1dXS3JVWVF1MEpVTDRfRU5kYi0yVGZoLXg0ODdOSnM2c2Z5LTN6aF8xY2ppSzkydDJ4aWMwN1ZsMEt4cmtDcENvb2xOSmtBemY5TGhtRGxHNHJzRWgxTkhMX1I1U09UWS1pTENmcEU5cDVOeFRrS3U0WE9j?oc=5",
-          "publishedAt": "2026-10-01T03:01:40Z"
-        }
-      ]
-    },
-    {
-      "id": "9a6a4426fdb4d3",
-      "category": "economy",
-      "title": "存在感を高める中南米 日本経済を支える重要地域に - rieti.go.jp",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T02:19:19Z",
-      "sources": [
-        {
-          "id": "498bbc8e040f54",
-          "name": "rieti.go.jp",
-          "title": "存在感を高める中南米 日本経済を支える重要地域に - rieti.go.jp",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1LSWZkRHMxQjBEOFNUdjJHN2ZfQjNyYUh2MGpGQWNzS204YXNyTldobk5UVlBodi1XQkh6Rm1rVkoyRDJHTUMteHJZeExlTkRCbVJVVmJzUmI3V0ZZdjcyRHA5VDdqdEViWnJxaVJlUzluQQ?oc=5",
-          "publishedAt": "2026-10-01T02:19:19Z"
+          "id": "cd2ce4292e2887",
+          "name": "スポニチ Sponichi Annex",
+          "title": "【記事全文】芸能界で体調不良続出 山里亮太も 市川團十郎や山崎一、TOBEタレントや芸人の休養相次ぐ - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVhiS2k5S2owZnJvTFZ3Z1YtbElidTNsME1RZ1czandoMFNkclhUMTlpczNwbFFBeWpGWDV0WGViMERZcnR5NEl3bFlpTWY3c3FtT0pOeGU3aEVNdU9QMHUyY3NaenZ1M1ZYNUVzY2t1NnhibzUxWEJZdjhmOGM5NDN2T2k5MVB4VlpRS243QTJ1ZnJxUTJha2NZMA?oc=5",
+          "publishedAt": "2026-10-01T01:46:00Z"
         }
       ]
     },
@@ -477,17 +477,17 @@
       ]
     },
     {
-      "id": "534bc1d01e0064",
+      "id": "905073b86ede7c",
       "category": "entertainment",
-      "title": "【記事全文】芸能界「再出発」の秋 移籍や独立続々 今井翼が新会社設立、藤あや子もバーニング退所 - スポニチ Sponichi Annex",
+      "title": "芸能界「再出発」の秋 移籍や独立続々 今井翼が新会社設立、藤あや子もバーニング退所 - スポニチ Sponichi Annex",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-01T00:02:00Z",
       "sources": [
         {
-          "id": "6bd291520d3781",
+          "id": "722e8d8fd1559c",
           "name": "スポニチ Sponichi Annex",
-          "title": "【記事全文】芸能界「再出発」の秋 移籍や独立続々 今井翼が新会社設立、藤あや子もバーニング退所 - スポニチ Sponichi Annex",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOcVQtYTlHb3M2eWsydXQyeWt6dC1RaGNyMzVGUEE5aGdkMEhRUmxqZ1l6NTVET1IwY0lERkJBUGZjWl90V2JCdS1kdXpaYzZmWmk4STBkLXQwazF1RW9YdER0cEdJRFBSMS1CYU9MMTlhWWIwZXppUGRrN2xnVGtVUS1GbjZkR1lYLUVaSmd3bURtTGkwdEhiZTdhTQ?oc=5",
+          "title": "芸能界「再出発」の秋 移籍や独立続々 今井翼が新会社設立、藤あや子もバーニング退所 - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZlVqUWRtZE8yU2ZPOVFYUXJINDNydFB6Q1NXSkJKWEk3X2dtOHZGbml1cVhYSjNzbGt2cFdKVTQyanNHa1FXODVRa05DdXY3Q1ZzMFFfUkdRZ1UySUFrdWxBUFZLcmNqa0NTVHNwX3h2R05TQ0lEODNUdEpkeDZqQVZkRDBhSzcyYl9MbExlXzh3ZVoxRHc?oc=5",
           "publishedAt": "2026-10-01T00:02:00Z"
         }
       ]
