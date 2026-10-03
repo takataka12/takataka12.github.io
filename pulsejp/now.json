@@ -1,8 +1,38 @@
 {
-  "generatedAt": "2026-10-02T20:44:54Z",
+  "generatedAt": "2026-10-03T00:30:13Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
+    {
+      "id": "e0a664496893cf",
+      "category": "economy",
+      "title": "日本とカザフ直行便就航へ 「エア・アスタナ」11月から週2往復、経済や観光で交流促進 - 産経ニュース",
+      "sourceCount": 3,
+      "latestPublishedAt": "2026-10-02T22:47:30Z",
+      "sources": [
+        {
+          "id": "505f5b4ec42d71",
+          "name": "産経ニュース",
+          "title": "日本とカザフ直行便就航へ 「エア・アスタナ」11月から週2往復、経済や観光で交流促進 - 産経ニュース",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlQ3JVaGwzMWxoaUJMaElxOXp1NElSNERkckV3VXhOMkdlV2tjRkFkV0ZHS0w2Um9HelBMYmFYUEtCbHpBMUFUX1hmQ1l1c3pJVFpzdnBhWVl3MFA4U2NkcGFTV2hESmtFYkhqVndKQmwzYWkybmc?oc=5",
+          "publishedAt": "2026-10-02T22:47:30Z"
+        },
+        {
+          "id": "bc993294b3a4a0",
+          "name": "ｄメニューニュース",
+          "title": "日本とカザフ直行便11月就航へ　週2往復、経済や観光で交流促す - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX0ZiZ0xyemNoTWdCajdFV2NqQXZOaWx6Z251YlFvai1RTDgwNktJbGdwb0lkWFczd0pwVWxtQU1tZUUtdHhNSXRRdkpNV0trNElIRkI1T1pQTjc2ZzR4QTh0VEhPM0FGZFhENzVrSjRDTDZBV2JuNWhYTEF1NklOSEhSZF9KMldYOEJWRGFn0gGTAUFVX3lxTE50a1Jhb1ROa0d6VHF1ZE1ncXdjRG9ERE1aSlU0YndFbmtFTHhmNW1rTFl5VWJndmhXcV95b0xYazRVSDY4UEZaN25PeVltSl8zSVA3SXBSWVA4WnhwVGtZSC1GeXZKaE5wUkVqZkwzNnlCSmV4NlN6N0ItTTd0N19iemFlREdWRVVURGRwVk9FWFZBTQ?oc=5",
+          "publishedAt": "2026-10-02T21:59:56Z"
+        },
+        {
+          "id": "9c56ae64c2b934",
+          "name": "Yahoo!ニュース",
+          "title": "日本とカザフ直行便11月就航へ 週2往復、経済や観光で交流促す（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80a05xYnR2VEFVVVpXT0NJemx2QjZ1UmtCUy1zNFNhTWdrZWNia3ZuY3JWVFQ3SVVRRlRTVnNKd2ZjNlFSZTJqbGpaNjg4WjI5SHdmdllVbXhNQ2lYc2xoWkRIRm1IMEdpdi1XVHg5NjRlWkJtWnM5YVhmVUxKZkk?oc=5",
+          "publishedAt": "2026-10-02T21:58:26Z"
+        }
+      ]
+    },
     {
       "id": "39e422710f4f2a",
       "category": "internet",
@@ -49,40 +79,40 @@
         },
         {
           "id": "d7993ce56c16b7",
-          "name": "Excite エキサイト",
-          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - Excite エキサイト",
+          "name": "excite.co.jp",
+          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - excite.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SWmtha0JjakVqbHFuSkNhRzJEUWRVNnBiQUF6Nm44SUJwMkstNFlLTjRqajdLaW1TcTk5bVBtRU5qenYzakF0UmdFUWV4U2p4SXhqQ2JGTk02SFQtZ2dEd0t3?oc=5",
           "publishedAt": "2026-10-02T01:00:00Z"
         },
         {
           "id": "b54aa3a21ebfd2",
-          "name": "インサイド",
-          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - インサイド",
+          "name": "inside-games.jp",
+          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - inside-games.jp",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzTmVXbTZ3TURqd1VjTFV2UEhXSkNHWDBjbVQ1YU9yYjJycmdVcXQxU3NBTG5rWlVncy03WDJPN0JxMVdaM2piZXQzdUY0cGpoOXl5Skl2TG5OLW42TVg3amE2TWRnMFNUN2lPbVdHbVozdw?oc=5",
           "publishedAt": "2026-10-02T01:00:00Z"
         }
       ]
     },
     {
-      "id": "1f15c8c05ce42b",
-      "category": "politics",
-      "title": "高市総理が自民党幹部と総理公邸で会食 臨時国会に向け結束確認 - TBS NEWS DIG",
+      "id": "193d91dacb2d6e",
+      "category": "economy",
+      "title": "来週の米主要企業決算 ペプシコ、デルタ航空 - 株探",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-02T13:56:22Z",
+      "latestPublishedAt": "2026-10-02T22:47:00Z",
       "sources": [
         {
-          "id": "45c9044d0f3bbf",
-          "name": "TBS NEWS DIG",
-          "title": "高市総理が自民党幹部と総理公邸で会食 臨時国会に向け結束確認 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4WXFxVGl6dUpWbzZlTU04Y2dDMGp3azNqRzU3eDUzQ2MzSU1JRlFreUJPZTdfcmxvVk0xQV9vWHRiSXlwNHhmQUhGYnU2aGpadjJMTFV5cw?oc=5",
-          "publishedAt": "2026-10-02T13:56:22Z"
+          "id": "c82ceb1722324e",
+          "name": "株探",
+          "title": "来週の米主要企業決算 ペプシコ、デルタ航空 - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wcXVmZ0Q3VFp2dTBhSU4tbHFCZ2pPYjNBVmFHRUlYemlvRUp5UnpsdThzUnZ5WERuYkk4X2NndEJhVU5pX2tXQnlZQWVDcnB6a1E?oc=5",
+          "publishedAt": "2026-10-02T22:47:00Z"
         },
         {
-          "id": "ff1078525b1d05",
-          "name": "Yahoo!ニュース",
-          "title": "高市総理が自民党幹部と総理公邸で会食 臨時国会に向け結束確認（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBsSXdOejZKVjhsYWk0UXNodjBaSnhXSld1dWJGWDZqSVNBc0xDeXhVY1dSajh5MHdBcElNYjVzNVNnX25jU0djLWQzOUFDVTJrUTdiRnIwdVhrT3M0bS1ZOElGM2JlMTdfV1lZMl9vcmZ1VHNtVW1lWXk4U2hFWFU?oc=5",
-          "publishedAt": "2026-10-02T13:55:22Z"
+          "id": "6a1f9fc0a25156",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の米主要企業決算 ペプシコ、デルタ航空 - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fX3h1X01KXzYxU0JlSzJnNTRJelVCYjVOWExWelZhTC0yQThqRWxrYTh5V0V4MGxiM3B4SDZmczR4Z0RNZTg2TA?oc=5",
+          "publishedAt": "2026-10-02T22:37:29Z"
         }
       ]
     },
@@ -133,29 +163,6 @@
       ]
     },
     {
-      "id": "87ec4827a34cce",
-      "category": "internet",
-      "title": "フェリシモ／御簾ポーチが話題／ＳＮＳで２万超の”いいね”（2026年10月1日号） - 日流ウェブ",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-02T05:49:06Z",
-      "sources": [
-        {
-          "id": "977f1276a29d71",
-          "name": "日流ウェブ",
-          "title": "フェリシモ／御簾ポーチが話題／ＳＮＳで２万超の”いいね”（2026年10月1日号） - 日流ウェブ",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9UMDFDRE5rUmt5aTFpQTgtZ3YxYkNOMGVJTktzRmVIdklhVUxCemx4ME5SM3BmRjRHOEtvRjBzNThpS18yQ0dJaGlQWFhoSWdlNmF1SV9zOA?oc=5",
-          "publishedAt": "2026-10-02T05:49:06Z"
-        },
-        {
-          "id": "bdab780bd650e6",
-          "name": "online.bci.co.jp",
-          "title": "フェリシモ、御簾ポーチが話題 SNSで2万超の”いいね” - online.bci.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zeXBDSHJXQnlJaEFHTURtcWxvcVJSVmtaRnBWa0VKMmljekIzNFZkRXJCQnhnbFIzb1V6YjlINFAwUXN3ZTBzSjhZLXF4SGZLXzdfNEdpRQ?oc=5",
-          "publishedAt": "2026-10-02T01:34:29Z"
-        }
-      ]
-    },
-    {
       "id": "2590c3204089f3",
       "category": "entertainment",
       "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
@@ -201,10 +208,49 @@
         },
         {
           "id": "3af021ad77f484",
-          "name": "ナタリー",
-          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
+          "name": "natalie.mu",
+          "title": "モナキが変わりすぎて話題、特におヨネ - natalie.mu",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
           "publishedAt": "2026-09-26T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c390748e940670",
+      "category": "entertainment",
+      "title": "福原遥結婚 芸能界から祝福相次ぐ - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T22:33:35Z",
+      "sources": [
+        {
+          "id": "4bd1c503722357",
+          "name": "Yahoo!ニュース",
+          "title": "福原遥結婚 芸能界から祝福相次ぐ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KXzRqWjBMRWNEQ0NsYktnTHpWa29GZndqTVV0Zk9vaHdla2szRnpjUWdzSmpKR0pWc3RfaF9fVWhqUVpSR01QUUYtUXQwckxQ?oc=5",
+          "publishedAt": "2026-10-02T22:33:35Z"
+        },
+        {
+          "id": "0bf40ba2ff7e36",
+          "name": "Yahoo!ニュース",
+          "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vQ2lJVjUxbXhrbmxEY0JZNzd5U2lmMVg4c1ZhS0lpcUxjWlRXZ0tJcVMyVmltS184SE9xVmlRTFhleVhseEh6M2NmTVBmLXQ2?oc=5",
+          "publishedAt": "2026-10-01T13:22:30Z"
+        }
+      ]
+    },
+    {
+      "id": "fc2b2e663677f8",
+      "category": "economy",
+      "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T21:45:00Z",
+      "sources": [
+        {
+          "id": "fdd08edef197e9",
+          "name": "ダイヤモンド・オンライン",
+          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ZZFVJWTZLWEhXR0kybnA0SHR4Tjh6WVhMMVdCV0lpMS1DWWtRanNSWlkzWUpEVmZBdjhrSnctT05YS3hubUhSeTlsVlLSAU9BVV95cUxOaHI0TE8zd1pXMko4U3NiLWFWWE9uNmRHWkZWTlpOQXBQR0pOdmhLNmFhTnJlUHZldWZ4cmRaOERSejJ2R1VIczRmcjJIVkx3?oc=5",
+          "publishedAt": "2026-10-02T21:45:00Z"
         }
       ]
     },
@@ -221,6 +267,38 @@
           "title": "いまの日本に「保守」はない 片山杜秀・慶大教授、迎合政治を憂う - 日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pVTdzZERkMUhsTlJ4MnU5UUF3RGFXUFY3V1plMExRSVJSODRBRlJ0NU0wMnFUaHNCYTdBS1ZMbWdRaFE3VTNFRGE3UnZqVmVkUGJmNkdDdGhQUGlyLVVsbS05b3k3YkE1cVh3cQ?oc=5",
           "publishedAt": "2026-10-02T20:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "45022a9935c986",
+      "category": "entertainment",
+      "title": "コント赤信号・小宮孝泰 芸能界引退を表明した伊東四朗も言及「引き際すてき」 - デイリースポーツ",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T19:00:00Z",
+      "sources": [
+        {
+          "id": "292de833867145",
+          "name": "デイリースポーツ",
+          "title": "コント赤信号・小宮孝泰 芸能界引退を表明した伊東四朗も言及「引き際すてき」 - デイリースポーツ",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16Smpaazljak13TWpmWVROdDhoUmRJM0o0UnlMOWY4dWd0RHp3NGNwbWkzejU4aWRIeWRlVVJEaTNjdjZ5ZVF5SkhtUjdyVEFaSEwyUmE4RUVxYUhvYUZlUzh5djN6aHNhVkE?oc=5",
+          "publishedAt": "2026-10-02T19:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ba33b988f9a3e4",
+      "category": "entertainment",
+      "title": "福原遥＆久保建英が結婚 芸能界から祝福の声 柳ゆり菜「おめでとう」 - Infoseek",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T12:32:00Z",
+      "sources": [
+        {
+          "id": "f5f1c29b06d97a",
+          "name": "Infoseek",
+          "title": "福原遥＆久保建英が結婚 芸能界から祝福の声 柳ゆり菜「おめでとう」 - Infoseek",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CN0tkVFVYWXdpSmhvYjBLbXRxTDZJVlJ1TU1ITHUtdHhXbS1ZUmRLTnRfSkIwbUR0OUpRZlVyR3RfS3loaC1abUhVU1FMY19TTC1GTmJfeno3MFdya0dn?oc=5",
+          "publishedAt": "2026-10-02T12:32:00Z"
         }
       ]
     },
@@ -291,32 +369,32 @@
     {
       "id": "65e68c4521defb",
       "category": "politics",
-      "title": "日本とカタール、エネ協力強化 ホルムズ安全確保で一致:政治 - 福島民友新聞社",
+      "title": "日本とカタール、エネ協力強化 ホルムズ安全確保で一致:政治 - minyu-net.com",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-02T08:32:00Z",
       "sources": [
         {
           "id": "643eff3e260def",
-          "name": "福島民友新聞社",
-          "title": "日本とカタール、エネ協力強化 ホルムズ安全確保で一致:政治 - 福島民友新聞社",
+          "name": "minyu-net.com",
+          "title": "日本とカタール、エネ協力強化 ホルムズ安全確保で一致:政治 - minyu-net.com",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xVl9BcmF1SHpWNFlNRXFXVFlWT2VGd2l1TjJKajEzVHc0ZmtQNlFkSW5pOTFyQ0MwRjB5VklRamdFS0VENk9KY0pMTEhxaUpmQU90d2pUMWxsVF9Jb1ZZeXRPSVNSZ3o4VFE?oc=5",
           "publishedAt": "2026-10-02T08:32:00Z"
         }
       ]
     },
     {
-      "id": "94554c7095e415",
-      "category": "economy",
-      "title": "日本、オセアニア時間の主な経済指標・2日(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
+      "id": "bdc50132f700af",
+      "category": "internet",
+      "title": "「jouetie(ジュエティ)」SNSで話題のモデル「Miina」さんが新宿ルミネエスト店に登場！11月1日(日)来店イベント開催決定 - PR TIMES",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T04:51:03Z",
+      "latestPublishedAt": "2026-10-02T03:07:30Z",
       "sources": [
         {
-          "id": "f7edd85fca1a7c",
-          "name": "Yahoo!ファイナンス",
-          "title": "日本、オセアニア時間の主な経済指標・2日(トレーダーズ・ウェブ) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNS0VkWDJ3WG9mSnQzTkVqWFVjeThUVlhzZlNGTXZhMW9oYjRuNV9vNmZMSnRwWUY4N3p5OXd1R290dERaLVg3ZDB1cXZ4bTZmT0o2X1Zxd1NfRWNYdld6NVhfYkl5RTdsVVlYSjZjY1VxVW9xSlFiRTdNeGZjYzJyQ0JWSk5HSWs?oc=5",
-          "publishedAt": "2026-10-02T04:51:03Z"
+          "id": "8c4e96c4efa21e",
+          "name": "PR TIMES",
+          "title": "「jouetie(ジュエティ)」SNSで話題のモデル「Miina」さんが新宿ルミネエスト店に登場！11月1日(日)来店イベント開催決定 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUbmFpcmpqR2xRQW9uNUVtdTlSM18zU2p2NEFibHBrazcwUUFKY2NfNVhlMVZEdUdTUC0wcWc1MTVfeDcyS0tBS0dmQXU1aG9OYVppUXRyU2czUW4zeDNvcmhWOXd5RkRWM2c?oc=5",
+          "publishedAt": "2026-10-02T03:07:30Z"
         }
       ]
     },
@@ -353,121 +431,50 @@
       ]
     },
     {
-      "id": "c9cbb1478671e6",
-      "category": "entertainment",
-      "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
+      "id": "aea9fede931405",
+      "category": "economy",
+      "title": "バブル崩壊、就職氷河期、デフレ…日本の“失われた30年”と同じ道をたどる「中国」景気悪化の実態 「朝定食100円」「若者の失業率18・9％」の怒りは習近平国家主席に向くか（デイリー新潮） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T13:22:30Z",
+      "latestPublishedAt": "2026-10-01T21:03:37Z",
       "sources": [
         {
-          "id": "b348824a5feed8",
+          "id": "db83ac29d91ee1",
           "name": "Yahoo!ニュース",
-          "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vQ2lJVjUxbXhrbmxEY0JZNzd5U2lmMVg4c1ZhS0lpcUxjWlRXZ0tJcVMyVmltS184SE9xVmlRTFhleVhseEh6M2NmTVBmLXQ2?oc=5",
-          "publishedAt": "2026-10-01T13:22:30Z"
+          "title": "バブル崩壊、就職氷河期、デフレ…日本の“失われた30年”と同じ道をたどる「中国」景気悪化の実態 「朝定食100円」「若者の失業率18・9％」の怒りは習近平国家主席に向くか（デイリー新潮） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtM3FsbFdYVUZDc2x4ZHY3TXZzN2tZeEtHVlFCODUyWDh2dmNLTndtNExNeU5tUXgyTjJfQmtQc3NFelF0dm5aejlPLUZMTGFmNVl2b2xQdlVYMms0YmVBbkJLOUNGVDFjcTdnYjIwMzNiVnZCU3RpZ21UcndzNE0?oc=5",
+          "publishedAt": "2026-10-01T21:03:37Z"
         }
       ]
     },
     {
-      "id": "b78b59d10f7126",
-      "category": "entertainment",
-      "title": "伊東四朗さん（89）芸能活動引退へ 来年90歳 舞台に立つ思い - テレ朝NEWS",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T11:36:43Z",
-      "sources": [
-        {
-          "id": "59cec7ff98f2b6",
-          "name": "テレ朝NEWS",
-          "title": "伊東四朗さん（89）芸能活動引退へ 来年90歳 舞台に立つ思い - テレ朝NEWS",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqdl9DY3RHalhOQk5tOHEtQWhqOE5reWNGcUxWOXJSdklXSTFmdWZuLWs1bDZKc2VVV0REYTNCcFQ1UFpRY2ZFSDNfRERId2M4OXlic1Q5My1MM1FHMWdUNU1Rb19wOUFrOENKUkZfOV8?oc=5",
-          "publishedAt": "2026-10-01T11:36:43Z"
-        }
-      ]
-    },
-    {
-      "id": "ea45c6097f3dd8",
-      "category": "entertainment",
-      "title": "【10月1日】芸能界、活動進退報告相次ぐ 引退、所属、独立… 『VIVANT』出演俳優も複数発表 - オリコンニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T11:32:00Z",
-      "sources": [
-        {
-          "id": "de4e1bba056bc3",
-          "name": "オリコンニュース",
-          "title": "【10月1日】芸能界、活動進退報告相次ぐ 引退、所属、独立… 『VIVANT』出演俳優も複数発表 - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wS0FZenIyZTZGOTkzaXh5NmN4QTJKSjRQWnNWSDlFNXNKSTJRQ0JJWDJrZ3BOR3JIUnRLdkVfRHlsbnl0aDBsdVQxbmZNTElpRDUwRGhR?oc=5",
-          "publishedAt": "2026-10-01T11:32:00Z"
-        }
-      ]
-    },
-    {
-      "id": "689a0a9e08f391",
+      "id": "bee12b0eb423b0",
       "category": "politics",
-      "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ（共同通信） - Yahoo!ニュース",
+      "title": "上板町と日本生命、地域活性化へ協定 - 徳島新聞デジタル",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T10:13:39Z",
+      "latestPublishedAt": "2026-10-01T20:00:00Z",
       "sources": [
         {
-          "id": "f69964b56c772f",
-          "name": "Yahoo!ニュース",
-          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ（共同通信） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uU3l5bElaZ2ZndEV0Mm1uSFFKWFE1OG5VVWhrelBtU0JNNkl5WG9iWmgyczZNR1ppcmJtWjVhRVY2ZXRnbFdZcUllMHYxOWFXa2NxdHRxNFhxcWVGZUUtbFhldFFUWHhQVlpjLXhJYU5VVXlJWkRRWnBGWi1JeFU?oc=5",
-          "publishedAt": "2026-10-01T10:13:39Z"
-        },
-        {
-          "id": "88da748a90e314",
-          "name": "Yahoo!ニュース",
-          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ (共同通信) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRXV1TEVfUWpzUUdSaTBubkFPZG1BMTJ0cmlYOUhlSmx2X0tBUTRJRXFDQXdMSVB3VkUxcmxac3lEYnlZM2I2QlBMY056amNVdlBaamxQRmVHWjR3SzRsUlFjWmVCa01oNVJoSzFOTm5rVnlIOTJrLTRlTy1JWjg1LTFzODhNVThSWEhHWUhR?oc=5",
-          "publishedAt": "2026-10-01T10:13:39Z"
+          "id": "dfb5c22b734f0f",
+          "name": "徳島新聞デジタル",
+          "title": "上板町と日本生命、地域活性化へ協定 - 徳島新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03WjR2akw4Qi01VC0taVczYU9ldWRkNEJIWk5BalRUb2NOSWtpbTgtUEtVRkhDaUR0NWN6QmN2amwzeGZ0eFVVdEltc1hSRE14V0RLUTdR?oc=5",
+          "publishedAt": "2026-10-01T20:00:00Z"
         }
       ]
     },
     {
-      "id": "54bfa8e346566d",
-      "category": "entertainment",
-      "title": "【記事全文】芸能界で体調不良続出 山里亮太も 市川團十郎や山崎一、TOBEタレントや芸人の休養相次ぐ - スポニチ Sponichi Annex",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T01:46:00Z",
-      "sources": [
-        {
-          "id": "cd2ce4292e2887",
-          "name": "スポニチ Sponichi Annex",
-          "title": "【記事全文】芸能界で体調不良続出 山里亮太も 市川團十郎や山崎一、TOBEタレントや芸人の休養相次ぐ - スポニチ Sponichi Annex",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVVhiS2k5S2owZnJvTFZ3Z1YtbElidTNsME1RZ1czandoMFNkclhUMTlpczNwbFFBeWpGWDV0WGViMERZcnR5NEl3bFlpTWY3c3FtT0pOeGU3aEVNdU9QMHUyY3NaenZ1M1ZYNUVzY2t1NnhibzUxWEJZdjhmOGM5NDN2T2k5MVB4VlpRS243QTJ1ZnJxUTJha2NZMA?oc=5",
-          "publishedAt": "2026-10-01T01:46:00Z"
-        }
-      ]
-    },
-    {
-      "id": "e45f1380c1414f",
+      "id": "3026a24647327c",
       "category": "politics",
-      "title": "歴史的転換点に立つ日本政治 行方を見極めるカギは「人事と日程」 - 朝日新聞",
+      "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - 日テレNEWS NNN",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T01:00:00Z",
+      "latestPublishedAt": "2026-10-01T12:21:00Z",
       "sources": [
         {
-          "id": "d1dfdd20f759f6",
-          "name": "朝日新聞",
-          "title": "歴史的転換点に立つ日本政治 行方を見極めるカギは「人事と日程」 - 朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrbHlCbjJINUZXd3VIbC10dDJBT0NTWHk3dE5iM0VTUEVrME9KQmpMUUozTFM2c3F0dU85TEVoOHJ1TGhwNkY2aG9JRjNwWFVheHo3aWpZVTFzM1Rfa2wwOGNILUc2RFU?oc=5",
-          "publishedAt": "2026-10-01T01:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "d687d54d9f6100",
-      "category": "entertainment",
-      "title": "渡辺直美(38)喜びの報告「本当にすごくうれしいです」芸能界やファンから祝福の声「直美ちゃんおめでとうございます！」 - ABEMA",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T00:01:24Z",
-      "sources": [
-        {
-          "id": "bc34eaa0ee51ae",
-          "name": "ABEMA",
-          "title": "渡辺直美(38)喜びの報告「本当にすごくうれしいです」芸能界やファンから祝福の声「直美ちゃんおめでとうございます！」 - ABEMA",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VMnFSQnhPLWxNdS1GYXk0elQ2ZWNJVGMxNEtNWm51RnN5cFZTeGY5YkthY0FQTjdiY3B1ZFJnTUdYbkg5dW5vM0Izb2NBRGEzRVVfRGpzNjE5N2Z3?oc=5",
-          "publishedAt": "2026-10-01T00:01:24Z"
+          "id": "c91847a38bb408",
+          "name": "日テレNEWS NNN",
+          "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - 日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPbHd0T2hmNGhaNW5ndk1nNll1Z21LNndtSWFwUlhQWGZfZllob2J0Vlg5Z2w5SHVnU0l3dHNLUzRzTk00SDk2NjY4d244ZUdxMWg5TUUzMElrUUt1d2l5VkZqRjhjeWVrQ3psemp4TVdWQkZCVEtzUWo3d2pwQ0dTWA?oc=5",
+          "publishedAt": "2026-10-01T12:21:00Z"
         }
       ]
     }
