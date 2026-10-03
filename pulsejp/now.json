@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T12:33:42Z",
+  "generatedAt": "2026-10-03T17:16:44Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
@@ -7,7 +7,7 @@
       "id": "7701e2ca2241b4",
       "category": "politics",
       "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "sourceCount": 2,
+      "sourceCount": 3,
       "latestPublishedAt": "2026-10-03T09:00:34Z",
       "sources": [
         {
@@ -23,29 +23,59 @@
           "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1aUNpZmJsMFhMQnpHcThaaDJNamJqWE5oMkVId2VLSnljSThodlFiQTdQUkU3bmVOT09sY0JuQjVzYTU2eUlPTlJ5TXZJcXJhN3owVUJFTzlSUG1qQy1KNHVnTjdBaEd2N0hiU0pnc1IwM180?oc=5",
           "publishedAt": "2026-10-03T09:00:00Z"
+        },
+        {
+          "id": "7599040c8b963a",
+          "name": "ｄメニューニュース",
+          "title": "片山財務大臣を単独直撃　円安・金融政策「政府内で統一が図られている」　消費減税めぐり便乗値上げは「週明けにも対策」【news23】 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9JRmlSLUZuVmlDQ0JqcFAyXzZzeWdXZDdUNkhqT01JMkNPZHBnemlmX2hxSHlBTm1MdFBUZmJkOGdGdmpVMFdZSmY2NTdYN1kwYVM0Ty1ETlpxNjlacmVXYS1uQk9IcURBUU1WVUVGVm1IUEo2YmZYMFJOONIBd0FVX3lxTE5pc09uWXoxcTNFem0ydHZUeS1reVF3Z1M4Ukp2eVYxZE5Vb1FJV2tySlU0MmpXQVNJN21UcGZqRy12Vl95RFBkS0ZMTmtKdV8zcEYzckpWTEE2MDlNdUFIUTV2aWlKc0FuNmVDSGZnS0Fud2ExaUIw?oc=5",
+          "publishedAt": "2026-10-03T09:00:00Z"
         }
       ]
     },
     {
-      "id": "1aaa73fc48dc13",
-      "category": "politics",
-      "title": "来週から臨時国会 消費減税などで論戦 高齢者医療費窓口負担引き上げも焦点に - テレ朝NEWS",
+      "id": "ce4ad5d19dc9b6",
+      "category": "economy",
+      "title": "金メダルの日本 アジア大会 - 江戸川経済新聞",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-03T02:04:03Z",
+      "latestPublishedAt": "2026-10-03T15:30:51Z",
       "sources": [
         {
-          "id": "3a9c473e7a32b5",
-          "name": "テレ朝NEWS",
-          "title": "来週から臨時国会 消費減税などで論戦 高齢者医療費窓口負担引き上げも焦点に - テレ朝NEWS",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhNFhxbzdXQ3VGMGxJVHlET2FMZnlIVUxPY1hpbFZQaTdtMUhPdVpKMkRhQzdIS2o0MHpnNFh2LWtmWEFsWlVha3JYLUtNcnc4Uy1vR3VzQ081QmtmODVvTVc1b1lrUTRWcTUyRHdQSUtnU1E?oc=5",
-          "publishedAt": "2026-10-03T02:04:03Z"
+          "id": "bab69982607065",
+          "name": "江戸川経済新聞",
+          "title": "金メダルの日本 アジア大会 - 江戸川経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1QUXlfRWZvU3p4bzltbHEta2tUckJVcTF1XzZXcU1wYXZhN1N0c0VJZmhVTWpieHRfa0xJcW9uMU9XdFRHU21aTTU0NjMyWmNwQmFreg?oc=5",
+          "publishedAt": "2026-10-03T15:30:51Z"
         },
         {
-          "id": "85083c62f6d001",
+          "id": "39efa69e10e7db",
+          "name": "春日部経済新聞",
+          "title": "金メダルの日本 アジア大会 - 春日部経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PVEFYZVl3dktpenl1MWgxVEl2Sng0Y3NVMGUyWTQ5bC01RmlxRUZwS0xobEh0dHZoTjI3a3YtdFBISzVTLVEzWk02OTlhUi1fMEZHZHBn?oc=5",
+          "publishedAt": "2026-10-03T15:00:06Z"
+        }
+      ]
+    },
+    {
+      "id": "e5cd576316c1d3",
+      "category": "entertainment",
+      "title": "来年で芸能活動引退の伊東四朗（89）が表明後初の取材対応「撤回しようかな」 - khb東日本放送",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-03T11:06:53Z",
+      "sources": [
+        {
+          "id": "00adce5560abe9",
           "name": "khb東日本放送",
-          "title": "来週から臨時国会 消費減税などで論戦 高齢者医療費窓口負担引き上げも焦点に - khb東日本放送",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsTmxFX1RLQXJtdmI0VDgyeDZxWF9qREZ1QkVNSEs5aHZhSGdjSE41eWRXTVBwcXAxWVo2LVVNdExGSUtzU0pNSEF1aVA5eFE?oc=5",
-          "publishedAt": "2026-10-03T02:04:03Z"
+          "title": "来年で芸能活動引退の伊東四朗（89）が表明後初の取材対応「撤回しようかな」 - khb東日本放送",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBpWFN0TjRTV1hQbEVjTkROWkVITjIxN2dyMTdBOGxRQmt1QXk4dTFCNUF6YVVqRzZqTVlhYW0xS1NEaV9ZdHFaT3pDTk5EWEk?oc=5",
+          "publishedAt": "2026-10-03T11:06:53Z"
+        },
+        {
+          "id": "dbf2433eb8a41a",
+          "name": "テレ朝NEWS",
+          "title": "来年で芸能活動引退の伊東四朗（89）が表明後初の取材対応「撤回しようかな」 - テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBtaDJRaWVqWHlVdFphRVpTd2tmd3JGb3RTN3ROMU94RjR1VkhRN1NIT1YzUDlEYnAzNktWUnRhNmI2d1RFZmZNVTlLYld0TjJDUmpZR29fU1Q1czZXOTBSVXllVnczenFEeVdXel9Kd3o?oc=5",
+          "publishedAt": "2026-10-03T11:06:53Z"
         }
       ]
     },
@@ -64,10 +94,10 @@
           "publishedAt": "2026-10-02T22:47:30Z"
         },
         {
-          "id": "bed2d6d9ced354",
-          "name": "沖縄タイムス社",
-          "title": "日本とカザフ直行便１１月就航へ 週２往復、経済や観光で交流促す - 沖縄タイムス社",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qdUpRTnJwREI3aE9KLXduT2JOWGMyc3RmWk10b04wNk05aXZ0b3RPZjNDS2ppX09GQzBQYWYyZHhXV3JfUFptOFNBaHF4V21WZG5LSXk3ekg5SGtXNHc?oc=5",
+          "id": "e866ea36e756a2",
+          "name": "Yahoo!ニュース",
+          "title": "日本とカザフ直行便11月就航へ 週2往復、経済や観光で交流促す（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80a05xYnR2VEFVVVpXT0NJemx2QjZ1UmtCUy1zNFNhTWdrZWNia3ZuY3JWVFQ3SVVRRlRTVnNKd2ZjNlFSZTJqbGpaNjg4WjI5SHdmdllVbXhNQ2lYc2xoWkRIRm1IMEdpdi1XVHg5NjRlWkJtWnM5YVhmVUxKZkk?oc=5",
           "publishedAt": "2026-10-02T21:55:38Z"
         }
       ]
@@ -92,6 +122,13 @@
           "title": "来週の米主要企業決算 ペプシコ、デルタ航空 - みんかぶ FX/為替",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fX3h1X01KXzYxU0JlSzJnNTRJelVCYjVOWExWelZhTC0yQThqRWxrYTh5V0V4MGxiM3B4SDZmczR4Z0RNZTg2TA?oc=5",
           "publishedAt": "2026-10-02T22:37:29Z"
+        },
+        {
+          "id": "f0df392820a380",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の欧州主要企業決算 なし - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1tc2w5cHh3THJ1dGR4SF9rX1NYRy1vQ1pfYXVhcVZaU2RFWHJSWnV4Si1mZms5a2pzN2xjMjFsMXJXbldtMGd6ZQ?oc=5",
+          "publishedAt": "2026-10-02T22:36:29Z"
         }
       ]
     },
@@ -195,6 +232,29 @@
       ]
     },
     {
+      "id": "1f256ad39b5a90",
+      "category": "entertainment",
+      "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-26T07:01:11Z",
+      "sources": [
+        {
+          "id": "bbbe73ed1abfda",
+          "name": "Yahoo!ニュース",
+          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
+          "publishedAt": "2026-09-26T07:01:11Z"
+        },
+        {
+          "id": "3af021ad77f484",
+          "name": "ナタリー",
+          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
+          "publishedAt": "2026-09-26T07:00:00Z"
+        }
+      ]
+    },
+    {
       "id": "344f470273c732",
       "category": "internet",
       "title": "「箱で買いたい」「全然見つかりません」セブンの『SNSで話題の絶品アイス』3選。どれもやみつきになるおいしさです！ - Yahoo!ニュース",
@@ -213,54 +273,54 @@
     {
       "id": "7c2b787e4fa6a3",
       "category": "internet",
-      "title": "SNSで話題の“カスタム韓国ランプ”を自分好みに。 体験型SHOP「Questions.」新大久保にNEW OPEN！ - PR TIMES",
+      "title": "SNSで話題の“カスタム韓国ランプ”を自分好みに。体験型SHOP「Questions.」新大久保にNEW OPEN！ - PR TIMES",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-03T09:20:37Z",
       "sources": [
         {
           "id": "685c1fe8ed3902",
           "name": "PR TIMES",
-          "title": "SNSで話題の“カスタム韓国ランプ”を自分好みに。 体験型SHOP「Questions.」新大久保にNEW OPEN！ - PR TIMES",
+          "title": "SNSで話題の“カスタム韓国ランプ”を自分好みに。体験型SHOP「Questions.」新大久保にNEW OPEN！ - PR TIMES",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MeGdnTnd4MUFiaTAwNzhDbVE5THNMWjM5YW12N25mZ3A4eHZKaGdVZG45TkN6dm56RU43UllGWGtiZVc5VnR6bmtESnp4UDltVWx3eDQzRUpOV0JkNTF6eEk4X2lvSDN1M3c?oc=5",
           "publishedAt": "2026-10-03T09:20:37Z"
         }
       ]
     },
     {
-      "id": "9d25d35a3feb54",
-      "category": "economy",
-      "title": "中国による日本への「レアアース輸出制限」で広まった懸念…経済キーワード「Economic Coercion」とは - ニューズウィーク日本版",
+      "id": "c8489cda40036e",
+      "category": "internet",
+      "title": "セブンの『絶品アイス』がやみつきになる美味しさ！SNSでも話題の「あんづつみ」など、3つご紹介！《実食レビュー》【画像】 - BuzzFeed",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-03T04:10:00Z",
+      "latestPublishedAt": "2026-10-03T09:01:02Z",
       "sources": [
         {
-          "id": "a4a93662eac457",
-          "name": "ニューズウィーク日本版",
-          "title": "中国による日本への「レアアース輸出制限」で広まった懸念…経済キーワード「Economic Coercion」とは - ニューズウィーク日本版",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRdVVsUFBFbkdKSVV5MHZVNjRuWTU4UlB4NkV5dzJnVEJLQWtLWlFHZ1BxRDRNY0k4SGlDb0pCdnN5MWdzNzh1cVVvd0llczhaWmpZYmxzS3NYZw?oc=5",
-          "publishedAt": "2026-10-03T04:10:00Z"
+          "id": "2d673b1da04532",
+          "name": "BuzzFeed",
+          "title": "セブンの『絶品アイス』がやみつきになる美味しさ！SNSでも話題の「あんづつみ」など、3つご紹介！《実食レビュー》【画像】 - BuzzFeed",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmQVdQRDJuVTFucmxoel8ycUFUWkxKY180Q2lta1hHeEtFNmJVdWZxSUpJSkMzbTJXdmdsdmJUYktlSE9kaGZkZTVLUng2R0FjYXQtZVYySkJIckItWDVpNGlkNHQtMEkxWHpULUQ3LU5lcTJadkwxUA?oc=5",
+          "publishedAt": "2026-10-03T09:01:02Z"
         }
       ]
     },
     {
-      "id": "654bc63ae9cd64",
+      "id": "b060c560ee224d",
       "category": "internet",
-      "title": "「ブラッサム」史実は？清治役話題の渡部篤郎“あさイチの法則”発動か「早くない？」ネット注目10・9（スポニチアネックス） - Yahoo!ニュース",
+      "title": "「ブラッサム」史実は？清治役話題の渡部篤郎“あさイチの法則”発動か「早くない？」ネット注目10・9 (スポニチアネックス) - Yahoo!ニュース",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-02T23:15:00Z",
       "sources": [
         {
-          "id": "fe5ccb6f539c62",
-          "name": "Yahoo!ニュース",
-          "title": "「ブラッサム」史実は？清治役話題の渡部篤郎“あさイチの法則”発動か「早くない？」ネット注目10・9（スポニチアネックス） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Bd2Q5cWxQbFA2cDNsYXFNMnFlWi1MXzdUM0VmRjZ2NlZyQXhrU19hN3NhRU9BY1BkT0lmWDZpaHZSS19SdGs3bXUyUC01U0NBd08xbHN2SDVCWjkzUEZ1cDY3MWNwUFNva1ZnUEdRRUxoLXNPQVFOcXZyYWVqNW8?oc=5",
-          "publishedAt": "2026-10-02T23:15:00Z"
-        },
-        {
-          "id": "3880fb0c2284ef",
+          "id": "d7ae518b9d72d5",
           "name": "Yahoo!ニュース",
           "title": "「ブラッサム」史実は？清治役話題の渡部篤郎“あさイチの法則”発動か「早くない？」ネット注目10・9 (スポニチアネックス) - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRmt0MC1BY3VvR0J2QTZzRmFDcnFFWk9PV0lzdi1GZC0yamF2SzB0QWdBaW9GUkRKSGdXeURpbnNmcXh1b0pFRTF2bE1XTHdtazhjQlFzOEE2Ymk1aC04c2p2QTBKalNqZEVqU2dUeWdHMEJmSE1rVUFtQl9yUDFTd21zcnZRcE11Q1VFOE5n?oc=5",
+          "publishedAt": "2026-10-02T23:15:00Z"
+        },
+        {
+          "id": "f7eb725db546c1",
+          "name": "Yahoo!ニュース",
+          "title": "「ブラッサム」史実は？清治役話題の渡部篤郎“あさイチの法則”発動か「早くない？」ネット注目10・9（スポニチアネックス） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Bd2Q5cWxQbFA2cDNsYXFNMnFlWi1MXzdUM0VmRjZ2NlZyQXhrU19hN3NhRU9BY1BkT0lmWDZpaHZSS19SdGs3bXUyUC01U0NBd08xbHN2SDVCWjkzUEZ1cDY3MWNwUFNva1ZnUEdRRUxoLXNPQVFOcXZyYWVqNW8?oc=5",
           "publishedAt": "2026-10-02T23:15:00Z"
         }
       ]
@@ -344,22 +404,6 @@
       ]
     },
     {
-      "id": "2f4fa904df9c0e",
-      "category": "entertainment",
-      "title": "「政権がピンチになると芸能スキャンダルが出る」は本当？元自民党幹事長・石原伸晃が“都市伝説”にまさかの回答 - ABCマガジン",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T21:04:33Z",
-      "sources": [
-        {
-          "id": "343c59ae847717",
-          "name": "ABCマガジン",
-          "title": "「政権がピンチになると芸能スキャンダルが出る」は本当？元自民党幹事長・石原伸晃が“都市伝説”にまさかの回答 - ABCマガジン",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4ZENTbUp2NjBZVUhWYld4Y3pHRDE5YWhQVXhNYVJSVmI0SmVzUWl5U2FmZE1zSDU0Ty01QkJXQ0FNY1VNdWRiYjZVUkJhU3NlMllRdEZvWQ?oc=5",
-          "publishedAt": "2026-10-02T21:04:33Z"
-        }
-      ]
-    },
-    {
       "id": "d37580087508bd",
       "category": "politics",
       "title": "いまの日本に「保守」はない 片山杜秀・慶大教授、迎合政治を憂う - 日本経済新聞",
@@ -376,50 +420,34 @@
       ]
     },
     {
-      "id": "88008c197386cb",
-      "category": "economy",
-      "title": "「370兆円投資」だけで日本は成長しない、高市改造内閣は農業・医療・雇用に残る“規制の壁”を崩せるか - ダイヤモンド・オンライン",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T19:55:00Z",
-      "sources": [
-        {
-          "id": "1c8faf14352330",
-          "name": "ダイヤモンド・オンライン",
-          "title": "「370兆円投資」だけで日本は成長しない、高市改造内閣は農業・医療・雇用に残る“規制の壁”を崩せるか - ダイヤモンド・オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1aZEo3VkVhUlJsaGhJVWQ4bFRRcDNURnozY0UxazdTcm1pTEV4UHEta1pSNWV6dHVlb0RsTV9iVDAwM2Vyd25vUVg1bDnSAU9BVV95cUxPRHFLR29SRVhyTndUQ3FRM3NNa1gxQWhKSXVMRUR1d01aOTR1cTFVcGZvaFZEYTRKTng0ckxoblNNUEc4dFdPd1k0bkt0cnhN?oc=5",
-          "publishedAt": "2026-10-02T19:55:00Z"
-        }
-      ]
-    },
-    {
-      "id": "4566394a3da802",
+      "id": "770a4f9cb9382c",
       "category": "entertainment",
-      "title": "10/3・4は八王子がアツい！音楽・グルメ・伝統芸能を楽しむ週末イベント8選 - 八王子ジャーニー",
+      "title": "「国民的美少女」GPから36年、長年芸能活動休止…〝47歳最新ショット〟小田茜に反響「本当に昔から変わらない」「嬉しい限りです」：「おっ！」でつながる地元密着のスポーツ応援メディア 西スポWEB OTTO! - 西スポWEB OTTO!",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T14:00:22Z",
+      "latestPublishedAt": "2026-10-02T11:40:00Z",
       "sources": [
         {
-          "id": "dc0ab493f1f5d2",
-          "name": "八王子ジャーニー",
-          "title": "10/3・4は八王子がアツい！音楽・グルメ・伝統芸能を楽しむ週末イベント8選 - 八王子ジャーニー",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBud2FqN0tKdy01WlJsTEZFYko2VDdtd3BBUElyb1FWYjctUkVaVlYxUFZSS21fMHgzUFMwdDZNVEJtMGktc2RfbzZJaDROZjJuUDJxUTNrdWVQMFk3emc?oc=5",
-          "publishedAt": "2026-10-02T14:00:22Z"
+          "id": "251bab212940b4",
+          "name": "西スポWEB OTTO!",
+          "title": "「国民的美少女」GPから36年、長年芸能活動休止…〝47歳最新ショット〟小田茜に反響「本当に昔から変わらない」「嬉しい限りです」：「おっ！」でつながる地元密着のスポーツ応援メディア 西スポWEB OTTO! - 西スポWEB OTTO!",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56Nmk1aFNUemZJaDl6a19qMnlkTFk2LWpKUHRfNzJNbmUyZnFrNkhTSzdhVU9IenlZYWhEX3Y2TFVEX3R1SGdUQmNLZ3ZLc0d0c2VVLVpZaGJfNDBvYkVj?oc=5",
+          "publishedAt": "2026-10-02T11:40:00Z"
         }
       ]
     },
     {
-      "id": "ef3e691ca4bf96",
+      "id": "298220b433128e",
       "category": "economy",
-      "title": "日本政府、ロシアに追加制裁 - 和歌山経済新聞",
+      "title": "日本政府、ロシアに追加制裁 - 近江八幡経済新聞",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T13:03:33Z",
+      "latestPublishedAt": "2026-10-02T11:19:46Z",
       "sources": [
         {
-          "id": "3557810daf162e",
-          "name": "和歌山経済新聞",
-          "title": "日本政府、ロシアに追加制裁 - 和歌山経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85OGs5VnBRelFpc01pZGxYTlYxbXJGVmM0MlUyTHFDSFNSV0MtczZTS2VtaUR4ejFZTzE2OEpaN3ZVb2tlSThCbXJ2MG82bUYxSmRUT29B?oc=5",
-          "publishedAt": "2026-10-02T13:03:33Z"
+          "id": "d82c20ef8a4bec",
+          "name": "近江八幡経済新聞",
+          "title": "日本政府、ロシアに追加制裁 - 近江八幡経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83T3NyemktOWJSTzBscC1DbXdaMDNrczRvSThtbGNaMUg0cXlyMGR3akZ0MnQtdjFNeFpQQ19QY0sxVWxqV05ueU1ycHliMWMxdTA0OEhEbXBzQQ?oc=5",
+          "publishedAt": "2026-10-02T11:19:46Z"
         }
       ]
     },
@@ -458,14 +486,14 @@
     {
       "id": "89957b71882893",
       "category": "politics",
-      "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - news.ntv.co.jp",
+      "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - 日テレNEWS NNN",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-01T12:21:00Z",
       "sources": [
         {
           "id": "07c27652a53e3b",
-          "name": "news.ntv.co.jp",
-          "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - news.ntv.co.jp",
+          "name": "日テレNEWS NNN",
+          "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - 日テレNEWS NNN",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYzBGdFJENmNvVHV5R3lwbnJhZnNDWHVLWUVVV2s0VFFwZktxQ1J3OG5URlRSUUkyeUljRjl6NlZ0aUg2QmVjcDJhYTYteWMzUk16amFzNUw5X2c5QU54OHJDLTlyRkwtZnN6cDNVY081alFneXl4ZFVPcGNSdXcxV1VlRVRsV3NI?oc=5",
           "publishedAt": "2026-10-01T12:21:00Z"
         }
