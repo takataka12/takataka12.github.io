@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-10-02T16:24:22Z",
+  "generatedAt": "2026-10-03T00:50:04Z",
   "edition": "朝刊",
   "headline": "3分で今日を把握",
-  "overview": "統一地方選の日程案や日本政府のロシア追加制裁、株価と原油を巡る懸念などが報じられています。芸能・ネットでは福原遥さんと久保建英選手の結婚報道、SNSで話題の商品やスポーツ中継が注目されています。",
+  "overview": "日本とカザフスタンの直行便就航、統一地方選の日程法案提出方針などが報じられています。芸能・SNSでは福原遥さんをめぐる結婚報道や、スポーツ中継への反応が話題になっていますが、見出しだけでは詳細を確認できない情報もあります。",
   "isSample": false,
   "topics": [
     {
       "id": "entertainment-godzilla-gigo",
       "category": "entertainment",
-      "title": "『ゴジラ-0.0』のGiGO限定景品が登場",
-      "whatHappened": "新作映画『ゴジラ-0.0』に関連するGiGO限定景品が登場すると報じられています。景品の詳細や展開時期は、入力見出しだけでは未確認です。",
-      "whyTrending": "アットプレス、Excite、インサイドの複数媒体が同じ話題を報じています。",
-      "context": "GiGO限定景品として展開される企画とみられますが、映画の内容や景品の種類は未確認です。",
+      "title": "『ゴジラ-0.0』のGiGO限定景品が登場へ",
+      "whatHappened": "アットプレスなどが、話題の新作映画に関連するGiGO限定景品「ゴジラ-0.0」の登場を報じています。景品の内容や展開時期の詳細は、入力の見出しからは確認できません。",
+      "whyTrending": "複数媒体が同じ発表を報じているためです。",
+      "context": "映画とゲームセンターの限定景品に関する話題です。作品の公開時期や景品の販売条件は未確認です。",
       "points": [
-        "対象作品は『ゴジラ-0.0』",
-        "GiGO限定景品として告知",
+        "GiGO限定景品として登場すると報じられている",
+        "映画関連の新商品とみられる",
         "景品の詳細は未確認"
       ],
       "sourceCount": 3,
@@ -27,150 +27,136 @@
           "publishedAt": "2026-10-02T01:00:00Z"
         },
         {
-          "id": "d7993ce56c16",
+          "id": "c8b705dadcc7",
+          "name": "Infoseek",
+          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - Infoseek",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEMnUxUTl0TnY4U1VWTTF5R3c2OER4T1NqWnQ0aE8tNXAtdGxVLVV0VWJVRWJoUXlaTUFYcUJNcEJBVE4xck1qZFJfRWtzdFV0VmZxZ1hveDRDbnZjY2tIdmV4LWtVcVVwc2Q2ZjJWc08xUQ?oc=5",
+          "publishedAt": "2026-10-02T01:00:00Z"
+        },
+        {
+          "id": "c1047b49e2c9",
           "name": "Excite エキサイト",
           "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - Excite エキサイト",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SWmtha0JjakVqbHFuSkNhRzJEUWRVNnBiQUF6Nm44SUJwMkstNFlLTjRqajdLaW1TcTk5bVBtRU5qenYzakF0UmdFUWV4U2p4SXhqQ2JGTk02SFQtZ2dEd0t3?oc=5",
           "publishedAt": "2026-10-02T01:00:00Z"
-        },
-        {
-          "id": "b54aa3a21ebf",
-          "name": "インサイド",
-          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - インサイド",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAzTmVXbTZ3TURqd1VjTFV2UEhXSkNHWDBjbVQ1YU9yYjJycmdVcXQxU3NBTG5rWlVncy03WDJPN0JxMVdaM2piZXQzdUY0cGpoOXl5Skl2TG5OLW42TVg3amE2TWRnMFNUN2lPbVdHbVozdw?oc=5",
-          "publishedAt": "2026-10-02T01:00:00Z"
         }
       ],
-      "caution": "入力は告知見出しのみで、景品の仕様や販売状況は確認できません。"
+      "caution": "入力は見出しのみで、商品仕様や発売日などは未確認です。"
     },
     {
-      "id": "entertainment-haruhata-kubo",
+      "id": "entertainment-fukuhara-marriage",
       "category": "entertainment",
-      "title": "福原遥さんと久保建英選手の結婚報道に注目",
-      "whatHappened": "福原遥さんと久保建英選手が結婚したとする見出しが、Infoseekとオリコンニュースで報じられています。芸能界から祝福の声が寄せられたとも報じられていますが、記事全文による詳細は未確認です。",
-      "whyTrending": "複数媒体が同時に報じ、関連してSNS上で驚きの反応が話題になったと報じられています。",
-      "context": "交際報道がなかったことへの反応がXのトレンド入りにつながったと、別の見出しで報じられています。",
+      "title": "福原遥さんの結婚をめぐる報道",
+      "whatHappened": "Yahoo!ニュースの見出しで、福原遥さんの結婚と芸能界からの祝福が報じられています。別のSNS関連見出しでは、久保建英さんと福原遥さんの結婚に驚きが広がったとされていますが、入力だけでは本人や関係者による確認内容は分かりません。",
+      "whyTrending": "結婚報道と、それに対するSNS上の反応を扱う見出しが複数あるためです。",
+      "context": "福原遥さんの結婚に関する報道が出ています。相手や経緯などの詳細は未確認です。",
       "points": [
-        "結婚したとする報道",
-        "芸能界から祝福の声",
-        "SNS上の反応も話題"
-      ],
-      "sourceCount": 2,
-      "sources": [
-        {
-          "id": "f5f1c29b06d9",
-          "name": "Infoseek",
-          "title": "福原遥＆久保建英が結婚 芸能界から祝福の声 柳ゆり菜「おめでとう」 - Infoseek",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5CN0tkVFVYWXdpSmhvYjBLbXRxTDZJVlJ1TU1ITHUtdHhXbS1ZUmRLTnRfSkIwbUR0OUpRZlVyR3RfS3loaC1abUhVU1FMY19TTC1GTmJfeno3MFdya0dn?oc=5",
-          "publishedAt": "2026-10-02T12:32:00Z"
-        },
-        {
-          "id": "ff95f434f6d7",
-          "name": "オリコンニュース",
-          "title": "福原遥＆久保建英が結婚 芸能界から祝福の声 柳ゆり菜「おめでとう」 - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FdWcxaVJUd05ySWtpTzFFaVZmaGhyVTRRT01ta1JYa296WkQwMjBBX1RBcElDekRZX2ZhLXlKeEFkQXA0aWtqNjRKSVZsTUZXTmdITEtR?oc=5",
-          "publishedAt": "2026-10-02T12:32:00Z"
-        }
-      ],
-      "caution": "入力では結婚を伝える見出しが確認できますが、本人発表などの詳細は未確認です。"
-    },
-    {
-      "id": "entertainment-career-changes",
-      "category": "entertainment",
-      "title": "芸能界で移籍・独立など活動進退の報告が相次ぐ",
-      "whatHappened": "芸能界で、引退や所属変更、独立などの活動進退に関する報告が相次いでいると報じられています。今井翼さんの新会社設立や藤あや子さんの退所に触れた見出しもあります。",
-      "whyTrending": "複数の媒体が、秋に芸能人の移籍や独立が続いている話題として取り上げています。",
-      "context": "個別の発表内容や理由は、入力見出しだけでは確認できません。",
-      "points": [
-        "引退・所属変更・独立などを報告",
-        "今井翼さんの新会社設立との見出し",
-        "藤あや子さんの退所との見出し"
+        "福原遥さんの結婚を報じる見出しがある",
+        "芸能界から祝福が相次いだと報じられている",
+        "久保建英さんとの関係を示す別報道もあるが詳細は未確認"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "b348824a5fee",
+          "id": "4bd1c5037223",
           "name": "Yahoo!ニュース",
-          "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vQ2lJVjUxbXhrbmxEY0JZNzd5U2lmMVg4c1ZhS0lpcUxjWlRXZ0tJcVMyVmltS184SE9xVmlRTFhleVhseEh6M2NmTVBmLXQ2?oc=5",
-          "publishedAt": "2026-10-01T13:22:30Z"
+          "title": "福原遥結婚 芸能界から祝福相次ぐ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KXzRqWjBMRWNEQ0NsYktnTHpWa29GZndqTVV0Zk9vaHdla2szRnpjUWdzSmpKR0pWc3RfaF9fVWhqUVpSR01QUUYtUXQwckxQ?oc=5",
+          "publishedAt": "2026-10-02T22:33:35Z"
         }
       ],
-      "caution": "誰がどのような決定をしたか、理由や今後の活動は見出しからは限定的にしか確認できません。"
+      "caution": "結婚や相手に関する内容は、入力の見出しで確認できる報道に限ります。事実関係の詳細は未確認です。"
+    },
+    {
+      "id": "entertainment-china-festival-sendai",
+      "category": "entertainment",
+      "title": "仙台市でチャイナフェス、中国文化を紹介",
+      "whatHappened": "TBS NEWS DIGなどが、仙台市青葉区でチャイナフェスが開かれ、グルメや音楽を通じて中国文化に触れる催しになったと報じています。開催規模や来場者数は入力からは確認できません。",
+      "whyTrending": "複数媒体が地域イベントの開催を報じています。",
+      "context": "仙台市内で中国文化を紹介するイベントに関する話題です。",
+      "points": [
+        "仙台市青葉区で開催されたと報じられている",
+        "グルメや音楽を扱う催し",
+        "来場者数などは未確認"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "8ffcdbf26297",
+          "name": "TBS NEWS DIG",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
+          "publishedAt": "2026-09-26T07:37:00Z"
+        },
+        {
+          "id": "16219b3aac2f",
+          "name": "Yahoo!ニュース",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
+          "publishedAt": "2026-09-26T07:38:13Z"
+        }
+      ],
+      "caution": null
     },
     {
       "id": "politics-unified-local-election",
       "category": "politics",
-      "title": "統一地方選の投票日を4月11日・25日とする法案提出へ",
-      "whatHappened": "来春の統一地方選について、投票日を4月11日と25日とする方針が報じられています。臨時国会に関連法案を提出する予定とされています。",
-      "whyTrending": "複数の地方紙や共同通信系の見出しが同じ日程案を報じています。",
-      "context": "法案の提出が予定されている段階と報じられており、成立状況は入力から確認できません。",
+      "title": "統一地方選、4月11日と25日投票の日程案",
+      "whatHappened": "共同通信系の見出しで、統一地方選の投票日を4月11日と25日とし、臨時国会に法案を提出する方針が報じられています。法案の成立状況や対象となる選挙の詳細は未確認です。",
+      "whyTrending": "投票日程に関する法案提出方針が報じられたためです。",
+      "context": "統一地方選の日程をめぐる政治報道です。入力からは政府や国会での正式決定までは確認できません。",
       "points": [
-        "投票日は4月11日・25日とする案",
-        "臨時国会への法案提出へ",
-        "来春の統一地方選に関する動き"
+        "投票日を4月11日と25日とする案",
+        "臨時国会への法案提出方針",
+        "正式決定や法案の内容は未確認"
       ],
-      "sourceCount": 3,
+      "sourceCount": 1,
       "sources": [
         {
-          "id": "f92e1ca2c482",
-          "name": "沖縄タイムス社",
-          "title": "統一地方選４月１１、２５日投票 臨時国会に法案提出へ - 沖縄タイムス社",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1mdGpKYTJyZHlvck5oU0QxMzNiRlRWQWpSS3k5TFRiVU1tbjBBbTdlMU44ZkFzMjRrWVd2UV9FQ211QmtHS2xLZS1ma1F4QzdSZGR3X095dWxoQXJJRGc?oc=5",
-          "publishedAt": "2026-10-01T10:13:39Z"
-        },
-        {
-          "id": "88da748a90e3",
+          "id": "f69964b56c77",
           "name": "Yahoo!ニュース",
-          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ (共同通信) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRXV1TEVfUWpzUUdSaTBubkFPZG1BMTJ0cmlYOUhlSmx2X0tBUTRJRXFDQXdMSVB3VkUxcmxac3lEYnlZM2I2QlBMY056amNVdlBaamxQRmVHWjR3SzRsUlFjWmVCa01oNVJoSzFOTm5rVnlIOTJrLTRlTy1JWjg1LTFzODhNVThSWEhHWUhR?oc=5",
+          "title": "統一地方選4月11、25日投票 臨時国会に法案提出へ（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uU3l5bElaZ2ZndEV0Mm1uSFFKWFE1OG5VVWhrelBtU0JNNkl5WG9iWmgyczZNR1ppcmJtWjVhRVY2ZXRnbFdZcUllMHYxOWFXa2NxdHRxNFhxcWVGZUUtbFhldFFUWHhQVlpjLXhJYU5VVXlJWkRRWnBGWi1JeFU?oc=5",
           "publishedAt": "2026-10-01T10:13:39Z"
-        },
-        {
-          "id": "36a7d38ae7cd",
-          "name": "琉球新報デジタル",
-          "title": "来春統一選 ４月１１、２５日 臨時国会に法案提出へ - 琉球新報デジタル",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIZE9oX21tSWs1dFpIbl8ySGNMekRQMzIxMFlDako0eGhMNmZxcnpHNXRub3JuVEVrUFpJTkxrOEdpZXVXUjY2R2FtT2lRX25vQkIxLS0wbVU2NC1CWmdXdA?oc=5",
-          "publishedAt": "2026-10-01T20:00:00Z"
         }
       ],
-      "caution": "法案の成立や最終的な投票日は未確認です。"
+      "caution": "見出しでは法案提出方針までで、成立や日程の確定は確認できません。"
     },
     {
-      "id": "politics-foreign-residency-policy",
+      "id": "politics-permanent-residency-policy",
       "category": "politics",
-      "title": "外国人政策の厳格化と永住許可を巡る報道",
-      "whatHappened": "政府が「共生」を掲げる一方、外国人の永住許可を狭き門にする政策を進めていると報じられています。政府の狙いを扱った記事とされていますが、具体的な制度内容は入力見出しだけでは確認できません。",
-      "whyTrending": "外国人政策の厳格化と永住制度の方向性を取り上げた報道として注目されています。",
-      "context": "見出しでは「共生」と政策厳格化の両面が示されていますが、政府の正式な説明や各制度の詳細は未確認です。",
+      "title": "外国人政策と永住許可の厳格化が焦点に",
+      "whatHappened": "毎日新聞の見出しで、「共生」を掲げながら永住許可が狭き門になっているとして、外国人政策の厳格化と政府の狙いが取り上げられています。具体的な制度変更や政府の説明内容は、入力からは確認できません。",
+      "whyTrending": "外国人政策と永住制度をめぐる政府方針が報じられているためです。",
+      "context": "外国人の在留・永住をめぐる政策報道です。見出しだけでは、どの制度や条件を指すか詳細は未確認です。",
       "points": [
-        "永住許可を巡る政策を報道",
-        "外国人政策の厳格化に言及",
-        "政府の狙いを扱う記事"
+        "永住許可が厳しくなる状況を扱っている",
+        "政府の外国人政策が論点",
+        "具体的な変更内容は未確認"
       ],
       "sourceCount": 1,
       "sources": [
         {
           "id": "b86af2057ace",
-          "name": "毎日新聞",
-          "title": "「共生」掲げ永住「狭き門」に 外国人政策厳格化、政府の狙いは",
+          "name": "mainichi.jp",
+          "title": "「共生」掲げ永住「狭き門」に 外国人政策厳格化、政府の狙いは - mainichi.jp",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83SWZ4cXZjUFBkNFdBZGN0TkxtVmpqMzRvTDBMZjI4b2lfWV9OcDZRUEZSRWh5eENqRXZIVVlBWVkxTHhZd1B3azFDaldBNEpoUUQ1UHlYY19ONFI2LWFsVVBUSExsZV9y?oc=5",
           "publishedAt": "2026-09-30T22:00:00Z"
         }
       ],
-      "caution": "制度変更の具体的内容や実施時期は、入力見出しだけでは未確認です。"
+      "caution": "制度の変更時期や対象者などは見出しから確認できません。"
     },
     {
       "id": "politics-japan-qatar-energy",
       "category": "politics",
-      "title": "日本とカタールがエネルギー協力強化で一致",
-      "whatHappened": "日本とカタールがエネルギー協力を強化し、ホルムズ海峡の安全確保で一致したと報じられています。会談の出席者や具体策は、見出しからは確認できません。",
-      "whyTrending": "エネルギー協力と中東の海上安全に関わる外交上の動きとして報じられています。",
-      "context": "ホルムズの安全確保が両国の協議事項として示されていますが、合意の範囲や実施内容は未確認です。",
+      "title": "日本とカタール、エネルギー協力を強化へ",
+      "whatHappened": "福島民友新聞社の見出しで、日本とカタールがエネルギー協力を強化し、ホルムズ海峡の安全確保で一致したと報じられています。会談の参加者や合意の具体的内容は未確認です。",
+      "whyTrending": "エネルギー協力と中東の航路安全に関する政府間の動きとして報じられています。",
+      "context": "日本とカタールの外交・エネルギー協力に関する話題です。",
       "points": [
-        "日本とカタールの協力強化",
-        "エネルギー分野が対象",
-        "ホルムズの安全確保で一致"
+        "エネルギー協力を強化すると報じられている",
+        "ホルムズ海峡の安全確保で一致したとされる",
+        "具体策や実施時期は未確認"
       ],
       "sourceCount": 1,
       "sources": [
@@ -182,100 +168,114 @@
           "publishedAt": "2026-10-02T08:32:00Z"
         }
       ],
-      "caution": "具体的な協力内容や安全確保の方法は未確認です。"
+      "caution": null
     },
     {
-      "id": "economy-russia-sanctions",
+      "id": "economy-japan-kazakhstan-direct-flight",
       "category": "economy",
-      "title": "日本政府がロシアへの追加制裁",
-      "whatHappened": "日本政府がロシアに追加制裁を実施したと報じられています。制裁の対象や内容は、入力見出しからは確認できません。",
-      "whyTrending": "複数の地域経済紙が同じニュースを報じています。",
-      "context": "日本政府による対ロシア措置として伝えられていますが、政策の詳細や発表主体は未確認です。",
+      "title": "日本とカザフスタンの直行便、11月就航へ",
+      "whatHappened": "日本とカザフスタンを結ぶ直行便が11月から就航し、週2往復となる見通しだと複数媒体が報じています。運航都市や航空券の詳細は、入力の見出しからは確認できません。",
+      "whyTrending": "直行便による経済・観光交流の促進が期待される話題として、複数媒体が報じています。",
+      "context": "航空路線の新設に関する経済・観光ニュースです。",
       "points": [
-        "ロシアへの追加制裁",
-        "日本政府の措置",
-        "対象・内容は未確認"
+        "11月から就航予定と報じられている",
+        "週2往復の見通し",
+        "経済・観光交流の促進が目的とされる"
+      ],
+      "sourceCount": 3,
+      "sources": [
+        {
+          "id": "e521bd56f8f6",
+          "name": "ｄメニューニュース",
+          "title": "日本とカザフ直行便11月就航へ　週2往復、経済や観光で交流促す - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNX0ZiZ0xyemNoTWdCajdFV2NqQXZOaWx6Z251YlFvai1RTDgwNktJbGdwb0lkWFczd0pwVWxtQU1tZUUtdHhNSXRRdkpNV0trNElIRkI1T1pQTjc2ZzR4QTh0VEhPM0FGZFhENzVrSjRDTDZBV2JuNWhYTEF1NklOSEhSZF9KMldYOEJWRGFn0gGTAUFVX3lxTE50a1Jhb1ROa0d6VHF1ZE1ncXdjRG9ERE1aSlU0YndFbmtFTHhmNW1rTFl5VWJndmhXcV95b0xYazRVSDY4UEZaN25PeVltSl8zSVA3SXBSWVA4WnhwVGtZSC1GeXZKaE5wUkVqZkwzNnlCSmV4NlN6N0ItTTd0N19iemFlREdWRVVURGRwVk9FWFZBTQ?oc=5",
+          "publishedAt": "2026-10-02T21:59:56Z"
+        },
+        {
+          "id": "6ac62f2becef",
+          "name": "産経ニュース",
+          "title": "日本とカザフ直行便就航へ 「エア・アスタナ」11月から週2往復、経済や観光で交流促進 - 産経ニュース",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlQ3JVaGwzMWxoaUJMaElxOXp1NElSNERkckV3VXhOMkdlV2tjRkFkV0ZHS0w2Um9HelBMYmFYUEtCbHpBMUFUX1hmQ1l1c3pJVFpzdnBhWVl3MFA4U2NkcGFTV2hESmtFYkhqVndKQmwzYWkybmc?oc=5",
+          "publishedAt": "2026-10-02T22:47:30Z"
+        },
+        {
+          "id": "9c56ae64c2b9",
+          "name": "Yahoo!ニュース",
+          "title": "日本とカザフ直行便11月就航へ 週2往復、経済や観光で交流促す（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE80a05xYnR2VEFVVVpXT0NJemx2QjZ1UmtCUy1zNFNhTWdrZWNia3ZuY3JWVFQ3SVVRRlRTVnNKd2ZjNlFSZTJqbGpaNjg4WjI5SHdmdllVbXhNQ2lYc2xoWkRIRm1IMEdpdi1XVHg5NjRlWkJtWnM5YVhmVUxKZkk?oc=5",
+          "publishedAt": "2026-10-02T21:58:26Z"
+        }
+      ],
+      "caution": "就航は予定として報じられており、運航開始の確定状況は未確認です。"
+    },
+    {
+      "id": "economy-us-earnings",
+      "category": "economy",
+      "title": "来週、ペプシコやデルタ航空が米企業決算を発表予定",
+      "whatHappened": "株探などが、来週の米主要企業決算としてペプシコとデルタ航空を挙げています。決算内容や市場への影響は、入力からは確認できません。",
+      "whyTrending": "主要米企業の決算予定が、投資関連媒体で取り上げられているためです。",
+      "context": "米国企業の決算スケジュールに関する話題です。",
+      "points": [
+        "ペプシコの決算予定",
+        "デルタ航空の決算予定",
+        "決算数値や市場反応は未確認"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "6ab2c8bf5ac0",
-          "name": "盛岡経済新聞",
-          "title": "日本政府、ロシアに追加制裁 - 盛岡経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBZQlpYN1ZpYzlNdHFqUzBrMUlxZlRtc0gyNkVCOE1WYThqWUh1Q25VUEJGU1N2alBYNUFTM0cyaDgtTlhzYW9GMGU0Q1NKd2VUbkdJSg?oc=5",
-          "publishedAt": "2026-10-02T10:58:26Z"
+          "id": "c82ceb172232",
+          "name": "株探",
+          "title": "来週の米主要企業決算 ペプシコ、デルタ航空 - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5wcXVmZ0Q3VFp2dTBhSU4tbHFCZ2pPYjNBVmFHRUlYemlvRUp5UnpsdThzUnZ5WERuYkk4X2NndEJhVU5pX2tXQnlZQWVDcnB6a1E?oc=5",
+          "publishedAt": "2026-10-02T22:47:00Z"
         },
         {
-          "id": "8062ccb4c39a",
-          "name": "佐賀経済新聞",
-          "title": "日本政府、ロシアに追加制裁 - 佐賀経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uMVpMbVd3U1BxdDJlcnJvQUhudlEzN0M1cDR0allValNaU040QlYwRUtTNVZUVGl2YmdZN3dRbDBha1R3blBmNmhPTElqLWVp?oc=5",
-          "publishedAt": "2026-10-02T10:56:32Z"
+          "id": "6a1f9fc0a251",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の米主要企業決算 ペプシコ、デルタ航空 - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fX3h1X01KXzYxU0JlSzJnNTRJelVCYjVOWExWelZhTC0yQThqRWxrYTh5V0V4MGxiM3B4SDZmczR4Z0RNZTg2TA?oc=5",
+          "publishedAt": "2026-10-02T22:37:29Z"
         }
       ],
-      "caution": "制裁の具体的な対象、発効時期、経済への影響は未確認です。"
+      "caution": null
     },
     {
-      "id": "economy-japan-stocks-oil",
-      "category": "economy",
-      "title": "日本株が反落、原油高止まりによる影響を懸念",
-      "whatHappened": "10月2日の日本株が反落し、原油価格が高止まりしていることによる経済への影響が懸念されたと報じられています。株価の下落幅や市場指数は見出しからは確認できません。",
-      "whyTrending": "株式市場の動きと原油価格への警戒が同時に報じられています。",
-      "context": "原油高が経済に及ぼす影響への懸念が、株価反落の背景として見出しで示されています。",
-      "points": [
-        "10月2日の日本株は反落",
-        "原油高止まりを懸念",
-        "下落幅などは未確認"
-      ],
-      "sourceCount": 1,
-      "sources": [
-        {
-          "id": "8bd93849d416",
-          "name": "四季報オンライン",
-          "title": "2日の日本株は反落､原油高止まりによる経済影響が懸念 - 四季報オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBBZlpLOVd6a3dOc2VNUnE4RXBtV1BualdSZVI2dS1zX1RYc1h2ZVJLN2dRZl9vZ1ZaTFZlNmhqU2dhMkxLLUF2YkVnX25ZTVd6OTFtYW9jRQ?oc=5",
-          "publishedAt": "2026-10-02T07:50:00Z"
-        }
-      ],
-      "caution": "市場全体の動きや原油価格の水準は、記事本文を確認できていないため不明です。"
-    },
-    {
-      "id": "economy-nuclear-rebuild-effect",
+      "id": "economy-nuclear-replacement-effect",
       "category": "economy",
       "title": "原発建て替えの経済波及効果を1基4.3兆円と推計",
-      "whatHappened": "日本原子力産業協会が、原発の建て替えによる経済波及効果を1基当たり4.3兆円と推計したと報じられています。推計の前提や対象期間は未確認です。",
-      "whyTrending": "原発建て替えの経済効果を具体的な金額で示した試算として報じられています。",
-      "context": "推計主体は日本原子力産業協会と見出しにありますが、建て替えの計画や政策決定を示すものかは未確認です。",
+      "whatHappened": "日本原子力産業協会が、原発の建て替えによる経済波及効果を1基あたり4.3兆円と推計したと日本経済新聞が報じています。推計の前提や対象範囲は入力からは確認できません。",
+      "whyTrending": "原発建て替えの経済効果を具体的な金額で示した推計として報じられています。",
+      "context": "原子力発電所の建て替えと経済波及効果をめぐる話題です。",
       "points": [
-        "経済波及効果は1基4.3兆円との推計",
+        "1基あたり4.3兆円と推計",
         "推計主体は日本原子力産業協会",
-        "試算の前提は未確認"
+        "前提条件や実現時期は未確認"
       ],
       "sourceCount": 1,
       "sources": [
         {
           "id": "2e770fafaf2a",
-          "name": "nikkei.com",
-          "title": "原発建て替えの経済波及効果「1基4.3兆円」 日本原子力産業協会推計 - nikkei.com",
+          "name": "日本経済新聞",
+          "title": "原発建て替えの経済波及効果「1基4.3兆円」 日本原子力産業協会推計 - 日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZS0dBWmpLTjRvdUZSVHN3U2VKWXNhZmhpY0EyS3dpMW93QjZEaFlkdko0NjJmc21oY1RCbU1ia3lzeE1MV0FnSjZWU1hSZWNJUDM3UU1uMzBkY0xlYkNNOWtMaXFqODJZdF9SRQ?oc=5",
           "publishedAt": "2026-10-02T10:18:43Z"
         }
       ],
-      "caution": "経済効果は団体による推計であり、実際の効果や建て替えの実施を確認したものではありません。"
+      "caution": "数値は同協会による推計であり、実際の効果を示す確定値ではありません。"
     },
     {
       "id": "internet-nadeshiko-broadcast",
       "category": "internet",
-      "title": "なでしこ決勝の中継を巡るSNSの反応が話題",
-      "whatHappened": "なでしこの決勝戦の中継がないことへの疑問や、バレーボール中継との編成を巡る投稿がSNSで話題になったと報じられています。試合や放送の詳細は、見出しからは確認できません。",
-      "whyTrending": "SNS上の視聴者の反応を日刊スポーツとYahoo!ニュースが取り上げています。",
-      "context": "見出しでは、なでしこの決勝とバレーボールの準決勝の中継を比較する投稿が紹介されています。",
+      "title": "なでしこ決勝の中継をめぐりSNSで反応",
+      "whatHappened": "日刊スポーツなどが、なでしこの決勝中継がないことや、バレーボール準決勝の中継をめぐるSNS上の投稿を報じています。大会名や中継編成の詳細は、入力からは確認できません。",
+      "whyTrending": "スポーツ中継の有無に対するSNS上の不満や疑問が話題になったためです。",
+      "context": "女子サッカー日本代表とバレーボールの中継をめぐるネット上の反応です。",
       "points": [
-        "決勝中継の有無を巡る反応",
-        "SNS投稿が話題に",
-        "バレーボール中継との比較"
+        "なでしこ決勝の中継を疑問視する投稿",
+        "バレーボール準決勝の中継にも言及",
+        "大会や放送局の詳細は未確認"
       ],
-      "sourceCount": 2,
+      "sourceCount": 3,
       "sources": [
         {
           "id": "105a34ea8a03",
@@ -290,71 +290,78 @@
           "title": "【なでしこ】「決勝の中継ないんか」「バレーも人気種目なのはわかるけど準決勝だよ」SNS話題（日刊スポーツ） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zdXk0aVlNWGVRa3VUMld5ZkxFazFjbXNIV2lvTm5yWUtVQkM1TGtxVXVlZkVkZ2VLb0FkNmNiU283SzJvYXJLNEk4TUdwSmF1V05LbVp0dGE1d0Y5MjN3cmFmWnB2b2ZFUnpPOHc3Qjc4RkpkdEpySzhCR04tU1E?oc=5",
           "publishedAt": "2026-10-02T12:02:22Z"
-        }
-      ],
-      "caution": "中継の実際の有無や放送編成の理由は、入力見出しだけでは未確認です。"
-    },
-    {
-      "id": "internet-felissimo-misu-pouch",
-      "category": "internet",
-      "title": "フェリシモの「御簾ポーチ」がSNSで話題",
-      "whatHappened": "フェリシモの「御簾ポーチ」がSNSで話題となり、2万超の「いいね」を集めたと報じられています。商品の仕様や反響の集計時点は未確認です。",
-      "whyTrending": "複数媒体が、SNS上で2万超の反応を集めた商品として紹介しています。",
-      "context": "商品名から、御簾をモチーフにしたポーチとみられますが、デザインや販売情報は見出しからは確認できません。",
-      "points": [
-        "商品は「御簾ポーチ」",
-        "SNSで話題",
-        "2万超の「いいね」と報道"
-      ],
-      "sourceCount": 2,
-      "sources": [
-        {
-          "id": "d9d0ef042e90",
-          "name": "online.bci.co.jp",
-          "title": "フェリシモ、御簾ポーチが話題 SNSで2万超の”いいね” - online.bci.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1zeXBDSHJXQnlJaEFHTURtcWxvcVJSVmtaRnBWa0VKMmljekIzNFZkRXJCQnhnbFIzb1V6YjlINFAwUXN3ZTBzSjhZLXF4SGZLXzdfNEdpRQ?oc=5",
-          "publishedAt": "2026-10-02T01:34:29Z"
         },
         {
-          "id": "4ed7bf2df6fd",
-          "name": "日流ウェブ",
-          "title": "フェリシモ／御簾ポーチが話題／ＳＮＳで２万超の”いいね”（2026年10月1日号） - 日流ウェブ",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9UMDFDRE5rUmt5aTFpQTgtZ3YxYkNOMGVJTktzRmVIdklhVUxCemx4ME5SM3BmRjRHOEtvRjBzNThpS18yQ0dJaGlQWFhoSWdlNmF1SV9zOA?oc=5",
-          "publishedAt": "2026-10-02T05:49:06Z"
+          "id": "917e2794824a",
+          "name": "スポーツブル",
+          "title": "【なでしこ】「決勝の中継ないんか」「バレーも人気種目なのはわかるけど準決勝だよ」SNS話題 - スポーツブル",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NOHlzZUNJRi1HT0VFTlR2RkdIZ3JpeW94U2hHLUhheUJwRmsyazVQbUd5TEx6X1g3UDVjckwwU29zNjU0SFFV?oc=5",
+          "publishedAt": "2026-10-02T12:09:20Z"
         }
       ],
-      "caution": "「いいね」の件数や商品の詳細は、各記事の全文確認が必要です。"
+      "caution": "SNS上の反応を扱った報道であり、投稿全体の傾向や中継事情の詳細は未確認です。"
     },
     {
-      "id": "internet-taiwan-anime-ranking",
+      "id": "internet-office-food-poisoning-collab",
       "category": "internet",
-      "title": "台湾のネットで「ヤニねこ」が話題数トップと報道",
-      "whatHappened": "台湾のネット上で話題になった2026年のアニメとして、「ヤニねこ」が話題数トップになったと報じられています。集計方法や対象作品の範囲は未確認です。",
-      "whyTrending": "台湾メディアの話題として複数媒体が取り上げています。",
-      "context": "台湾のネット上でのアニメ話題度に関する報道であり、日本国内の人気順位を示すものではありません。",
+      "title": "「Officeの消失」などネット上の話題をまとめた記事",
+      "whatHappened": "Web担当者Forum系の見出しで、「Officeの消失」「こめお食中毒」「ちいかわコラボ景品横領」などが最近のネット話題として挙げられています。個別の出来事の事実関係や経緯は、入力の見出しだけでは確認できません。",
+      "whyTrending": "複数のネット上の話題をまとめた記事が配信されたためです。",
+      "context": "ネット上で注目された複数の話題を扱うまとめ記事です。",
       "points": [
-        "対象は2026年のアニメ",
-        "台湾のネット上での話題数を紹介",
-        "「ヤニねこ」がトップとの報道"
+        "Officeの消失が話題として挙げられている",
+        "こめお食中毒が話題として挙げられている",
+        "ちいかわコラボ景品横領が話題として挙げられている"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "e7f9b1a0bc42",
+          "id": "78a92ef69b9c",
+          "name": "Yahoo!ニュース",
+          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuZTRTREVhMjBFbGlBUXBpWXluMEZOZkNIV0hfYUdJaHUycno1blpuT2pMN1VZSWZ2SkRqZFFZZ2xCSlY5Z0o4RkRTU2ZKWTEtSlZGUEVrRnNCdVBZYXVrcU5NNDdJZkV3RE5uWVZxcDBrcmdSd0Q4TmR0T2VNclE?oc=5",
+          "publishedAt": "2026-10-02T06:16:14Z"
+        },
+        {
+          "id": "e5f67922903e",
           "name": "ｄメニューニュース",
-          "title": "台湾のネット上で話題になった2026年のアニメは？「ヤニねこ」が話題数トップに―台湾メディア",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPajJLcGJwNmQ2a3ExWkMzdWpiSnZQb0c1R29RWVlpTl9CY0I4RmNqeUo1dm5MaHNBR3UyQ3FCcllZUVpfdTkwdWowME1qNXVyRVNieXBYWmhPVGRRRUI2eE5udUtSQVpXbUJXT19Qc3seXI0X0M5cE5PdGtISkF4dXB3WnBSaWVSS0FVa3drMNIBjwFBVV95cUxPajJLcGJwNmQ2a3ExWkMzdWpiSnZQb0c1R29RWVlpTl9CY0I4RmNqeUo1dm5MaHNBR3UyQ3FCcllZUVpfdTkwdWowME1qNXVyRVNieXBYWmhPVGRRRUI2eE5udUtSQVpXbUJXT19Qc3seXI0X0M5cE5PdGtISkF4dXB3WnBSaWVSS0FVa3drMA?oc=5",
-          "publishedAt": "2026-10-02T14:00:00Z"
-        },
-        {
-          "id": "12761a5606dd",
-          "name": "Record China",
-          "title": "台湾のネット上で話題になった2026年のアニメは？「ヤニねこ」が話題数トップに―台湾メディア",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBDYVl5eUZ3WVNjYW5zcWxpQnhRdTQ2aVV1VElMRFlieXRzVU5qX0tSdGw3bnZOVWYxei1oWUE0dTIyMDZLTGFuaWF3eVVfOHo0MDVFVXNBNmlGSHhC?oc=5",
-          "publishedAt": "2026-10-02T14:00:01Z"
+          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQMXJma1VqNkVjdU1wV0M4UC1MUDVrS1kySE1CZTROWHVzTHk3d280cUpFSmQ4eFlFOEVhT2hua3MtUUdOanJQNFJYM3NpNFhTVTVobnJCTjdNYWpyM213YlhtbzdZSWhrVUVrUWxQcFppXzNBRm04Tnd2WjdwRFdDcGtvd3ZFNlEzT1pvbjl2RE5pdmw2cDJEVkRBdTdRWXNiVjNvenV2S1RoR095ZXI5d2JQLUJuaElGSVdGeWVuUlNuNi02clR4LUNkV2h6TTNXVEZ6aWdGMzFzM3EzWVhaRXNqMEpoWnRlVGd3RkpZczlPLVp2UWN5clpOWk1oXzgt0gGwAUFVX3lxTE5wVUtydTdYamp5cE8zdXFfTHRSMW91Ym15X01udEVET3l4TjlmYjcyQXVfMGtLMWJvcmRRdm1jNXpYYzZiQzZJcUZpSGtITVNCTVQ4U1lXV0w4SWE5RzZtUkxuaTNIZzhzUldzSFJYODlXOHRuYTFtRjgyVE1qemdvMEV0RXl2b2w4RHZaOVVRT0l6U0RxT3NCUTR3cy1WSk9rb2Y5TzdRUEtuLWtvQllB?oc=5",
+          "publishedAt": "2026-10-01T22:13:08Z"
         }
       ],
-      "caution": "話題数の調査方法や母数は未確認で、日本全体の人気を示すものではありません。"
+      "caution": "見出しは話題の列挙であり、食中毒や横領などの事実認定はしていません。詳細は未確認です。"
+    },
+    {
+      "id": "internet-kubo-fukuhara-trend",
+      "category": "internet",
+      "title": "久保建英さんと福原遥さんをめぐる投稿がXトレンド入り",
+      "whatHappened": "日刊スポーツなどが、久保建英さんと福原遥さんの結婚をめぐり、「交際報道一切なし」という言葉がXでトレンド入りしたと報じています。結婚や交際の事実関係は、入力の見出しだけでは確認できません。",
+      "whyTrending": "予想外の組み合わせとして受け止めたSNS上の驚きが広がったと報じられているためです。",
+      "context": "著名人2人をめぐる結婚報道とSNS反応に関する話題です。",
+      "points": [
+        "「交際報道一切なし」がXトレンド入りしたと報じられている",
+        "SNS上の驚きや反応を紹介",
+        "交際・結婚の詳細は未確認"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "6ec392767229",
+          "name": "日刊スポーツ",
+          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wR2s0WWxzSkl4WTJ3c0Z2VFhUeDBhd0pXYUdWRGs5UFhaY2ZELU5DVjREbGhVcDRSNjc5bGVWckpRT3ZWMnd1U1BUOWFMZFBOUjlwVlhsZTBaM0JPbExXNDdJWVgwc1lhcnVJMy0wMzRENzFNNmfSAX5BVV95cUxOVmtvZE55UjBIZzNrQk5TUjdlbDBjcm9IU0hZclVVS1UtVkIwMXpnMGVFb3MweVkyTWVqWHNXSHgxMTZPTDRpaFlaYThnU2gyM0UyZlh2YXVlcWlUOWpVdWJDYWZjWHNraGtuVUlDeThvQk1LZklHd3VDbl9sTkE?oc=5",
+          "publishedAt": "2026-10-02T13:31:04Z"
+        },
+        {
+          "id": "18b742b36131",
+          "name": "ｄメニューニュース",
+          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXa9IBmwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXaw?oc=5",
+          "publishedAt": "2026-10-02T13:31:00Z"
+        }
+      ],
+      "caution": "芸能人の結婚・交際に関する内容は報道上の話題として扱い、事実認定していません。本人発表などは入力から未確認です。"
     }
   ]
 }
