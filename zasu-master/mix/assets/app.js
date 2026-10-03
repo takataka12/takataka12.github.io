@@ -69,6 +69,8 @@ function resetPreflightUi(){
   panel.classList.remove("pass","warning");
   q("#preflightWarnings").innerHTML="";
   q("#preflightActions").hidden=true;
+  q("#preflightContinue").disabled=false;
+  q("#preflightChangeFiles").disabled=false;
 }
 function renderPreflight(report,status="pass"){
   const panel=q("#preflightPanel");
