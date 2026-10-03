@@ -1,58 +1,51 @@
 {
-  "generatedAt": "2026-10-03T06:32:47Z",
+  "generatedAt": "2026-10-03T12:33:42Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "39e422710f4f2a",
-      "category": "internet",
-      "title": "【なでしこ】「決勝の中継ないんか」「バレーも人気種目なのはわかるけど準決勝だよ」SNS話題 - スポーツブル",
-      "sourceCount": 3,
-      "latestPublishedAt": "2026-10-02T12:09:20Z",
+      "id": "7701e2ca2241b4",
+      "category": "politics",
+      "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-03T09:00:34Z",
       "sources": [
         {
-          "id": "dc82bccf493dc1",
-          "name": "スポーツブル",
-          "title": "【なでしこ】「決勝の中継ないんか」「バレーも人気種目なのはわかるけど準決勝だよ」SNS話題 - スポーツブル",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NOHlzZUNJRi1HT0VFTlR2RkdIZ3JpeW94U2hHLUhheUJwRmsyazVQbUd5TEx6X1g3UDVjckwwU29zNjU0SFFV?oc=5",
-          "publishedAt": "2026-10-02T12:09:20Z"
-        },
-        {
-          "id": "b1c103f5244e13",
+          "id": "27a09a6fc94e64",
           "name": "Yahoo!ニュース",
-          "title": "【なでしこ】「決勝の中継ないんか」「バレーも人気種目なのはわかるけど準決勝だよ」SNS話題（日刊スポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zdXk0aVlNWGVRa3VUMld5ZkxFazFjbXNIV2lvTm5yWUtVQkM1TGtxVXVlZkVkZ2VLb0FkNmNiU283SzJvYXJLNEk4TUdwSmF1V05LbVp0dGE1d0Y5MjN3cmFmWnB2b2ZFUnpPOHc3Qjc4RkpkdEpySzhCR04tU1E?oc=5",
-          "publishedAt": "2026-10-02T12:02:22Z"
+          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJOXVvRUY1T01LYWdIS2lSeHA4RGliTTNxWEJ2eWd4Rks3NHo2d3AzdVBnM1N3YV9yV3pIckYzNU11Q08zeGVtcDRUZ0dybElNOTNBd3JZM2tsa0xpeVlmZWt0SENqQVlZNFpxazZTam52d0FuM2pfWjRQZE9qZzQ?oc=5",
+          "publishedAt": "2026-10-03T09:00:34Z"
         },
         {
-          "id": "df7531a31e481a",
-          "name": "日刊スポーツ",
-          "title": "【なでしこ】「決勝の中継ないんか」「バレーも人気種目なのはわかるけど準決勝だよ」SNS話題 - 日刊スポーツ",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9sdElLWFNfTm1ZSnJ5dGxXWDdXNy1zTHJNYlZoZUEtVU5Rb1NWQTRYbXh4eF9ZRGxHZ2g3OHZFZ0Q1dkZacjdfYjM3SldjMk1CTFVteGZad1Z2ZzJWeFRFSzRoRGpfMWc0cml0UGkxM2N3ZUtxN3dTaTk4c9IBfkFVX3lxTFAwS1BpR0dZVzJKa3l6UXd4Wlp0bzh1NGtNYWpxRDF6d0tSS0czNzlOYzNEVzlhcDNPTTI5UE8xSlJ0cTNteVRCU29GXzNIY0ZKUWNoYXAtU2JOdThFc0QtTUhnUFFzV243U0hfR3dPS21iWDRFc21kU0FjZFpmUQ?oc=5",
-          "publishedAt": "2026-10-02T12:02:20Z"
+          "id": "91362b22a8eaf6",
+          "name": "TBS NEWS DIG",
+          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1aUNpZmJsMFhMQnpHcThaaDJNamJqWE5oMkVId2VLSnljSThodlFiQTdQUkU3bmVOT09sY0JuQjVzYTU2eUlPTlJ5TXZJcXJhN3owVUJFTzlSUG1qQy1KNHVnTjdBaEd2N0hiU0pnc1IwM180?oc=5",
+          "publishedAt": "2026-10-03T09:00:00Z"
         }
       ]
     },
     {
-      "id": "bf85de3aa0bc48",
-      "category": "entertainment",
-      "title": "画像・写真 | 佐々木希、芸能生活20周年 振り返り「昔の私からすると奇跡」 初のフォトエッセイの自己採点は100点満点 9枚目 - オリコンニュース",
+      "id": "1aaa73fc48dc13",
+      "category": "politics",
+      "title": "来週から臨時国会 消費減税などで論戦 高齢者医療費窓口負担引き上げも焦点に - テレ朝NEWS",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-03T04:02:53Z",
+      "latestPublishedAt": "2026-10-03T02:04:03Z",
       "sources": [
         {
-          "id": "988ac1b99ed231",
-          "name": "オリコンニュース",
-          "title": "画像・写真 | 佐々木希、芸能生活20周年 振り返り「昔の私からすると奇跡」 初のフォトエッセイの自己採点は100点満点 9枚目 - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uTVJ6Y3V0c1ZZcTVuUHhkV21SSlN4dzhUS3pMRmtQNXAwcHh1YWh5LTVTUU5UdjF1NUxpMU5QVDRkazZETWR5TWlJNGplOVFwM2E0Rm9BMW8yQ2JlT3ZkVGloZms?oc=5",
-          "publishedAt": "2026-10-03T04:02:53Z"
+          "id": "3a9c473e7a32b5",
+          "name": "テレ朝NEWS",
+          "title": "来週から臨時国会 消費減税などで論戦 高齢者医療費窓口負担引き上げも焦点に - テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBhNFhxbzdXQ3VGMGxJVHlET2FMZnlIVUxPY1hpbFZQaTdtMUhPdVpKMkRhQzdIS2o0MHpnNFh2LWtmWEFsWlVha3JYLUtNcnc4Uy1vR3VzQ081QmtmODVvTVc1b1lrUTRWcTUyRHdQSUtnU1E?oc=5",
+          "publishedAt": "2026-10-03T02:04:03Z"
         },
         {
-          "id": "1e855ab6f599e0",
-          "name": "佐賀新聞",
-          "title": "佐々木希、芸能生活20周年 振り返り「昔の私からすると奇跡」 初のフォトエッセイの自己採点は100点満点 - 佐賀新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBiUHduYmhKbWVDdkpObzVHbVBOclVBUFMydEExR2UxVWEtaVEzWlNPMnhETmljWGVCalVLek5fQ0hBckpKTDA1VXgzNGlYdmhXOEtUYzZ3?oc=5",
-          "publishedAt": "2026-10-03T03:28:00Z"
+          "id": "85083c62f6d001",
+          "name": "khb東日本放送",
+          "title": "来週から臨時国会 消費減税などで論戦 高齢者医療費窓口負担引き上げも焦点に - khb東日本放送",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBsTmxFX1RLQXJtdmI0VDgyeDZxWF9qREZ1QkVNSEs5aHZhSGdjSE41eWRXTVBwcXAxWVo2LVVNdExGSUtzU0pNSEF1aVA5eFE?oc=5",
+          "publishedAt": "2026-10-03T02:04:03Z"
         }
       ]
     },
@@ -71,11 +64,11 @@
           "publishedAt": "2026-10-02T22:47:30Z"
         },
         {
-          "id": "b65426e5b9dd88",
-          "name": "福島民友新聞社",
-          "title": "日本とカザフ直行便１１月就航へ 週２往復、経済や観光で交流促す:経済 - 福島民友新聞社",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WMG8tRnF0Q095UlRja3ZCZFVhV1Y5WkF1bXowajNnWnZnbHg1Y0xPYVFOYllfcnd0OEp5SEVWdVdXRnQzSm1MLWM4SE5UM3ItVFlXQnBCQnpRMFowRmN4OUoxRm5xRmlOd3c?oc=5",
-          "publishedAt": "2026-10-02T21:55:00Z"
+          "id": "bed2d6d9ced354",
+          "name": "沖縄タイムス社",
+          "title": "日本とカザフ直行便１１月就航へ 週２往復、経済や観光で交流促す - 沖縄タイムス社",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qdUpRTnJwREI3aE9KLXduT2JOWGMyc3RmWk10b04wNk05aXZ0b3RPZjNDS2ppX09GQzBQYWYyZHhXV3JfUFptOFNBaHF4V21WZG5LSXk3ekg5SGtXNHc?oc=5",
+          "publishedAt": "2026-10-02T21:55:38Z"
         }
       ]
     },
@@ -140,11 +133,11 @@
           "publishedAt": "2026-10-02T06:16:14Z"
         },
         {
-          "id": "e5f67922903e66",
-          "name": "ｄメニューニュース",
-          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQMXJma1VqNkVjdU1wV0M4UC1MUDVrS1kySE1CZTROWHVzTHk3d280cUpFSmQ4eFlFOEVhT2hua3MtUUdOanJQNFJYM3NpNFhTVTVobnJCTjdNYWpyM213YlhtbzdZSWhrVUVrUWxQcFppXzNBRm04Tnd2WjdwRFdDcGtvd3ZFNlEzT1pvbjl2RE5pdmw2cDJEVkRBdTdRWXNiVjNvenV2S1RoR095ZXI5d2JQLUJuaElGSVdGeWVuUlNuNi02clR4LUNkV2h6TTNXVEZ6aWdGMzFzM3EzWVhaRXNqMEpoWnRlVGd3RkpZczlPLVp2UWN5clpOWk1oXzgt0gGwAUFVX3lxTE5wVUtydTdYamp5cE8zdXFfTHRSMW91Ym15X01udEVET3l4TjlmYjcyQXVfMGtLMWJvcmRRdm1jNXpYYzZiQzZJcUZpSGtITVNCTVQ4U1lXV0w4SWE5RzZtUkxuaTNIZzhzUldzSFJYODlXOHRuYTFtRjgyVE1qemdvMEV0RXl2b2w4RHZaOVVRT0l6U0RxT3NCUTR3cy1WSk9rb2Y5TzdRUEtuLWtvQllB?oc=5",
-          "publishedAt": "2026-10-01T22:13:08Z"
+          "id": "407264b24329e6",
+          "name": "Web担当者Forum",
+          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など - Web担当者Forum",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12ZUhOdk0yZ3BZWHZTRmFYT2JDeEFNRUNLNE1DQUpxaU8zLUFDVWJiWndlQzB1a0FNRFVLbS0xNkdHaXpkUGpMVGstTmZNRy12czJ1VElxWUppUVk?oc=5",
+          "publishedAt": "2026-10-01T22:05:00Z"
         }
       ]
     },
@@ -172,24 +165,24 @@
       ]
     },
     {
-      "id": "2590c3204089f3",
+      "id": "004410ddd9034d",
       "category": "entertainment",
-      "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
+      "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-09-26T07:38:13Z",
+      "latestPublishedAt": "2026-09-26T07:37:00Z",
       "sources": [
         {
-          "id": "b98945f5d909c2",
-          "name": "Yahoo!ニュース",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区（tbc東北放送） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52R1FaRXp0RU1Ub3FvdHlzcFQ3UDNKanNqNE8tZ1AybTdYd1dnRWFOZWFBMWVIMzJQX2laZ2RFRVR2d2VGc3FoXy0wU2w5cTl5T2ZBOW56MkpWdHp4ck85Q19XLWxHVUJZai1PUDdMNVlEVmhEV1p6c190emhsLTQ?oc=5",
-          "publishedAt": "2026-09-26T07:38:13Z"
-        },
-        {
-          "id": "5bba3e601e9707",
+          "id": "8ffcdbf2629748",
           "name": "TBS NEWS DIG",
           "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
+          "publishedAt": "2026-09-26T07:37:00Z"
+        },
+        {
+          "id": "c47e6587d4b719",
+          "name": "ｄメニューニュース",
+          "title": "仙台市内でチャイナフェス　話題のグルメや音楽で中国文化に触れる　仙台・青葉区 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fUG9hbnlxcHJvOW5wOG5ldklsZ2lYWlRGQnhWWG9pd2pkUXVESmNRRWpoVmIyMjY5NEN5TjNKTElWbWRVQ0M5Rks4YjN6NmtnXzE0dG01Z3VIY0lvYTNlQXFTbkZLYlZhV2xSTTNET1VPTURpb2h1WmJ5d0JsZTTSAYQBQVVfeXFMTzFpWkdDblJuUUZWcjRxblVNR1FTb0VTaE11eDJMeVhiUnlXYUE2b3B2akJRSldIRkIxRE5kVEkxWlZGY01aLUdvdnA1eFNkWndLeUU3a3hRWHVfeTQ3akJ3dzdkSEpVRzgwNUJHUDFRc0NlbnYwSGUzTWI5TjJuRFkwMzAw?oc=5",
           "publishedAt": "2026-09-26T07:37:00Z"
         },
         {
@@ -202,25 +195,50 @@
       ]
     },
     {
-      "id": "c390748e940670",
-      "category": "entertainment",
-      "title": "福原遥結婚 芸能界から祝福相次ぐ - Yahoo!ニュース",
+      "id": "344f470273c732",
+      "category": "internet",
+      "title": "「箱で買いたい」「全然見つかりません」セブンの『SNSで話題の絶品アイス』3選。どれもやみつきになるおいしさです！ - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-03T04:20:51Z",
+      "latestPublishedAt": "2026-10-03T09:35:01Z",
       "sources": [
         {
-          "id": "4bd1c503722357",
+          "id": "8ab34c2ff058c5",
           "name": "Yahoo!ニュース",
-          "title": "福原遥結婚 芸能界から祝福相次ぐ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KXzRqWjBMRWNEQ0NsYktnTHpWa29GZndqTVV0Zk9vaHdla2szRnpjUWdzSmpKR0pWc3RfaF9fVWhqUVpSR01QUUYtUXQwckxQ?oc=5",
-          "publishedAt": "2026-10-03T04:20:51Z"
-        },
+          "title": "「箱で買いたい」「全然見つかりません」セブンの『SNSで話題の絶品アイス』3選。どれもやみつきになるおいしさです！ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yR19YQWI0UTMwMmpoTXZKWV8zeXVITllqZkhuclNkYV9rMmJVVmhsRUFKNm1NXzQzOUpMMXFnalN1dFVtMXRYUktjYjZOcjNXZnZmNG5iVFJsMTRhMkl2TU9GaTE0U0dDeVJFU053X01WakRsS2toM3lTZFlHZGs?oc=5",
+          "publishedAt": "2026-10-03T09:35:01Z"
+        }
+      ]
+    },
+    {
+      "id": "7c2b787e4fa6a3",
+      "category": "internet",
+      "title": "SNSで話題の“カスタム韓国ランプ”を自分好みに。 体験型SHOP「Questions.」新大久保にNEW OPEN！ - PR TIMES",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-03T09:20:37Z",
+      "sources": [
         {
-          "id": "0bf40ba2ff7e36",
-          "name": "Yahoo!ニュース",
-          "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vQ2lJVjUxbXhrbmxEY0JZNzd5U2lmMVg4c1ZhS0lpcUxjWlRXZ0tJcVMyVmltS184SE9xVmlRTFhleVhseEh6M2NmTVBmLXQ2?oc=5",
-          "publishedAt": "2026-10-01T13:22:30Z"
+          "id": "685c1fe8ed3902",
+          "name": "PR TIMES",
+          "title": "SNSで話題の“カスタム韓国ランプ”を自分好みに。 体験型SHOP「Questions.」新大久保にNEW OPEN！ - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MeGdnTnd4MUFiaTAwNzhDbVE5THNMWjM5YW12N25mZ3A4eHZKaGdVZG45TkN6dm56RU43UllGWGtiZVc5VnR6bmtESnp4UDltVWx3eDQzRUpOV0JkNTF6eEk4X2lvSDN1M3c?oc=5",
+          "publishedAt": "2026-10-03T09:20:37Z"
+        }
+      ]
+    },
+    {
+      "id": "9d25d35a3feb54",
+      "category": "economy",
+      "title": "中国による日本への「レアアース輸出制限」で広まった懸念…経済キーワード「Economic Coercion」とは - ニューズウィーク日本版",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-03T04:10:00Z",
+      "sources": [
+        {
+          "id": "a4a93662eac457",
+          "name": "ニューズウィーク日本版",
+          "title": "中国による日本への「レアアース輸出制限」で広まった懸念…経済キーワード「Economic Coercion」とは - ニューズウィーク日本版",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRdVVsUFBFbkdKSVV5MHZVNjRuWTU4UlB4NkV5dzJnVEJLQWtLWlFHZ1BxRDRNY0k4SGlDb0pCdnN5MWdzNzh1cVVvd0llczhaWmpZYmxzS3NYZw?oc=5",
+          "publishedAt": "2026-10-03T04:10:00Z"
         }
       ]
     },
@@ -248,34 +266,96 @@
       ]
     },
     {
-      "id": "fc2b2e663677f8",
+      "id": "c4b812cc365d27",
       "category": "economy",
-      "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - diamond.jp",
+      "title": "円貨介入、どこが誇張されているのか…日本経済破綻論が見落としていること（ハンギョレ新聞） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T23:09:38Z",
+      "sources": [
+        {
+          "id": "aca43a07ad0b07",
+          "name": "Yahoo!ニュース",
+          "title": "円貨介入、どこが誇張されているのか…日本経済破綻論が見落としていること（ハンギョレ新聞） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaMFBkVlNxWDZ2WUpqWW5xenVxdTFUZkJWbGJaTzlnbUtsbXVYNTk0aWpqWng5ZG0yc1YyNzBEc3p2OVdKbDM5R3lLN0hRaHlfVnozREU0dVk1M3RySm5YdHpnZXM5OHBEYVRhZmRaU0MyVzZ3MDF5LUtVY182S2s?oc=5",
+          "publishedAt": "2026-10-02T23:09:38Z"
+        }
+      ]
+    },
+    {
+      "id": "c390748e940670",
+      "category": "entertainment",
+      "title": "福原遥結婚 芸能界から祝福相次ぐ - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T22:33:35Z",
+      "sources": [
+        {
+          "id": "4bd1c503722357",
+          "name": "Yahoo!ニュース",
+          "title": "福原遥結婚 芸能界から祝福相次ぐ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KXzRqWjBMRWNEQ0NsYktnTHpWa29GZndqTVV0Zk9vaHdla2szRnpjUWdzSmpKR0pWc3RfaF9fVWhqUVpSR01QUUYtUXQwckxQ?oc=5",
+          "publishedAt": "2026-10-02T22:33:35Z"
+        },
+        {
+          "id": "0bf40ba2ff7e36",
+          "name": "Yahoo!ニュース",
+          "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vQ2lJVjUxbXhrbmxEY0JZNzd5U2lmMVg4c1ZhS0lpcUxjWlRXZ0tJcVMyVmltS184SE9xVmlRTFhleVhseEh6M2NmTVBmLXQ2?oc=5",
+          "publishedAt": "2026-10-01T13:22:30Z"
+        }
+      ]
+    },
+    {
+      "id": "a5e91dfc1cf205",
+      "category": "politics",
+      "title": "日本のEEZ外に落下か、被害情報なし - nippon.com",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T22:03:04Z",
+      "sources": [
+        {
+          "id": "2bc871447e2cdf",
+          "name": "nippon.com",
+          "title": "日本のEEZ外に落下か、被害情報なし - nippon.com",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ES19QWGpzcEpEWEw2NmJtZU1oNUIwUXpJYy1MdkVJeURndmJtcmpUcHBMRUdydEVGMF80NHlNSzBIbERuUEtzaUY0S3UxOVY0VlhwbUxTQ3lEWlRKb3U2d01GYw?oc=5",
+          "publishedAt": "2026-10-02T22:03:04Z"
+        }
+      ]
+    },
+    {
+      "id": "f64e9b75862d99",
+      "category": "economy",
+      "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-02T21:45:00Z",
       "sources": [
         {
-          "id": "fdd08edef197e9",
-          "name": "diamond.jp",
-          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - diamond.jp",
+          "id": "eaf96ef51fdf6e",
+          "name": "ダイヤモンド・オンライン",
+          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hWUpwV2czQmE5Mnl3aGVPT0ZaVndoeFg4SDhQaDBxZ25LZTA0aE80OFNSMXRWU0s3QThXZWFTOHotcEx0OUYyRlFVTGJ0QkxhVmoxWm5B0gFPQVVfeXFMTmhyNExPM3daVzJKOFNzYi1hVlhPbjZkR1pGVk5aTkFwUEdKTnZoSzZhYU5yZVB2ZXVmeHJkWjhEUnoydkdVSHM0ZnIySFZMdw?oc=5",
+          "publishedAt": "2026-10-02T21:45:00Z"
+        },
+        {
+          "id": "327f699d6d96d1",
+          "name": "ダイヤモンド・オンライン",
+          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ZZFVJWTZLWEhXR0kybnA0SHR4Tjh6WVhMMVdCV0lpMS1DWWtRanNSWlkzWUpEVmZBdjhrSnctT05YS3hubUhSeTlsVlLSAU9BVV95cUxOaHI0TE8zd1pXMko4U3NiLWFWWE9uNmRHWkZWTlpOQXBQR0pOdmhLNmFhTnJlUHZldWZ4cmRaOERSejJ2R1VIczRmcjJIVkx3?oc=5",
           "publishedAt": "2026-10-02T21:45:00Z"
         }
       ]
     },
     {
-      "id": "87d2c783d5fb97",
-      "category": "economy",
-      "title": "強烈な「鎖国令」で移動の自由を制限…習近平政権の過酷な一手が日本経済に及ぼすやばい影響 - 現代ビジネス",
+      "id": "2f4fa904df9c0e",
+      "category": "entertainment",
+      "title": "「政権がピンチになると芸能スキャンダルが出る」は本当？元自民党幹事長・石原伸晃が“都市伝説”にまさかの回答 - ABCマガジン",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T20:00:59Z",
+      "latestPublishedAt": "2026-10-02T21:04:33Z",
       "sources": [
         {
-          "id": "4c43e03b515910",
-          "name": "現代ビジネス",
-          "title": "強烈な「鎖国令」で移動の自由を制限…習近平政権の過酷な一手が日本経済に及ぼすやばい影響 - 現代ビジネス",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5BSmxyanJhcGZ2OWhoSVVydXlLN3BxT0hfNExMa25ZdUlvRjZCRjZvUE5ZU2U1N1dwckZJQ01uSmR3cXF1bld0UDdPZ1owMzg?oc=5",
-          "publishedAt": "2026-10-02T20:00:59Z"
+          "id": "343c59ae847717",
+          "name": "ABCマガジン",
+          "title": "「政権がピンチになると芸能スキャンダルが出る」は本当？元自民党幹事長・石原伸晃が“都市伝説”にまさかの回答 - ABCマガジン",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA4ZENTbUp2NjBZVUhWYld4Y3pHRDE5YWhQVXhNYVJSVmI0SmVzUWl5U2FmZE1zSDU0Ty01QkJXQ0FNY1VNdWRiYjZVUkJhU3NlMllRdEZvWQ?oc=5",
+          "publishedAt": "2026-10-02T21:04:33Z"
         }
       ]
     },
@@ -296,18 +376,50 @@
       ]
     },
     {
-      "id": "a2d767c89ee075",
+      "id": "88008c197386cb",
       "category": "economy",
-      "title": "日本政府、ロシアに追加制裁 - 逗子葉山経済新聞",
+      "title": "「370兆円投資」だけで日本は成長しない、高市改造内閣は農業・医療・雇用に残る“規制の壁”を崩せるか - ダイヤモンド・オンライン",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T11:44:08Z",
+      "latestPublishedAt": "2026-10-02T19:55:00Z",
       "sources": [
         {
-          "id": "7ed346d06a3505",
-          "name": "逗子葉山経済新聞",
-          "title": "日本政府、ロシアに追加制裁 - 逗子葉山経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zOWNra1I4MVVXNDhHSVFIaDRVVjRxeEtfMHdVUnU4bWllY2NTQnpQN2hCZGVrVmxVV1FYS1pXX25xTU9ZczFyU1lmU0F3SEJJZm50Nkg3T29ZOEk?oc=5",
-          "publishedAt": "2026-10-02T11:44:08Z"
+          "id": "1c8faf14352330",
+          "name": "ダイヤモンド・オンライン",
+          "title": "「370兆円投資」だけで日本は成長しない、高市改造内閣は農業・医療・雇用に残る“規制の壁”を崩せるか - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1aZEo3VkVhUlJsaGhJVWQ4bFRRcDNURnozY0UxazdTcm1pTEV4UHEta1pSNWV6dHVlb0RsTV9iVDAwM2Vyd25vUVg1bDnSAU9BVV95cUxPRHFLR29SRVhyTndUQ3FRM3NNa1gxQWhKSXVMRUR1d01aOTR1cTFVcGZvaFZEYTRKTng0ckxoblNNUEc4dFdPd1k0bkt0cnhN?oc=5",
+          "publishedAt": "2026-10-02T19:55:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4566394a3da802",
+      "category": "entertainment",
+      "title": "10/3・4は八王子がアツい！音楽・グルメ・伝統芸能を楽しむ週末イベント8選 - 八王子ジャーニー",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T14:00:22Z",
+      "sources": [
+        {
+          "id": "dc0ab493f1f5d2",
+          "name": "八王子ジャーニー",
+          "title": "10/3・4は八王子がアツい！音楽・グルメ・伝統芸能を楽しむ週末イベント8選 - 八王子ジャーニー",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBud2FqN0tKdy01WlJsTEZFYko2VDdtd3BBUElyb1FWYjctUkVaVlYxUFZSS21fMHgzUFMwdDZNVEJtMGktc2RfbzZJaDROZjJuUDJxUTNrdWVQMFk3emc?oc=5",
+          "publishedAt": "2026-10-02T14:00:22Z"
+        }
+      ]
+    },
+    {
+      "id": "ef3e691ca4bf96",
+      "category": "economy",
+      "title": "日本政府、ロシアに追加制裁 - 和歌山経済新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T13:03:33Z",
+      "sources": [
+        {
+          "id": "3557810daf162e",
+          "name": "和歌山経済新聞",
+          "title": "日本政府、ロシアに追加制裁 - 和歌山経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85OGs5VnBRelFpc01pZGxYTlYxbXJGVmM0MlUyTHFDSFNSV0MtczZTS2VtaUR4ejFZTzE2OEpaN3ZVb2tlSThCbXJ2MG82bUYxSmRUT29B?oc=5",
+          "publishedAt": "2026-10-02T13:03:33Z"
         }
       ]
     },
@@ -344,130 +456,18 @@
       ]
     },
     {
-      "id": "8b2e337bf67b74",
-      "category": "internet",
-      "title": "ベトナム若者のSNSで「借家姫」が話題 恋愛とお金をめぐる新たな流行語 - access-online.net",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T09:31:09Z",
-      "sources": [
-        {
-          "id": "5842d95145fbbb",
-          "name": "access-online.net",
-          "title": "ベトナム若者のSNSで「借家姫」が話題 恋愛とお金をめぐる新たな流行語 - access-online.net",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5YUG5ZRVJYMjZBUlhhY3BSRHRtSEY4UnJ3NXJrQjRWUldHRTVTcnRlTWk0ZGNMOWluMGtYYnJfbDBzbFBWek9yT0QyY3VqZFlXRU5UWUZobnhzQ1FsMEZBZkdhTjJaMmJlSUN2RXhDRWE1SjZfbExF?oc=5",
-          "publishedAt": "2026-10-02T09:31:09Z"
-        }
-      ]
-    },
-    {
-      "id": "65e68c4521defb",
-      "category": "politics",
-      "title": "日本とカタール、エネ協力強化 ホルムズ安全確保で一致:政治 - 福島民友新聞社",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T08:32:00Z",
-      "sources": [
-        {
-          "id": "643eff3e260def",
-          "name": "福島民友新聞社",
-          "title": "日本とカタール、エネ協力強化 ホルムズ安全確保で一致:政治 - 福島民友新聞社",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xVl9BcmF1SHpWNFlNRXFXVFlWT2VGd2l1TjJKajEzVHc0ZmtQNlFkSW5pOTFyQ0MwRjB5VklRamdFS0VENk9KY0pMTEhxaUpmQU90d2pUMWxsVF9Jb1ZZeXRPSVNSZ3o4VFE?oc=5",
-          "publishedAt": "2026-10-02T08:32:00Z"
-        }
-      ]
-    },
-    {
-      "id": "c17c941a2be119",
-      "category": "entertainment",
-      "title": "【石原さとみ】「世界にひとつ」“重ねる”魅力を語る＜芸能動画＞ – Quebee キュエビー - qab.co.jp",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T04:05:15Z",
-      "sources": [
-        {
-          "id": "5b2663fe1ca2a2",
-          "name": "qab.co.jp",
-          "title": "【石原さとみ】「世界にひとつ」“重ねる”魅力を語る＜芸能動画＞ – Quebee キュエビー - qab.co.jp",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE10bzZYWWFDd1BpMXJVZ0pCX2cyTEp1QTdSUUxITWVrdlBISkI0TlFGSG81ZDFVaTBXMHZIdkc4RW9FMl8wR01vNk03Z19LMjZVclFFTVE4RWw?oc=5",
-          "publishedAt": "2026-10-02T04:05:15Z"
-        }
-      ]
-    },
-    {
-      "id": "ad892b82a2e965",
-      "category": "economy",
-      "title": "ロシア財政、なぜ原油が高騰しても最大の赤字なのか 米国の強力制裁でさらに苦境に、日本が対象になる可能性は… - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T01:32:30Z",
-      "sources": [
-        {
-          "id": "619c433dc67f56",
-          "name": "Yahoo!ニュース",
-          "title": "ロシア財政、なぜ原油が高騰しても最大の赤字なのか 米国の強力制裁でさらに苦境に、日本が対象になる可能性は… - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KdjZ4QlM0TkdMN2F4UWFtbEE3b2g4RzRBclZsWEQ4T2h6NmJxVXRKMkRLNXRyX0RDeGlVcFFWMXp4TUJZd21aSDdxeGhRYzExTk5pOHd5TDktdms0TUFEdThIcjNSVF9yQU5CWWc5a0FXMlhyZlVmVEV5M2Z4ZVk?oc=5",
-          "publishedAt": "2026-10-02T01:32:30Z"
-        }
-      ]
-    },
-    {
-      "id": "132e320b12bd17",
-      "category": "economy",
-      "title": "日本経済指標【東京消費者物価指数】 - みんかぶ FX/為替",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T23:30:29Z",
-      "sources": [
-        {
-          "id": "6d9ace35c2150b",
-          "name": "みんかぶ FX/為替",
-          "title": "日本経済指標【東京消費者物価指数】 - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA5RjRvaFpPeVVkb2ZQa3pfeXFlbFNWVE85NVhDbU9ZUnJSb0gydEt3QXNDbEJqbnZrZUlYLWM2YklPcHZ6Y1lmNw?oc=5",
-          "publishedAt": "2026-10-01T23:30:29Z"
-        }
-      ]
-    },
-    {
       "id": "89957b71882893",
       "category": "politics",
-      "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - 日テレNEWS NNN",
+      "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - news.ntv.co.jp",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-01T12:21:00Z",
       "sources": [
         {
           "id": "07c27652a53e3b",
-          "name": "日テレNEWS NNN",
-          "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - 日テレNEWS NNN",
+          "name": "news.ntv.co.jp",
+          "title": "【大提言SP】田中眞紀子氏と橋下徹氏が日本の課題を忖度なしに激論！政治・外交から経済までズバッと語った一問一答 - news.ntv.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYzBGdFJENmNvVHV5R3lwbnJhZnNDWHVLWUVVV2s0VFFwZktxQ1J3OG5URlRSUUkyeUljRjl6NlZ0aUg2QmVjcDJhYTYteWMzUk16amFzNUw5X2c5QU54OHJDLTlyRkwtZnN6cDNVY081alFneXl4ZFVPcGNSdXcxV1VlRVRsV3NI?oc=5",
           "publishedAt": "2026-10-01T12:21:00Z"
-        }
-      ]
-    },
-    {
-      "id": "ea45c6097f3dd8",
-      "category": "entertainment",
-      "title": "【10月1日】芸能界、活動進退報告相次ぐ 引退、所属、独立… 『VIVANT』出演俳優も複数発表 - オリコンニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T11:32:00Z",
-      "sources": [
-        {
-          "id": "de4e1bba056bc3",
-          "name": "オリコンニュース",
-          "title": "【10月1日】芸能界、活動進退報告相次ぐ 引退、所属、独立… 『VIVANT』出演俳優も複数発表 - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wS0FZenIyZTZGOTkzaXh5NmN4QTJKSjRQWnNWSDlFNXNKSTJRQ0JJWDJrZ3BOR3JIUnRLdkVfRHlsbnl0aDBsdVQxbmZNTElpRDUwRGhR?oc=5",
-          "publishedAt": "2026-10-01T11:32:00Z"
-        }
-      ]
-    },
-    {
-      "id": "f6d1a57c571b30",
-      "category": "entertainment",
-      "title": "伊東四朗、来年6月“卒寿”で芸能活動引退「眼、耳、脳、腰、膝…すべてが急速に退化」　看板番組も終了へ - ｄメニューニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-01T04:07:00Z",
-      "sources": [
-        {
-          "id": "6d16223058593a",
-          "name": "ｄメニューニュース",
-          "title": "伊東四朗、来年6月“卒寿”で芸能活動引退「眼、耳、脳、腰、膝…すべてが急速に退化」　看板番組も終了へ - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb2NOLW1PMnZxSGd6SE4yYWFRUmV6SGliWnlVcGhtdWVHdzMtRUN2RmpFUGNLWXdaRDVHa3FzNnBBSmR4X0tHNzMyZWlNQXlPcDBIUVJpWDROUEM5Wl85OEQ4WEtvWllDMXR2ZXJrYnlSamp3MWIzQVY4VkNoRkJGd3hKSdIBiAFBVV95cUxPVVRuU3paWEdmMzA1ZTAxaGJXYjV0TFNYYm41Nnd1WXNjcHRwTEN3QklZLTNCQ3o4aU1iVVl4aTlfeE1ZbWRBNVFLSVZValZkc0p0TksyQVpOc0dMaDFLMlFENmZxZW5HSHJ5Z1FENXFjM2p4WHJqZ3otSkk0ZHVoaGxLWU10dnI3?oc=5",
-          "publishedAt": "2026-10-01T04:07:00Z"
         }
       ]
     }
