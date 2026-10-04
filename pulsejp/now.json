@@ -1,51 +1,58 @@
 {
-  "generatedAt": "2026-10-04T15:22:30Z",
+  "generatedAt": "2026-10-04T19:37:40Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "25a32d44779e68",
+      "id": "7a52f2e7b877b6",
       "category": "politics",
-      "title": "米AI司令塔の創設発表 トランプ氏、政策を調整 - hokkaido-np.co.jp",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-04T14:54:18Z",
+      "title": "トランプ氏 政府のAI司令塔の責任者を発表 AI政策を調整 - news.tv-asahi.co.jp",
+      "sourceCount": 3,
+      "latestPublishedAt": "2026-10-04T17:34:18Z",
       "sources": [
         {
-          "id": "7e4f7e1d9ad61d",
+          "id": "0a20f2d4ef06e3",
+          "name": "news.tv-asahi.co.jp",
+          "title": "トランプ氏 政府のAI司令塔の責任者を発表 AI政策を調整 - news.tv-asahi.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBUUUZlLWsxMlZtT3FEWjBPY3U1N0pnelZZenpkZThoMUFreklTQm9IdFJ2bUd1NnAxbjBHRjdZX05ieU0xTWVSdFExdWxYVFJrbTZPTjh1WGFtUjZkX2R4eEMtSWkta2NwWTFiS1hKdlZfZENPLS1zSDBn?oc=5",
+          "publishedAt": "2026-10-04T17:34:18Z"
+        },
+        {
+          "id": "c75a07caa7ab00",
+          "name": "qab.co.jp",
+          "title": "トランプ氏 政府のAI司令塔の責任者を発表 AI政策を調整 – Quebee キュエビー - qab.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9LQllKejlBYXVRWjc2Y2MzQnlMOGxxNW5TSEFBMHFfalg3aXV6eDVpVEpiQVdjd1dseHFGMjQ5MFdwSTVoYXZrX1VnRl92QzVueXdQek5CX3I?oc=5",
+          "publishedAt": "2026-10-04T17:34:18Z"
+        },
+        {
+          "id": "9e656678918e9d",
           "name": "hokkaido-np.co.jp",
           "title": "米AI司令塔の創設発表 トランプ氏、政策を調整 - hokkaido-np.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0teUZkR0hTZ1ZIRkRmOEhMLVg5ekQwX1FPTzZ2YmR4Z2N5bkpsNlFmUFluUkxjMG5RUkFMQkpNRGhITDVKWGxsUnBVb0JFZUVKTnp3TmxLUnNuQQ?oc=5",
           "publishedAt": "2026-10-04T14:54:18Z"
-        },
-        {
-          "id": "710385965e0612",
-          "name": "佐賀新聞",
-          "title": "米ＡＩ司令塔の創設発表 トランプ氏、政策を調整 | | 全国のニュース - 佐賀新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yWlFVWWFtSV9jaTNEREJCMWphWE9zY1ZuLTF4V0pQbFNnRERZWlJzb0M3T2Jld18zRXZKRXRnaXFmMVM4MzBfbjZFSS14UW5XWWV2dldB?oc=5",
-          "publishedAt": "2026-10-04T14:48:00Z"
         }
       ]
     },
     {
-      "id": "da889f31f66924",
+      "id": "9784c30c2fdb4f",
       "category": "economy",
-      "title": "日本ハムがＶ ファーム日本選手権 - 高松経済新聞",
+      "title": "日本ハムがＶ ファーム日本選手権 - 飯田経済新聞",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-04T12:16:03Z",
+      "latestPublishedAt": "2026-10-04T15:34:05Z",
       "sources": [
         {
-          "id": "2418a36db6585b",
-          "name": "高松経済新聞",
-          "title": "日本ハムがＶ ファーム日本選手権 - 高松経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1JRFdaeWNPZ3Ztc0VWR2lXX1JkcmpVSFRFOENiaFhGalNSUjZzRUVNLWdlMkVnNThLTjdlQkZ6SDV4bTRVNTVXZzB6a2FIcGxsUHl0VEUwSQ?oc=5",
-          "publishedAt": "2026-10-04T12:16:03Z"
+          "id": "bff05903957edf",
+          "name": "飯田経済新聞",
+          "title": "日本ハムがＶ ファーム日本選手権 - 飯田経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5oWjZNREhKNkxqamdMOGt4VkFlRzVuUldpZURRc2lWVWtlOG1xNzlva1BXY01PejN2Z3M3NWo5bkVEcWdiVVNXenk5ZnQtSFBZ?oc=5",
+          "publishedAt": "2026-10-04T15:34:05Z"
         },
         {
           "id": "603af87ebf204d",
-          "name": "kasukabe.keizai.biz",
-          "title": "日本ハムがＶ ファーム日本選手権 - kasukabe.keizai.biz",
+          "name": "春日部経済新聞",
+          "title": "日本ハムがＶ ファーム日本選手権 - 春日部経済新聞",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVOFVXTDRqelpNU2ZsUGdzV2hjR1YyM3ZhNHUwUXNPYXlUZmVnUnZCY0NnbG9XTXlDMkp2UjVDWThVYjRZWkpraEFXS0JHN0kweXZzTWRR?oc=5",
-          "publishedAt": "2026-10-04T10:59:47Z"
+          "publishedAt": "2026-10-04T13:00:45Z"
         }
       ]
     },
@@ -65,10 +72,33 @@
         },
         {
           "id": "d3d120bbf5c5bd",
-          "name": "スポニチ Sponichi Annex",
-          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍 - スポニチ Sponichi Annex",
+          "name": "sponichi.co.jp",
+          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍 - sponichi.co.jp",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWxIdHRYVm1TTVlwREZzcFk5RnJzNTVibDlYTW5LWm9NcF82a3lvR2Z2RmtMNHE3bTNpMjRzcUw4aGtyUm5YTlN6ZlEweXlndk4wWF9DNllXVG1XWm9BR19ZTjZFOG1qUUJfTFJXVjZYOGhxSV9ZcWdjeTBxYW1UYVVHdUszX3pKU2RCZzlPcTdoTFhhemc?oc=5",
           "publishedAt": "2026-10-04T11:12:00Z"
+        }
+      ]
+    },
+    {
+      "id": "a772076546c19a",
+      "category": "politics",
+      "title": "あすから臨時国会 “2大テーマ”「消費税減税」と「定数削減」のカギは - news.tv-asahi.co.jp",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-04T09:16:35Z",
+      "sources": [
+        {
+          "id": "8df9b69796316f",
+          "name": "news.tv-asahi.co.jp",
+          "title": "あすから臨時国会 “2大テーマ”「消費税減税」と「定数削減」のカギは - news.tv-asahi.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpOTY0c2ljRGF0LTZvb2xjWm5BeUlveWVjaFFNOFRlZnpaM2tVNXRsOXBlSnZvQ0tJTmR3ejE1M3M3UmhEcnZHQ2dZT3ZKMXZodUFDeks4V25HWWZwbUlsanE3QzUtU3E5Qnp5MFkwbWVBbWs?oc=5",
+          "publishedAt": "2026-10-04T09:16:35Z"
+        },
+        {
+          "id": "52baccfc00cbb0",
+          "name": "khb東日本放送",
+          "title": "あすから臨時国会 “2大テーマ”「消費税減税」と「定数削減」のカギは - khb東日本放送",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBraWhRdG01V1FIcm4zc2pKY1pvTzdOXzczV1l0OHZCY2lIOTMyVEF4aURuNlAySnA5a0dBM3UzZGEzUlFwaC1NQUVPLXgwVUE?oc=5",
+          "publishedAt": "2026-10-04T09:16:35Z"
         }
       ]
     },
@@ -96,6 +126,36 @@
       ]
     },
     {
+      "id": "7c264cb547e57a",
+      "category": "internet",
+      "title": "【韓流】BTSジミンのTikTok初投稿映像が話題 SNS上でカバー映像続々 - 日刊スポーツ",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-04T04:19:48Z",
+      "sources": [
+        {
+          "id": "bae2d9fed8cc90",
+          "name": "日刊スポーツ",
+          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題 SNS上でカバー映像続々 - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT24xS0ZRQlBvZl9VbDZKd09OM0k5SDYwNVF5VUFYSHpfNmw3M1J5eUoxT09VUFEzWmVySk9KRmhzNl9RR0puU0ZNZ0hwbGNyYmg4dk0yY1V2cjJ3SGxDaXMyVk5Pb0E0MkZBUVkxVlZPbkozM3dBMnRoMnYyZEw4TXEyMmdNTGFEWlV5QW5Gd3VHczJhNmc?oc=5",
+          "publishedAt": "2026-10-04T04:19:48Z"
+        },
+        {
+          "id": "15244c89df7498",
+          "name": "ｄメニューニュース",
+          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclNob1VCM2g4SmVvRWdfanRObV9yYmwtWEV6SHFjY01hV2VETlVWb0tfeVVXU1pwa093cGx6Y2UxN0JTS3pic1pNTzYyT0JpZGFIV3VSNlpmTng5bzRkZ2d6MEJZVk9PWUp5bjcwM1RQTHF0U0tBMGw0UmQtMS16WDRDd3BVbzMwU011akp6WXhHR1RCWVFaRGpZQ2VSQ1nSAaQBQVVfeXFMTUhtNDI3SUhTRG5Ua010OExxdnVGV2FkcUtXdTFXbGcyb0VzY0xOcng4cmdMNk5wNUE2bnB0R0xiN3NSWDNBdG9ZNHVObHVCcXJYMDVTNE5IOUFVOHRuNUtmUGVVS3FBSEhaWTNsME85Z0VFOUR4TmFwc013TGJfNjlwN1hkZ1VCb1hPcF9MTmwxWDhBeWQ5a1lSejJCVVduNmJrOU0?oc=5",
+          "publishedAt": "2026-10-03T21:00:00Z"
+        },
+        {
+          "id": "3526d0811b2c3f",
+          "name": "日刊スポーツ",
+          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vZjUtZmY1T3ctZm5MbE1KZm14OVB4RVliMWZSRzZzUnJyQ3VCSVNvb2NHa3JrZW1EcTNQamVkLTZVb25YZnhxQzZseTExNEpJUjQyNHdBdGRjVlo3bjlGTWE2NlA5SnFPNVR3SFNad3EzT2E4OVRzZUoxdDPSAX9BVV95cUxPZlNaWHFkODQzZGEtcTZuTUl4VE5wdEpHYUtnV3FvY2VRVl9zTDZfc1BFZF9reTE1N3BHNUhaTXVTVG11Z3dCN2lrSnFXTXpsTlNDTzg3cVdqTnFDQnljcE5uWHdKMEQ1MzhLNkphQnJKZXpHMEtTR1ZHbGNtOENJ?oc=5",
+          "publishedAt": "2026-10-03T21:00:00Z"
+        }
+      ]
+    },
+    {
       "id": "0d129fef098a06",
       "category": "politics",
       "title": "高市首相も避けられなかった政権の「鬼門」簗和生農相予算カット発言で臨時国会は荒れ観測（日刊スポーツ） - Yahoo!ニュース",
@@ -115,52 +175,6 @@
           "title": "高市首相も避けられなかった政権の「鬼門」簗和生農相予算カット発言で臨時国会は荒れ観測 - 日刊スポーツ",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUVprb2szenZXajNTSW5KTGZhbjliR3hsRjVsV3FCcUxRai1vZGxxdjlCNHZ3RnE2RHREN1dOM29lWTVQSWtrTzZDQUZhMjRHYzUzQTdsMlpWbzBya2lRMldKMXFjMW5TRGhfT0RZa3NlNmVPZmotdVFEQUtjTWY5X1prbFk?oc=5",
           "publishedAt": "2026-10-04T02:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "ca0f1bea2d27ba",
-      "category": "internet",
-      "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - 日刊スポーツ",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-03T21:00:00Z",
-      "sources": [
-        {
-          "id": "1b51cc4cf5526f",
-          "name": "日刊スポーツ",
-          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - 日刊スポーツ",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vZjUtZmY1T3ctZm5MbE1KZm14OVB4RVliMWZSRzZzUnJyQ3VCSVNvb2NHa3JrZW1EcTNQamVkLTZVb25YZnhxQzZseTExNEpJUjQyNHdBdGRjVlo3bjlGTWE2NlA5SnFPNVR3SFNad3EzT2E4OVRzZUoxdDPSAX9BVV95cUxPZlNaWHFkODQzZGEtcTZuTUl4VE5wdEpHYUtnV3FvY2VRVl9zTDZfc1BFZF9reTE1N3BHNUhaTXVTVG11Z3dCN2lrSnFXTXpsTlNDTzg3cVdqTnFDQnljcE5uWHdKMEQ1MzhLNkphQnJKZXpHMEtTR1ZHbGNtOENJ?oc=5",
-          "publishedAt": "2026-10-03T21:00:00Z"
-        },
-        {
-          "id": "15244c89df7498",
-          "name": "ｄメニューニュース",
-          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclNob1VCM2g4SmVvRWdfanRObV9yYmwtWEV6SHFjY01hV2VETlVWb0tfeVVXU1pwa093cGx6Y2UxN0JTS3pic1pNTzYyT0JpZGFIV3VSNlpmTng5bzRkZ2d6MEJZVk9PWUp5bjcwM1RQTHF0U0tBMGw0UmQtMS16WDRDd3BVbzMwU011akp6WXhHR1RCWVFaRGpZQ2VSQ1nSAaQBQVVfeXFMTUhtNDI3SUhTRG5Ua010OExxdnVGV2FkcUtXdTFXbGcyb0VzY0xOcng4cmdMNk5wNUE2bnB0R0xiN3NSWDNBdG9ZNHVObHVCcXJYMDVTNE5IOUFVOHRuNUtmUGVVS3FBSEhaWTNsME85Z0VFOUR4TmFwc013TGJfNjlwN1hkZ1VCb1hPcF9MTmwxWDhBeWQ5a1lSejJCVVduNmJrOU0?oc=5",
-          "publishedAt": "2026-10-03T21:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "aa7c0b5375a14f",
-      "category": "politics",
-      "title": "国会改革、高市首相の予算委出席減を野党警戒…欧米諸国の首脳と比べ国会への出席日数多く「時間の使い方」提言も - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-02T23:27:13Z",
-      "sources": [
-        {
-          "id": "8c9fabe3d2093e",
-          "name": "Yahoo!ニュース",
-          "title": "国会改革、高市首相の予算委出席減を野党警戒…欧米諸国の首脳と比べ国会への出席日数多く「時間の使い方」提言も - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3S0d0TnlEZGZHX3pOOVZlMExFeno3ZVhKQ3BFOXdQWHdyY2RieVNSbDljWkp4MFRCY0oxZXZtMV9GdzNKSjk4eU9NQjhwYWNNcS04M1pTNmtYOVFibjV4bkp1Q1Y1dktjNXhyQXpVa01mLWdpdzBJQzBPN1dLemM?oc=5",
-          "publishedAt": "2026-10-02T23:27:13Z"
-        },
-        {
-          "id": "04b1bd764d0059",
-          "name": "ｄメニューニュース",
-          "title": "国会改革、高市首相の予算委出席減を野党警戒…欧米諸国の首脳と比べ国会への出席日数多く「時間の使い方」提言も - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQTRvbVpuNlVVT3VpdkE2M0gxSW5zay1XSllrYnNlc01tOWV4U0V0aXdKWXBWZngxMF9McmhtX2lnajBId0s1bkFUQ1lVaDhCTF92U1lJcm1EN01abmxhSndXY2UtcVljaEZyWXZ2ZmtxM0NaTlBQT2VYekthUEFGTVFjaUxIYVhPVjRrbUN4WjPSAYwBQVVfeXFMTzZUay1wdDIteXg0QWV5OHZrNWtsSWZ3OWJaOEVjRXZqeGFWV21UdUJ0SlJVcDdCd0p5TlFld1JFRWZpMWU4TFdDV3BJT1NjaVFZeVp1d09nbTdwQmRsaUgtbTNZaEU2dks1RXg2LTRtTWtFbHR0TVVvQjREejFDVWMwSDJ2YWIwUExBRjc?oc=5",
-          "publishedAt": "2026-10-02T23:25:00Z"
         }
       ]
     },
@@ -286,26 +300,58 @@
         },
         {
           "id": "3af021ad77f484",
-          "name": "ナタリー",
-          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
+          "name": "natalie.mu",
+          "title": "モナキが変わりすぎて話題、特におヨネ - natalie.mu",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
           "publishedAt": "2026-09-26T07:00:00Z"
         }
       ]
     },
     {
-      "id": "7fcf27dd32e8b9",
+      "id": "fa22edf2046d2a",
       "category": "entertainment",
-      "title": "有吉弘行 来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - スポニチ Sponichi Annex",
+      "title": "有吉弘行　来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - ｄメニューニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-04T11:43:00Z",
+      "latestPublishedAt": "2026-10-04T11:45:00Z",
       "sources": [
         {
-          "id": "ee17cb8f9a0a1e",
-          "name": "スポニチ Sponichi Annex",
-          "title": "有吉弘行 来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - スポニチ Sponichi Annex",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMlNNd0NGMU1TQ2VPM3JDWU9OUjZpNGtyN1NlOXJySDB0a3dmMG9aM0JpOW9PTXdXbUp0ZXBZWUFzT1dsSVdJYmVJUml3azZYaGdVMWsyUUFLYUVBaUtDSkpyQ2poaTZXVUhEVTNza3BIc3JHVm05UFk0eDNvV1RPX1JIQjhra1JSOUJVM2NYNW8yNnYyVWc?oc=5",
-          "publishedAt": "2026-10-04T11:43:00Z"
+          "id": "6ca4b37fca04a5",
+          "name": "ｄメニューニュース",
+          "title": "有吉弘行　来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU2pLejFfczZ3bi1Nc1FlemVCNUpqYXZyZjVQZEpVY0ZDYTc1ZU9JbnY3ZEYtT1lKVVhSQ09kakp4OTBHQVRKaHlJX1VySkp4MkV2d2g1RkxqMExYWWJfYURuc19wc002MWt3Z0M5a3VnTElkdDRmN09rbVZuNkZ1dGVQSnQ2c3F5aDlZQVkwY0lNbXJrM0tj0gGcAUFVX3lxTE02WFd5bFdnNVo4dVRfNnIxVWxGLUlxZjZ0VHJLWERXdHMwaXF1ZjdNbTNMQXV2QXREZXQyQVVLV0dZTjJUR05xYWdnakZjQkVFQk9keVpFZ3RRNmN2ZGVOVFc4Xzl0TlVDRVpiYXJyUVkzWlhpTi1VZ1cwQkdNM0w1bWVWdVR0UTdad3haOVZQWmNDcnFDNWludUt0Qw?oc=5",
+          "publishedAt": "2026-10-04T11:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8a535e2252e7ad",
+      "category": "economy",
+      "title": "宇佐市 選挙ドットコム 日本の2024年度GDPと宇佐市の経済の考察 - go2senkyo.com",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-04T11:31:36Z",
+      "sources": [
+        {
+          "id": "ba11078da1dc99",
+          "name": "go2senkyo.com",
+          "title": "宇佐市 選挙ドットコム 日本の2024年度GDPと宇佐市の経済の考察 - go2senkyo.com",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VWTRtMkVoc1NWR0VYU1hEZnhkODJ0VlRNRjJTU2NrbWQweC01ZnBFUjFnWENkMWlVbDRkV0lzRkRNRWN4eUk2cTVCWTE1MnBNeVRwbjZRd01hVUxnd21v?oc=5",
+          "publishedAt": "2026-10-04T11:31:36Z"
+        }
+      ]
+    },
+    {
+      "id": "869ad1c2af10d1",
+      "category": "internet",
+      "title": "【アジア大会】「閉会式ガラガラじゃね」開会式に続き空席目立つとSNSで話題（日刊スポーツ） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-04T10:05:34Z",
+      "sources": [
+        {
+          "id": "7ae5a084bedd6d",
+          "name": "Yahoo!ニュース",
+          "title": "【アジア大会】「閉会式ガラガラじゃね」開会式に続き空席目立つとSNSで話題（日刊スポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE81bmFOQVJlU094SWFVU0wzRjRUQXJ6LVRleGtjanFOV2hvUDQ0azd4azJHMWd4bHp0RDF1eU5YM2pVclRoVjVpdmxWbkpmTVVxOE5fZUJtZUg5dm5JQXZoUHdJa05wb0U4TjdGTDdwRXpvT3ZTd1RHeVh4Y0JYZXc?oc=5",
+          "publishedAt": "2026-10-04T10:05:34Z"
         }
       ]
     },
@@ -345,22 +391,6 @@
           "title": "日経平均は7万円うかがう、円は下値限定 - 日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pRXdxYlJMRmowT183bDVCZ3ZRakliOTVqd1UxNnJDd29LdFJCSWlyTEd2ci1EeUZxMnlVR0pYZVlteG40Nkk1UUVpbWhid0d2TzRTeHpzTmRRN2NIQXlLckxkRkgwWENjMDhtVQ?oc=5",
           "publishedAt": "2026-10-02T19:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "8a535e2252e7ad",
-      "category": "economy",
-      "title": "宇佐市 選挙ドットコム 日本の2024年度GDPと宇佐市の経済の考察 - 選挙ドットコム",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-04T05:51:28Z",
-      "sources": [
-        {
-          "id": "ba11078da1dc99",
-          "name": "選挙ドットコム",
-          "title": "宇佐市 選挙ドットコム 日本の2024年度GDPと宇佐市の経済の考察 - 選挙ドットコム",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VWTRtMkVoc1NWR0VYU1hEZnhkODJ0VlRNRjJTU2NrbWQweC01ZnBFUjFnWENkMWlVbDRkV0lzRkRNRWN4eUk2cTVCWTE1MnBNeVRwbjZRd01hVUxnd21v?oc=5",
-          "publishedAt": "2026-10-04T05:51:28Z"
         }
       ]
     },
@@ -429,18 +459,41 @@
       ]
     },
     {
-      "id": "21086150c1d8c9",
+      "id": "d2bfdf4e1d38e4",
       "category": "entertainment",
-      "title": "広瀬アリス「常に明るい自分でいなきゃ」 芸能活動をする中での苦悩、転機となった出会いを明かす - 日テレNEWS NNN",
+      "title": "ボウリング王・大泉洋VS豪華芸能人 芸能界ボウリングNo.1ペアがついに決定！「スター激突！大泉ボウリング」【出演者一覧】 - 日本テレビ",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-03T21:00:00Z",
+      "latestPublishedAt": "2026-10-03T22:00:00Z",
       "sources": [
         {
-          "id": "deaa3ef027a046",
-          "name": "日テレNEWS NNN",
-          "title": "広瀬アリス「常に明るい自分でいなきゃ」 芸能活動をする中での苦悩、転機となった出会いを明かす - 日テレNEWS NNN",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43SkJ4M1owUk9XYjFjQWxURDYwcGdxdnFmRTF4SWFYcXFxaHBwZ0JudUpZTV82SG9kdFpiNXBjVWdRVnNnNmRFR3VHN2R0Y3oySktFVGJIYXBkenFjYmctWGIxcXJZNlhzd3JYVXh4bi1vSjNlcXdkaHUwQXo?oc=5",
-          "publishedAt": "2026-10-03T21:00:00Z"
+          "id": "5750843fa4a514",
+          "name": "日本テレビ",
+          "title": "ボウリング王・大泉洋VS豪華芸能人 芸能界ボウリングNo.1ペアがついに決定！「スター激突！大泉ボウリング」【出演者一覧】 - 日本テレビ",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDX0lkOURPVmRMM05vbW1sV1NGb0d6clVUMDBPNGRoRHFuekI5SXRZb2FNdnptSzJnaVcxd3NWZ0hrQnowMWlUMGJ3c05QVjlRRVRxZTBuR0IzVHVmSVNocG96RG1TWG9pcnF0TW9nUTltdXFjeFlfc0lKSQ?oc=5",
+          "publishedAt": "2026-10-03T22:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "604dafe4c1bd4e",
+      "category": "politics",
+      "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-03T09:00:34Z",
+      "sources": [
+        {
+          "id": "24f33554b3d654",
+          "name": "Yahoo!ニュース",
+          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXlHUFM0bjhhZG5kdGhEd2pXdTExOWpDa1JFZGJ5MVF2U05TbTlERDBELUZSYzUzdHlGRGxZOEh5N3phVmpGWDFJSUNydWpySWxoOWNvV1ZDNTN5UG9HYUk3NXdJTWJnMk4xRmZSVXVwTC1nN19ITURzS3E3WHJXbkpoMHQzMV9B?oc=5",
+          "publishedAt": "2026-10-03T09:00:34Z"
+        },
+        {
+          "id": "d803a10c24a67e",
+          "name": "Yahoo!ニュース",
+          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBJOXVvRUY1T01LYWdIS2lSeHA4RGliTTNxWEJ2eWd4Rks3NHo2d3AzdVBnM1N3YV9yV3pIckYzNU11Q08zeGVtcDRUZ0dybElNOTNBd3JZM2tsa0xpeVlmZWt0SENqQVlZNFpxazZTam52d0FuM2pfWjRQZE9qZzQ?oc=5",
+          "publishedAt": "2026-10-03T09:00:34Z"
         }
       ]
     },
@@ -464,38 +517,6 @@
           "title": "「ブラッサム」史実は？清治役話題の渡部篤郎“あさイチの法則”発動か「早くない？」ネット注目10・9（スポニチアネックス） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Bd2Q5cWxQbFA2cDNsYXFNMnFlWi1MXzdUM0VmRjZ2NlZyQXhrU19hN3NhRU9BY1BkT0lmWDZpaHZSS19SdGs3bXUyUC01U0NBd08xbHN2SDVCWjkzUEZ1cDY3MWNwUFNva1ZnUEdRRUxoLXNPQVFOcXZyYWVqNW8?oc=5",
           "publishedAt": "2026-10-02T23:15:00Z"
-        }
-      ]
-    },
-    {
-      "id": "d37580087508bd",
-      "category": "politics",
-      "title": "いまの日本に「保守」はない 片山杜秀・慶大教授、迎合政治を憂う - 日本経済新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T20:00:00Z",
-      "sources": [
-        {
-          "id": "192ef29705e7b3",
-          "name": "日本経済新聞",
-          "title": "いまの日本に「保守」はない 片山杜秀・慶大教授、迎合政治を憂う - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pVTdzZERkMUhsTlJ4MnU5UUF3RGFXUFY3V1plMExRSVJSODRBRlJ0NU0wMnFUaHNCYTdBS1ZMbWdRaFE3VTNFRGE3UnZqVmVkUGJmNkdDdGhQUGlyLVVsbS05b3k3YkE1cVh3cQ?oc=5",
-          "publishedAt": "2026-10-02T20:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "770a4f9cb9382c",
-      "category": "entertainment",
-      "title": "「国民的美少女」GPから36年、長年芸能活動休止…〝47歳最新ショット〟小田茜に反響「本当に昔から変わらない」「嬉しい限りです」：「おっ！」でつながる地元密着のスポーツ応援メディア 西スポWEB OTTO! - 西スポWEB OTTO!",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T11:40:00Z",
-      "sources": [
-        {
-          "id": "251bab212940b4",
-          "name": "西スポWEB OTTO!",
-          "title": "「国民的美少女」GPから36年、長年芸能活動休止…〝47歳最新ショット〟小田茜に反響「本当に昔から変わらない」「嬉しい限りです」：「おっ！」でつながる地元密着のスポーツ応援メディア 西スポWEB OTTO! - 西スポWEB OTTO!",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56Nmk1aFNUemZJaDl6a19qMnlkTFk2LWpKUHRfNzJNbmUyZnFrNkhTSzdhVU9IenlZYWhEX3Y2TFVEX3R1SGdUQmNLZ3ZLc0d0c2VVLVpZaGJfNDBvYkVj?oc=5",
-          "publishedAt": "2026-10-02T11:40:00Z"
         }
       ]
     }
