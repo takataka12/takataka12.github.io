@@ -1,120 +1,166 @@
 {
-  "generatedAt": "2026-10-04T09:47:25Z",
+  "generatedAt": "2026-10-04T15:22:30Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "18d03910b2e993",
-      "category": "economy",
-      "title": "【ハイライト】流通経済大学 vs. 日本大学｜ラグビー 関東大学リーグ戦2026（10月4日） - スポーツナビ",
+      "id": "25a32d44779e68",
+      "category": "politics",
+      "title": "米AI司令塔の創設発表 トランプ氏、政策を調整 - hokkaido-np.co.jp",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-04T09:20:41Z",
+      "latestPublishedAt": "2026-10-04T14:54:18Z",
       "sources": [
         {
-          "id": "e3683b8b09bef7",
-          "name": "スポーツナビ",
-          "title": "【ハイライト】流通経済大学 vs. 日本大学｜ラグビー 関東大学リーグ戦2026（10月4日） - スポーツナビ",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1sX3Y0a2dUSUROdFdBNXFZTEJCVWVVNlUxNjRreFhBeXBGLWwtUEVzbFVMMDNUc1hWc19EZ3VWNGRwcW9ZOS11Y0JtWkRMV1diNWtuQ0ZWWUxwbUZq?oc=5",
-          "publishedAt": "2026-10-04T09:20:41Z"
+          "id": "7e4f7e1d9ad61d",
+          "name": "hokkaido-np.co.jp",
+          "title": "米AI司令塔の創設発表 トランプ氏、政策を調整 - hokkaido-np.co.jp",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0teUZkR0hTZ1ZIRkRmOEhMLVg5ekQwX1FPTzZ2YmR4Z2N5bkpsNlFmUFluUkxjMG5RUkFMQkpNRGhITDVKWGxsUnBVb0JFZUVKTnp3TmxLUnNuQQ?oc=5",
+          "publishedAt": "2026-10-04T14:54:18Z"
         },
         {
-          "id": "c7fe1c1675e532",
-          "name": "J Sports オンデマンド",
-          "title": "流通経済大学 vs. 日本大学 ラグビー 関東大学リーグ戦2026 【限定】｜視聴画面 - J Sports オンデマンド",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PSWVNVEwwS1BzWkpzaXJKYVNjUktNSFpGNGV0SVRzN2s5ZlJUZi1kUFV0YnJvc3Vvdk1LVk1rRTlhZkk0eG1OSEdxa1pNUVNUdWpaLVF1Zi1tRWVWa2tUVFViRWFtNmRFMDI4Mi1hYw?oc=5",
-          "publishedAt": "2026-10-04T05:41:47Z"
+          "id": "710385965e0612",
+          "name": "佐賀新聞",
+          "title": "米ＡＩ司令塔の創設発表 トランプ氏、政策を調整 | | 全国のニュース - 佐賀新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yWlFVWWFtSV9jaTNEREJCMWphWE9zY1ZuLTF4V0pQbFNnRERZWlJzb0M3T2Jld18zRXZKRXRnaXFmMVM4MzBfbjZFSS14UW5XWWV2dldB?oc=5",
+          "publishedAt": "2026-10-04T14:48:00Z"
         }
       ]
     },
     {
-      "id": "13f85e3742a7bf",
-      "category": "politics",
-      "title": "国会5日召集、消費減税で論戦へ 簗農相ら閣僚の資質追及 - 北海道新聞デジタル",
+      "id": "da889f31f66924",
+      "category": "economy",
+      "title": "日本ハムがＶ ファーム日本選手権 - 高松経済新聞",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-04T09:09:28Z",
+      "latestPublishedAt": "2026-10-04T12:16:03Z",
       "sources": [
         {
-          "id": "c3601ac42fba0e",
-          "name": "北海道新聞デジタル",
-          "title": "国会5日召集、消費減税で論戦へ 簗農相ら閣僚の資質追及 - 北海道新聞デジタル",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PaGVFM0g1YjBDNXBpdEtVQTlBWjkxZkx6QXpXZXlxcGswTEJVY0xKMmtsdmpuX081TnNUazlpMzVpdGVsNHlMZ19STEF1Z0lWZWhiT2ZoX1Z4dw?oc=5",
-          "publishedAt": "2026-10-04T09:09:28Z"
+          "id": "2418a36db6585b",
+          "name": "高松経済新聞",
+          "title": "日本ハムがＶ ファーム日本選手権 - 高松経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1JRFdaeWNPZ3Ztc0VWR2lXX1JkcmpVSFRFOENiaFhGalNSUjZzRUVNLWdlMkVnNThLTjdlQkZ6SDV4bTRVNTVXZzB6a2FIcGxsUHl0VEUwSQ?oc=5",
+          "publishedAt": "2026-10-04T12:16:03Z"
         },
         {
-          "id": "7a10fe908ed641",
-          "name": "東奥日報社",
-          "title": "国会５日召集、消費減税で論戦へ 簗農相ら閣僚の資質追及｜全国のニュース｜Web東奥 - 東奥日報社",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1KMXZ0d0w5UFl2bElwNEE3Z3J3SWhiYlVxZW8tQ2pHTWtaRlN4Z2ttLUVuUEZlN3hvWnBlQXB0Y004dlhITUo0bzc5S3l0WmhfLS1HeXQwMFI?oc=5",
-          "publishedAt": "2026-10-04T08:59:56Z"
+          "id": "603af87ebf204d",
+          "name": "kasukabe.keizai.biz",
+          "title": "日本ハムがＶ ファーム日本選手権 - kasukabe.keizai.biz",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVOFVXTDRqelpNU2ZsUGdzV2hjR1YyM3ZhNHUwUXNPYXlUZmVnUnZCY0NnbG9XTXlDMkp2UjVDWThVYjRZWkpraEFXS0JHN0kweXZzTWRR?oc=5",
+          "publishedAt": "2026-10-04T10:59:47Z"
+        }
+      ]
+    },
+    {
+      "id": "49e41fb27e6b15",
+      "category": "entertainment",
+      "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍（スポニチアネックス） - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-04T11:13:41Z",
+      "sources": [
+        {
+          "id": "c1df6c2868ca17",
+          "name": "Yahoo!ニュース",
+          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍（スポニチアネックス） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jWld6M0FXWFRkd1FQMXZIaFByYVFtcDUwWFVMaGJRWDdJcWwwZEJUc29FN0tmeHFObnhWa1lkWWttT3BFTUk1OXpmcXYwMURES21yWThaSTgtRHc5TWlndktFcVIxa3hmZlh4NnNWYkVDNzFkU3dUZVFYQUZLdzg?oc=5",
+          "publishedAt": "2026-10-04T11:13:41Z"
+        },
+        {
+          "id": "d3d120bbf5c5bd",
+          "name": "スポニチ Sponichi Annex",
+          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍 - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWxIdHRYVm1TTVlwREZzcFk5RnJzNTVibDlYTW5LWm9NcF82a3lvR2Z2RmtMNHE3bTNpMjRzcUw4aGtyUm5YTlN6ZlEweXlndk4wWF9DNllXVG1XWm9BR19ZTjZFOG1qUUJfTFJXVjZYOGhxSV9ZcWdjeTBxYW1UYVVHdUszX3pKU2RCZzlPcTdoTFhhemc?oc=5",
+          "publishedAt": "2026-10-04T11:12:00Z"
         }
       ]
     },
     {
       "id": "93d193ce36bccf",
       "category": "internet",
-      "title": "「jouetie」SNSで話題のモデル・Miinaの来店イベントを新宿ルミネエスト店で11月1日開催 - torso-jack.com",
+      "title": "「jouetie」SNSで話題のモデル・Miinaの来店イベントを新宿ルミネエスト店で11月1日開催 - TORSO JACK",
       "sourceCount": 2,
       "latestPublishedAt": "2026-10-04T06:32:37Z",
       "sources": [
         {
           "id": "a6e5c4f8a7594f",
-          "name": "torso-jack.com",
-          "title": "「jouetie」SNSで話題のモデル・Miinaの来店イベントを新宿ルミネエスト店で11月1日開催 - torso-jack.com",
+          "name": "TORSO JACK",
+          "title": "「jouetie」SNSで話題のモデル・Miinaの来店イベントを新宿ルミネエスト店で11月1日開催 - TORSO JACK",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1FbC1ZUElucTM3NTkwR05WY1pxQkEwRUFsWDFWZVlpR0Z3X1VTOWw5MjNlVjI4Z184a3VqRFhWeDlyVU5WemIwXzNGaW9hQQ?oc=5",
           "publishedAt": "2026-10-04T06:32:37Z"
         },
         {
-          "id": "20af3c8a9f8003",
-          "name": "千葉テレビ放送株式会社",
-          "title": "「jouetie」SNSで話題のモデル・Miinaの来店イベントを新宿ルミネエスト店で11月1日開催 - 千葉テレビ放送株式会社",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iXzJ0R3VQZ1F4OVJKd09NZ3JVRXFGOWlhWmtSSWF1SVREb1VoMkR6QU84cElyMnJNQXBWMHRMeHFhNjZfQ3AyV05WdVlVSXBoQWhGSUdvVUZ2TDIxekN3?oc=5",
-          "publishedAt": "2026-10-04T02:00:46Z"
+          "id": "7f5cb627f6e164",
+          "name": "PR TIMES",
+          "title": "「jouetie(ジュエティ)」SNSで話題のモデル「Miina」さんが新宿ルミネエスト店に登場！11月1日(日)来店イベント開催決定 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUbmFpcmpqR2xRQW9uNUVtdTlSM18zU2p2NEFibHBrazcwUUFKY2NfNVhlMVZEdUdTUC0wcWc1MTVfeDcyS0tBS0dmQXU1aG9OYVppUXRyU2czUW4zeDNvcmhWOXd5RkRWM2c?oc=5",
+          "publishedAt": "2026-10-02T03:07:30Z"
         }
       ]
     },
     {
-      "id": "a4bbff31cf6239",
-      "category": "internet",
-      "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - ｄメニューニュース",
+      "id": "0d129fef098a06",
+      "category": "politics",
+      "title": "高市首相も避けられなかった政権の「鬼門」簗和生農相予算カット発言で臨時国会は荒れ観測（日刊スポーツ） - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-03T21:05:58Z",
+      "latestPublishedAt": "2026-10-04T02:00:02Z",
       "sources": [
         {
-          "id": "f87981fb5d6bba",
-          "name": "ｄメニューニュース",
-          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclNob1VCM2g4SmVvRWdfanRObV9yYmwtWEV6SHFjY01hV2VETlVWb0tfeVVXU1pwa093cGx6Y2UxN0JTS3pic1pNTzYyT0JpZGFIV3VSNlpmTng5bzRkZ2d6MEJZVk9PWUp5bjcwM1RQTHF0U0tBMGw0UmQtMS16WDRDd3BVbzMwU011akp6WXhHR1RCWVFaRGpZQ2VSQ1nSAaQBQVVfeXFMTUhtNDI3SUhTRG5Ua010OExxdnVGV2FkcUtXdTFXbGcyb0VzY0xOcng4cmdMNk5wNUE2bnB0R0xiN3NSWDNBdG9ZNHVObHVCcXJYMDVTNE5IOUFVOHRuNUtmUGVVS3FBSEhaWTNsME85Z0VFOUR4TmFwc013TGJfNjlwN1hkZ1VCb1hPcF9MTmwxWDhBeWQ5a1lSejJCVVduNmJrOU0?oc=5",
-          "publishedAt": "2026-10-03T21:05:58Z"
+          "id": "2ed0e79265f3ba",
+          "name": "Yahoo!ニュース",
+          "title": "高市首相も避けられなかった政権の「鬼門」簗和生農相予算カット発言で臨時国会は荒れ観測（日刊スポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyYklhRm00ODc1aWF1UThDZkRSMjY4V1dZa0I3TDdLaElSUGhqSjMwQkd3QjJkZ0JHM1MzN1puU3U4OXFkdWhsMEFSNmE1SlFHSGlRdU5wMzQtQXFOby1Sd2Z1SDU2M1RPdlhDdW92dndYNmJiR0F0SVRTck92R3c?oc=5",
+          "publishedAt": "2026-10-04T02:00:02Z"
         },
         {
-          "id": "533d3242e395da",
+          "id": "ce7faededce1be",
+          "name": "日刊スポーツ",
+          "title": "高市首相も避けられなかった政権の「鬼門」簗和生農相予算カット発言で臨時国会は荒れ観測 - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUVprb2szenZXajNTSW5KTGZhbjliR3hsRjVsV3FCcUxRai1vZGxxdjlCNHZ3RnE2RHREN1dOM29lWTVQSWtrTzZDQUZhMjRHYzUzQTdsMlpWbzBya2lRMldKMXFjMW5TRGhfT0RZa3NlNmVPZmotdVFEQUtjTWY5X1prbFk?oc=5",
+          "publishedAt": "2026-10-04T02:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ca0f1bea2d27ba",
+      "category": "internet",
+      "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - 日刊スポーツ",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-03T21:00:00Z",
+      "sources": [
+        {
+          "id": "1b51cc4cf5526f",
           "name": "日刊スポーツ",
           "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - 日刊スポーツ",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vZjUtZmY1T3ctZm5MbE1KZm14OVB4RVliMWZSRzZzUnJyQ3VCSVNvb2NHa3JrZW1EcTNQamVkLTZVb25YZnhxQzZseTExNEpJUjQyNHdBdGRjVlo3bjlGTWE2NlA5SnFPNVR3SFNad3EzT2E4OVRzZUoxdDPSAX9BVV95cUxPZlNaWHFkODQzZGEtcTZuTUl4VE5wdEpHYUtnV3FvY2VRVl9zTDZfc1BFZF9reTE1N3BHNUhaTXVTVG11Z3dCN2lrSnFXTXpsTlNDTzg3cVdqTnFDQnljcE5uWHdKMEQ1MzhLNkphQnJKZXpHMEtTR1ZHbGNtOENJ?oc=5",
+          "publishedAt": "2026-10-03T21:00:00Z"
+        },
+        {
+          "id": "15244c89df7498",
+          "name": "ｄメニューニュース",
+          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclNob1VCM2g4SmVvRWdfanRObV9yYmwtWEV6SHFjY01hV2VETlVWb0tfeVVXU1pwa093cGx6Y2UxN0JTS3pic1pNTzYyT0JpZGFIV3VSNlpmTng5bzRkZ2d6MEJZVk9PWUp5bjcwM1RQTHF0U0tBMGw0UmQtMS16WDRDd3BVbzMwU011akp6WXhHR1RCWVFaRGpZQ2VSQ1nSAaQBQVVfeXFMTUhtNDI3SUhTRG5Ua010OExxdnVGV2FkcUtXdTFXbGcyb0VzY0xOcng4cmdMNk5wNUE2bnB0R0xiN3NSWDNBdG9ZNHVObHVCcXJYMDVTNE5IOUFVOHRuNUtmUGVVS3FBSEhaWTNsME85Z0VFOUR4TmFwc013TGJfNjlwN1hkZ1VCb1hPcF9MTmwxWDhBeWQ5a1lSejJCVVduNmJrOU0?oc=5",
           "publishedAt": "2026-10-03T21:00:00Z"
         }
       ]
     },
     {
-      "id": "ebd9a4f243322d",
+      "id": "aa7c0b5375a14f",
       "category": "politics",
-      "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "title": "国会改革、高市首相の予算委出席減を野党警戒…欧米諸国の首脳と比べ国会への出席日数多く「時間の使い方」提言も - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-03T09:00:34Z",
+      "latestPublishedAt": "2026-10-02T23:27:13Z",
       "sources": [
         {
-          "id": "5c2a28be066a80",
+          "id": "8c9fabe3d2093e",
           "name": "Yahoo!ニュース",
-          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMTN4eGlJbE95dmJlYXJVaGpoblRzSGxCV2IyNmYwTFJjSHlLdlZuUGJiOW9neFNaYXBlejFCQU84MU5iZjVKV2VjS0J3czNsY0VoTFloUDZ0WW9KMm42WEZjR2dDbTQtT2pYRzBaSDR4YmF5NHZzbldlMlJhdUhCb1hrQUY4bU9l?oc=5",
-          "publishedAt": "2026-10-03T09:00:34Z"
+          "title": "国会改革、高市首相の予算委出席減を野党警戒…欧米諸国の首脳と比べ国会への出席日数多く「時間の使い方」提言も - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB3S0d0TnlEZGZHX3pOOVZlMExFeno3ZVhKQ3BFOXdQWHdyY2RieVNSbDljWkp4MFRCY0oxZXZtMV9GdzNKSjk4eU9NQjhwYWNNcS04M1pTNmtYOVFibjV4bkp1Q1Y1dktjNXhyQXpVa01mLWdpdzBJQzBPN1dLemM?oc=5",
+          "publishedAt": "2026-10-02T23:27:13Z"
         },
         {
-          "id": "91362b22a8eaf6",
-          "name": "TBS NEWS DIG",
-          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1aUNpZmJsMFhMQnpHcThaaDJNamJqWE5oMkVId2VLSnljSThodlFiQTdQUkU3bmVOT09sY0JuQjVzYTU2eUlPTlJ5TXZJcXJhN3owVUJFTzlSUG1qQy1KNHVnTjdBaEd2N0hiU0pnc1IwM180?oc=5",
-          "publishedAt": "2026-10-03T09:00:00Z"
+          "id": "04b1bd764d0059",
+          "name": "ｄメニューニュース",
+          "title": "国会改革、高市首相の予算委出席減を野党警戒…欧米諸国の首脳と比べ国会への出席日数多く「時間の使い方」提言も - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQTRvbVpuNlVVT3VpdkE2M0gxSW5zay1XSllrYnNlc01tOWV4U0V0aXdKWXBWZngxMF9McmhtX2lnajBId0s1bkFUQ1lVaDhCTF92U1lJcm1EN01abmxhSndXY2UtcVljaEZyWXZ2ZmtxM0NaTlBQT2VYekthUEFGTVFjaUxIYVhPVjRrbUN4WjPSAYwBQVVfeXFMTzZUay1wdDIteXg0QWV5OHZrNWtsSWZ3OWJaOEVjRXZqeGFWV21UdUJ0SlJVcDdCd0p5TlFld1JFRWZpMWU4TFdDV3BJT1NjaVFZeVp1d09nbTdwQmRsaUgtbTNZaEU2dks1RXg2LTRtTWtFbHR0TVVvQjREejFDVWMwSDJ2YWIwUExBRjc?oc=5",
+          "publishedAt": "2026-10-02T23:25:00Z"
         }
       ]
     },
@@ -220,7 +266,7 @@
           "name": "TBS NEWS DIG",
           "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBiM3QxbmdtbkVCczFZSnZvN081b3dXR3hwZDA5WGw3ZzRBdm9JbWhBNndCaEdrTGdwczZQcnpZVFkxQmE4Z3VCc0NyYkFUYWtJd3hJRXB6VQ?oc=5",
-          "publishedAt": "2026-09-26T07:37:00Z"
+          "publishedAt": "2026-09-26T07:00:00Z"
         }
       ]
     },
@@ -248,34 +294,73 @@
       ]
     },
     {
-      "id": "5a8be3d451a30f",
+      "id": "7fcf27dd32e8b9",
       "category": "entertainment",
-      "title": "鈴鹿央士「“芸能界って大変なところだから耐えようね“って」アドバイスくれた姉御女優とは？ - スポニチ Sponichi Annex",
+      "title": "有吉弘行 来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - スポニチ Sponichi Annex",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-04T07:38:00Z",
+      "latestPublishedAt": "2026-10-04T11:43:00Z",
       "sources": [
         {
-          "id": "35c294b6ca12f3",
+          "id": "ee17cb8f9a0a1e",
           "name": "スポニチ Sponichi Annex",
-          "title": "鈴鹿央士「“芸能界って大変なところだから耐えようね“って」アドバイスくれた姉御女優とは？ - スポニチ Sponichi Annex",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNU21wcVFDZ0VaM2RIakNVd3BfMWNSQTJDNVRuZGpXa0FPMEVWVmxWVHhaQVdCdE5rSmVrMEU1MzRRSmh0QW1GaEZPYkpZRlV6eFhndkZjRzFndTVsbFZDQnVUZXQzcXRBdG1jUnpXS1liQk11a09WR2tMa0RvOVJXTUZwS1c4QmQ1ZlQ0MVVoUTJ2djJPTXc?oc=5",
-          "publishedAt": "2026-10-04T07:38:00Z"
+          "title": "有吉弘行 来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMlNNd0NGMU1TQ2VPM3JDWU9OUjZpNGtyN1NlOXJySDB0a3dmMG9aM0JpOW9PTXdXbUp0ZXBZWUFzT1dsSVdJYmVJUml3azZYaGdVMWsyUUFLYUVBaUtDSkpyQ2poaTZXVUhEVTNza3BIc3JHVm05UFk0eDNvV1RPX1JIQjhra1JSOUJVM2NYNW8yNnYyVWc?oc=5",
+          "publishedAt": "2026-10-04T11:43:00Z"
         }
       ]
     },
     {
-      "id": "768ab7959b2f72",
-      "category": "economy",
-      "title": "日経にサイバー攻撃 情報漏洩、不審メール9000件送信 - nikkei.com",
+      "id": "f4a1cb1c2c50f8",
+      "category": "internet",
+      "title": "「いつの間にか3人目か」「まだ32歳…」人気歌手との授かり婚から9年…武井咲〝まぶしいほどのピンク〟姿に「結婚した時はびっくりした」「好感」ブランド公式SNSが話題 - 西スポWEB OTTO!",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-04T06:00:04Z",
+      "latestPublishedAt": "2026-10-04T10:00:00Z",
       "sources": [
         {
-          "id": "31d892a244ea77",
-          "name": "nikkei.com",
-          "title": "日経にサイバー攻撃 情報漏洩、不審メール9000件送信 - nikkei.com",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ieWIzdmlWUEVQcERJOUpzRDF0bU5lbTYyTG5TbWZIWUVYV05oampDY2E0cTJram1fMHRSdHNldmFtMTN6WVRXdFlzTGt2Zm8tZ0REQjNWRmVQblhDYWViMUlOOHVSemx5WjJfQQ?oc=5",
-          "publishedAt": "2026-10-04T06:00:04Z"
+          "id": "1f320f39cd124c",
+          "name": "西スポWEB OTTO!",
+          "title": "「いつの間にか3人目か」「まだ32歳…」人気歌手との授かり婚から9年…武井咲〝まぶしいほどのピンク〟姿に「結婚した時はびっくりした」「好感」ブランド公式SNSが話題 - 西スポWEB OTTO!",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GakliN0o1NlctMEVESTVxRi1nTnRSQzY2alJhdzVKazBGYXJoMFBGSm1xTFpzS01tbWFVeGRJS2ZMSUFnYWk5VUhiaVAtRlhobm5KN2VqQXVRSU1jbkZZ?oc=5",
+          "publishedAt": "2026-10-04T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8b95b686689d77",
+      "category": "economy",
+      "title": "日経平均は7万円うかがう、円は下値限定 今週の市場・予定 - 日本経済新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-04T09:00:00Z",
+      "sources": [
+        {
+          "id": "2e62a64f34f322",
+          "name": "日本経済新聞",
+          "title": "日経平均は7万円うかがう、円は下値限定 今週の市場・予定 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fN2dTNVd2Mmp4Ynk0R21fcWkzUlRaWm16T1kzNVR3bmkySlZuZE43QzY2MVNPaUFSblUxSDNhTFBNVW44eHpmSUpWUHExMGdBWlY3dlpkbEdxdm5kdXJWYW14VzRyUi1GRlVTVw?oc=5",
+          "publishedAt": "2026-10-04T09:00:00Z"
+        },
+        {
+          "id": "5e0eb5e88e3721",
+          "name": "日本経済新聞",
+          "title": "日経平均は7万円うかがう、円は下値限定 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pRXdxYlJMRmowT183bDVCZ3ZRakliOTVqd1UxNnJDd29LdFJCSWlyTEd2ci1EeUZxMnlVR0pYZVlteG40Nkk1UUVpbWhid0d2TzRTeHpzTmRRN2NIQXlLckxkRkgwWENjMDhtVQ?oc=5",
+          "publishedAt": "2026-10-02T19:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8a535e2252e7ad",
+      "category": "economy",
+      "title": "宇佐市 選挙ドットコム 日本の2024年度GDPと宇佐市の経済の考察 - 選挙ドットコム",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-04T05:51:28Z",
+      "sources": [
+        {
+          "id": "ba11078da1dc99",
+          "name": "選挙ドットコム",
+          "title": "宇佐市 選挙ドットコム 日本の2024年度GDPと宇佐市の経済の考察 - 選挙ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VWTRtMkVoc1NWR0VYU1hEZnhkODJ0VlRNRjJTU2NrbWQweC01ZnBFUjFnWENkMWlVbDRkV0lzRkRNRWN4eUk2cTVCWTE1MnBNeVRwbjZRd01hVUxnd21v?oc=5",
+          "publishedAt": "2026-10-04T05:51:28Z"
         }
       ]
     },
@@ -344,18 +429,18 @@
       ]
     },
     {
-      "id": "d2bfdf4e1d38e4",
+      "id": "21086150c1d8c9",
       "category": "entertainment",
-      "title": "ボウリング王・大泉洋VS豪華芸能人 芸能界ボウリングNo.1ペアがついに決定！「スター激突！大泉ボウリング」【出演者一覧】 - 日本テレビ",
+      "title": "広瀬アリス「常に明るい自分でいなきゃ」 芸能活動をする中での苦悩、転機となった出会いを明かす - 日テレNEWS NNN",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-03T22:00:00Z",
+      "latestPublishedAt": "2026-10-03T21:00:00Z",
       "sources": [
         {
-          "id": "5750843fa4a514",
-          "name": "日本テレビ",
-          "title": "ボウリング王・大泉洋VS豪華芸能人 芸能界ボウリングNo.1ペアがついに決定！「スター激突！大泉ボウリング」【出演者一覧】 - 日本テレビ",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBDX0lkOURPVmRMM05vbW1sV1NGb0d6clVUMDBPNGRoRHFuekI5SXRZb2FNdnptSzJnaVcxd3NWZ0hrQnowMWlUMGJ3c05QVjlRRVRxZTBuR0IzVHVmSVNocG96RG1TWG9pcnF0TW9nUTltdXFjeFlfc0lKSQ?oc=5",
-          "publishedAt": "2026-10-03T22:00:00Z"
+          "id": "deaa3ef027a046",
+          "name": "日テレNEWS NNN",
+          "title": "広瀬アリス「常に明るい自分でいなきゃ」 芸能活動をする中での苦悩、転機となった出会いを明かす - 日テレNEWS NNN",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE43SkJ4M1owUk9XYjFjQWxURDYwcGdxdnFmRTF4SWFYcXFxaHBwZ0JudUpZTV82SG9kdFpiNXBjVWdRVnNnNmRFR3VHN2R0Y3oySktFVGJIYXBkenFjYmctWGIxcXJZNlhzd3JYVXh4bi1vSjNlcXdkaHUwQXo?oc=5",
+          "publishedAt": "2026-10-03T21:00:00Z"
         }
       ]
     },
@@ -383,112 +468,34 @@
       ]
     },
     {
-      "id": "e0a664496893cf",
-      "category": "economy",
-      "title": "日本とカザフ直行便就航へ 「エア・アスタナ」11月から週2往復、経済や観光で交流促進 - 産経ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T22:47:30Z",
-      "sources": [
-        {
-          "id": "505f5b4ec42d71",
-          "name": "産経ニュース",
-          "title": "日本とカザフ直行便就航へ 「エア・アスタナ」11月から週2往復、経済や観光で交流促進 - 産経ニュース",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlQ3JVaGwzMWxoaUJMaElxOXp1NElSNERkckV3VXhOMkdlV2tjRkFkV0ZHS0w2Um9HelBMYmFYUEtCbHpBMUFUX1hmQ1l1c3pJVFpzdnBhWVl3MFA4U2NkcGFTV2hESmtFYkhqVndKQmwzYWkybmc?oc=5",
-          "publishedAt": "2026-10-02T22:47:30Z"
-        }
-      ]
-    },
-    {
-      "id": "c390748e940670",
-      "category": "entertainment",
-      "title": "福原遥結婚 芸能界から祝福相次ぐ - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T22:33:35Z",
-      "sources": [
-        {
-          "id": "4bd1c503722357",
-          "name": "Yahoo!ニュース",
-          "title": "福原遥結婚 芸能界から祝福相次ぐ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KXzRqWjBMRWNEQ0NsYktnTHpWa29GZndqTVV0Zk9vaHdla2szRnpjUWdzSmpKR0pWc3RfaF9fVWhqUVpSR01QUUYtUXQwckxQ?oc=5",
-          "publishedAt": "2026-10-02T22:33:35Z"
-        },
-        {
-          "id": "0bf40ba2ff7e36",
-          "name": "Yahoo!ニュース",
-          "title": "芸能界 活動進退の報告が相次ぐ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vQ2lJVjUxbXhrbmxEY0JZNzd5U2lmMVg4c1ZhS0lpcUxjWlRXZ0tJcVMyVmltS184SE9xVmlRTFhleVhseEh6M2NmTVBmLXQ2?oc=5",
-          "publishedAt": "2026-10-01T13:22:30Z"
-        }
-      ]
-    },
-    {
-      "id": "a5e91dfc1cf205",
-      "category": "politics",
-      "title": "日本のEEZ外に落下か、被害情報なし - nippon.com",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T22:03:04Z",
-      "sources": [
-        {
-          "id": "2bc871447e2cdf",
-          "name": "nippon.com",
-          "title": "日本のEEZ外に落下か、被害情報なし - nippon.com",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ES19QWGpzcEpEWEw2NmJtZU1oNUIwUXpJYy1MdkVJeURndmJtcmpUcHBMRUdydEVGMF80NHlNSzBIbERuUEtzaUY0S3UxOVY0VlhwbUxTQ3lEWlRKb3U2d01GYw?oc=5",
-          "publishedAt": "2026-10-02T22:03:04Z"
-        }
-      ]
-    },
-    {
-      "id": "f64e9b75862d99",
-      "category": "economy",
-      "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T21:45:00Z",
-      "sources": [
-        {
-          "id": "eaf96ef51fdf6e",
-          "name": "ダイヤモンド・オンライン",
-          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hWUpwV2czQmE5Mnl3aGVPT0ZaVndoeFg4SDhQaDBxZ25LZTA0aE80OFNSMXRWU0s3QThXZWFTOHotcEx0OUYyRlFVTGJ0QkxhVmoxWm5B0gFPQVVfeXFMTmhyNExPM3daVzJKOFNzYi1hVlhPbjZkR1pGVk5aTkFwUEdKTnZoSzZhYU5yZVB2ZXVmeHJkWjhEUnoydkdVSHM0ZnIySFZMdw?oc=5",
-          "publishedAt": "2026-10-02T21:45:00Z"
-        },
-        {
-          "id": "327f699d6d96d1",
-          "name": "ダイヤモンド・オンライン",
-          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ZZFVJWTZLWEhXR0kybnA0SHR4Tjh6WVhMMVdCV0lpMS1DWWtRanNSWlkzWUpEVmZBdjhrSnctT05YS3hubUhSeTlsVlLSAU9BVV95cUxOaHI0TE8zd1pXMko4U3NiLWFWWE9uNmRHWkZWTlpOQXBQR0pOdmhLNmFhTnJlUHZldWZ4cmRaOERSejJ2R1VIczRmcjJIVkx3?oc=5",
-          "publishedAt": "2026-10-02T21:45:00Z"
-        }
-      ]
-    },
-    {
-      "id": "1bb52d85ee0a86",
-      "category": "entertainment",
-      "title": "伊東四朗が来年の90歳で芸能界引退…現役を約70年貫いた「伊東流 がんばらない健康法」とは - nikkan-gendai.com",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T21:00:00Z",
-      "sources": [
-        {
-          "id": "247bc8d6ccc243",
-          "name": "nikkan-gendai.com",
-          "title": "伊東四朗が来年の90歳で芸能界引退…現役を約70年貫いた「伊東流 がんばらない健康法」とは - nikkan-gendai.com",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5DeWcxMFViOEo2dHhmck5IbWZwSlM5d0RnTWdmaFpZQ1AtVnhXelVnTEhMcFRFQ3pDNW1VZWx3ZHNHQnlHWGlaM21qNHVyLU0taXpFTlk1RWdNRkctVE1EZ29OZzdJczg?oc=5",
-          "publishedAt": "2026-10-02T21:00:00Z"
-        }
-      ]
-    },
-    {
       "id": "d37580087508bd",
       "category": "politics",
-      "title": "いまの日本に「保守」はない 片山杜秀・慶大教授、迎合政治を憂う - nikkei.com",
+      "title": "いまの日本に「保守」はない 片山杜秀・慶大教授、迎合政治を憂う - 日本経済新聞",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-02T20:00:00Z",
       "sources": [
         {
           "id": "192ef29705e7b3",
-          "name": "nikkei.com",
-          "title": "いまの日本に「保守」はない 片山杜秀・慶大教授、迎合政治を憂う - nikkei.com",
+          "name": "日本経済新聞",
+          "title": "いまの日本に「保守」はない 片山杜秀・慶大教授、迎合政治を憂う - 日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pVTdzZERkMUhsTlJ4MnU5UUF3RGFXUFY3V1plMExRSVJSODRBRlJ0NU0wMnFUaHNCYTdBS1ZMbWdRaFE3VTNFRGE3UnZqVmVkUGJmNkdDdGhQUGlyLVVsbS05b3k3YkE1cVh3cQ?oc=5",
           "publishedAt": "2026-10-02T20:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "770a4f9cb9382c",
+      "category": "entertainment",
+      "title": "「国民的美少女」GPから36年、長年芸能活動休止…〝47歳最新ショット〟小田茜に反響「本当に昔から変わらない」「嬉しい限りです」：「おっ！」でつながる地元密着のスポーツ応援メディア 西スポWEB OTTO! - 西スポWEB OTTO!",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-02T11:40:00Z",
+      "sources": [
+        {
+          "id": "251bab212940b4",
+          "name": "西スポWEB OTTO!",
+          "title": "「国民的美少女」GPから36年、長年芸能活動休止…〝47歳最新ショット〟小田茜に反響「本当に昔から変わらない」「嬉しい限りです」：「おっ！」でつながる地元密着のスポーツ応援メディア 西スポWEB OTTO! - 西スポWEB OTTO!",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE56Nmk1aFNUemZJaDl6a19qMnlkTFk2LWpKUHRfNzJNbmUyZnFrNkhTSzdhVU9IenlZYWhEX3Y2TFVEX3R1SGdUQmNLZ3ZLc0d0c2VVLVpZaGJfNDBvYkVj?oc=5",
+          "publishedAt": "2026-10-02T11:40:00Z"
         }
       ]
     }
