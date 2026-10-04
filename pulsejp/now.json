@@ -1,38 +1,8 @@
 {
-  "generatedAt": "2026-10-03T23:03:58Z",
+  "generatedAt": "2026-10-04T02:39:25Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
-    {
-      "id": "2f331b600717eb",
-      "category": "economy",
-      "title": "金メダルの日本 アジア大会 - 春日部経済新聞",
-      "sourceCount": 3,
-      "latestPublishedAt": "2026-10-03T21:00:00Z",
-      "sources": [
-        {
-          "id": "3d098c5947119a",
-          "name": "春日部経済新聞",
-          "title": "金メダルの日本 アジア大会 - 春日部経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PVEFYZVl3dktpenl1MWgxVEl2Sng0Y3NVMGUyWTQ5bC01RmlxRUZwS0xobEh0dHZoTjI3a3YtdFBISzVTLVEzWk02OTlhUi1fMEZHZHBn?oc=5",
-          "publishedAt": "2026-10-03T21:00:00Z"
-        },
-        {
-          "id": "eb41e6ffeb45dd",
-          "name": "盛岡経済新聞",
-          "title": "金メダルの日本 アジア大会 - 盛岡経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBMREs0QlVYUURWc0puYmlaeXJiWmtXLUI3Q2llbkt2UjJ4d01aSkZUWXF6TkxMREpJLUpVdUJhVDhmTlBvemRXNjA2aW1wUk1PaUdiRQ?oc=5",
-          "publishedAt": "2026-10-03T20:48:45Z"
-        },
-        {
-          "id": "2ffc9debf5e655",
-          "name": "秋田経済新聞",
-          "title": "金メダルの日本 アジア大会 - 秋田経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9IMF9KekdkcVRnSnpmTTNacm5ySlpESVdvMWJkZ2V3bzA3eEpSN0Rsems3M0pFZUJ6MGJvY3RyWFY2emh5UEYzLUZ4eGxyczZ3dWc?oc=5",
-          "publishedAt": "2026-10-03T20:35:55Z"
-        }
-      ]
-    },
     {
       "id": "604dafe4c1bd4e",
       "category": "politics",
@@ -56,10 +26,79 @@
         },
         {
           "id": "7599040c8b963a",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "片山財務大臣を単独直撃　円安・金融政策「政府内で統一が図られている」　消費減税めぐり便乗値上げは「週明けにも対策」【news23】 - topics.smt.docomo.ne.jp",
+          "name": "ｄメニューニュース",
+          "title": "片山財務大臣を単独直撃　円安・金融政策「政府内で統一が図られている」　消費減税めぐり便乗値上げは「週明けにも対策」【news23】 - ｄメニューニュース",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9JRmlSLUZuVmlDQ0JqcFAyXzZzeWdXZDdUNkhqT01JMkNPZHBnemlmX2hxSHlBTm1MdFBUZmJkOGdGdmpVMFdZSmY2NTdYN1kwYVM0Ty1ETlpxNjlacmVXYS1uQk9IcURBUU1WVUVGVm1IUEo2YmZYMFJOONIBd0FVX3lxTE5pc09uWXoxcTNFem0ydHZUeS1reVF3Z1M4Ukp2eVYxZE5Vb1FJV2tySlU0MmpXQVNJN21UcGZqRy12Vl95RFBkS0ZMTmtKdV8zcEYzckpWTEE2MDlNdUFIUTV2aWlKc0FuNmVDSGZnS0Fud2ExaUIw?oc=5",
           "publishedAt": "2026-10-03T09:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "882eb1259017d5",
+      "category": "internet",
+      "title": "「jouetie」SNSで話題のモデル・Miinaの来店イベントを新宿ルミネエスト店で11月1日開催 - ガジェット通信 GetNews",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-04T02:00:41Z",
+      "sources": [
+        {
+          "id": "4403379527ecf8",
+          "name": "ガジェット通信 GetNews",
+          "title": "「jouetie」SNSで話題のモデル・Miinaの来店イベントを新宿ルミネエスト店で11月1日開催 - ガジェット通信 GetNews",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5BTHNuYV9jSnVMbGc1SVNtNDd5Q0ZBaVdfR182aWszWS1JYzVDNGlLNVlpQjlkZXN6TUxKdm1yczRzWS1FSW1GT0o2SQ?oc=5",
+          "publishedAt": "2026-10-04T02:00:41Z"
+        },
+        {
+          "id": "7f5cb627f6e164",
+          "name": "PR TIMES",
+          "title": "「jouetie(ジュエティ)」SNSで話題のモデル「Miina」さんが新宿ルミネエスト店に登場！11月1日(日)来店イベント開催決定 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUbmFpcmpqR2xRQW9uNUVtdTlSM18zU2p2NEFibHBrazcwUUFKY2NfNVhlMVZEdUdTUC0wcWc1MTVfeDcyS0tBS0dmQXU1aG9OYVppUXRyU2czUW4zeDNvcmhWOXd5RkRWM2c?oc=5",
+          "publishedAt": "2026-10-02T03:07:30Z"
+        }
+      ]
+    },
+    {
+      "id": "a4bbff31cf6239",
+      "category": "internet",
+      "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - ｄメニューニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-03T21:05:58Z",
+      "sources": [
+        {
+          "id": "f87981fb5d6bba",
+          "name": "ｄメニューニュース",
+          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclNob1VCM2g4SmVvRWdfanRObV9yYmwtWEV6SHFjY01hV2VETlVWb0tfeVVXU1pwa093cGx6Y2UxN0JTS3pic1pNTzYyT0JpZGFIV3VSNlpmTng5bzRkZ2d6MEJZVk9PWUp5bjcwM1RQTHF0U0tBMGw0UmQtMS16WDRDd3BVbzMwU011akp6WXhHR1RCWVFaRGpZQ2VSQ1nSAaQBQVVfeXFMTUhtNDI3SUhTRG5Ua010OExxdnVGV2FkcUtXdTFXbGcyb0VzY0xOcng4cmdMNk5wNUE2bnB0R0xiN3NSWDNBdG9ZNHVObHVCcXJYMDVTNE5IOUFVOHRuNUtmUGVVS3FBSEhaWTNsME85Z0VFOUR4TmFwc013TGJfNjlwN1hkZ1VCb1hPcF9MTmwxWDhBeWQ5a1lSejJCVVduNmJrOU0?oc=5",
+          "publishedAt": "2026-10-03T21:05:58Z"
+        },
+        {
+          "id": "533d3242e395da",
+          "name": "日刊スポーツ",
+          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vZjUtZmY1T3ctZm5MbE1KZm14OVB4RVliMWZSRzZzUnJyQ3VCSVNvb2NHa3JrZW1EcTNQamVkLTZVb25YZnhxQzZseTExNEpJUjQyNHdBdGRjVlo3bjlGTWE2NlA5SnFPNVR3SFNad3EzT2E4OVRzZUoxdDPSAX9BVV95cUxPZlNaWHFkODQzZGEtcTZuTUl4VE5wdEpHYUtnV3FvY2VRVl9zTDZfc1BFZF9reTE1N3BHNUhaTXVTVG11Z3dCN2lrSnFXTXpsTlNDTzg3cVdqTnFDQnljcE5uWHdKMEQ1MzhLNkphQnJKZXpHMEtTR1ZHbGNtOENJ?oc=5",
+          "publishedAt": "2026-10-03T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "cd2aceb7aa68b9",
+      "category": "economy",
+      "title": "日本とカザフ直行便就航へ 11月から週2往復 - 沖縄タイムス社",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-03T18:57:00Z",
+      "sources": [
+        {
+          "id": "4bebd7368691f7",
+          "name": "沖縄タイムス社",
+          "title": "日本とカザフ直行便就航へ 11月から週2往復 - 沖縄タイムス社",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1kSmNGcGczOWtaYWpNMGhMbk5hV25NbXBRcUtMck1xN2RJVDJCWmlybTdmWVA0bk03ZVAzd2VUV2lVWV9FWlZ3MlB4bTBUY1JRVVlkSFM1VW9QbURzaHc?oc=5",
+          "publishedAt": "2026-10-03T18:57:00Z"
+        },
+        {
+          "id": "6ac62f2becefa3",
+          "name": "産経ニュース",
+          "title": "日本とカザフ直行便就航へ 「エア・アスタナ」11月から週2往復、経済や観光で交流促進 - 産経ニュース",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlQ3JVaGwzMWxoaUJMaElxOXp1NElSNERkckV3VXhOMkdlV2tjRkFkV0ZHS0w2Um9HelBMYmFYUEtCbHpBMUFUX1hmQ1l1c3pJVFpzdnBhWVl3MFA4U2NkcGFTV2hESmtFYkhqVndKQmwzYWkybmc?oc=5",
+          "publishedAt": "2026-10-02T22:47:30Z"
         }
       ]
     },
@@ -109,8 +148,8 @@
         },
         {
           "id": "18b742b36131b5",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - topics.smt.docomo.ne.jp",
+          "name": "ｄメニューニュース",
+          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - ｄメニューニュース",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXa9IBmwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXaw?oc=5",
           "publishedAt": "2026-10-02T13:31:00Z"
         }
@@ -132,8 +171,8 @@
         },
         {
           "id": "407264b24329e6",
-          "name": "Web担当者Forum",
-          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など - Web担当者Forum",
+          "name": "webtan.impress.co.jp",
+          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など - webtan.impress.co.jp",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12ZUhOdk0yZ3BZWHZTRmFYT2JDeEFNRUNLNE1DQUpxaU8zLUFDVWJiWndlQzB1a0FNRFVLbS0xNkdHaXpkUGpMVGstTmZNRy12czJ1VElxWUppUVk?oc=5",
           "publishedAt": "2026-10-01T22:05:00Z"
         }
@@ -142,14 +181,14 @@
     {
       "id": "bf492988bf0906",
       "category": "entertainment",
-      "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - アットプレス",
+      "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - atpress.ne.jp",
       "sourceCount": 2,
       "latestPublishedAt": "2026-10-02T01:00:00Z",
       "sources": [
         {
           "id": "8aed6c277e95a7",
-          "name": "アットプレス",
-          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - アットプレス",
+          "name": "atpress.ne.jp",
+          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ - atpress.ne.jp",
           "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1DeXc1cVY0QjRCVUMzTndkY0FMY3RrSDMzeEYtRjNscGRQby04aGJpdUM2ajJmN1Vsbkh6YjJvbzQ5RU5GQ1hUaVpjTlBuZm8?oc=5",
           "publishedAt": "2026-10-02T01:00:00Z"
         },
@@ -178,8 +217,8 @@
         },
         {
           "id": "c47e6587d4b719",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "仙台市内でチャイナフェス　話題のグルメや音楽で中国文化に触れる　仙台・青葉区 - topics.smt.docomo.ne.jp",
+          "name": "ｄメニューニュース",
+          "title": "仙台市内でチャイナフェス　話題のグルメや音楽で中国文化に触れる　仙台・青葉区 - ｄメニューニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fUG9hbnlxcHJvOW5wOG5ldklsZ2lYWlRGQnhWWG9pd2pkUXVESmNRRWpoVmIyMjY5NEN5TjNKTElWbWRVQ0M5Rks4YjN6NmtnXzE0dG01Z3VIY0lvYTNlQXFTbkZLYlZhV2xSTTNET1VPTURpb2h1WmJ5d0JsZTTSAYQBQVVfeXFMTzFpWkdDblJuUUZWcjRxblVNR1FTb0VTaE11eDJMeVhiUnlXYUE2b3B2akJRSldIRkIxRE5kVEkxWlZGY01aLUdvdnA1eFNkWndLeUU3a3hRWHVfeTQ3akJ3dzdkSEpVRzgwNUJHUDFRc0NlbnYwSGUzTWI5TjJuRFkwMzAw?oc=5",
           "publishedAt": "2026-09-26T07:37:00Z"
         },
@@ -208,49 +247,58 @@
         },
         {
           "id": "3af021ad77f484",
-          "name": "natalie.mu",
-          "title": "モナキが変わりすぎて話題、特におヨネ - natalie.mu",
+          "name": "ナタリー",
+          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
           "publishedAt": "2026-09-26T07:00:00Z"
         }
       ]
     },
     {
-      "id": "a4bbff31cf6239",
+      "id": "5b4017f5040da7",
       "category": "internet",
-      "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - topics.smt.docomo.ne.jp",
+      "title": "Ayumu Imazu SNSで話題の新曲「結び」 配信スタート！ リリックビデオも公開！ - USENの音楽情報サイト",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-03T21:05:58Z",
+      "latestPublishedAt": "2026-10-04T01:34:21Z",
       "sources": [
         {
-          "id": "f87981fb5d6bba",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - topics.smt.docomo.ne.jp",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclNob1VCM2g4SmVvRWdfanRObV9yYmwtWEV6SHFjY01hV2VETlVWb0tfeVVXU1pwa093cGx6Y2UxN0JTS3pic1pNTzYyT0JpZGFIV3VSNlpmTng5bzRkZ2d6MEJZVk9PWUp5bjcwM1RQTHF0U0tBMGw0UmQtMS16WDRDd3BVbzMwU011akp6WXhHR1RCWVFaRGpZQ2VSQ1nSAaQBQVVfeXFMTUhtNDI3SUhTRG5Ua010OExxdnVGV2FkcUtXdTFXbGcyb0VzY0xOcng4cmdMNk5wNUE2bnB0R0xiN3NSWDNBdG9ZNHVObHVCcXJYMDVTNE5IOUFVOHRuNUtmUGVVS3FBSEhaWTNsME85Z0VFOUR4TmFwc013TGJfNjlwN1hkZ1VCb1hPcF9MTmwxWDhBeWQ5a1lSejJCVVduNmJrOU0?oc=5",
-          "publishedAt": "2026-10-03T21:05:58Z"
+          "id": "017132b3ad014f",
+          "name": "USENの音楽情報サイト",
+          "title": "Ayumu Imazu SNSで話題の新曲「結び」 配信スタート！ リリックビデオも公開！ - USENの音楽情報サイト",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5PU1E2cWNJZ1VQUXpaOE9Pbk1ULXVQR3lLYkVKWGdodkpKcjZBMDRFd0dhZk5IeVNZZHhnZ0NxWXFpbUFMTVFXRTlOREcyM2Fzdm1aeHQ2SVNNcGQyaVVNdzEyMDdRMGEt?oc=5",
+          "publishedAt": "2026-10-04T01:34:21Z"
         }
       ]
     },
     {
-      "id": "81bdb490aaa74d",
-      "category": "politics",
-      "title": "国会議員動静 10月4日 | 行政・社会 | 佐賀県のニュース - 佐賀新聞",
+      "id": "5e52a158080ca2",
+      "category": "internet",
+      "title": "SNSで話題の奇跡の1枚 オオサンショウウオが“ビーム”!【どうぶつZOO鑑】2026年9月25日放送 - locipo.jp",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-03T20:00:00Z",
+      "latestPublishedAt": "2026-10-03T23:39:51Z",
       "sources": [
         {
-          "id": "d52411e0a36e25",
-          "name": "佐賀新聞",
-          "title": "国会議員動静 10月4日 | 行政・社会 | 佐賀県のニュース - 佐賀新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5naXZ2WUxhNmhJSkgtaFVucXp1c2lfSk9Pd3NTaHNXMmRCbmxKck1XRkVaTS1uUUI2STAtME9hUkdKbzk4QlhMSFBCUF9YQjlBRmdabzBB?oc=5",
-          "publishedAt": "2026-10-03T20:00:00Z"
-        },
+          "id": "2f0606918418b2",
+          "name": "locipo.jp",
+          "title": "SNSで話題の奇跡の1枚 オオサンショウウオが“ビーム”!【どうぶつZOO鑑】2026年9月25日放送 - locipo.jp",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMRVZCWWhRNjFkSHc2d3FURHRVTzdoMFJRRUoxdzQ4WGkzUFdtSzJKSFlheTktQVRjbFBKLVg3SXFiM2hMYnhBcXg2RUdua29GdGN5U0hiRHQyc3dTS2RkVjRxSzFkbG1EekhiVWtEVjA?oc=5",
+          "publishedAt": "2026-10-03T23:39:51Z"
+        }
+      ]
+    },
+    {
+      "id": "2f331b600717eb",
+      "category": "economy",
+      "title": "金メダルの日本 アジア大会 - 春日部経済新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-03T21:00:00Z",
+      "sources": [
         {
-          "id": "55c2e77099493a",
-          "name": "佐賀新聞",
-          "title": "国会議員動静（10月3日） | 行政・社会 | 佐賀県のニュース - 佐賀新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MdnlLUWJjQk1wQ3NtMWFLU2daaTRlN2lmSW9kMEtRTXUxVi1EN0tFLUUxczh2WFBSbjlTNXhITjR4VlZqMzgxY3ZuU2RhRDJmb2kyRUZn?oc=5",
-          "publishedAt": "2026-10-02T20:00:00Z"
+          "id": "3d098c5947119a",
+          "name": "春日部経済新聞",
+          "title": "金メダルの日本 アジア大会 - 春日部経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5PVEFYZVl3dktpenl1MWgxVEl2Sng0Y3NVMGUyWTQ5bC01RmlxRUZwS0xobEh0dHZoTjI3a3YtdFBISzVTLVEzWk02OTlhUi1fMEZHZHBn?oc=5",
+          "publishedAt": "2026-10-03T21:00:00Z"
         }
       ]
     },
@@ -271,18 +319,18 @@
       ]
     },
     {
-      "id": "344f470273c732",
-      "category": "internet",
-      "title": "「箱で買いたい」「全然見つかりません」セブンの『SNSで話題の絶品アイス』3選。どれもやみつきになるおいしさです！ - Yahoo!ニュース",
+      "id": "3179618439530f",
+      "category": "economy",
+      "title": "公明党｢与野党垣根なく｣連携模索 統一地方選へ政策の実績づくり急ぐ - 日本経済新聞",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-03T09:35:01Z",
+      "latestPublishedAt": "2026-10-03T10:10:00Z",
       "sources": [
         {
-          "id": "8ab34c2ff058c5",
-          "name": "Yahoo!ニュース",
-          "title": "「箱で買いたい」「全然見つかりません」セブンの『SNSで話題の絶品アイス』3選。どれもやみつきになるおいしさです！ - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yR19YQWI0UTMwMmpoTXZKWV8zeXVITllqZkhuclNkYV9rMmJVVmhsRUFKNm1NXzQzOUpMMXFnalN1dFVtMXRYUktjYjZOcjNXZnZmNG5iVFJsMTRhMkl2TU9GaTE0U0dDeVJFU053X01WakRsS2toM3lTZFlHZGs?oc=5",
-          "publishedAt": "2026-10-03T09:35:01Z"
+          "id": "82e598df6a002e",
+          "name": "日本経済新聞",
+          "title": "公明党｢与野党垣根なく｣連携模索 統一地方選へ政策の実績づくり急ぐ - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UdnJKLVR3ZkRlODJIMkJtX0JLeElMZ3VPd01uUUI0UjNhY1FyQkZoMTYzd3JQakw0MWNsYUVBemdkT1RvUzFkRzNuQm1QcDFWQ2YydklfN2Rpem55UW00c1pBb3VHU2NUMEFXSA?oc=5",
+          "publishedAt": "2026-10-03T10:10:00Z"
         }
       ]
     },
@@ -338,22 +386,6 @@
           "title": "円貨介入、どこが誇張されているのか…日本経済破綻論が見落としていること（ハンギョレ新聞） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaMFBkVlNxWDZ2WUpqWW5xenVxdTFUZkJWbGJaTzlnbUtsbXVYNTk0aWpqWng5ZG0yc1YyNzBEc3p2OVdKbDM5R3lLN0hRaHlfVnozREU0dVk1M3RySm5YdHpnZXM5OHBEYVRhZmRaU0MyVzZ3MDF5LUtVY182S2s?oc=5",
           "publishedAt": "2026-10-02T23:09:38Z"
-        }
-      ]
-    },
-    {
-      "id": "e0a664496893cf",
-      "category": "economy",
-      "title": "日本とカザフ直行便就航へ 「エア・アスタナ」11月から週2往復、経済や観光で交流促進 - 産経ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T22:47:30Z",
-      "sources": [
-        {
-          "id": "505f5b4ec42d71",
-          "name": "産経ニュース",
-          "title": "日本とカザフ直行便就航へ 「エア・アスタナ」11月から週2往復、経済や観光で交流促進 - 産経ニュース",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlQ3JVaGwzMWxoaUJMaElxOXp1NElSNERkckV3VXhOMkdlV2tjRkFkV0ZHS0w2Um9HelBMYmFYUEtCbHpBMUFUX1hmQ1l1c3pJVFpzdnBhWVl3MFA4U2NkcGFTV2hESmtFYkhqVndKQmwzYWkybmc?oc=5",
-          "publishedAt": "2026-10-02T22:47:30Z"
         }
       ]
     },
@@ -464,38 +496,6 @@
           "title": "コント赤信号・小宮孝泰 芸能界引退を表明した伊東四朗も言及「引き際すてき」 - デイリースポーツ",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16Smpaazljak13TWpmWVROdDhoUmRJM0o0UnlMOWY4dWd0RHp3NGNwbWkzejU4aWRIeWRlVVJEaTNjdjZ5ZVF5SkhtUjdyVEFaSEwyUmE4RUVxYUhvYUZlUzh5djN6aHNhVkE?oc=5",
           "publishedAt": "2026-10-02T19:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "5456520508ccba",
-      "category": "economy",
-      "title": "原発建て替えの経済波及効果「1基4.3兆円」 日本原子力産業協会推計 - 日本経済新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T10:18:43Z",
-      "sources": [
-        {
-          "id": "2e770fafaf2a01",
-          "name": "日本経済新聞",
-          "title": "原発建て替えの経済波及効果「1基4.3兆円」 日本原子力産業協会推計 - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZS0dBWmpLTjRvdUZSVHN3U2VKWXNhZmhpY0EyS3dpMW93QjZEaFlkdko0NjJmc21oY1RCbU1ia3lzeE1MV0FnSjZWU1hSZWNJUDM3UU1uMzBkY0xlYkNNOWtMaXFqODJZdF9SRQ?oc=5",
-          "publishedAt": "2026-10-02T10:18:43Z"
-        }
-      ]
-    },
-    {
-      "id": "8f84f659acf851",
-      "category": "internet",
-      "title": "“首都圏の守護神”「地下神殿」 大雨で”本気稼働”後のド迫力映像にSNS話題爆発！「CGみたい」「まさかの…」（1/2 ページ） - 乗りものニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T10:12:00Z",
-      "sources": [
-        {
-          "id": "f25aef99738400",
-          "name": "乗りものニュース",
-          "title": "“首都圏の守護神”「地下神殿」 大雨で”本気稼働”後のド迫力映像にSNS話題爆発！「CGみたい」「まさかの…」（1/2 ページ） - 乗りものニュース",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9tV01CTFQ1WWp6ZE5VTHhlLUdKZzV3eFQ4NmlhcFRaV1dEUG1GeDlnbEVNV1B0aklqTFd5TkVKTUFKSTY0c0JsNjFB?oc=5",
-          "publishedAt": "2026-10-02T10:12:00Z"
         }
       ]
     }
