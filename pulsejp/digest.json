@@ -1,200 +1,207 @@
 {
-  "generatedAt": "2026-10-04T00:14:56Z",
+  "generatedAt": "2026-10-04T15:32:41Z",
   "edition": "朝刊",
   "headline": "3分で今日を把握",
-  "overview": "政治では円安・金融政策や外国人政策をめぐる報道が目立ち、経済では米主要企業の決算予定などが注目されています。エンタメ・ネット分野では伊東四朗さんの引退をめぐる発言や、SNSで話題になった出来事が報じられています。",
+  "overview": "芸能では森﨑美月さんの引退発表や仙台のチャイナフェスが報じられています。政治では国会改革や臨時国会をめぐる動き、ネットではBTSジミンさんのTikTok投稿などが話題になっています。",
   "isSample": false,
   "topics": [
     {
-      "id": "entertainment-ito-shiro-retirement",
+      "id": "entertainment-morisaki-retirement",
       "category": "entertainment",
-      "title": "伊東四朗さん、芸能活動引退をめぐり「撤回しようかな」と発言",
-      "whatHappened": "伊東四朗さんが来年、芸能活動を引退すると表明した後、初めて取材に応じたと報じられています。取材では「撤回しようかな」と話したとされています。引退方針の最終的な扱いは見出しだけでは確認できません。",
-      "whyTrending": "引退表明後の初の取材対応として、複数媒体が報じています。",
-      "context": "別の報道では、伊東さんが来年90歳で芸能界を引退するとされています。詳細な経緯は未確認です。",
+      "title": "森﨑美月、芸能界引退を発表",
+      "whatHappened": "森﨑美月さんが芸能界からの引退を発表したと報じられています。見出しでは「何年も悩み…」とし、元子役で有名CMに出演し、近年はモデルとして活動していたと伝えています。",
+      "whyTrending": "引退発表と、過去の活動歴が報じられたためとみられます。",
+      "context": "引退の詳しい理由や今後の活動については、入力見出しからは確認できません。",
       "points": [
-        "来年の芸能活動引退を表明したと報じられている",
-        "表明後初の取材対応で発言したとされる",
-        "引退撤回の有無は未確認"
+        "芸能界引退を発表したと報道",
+        "元子役で、近年はモデルとして活動",
+        "発表に至った詳しい経緯は未確認"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "ddf0516613cd",
-          "name": "news.tv-asahi.co.jp",
-          "title": "来年で芸能活動引退の伊東四朗（89）が表明後初の取材対応「撤回しようかな」",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTEFtaDJRaWVqWHlVdFphRVpTd2tmd3JGb3RTN3ROMU4xRjR1VkhRN1NIT1YzUDlEYnAzNktVUnRhNmI2d1RFZmZNVTlLYld0TjJDUmpZR29fU1Q1czZXOTBSVXllVnczenFEeVdXel9Kd3o?oc=5",
-          "publishedAt": "2026-10-03T11:06:53Z"
+          "id": "c6b0d80096cb",
+          "name": "スポニチ Sponichi Annex",
+          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWxIdHRYVm1TTVlwREZzcFk5RnJzNTVibDlYTW5LWm9NcF82a3lvR2Z2RmtMNHE3bTNpMjRzcUw4aGtyUm5YTlN6ZlEweXlndk4wWF9DNllXVG1XWm9BR19ZTjF5UUJfTFJXVjZYOGhxSV9ZcWdjeTBxYW1UYVVHdUszX3pKU2RCZzlPcTdoTFhhemc?oc=5",
+          "publishedAt": "2026-10-04T11:12:00Z"
         },
         {
-          "id": "06e0634efec4",
-          "name": "QAB 琉球朝日放送",
-          "title": "来年で芸能活動引退の伊東四朗（89）が表明後初の取材対応「撤回しようかな」｜Quebee キュエビー",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01QVQ0V3NVTkJjR0JQcElJWm80V0JWM0J0VWhXYjBRZHNOTUQ3SmxqX2NFRDlaazEzejh6Z2lwODVZTkFLcUR3Z3IyRlBEZmZpVjZfWWkyRkE?oc=5",
-          "publishedAt": "2026-10-03T11:06:53Z"
+          "id": "db6e83ee8d95",
+          "name": "Yahoo!ニュース",
+          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍（スポニチアネックス）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jWld6M0FXWFRkd1FQMXZIaFByYVFtcDUwWFVMaGJRWDdJcWwwZEJUc29FN0tmeHFObnhWa1lkWWttT3BFTUk1OXpmcXYwMURES21yWThaSTgtRHc5TWlndktFcVIxa3hmZlh4NnNWYkVDNzFkU3dUZVFYQUZLdzg?oc=5",
+          "publishedAt": "2026-10-04T11:13:41Z"
         }
       ],
-      "caution": "引退を撤回するかどうか、また発言の詳しい文脈は見出しだけでは確認できません。"
+      "caution": "引退理由や今後の予定の詳細は、入力からは確認できません。"
     },
     {
       "id": "entertainment-sendai-china-festival",
       "category": "entertainment",
-      "title": "仙台市内でチャイナフェス、中国文化を紹介",
-      "whatHappened": "仙台市青葉区でチャイナフェスが開催されたと報じられています。話題のグルメや音楽を通じて、中国文化に触れる催しとされています。",
-      "whyTrending": "同じ催しについて複数媒体が報じています。",
-      "context": "開催日や会場での詳しい内容は、入力の見出しだけでは確認できません。",
+      "title": "仙台市内でチャイナフェス、中国文化に触れる催し",
+      "whatHappened": "仙台市青葉区でチャイナフェスが開かれたと報じられています。見出しでは、グルメや音楽を通じて中国文化に触れる催しとされています。",
+      "whyTrending": "話題のグルメや音楽を扱う地域イベントとして複数媒体が報じています。",
+      "context": "開催日程や来場者数などの詳細は、入力見出しからは確認できません。",
       "points": [
-        "仙台市青葉区で開催と報じられている",
-        "グルメや音楽を扱う催し",
-        "中国文化に触れるイベントとされている"
+        "仙台市青葉区で開催と報道",
+        "グルメや音楽を紹介",
+        "中国文化に触れるイベント"
       ],
       "sourceCount": 2,
       "sources": [
         {
           "id": "8ffcdbf26297",
           "name": "TBS NEWS DIG",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区",
+          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
           "publishedAt": "2026-09-26T07:37:00Z"
         },
         {
-          "id": "78bd7586be69",
+          "id": "c47e6587d4b7",
           "name": "ｄメニューニュース",
           "title": "仙台市内でチャイナフェス　話題のグルメや音楽で中国文化に触れる　仙台・青葉区",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fUG9hbnpjcHJvOW5wOG5ldklsZ2lYWlRGQnhWWG9pd2pkUXVESmNRRWpoVmIyMjY5NEN5TjNKTElWbWRVQ0M5Rks4YjN6NmtnXzE0dG01Z3VIY0lvYTNlQXFTbkZLYlZhV2xSTTNET1VPTURpb2h1WmJ5d0JsZTTSAYQBQVVfeXFMTzFpWkdDblJuUUZWcjRxblVNR1FTb0VTaE11eDJMeVhiUnlXYUE2b3B2akJRSldIRkIxRE5kVEkxWlZGY01aLUdvdnA1eFNkWndLeUU3a3hRWHVfeTQ3akJ3dzdkSEpVRzgwNUJHUDFRc0NlbnYwSGUzTWI5TjJuRFkwMzAw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fUG9hbnlxcHJvOW5wOG5ldklsZ2lYWlRGQnhWWG9pd2pkUXVESmNRRWpoVmIyMjY5NEN5TjNKTElWbWRVQ0M5Rks4YjN6NmtnXzE0dG01Z3VIY0lvYTNlQXFTbkZLYlZhV2xSTTNET1VPTURpb2h1WmJ5d0JsZTTSAYQBQVVfeXFMTzFpWkdDblJuUUZWcjRxblVNR1FTb0VTaE11eDJMeVhiUnlXYUE2b3B2akJRSldIRkIxRE5kVEkxWlZGY01aLUdvdnA1eFNkWndLeUU3a3hRWHVfeTQ3akJ3dzdkSEpVRzgwNUJHUDFRc0NlbnYwSGUzTWI5TjJuRFkwMzAw?oc=5",
           "publishedAt": "2026-09-26T07:37:00Z"
         }
       ],
-      "caution": "来場者数やイベントの具体的な内容、評価は未確認です。"
+      "caution": "イベントの規模や具体的な内容は未確認です。"
     },
     {
-      "id": "entertainment-godzilla-gigo-prize",
+      "id": "entertainment-monaki-attention",
       "category": "entertainment",
-      "title": "GiGO限定景品『ゴジラ-0.0』登場へ",
-      "whatHappened": "『ゴジラ-0.0』を題材にしたGiGO限定景品が登場すると報じられています。新作映画に関連する景品として告知されています。",
-      "whyTrending": "複数媒体が同じ限定景品の登場を報じています。",
-      "context": "景品の種類や展開時期、対象店舗の詳細は見出しだけでは確認できません。",
+      "title": "「モナキが変わりすぎて話題」、おヨネにも注目",
+      "whatHappened": "「モナキが変わりすぎて話題」とする記事が報じられています。見出しでは、特に「おヨネ」が注目されているとしています。",
+      "whyTrending": "外見や内容の変化に対する反響が話題になっているとみられます。",
+      "context": "「モナキ」や「おヨネ」が何を指すのか、具体的な変化の内容は入力からは確認できません。",
       "points": [
-        "GiGO限定景品として告知された",
-        "『ゴジラ-0.0』に関連する商品",
-        "新作映画から早期に登場するとされている"
+        "「モナキ」の変化が話題と報道",
+        "「おヨネ」に特に注目が集まっているとされる",
+        "詳細な対象や変化は未確認"
       ],
       "sourceCount": 2,
       "sources": [
         {
-          "id": "303f1f0d5a14",
-          "name": "アットプレス",
-          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFNDeXc1cVY0QjRCVUMzTndkY0FMY3RrSDMzeEYtRjNscGRQby04aGJpdUM2ajJmN1Vsbkh6YjJvbzQ5RU5GQ1hUaVpjTlBuZm8?oc=5",
-          "publishedAt": "2026-10-02T01:00:00Z"
+          "id": "bbbe73ed1abf",
+          "name": "Yahoo!ニュース",
+          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー)",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
+          "publishedAt": "2026-09-26T07:00:00Z"
         },
         {
-          "id": "c8b705dadcc7",
-          "name": "Infoseek",
-          "title": "話題の新作映画からGiGO限定景品が早くも登場！GiGO限定景品『ゴジラ-0.0』登場のお知らせ",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEMnUxUTl0TnY4U1VWTTF5R3c2OER4T1NqWnQ0aE8tNXAtdGxVLVV0VWJVRWJoUXlaTUFYcUJNcEJBVE4xck1qZFJfRWtzdFV0VmZxZ1hveDRDbnZjY2tIdmV4LWtVcVVwc2Q2ZjJWc08xUQ?oc=5",
-          "publishedAt": "2026-10-02T01:00:00Z"
+          "id": "3af021ad77f4",
+          "name": "ナタリー",
+          "title": "モナキが変わりすぎて話題、特におヨネ",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
+          "publishedAt": "2026-09-26T07:00:00Z"
         }
       ],
-      "caution": "商品展開の詳細や映画の公開情報は、入力の見出しだけでは確認できません。"
+      "caution": "見出しだけでは、対象や「変わった」内容を確認できません。"
     },
     {
-      "id": "politics-finance-minister-yen-policy",
+      "id": "politics-diet-reform-attendance",
       "category": "politics",
-      "title": "片山財務相、円安・金融政策で「政府内で統一が図られている」と説明",
-      "whatHappened": "片山財務大臣へのインタビューで、円安や金融政策について「政府内で統一が図られている」との発言があったと報じられています。消費減税をめぐる便乗値上げについては、週明けにも対策を講じる考えを示したとされています。",
-      "whyTrending": "同じインタビュー内容を3媒体が報じています。",
-      "context": "見出しでは、円安、金融政策、消費減税、便乗値上げが論点として挙げられています。具体的な政策内容や政府内の合意範囲は未確認です。",
+      "title": "国会改革をめぐり、首相の予算委出席減に野党が警戒",
+      "whatHappened": "国会改革の一環として、高市首相の予算委員会への出席を減らす案について、野党が警戒していると報じられています。一方、欧米諸国の首脳と比べて日本の首相は国会出席日数が多く、「時間の使い方」を提言する動きもあるとされています。",
+      "whyTrending": "首相の国会対応のあり方をめぐり、与野党の見方が分かれているためです。",
+      "context": "具体的な改革案の内容や今後の協議日程は、入力見出しからは確認できません。",
       "points": [
-        "片山財務相が政府内の統一を説明したと報じられている",
-        "消費減税をめぐる便乗値上げに言及",
-        "週明けにも対策と発言したとされる"
+        "首相の予算委出席減をめぐり野党が警戒",
+        "日本の首相の国会出席日数が論点に",
+        "「時間の使い方」をめぐる提言が報道"
       ],
       "sourceCount": 3,
       "sources": [
         {
-          "id": "24f33554b3d6",
-          "name": "news.yahoo.co.jp",
-          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXlHUFM0bjhhZG5kdGhEd2pXdTExOWpDa1JFZGJ5MVF2U05TbTlERDBELUZSYzUzdHlGRGxZOEh5N3phVmpGWDFJSUNydWpySWxoOWNvV1ZDNTN5UG9HYUk3NXdJTWJnMk4xRmZSVXVwTC1nN19ITURzS3E3WHJXbkpoMHQzMV9B?oc=5",
-          "publishedAt": "2026-10-03T09:00:34Z"
+          "id": "489152906eb9",
+          "name": "読売新聞",
+          "title": "国会改革、高市首相の予算委出席減を野党警戒…欧米諸国の首脳と比べ国会への出席日数多く「時間の使い方」提言も",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1RNWZSMS13TkFxM0xtbkI0U0l0d3BwS1U2aExTVWpPa0pDQ1I5TVZzY2pWM0RKRnFZYTEwc3N6UlkwQmFVQTI3S0dVNlpsY2RsdWV5VENLSkZFS1pVUGtKVS1zU0xxUQ?oc=5",
+          "publishedAt": "2026-10-02T20:00:00Z"
         },
         {
-          "id": "91362b22a8ea",
-          "name": "TBS NEWS DIG",
-          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1aUNpZmJsMFhMQnpHcThaaDJNamJqWE5oMkVId2VLSnljSThodlFiQTdQUkU3bmVOT09sY0JuQjVzYTU2eUlPTlJ5TXZJcXJhN3owVUJFTzlSUG1qQy1KNHVnTjdBaEd2N0hiU0pnc1IwM180?oc=5",
-          "publishedAt": "2026-10-03T09:00:00Z"
+          "id": "e65116d72141",
+          "name": "Yahoo!ニュース",
+          "title": "国会改革、高市首相の予算委出席減を野党警戒…欧米諸国の首脳と比べ国会への出席日数多く「時間の使い方」提言も",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcG9VSnUxcFF3VlR2WUtkRENhY2cyUUN6SVM5MkJlYnFQQ1ozZk0wUUZMbi13M0VpRmZJX2FKOUQ3WVBpWUVUZGhHTGJydTNEallMOERSX1RfRjFqOUNZdldpdlhBTngxWVl0cVpnZGJnVWIzc1FKemlHMHF2MlNSTFFydVF0WEJyTFA5dVBn?oc=5",
+          "publishedAt": "2026-10-03T09:19:33Z"
+        }
+      ],
+      "caution": "出席日数の比較方法や改革案の詳細は未確認です。"
+    },
+    {
+      "id": "politics-extraordinary-diet-budget",
+      "category": "politics",
+      "title": "農相の予算カット発言をめぐり、臨時国会に荒れ観測",
+      "whatHappened": "簗和生農相の予算カットに関する発言を受け、臨時国会が荒れるとの見方が報じられています。記事見出しでは、高市政権にとって政治上の「鬼門」とも表現されています。",
+      "whyTrending": "閣僚発言が臨時国会の議論に影響する可能性を示す報道が出ているためです。",
+      "context": "発言の具体的な内容や、政府・野党の正式な反応は入力からは確認できません。",
+      "points": [
+        "簗農相の予算カット発言が論点に",
+        "臨時国会が荒れるとの見方を報道",
+        "発言の詳細や国会日程は未確認"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "2ed0e79265f3",
+          "name": "Yahoo!ニュース",
+          "title": "高市首相も避けられなかった政権の「鬼門」簗和生農相予算カット発言で臨時国会は荒れ観測（日刊スポーツ）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyYklhRm00ODc1aWF1UThDZkRSMjY4V1dZa0I3TDdLaElSUGhqSjMwQkd3QjJkZ0JHM1MzN1puU3U4OXFkdWhsMEFSNmE1SlFHSGlRdU5wMzQtQXFOby1Sd2Z1SDU2M1RPdlhDdW92dndYNmJiR0F0SVRTck92R3c?oc=5",
+          "publishedAt": "2026-10-04T02:00:02Z"
         },
         {
-          "id": "7599040c8b96",
-          "name": "ｄメニューニュース",
-          "title": "片山財務大臣を単独直撃　円安・金融政策「政府内で統一が図られている」　消費減税めぐり便乗値上げは「週明けにも対策」【news23】",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9JRmlSLUZuVmlDQ0JqcFAyXzZzeWdXZDdUNkhqT01JMkNPZHBnemlmX2hxSHlBTm1MdFBUZmJkOGdGdmpVMFdZSmY2NTdYN1kwYVM0Ty1ETlpxNjlacmVXYS1uQk9IcURBUU1WVUVGVm1IUEo2YmZYMFJOONIBd0FVX3lxTE5pc09uWXoxcTNFem0ydHZUeS1reVF3Z1M4Ukp2eVYxZE5Vb1FJV2tySlU0MmpXQVNJN21UcGZqRy12Vl95RFBkS0ZMTmtKdV8zcEYzckpWTEE2MDlNdUFIUTV2aWlKc0FuNmVDSGZnS0Fud2ExaUIw?oc=5",
-          "publishedAt": "2026-10-03T09:00:00Z"
+          "id": "ce7faededce1",
+          "name": "日刊スポーツ",
+          "title": "高市首相も避けられなかった政権の「鬼門」簗和生農相予算カット発言で臨時国会は荒れ観測",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUVprb2szenZXajNTSW5KTGZhbjliR3hsRjVsV3FCcUxRai1vZGxxdjlCNHZ3RnE2RHREN1dOM29lWTVQSWtrTzZDQUZhMjRHYzUzQTdsMlpWbzBya2lRMldKMXFjMW5TRGhfT0RZa3NlNmVPZmotdVFEQUtjTWY5X1prbFk?oc=5",
+          "publishedAt": "2026-10-04T02:00:00Z"
         }
       ],
-      "caution": "発言は片山財務相の説明として報じられた内容で、政府内の合意の具体的範囲や対策の詳細は未確認です。"
+      "caution": "「荒れる」との表現は報道上の見通しであり、実際の国会運営は未確認です。"
     },
     {
-      "id": "politics-foreign-residency-policy",
+      "id": "politics-us-ai-command",
       "category": "politics",
-      "title": "外国人政策の厳格化、永住許可が「狭き門」にとの報道",
-      "whatHappened": "政府が「共生」を掲げる一方、外国人の永住を狭き門にする政策を進めていると報じられています。毎日新聞は、外国人政策厳格化の政府の狙いを取り上げています。",
-      "whyTrending": "外国人政策と永住許可をめぐる政府方針が報じられています。",
-      "context": "見出しからは政策の厳格化と永住許可が論点と分かりますが、対象制度や変更内容、政府の正式な説明は未確認です。",
+      "title": "トランプ氏、米AI司令塔の創設を発表",
+      "whatHappened": "トランプ氏が米国のAI司令塔の創設を発表したと報じられています。見出しでは、AI政策を調整する組織とされています。",
+      "whyTrending": "米国のAI政策を調整する新たな司令塔の創設発表が報じられたためです。",
+      "context": "組織の名称、権限、設置時期などの詳細は入力見出しからは確認できません。",
       "points": [
-        "「共生」を掲げる政策と報じられている",
-        "永住が狭き門になるとの見出し",
-        "外国人政策の厳格化が論点"
+        "AI司令塔の創設を発表と報道",
+        "トランプ氏が政策を調整するとされる",
+        "組織の具体的な制度設計は未確認"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sources": [
         {
-          "id": "b86af2057ace",
-          "name": "毎日新聞",
-          "title": "「共生」掲げ永住「狭き門」に 外国人政策厳格化、政府の狙いは",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE83SWZ4cXZjUFBkNFdBZGN0TkxtVmpqMzRvTDBMZjI4b2lfWV9OcDZRUEZSRWh5eENqRXZIVVlBWVkxTHhZd1B3azFDaldBNEpoUUQ1UHlYY19ONFI2LWFsVVBUSExsZV9y?oc=5",
-          "publishedAt": "2026-09-30T22:00:00Z"
-        }
-      ],
-      "caution": "制度変更の具体的内容や政府の意図については、見出しだけでは確認できません。"
-    },
-    {
-      "id": "politics-eez-fall-no-damage",
-      "category": "politics",
-      "title": "日本のEEZ外に落下か、被害情報なしとの報道",
-      "whatHappened": "何らかの物体が日本の排他的経済水域の外に落下した可能性があると報じられています。現時点で被害情報はないとされています。",
-      "whyTrending": "安全保障や周辺海域に関わる事案として報じられています。",
-      "context": "落下した物体の種類や発生地点、関係機関の発表内容は見出しだけでは確認できません。",
-      "points": [
-        "日本のEEZ外に落下した可能性",
-        "被害情報はないと報じられている",
-        "詳細は未確認"
-      ],
-      "sourceCount": 1,
-      "sources": [
+          "id": "384c954d2ae2",
+          "name": "佐賀新聞",
+          "title": "米ＡＩ司令塔の創設発表 トランプ氏、政策を調整 | | 全国のニュース",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8yWlFVWWFtSV9jaTNEREJCMWphWE9zY1ZuLTF4V0pQbFNnRERZWlJzb0M3T2Jld18zRXZKRXRnaXFmMVM4MzBfbjZFSS14UW5XWWV2dldB?oc=5",
+          "publishedAt": "2026-10-04T14:48:00Z"
+        },
         {
-          "id": "2bc871447e2c",
-          "name": "nippon.com",
-          "title": "日本のEEZ外に落下か、被害情報なし",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ES19QWGpzcEpEWEw2NmJtZU1oNUIwUXpJYy1MdkVJeURndmJtcmpUcHBMRUdydEVGMF80NHlNSzBIbERuUEtzaUY0S3UxOVY0VlhwbUxTQ3lEWlRKb3U2d01GYw?oc=5",
-          "publishedAt": "2026-10-02T22:03:04Z"
+          "id": "5118d2a573df",
+          "name": "hokkaido-np.co.jp",
+          "title": "米AI司令塔の創設発表 トランプ氏、政策を調整",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0teUZkR0hTZ1ZIRkRmOEhMLVg5ekQwX1FPTzZ2YmR4Z2N5bkpsNlFmUFluUkxjMG5RUkFMQkpNRGhITDVKWGxsUnBVb0JFZUVKTnp3TmxLUnNuQQ?oc=5",
+          "publishedAt": "2026-10-04T14:54:18Z"
         }
       ],
-      "caution": "「落下か」とされており、落下物や位置は見出しだけでは確定できません。"
+      "caution": "発表の具体的な内容や実施状況は未確認です。"
     },
     {
-      "id": "economy-us-earnings-next-week",
+      "id": "economy-us-earnings",
       "category": "economy",
-      "title": "来週、ペプシコやデルタ航空が決算発表予定",
-      "whatHappened": "来週の米主要企業決算として、ペプシコとデルタ航空が挙げられています。欧州主要企業の決算は「なし」とする見出しもあります。",
-      "whyTrending": "翌週の主要企業決算スケジュールとして複数媒体が報じています。",
-      "context": "決算の具体的な日付や市場予想、業績内容は見出しだけでは確認できません。",
+      "title": "来週、米主要企業でペプシコやデルタ航空が決算",
+      "whatHappened": "来週の米主要企業決算として、ペプシコとデルタ航空が挙げられています。欧州主要企業の決算は「なし」とする別の見出しもあります。",
+      "whyTrending": "主要企業の決算予定が、来週の市場材料として紹介されているためです。",
+      "context": "決算発表日や業績予想、株価への影響は入力からは確認できません。",
       "points": [
-        "ペプシコの決算予定",
-        "デルタ航空の決算予定",
-        "欧州主要企業の決算はなしとの見出し"
+        "ペプシコが決算予定",
+        "デルタ航空が決算予定",
+        "欧州主要企業の決算は「なし」と報道"
       ],
       "sourceCount": 2,
       "sources": [
@@ -206,124 +213,162 @@
           "publishedAt": "2026-10-02T22:47:00Z"
         },
         {
-          "id": "3799da35b77c",
+          "id": "6a1f9fc0a251",
           "name": "みんかぶ FX/為替",
           "title": "来週の米主要企業決算 ペプシコ、デルタ航空",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTF1fX3h1X01KXzYxU0JlSzJnNTRJelVCYjVOWExWelZhTC0yQThqRWxrYTh5V0V4MGxiM3B4SDZmczR4Z0RNZTg2TA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fX3h1X01KXzYxU0JlSzJnNTRJelVCYjVOWExWelZhTC0yQThqRWxrYTh5V0V4MGxiM3B4SDZmczR4Z0RNZTg2TA?oc=5",
           "publishedAt": "2026-10-02T22:37:29Z"
         }
       ],
-      "caution": "決算結果や株価への影響は未確認です。"
+      "caution": "決算内容や市場への影響は、発表前のため未確認です。"
     },
     {
-      "id": "economy-japan-uzbekistan-economic-meeting",
+      "id": "economy-nippon-ham-farm-championship",
       "category": "economy",
-      "title": "日本・ウズベキスタン経済合同会議、AI・デジタル分野を議論",
-      "whatHappened": "タシケントで日本とウズベキスタンの経済合同会議が開催されたと報じられています。AIやデジタル分野などの展望が報告されたとされています。",
-      "whyTrending": "両国の経済協力と成長分野を扱う会議として報じられています。",
-      "context": "会議の参加者や合意事項、具体的な案件は見出しだけでは確認できません。",
+      "title": "日本ハムがファーム日本選手権で優勝",
+      "whatHappened": "日本ハムがファーム日本選手権で優勝したと報じられています。見出しでは「日本ハムがV」と伝えています。",
+      "whyTrending": "ファーム日本選手権の結果として複数媒体が報じたためです。",
+      "context": "対戦相手や試合結果、選手の詳細は入力見出しからは確認できません。",
       "points": [
-        "タシケントで開催",
-        "日本・ウズベキスタンの経済合同会議",
-        "AI・デジタル分野を扱ったとされる"
+        "日本ハムが優勝と報道",
+        "大会はファーム日本選手権",
+        "試合の詳細は未確認"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "2418a36db658",
+          "name": "高松経済新聞",
+          "title": "日本ハムがＶ ファーム日本選手権",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1JRFdaeWNPZ3Ztc0VWR2lXX1JkcmpVSFRFOENiaFhGalNSUjZzRUVNLWdlMkVnNThLTjdlQkZ6SDV4bTRVNTVXZzB6a2FIcGxsUHl0VEUwSQ?oc=5",
+          "publishedAt": "2026-10-04T12:16:03Z"
+        },
+        {
+          "id": "603af87ebf20",
+          "name": "kasukabe.keizai.biz",
+          "title": "日本ハムがＶ ファーム日本選手権",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBVOFVXTDRqelpNU2ZsUGdzV2hjR1YyM3ZhNHUwUXNPYXlUZmVnUnZCY0NnbG9XTXlDMkp2UjVDWThVYjRZWkpraEFXS0JHN0kweXZzTWRR?oc=5",
+          "publishedAt": "2026-10-04T10:59:47Z"
+        }
+      ],
+      "caution": "競技上の詳細は見出しから確認できません。"
+    },
+    {
+      "id": "economy-yen-intervention-topix",
+      "category": "economy",
+      "title": "円買い介入後のTOPIXと企業収益を野村證券が解説",
+      "whatHappened": "円買い介入後のTOPIXの傾向について、野村證券のストラテジストが解説したと報じられています。見出しでは、現行水準のドル円相場であれば日本企業の収益にプラスとの見方が示されています。",
+      "whyTrending": "円相場と企業収益、株価の関係が市場関係者の解説として取り上げられたためです。",
+      "context": "見出しには「米ドル円が一時157円台」「円買い介入か」とする別記事もありますが、介入の有無は断定されていません。",
+      "points": [
+        "円買い介入後のTOPIX傾向を解説",
+        "日本企業の収益への影響に言及",
+        "ドル円相場の水準が論点"
       ],
       "sourceCount": 1,
       "sources": [
         {
-          "id": "d5e7d6524a25",
-          "name": "jetro.go.jp",
-          "title": "タシケントで日本ウズベキスタン経済合同会議が開催、AI・デジタル分野などの展望報告(日本、ウズベキスタン) | ビジネス短信",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvOExHaWs3WXVQZDV2ZzY0WUlvQ19ZRVN2NGFUTFYxYjladXVKZmt1alltTUdxT01fRGE3UXpJbF9Kdi1vZEtxUkJPMFBqdVZsYlktanZGaklhMVQwNDBENW5STFZtN1ZWYnc3T0xB?oc=5",
-          "publishedAt": "2026-09-29T06:16:05Z"
+          "id": "f52332eef6ed",
+          "name": "nomura.co.jp",
+          "title": "円買い介入後のTOPIX傾向は？ 現行水準の米ドル・円相場であれば、日本企業の収益にプラス 野村證券ストラテジストが解説",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5pQ1ZheHdWQVp3V1pQcGZaWVFUNUlKdVFhdW5qdDZGenRaMnluZEFUd0hXVjlBSTJBc2syVlpSalBYMGJfVUdLb3Rjd1g5SkZqOWtiSFFidTNnOEx3RWE0?oc=5",
+          "publishedAt": "2026-10-02T07:00:00Z"
         }
       ],
-      "caution": "具体的な投資額、契約、政策決定があったかは未確認です。"
-    },
-    {
-      "id": "internet-online-topics-office-food-poisoning",
-      "category": "internet",
-      "title": "「Officeの消失」などネット話題をまとめた記事が注目",
-      "whatHappened": "「Officeの消失」「こめお食中毒」「ちいかわコラボ景品横領」など、ネット上で話題になった複数のテーマを扱う記事が掲載されています。個別の出来事の詳細は、入力の見出しだけでは確認できません。",
-      "whyTrending": "ネット上の複数の話題をまとめた記事が、2媒体で報じられています。",
-      "context": "見出しでは3つのテーマが列挙されていますが、事実関係や経緯は未確認です。",
-      "points": [
-        "Officeの消失が話題として挙げられている",
-        "こめお食中毒が話題として挙げられている",
-        "ちいかわコラボ景品横領が話題として挙げられている"
-      ],
-      "sourceCount": 2,
-      "sources": [
-        {
-          "id": "78a92ef69b9c",
-          "name": "news.yahoo.co.jp",
-          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum）",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuZTRTREVhMjBFbGlBUXBpWXluMEZOZkNIV0hfYUdJaHUycno1blpuT2pMN1VZSWZ2SkRqZFFZZ2xCSlY5Z0o4RkRTU2ZKWTEtSlZGUEVrRnNCdVBZYXVrcU5NNDdJZkV3RE5uWVZxcDBrcmdSd0Q4TmR0T2VNclE?oc=5",
-          "publishedAt": "2026-10-02T06:16:14Z"
-        },
-        {
-          "id": "407264b24329",
-          "name": "Web担当者Forum",
-          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12ZUhOdk0yZ3BZWHZTRmFYT2JDeEFNRUNLNE1DQUpxaU8zLUFDVWJiWndlQzB1a0FNRFVLbS0xNkdHaXpkUGpMVGstTmZNRy12czJ1VElxWUppUVk?oc=5",
-          "publishedAt": "2026-10-01T22:05:00Z"
-        }
-      ],
-      "caution": "列挙された話題の事実関係、被害の有無、関係者の説明は未確認です。"
-    },
-    {
-      "id": "internet-kubo-fukuhara-marriage-report",
-      "category": "internet",
-      "title": "久保建英選手と福原遥さんの結婚報道がXで話題と報じられる",
-      "whatHappened": "久保建英選手と福原遥さんの結婚をめぐる記事が掲載され、「交際報道一切なし」がXのトレンド入りしたと報じられています。結婚そのものを裏付ける公式発表の有無は、入力だけでは確認できません。",
-      "whyTrending": "予想外の結婚報道として、SNS上の反応を含めて複数媒体が報じています。",
-      "context": "別の入力見出しでも福原遥さんの結婚が報じられていますが、詳細や当事者の発表は未確認です。",
-      "points": [
-        "結婚をめぐる報道が出ている",
-        "「交際報道一切なし」がXトレンド入りしたとされる",
-        "SNS上の驚きの反応が報じられている"
-      ],
-      "sourceCount": 2,
-      "sources": [
-        {
-          "id": "42d858490b01",
-          "name": "日刊スポーツ",
-          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wR2s0WWxzSkl4WTJ3c0Z2VFhUeDBhd0pXYUdWRGs5UFhaY2dELU5DVjREbGhVcDRSNjc5bGVWckpRT3ZWMnd1U1BUOWFMZFBOUjlwVlhsZTBaM0JPbExXNDdJWVgwc1lhcnVJMy0wMzRENzFNNmfSAX5BVV95cUxOVmtvZE55UjBIZzNrQk5TUjdlbDBjcm9IU0hZclVVS1UtVkIwMXpnMGVFb3MweVkyTWVqWHNXSHgxMTZPTDRpaFlaYThnU2gyM0UyZlh2YXVlcWlUOWpVdWJDYWZjWHNraGtuVUlDeThvQk1LZklHd3VDbl9sTkE?oc=5",
-          "publishedAt": "2026-10-02T13:31:04Z"
-        },
-        {
-          "id": "18b742b36131",
-          "name": "ｄメニューニュース",
-          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXa9IBmwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXaw?oc=5",
-          "publishedAt": "2026-10-02T13:31:00Z"
-        }
-      ],
-      "caution": "結婚は見出しに基づく報道段階で、本人・所属先などによる公式確認は入力から確認できません。"
+      "caution": "円買い介入の実施有無や、見解の前提となる相場水準の詳細は未確認です。"
     },
     {
       "id": "internet-bts-jimin-tiktok",
       "category": "internet",
-      "title": "BTSジミンさんのTikTok初投稿映像が話題に",
-      "whatHappened": "BTSのジミンさんがTikTokに初投稿した映像が話題になり、SNS上でカバー映像が相次いでいると報じられています。投稿内容や反響の規模は見出しだけでは確認できません。",
-      "whyTrending": "初投稿とSNS上の派生投稿が注目されています。",
-      "context": "投稿時期や映像の内容、カバー映像の数は未確認です。",
+      "title": "BTSジミンのTikTok初投稿に反響、カバー映像も続々",
+      "whatHappened": "BTSのジミンさんがTikTokに初めて投稿した映像が話題になっていると報じられています。SNS上ではカバー映像が相次いでいるとされています。",
+      "whyTrending": "初投稿への反響に加え、ファンによるカバー映像の広がりが報じられたためです。",
+      "context": "投稿内容やカバー映像の数、反響の規模は入力見出しからは確認できません。",
       "points": [
-        "TikTok初投稿映像が話題とされている",
-        "SNS上でカバー映像が続いていると報じられている",
-        "詳細な反響は未確認"
+        "TikTok初投稿映像が話題と報道",
+        "SNS上でカバー映像が続出",
+        "反響の具体的規模は未確認"
       ],
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sources": [
         {
-          "id": "bbdf62467322",
+          "id": "1b51cc4cf552",
+          "name": "日刊スポーツ",
+          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vZjUtZmY1T3ctZm5MbE1KZm14OVB4RVliMWZSRzZzUnJyQ3VCSVNvb2NHa3JrZW1EcTNQamVkLTZVb25YZnhxQzZseTExNEpJUjQyNHdBdGRjVlo3bjlGTWE2NlA5SnFPNVR3SFNad3EzT2E4OVRzZUoxdDPSAX9BVV95cUxPZlNaWHFkODQzZGEtcTZuTUl4VE5wdEpHYUtnV3FvY2VRVl9zTDZfc1BFZF9reTE1N3BHNUhaTXVTVG11Z3dCN2lrSnFXTXpsTlNDTzg3cVdqTnFDQnljcE5uWHdKMEQ1MzhLNkphQnJKZXpHMEtTR1ZHbGNtOENJ?oc=5",
+          "publishedAt": "2026-10-03T21:00:00Z"
+        },
+        {
+          "id": "15244c89df74",
           "name": "ｄメニューニュース",
           "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclNob1VCM2g4SmVvRWdfanRObV9yYmwtWEV6SHFjY01hV2VETlVWb0tfeVVXU1pwa093cGx6Y2UxN0JTS3pic1pNTzYyT0JpZGFIV3VSNlpmTng4bzRkZ2d6MEJZVk9PWUp5bjcwM1RQTHF0U0tBMGw0UmQtMS16WDRDd3BVbzMwU011akp6WXhHR1RCWVFaRGpZQ2VSQ1nSAaQBQVVfeXFMTUhtNDI3SUhTRG5Ua010OExxdnVGV2FkcUtXdTFXbGcyb0VzY0xOcng4cmdMNk5wNUE2bnB0R0xiN3NSWDNBdG9ZNHVObHVCcXJYMDVTNE5IOUFVOHRuNUtmUGVVS3FBSEhaWTNsME85Z0VFOUR4TmFwc013TGJfNjlwN1hkZ1VCb1hPcF9MTmwxWDhBeWQ5a1lSejJCVVduNmJrOU0?oc=5",
-          "publishedAt": "2026-10-03T21:05:58Z"
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNclNob1VCM2g4SmVvRWdfanRObV9yYmwtWEV6SHFjY01hV2VETlVWb0tfeVVXU1pwa093cGx6Y2UxN0JTS3pic1pNTzYyT0JpZGFIV3VSNlpmTng5bzRkZ2d6MEJZVk9PWUp5bjcwM1RQTHF0U0tBMGw0UmQtMS16WDRDd3BVbzMwU011akp6WXhHR1RCWVFaRGpZQ2VSQ1nSAaQBQVVfeXFMTUhtNDI3SUhTRG5Ua010OExxdnVGV2FkcUtXdTFXbGcyb0VzY0xOcng4cmdMNk5wNUE2bnB0R0xiN3NSWDNBdG9ZNHVObHVCcXJYMDVTNE5IOUFVOHRuNUtmUGVVS3FBSEhaWTNsME85Z0VFOUR4TmFwc013TGJfNjlwN1hkZ1VCb1hPcF9MTmwxWDhBeWQ5a1lSejJCVVduNmJrOU0?oc=5",
+          "publishedAt": "2026-10-03T21:00:00Z"
         }
       ],
-      "caution": "投稿内容やSNS上の反響の実態は、見出しだけでは確認できません。"
+      "caution": "SNS上の反応や映像の広がりの規模は未確認です。"
+    },
+    {
+      "id": "internet-online-topics-roundup",
+      "category": "internet",
+      "title": "「Officeの消失」など、ネット上の話題を紹介",
+      "whatHappened": "「Officeの消失」「こめお食中毒」「ちいかわコラボ景品横領」など、最近のネット上の話題を扱う記事が報じられています。見出しは複数の話題を列挙していますが、それぞれの事実関係は入力からは確認できません。",
+      "whyTrending": "複数の話題をまとめたネットトレンド記事として掲載されたためです。",
+      "context": "各話題の発生時期、当事者の説明、事実確認の状況は未確認です。",
+      "points": [
+        "Officeの消失が話題として列挙",
+        "こめお食中毒が話題として列挙",
+        "ちいかわコラボ景品横領が話題として列挙"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "10a25dca400a",
+          "name": "ｄメニューニュース",
+          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQMXJma1VqNkVjdU1wV0M4UC1MUDVrS1kySE1CZTROWHVzTHk3d280cUpFSmQ4eFlFOEVhT2hua3MtUUdOanJQNFJYM3NpNFhTVTVobnJCTjdNYWpyM213YlhtbzdZSWhrVUVrUWxQcFppXzNBRm04Tnd2WjdwRFdDcGtvd3ZFNlEzT1pvbjl2RE5pdmw2cDJEVkRBdTdRWXNiVjNvenV2S1RoR095ZXI5d2JQLUJuaElGSVdGeWVuUlNuNi02clR4LUNkV2h6TTNXVEZ6aWdGMzFzM3EzWVhaRXNqMEpoWnRlVGd3RkpZczlPLVp2UWN5clpOWk1oXzgt0gGwAUFVX3lxTE5wVUtydTdYamp5cE8zdXFfTHRSMW91Ym15X01udEVET3l4TjlmYjcyQXVfMGtLMWJvcmRRdm1jNXpYYzZiQzJZcUZpSGtITVNCTVQ4U1lXV0w4SWE5RzZtUkxuaTNIZzhzUldzSFJYODlXOHRuYTFtRjgyVE1qemdvMEV0RXl2b2w4RHZaOVVRT0l6U0RxT3NCUTR3cy1WSk9rb2Y5TzdRUEtuLWtvQllB?oc=5",
+          "publishedAt": "2026-10-01T22:13:08Z"
+        },
+        {
+          "id": "14c5789d84b2",
+          "name": "Yahoo!ニュース",
+          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum）",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuZTRTREVhMjBFbGlBUXBpWXluMEZOZkNIV0hfYUdJaHUycno1blpuT2pMN1VZSWZ2SkRqZFFZZ2xCSlY5Z0o4RkRTU2ZKWTEtSlZGUEVrRnNCdVBZYXVrcU5NNDdJZkV3RE5uWVZxcDBrcmdSd0Q4TmR0T2VNclE?oc=5",
+          "publishedAt": "2026-10-02T06:16:14Z"
+        }
+      ],
+      "caution": "列挙された出来事は見出し上の話題であり、個別の事実関係や疑惑の真偽は未確認です。"
+    },
+    {
+      "id": "internet-kubo-fukuhara-marriage-report",
+      "category": "internet",
+      "title": "久保建英選手と福原遥さんの結婚をめぐる投稿がXで話題",
+      "whatHappened": "久保建英選手と福原遥さんの結婚をめぐる内容がXのトレンド入りしたと報じられています。見出しでは「交際報道一切なし」とも伝えられています。",
+      "whyTrending": "交際報道がないとされる2人の結婚をめぐる情報に、SNS上で驚きの反応が広がったためとみられます。",
+      "context": "結婚の事実や情報の発信元について、入力からは確認できません。",
+      "points": [
+        "2人の結婚をめぐる内容がXで話題",
+        "「交際報道一切なし」と報道",
+        "SNS上の反応として「衝撃」「まさか」などを紹介"
+      ],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "id": "a6d1f63713ab",
+          "name": "ｄメニューニュース",
+          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXa9IBmwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXaw?oc=5",
+          "publishedAt": "2026-10-02T13:31:00Z"
+        },
+        {
+          "id": "8081a0eb895a",
+          "name": "日刊スポーツ",
+          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wR2s0WWxzSkl4WTJ3c0Z2VFhUeDBhd0pXYUdWRGs5UFhaY2ZELU5DVjREbGhVcDRSNjc5bGVWckpRT3ZWMnd2U1BUOWFMZFBOUjlwVlhsZTBaM0JPbExXNDdJWVgwc1lhcnVJMy0wMzRENzFNNmfSAX5BVV95cUxOVmtvZE55UjBIZzNrQk5TUjdlbDBjcm9IU0hZclVVS1UtVkIwMXpnMGVFb3MweVkyTWVqWHNXSHgxMTZPTDRpaFlaYThnU2gyM0UyZlh2YXVlcWlUOWpVdWJDYWZjWHNraGtuVUlDeThvQk1LZklHd3VDbl9sTkE?oc=5",
+          "publishedAt": "2026-10-02T13:31:04Z"
+        }
+      ],
+      "caution": "結婚の事実は入力から確認できず、SNS上の報道内容にとどまります。公式発表などでの確認が必要です。"
     }
   ]
 }
