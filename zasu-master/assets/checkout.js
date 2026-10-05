@@ -3,9 +3,9 @@ const cfg=window.ZASU_MASTER_CONFIG||{};
 const params=new URLSearchParams(location.search);
 const plan=(params.get("plan")||"full").toLowerCase();
 const plans={
-  mix:{name:"ZASU MIX",price:500,description:"AUTO BALANCEを含む1曲のボーカルMIX処理。",href:"mix/"},
-  master:{name:"ZASU MASTER",price:500,description:"STANDARD / LOUD OTVから選ぶ1曲のマスタリング。",href:"upload.html"},
-  full:{name:"MIX + MASTER",price:800,description:"ZASU MIXからMASTERまでを1つの制作フローで。",href:"mix/"}
+  mix:{name:"ZASU MIX",price:500,description:"1曲のフル尺MIX処理。完成MIXの24-bit WAVと、処理済みボーカルをダウンロードできます。",href:"mix/"},
+  master:{name:"ZASU MASTER",price:500,description:"STANDARD / LOUDから選ぶ1曲のフル尺マスタリング。完成音源の24-bit WAVをダウンロードできます。",href:"upload.html"},
+  full:{name:"MIX + MASTER",price:800,description:"MIXとMASTERの2工程をセットで購入。フル尺MIXからマスタリングへ進み、完成音源をダウンロードできます。",href:"mix/"}
 };
 const p=plans[plan]||plans.full;
 q("#checkoutPlan").textContent=p.name;
@@ -30,15 +30,15 @@ const rememberedSupporterCode=sessionStorage.getItem("zasu_supporter_code");
 if(rememberedSupporterCode&&supporterCode)supporterCode.value=rememberedSupporterCode;
 
 if(!cfg.commerceEnabled){
-  btn.textContent="OPEN BETA — TRY FREE";
+  btn.textContent="無料公開の処理へ進む";
   status.textContent="現在はOPEN BETAのため決済は発生しません。";
   btn.onclick=()=>location.href=p.href;
 }else{
-  btn.textContent="PAY WITH SQUARE";
+  btn.textContent="Squareで購入する";
   btn.onclick=async()=>{
     if(!legalConfirm?.checked){status.textContent="特商法表記・返金ポリシー・利用規約を確認してください。";return;}
-    if(!cfg.audioCheckoutEndpoint){status.textContent="CHECKOUT IS NOT READY.";return;}
-    status.textContent="Square Checkoutを準備しています…";
+    if(!cfg.audioCheckoutEndpoint){status.textContent="購入画面を準備できませんでした。少し待ってから再度お試しください。";return;}
+    status.textContent="Squareの購入画面を準備しています…";
     btn.disabled=true;
     try{
       const visitorId=localStorage.getItem("zasu_visitor_id")||crypto.randomUUID();
@@ -51,16 +51,16 @@ if(!cfg.commerceEnabled){
         const sec=Math.max(1,Number(body.retry_after_seconds||60));
         throw new Error("短時間に決済リクエストが集中しています。約"+Math.ceil(sec/60)+"分後にもう一度お試しください。");
       }
-      if(!res.ok||!body.payment_url||!body.order_id||!body.order_access_token)throw new Error(body.user_message||body.error||"CHECKOUT FAILED");
+      if(!res.ok||!body.payment_url||!body.order_id||!body.order_access_token)throw new Error(body.user_message||body.error||"決済画面を開けませんでした。通信状態を確認して再度お試しください。");
       localStorage.setItem("zasu_audio_checkout",JSON.stringify({order_id:body.order_id,order_access_token:body.order_access_token,plan,created_at:Date.now(),supporter:false}));
       location.href=body.payment_url;
-    }catch(e){status.textContent=e?.message||"CHECKOUT FAILED";btn.disabled=false}
+    }catch(e){status.textContent=window.ZASU_I18N.error(e,"payment");btn.disabled=false}
   };
 }
 
 async function useSupporterTicket(){
   if(!legalConfirm?.checked){supporterStatus.textContent="利用規約・返金ポリシー等を確認してください。";return}
-  if(!cfg.supporterPortalEndpoint){supporterStatus.textContent="SUPPORTER TICKET IS NOT READY.";return}
+  if(!cfg.supporterPortalEndpoint){supporterStatus.textContent="チケットを確認できませんでした。支援者ページから再度お試しください。";return}
   const code=normalizeSupporterCode(supporterCode?.value);
   if(!code){supporterStatus.textContent="支援者コードを入力してください。";return}
   const pending=getPending();
@@ -91,7 +91,7 @@ async function useSupporterTicket(){
     supporterStatus.textContent="チケットを適用しました。フル尺処理を解放します…";
     location.href="checkout-return.html?order="+encodeURIComponent(body.order_id)+"&supporter=1";
   }catch(e){
-    supporterStatus.textContent=e?.message||"チケットを適用できませんでした。";
+    supporterStatus.textContent=window.ZASU_I18N.error(e,"payment");
     supporterButton.disabled=false;
   }
 }

@@ -4,37 +4,39 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#080808">
-<title>ZASU MIX｜Auto Vocal Mix Prototype</title>
-<meta name="description" content="ドライボーカルとインストをアップロードして自動MIX。ZASU MIX。処理後30秒を無料試聴して、気に入ったらフル尺へ。">
+<title>MIX｜ボーカルとインストを自動MIX｜ZASU AUDIO</title>
+<meta name="description" content="音源をアップロードするだけ。ボーカルMIX、マスタリング、音源変換をもっとシンプルに。ZASU WORKSのWebオーディオサービス。">
 <link rel="stylesheet" href="assets/style.css?v=20261001-queue1">
+<link rel="stylesheet" href="../assets/brand-ja.css?v=20261005-ja1">
+<meta property="og:type" content="website"><meta property="og:locale" content="ja_JP"><meta property="og:site_name" content="ZASU AUDIO"><meta property="og:title" content="MIX｜ボーカルとインストを自動MIX｜ZASU AUDIO"><meta property="og:description" content="音源をアップロードするだけ。ボーカルMIX、マスタリング、音源変換をもっとシンプルに。ZASU WORKSのWebオーディオサービス。"><meta property="og:url" content="https://zasumaster.com/mix/"><meta property="og:image" content="https://zasumaster.com/assets/ogp-ja.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://zasumaster.com/mix/">
 </head>
 <body>
 <header>
   <div class="wrap nav">
     <a class="brand" href="../index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a>
-    <nav><a href="../mix/">MIX</a><a href="../upload.html">MASTER</a><a href="../convert/">CONVERT</a><a href="../pricing.html">PRICING</a></nav>
+    <nav><a href="../mix/">MIX</a><a href="../upload.html">MASTER</a><a href="../convert/">CONVERT</a><a href="../pricing.html">料金</a></nav>
   </div>
 </header>
 
 <main>
 <section class="hero">
   <div class="wrap">
-    <div class="kicker">AUTO VOCAL MIX / PROTOTYPE v0.3</div>
+    <div class="kicker">ボーカルとインストを自動MIX</div>
     <h1>ZASU<br>MIX.</h1>
-    <p class="lead">ドライボーカルとインストから、自動で2MIXを作る。<br>まずは歌ってみた・ロック/ラウド系向けの試作版です。</p>
+    <p class="lead">ボーカルとインストをアップロードするだけ。<br>音量・バランス・EQ・コンプレッション・空間処理を自動で調整します。</p>
   </div>
-</section>
+<ol style="width:min(980px,calc(100% - 32px));margin:24px auto" class="ja-steps" aria-label="操作の流れ"><li><b>STEP 1</b>ボーカル・インストを選択</li><li><b>STEP 2</b>MIXを開始</li><li><b>STEP 3</b>30秒を無料試聴</li><li><b>STEP 4</b>完成版を購入</li><li><b>STEP 5</b>ダウンロード</li></ol></section>
 
 <section>
 <div class="wrap mix-shell">
   <div class="mix-card">
-    <div class="mode">01 / SOURCES</div>
+    <div class="mode">STEP 1 / 音源を選択</div>
     <h2>2つの音源を入れる</h2>
     <div class="source-grid">
       <div>
         <label class="dropzone" id="vocalDrop" for="vocalFile">
           <input id="vocalFile" type="file" accept=".wav,.wave,.flac,.aiff,.aif,.m4a,.mp3,audio/*">
-          <strong>DRY VOCAL</strong>
+          <strong>ボーカルを選択</strong>
           <span>エフェクト前のボーカル</span>
         </label>
         <div class="file-meta" id="vocalMeta">ボーカル未選択</div>
@@ -42,7 +44,7 @@
       <div>
         <label class="dropzone" id="instDrop" for="instFile">
           <input id="instFile" type="file" accept=".wav,.wave,.flac,.aiff,.aif,.m4a,.mp3,audio/*">
-          <strong>INSTRUMENTAL</strong>
+          <strong>インストを選択</strong>
           <span>カラオケ / オケ音源</span>
         </label>
         <div class="file-meta" id="instMeta">インスト未選択</div>
@@ -53,17 +55,17 @@
       <span>ボーカルはインストと同じ曲頭から書き出してください。</span>
       <small>歌い出し前の無音部分も削除せず、両方とも同じ 0:00 から始まる状態でアップロードしてください。頭出しが合っていれば、そのまま自動MIXできます。</small>
     </div>
-    <div class="mini-note">各ファイル最大500MB。大きなファイルは自動で分割アップロードします。</div>
+    <div class="mini-note">対応形式：WAV / FLAC / AIFF / M4A / MP3。各ファイル最大500MB。ボーカルとインストは別の音源を選んでください。大きなファイルは自動で分割アップロードします。</div>
     <div id="preflightPanel" class="preflight-panel" hidden>
       <div class="preflight-head">
-        <span>HEAD ALIGNMENT / PRE-FLIGHT CHECK v1</span>
-        <strong id="preflightTitle">CHECKING…</strong>
+        <span>MIX前の音源チェック</span>
+        <strong id="preflightTitle">確認中…</strong>
         <small id="preflightLead">ボーカルとインストの状態を確認しています。</small>
       </div>
       <div class="preflight-metrics">
-        <div><span>VOCAL</span><strong id="preflightVocalDuration">—</strong><small id="preflightVocalLevel">—</small></div>
-        <div><span>INSTRUMENTAL</span><strong id="preflightInstDuration">—</strong><small id="preflightInstLevel">—</small></div>
-        <div><span>HEAD</span><strong id="preflightHead">—</strong><small>先頭無音 / 長さを確認</small></div>
+        <div><span>ボーカル</span><strong id="preflightVocalDuration">—</strong><small id="preflightVocalLevel">—</small></div>
+        <div><span>インストを選択</span><strong id="preflightInstDuration">—</strong><small id="preflightInstLevel">—</small></div>
+        <div><span>頭出し</span><strong id="preflightHead">—</strong><small>先頭無音 / 長さを確認</small></div>
       </div>
       <div id="preflightWarnings" class="preflight-warnings"></div>
       <div id="preflightActions" class="preflight-actions" hidden>
@@ -74,7 +76,7 @@
   </div>
 
   <div class="mix-card">
-    <div class="mode">02 / MIX STYLE</div>
+    <div class="mode">STEP 2 / MIXの方向性</div>
     <h2>ボーカルの方向性</h2>
     <div class="style-grid">
       <button class="style" data-style="natural"><strong>NATURAL</strong><span>原音重視 / 軽いコンプ / 控えめな空間</span></button>
@@ -84,15 +86,15 @@
     </div>
 
     <div class="engine-note">
-      <strong>AUTO MIX ENGINE v0.3</strong>
-      <span>HPF / EQ / De-esser / Compressor / Vocal Level / Ambience / Safety Limiterを自動調整。</span>
-      <small>※ ピッチ補正・タイミング補正はまだ行いません。</small>
+      <strong>自動MIXの処理内容</strong>
+      <span>不要な低域のカット、EQ、歯擦音の抑制、コンプレッション、ボーカル音量、空間処理を調整し、最大ピークを保護します。</span>
+      <small>ピッチ補正・タイミング補正は行いません。</small>
     </div>
   </div>
 
   <div class="mix-card control-card">
-    <div class="mode">03 / VOCAL CONTROL</div>
-    <h2>声を自分で追い込む</h2>
+    <div class="mode">音量・音質の調整（任意）</div>
+    <h2>必要なときだけ、自分で調整</h2>
     <div class="auto-balance-panel">
       <label class="auto-balance-toggle">
         <span>
@@ -105,86 +107,86 @@
     </div>
     <div class="control-list">
       <label class="control-row">
-        <span><strong>VOCAL LEVEL</strong><small>オケに対するボーカル音量</small></span>
+        <span><strong>ボーカル音量</strong><small>オケに対するボーカル音量</small></span>
         <output id="vocalGainValue">+2.0 dB</output>
         <input id="vocalGain" type="range" min="-6" max="6" step="0.5" value="2">
       </label>
       <label class="control-row">
-        <span><strong>REVERB</strong><small>ボーカルの空間量</small></span>
+        <span><strong>リバーブ</strong><small>ボーカルの空間量</small></span>
         <output id="reverbValue">14%</output>
         <input id="reverbAmount" type="range" min="0" max="40" step="1" value="14">
       </label>
     </div>
-    <div class="eq-title">VOCAL EQ</div>
+    <div class="eq-title">ボーカルEQ</div>
     <div class="eq-grid">
-      <label><span>BODY <small>220Hz</small></span><output id="eqBodyValue">0.0 dB</output><input id="eqBody" type="range" min="-4" max="4" step="0.5" value="0"></label>
-      <label><span>PRESENCE <small>3.2kHz</small></span><output id="eqPresenceValue">0.0 dB</output><input id="eqPresence" type="range" min="-4" max="4" step="0.5" value="0"></label>
-      <label><span>AIR <small>10kHz</small></span><output id="eqAirValue">0.0 dB</output><input id="eqAir" type="range" min="-4" max="4" step="0.5" value="0"></label>
+      <label><span>太さ（BODY） <small>220Hz</small></span><output id="eqBodyValue">0.0 dB</output><input id="eqBody" type="range" min="-4" max="4" step="0.5" value="0"></label>
+      <label><span>明瞭さ（PRESENCE） <small>3.2kHz</small></span><output id="eqPresenceValue">0.0 dB</output><input id="eqPresence" type="range" min="-4" max="4" step="0.5" value="0"></label>
+      <label><span>抜け感（AIR） <small>10kHz</small></span><output id="eqAirValue">0.0 dB</output><input id="eqAir" type="range" min="-4" max="4" step="0.5" value="0"></label>
     </div>
-    <div class="mini-note">AUTO BALANCEをOFFにするとVOCAL LEVELを手動調整できます。EQ / REVERBはAUTO BALANCE中でも自由に変更できます。</div>
+    <div class="mini-note">AUTO BALANCEをOFFにすると、ボーカル音量を手動調整できます。EQ・リバーブはAUTO BALANCE中でも変更できます。</div>
   </div>
 
   <div class="mix-card">
-    <div class="mode">04 / MIX</div>
-    <button class="btn" id="mixButton">CREATE AUTO MIX</button>
+    <div class="mode">STEP 3 / MIXを開始</div>
+    <button class="btn" id="mixButton">MIXを開始</button>
     <div class="job-progress" id="jobProgress" hidden>
       <div class="progress-track"><span id="progressBar"></span></div>
-      <div class="progress-copy"><strong id="progressTitle">PREPARING</strong><span id="progressText">準備しています。</span></div>
+      <div class="progress-copy"><strong id="progressTitle">準備中</strong><span id="progressText">準備しています。</span></div>
     </div>
     <div id="queueStatus" class="queue-status" hidden>
-      <div><span>QUEUE STATUS</span><strong id="queueHeadline">CHECKING</strong></div>
+      <div><span>処理の順番</span><strong id="queueHeadline">確認中</strong></div>
       <small id="queueDetail">処理順を確認しています。</small>
     </div>
     <div class="status-text" id="statusText"></div>
   </div>
 
   <div class="mix-card result-card" id="resultCard" hidden>
-    <div class="mode">READY</div>
-    <h2 id="resultHeading">MIX READY.</h2>
+    <div class="mode">完了</div>
+    <h2 id="resultHeading">MIXが完成しました</h2>
     <div class="metrics">
-      <div><span>STYLE</span><strong id="resultStyle">—</strong></div>
-      <div><span>SAMPLE RATE</span><strong id="resultRate">—</strong></div>
-      <div><span>OUTPUT LUFS</span><strong id="resultLufs">—</strong></div>
-      <div><span>TRUE PEAK</span><strong id="resultTp">—</strong></div>
+      <div><span>スタイル</span><strong id="resultStyle">—</strong></div>
+      <div><span>サンプルレート</span><strong id="resultRate">—</strong></div>
+      <div><span>音量（LUFS）</span><strong id="resultLufs">—</strong></div>
+      <div><span>最大ピーク（dBTP）</span><strong id="resultTp">—</strong></div>
     </div>
     <div id="autoBalanceResult" class="auto-balance-result" hidden>
       <span>AUTO BALANCE</span><strong id="autoBalanceResultValue">—</strong>
       <small>250Hz–5kHzのマスキング解析から自動配置</small>
     </div>
     <div id="previewAbArea" class="preview-ab" hidden>
-      <div class="preview-ab-head"><span>FREE 30-SECOND PREVIEW</span><strong>ZASU MIX PREVIEW</strong><small>実際のMIX処理後の音を30秒試聴できます。</small></div>
+      <div class="preview-ab-head"><span>購入前の無料試聴 / 30秒</span><strong>MIXを試聴</strong><small>実際のMIX処理後の音を30秒試聴できます。</small></div>
       <div class="preview-audio-grid">
-        <label><strong>ZASU MIX / 30 SEC</strong><audio id="previewAfterAudio" controls preload="metadata"></audio></label>
+        <label><strong>完成MIX / 30秒</strong><audio id="previewAfterAudio" controls preload="metadata"></audio></label>
       </div>
     </div>
     <div id="previewGate" class="preview-gate" hidden>
-      <div><small>LIKE THE PREVIEW?</small><strong>フル尺を仕上げる</strong><span id="previewGateCopy">OPEN BETA中は無料でフル尺処理できます。</span></div>
+      <div><small>気に入ったら完成版へ</small><strong>フル尺を仕上げる</strong><span id="previewGateCopy">ここまでの30秒試聴は無料です。購入後にフル尺処理と完成音源のダウンロードが利用できます。</span></div>
       <div class="preview-unlock-grid">
-        <button id="unlockMixButton" class="btn" type="button">CREATE FULL MIX — FREE BETA</button>
-        <button id="unlockFullButton" class="btn secondary" type="button">MIX + MASTER — FREE BETA</button>
+        <button id="unlockMixButton" class="btn" type="button">フル尺MIXを作成（無料公開時のみ）</button>
+        <button id="unlockFullButton" class="btn secondary" type="button">MIX + MASTERを作成（無料公開時のみ）</button>
         <button id="devUnlockMixButton" class="btn secondary" type="button" hidden>DEV FULL MIX — NO PAYMENT</button>
       </div>
       <div id="previewUnlockStatus" class="handoff-status"></div>
     </div>
     <div class="download-grid" id="fullDownloads">
-      <a id="mixDownload" class="btn" href="#">DOWNLOAD MIXED 24-BIT WAV</a>
-      <a id="vocalDownload" class="btn secondary" href="#">DOWNLOAD VOCAL WET STEM</a>
+      <a id="mixDownload" class="btn" href="#">MIXをダウンロード（24-bit WAV）</a>
+      <a id="vocalDownload" class="btn secondary" href="#">処理済みボーカルをダウンロード</a>
     </div>
     <div class="next-step master-handoff" id="fullMasterHandoff">
-      <span><small>NEXT STEP / NO RE-UPLOAD</small><strong>ZASU MASTERで仕上げる</strong></span>
+      <span><small>次のステップ / 再アップロード不要</small><strong>ZASU MASTERで仕上げる</strong></span>
       <div class="master-choice-grid">
         <button id="sendStandard" class="master-choice" type="button">
-          <strong>STANDARD</strong><small>Balanced / Punchy / Natural</small>
+          <strong>STANDARD</strong><small>自然さを残した、バランス重視の仕上がり</small>
         </button>
         <button id="sendLoud" class="master-choice" type="button">
-          <strong>LOUD / OTV</strong><small>Aggressive / Dense / Modern Loudness</small>
+          <strong>LOUD / OTV</strong><small>音圧感を重視した、力強い仕上がり</small>
         </button>
       </div>
       <div id="masterHandoffStatus" class="handoff-status"></div>
     </div>
 
     <div id="mixFeedbackCard" class="feedback-v1" hidden>
-      <div class="mode">OPTIONAL FEEDBACK / v1</div>
+      <div class="mode">感想をお聞かせください（任意）</div>
       <h3>このMIX、どうでしたか？</h3>
       <p>1タップだけでもOKです。実際の利用結果を今後の改善に使います。</p>
       <div class="feedback-sentiment">
@@ -210,18 +212,19 @@
           <button type="button" data-mix-feedback-tag="other">その他</button>
         </div>
         <textarea id="mixFeedbackComment" maxlength="1500" placeholder="コメント（任意）"></textarea>
-        <button id="mixFeedbackSend" class="btn secondary" type="button">SEND FEEDBACK</button>
+        <button id="mixFeedbackSend" class="btn secondary" type="button">感想を送信</button>
       </div>
       <div id="mixFeedbackStatus" class="handoff-status"></div>
     </div>
-    <p class="expire">結果ファイルは24時間で期限切れになります。</p>
+    <p class="expire">音源・結果ファイルは保存から24時間後に削除対象となります。完成後は早めにダウンロードしてください。</p>
   </div>
 </div>
 </section>
-</main>
+<div class="wrap"><p class="download-help">試聴・ダウンロードできない場合は、通信状態と保存期限をご確認ください。購入済みの場合は再購入せず、<a href="../contact.html">お問い合わせ</a>へご連絡ください。</p></div></main>
 
-<footer><div class="wrap"><div class="footer-links"><a href="../index.html">ZASU AUDIO</a><a href="../pricing.html">PRICING</a><a href="../tokushoho.html">特商法</a><a href="../refund.html">返金ポリシー</a><a href="../terms.html">利用規約</a><a href="../privacy.html">プライバシー</a><a href="../contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<footer><div class="wrap"><div class="footer-links"><a href="../index.html">ZASU AUDIO</a><a href="../pricing.html">料金</a><a href="../tokushoho.html">特商法</a><a href="../refund.html">返金ポリシー</a><a href="../terms.html">利用規約</a><a href="../privacy.html">プライバシー</a><a href="../contact.html">お問い合わせ</a></div><div><div class="family-links"><a href="https://zasuworks.jp/">ZASU WORKS</a><a href="https://zasuworks.jp/zasu-daw/">ZASU DAW</a><a href="https://zasumaster.com/">ZASU AUDIO</a><a href="https://zasuworks.jp/zasu-loud/">ZASU LOUD</a></div><p class="brand-motto">MIX. MASTER. CONVERT.</p><p>ZASU WORKS — MAKE MUSIC. NOT MASTERING.</p><div class="family-links"><a href="https://line.me/R/ti/p/@860wogaj">公式LINEで問い合わせ</a><a href="mailto:zasuworks@gmail.com">zasuworks@gmail.com</a></div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<script src="../assets/ui-copy.js?v=20261005-ja1"></script>
 <script src="assets/config.js?v=20260930-0640"></script>
-<script src="assets/app.js?v=20261001-abuse1"></script>
+<script src="assets/app.js?v=20261005-ja1"></script>
 </body>
 </html>

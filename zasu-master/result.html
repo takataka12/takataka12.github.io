@@ -2,22 +2,24 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Mastering Status｜ZASU MASTER</title>
-<meta name="description" content="ZASU MASTER OPEN BETAのマスタリング進行状況と結果を確認します。">
+<title>MASTER｜処理状況・試聴・ダウンロード｜ZASU AUDIO</title>
+<meta name="description" content="音源をアップロードするだけ。ボーカルMIX、マスタリング、音源変換をもっとシンプルに。ZASU WORKSのWebオーディオサービス。">
 <link rel="stylesheet" href="assets/style.css?v=20261001-queue1">
+<link rel="stylesheet" href="assets/brand-ja.css?v=20261005-ja1">
+<meta property="og:type" content="website"><meta property="og:locale" content="ja_JP"><meta property="og:site_name" content="ZASU AUDIO"><meta property="og:title" content="MASTER｜処理状況・試聴・ダウンロード｜ZASU AUDIO"><meta property="og:description" content="音源をアップロードするだけ。ボーカルMIX、マスタリング、音源変換をもっとシンプルに。ZASU WORKSのWebオーディオサービス。"><meta property="og:url" content="https://zasumaster.com/result.html"><meta property="og:image" content="https://zasumaster.com/assets/ogp-ja.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="noindex">
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a><nav><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="convert/">CONVERT</a><a href="pricing.html">PRICING</a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a><nav><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="convert/">CONVERT</a><a href="pricing.html">料金</a></nav></div></header>
 <main>
 <section class="hero" style="padding-bottom:34px;border-top:0"><div class="wrap">
-<div class="kicker">PUNCH ENGINE / Job Status</div>
-<h1 style="font-size:clamp(46px,8vw,82px)">MASTERING<br>STATUS.</h1>
+<div class="kicker">MASTER / 処理状況</div>
+<h1 style="font-size:clamp(46px,8vw,82px)">マスタリングの<br>処理状況</h1>
 <p>処理工程から完成音源まで、このページで確認できます。</p>
 </div></section>
 
 <section><div class="wrap result-shell">
 <div class="result-card" id="resultPanel">
-  <div class="status-pill"><span class="status-dot"></span><span id="statusLabel">WAITING</span></div>
+  <div class="status-pill"><span class="status-dot"></span><span id="statusLabel">確認待ち</span></div>
   <div class="result-state" id="resultState">処理状況を確認しています。</div>
   <p id="resultMessage" class="muted">音源アップロード後は、このページを開いたままでも自動更新します。</p>
 
@@ -26,27 +28,27 @@
     <div id="jobProgressText" class="job-progress-text">処理状況を取得しています。</div>
   </div>
   <div id="queueStatus" class="queue-status" hidden>
-    <div><span>QUEUE STATUS</span><strong id="queueHeadline">CHECKING</strong></div>
+    <div><span>処理の順番</span><strong id="queueHeadline">確認中</strong></div>
     <small id="queueDetail">処理順を確認しています。</small>
   </div>
 
   <div id="metrics" class="metric-grid" hidden>
-    <div class="metric"><span class="label">Engine</span><strong id="metricEngine">—</strong></div>
-    <div class="metric"><span class="label">Output LUFS</span><strong id="metricLufs">—</strong></div>
-    <div class="metric"><span class="label">True Peak</span><strong id="metricTp">—</strong></div>
+    <div class="metric"><span class="label">処理方式</span><strong id="metricEngine">—</strong></div>
+    <div class="metric"><span class="label">音量（LUFS）</span><strong id="metricLufs">—</strong></div>
+    <div class="metric"><span class="label">最大ピーク（dBTP）</span><strong id="metricTp">—</strong></div>
   </div>
 
   <div id="abArea" class="ab-grid" hidden>
     <div class="ab-card" style="grid-column:1/-1">
-      <strong>30 SEC MASTER PREVIEW</strong>
+      <strong>完成MASTERの無料試聴 / 30秒</strong>
       <span class="muted">実際のMASTER処理後の音を30秒試聴できます。</span>
       <audio id="afterAudio" controls preload="none"></audio>
     </div>
   </div>
 
   <div id="previewMasterGate" class="preview-master-gate" hidden>
-    <div><small>FREE 30-SECOND PREVIEW</small><strong>気に入ったらフル尺へ</strong><span id="previewMasterGateCopy">OPEN BETA中は無料でフル尺処理できます。</span></div>
-    <button id="unlockMasterButton" class="btn" type="button">CREATE FULL MASTER — FREE BETA</button>
+    <div><small>購入前の無料試聴 / 30秒</small><strong>気に入ったらフル尺へ</strong><span id="previewMasterGateCopy">ここまでの30秒試聴は無料です。購入後にフル尺処理と完成音源のダウンロードが利用できます。</span></div>
+    <button id="unlockMasterButton" class="btn" type="button">フル尺MASTERを作成（無料公開時のみ）</button>
     <button id="devUnlockMasterButton" class="btn secondary" type="button" hidden>DEV FULL MASTER — NO PAYMENT</button>
     <div id="unlockMasterStatus" class="mini"></div>
   </div>
@@ -55,7 +57,7 @@
 </div>
 
 <div class="result-card feedback-v1" id="feedbackCard" hidden>
-  <div class="mode">OPTIONAL FEEDBACK / v1</div>
+  <div class="mode">感想をお聞かせください（任意）</div>
   <h2 style="font-size:30px;margin-bottom:8px">仕上がり、どうでしたか？</h2>
   <p class="muted">1タップだけでもOKです。今後のMIX / MASTER改善に使います。</p>
   <div class="feedback-sentiment">
@@ -78,13 +80,14 @@
       <button type="button" data-feedback-tag="other">その他</button>
     </div>
     <textarea id="feedbackCommentV1" maxlength="1500" placeholder="コメント（任意）"></textarea>
-    <button id="feedbackSendV1" class="btn secondary" type="button">SEND FEEDBACK</button>
+    <button id="feedbackSendV1" class="btn secondary" type="button">感想を送信</button>
   </div>
   <div id="feedbackStatusV1" class="mini feedback-status"></div>
 </div>
 </div></section>
-</main>
-<footer><div class="wrap"><div class="footer-links"><a href="index.html">ZASU AUDIO</a><a href="pricing.html">PRICING</a><a href="tokushoho.html">特商法</a><a href="refund.html">返金ポリシー</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a><a href="contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<div class="wrap"><p class="download-help">試聴・ダウンロードできない場合は、通信状態と保存期限をご確認ください。購入済みの場合は再購入せず、<a href="contact.html">お問い合わせ</a>へご連絡ください。</p></div></main>
+<footer><div class="wrap"><div class="footer-links"><a href="index.html">ZASU AUDIO</a><a href="pricing.html">料金</a><a href="tokushoho.html">特商法</a><a href="refund.html">返金ポリシー</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a><a href="contact.html">お問い合わせ</a></div><div><div class="family-links"><a href="https://zasuworks.jp/">ZASU WORKS</a><a href="https://zasuworks.jp/zasu-daw/">ZASU DAW</a><a href="https://zasumaster.com/">ZASU AUDIO</a><a href="https://zasuworks.jp/zasu-loud/">ZASU LOUD</a></div><p class="brand-motto">MIX. MASTER. CONVERT.</p><p>ZASU WORKS — MAKE MUSIC. NOT MASTERING.</p><div class="family-links"><a href="https://line.me/R/ti/p/@860wogaj">公式LINEで問い合わせ</a><a href="mailto:zasuworks@gmail.com">zasuworks@gmail.com</a></div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<script src="assets/ui-copy.js?v=20261005-ja1"></script>
 <script src="assets/config.js?v=20261001-authfix1"></script>
-<script src="assets/result.js?v=20261001-queue1"></script>
+<script src="assets/result.js?v=20261005-ja1"></script>
 </body></html>

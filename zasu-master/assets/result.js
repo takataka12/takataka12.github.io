@@ -74,7 +74,7 @@ function renderQueueStatus(body){
   box.hidden=false;
   if(body.status==="processing"){
     box.classList.add("processing");
-    q("#queueHeadline").textContent="NOW PROCESSING";
+    q("#queueHeadline").textContent="処理中";
     const waiting=Number(body.queue_waiting_total||0);
     q("#queueDetail").textContent=waiting>0?"処理中 / 後ろに待機 "+waiting+"件":"処理サーバーで実行中です。";
     return;
@@ -83,11 +83,11 @@ function renderQueueStatus(body){
   const pos=Math.max(1,Number(body.queue_position||1));
   if(ahead===0){
     box.classList.add("ready");
-    q("#queueHeadline").textContent="READY / NO WAIT";
+    q("#queueHeadline").textContent="まもなく処理を開始";
     q("#queueDetail").textContent="待機なし。次に処理されます。";
   }else{
     box.classList.add("waiting");
-    q("#queueHeadline").textContent="POSITION "+pos;
+    q("#queueHeadline").textContent="待ち順："+pos;
     q("#queueDetail").textContent="あなたの前に "+ahead+"件 / 現在の待機 "+Number(body.queue_waiting_total||0)+"件";
   }
 }
@@ -156,17 +156,17 @@ function render(body){
   const stage=String(body.stage||s||"");
 
   if(s==="waiting_upload"){
-    setState("WAITING","音源待ち","UPLOAD MIXから音源を送ってください。");
+    setState("音源待ち","音源待ち","UPLOAD MIXから音源を送ってください。");
     return false;
   }
 
   if(s==="queued"){
     const isPreview=body.processing_mode==="preview";
     if(stage==="retrying"){
-      setState("RETRYING",isPreview?"無料プレビューを再試行中":"自動再試行中",body.user_message||"一時的なエラーを検知しました。処理を自動でやり直しています。");
+      setState("再試行中",isPreview?"無料プレビューを再試行中":"自動再試行中",body.user_message||"一時的なエラーを検知しました。処理を自動でやり直しています。");
     }else{
       setState(
-        isPreview?"FREE PREVIEW / QUEUED":"QUEUED",
+        isPreview?"無料試聴 / 処理待ち":"処理待ち",
         isPreview?"30秒MASTER試聴の処理待ち":"処理待ち",
         isPreview
           ?"これは無料の30秒プレビューです。フル尺MASTERは試聴後に¥500で解放できます。"
@@ -200,7 +200,7 @@ function render(body){
           finalizing:"完成ファイルを検証し、ダウンロードを準備しています。"
         }[stage]||"マスタリング処理を実行しています。このページは自動更新されます。");
     setState(
-      isPreview?"FREE 30 SEC PREVIEW":stage.toUpperCase().replaceAll("_"," "),
+      isPreview?"30秒無料試聴を作成中":(stageLabels[stage]||"マスタリング処理中"),
       isPreview?"無料MASTER試聴を作成中":"マスタリング中",
       message
     );
@@ -210,21 +210,21 @@ function render(body){
 
   if(s==="failed"){
     const ref=body.debug_ref?(" 参照ID: "+body.debug_ref):"";
-    setState("FAILED","処理に失敗しました",(body.user_message||"処理を完了できませんでした。")+ref);
+    setState("処理失敗","処理に失敗しました",window.ZASU_I18N.error(body.error_code||body.user_message,"master")+ref);
     addRetryAction();
     return false;
   }
 
   if(s==="expired"){
-    setState("EXPIRED","ダウンロード期限終了","完成ファイルは保存期間を過ぎたため削除されました。");
+    setState("保存期限終了","ダウンロード期限終了","完成ファイルは保存期間を過ぎたため削除されました。");
     return false;
   }
 
   if(s==="completed"){
     const isPreview=body.processing_mode==="preview";
     setState(
-      isPreview?"PREVIEW READY":"COMPLETED",
-      isPreview?"30 SEC PREVIEW READY.":"MASTER READY.",
+      isPreview?"無料試聴完成":"完了",
+      isPreview?"30秒の無料試聴が完成しました":"マスタリングが完成しました",
       isPreview
         ? (body.profile_label||"STANDARD")+" の30秒MASTER試聴が完成しました。気に入ったらフル尺へ進めます。"
         : (body.profile_label||"STANDARD")+" のマスタリングが完了しました。"
@@ -246,10 +246,10 @@ function render(body){
       if(previewMasterGate){
         previewMasterGate.hidden=false;
         if(cfg.commerceEnabled){
-          unlockMasterButton.textContent="BUY FULL MASTER — ¥500";
+          unlockMasterButton.textContent=window.ZASU_I18N.t("buyMaster");
           previewMasterGateCopy.textContent="ここまでの30秒試聴は無料です。フル尺MASTERはSquare決済 ¥500 の後に処理します。";
         }else{
-          unlockMasterButton.textContent="CREATE FULL MASTER — FREE BETA";
+          unlockMasterButton.textContent="フル尺MASTERを作成（無料公開時のみ）";
           previewMasterGateCopy.textContent="OPEN BETA中は決済なしでフル尺処理できます。";
         }
         unlockMasterButton.dataset.previewJobId=String(body.job_id||"");
@@ -265,16 +265,16 @@ function render(body){
       const a=document.createElement("a");
       a.className="btn";
       a.href=body.download_url;
-      a.textContent="DOWNLOAD FINAL 24-BIT WAV";
+      a.textContent=window.ZASU_I18N.t("downloadMaster");
       actions.appendChild(a);
     }else if(body.download_ready&&cfg.workerBaseUrl){
       const a=document.createElement("button");
       a.className="btn";
       a.type="button";
-      a.textContent="DOWNLOAD FINAL 24-BIT WAV";
+      a.textContent=window.ZASU_I18N.t("downloadMaster");
       a.addEventListener("click",async()=>{
         a.disabled=true;
-        a.textContent="PREPARING DOWNLOAD...";
+        a.textContent="ダウンロードを準備中…";
         try{
           const res=await fetch(cfg.workerBaseUrl.replace(/\/$/,"")+"/download-ticket",{
             method:"POST",
@@ -285,8 +285,8 @@ function render(body){
           if(!res.ok||!d.url)throw new Error("download_not_ready");
           location.href=d.url;
         }catch(_){
-          a.textContent="DOWNLOAD ERROR";
-          setTimeout(()=>{a.disabled=false;a.textContent="DOWNLOAD FINAL 24-BIT WAV"},1800);
+          a.textContent="ダウンロード失敗：通信・期限を確認";
+          setTimeout(()=>{a.disabled=false;a.textContent=window.ZASU_I18N.t("downloadMaster")},1800);
         }
       });
       actions.appendChild(a);
@@ -296,7 +296,7 @@ function render(body){
       const c=document.createElement("button");
       c.className="btn secondary";
       c.type="button";
-      c.textContent="OPEN IN ZASU CONVERT";
+      c.textContent="CONVERTで形式を変換";
       c.addEventListener("click",()=>{
         sessionStorage.setItem("zasu_convert_master_handoff",JSON.stringify({
           application_no:Number(applicationNo),
@@ -313,7 +313,7 @@ function render(body){
       const a=document.createElement("a");
       a.className="btn secondary";
       a.href=body.report_url;
-      a.textContent="REPORT";
+      a.textContent="処理レポート";
       actions.appendChild(a);
     }
     return false;
@@ -351,13 +351,13 @@ async function unlockMasterFull(){
             sessionStorage.setItem("zasu_result_job_id",activeJobId);
           }
           if(previewMasterGate)previewMasterGate.hidden=true;
-          setState("QUEUED","フル尺処理待ち","FULL PROCESSのMASTERクレジットを使って開始します。");
+          setState("処理待ち","フル尺処理待ち","FULL PROCESSのMASTERクレジットを使って開始します。");
           setTimeout(check,800);
           return;
         }
         if(!["credit_required","wrong_source","payment_required"].includes(String(body.error||"")))throw new Error(body.error||"unlock_failed");
       }catch(e){
-        if(unlockMasterStatus)unlockMasterStatus.textContent=e?.message||"クレジット確認に失敗しました。";
+        if(unlockMasterStatus)unlockMasterStatus.textContent=window.ZASU_I18N.error(e,"master");
         unlockMasterButton.disabled=false;
         return;
       }
@@ -390,10 +390,10 @@ async function unlockMasterFull(){
     }
     if(previewMasterGate)previewMasterGate.hidden=true;
     if(unlockMasterStatus)unlockMasterStatus.textContent="";
-    setState("QUEUED","フル尺処理待ち","プレビュー確認済み。フル尺マスタリングを開始します。");
+    setState("処理待ち","フル尺処理待ち","プレビュー確認済み。フル尺マスタリングを開始します。");
     setTimeout(check,800);
   }catch(e){
-    if(unlockMasterStatus)unlockMasterStatus.textContent=e?.message||"フル尺処理を開始できませんでした。";
+    if(unlockMasterStatus)unlockMasterStatus.textContent=window.ZASU_I18N.error(e,"master");
     unlockMasterButton.disabled=false;
   }
 }
@@ -449,7 +449,7 @@ async function unlockMasterDev(){
     setState("DEV / QUEUED","DEV FULL MASTER 処理待ち","管理者DEVモードで決済をスキップし、フル尺マスタリングを開始します。");
     setTimeout(check,800);
   }catch(e){
-    if(unlockMasterStatus)unlockMasterStatus.textContent=e?.message||"DEVフル尺処理を開始できませんでした。";
+    if(unlockMasterStatus)unlockMasterStatus.textContent=window.ZASU_I18N.error(e,"master");
     devUnlockMasterButton.disabled=false;
     if(unlockMasterButton)unlockMasterButton.disabled=false;
   }
@@ -475,7 +475,7 @@ async function check(){
     if(shouldPoll)pollTimer=setTimeout(check,7000);
   }catch(err){
     clearResult();
-    setState("RECONNECTING","接続を再確認中",(err?.message||"通信エラーが発生しました。")+" 自動で再接続します。");
+    setState("RECONNECTING","接続を再確認中",(window.ZASU_I18N.error(err,"master"))+" 自動で再接続します。");
     if(pollTimer)clearTimeout(pollTimer);
     pollTimer=setTimeout(check,15000);
   }
@@ -518,7 +518,7 @@ async function sendFeedbackV1(){
     return;
   }
   feedbackSendV1.disabled=true;
-  feedbackSendV1.textContent="SENDING...";
+  feedbackSendV1.textContent="送信中…";
   if(feedbackStatusV1)feedbackStatusV1.textContent="";
   try{
     const res=await fetch(cfg.feedbackEndpoint,{
@@ -545,16 +545,16 @@ async function sendFeedbackV1(){
     }
     sessionStorage.setItem("zasu_feedback_master_"+activeJobId,String(feedbackSentiment));
     if(feedbackStatusV1){
-      feedbackStatusV1.innerHTML="<strong>THANK YOU.</strong> フィードバックを保存しました。";
+      feedbackStatusV1.innerHTML="<strong>ありがとうございます。</strong> フィードバックを保存しました。";
       feedbackStatusV1.className="mini feedback-status success";
     }
-    feedbackSendV1.textContent="FEEDBACK SENT";
+    feedbackSendV1.textContent="感想を送信しました";
     if(feedbackDetails)feedbackDetails.querySelectorAll("button,textarea").forEach(el=>el.disabled=true);
     document.querySelectorAll("[data-feedback-sentiment]").forEach(el=>el.disabled=true);
   }catch(err){
-    if(feedbackStatusV1)feedbackStatusV1.textContent=err?.message||"送信できませんでした。";
+    if(feedbackStatusV1)feedbackStatusV1.textContent=window.ZASU_I18N.error(err,"master");
     feedbackSendV1.disabled=false;
-    feedbackSendV1.textContent="SEND FEEDBACK";
+    feedbackSendV1.textContent="感想を送信";
   }
 }
 if(feedbackSendV1)feedbackSendV1.addEventListener("click",sendFeedbackV1);

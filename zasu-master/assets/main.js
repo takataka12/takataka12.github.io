@@ -1,7 +1,7 @@
 function qs(s){return document.querySelector(s)}
 async function startZasu(button,status){
   const cfg=window.ZASU_MASTER_CONFIG||{},originalText=button.textContent;
-  button.disabled=true;button.textContent="STARTING...";if(status)status.textContent="";
+  button.disabled=true;button.textContent="準備中…";if(status)status.textContent="";
   try{
     let visitorId=localStorage.getItem("zasu_visitor_id");
     if(!visitorId){visitorId=crypto.randomUUID();localStorage.setItem("zasu_visitor_id",visitorId)}
@@ -26,7 +26,7 @@ async function startZasu(button,status){
       sessionStorage.setItem("zasu_session_id",String(body.session_id||sessionId));
       window.location.assign("upload.html");
     }else if(status){status.textContent="無料プレビュー受付を開始できませんでした。"}
-  }catch(err){if(status)status.textContent=err?.message||"受付に失敗しました."}
+  }catch(err){if(status)status.textContent=window.ZASU_I18N.error(err,"master")}
   finally{button.disabled=false;button.textContent=originalText}
 }
 function bindStartForm(formId,statusId){

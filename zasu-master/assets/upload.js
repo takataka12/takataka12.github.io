@@ -29,7 +29,7 @@ if(directMixHandoff){
   setMasteringProfile(directMixHandoff.mastering_profile);
   if(manualUploadSource)manualUploadSource.hidden=true;
   if(directMixSource)directMixSource.hidden=false;
-  button.textContent="START MASTERING PREVIEW";
+  button.textContent="マスタリングを開始（無料試聴）";
   status.textContent="ZASU MIXの完成音源を受信しました。スタイルを確認して開始してください。";
 }
 
@@ -43,7 +43,7 @@ function validateFile(file){
   const ext=(file.name.split(".").pop()||"").toLowerCase();
   if(!["wav","wave","flac"].includes(ext)) throw new Error("現在対応しているのはWAV / FLACです。");
   const max=cfg.workerBaseUrl?(cfg.workerUploadMaxBytes||1073741824):(cfg.uploadMaxBytes||52428800);
-  if(file.size>max) throw new Error(cfg.workerBaseUrl?"ファイルが1GBを超えています。":"このβ環境では50MBまでです。大きい場合はFLAC化するか、本番ストレージ対応をお待ちください。");
+  if(file.size>max) throw new Error(cfg.workerBaseUrl?"ファイルが1GBを超えています。":"ファイルが50MBを超えています。50MB以内のWAV / FLACを選び直してください。");
 }
 function setFile(file){
   try{
@@ -55,7 +55,7 @@ function setFile(file){
     selectedFile=null;
     fileInput.value="";
     fileMeta.textContent="ファイルはまだ選択されていません。";
-    status.textContent=err.message;
+    status.textContent=window.ZASU_I18N.error(err,"master");
   }
 }
 // iOS/Safari may not fire "change" when the exact same file is selected twice.
@@ -110,7 +110,7 @@ button.addEventListener("click",async()=>{
     if(directMixHandoff){
       if(!Number.isFinite(no)||no<1||!accessToken){location.href="beta.html";return;}
       button.disabled=true;
-      button.textContent="SENDING...";
+      button.textContent="送信中…";
       progress.classList.add("active");
       status.textContent="ZASU MIXの完成音源をMASTERへ渡しています…";
       const res=await fetch(cfg.directMasterFromMixEndpoint,{
@@ -152,9 +152,9 @@ button.addEventListener("click",async()=>{
     if(!Number.isFinite(no)||no<1||!accessToken){location.href="beta.html";return;}
 
     button.disabled=true;
-    button.textContent="PREPARING...";
+    button.textContent="準備中…";
     progress.classList.add("active");
-    status.textContent="β参加情報を確認しています…";
+    status.textContent="無料試聴の受付情報を確認しています…";
 
     if(cfg.workerBaseUrl){
       const base=cfg.workerBaseUrl.replace(/\/$/,"");
@@ -181,7 +181,7 @@ button.addEventListener("click",async()=>{
       }
 
       status.textContent="音源を非公開ストレージへアップロードしています…";
-      button.textContent="UPLOADING...";
+      button.textContent="アップロード中…";
       const putRes=await fetch(ticket.url,{
         method:"PUT",
         headers:{"Content-Type":ticket.content_type},
@@ -190,7 +190,7 @@ button.addEventListener("click",async()=>{
       if(!putRes.ok) throw new Error("音源アップロードに失敗しました。");
 
       status.textContent="アップロードを確認しています…";
-      button.textContent="VERIFYING...";
+      button.textContent="アップロードを確認中…";
       const doneRes=await fetch(base+"/upload-complete",{
         method:"POST",
         headers:{"Content-Type":"application/json"},
@@ -210,7 +210,7 @@ button.addEventListener("click",async()=>{
       });
 
       status.textContent="音源を非公開ストレージへアップロードしています…";
-      button.textContent="UPLOADING...";
+      button.textContent="アップロード中…";
 
       // Use Supabase Storage's signed-upload REST endpoint directly.
       // This avoids loading the Supabase JS SDK from an external CDN on iPhone/Safari.
@@ -233,7 +233,7 @@ button.addEventListener("click",async()=>{
       }
 
       status.textContent="アップロードを確認しています…";
-      button.textContent="VERIFYING...";
+      button.textContent="アップロードを確認中…";
 
       await edgePost(cfg.completeMixUploadEndpoint,{
         application_no:no,access_token:accessToken,
@@ -244,16 +244,16 @@ button.addEventListener("click",async()=>{
     }
 
     sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:accessToken}));
-    status.innerHTML='<div class="success-panel"><strong>UPLOAD COMPLETE.</strong><br>まず30秒の無料プレビューを作成します。<br><a href="result.html" style="text-decoration:underline">→ プレビュー状況を見る</a></div>';
+    status.innerHTML='<div class="success-panel"><strong>アップロード完了</strong><br>まず30秒の無料プレビューを作成します。<br><a href="result.html" style="text-decoration:underline">→ プレビュー状況を見る</a></div>';
     fileInput.value="";
     selectedFile=null;
     fileMeta.textContent="ファイルはまだ選択されていません。";
   }catch(err){
     console.error(err);
-    status.textContent=err?.message||"アップロードに失敗しました。";
+    status.textContent=window.ZASU_I18N.error(err,"master");
   }finally{
     progress.classList.remove("active");
     button.disabled=false;
-    button.textContent=directMixHandoff?"START MASTERING PREVIEW":"CREATE FREE PREVIEW";
+    button.textContent=directMixHandoff?"マスタリングを開始（無料試聴）":"マスタリングを開始（無料試聴）";
   }
 });

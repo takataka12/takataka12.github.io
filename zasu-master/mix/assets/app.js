@@ -40,7 +40,7 @@ function renderQueueStatus(s){
   box.hidden=false;
   if(s.status==="processing"){
     box.classList.add("processing");
-    q("#queueHeadline").textContent="NOW PROCESSING";
+    q("#queueHeadline").textContent="処理中";
     const waiting=Number(s.queue_waiting_total||0);
     q("#queueDetail").textContent=waiting>0?"処理中 / 後ろに待機 "+waiting+"件":"処理サーバーで実行中です。";
     return;
@@ -49,11 +49,11 @@ function renderQueueStatus(s){
   const pos=Math.max(1,Number(s.queue_position||1));
   if(ahead===0){
     box.classList.add("ready");
-    q("#queueHeadline").textContent="READY / NO WAIT";
+    q("#queueHeadline").textContent="まもなく処理を開始";
     q("#queueDetail").textContent="待機なし。次に処理されます。";
   }else{
     box.classList.add("waiting");
-    q("#queueHeadline").textContent="POSITION "+pos;
+    q("#queueHeadline").textContent="待ち順："+pos;
     q("#queueDetail").textContent="あなたの前に "+ahead+"件 / 現在の待機 "+Number(s.queue_waiting_total||0)+"件";
   }
 }
@@ -79,7 +79,7 @@ function renderPreflight(report,status="pass"){
   panel.hidden=false;
   panel.classList.toggle("warning",warning);
   panel.classList.toggle("pass",!warning);
-  q("#preflightTitle").textContent=warning?"CHECK RECOMMENDED":"PRE-FLIGHT OK";
+  q("#preflightTitle").textContent=warning?"音源をご確認ください":"音源チェック完了";
   q("#preflightLead").textContent=warning
     ?"MIX前に1点以上確認してください。問題なければそのまま続行できます。"
     :"長さ・頭出しリスク・入力レベルに大きな問題は見つかりませんでした。";
@@ -93,16 +93,16 @@ function renderPreflight(report,status="pass"){
     :"—";
   const vocalLead=Number(report.vocal_leading_silence_seconds||0);
   const ratio=Number(report.duration_ratio||0);
-  q("#preflightHead").textContent=warning?"CHECK":"OK";
+  q("#preflightHead").textContent=warning?"要確認":"OK";
   q("#preflightHead").nextElementSibling.textContent=
-    "Vocal head "+vocalLead.toFixed(2)+"s / Length "+(ratio>0?(ratio*100).toFixed(0)+"%":"—");
+    "ボーカルの先頭無音 "+vocalLead.toFixed(2)+"秒 / 長さの比率 "+(ratio>0?(ratio*100).toFixed(0)+"%":"—");
   const warnings=q("#preflightWarnings");
   warnings.innerHTML="";
   for(const item of (Array.isArray(report.checks)?report.checks:[])){
     const box=document.createElement("div");
     box.className="preflight-warning";
     const strong=document.createElement("strong");
-    strong.textContent=String(item.title||item.code||"CHECK");
+    strong.textContent=String(item.title||item.code||"要確認");
     const span=document.createElement("span");
     span.textContent=String(item.message||"音源を確認してください。");
     box.append(strong,span);
@@ -139,8 +139,8 @@ function syncAutoBalanceUi(){
   q("#vocalGain").disabled=on;
   q("#vocalGainValue").textContent=on?"AUTO":dbText(q("#vocalGain").value);
   q("#autoBalanceHint").textContent=on
-    ?"ON — VOCAL LEVELは素材に合わせて自動決定します。"
-    :"OFF — VOCAL LEVELを手動で調整できます。";
+    ?"ON — ボーカル音量は素材に合わせて自動決定します。"
+    :"OFF — ボーカル音量を手動で調整できます。";
   q("#autoBalanceHint").classList.toggle("manual",!on);
 }
 function syncControlLabels(){
@@ -178,16 +178,16 @@ async function uploadSet(ticketList,file,bucket,chunkSize,label,startPct,endPct)
     const r=await fetch(url,{method:"PUT",headers:{"apikey":cfg.publishableKey,"x-upsert":"false"},body:fd});
     if(!r.ok)throw new Error(label+"_upload_failed");
     const pct=Math.round(startPct+((i+1)/total)*(endPct-startPct));
-    setProgress(pct,"UPLOADING",label.toUpperCase()+" — "+(i+1)+" / "+total);
+    setProgress(pct,"アップロード中",(label==="vocal"?"ボーカル":"インスト")+" — "+(i+1)+" / "+total);
   }
 }
 
 async function start(){
-  if(!vocal||!inst){q("#statusText").textContent="DRY VOCALとINSTRUMENTALの両方を選択してください。";return}
-  if(vocal.size>cfg.maxBytes||inst.size>cfg.maxBytes){q("#statusText").textContent="各ファイル最大500MBです。";return}
+  if(!vocal||!inst){q("#statusText").textContent="ボーカルとインストの両方を選択してください。";return}
+  if(vocal.size>cfg.maxBytes||inst.size>cfg.maxBytes){q("#statusText").textContent="各ファイル最大500MBです。500MB以内の音源を選び直してください。";return}
   const b=q("#mixButton");b.disabled=true;q("#resultCard").hidden=true;q("#statusText").textContent="";resetPreflightUi();
   try{
-    setProgress(3,"PREPARING","MIXジョブを準備しています。");
+    setProgress(3,"準備中","MIXジョブを準備しています。");
     const ticket=await api("create_job",{
       vocal_name:vocal.name,vocal_size_bytes:vocal.size,vocal_mime_type:vocal.type||"application/octet-stream",
       instrumental_name:inst.name,instrumental_size_bytes:inst.size,instrumental_mime_type:inst.type||"application/octet-stream",
@@ -204,34 +204,34 @@ async function start(){
     await uploadSet(ticket.vocal_tickets,vocal,ticket.bucket,ticket.chunk_size,"vocal",5,23);
     await uploadSet(ticket.instrumental_tickets,inst,ticket.bucket,ticket.chunk_size,"instrumental",23,42);
     await api("complete_upload",{job_id:job.id,access_token:job.token});
-    setProgress(45,"QUEUED","AUTO MIX ENGINEを待っています。");
+    setProgress(45,"処理待ち","AUTO MIX ENGINEを待っています。");
     poll();
   }catch(e){
     b.disabled=false;
-    q("#statusText").textContent="開始できませんでした。音源や通信状態を確認してください。";
+    q("#statusText").textContent=window.ZASU_I18N.error(e,"mix");
   }
 }
 q("#mixButton").onclick=start;
 
 const stageCopy={
-  uploading:["UPLOADING","音源をアップロードしています。"],
-  preflight_queued:["PRE-FLIGHT","音源チェックを待っています。"],
-  preflight_claimed:["PRE-FLIGHT","音源チェックを開始しています。"],
-  preflight_analyzing:["PRE-FLIGHT","長さ・頭出し・入力レベルを確認しています。"],
-  preflight_ok:["PRE-FLIGHT OK","チェック完了。AUTO MIXへ進みます。"],
-  preflight_review:["CHECK REQUIRED","MIX前に音源を確認してください。"],
-  queued:["QUEUED","MIXサーバーを待っています。"],
-  claimed:["STARTING","AUTO MIX ENGINEを起動しています。"],
-  downloading:["DOWNLOADING","音源を処理サーバーへ転送しています。"],
-  preview_select:["PREVIEW","30秒の試聴区間を準備しています。"],
-  analyzing:["ANALYZING","音量・マスキング・フォーマットを解析しています。"],
-  mixing:["AUTO MIXING","EQ / De-esser / Compressor / Vocal Level / Reverbを反映しています。"],
-  preparing_results:["RENDERING","24-bit WAVを書き出しています。"],
-  uploading_results:["SAVING","完成ファイルを保存しています。"],
-  finalizing:["FINALIZING","最終確認しています。"],
-  retrying:["RETRYING","一時的なエラーのため再試行しています。"],
-  preview_ready:["PREVIEW READY","無料試聴が完成しました。"],
-  completed:["READY","AUTO MIXが完成しました。"]
+  uploading:["アップロード中","音源をアップロードしています。"],
+  preflight_queued:["音源チェック中","音源チェックを待っています。"],
+  preflight_claimed:["音源チェック中","音源チェックを開始しています。"],
+  preflight_analyzing:["音源チェック中","長さ・頭出し・入力レベルを確認しています。"],
+  preflight_ok:["音源チェック完了","チェック完了。AUTO MIXへ進みます。"],
+  preflight_review:["音源の確認が必要","MIX前に音源を確認してください。"],
+  queued:["処理待ち","MIXサーバーを待っています。"],
+  claimed:["処理開始","AUTO MIX ENGINEを起動しています。"],
+  downloading:["音源転送中","音源を処理サーバーへ転送しています。"],
+  preview_select:["無料試聴","30秒の試聴区間を準備しています。"],
+  analyzing:["音源解析中","音量・マスキング・フォーマットを解析しています。"],
+  mixing:["MIX処理中","EQ・歯擦音の抑制・コンプレッション・音量・リバーブを反映しています。"],
+  preparing_results:["書き出し中","24-bit WAVを書き出しています。"],
+  uploading_results:["保存中","完成ファイルを保存しています。"],
+  finalizing:["最終確認中","最終確認しています。"],
+  retrying:["再試行中","一時的なエラーのため再試行しています。"],
+  preview_ready:["無料試聴完成","無料試聴が完成しました。"],
+  completed:["完了","AUTO MIXが完成しました。"]
 };
 
 async function poll(){
@@ -239,7 +239,7 @@ async function poll(){
   try{
     const s=await api("status",{job_id:job.id,access_token:job.token});
     renderQueueStatus(s);
-    const copy=stageCopy[s.stage]||["PROCESSING","AUTO MIX処理中です。"];
+    const copy=stageCopy[s.stage]||["処理中","AUTO MIX処理中です。"];
     setProgress(Number(s.progress||0),copy[0],copy[1]);
     if(s.preflight_report&&Object.keys(s.preflight_report).length){
       renderPreflight(s.preflight_report,s.stage==="preflight_review"?"warning":s.preflight_status);
@@ -252,7 +252,7 @@ async function poll(){
       if(s.processing_phase==="preview"){showPreview(s);return}
       showResult(s);return
     }
-    if(s.status==="failed"){q("#mixButton").disabled=false;q("#statusText").textContent=s.user_message||"MIXに失敗しました。";return}
+    if(s.status==="failed"){q("#mixButton").disabled=false;q("#statusText").textContent=window.ZASU_I18N.error(s.user_message||s.error_code,"mix");return}
     pollTimer=setTimeout(poll,2500);
   }catch(_){
     q("#statusText").textContent="接続を再確認しています…";
@@ -265,7 +265,7 @@ function showPreflightReview(s){
   if(q("#queueStatus"))q("#queueStatus").hidden=true;
   renderPreflight(s.preflight_report||{},"warning");
   q("#mixButton").disabled=true;
-  q("#statusText").textContent="Preflightで確認項目があります。音源を確認するか、このまま続行してください。";
+  q("#statusText").textContent="MIX前のチェックで確認項目があります。音源を確認するか、このまま続行してください。";
   q("#preflightPanel").scrollIntoView({behavior:"smooth",block:"center"});
 }
 
@@ -279,12 +279,12 @@ async function continueAfterPreflight(){
     const body=await api("approve_preflight",{job_id:job.id,access_token:job.token});
     if(body.status!=="queued")throw new Error("preflight_resume_failed");
     q("#preflightActions").hidden=true;
-    q("#preflightTitle").textContent="CHECKED / CONTINUING";
+    q("#preflightTitle").textContent="確認済み / MIXを再開";
     q("#preflightLead").textContent="確認済みとしてAUTO MIXを続行します。";
-    setProgress(10,"QUEUED","AUTO MIX ENGINEを待っています。");
+    setProgress(10,"処理待ち","AUTO MIX ENGINEを待っています。");
     poll();
   }catch(e){
-    q("#statusText").textContent=e?.message||"MIXを再開できませんでした。";
+    q("#statusText").textContent=window.ZASU_I18N.error(e,"mix");
     button.disabled=false;change.disabled=false;
   }
 }
@@ -294,7 +294,7 @@ function changePreflightFiles(){
   sessionStorage.removeItem("zasu_mix_job");
   q("#mixButton").disabled=false;
   q("#preflightActions").hidden=true;
-  q("#statusText").textContent="音源を選び直して、もう一度CREATE AUTO MIXを押してください。";
+  q("#statusText").textContent="音源を選び直して、もう一度「MIXを開始」を押してください。";
   q("#vocalDrop").scrollIntoView({behavior:"smooth",block:"center"});
 }
 q("#preflightContinue").addEventListener("click",continueAfterPreflight);
@@ -341,7 +341,7 @@ function showPreview(s){
   readyMix={id:job.id,token:job.token};
   sessionStorage.setItem("zasu_mix_ready",JSON.stringify(readyMix));
   renderCommonMetrics(s);
-  q("#resultHeading").textContent="PREVIEW READY.";
+  q("#resultHeading").textContent="無料試聴が完成しました";
   q("#previewAbArea").hidden=false;
   q("#previewGate").hidden=false;
   q("#fullDownloads").hidden=true;
@@ -358,12 +358,12 @@ function showPreview(s){
     devButton.dataset.jobId=String((readyMix||job)?.id||"");
   }
   if(cfg.commerceEnabled){
-    q("#unlockMixButton").textContent="UNLOCK FULL MIX — ¥500";
-    q("#unlockFullButton").textContent="MIX + MASTER — ¥800";
+    q("#unlockMixButton").textContent=window.ZASU_I18N.t("buyMix");
+    q("#unlockFullButton").textContent=window.ZASU_I18N.t("buyFull");
     q("#previewGateCopy").textContent="試聴を確認してからSquareで決済。決済後にフル尺を処理します。";
   }else{
-    q("#unlockMixButton").textContent="CREATE FULL MIX — FREE BETA";
-    q("#unlockFullButton").textContent="MIX + MASTER — FREE BETA";
+    q("#unlockMixButton").textContent="フル尺MIXを作成（無料公開時のみ）";
+    q("#unlockFullButton").textContent="MIX + MASTERを作成（無料公開時のみ）";
     q("#previewGateCopy").textContent="OPEN BETA中は決済なしでフル尺処理できます。";
   }
   q("#resultCard").hidden=false;
@@ -421,7 +421,7 @@ async function unlockFullDev(){
     setProgress(10,"DEV / QUEUED","管理者DEVモードで決済をスキップし、フル尺AUTO MIXを開始します。");
     poll();
   }catch(e){
-    if(statusEl)statusEl.textContent=e?.message||"DEVフル尺MIXを開始できませんでした。";
+    if(statusEl)statusEl.textContent=window.ZASU_I18N.error(e,"mix");
     buttons.forEach(x=>x.disabled=false);
   }
 }
@@ -448,10 +448,10 @@ async function unlockFull(plan){
     q("#previewGate").hidden=true;
     q("#previewAbArea").hidden=true;
     q("#resultCard").hidden=true;
-    setProgress(10,"QUEUED","フル尺AUTO MIXを待っています。");
+    setProgress(10,"処理待ち","フル尺AUTO MIXを待っています。");
     poll();
   }catch(e){
-    statusEl.textContent=e?.message||"フル尺処理を開始できませんでした。";
+    statusEl.textContent=window.ZASU_I18N.error(e,"mix");
     buttons.forEach(x=>x.disabled=false);
   }
 }
@@ -460,7 +460,7 @@ function showResult(s){
   q("#mixButton").disabled=false;
   if(q("#queueStatus"))q("#queueStatus").hidden=true;
   renderCommonMetrics(s);
-  q("#resultHeading").textContent="MIX READY.";
+  q("#resultHeading").textContent="MIXが完成しました";
   q("#previewAbArea").hidden=true;
   q("#previewGate").hidden=true;
   q("#fullDownloads").hidden=false;
@@ -517,7 +517,7 @@ async function sendMixFeedback(){
     return;
   }
   send.disabled=true;
-  send.textContent="SENDING...";
+  send.textContent="送信中…";
   statusEl.textContent="";
   try{
     const res=await fetch(cfg.feedbackEndpoint,{
@@ -538,15 +538,15 @@ async function sendMixFeedback(){
       throw new Error("送信できませんでした。");
     }
     sessionStorage.setItem("zasu_feedback_mix_"+source.id,String(mixFeedbackSentiment));
-    statusEl.innerHTML="<strong>THANK YOU.</strong> フィードバックを保存しました。";
+    statusEl.innerHTML="<strong>ありがとうございます。</strong> フィードバックを保存しました。";
     statusEl.className="handoff-status success";
-    send.textContent="FEEDBACK SENT";
+    send.textContent="感想を送信しました";
     q("#mixFeedbackDetails").querySelectorAll("button,textarea").forEach(el=>el.disabled=true);
     document.querySelectorAll("[data-mix-feedback-sentiment]").forEach(el=>el.disabled=true);
   }catch(e){
-    statusEl.textContent=e?.message||"送信できませんでした。";
+    statusEl.textContent=window.ZASU_I18N.error(e,"mix");
     send.disabled=false;
-    send.textContent="SEND FEEDBACK";
+    send.textContent="感想を送信";
   }
 }
 if(q("#mixFeedbackSend"))q("#mixFeedbackSend").addEventListener("click",sendMixFeedback);
@@ -599,7 +599,7 @@ async function sendToMaster(profile){
     const session=await ensureMasterPreviewSession();
     no=session.no;appToken=session.appToken;
   }catch(e){
-    statusEl.textContent=e?.message||"MASTERプレビューを開始できませんでした。";
+    statusEl.textContent=window.ZASU_I18N.error(e,"mix");
     statusEl.className="handoff-status error";
     buttons.forEach(x=>x.disabled=false);
     return;
@@ -638,7 +638,7 @@ async function sendToMaster(profile){
     sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:appToken}));
     setTimeout(()=>{location.href="../result.html"},350);
   }catch(e){
-    statusEl.textContent=e?.message||"ZASU MASTERへの送信に失敗しました。";
+    statusEl.textContent=window.ZASU_I18N.error(e,"mix");
     statusEl.className="handoff-status error";
     buttons.forEach(x=>x.disabled=false);
   }
@@ -655,7 +655,7 @@ if(saved){
     job=JSON.parse(saved);
     if(job?.id&&job?.token){
       q("#mixButton").disabled=true;
-      setProgress(10,"RESTORING","前回のMIX状況を確認しています。");
+      setProgress(10,"前回の処理を確認中","前回のMIX状況を確認しています。");
       poll();
     }
   }catch(_){sessionStorage.removeItem("zasu_mix_job")}
@@ -669,7 +669,7 @@ if(saved){
           if(s.status==="completed"){
             if(s.processing_phase==="preview")showPreview(s);else showResult(s)
           }
-          else if(s.status!=="failed"){setProgress(Number(s.progress||10),"RESTORING","MIX状況を確認しています。");poll()}
+          else if(s.status!=="failed"){setProgress(Number(s.progress||10),"前回の処理を確認中","MIX状況を確認しています。");poll()}
         }).catch(()=>{});
       }
     }catch(_){sessionStorage.removeItem("zasu_mix_ready")}

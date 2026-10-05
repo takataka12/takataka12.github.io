@@ -2,18 +2,20 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>MIX Upload｜ZASU MASTER</title>
-<meta name="description" content="ZASU MASTER Closed Beta参加者向けのMIXアップロードページです。">
+<title>MASTER｜マスタリングを開始｜ZASU AUDIO</title>
+<meta name="description" content="音源をアップロードするだけ。ボーカルMIX、マスタリング、音源変換をもっとシンプルに。ZASU WORKSのWebオーディオサービス。">
 <link rel="stylesheet" href="assets/style.css?v=20260930-0410">
+<link rel="stylesheet" href="assets/brand-ja.css?v=20261005-ja1">
+<meta property="og:type" content="website"><meta property="og:locale" content="ja_JP"><meta property="og:site_name" content="ZASU AUDIO"><meta property="og:title" content="MASTER｜マスタリングを開始｜ZASU AUDIO"><meta property="og:description" content="音源をアップロードするだけ。ボーカルMIX、マスタリング、音源変換をもっとシンプルに。ZASU WORKSのWebオーディオサービス。"><meta property="og:url" content="https://zasumaster.com/upload.html"><meta property="og:image" content="https://zasumaster.com/assets/ogp-ja.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://zasumaster.com/upload.html">
 </head>
 <body>
-<header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a><nav><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="convert/">CONVERT</a><a href="pricing.html">PRICING</a></nav></div></header>
+<header><div class="wrap nav"><a class="brand" href="index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a><nav><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="convert/">CONVERT</a><a href="pricing.html">料金</a></nav></div></header>
 <main>
 <section class="hero" style="padding-bottom:38px;border-top:0"><div class="wrap">
-<div class="kicker">OPEN BETA / FREE</div>
-<h1 style="font-size:clamp(48px,8vw,86px)">UPLOAD<br>YOUR MIX.</h1>
-<p>WAV / FLACを選んで、まず30秒のマスタリング試聴を作成。</p>
-</div></section>
+<div class="kicker">購入前に30秒を無料試聴</div>
+<h1 style="font-size:clamp(48px,8vw,86px)">ZASU<br>MASTER.</h1>
+<p>音源をアップロードするだけ。STANDARD / LOUDから仕上がりを選び、まず30秒を無料で試聴できます。完成版は1曲¥500です。</p>
+</div><ol style="width:min(980px,calc(100% - 32px));margin:24px auto" class="ja-steps" aria-label="操作の流れ"><li><b>STEP 1</b>音源を選択</li><li><b>STEP 2</b>MASTERを開始</li><li><b>STEP 3</b>30秒を無料試聴</li><li><b>STEP 4</b>完成版を購入</li><li><b>STEP 5</b>ダウンロード</li></ol></section>
 
 <section><div class="wrap">
 <div class="upload-shell">
@@ -21,22 +23,22 @@
     <h2 style="font-size:34px">MIXを送る</h2>
 
     <div class="profile-picker">
-      <div class="mode">MASTERING STYLE</div>
+      <div class="mode">仕上がりを選択</div>
       <div class="profile-grid">
         <label class="profile-choice">
           <input type="radio" name="masteringProfile" value="standard" checked>
           <span class="profile-choice-card">
             <span class="profile-title">STANDARD</span>
-            <span class="profile-desc">Balanced / Punchy / Natural</span>
-            <span class="profile-note">PUNCHの現行アダプティブ処理。自然さとパンチを優先。</span>
+            <span class="profile-desc">自然さを残した、バランス重視の仕上がり</span>
+            <span class="profile-note">音源に合わせて調整し、自然さとパンチを大切に仕上げます。</span>
           </span>
         </label>
         <label class="profile-choice">
           <input type="radio" name="masteringProfile" value="loud_otv">
           <span class="profile-choice-card">
             <span class="profile-title">LOUD <em>OTV</em></span>
-            <span class="profile-desc">Aggressive / Dense / Modern Loudness</span>
-            <span class="profile-note">REFERENCE12由来。約 -4.2 LUFSを基準に、安全時は自動で少し戻します。</span>
+            <span class="profile-desc">音圧感を重視した、力強い仕上がり</span>
+            <span class="profile-note">音圧と密度を重視します。素材によって仕上がりの音量は異なります。</span>
           </span>
         </label>
       </div>
@@ -55,14 +57,15 @@
       </label>
       <div class="file-meta" id="fileMeta">ファイルはまだ選択されていません。</div>
     </div>
-    <button class="btn" id="uploadButton" type="button" style="margin-top:16px;width:100%">CREATE FREE PREVIEW</button>
+    <button class="btn" id="uploadButton" type="button" style="margin-top:16px;width:100%">マスタリングを開始（無料試聴）</button>
     <div class="progress" id="uploadProgress"><span></span></div>
     <div class="upload-status" id="uploadStatus"></div>
   </div>
 </div>
 </div></section>
 </main>
-<footer><div class="wrap"><div class="footer-links"><a href="index.html">ZASU AUDIO</a><a href="pricing.html">PRICING</a><a href="tokushoho.html">特商法</a><a href="refund.html">返金ポリシー</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a><a href="contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<footer><div class="wrap"><div class="footer-links"><a href="index.html">ZASU AUDIO</a><a href="pricing.html">料金</a><a href="tokushoho.html">特商法</a><a href="refund.html">返金ポリシー</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシー</a><a href="contact.html">お問い合わせ</a></div><div><div class="family-links"><a href="https://zasuworks.jp/">ZASU WORKS</a><a href="https://zasuworks.jp/zasu-daw/">ZASU DAW</a><a href="https://zasumaster.com/">ZASU AUDIO</a><a href="https://zasuworks.jp/zasu-loud/">ZASU LOUD</a></div><p class="brand-motto">MIX. MASTER. CONVERT.</p><p>ZASU WORKS — MAKE MUSIC. NOT MASTERING.</p><div class="family-links"><a href="https://line.me/R/ti/p/@860wogaj">公式LINEで問い合わせ</a><a href="mailto:zasuworks@gmail.com">zasuworks@gmail.com</a></div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<script src="assets/ui-copy.js?v=20261005-ja1"></script>
 <script src="assets/config.js?v=20261001-authfix1"></script>
-<script src="assets/upload.js?v=20261001-abuse1"></script>
+<script src="assets/upload.js?v=20261005-ja1"></script>
 </body></html>

@@ -33,7 +33,7 @@ function renderQueueStatus(s){
   box.hidden=false;
   if(s.status==="processing"){
     box.classList.add("processing");
-    q("#queueHeadline").textContent="NOW PROCESSING";
+    q("#queueHeadline").textContent="処理中";
     const waiting=Number(s.queue_waiting_total||0);
     q("#queueDetail").textContent=waiting>0?"処理中 / 後ろに待機 "+waiting+"件":"変換サーバーで実行中です。";
     return;
@@ -42,11 +42,11 @@ function renderQueueStatus(s){
   const pos=Math.max(1,Number(s.queue_position||1));
   if(ahead===0){
     box.classList.add("ready");
-    q("#queueHeadline").textContent="READY / NO WAIT";
+    q("#queueHeadline").textContent="まもなく処理を開始";
     q("#queueDetail").textContent="待機なし。次に処理されます。";
   }else{
     box.classList.add("waiting");
-    q("#queueHeadline").textContent="POSITION "+pos;
+    q("#queueHeadline").textContent="待ち順："+pos;
     q("#queueDetail").textContent="あなたの前に "+ahead+"件 / 現在の待機 "+Number(s.queue_waiting_total||0)+"件";
   }
 }
@@ -105,16 +105,16 @@ async function uploadChunks(ticket){
     const r=await fetch(url,{method:"PUT",headers:{"apikey":cfg.publishableKey,"x-upsert":"false"},body:fd});
     if(!r.ok)throw new Error("chunk_upload_failed");
     const pct=5+Math.round(((i+1)/total)*35);
-    setProgress(pct,"UPLOADING","音源をアップロード中 — "+(i+1)+" / "+total);
+    setProgress(pct,"アップロード中","音源をアップロード中 — "+(i+1)+" / "+total);
   }
 }
 
 async function start(){
   if(!masterHandoff&&!file){q("#statusText").textContent="音源ファイルを選択してください。";return}
-  if(file&&file.size>cfg.maxBytes){q("#statusText").textContent="最大500MBです。";return}
+  if(file&&file.size>cfg.maxBytes){q("#statusText").textContent="最大500MBです。500MB以内の音源を選び直してください。";return}
   const b=q("#convertButton");b.disabled=true;q("#resultCard").hidden=true;q("#statusText").textContent="";
   try{
-    setProgress(3,"PREPARING","変換ジョブを準備しています。");
+    setProgress(3,"準備中","変換ジョブを準備しています。");
     const settings=outputSettings();
 
     if(masterHandoff){
@@ -128,7 +128,7 @@ async function start(){
       sessionStorage.setItem("zasu_convert_job",JSON.stringify(job));
       sessionStorage.removeItem("zasu_convert_master_handoff");
       masterHandoff=null;
-      setProgress(12,"QUEUED","ZASU MASTER完成音源を直接引き継ぎました。");
+      setProgress(12,"処理待ち","ZASU MASTER完成音源を直接引き継ぎました。");
       poll();
       return;
     }
@@ -138,26 +138,26 @@ async function start(){
     sessionStorage.setItem("zasu_convert_job",JSON.stringify(job));
     await uploadChunks(ticket);
     await api("complete_upload",{job_id:job.id,access_token:job.token});
-    setProgress(42,"QUEUED","変換サーバーを待っています。");
+    setProgress(42,"処理待ち","変換サーバーを待っています。");
     poll();
   }catch(e){
-    b.disabled=false;q("#statusText").textContent="開始できませんでした。ファイルや設定を確認してください。";
+    b.disabled=false;q("#statusText").textContent=window.ZASU_I18N.error(e,"convert");
   }
 }
 q("#convertButton").onclick=start;
 
 const stageCopy={
-  uploading:["UPLOADING","音源をアップロードしています。"],
-  queued:["QUEUED","変換サーバーを待っています。"],
-  claimed:["STARTING","変換を開始しています。"],
-  downloading:["DOWNLOADING","音源を処理サーバーへ転送しています。"],
-  probing:["ANALYZING","音源フォーマットを確認しています。"],
-  converting:["CONVERTING","SoXR HQで変換しています。"],
-  preparing_output:["PREPARING OUTPUT","完成ファイルを準備しています。"],
-  uploading_output:["SAVING","完成ファイルを安全に保存しています。"],
-  finalizing:["FINALIZING","最終確認しています。"],
-  retrying:["RETRYING","一時的なエラーのため再試行しています。"],
-  completed:["READY","変換が完了しました。"]
+  uploading:["アップロード中","音源をアップロードしています。"],
+  queued:["処理待ち","変換サーバーを待っています。"],
+  claimed:["処理開始","変換を開始しています。"],
+  downloading:["音源転送中","音源を処理サーバーへ転送しています。"],
+  probing:["音源解析中","音源フォーマットを確認しています。"],
+  converting:["変換処理中","SoXR HQで変換しています。"],
+  preparing_output:["出力を準備中","完成ファイルを準備しています。"],
+  uploading_output:["保存中","完成ファイルを安全に保存しています。"],
+  finalizing:["最終確認中","最終確認しています。"],
+  retrying:["再試行中","一時的なエラーのため再試行しています。"],
+  completed:["完了","変換が完了しました。"]
 };
 async function poll(){
   clearTimeout(pollTimer);
@@ -165,10 +165,10 @@ async function poll(){
   try{
     const s=await api("status",{job_id:job.id,access_token:job.token});
     renderQueueStatus(s);
-    const copy=stageCopy[s.stage]||["PROCESSING","変換処理中です。"];
+    const copy=stageCopy[s.stage]||["処理中","変換処理中です。"];
     setProgress(Number(s.progress||0),copy[0],copy[1]);
     if(s.status==="completed"){showResult(s);return}
-    if(s.status==="failed"){q("#convertButton").disabled=false;q("#statusText").textContent=s.user_message||"変換に失敗しました。";return}
+    if(s.status==="failed"){q("#convertButton").disabled=false;q("#statusText").textContent=window.ZASU_I18N.error(s.user_message||s.error_code,"convert");return}
     pollTimer=setTimeout(poll,2500);
   }catch(_){
     q("#statusText").textContent="接続を再確認しています…";
@@ -198,10 +198,10 @@ if(handoffRaw){
       q("#dropzone").hidden=true;
       q("#fileMeta").classList.add("master-source");
       q("#fileMeta").textContent="ZASU MASTER完成音源を直接使用 — "+String(h.profile_label||"MASTER");
-      q("#statusText").textContent="再アップロード不要です。変換方法を選んでCONVERT AUDIOを押してください。";
+      q("#statusText").textContent="再アップロード不要です。変換方法を選んで「変換を開始」を押してください。";
     }
   }catch(_){sessionStorage.removeItem("zasu_convert_master_handoff")}
 }
 
 const saved=sessionStorage.getItem("zasu_convert_job");
-if(saved){try{job=JSON.parse(saved);if(job?.id&&job?.token){q("#convertButton").disabled=true;setProgress(10,"RESTORING","前回の変換状況を確認しています。");poll()}}catch(_){sessionStorage.removeItem("zasu_convert_job")}}
+if(saved){try{job=JSON.parse(saved);if(job?.id&&job?.token){q("#convertButton").disabled=true;setProgress(10,"前回の処理を確認中","前回の変換状況を確認しています。");poll()}}catch(_){sessionStorage.removeItem("zasu_convert_job")}}

@@ -8,7 +8,7 @@ const wallet=q("#supporterWallet");
 
 function headers(){return{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey}}
 function normalize(v){return String(v||"").trim().toUpperCase().replace(/\s+/g,"")}
-function planLabel(y){return "¥"+Number(y||0).toLocaleString("ja-JP")+" SUPPORTER"}
+function planLabel(y){return "¥"+Number(y||0).toLocaleString("ja-JP")+" 支援者"}
 async function api(code){
   const res=await fetch(cfg.supporterPortalEndpoint,{method:"POST",headers:headers(),body:JSON.stringify({action:"status",code})});
   const body=await res.json().catch(()=>({}));
@@ -21,19 +21,19 @@ function render(s){
   q("#ticketTotal").textContent=Number(s.ticket_total||0);
   q("#currentApps").textContent=Number(s.current_app_slots||0)+" APP"+(Number(s.current_app_slots||0)===1?"":"S");
   q("#futureApps").textContent=Number(s.future_app_slots||0)+" APP"+(Number(s.future_app_slots||0)===1?"":"S");
-  q("#reportAccess").textContent=s.report_access?"ENABLED":"—";
+  q("#reportAccess").textContent=s.report_access?"利用可能":"—";
   loginBox.hidden=true;wallet.hidden=false;
 }
 async function login(){
   const code=normalize(codeInput.value);
   if(!code){statusEl.textContent="支援者コードを入力してください。";return}
-  if(!cfg.supporterPortalEndpoint){statusEl.textContent="SUPPORTER PORTAL IS NOT READY.";return}
-  loginButton.disabled=true;statusEl.textContent="CHECKING...";
+  if(!cfg.supporterPortalEndpoint){statusEl.textContent="支援者ページを準備できませんでした。少し待ってから再度お試しください。";return}
+  loginButton.disabled=true;statusEl.textContent="確認中…";
   try{
     const s=await api(code);
     sessionStorage.setItem("zasu_supporter_code",code);
     render(s);statusEl.textContent="";
-  }catch(e){statusEl.textContent=e?.message||"確認できませんでした。"}
+  }catch(e){statusEl.textContent=window.ZASU_I18N.error(e,"master")}
   finally{loginButton.disabled=false}
 }
 loginButton.addEventListener("click",login);

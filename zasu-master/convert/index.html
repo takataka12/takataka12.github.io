@@ -4,31 +4,33 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#080808">
-<title>ZASU CONVERT｜Audio Format Converter</title>
-<meta name="description" content="WAV / FLAC / AIFF / ALACを高品質変換。MP3 320kbps出力とSoXR HQに対応したZASU AUDIO無料ツール。">
+<title>CONVERT｜音源ファイルを無料変換｜ZASU AUDIO</title>
+<meta name="description" content="音源をアップロードするだけ。ボーカルMIX、マスタリング、音源変換をもっとシンプルに。ZASU WORKSのWebオーディオサービス。">
 <link rel="stylesheet" href="assets/style.css?v=20261001-queue1">
+<link rel="stylesheet" href="../assets/brand-ja.css?v=20261005-ja1">
+<meta property="og:type" content="website"><meta property="og:locale" content="ja_JP"><meta property="og:site_name" content="ZASU AUDIO"><meta property="og:title" content="CONVERT｜音源ファイルを無料変換｜ZASU AUDIO"><meta property="og:description" content="音源をアップロードするだけ。ボーカルMIX、マスタリング、音源変換をもっとシンプルに。ZASU WORKSのWebオーディオサービス。"><meta property="og:url" content="https://zasumaster.com/convert/"><meta property="og:image" content="https://zasumaster.com/assets/ogp-ja.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><link rel="canonical" href="https://zasumaster.com/convert/">
 </head>
 <body>
 <header>
   <div class="wrap nav">
     <a class="brand" href="../index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a>
-    <nav><a href="../mix/">MIX</a><a href="../upload.html">MASTER</a><a href="../convert/">CONVERT</a><a href="../pricing.html">PRICING</a></nav>
+    <nav><a href="../mix/">MIX</a><a href="../upload.html">MASTER</a><a href="../convert/">CONVERT</a><a href="../pricing.html">料金</a></nav>
   </div>
 </header>
 
 <main>
 <section class="hero">
   <div class="wrap">
-    <div class="kicker">ZASU AUDIO / FREE TOOL</div>
+    <div class="kicker">ZASU AUDIO / 無料の音源変換</div>
     <h1>ZASU<br>CONVERT.</h1>
-    <p class="lead">音を変えずに、形式だけ整える。<br>WAV / FLAC / AIFF / ALACをSoXR HQで高品質変換。MP3 320kbps出力にも対応。</p>
+    <p class="lead">音源ファイルを、必要な形式へ変換。<br>WAV / FLAC / AIFF / ALACをSoXR HQで高品質変換。MP3 320kbps出力にも対応。</p>
   </div>
-</section>
+<ol style="width:min(980px,calc(100% - 32px));margin:24px auto" class="ja-steps convert-steps" aria-label="操作の流れ"><li><b>STEP 1</b>音源を選択</li><li><b>STEP 2</b>出力形式を選択</li><li><b>STEP 3</b>変換を開始（無料）</li><li><b>STEP 4</b>ダウンロード</li></ol></section>
 
 <section>
 <div class="wrap convert-shell">
   <div class="convert-card">
-    <div class="mode">01 / SOURCE</div>
+    <div class="mode">STEP 1 / 音源を選択</div>
     <h2>音源を選ぶ</h2>
     <label class="dropzone" id="dropzone" for="audioFile">
       <input id="audioFile" type="file" accept=".wav,.wave,.flac,.aiff,.aif,.m4a,audio/*">
@@ -39,14 +41,14 @@
   </div>
 
   <div class="convert-card">
-    <div class="mode">02 / PRESET</div>
+    <div class="mode">STEP 2 / 出力形式を選択</div>
     <h2>変換方法</h2>
     <div class="preset-grid">
-      <button class="preset active" data-preset="keep_original"><strong>KEEP ORIGINAL</strong><span>サンプルレート・bit深度を維持</span></button>
-      <button class="preset" data-preset="cd_master"><strong>CD MASTER</strong><span>44.1kHz / 16bit WAV + Dither</span></button>
-      <button class="preset" data-preset="lossless_archive"><strong>LOSSLESS ARCHIVE</strong><span>FLAC / 元の解像度を維持</span></button>
-      <button class="preset" data-preset="apple_lossless"><strong>APPLE LOSSLESS</strong><span>ALAC / 元の解像度を維持</span></button>
-      <button class="preset" data-preset="mp3_hq"><strong>MP3 HIGH QUALITY</strong><span>MP3 / 320kbps / 配布・確認用</span></button>
+      <button class="preset active" data-preset="keep_original"><strong>元の設定を維持</strong><span>サンプルレート・bit深度を維持</span></button>
+      <button class="preset" data-preset="cd_master"><strong>CD用WAV</strong><span>44.1kHz / 16bit WAV + Dither</span></button>
+      <button class="preset" data-preset="lossless_archive"><strong>FLACで保存</strong><span>FLAC / 元の解像度を維持</span></button>
+      <button class="preset" data-preset="apple_lossless"><strong>ALACで保存</strong><span>ALAC / 元の解像度を維持</span></button>
+      <button class="preset" data-preset="mp3_hq"><strong>高音質MP3</strong><span>MP3 / 320kbps / 配布・確認用</span></button>
     </div>
 
     <div class="settings-grid">
@@ -61,7 +63,7 @@
       </label>
       <label>SAMPLE RATE
         <select id="sampleRate">
-          <option value="">KEEP ORIGINAL</option>
+          <option value="">元の設定を維持</option>
           <option value="44100">44.1 kHz</option>
           <option value="48000">48 kHz</option>
           <option value="88200">88.2 kHz</option>
@@ -70,7 +72,7 @@
       </label>
       <label>BIT DEPTH
         <select id="bitDepth">
-          <option value="">KEEP ORIGINAL</option>
+          <option value="">元の設定を維持</option>
           <option value="16">16 bit</option>
           <option value="24">24 bit</option>
         </select>
@@ -85,42 +87,43 @@
   </div>
 
   <div class="convert-card">
-    <div class="mode">03 / CONVERT</div>
-    <button class="btn" id="convertButton">CONVERT AUDIO</button>
+    <div class="mode">STEP 3 / 変換を開始</div>
+    <button class="btn" id="convertButton">変換を開始</button>
     <div class="job-progress" id="jobProgress" hidden>
       <div class="progress-track"><span id="progressBar"></span></div>
-      <div class="progress-copy"><strong id="progressTitle">PREPARING</strong><span id="progressText">変換を準備しています。</span></div>
+      <div class="progress-copy"><strong id="progressTitle">準備中</strong><span id="progressText">変換を準備しています。</span></div>
     </div>
     <div id="queueStatus" class="queue-status" hidden>
-      <div><span>QUEUE STATUS</span><strong id="queueHeadline">CHECKING</strong></div>
+      <div><span>処理の順番</span><strong id="queueHeadline">確認中</strong></div>
       <small id="queueDetail">処理順を確認しています。</small>
     </div>
     <div id="statusText" class="status-text"></div>
   </div>
 
   <div class="convert-card result-card" id="resultCard" hidden>
-    <div class="mode">READY</div>
-    <h2>CONVERT READY.</h2>
+    <div class="mode">完了</div>
+    <h2>変換が完了しました</h2>
     <div class="metrics">
-      <div><span>FORMAT</span><strong id="resultFormat">—</strong></div>
-      <div><span>SAMPLE RATE</span><strong id="resultRate">—</strong></div>
-      <div><span>DEPTH / BITRATE</span><strong id="resultBits">—</strong></div>
-      <div><span>SIZE</span><strong id="resultSize">—</strong></div>
+      <div><span>形式</span><strong id="resultFormat">—</strong></div>
+      <div><span>サンプルレート</span><strong id="resultRate">—</strong></div>
+      <div><span>ビット深度 / ビットレート</span><strong id="resultBits">—</strong></div>
+      <div><span>サイズ</span><strong id="resultSize">—</strong></div>
     </div>
-    <a id="downloadButton" class="btn" href="#">DOWNLOAD FILE</a>
-    <p class="expire">変換ファイルは24時間で期限切れになります。</p>
+    <a id="downloadButton" class="btn" href="#">変換後ファイルをダウンロード</a>
+    <p class="expire">音源・変換後ファイルは保存から24時間後に削除対象となります。完成後は早めにダウンロードしてください。</p>
   </div>
 
   <a class="master-cta" href="../upload.html">
-    <span><small>NEED MASTERING?</small><strong>そのままZASU MASTERへ</strong></span>
+    <span><small>音源を仕上げたいときは</small><strong>そのままZASU MASTERへ</strong></span>
     <b>→</b>
   </a>
 </div>
 </section>
-</main>
+<div class="wrap"><p class="download-help">試聴・ダウンロードできない場合は、通信状態と保存期限をご確認ください。購入済みの場合は再購入せず、<a href="../contact.html">お問い合わせ</a>へご連絡ください。</p></div></main>
 
-<footer><div class="wrap"><div class="footer-links"><a href="../index.html">ZASU AUDIO</a><a href="../pricing.html">PRICING</a><a href="../tokushoho.html">特商法</a><a href="../refund.html">返金ポリシー</a><a href="../terms.html">利用規約</a><a href="../privacy.html">プライバシー</a><a href="../contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<footer><div class="wrap"><div class="footer-links"><a href="../index.html">ZASU AUDIO</a><a href="../pricing.html">料金</a><a href="../tokushoho.html">特商法</a><a href="../refund.html">返金ポリシー</a><a href="../terms.html">利用規約</a><a href="../privacy.html">プライバシー</a><a href="../contact.html">お問い合わせ</a></div><div><div class="family-links"><a href="https://zasuworks.jp/">ZASU WORKS</a><a href="https://zasuworks.jp/zasu-daw/">ZASU DAW</a><a href="https://zasumaster.com/">ZASU AUDIO</a><a href="https://zasuworks.jp/zasu-loud/">ZASU LOUD</a></div><p class="brand-motto">MIX. MASTER. CONVERT.</p><p>ZASU WORKS — MAKE MUSIC. NOT MASTERING.</p><div class="family-links"><a href="https://line.me/R/ti/p/@860wogaj">公式LINEで問い合わせ</a><a href="mailto:zasuworks@gmail.com">zasuworks@gmail.com</a></div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<script src="../assets/ui-copy.js?v=20261005-ja1"></script>
 <script src="assets/config.js?v=20260929-2345"></script>
-<script src="assets/app.js?v=20261001-abuse1"></script>
+<script src="assets/app.js?v=20261005-ja1"></script>
 </body>
 </html>

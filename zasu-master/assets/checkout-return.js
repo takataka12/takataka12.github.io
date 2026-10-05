@@ -53,45 +53,45 @@ async function check(){
   const orderParam=new URLSearchParams(location.search).get("order")||"";
   const isSupporter=saved?.supporter===true;
   if(!saved?.order_id||!saved?.order_access_token||saved.order_id!==orderParam){
-    title.innerHTML=isSupporter?"TICKET<br>REFERENCE LOST.":"PAYMENT<br>REFERENCE LOST.";
-    text.textContent="このブラウザに利用情報が残っていません。PRICINGまたはSUPPORTER PORTALから再度確認してください。";
-    addAction("BACK TO PRICING →","pricing.html");return;
+    title.innerHTML=isSupporter?"チケット情報を<br>確認できません":"購入情報を<br>確認できません";
+    text.textContent="このブラウザに利用情報が残っていません。料金ページまたは支援者ページから再度確認してください。";
+    addAction("料金ページへ戻る →","pricing.html");return;
   }
   try{
     const res=await fetch(cfg.audioPaymentStatusEndpoint,{method:"POST",headers:{"Content-Type":"application/json","apikey":cfg.betaAnonKey,"Authorization":"Bearer "+cfg.betaAnonKey},body:JSON.stringify({order_id:saved.order_id,order_access_token:saved.order_access_token})});
     const body=await res.json().catch(()=>({}));
     if(!res.ok)throw new Error(body.error||"STATUS FAILED");
     if(body.paid){
-      title.innerHTML=isSupporter?"TICKET<br>READY.":"PAYMENT<br>READY.";
+      title.innerHTML=isSupporter?"チケットの<br>確認完了":"決済を<br>確認しました";
       text.textContent=isSupporter?"支援者チケットを確認しました。フル尺処理を解放しています…":"決済を確認しました。フル尺処理を解放しています…";
       try{
         const unlocked=await unlockPaidPreview(saved);
         text.textContent=isSupporter?"支援者チケット確認・フル尺解放が完了しました。":"決済確認・フル尺解放が完了しました。";
-        addAction(saved.plan==="full"?"CONTINUE FULL PROCESS →":saved.plan==="master"?"CONTINUE MASTERING →":"CONTINUE MIXING →",unlocked.href);
-        addAction(isSupporter?"SUPPORTER PORTAL":"PRICING",isSupporter?"supporter.html":"pricing.html",false);
+        addAction(saved.plan==="full"?"MIX + MASTERを続ける →":saved.plan==="master"?"MASTERの処理状況を見る →":"MIXの処理状況を見る →",unlocked.href);
+        addAction(isSupporter?"支援者ページ":"料金",isSupporter?"supporter.html":"pricing.html",false);
       }catch(e){
-        text.textContent=(e?.message||"UNLOCK FAILED")+"。利用情報は保持されています。";
-        addAction("CHECK AGAIN",location.href);
+        text.textContent=(window.ZASU_I18N.error(e,"payment"))+"。利用情報は保持されています。";
+        addAction("もう一度確認する",location.href);
       }
       return;
     }
-    title.innerHTML="PAYMENT<br>PROCESSING.";
+    title.innerHTML="決済完了通知を<br>確認中";
     text.textContent="Squareから決済完了通知を待っています。この画面で自動確認します。";
-    const b=document.createElement("button");b.className="btn";b.type="button";b.textContent="CHECK NOW";b.onclick=()=>{paymentPollCount=0;title.innerHTML="CHECKING<br>PAYMENT.";text.textContent="決済状況を確認しています。";check()};actions.appendChild(b);
+    const b=document.createElement("button");b.className="btn";b.type="button";b.textContent="決済状況を再確認";b.onclick=()=>{paymentPollCount=0;title.innerHTML="決済状況を<br>確認中";text.textContent="決済状況を確認しています。";check()};actions.appendChild(b);
     if(paymentPollCount<12){
       paymentPollCount+=1;
       paymentPollTimer=setTimeout(()=>{
-        title.innerHTML="CHECKING<br>PAYMENT.";
+        title.innerHTML="決済状況を<br>確認中";
         text.textContent="決済状況を自動確認しています…";
         check();
       },2500);
     }else{
-      text.textContent="決済完了通知に時間がかかっています。決済済みの場合はCHECK NOWでもう一度確認できます。";
+      text.textContent="決済完了通知に時間がかかっています。決済済みの場合は「決済状況を再確認」でもう一度確認できます。";
     }
   }catch(e){
-    title.innerHTML=isSupporter?"TICKET<br>CHECK FAILED.":"PAYMENT<br>CHECK FAILED.";
-    text.textContent=e?.message||"利用状況を確認できませんでした。";
-    addAction("BACK TO PRICING →","pricing.html");
+    title.innerHTML=isSupporter?"チケットを<br>確認できません":"決済を<br>確認できません";
+    text.textContent=window.ZASU_I18N.error(e,"payment");
+    addAction("料金ページへ戻る →","pricing.html");
   }
 }
 check();

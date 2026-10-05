@@ -8,50 +8,52 @@
 <meta name="description" content="ZASU WORKSクラウドファンディング支援者専用ポータル。ZASU AUDIOチケット残高と特典を確認できます。">
 <link rel="stylesheet" href="assets/style.css?v=20260930-0432">
 <link rel="stylesheet" href="assets/supporter.css?v=20260930-1">
+<link rel="stylesheet" href="assets/brand-ja.css?v=20261005-ja1">
 </head>
 <body class="supporter-page">
 <header><div class="wrap nav">
   <a class="brand" href="index.html"><span class="main">ZASU AUDIO</span><span class="jp">by ZASU WORKS</span></a>
-  <nav><a href="crowdfunding.html">PROJECT</a><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="pricing.html">PRICING</a></nav>
+  <nav><a href="crowdfunding.html">クラウドファンディング</a><a href="mix/">MIX</a><a href="upload.html">MASTER</a><a href="pricing.html">料金</a></nav>
 </div></header>
 
 <main>
 <section class="supporter-hero compact"><div class="wrap">
-  <div class="kicker">CAMPFIRE SUPPORTER / PRIVATE ACCESS</div>
-  <h1>YOUR<br>ZASU WALLET.</h1>
+  <div class="kicker">CAMPFIRE支援者 / 特典の確認</div>
+  <h1>チケットと<br>特典の残高。</h1>
   <p class="lead">支援者コードでZASU AUDIOチケットと特典残高を確認。</p>
 </div></section>
 
 <section><div class="wrap supporter-shell">
   <div class="supporter-login" id="supporterLogin">
-    <div class="mode">SUPPORTER CODE</div>
+    <div class="mode">支援者コード</div>
     <h2>コードを入力</h2>
     <p>コードはURLに保存・表示されません。このタブを閉じるまで一時的に保持できます。</p>
     <input id="supporterCode" class="supporter-code-input" type="password" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ZSW-XXXX-XXXX-XXXX-XXXX">
-    <button id="supporterLoginButton" class="btn" type="button">OPEN WALLET →</button>
+    <button id="supporterLoginButton" class="btn" type="button">残高を確認する →</button>
     <div id="supporterStatus" class="supporter-status"></div>
   </div>
 
   <div class="supporter-wallet" id="supporterWallet" hidden>
-    <div class="wallet-head"><div><span>ACTIVE SUPPORTER</span><strong id="supporterPlan">—</strong></div><button id="supporterLogout" class="wallet-logout" type="button">LOG OUT</button></div>
+    <div class="wallet-head"><div><span>支援者情報</span><strong id="supporterPlan">—</strong></div><button id="supporterLogout" class="wallet-logout" type="button">ログアウト</button></div>
     <div class="wallet-grid">
-      <div class="wallet-main"><span>ZASU AUDIO TICKETS</span><strong><b id="ticketRemaining">—</b><small> / <span id="ticketTotal">—</span></small></strong><p>1枚 = MIX 1回 または MASTER 1回。MIX + MASTERは2枚。</p></div>
-      <div><span>CURRENT iOS APPS</span><strong id="currentApps">—</strong><p>対象有料アプリの選択枠。</p></div>
-      <div><span>FUTURE iOS APPS</span><strong id="futureApps">—</strong><p>今後1年以内に公開する対象新作アプリ枠。</p></div>
-      <div><span>ACTIVITY REPORT</span><strong id="reportAccess">—</strong><p>限定活動報告レポートへのアクセス。</p></div>
+      <div class="wallet-main"><span>ZASU AUDIOチケット</span><strong><b id="ticketRemaining">—</b><small> / <span id="ticketTotal">—</span></small></strong><p>1枚 = MIX 1回 または MASTER 1回。MIX + MASTERは2枚。</p></div>
+      <div><span>公開済みiOSアプリ</span><strong id="currentApps">—</strong><p>対象有料アプリの選択枠。</p></div>
+      <div><span>今後のiOSアプリ</span><strong id="futureApps">—</strong><p>今後1年以内に公開する対象新作アプリ枠。</p></div>
+      <div><span>活動報告</span><strong id="reportAccess">—</strong><p>限定活動報告レポートへのアクセス。</p></div>
     </div>
 
     <div class="wallet-actions">
-      <a class="btn" href="mix/">USE FOR MIX →</a>
-      <a class="btn secondary" href="upload.html">USE FOR MASTER →</a>
-      <button id="supporterRefresh" class="btn secondary" type="button">REFRESH BALANCE</button>
+      <a class="btn" href="mix/">MIXで使う →</a>
+      <a class="btn secondary" href="upload.html">MASTERで使う →</a>
+      <button id="supporterRefresh" class="btn secondary" type="button">残高を更新</button>
     </div>
-    <div class="supporter-note">まず30秒プレビューを作成してください。フル尺解放時のCHECKOUT画面で、同じ支援者コードを入力するとチケットが適用されます。</div>
+    <div class="supporter-note">まず30秒プレビューを作成してください。フル尺解放時の購入確認画面で、同じ支援者コードを入力するとチケットが適用されます。</div>
   </div>
 </div></section>
 </main>
 
-<footer><div class="wrap"><div class="footer-links"><a href="crowdfunding.html">PROJECT</a><a href="index.html">ZASU AUDIO</a><a href="pricing.html">PRICING</a><a href="contact.html">お問い合わせ</a></div><div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<footer><div class="wrap"><div class="footer-links"><a href="crowdfunding.html">クラウドファンディング</a><a href="index.html">ZASU AUDIO</a><a href="pricing.html">料金</a><a href="contact.html">お問い合わせ</a></div><div><div class="family-links"><a href="https://zasuworks.jp/">ZASU WORKS</a><a href="https://zasuworks.jp/zasu-daw/">ZASU DAW</a><a href="https://zasumaster.com/">ZASU AUDIO</a><a href="https://zasuworks.jp/zasu-loud/">ZASU LOUD</a></div><p class="brand-motto">MIX. MASTER. CONVERT.</p><p>ZASU WORKS — MAKE MUSIC. NOT MASTERING.</p><div class="family-links"><a href="https://line.me/R/ti/p/@860wogaj">公式LINEで問い合わせ</a><a href="mailto:zasuworks@gmail.com">zasuworks@gmail.com</a></div>© 2026 ZASU AUDIO / ZASU WORKS</div></div></footer>
+<script src="assets/ui-copy.js?v=20261005-ja1"></script>
 <script src="assets/config.js?v=20260930-supporter1"></script>
-<script src="assets/supporter.js?v=20260930-1"></script>
+<script src="assets/supporter.js?v=20261005-ja1"></script>
 </body></html>
