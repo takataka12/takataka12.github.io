@@ -3,12 +3,15 @@ window.ZASU_MASTER_CONFIG = {
   commerceEnabled: true,
   checkoutProvider: "square",
   launchPrices: { mix: 500, master: 500, full: 800, convert: 0 },
-  audioCheckoutEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-zasu-audio-checkout",
+  squarePaymentLinks: {
+    master: "https://square.link/u/ArDEgNp3",
+    mix: "https://square.link/u/nlRlUxDe",
+    full: "https://square.link/u/gOC2Qnnw"
+  },
+  audioCheckoutEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-zasu-audio-fixed-checkout",
   audioPaymentStatusEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/zasu-audio-payment-status",
   supporterPortalEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/supporter-portal-api",
   betaEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/submit-beta-application",
-  createSquareCheckoutEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-square-checkout",
-  paymentStatusEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/payment-status",
   createMixUploadEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-mix-upload",
   completeMixUploadEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/complete-mix-upload",
   directMasterFromMixEndpoint: "https://siwmzradvrtetotakkbi.supabase.co/functions/v1/create-master-from-zasu-mix",

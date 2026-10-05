@@ -128,7 +128,7 @@ async function start(){
       sessionStorage.setItem("zasu_convert_job",JSON.stringify(job));
       sessionStorage.removeItem("zasu_convert_master_handoff");
       masterHandoff=null;
-      setProgress(12,"処理待ち","ZASU MASTER完成音源を直接引き継ぎました。");
+      setProgress(12,"処理待ち","ZASU AUDIO — MASTER完成音源を直接引き継ぎました。");
       poll();
       return;
     }
@@ -197,7 +197,7 @@ if(handoffRaw){
       masterHandoff=h;
       q("#dropzone").hidden=true;
       q("#fileMeta").classList.add("master-source");
-      q("#fileMeta").textContent="ZASU MASTER完成音源を直接使用 — "+String(h.profile_label||"MASTER");
+      q("#fileMeta").textContent="ZASU AUDIO — MASTER完成音源を直接使用 — "+String(h.profile_label||"MASTER");
       q("#statusText").textContent="再アップロード不要です。変換方法を選んで「変換を開始」を押してください。";
     }
   }catch(_){sessionStorage.removeItem("zasu_convert_master_handoff")}

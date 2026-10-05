@@ -13,7 +13,7 @@ async function setup(browser,width){
   const calls=[];let mixFull=false,masterFull=false,errorCode=null;
   await context.route('**/*',async route=>{
     const req=route.request(),url=new URL(req.url());
-    if(url.hostname==='checkout.test')return route.fulfill({contentType:'text/html',body:'Square test checkout'});
+    if(url.hostname==='square.link')return route.fulfill({contentType:'text/html',body:'Square test checkout'});
     if(url.hostname.includes('supabase.co')){
       if(url.pathname.includes('/storage/'))return route.fulfill({json:{ok:true}});
       const body=req.postDataJSON()||{};const slug=url.pathname.split('/').pop();calls.push({slug,body});
@@ -28,7 +28,7 @@ async function setup(browser,width){
         if(body.action==='status')response={status:'completed',stage:'completed',output_format:'wav',sample_rate:44100,bit_depth:16,output_size_bytes:48044,output_name:'result.wav'};
       }else if(slug==='create-mix-upload')response={upload_id:'test-upload',bucket:'mix-uploads',path:'source',token:'signed'};
       else if(slug==='mastering-status')response={status:'completed',stage:'completed',processing_mode:masterFull?'full':'preview',job_id:'test-master',preview_url:base+'test-preview.wav',download_url:base+'test-download.wav',profile_label:'STANDARD',output_lufs:-10,output_dbtp:-1};
-      else if(slug==='create-zasu-audio-checkout')response={payment_url:'https://checkout.test/pay',order_id:'test-order',order_access_token:'order-token-123456789'};
+      else if(slug==='create-zasu-audio-fixed-checkout')response={payment_url:'https://square.link/u/'+({mix:'nlRlUxDe',master:'ArDEgNp3',full:'gOC2Qnnw'}[body.plan]),order_id:'test-order',order_access_token:'order-token-123456789',plan:body.plan};
       else if(slug==='zasu-audio-payment-status')response={paid:true};
       else if(slug==='unlock-zasu-master-full'){masterFull=true;response={ok:true,job_id:'test-master-full'}}
       else if(slug==='submit-beta-application')response={status:'accepted',application_no:1,access_token:'master-token-123456789'};
@@ -43,13 +43,13 @@ async function setup(browser,width){
 }
 async function checkout(s,plan){
   await s.page.waitForURL(url=>url.pathname.endsWith('/checkout.html')&&url.searchParams.get('plan')===plan);
-  assert.match(await s.page.locator('#checkoutPrice').innerText(),plan==='full'?/800/:/500/);
+  assert.match(await s.page.locator('#checkoutPrice').innerText(),plan==='full'?/800/:/500/);assert.equal(await s.page.locator('#checkoutPlan').innerText(),'ZASU AUDIO — '+({mix:'MIX',master:'MASTER',full:'MIX + MASTER'}[plan]));
   await s.page.locator('#checkoutButton').click();assert.match(await s.page.locator('#checkoutStatus').innerText(),/確認/);
-  await s.page.locator('#legalConfirm').check();await s.page.locator('#checkoutButton').click();await s.page.waitForURL('https://checkout.test/pay');
-  const call=s.calls.find(x=>x.slug==='create-zasu-audio-checkout');assert.equal(call.body.plan,plan);
-  await s.page.goto(base+'checkout-return.html?order=test-order');
+  await s.page.locator('#legalConfirm').check();await s.page.locator('#checkoutButton').click();await s.page.waitForURL('https://square.link/u/'+({mix:'nlRlUxDe',master:'ArDEgNp3',full:'gOC2Qnnw'}[plan]));
+  const call=s.calls.find(x=>x.slug==='create-zasu-audio-fixed-checkout');assert.equal(call.body.plan,plan);assert.equal(call.body.source_type,plan==='master'?'master':'mix');assert.equal(call.body.source_access_token,plan==='master'?'master-token-123456789':'test-token-123456789');
+  await s.page.goto(base+'checkout-return.html?plan='+plan+'&orderId=SquareOrder123456789');
   await s.page.locator('#returnActions a').first().waitFor();assert.match(await s.page.locator('#returnText').innerText(),/完了/);
-  await s.page.locator('#returnActions a').first().click();
+  assert.equal(s.calls.find(x=>x.slug==='zasu-audio-payment-status').body.square_order_id,'SquareOrder123456789');await s.page.locator('#returnActions a').first().click();
 }
 (async()=>{
  const server=process.env.ZASU_TEST_URL?null:http.createServer((req,res)=>{
@@ -79,6 +79,16 @@ async function checkout(s,plan){
     await s.page.locator(plan==='full'?'#unlockFullButton':'#unlockMixButton').click();await checkout(s,plan);
     await s.page.locator('#fullDownloads').waitFor({state:'visible'});
     const download=s.page.waitForEvent('download');await s.page.locator('#mixDownload').click();assert.ok((await download).suggestedFilename());
+    if(plan==='full'){
+      await s.page.locator('#sendStandard').click();
+      await s.page.waitForURL(base+'result.html');
+      await s.page.locator('#previewMasterGate').waitFor({state:'visible'});
+      await s.page.locator('#unlockMasterButton').click();
+      await s.page.locator('#resultActions a').first().waitFor();
+      assert.equal(s.calls.filter(x=>x.slug==='create-zasu-audio-fixed-checkout').length,1,'bundle must not require a second purchase');
+      assert.equal(s.calls.filter(x=>x.slug==='create-mix-upload').length,0,'bundle must not require re-upload');
+      assert.equal(s.calls.find(x=>x.slug==='unlock-zasu-master-full').body.order_id,'test-order');
+    }
     const upload=s.calls.find(x=>x.slug==='zasu-mix-api'&&x.body.action==='create_job');assert.equal(upload.body.mix_style,'modern');assert.equal(upload.body.auto_balance,true);
     assert.deepEqual(s.errors,[]);await s.context.close();passed++;
    }

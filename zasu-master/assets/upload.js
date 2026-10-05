@@ -30,7 +30,7 @@ if(directMixHandoff){
   if(manualUploadSource)manualUploadSource.hidden=true;
   if(directMixSource)directMixSource.hidden=false;
   button.textContent="マスタリングを開始（無料試聴）";
-  status.textContent="ZASU MIXの完成音源を受信しました。スタイルを確認して開始してください。";
+  status.textContent="ZASU AUDIO — MIXの完成音源を受信しました。スタイルを確認して開始してください。";
 }
 
 const savedNo=localStorage.getItem("zasu_beta_application_no")||"";const accessToken=localStorage.getItem("zasu_beta_access_token")||"";const visitorId=localStorage.getItem("zasu_visitor_id")||"";const sessionId=sessionStorage.getItem("zasu_session_id")||crypto.randomUUID();sessionStorage.setItem("zasu_session_id",sessionId);
@@ -112,7 +112,7 @@ button.addEventListener("click",async()=>{
       button.disabled=true;
       button.textContent="送信中…";
       progress.classList.add("active");
-      status.textContent="ZASU MIXの完成音源をMASTERへ渡しています…";
+      status.textContent="ZASU AUDIO — MIXの完成音源をMASTERへ渡しています…";
       const res=await fetch(cfg.directMasterFromMixEndpoint,{
         method:"POST",
         headers:edgeHeaders(),
@@ -133,13 +133,13 @@ button.addEventListener("click",async()=>{
         const map={
           beta_application_not_found:"受付番号が見つかりません。",
           beta_not_accepted:"この受付番号はまだ利用できません。",
-          payment_required:"ZASU MASTERの利用権限を確認できませんでした。",
-          mix_job_not_found:"ZASU MIXの完成音源を確認できませんでした。",
-          mix_not_ready:"ZASU MIXがまだ完成していません。",
-          mix_expired:"ZASU MIXの保存期限が切れています。",
-          mix_source_missing:"ZASU MIXの完成ファイルを確認できませんでした。"
+          payment_required:"ZASU AUDIO — MASTERの利用権限を確認できませんでした。",
+          mix_job_not_found:"ZASU AUDIO — MIXの完成音源を確認できませんでした。",
+          mix_not_ready:"ZASU AUDIO — MIXがまだ完成していません。",
+          mix_expired:"ZASU AUDIO — MIXの保存期限が切れています。",
+          mix_source_missing:"ZASU AUDIO — MIXの完成ファイルを確認できませんでした。"
         };
-        throw new Error(map[body.error]||"ZASU MIXからMASTERへの受け渡しに失敗しました。");
+        throw new Error(map[body.error]||"ZASU AUDIO — MIXからMASTERへの受け渡しに失敗しました。");
       }
       sessionStorage.removeItem("zasu_mix_master_handoff");
       sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:accessToken}));

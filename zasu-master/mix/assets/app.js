@@ -621,15 +621,15 @@ async function sendToMaster(profile){
     const body=await res.json().catch(()=>({}));
     if(!res.ok){
       const map={
-        beta_application_not_found:"ZASU MASTERの受付情報を確認してください。",
-        beta_not_accepted:"ZASU MASTERの受付がまだ有効になっていません。",
-        payment_required:"ZASU MASTERの利用権限を確認してください。",
+        beta_application_not_found:"ZASU AUDIO — MASTERの受付情報を確認してください。",
+        beta_not_accepted:"ZASU AUDIO — MASTERの受付がまだ有効になっていません。",
+        payment_required:"ZASU AUDIO — MASTERの利用権限を確認してください。",
         mix_job_not_found:"完成MIXを確認できませんでした。",
         mix_not_ready:"MIXがまだ完成していません。",
         mix_expired:"MIXファイルの保存期限が切れています。",
         mix_source_missing:"完成MIXファイルを確認できませんでした。"
       };
-      throw new Error(map[body.error]||"ZASU MASTERへの送信に失敗しました。");
+      throw new Error(map[body.error]||"ZASU AUDIO — MASTERへの送信に失敗しました。");
     }
 
     statusEl.textContent="30 SEC MASTER PREVIEW QUEUED. 結果画面へ移動します…";

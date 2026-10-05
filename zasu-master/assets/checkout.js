@@ -3,9 +3,9 @@ const cfg=window.ZASU_MASTER_CONFIG||{};
 const params=new URLSearchParams(location.search);
 const plan=(params.get("plan")||"full").toLowerCase();
 const plans={
-  mix:{name:"ZASU MIX",price:500,description:"1曲のフル尺MIX処理。完成MIXの24-bit WAVと、処理済みボーカルをダウンロードできます。",href:"mix/"},
-  master:{name:"ZASU MASTER",price:500,description:"STANDARD / LOUDから選ぶ1曲のフル尺マスタリング。完成音源の24-bit WAVをダウンロードできます。",href:"upload.html"},
-  full:{name:"MIX + MASTER",price:800,description:"MIXとMASTERの2工程をセットで購入。フル尺MIXからマスタリングへ進み、完成音源をダウンロードできます。",href:"mix/"}
+  mix:{name:"ZASU AUDIO — MIX",price:500,description:"1曲のフル尺ボーカルMIX。完成MIXの24-bit WAVと、処理済みボーカルをダウンロードできます。マスタリングは含まれません。",href:"mix/"},
+  master:{name:"ZASU AUDIO — MASTER",price:500,description:"STANDARD / LOUDから選ぶ1曲のフル尺自動マスタリング。完成音源の24-bit WAVをダウンロードできます。",href:"upload.html"},
+  full:{name:"ZASU AUDIO — MIX + MASTER",price:800,description:"自動ボーカルMIXとマスタリングをセットで購入。再アップロードせず、フル尺MIXからMASTERへ進み、完成音源をダウンロードできます。",href:"mix/"}
 };
 const p=plans[plan]||plans.full;
 q("#checkoutPlan").textContent=p.name;
@@ -45,14 +45,19 @@ if(!cfg.commerceEnabled){
       localStorage.setItem("zasu_visitor_id",visitorId);
       const pending=getPending();
       const {sourceType,sourceId}=pendingSource(pending);
-      const res=await fetch(cfg.audioCheckoutEndpoint,{method:"POST",headers:audioHeaders(),body:JSON.stringify({plan,visitor_id:visitorId,source_type:sourceType,source_id:sourceId})});
+      if(!plans[plan]||!sourceId||sourceType!==(plan==="master"?"master":"mix"))throw new Error("先に対象サービスの30秒プレビューを作成してください。");
+      const res=await fetch(cfg.audioCheckoutEndpoint,{method:"POST",headers:audioHeaders(),body:JSON.stringify({plan,visitor_id:visitorId,source_type:sourceType,source_id:sourceId,source_access_token:pending.access_token,application_no:pending.application_no})});
       const body=await res.json().catch(()=>({}));
       if(res.status===429||body.error==="rate_limited"){
         const sec=Math.max(1,Number(body.retry_after_seconds||60));
         throw new Error("短時間に決済リクエストが集中しています。約"+Math.ceil(sec/60)+"分後にもう一度お試しください。");
       }
       if(!res.ok||!body.payment_url||!body.order_id||!body.order_access_token)throw new Error(body.user_message||body.error||"決済画面を開けませんでした。通信状態を確認して再度お試しください。");
-      localStorage.setItem("zasu_audio_checkout",JSON.stringify({order_id:body.order_id,order_access_token:body.order_access_token,plan,created_at:Date.now(),supporter:false}));
+      if(body.payment_url!==cfg.squarePaymentLinks?.[plan])throw new Error("購入先の商品を確認できませんでした。再購入せず、お問い合わせください。");
+      const saved={order_id:body.order_id,order_access_token:body.order_access_token,plan,created_at:Date.now(),supporter:false,pending};
+      localStorage.setItem("zasu_audio_checkout",JSON.stringify(saved));
+      localStorage.setItem("zasu_audio_checkout:"+saved.order_id,JSON.stringify(saved));
+      localStorage.setItem("zasu_audio_checkout_plan_"+plan,JSON.stringify(saved));
       location.href=body.payment_url;
     }catch(e){status.textContent=window.ZASU_I18N.error(e,"payment");btn.disabled=false}
   };
