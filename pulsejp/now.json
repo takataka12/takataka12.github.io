@@ -1,72 +1,42 @@
 {
-  "generatedAt": "2026-10-05T09:04:24Z",
+  "generatedAt": "2026-10-05T18:27:56Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "87a63e638d5f55",
+      "id": "095d37870703c6",
       "category": "politics",
-      "title": "「SIフォース」創設へ トランプ大統領が表明 政府のAI政策調整の司令塔組織 トップはクレイトン国家情報長官 - chiba-tv.com",
-      "sourceCount": 3,
-      "latestPublishedAt": "2026-10-05T01:41:20Z",
-      "sources": [
-        {
-          "id": "d339fe6a1173dd",
-          "name": "chiba-tv.com",
-          "title": "「SIフォース」創設へ トランプ大統領が表明 政府のAI政策調整の司令塔組織 トップはクレイトン国家情報長官 - chiba-tv.com",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pcEZvQVlVenJwWHIzQ3V6aGg4a1REeHlfS0NuVGE1SExKSUhGSGRYcHI0RU5XNnZVYjItZUdHSnRncWZXdmw4TFhJLTlRWEl5SWw0OUNjS24wU3JaZ25z?oc=5",
-          "publishedAt": "2026-10-05T01:41:20Z"
-        },
-        {
-          "id": "8d79d99c50190c",
-          "name": "Yahoo!ニュース",
-          "title": "「SIフォース」創設へ トランプ大統領が表明 政府のAI政策調整の司令塔組織 トップはクレイトン国家情報長官 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kOWc4dkNoQ3plZUlGdkZYdDBabjEwdnFCWjZIeGU2QVdHMmdXQVVaanpaMjkwMHd2UDZ1NWdZR3o4SGFMX3c1c240X0JBTkk4U0ZqZDZueW42RUVzN0tpM2Ztd0xlTnYzOTZpZXNvSDJXenFVY2cyeWRrR1BYbWM?oc=5",
-          "publishedAt": "2026-10-05T01:39:22Z"
-        },
-        {
-          "id": "d1791c21f41750",
-          "name": "FNNプライムオンライン",
-          "title": "「SIフォース」創設へ トランプ大統領が表明 政府のAI政策調整の司令塔組織 トップはクレイトン国家情報長官 - FNNプライムオンライン",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIb0haa0RsRXhTNUpXUGJUbExCZzE5c3BPcmhBcWdLQ0ozdmdqenh2bDlKQk5xVnlUQmRmbnVRRHJvejkwU0k4RkZWNnBvQQ?oc=5",
-          "publishedAt": "2026-10-05T01:38:00Z"
-        }
-      ]
-    },
-    {
-      "id": "f43649cf754a7a",
-      "category": "internet",
-      "title": "千鳥・大悟、SNSで話題の野球芸人ナチョス。を絶賛！ - au Webポータル",
+      "title": "トランプ氏、AI政策を統括する「超知能タスクフォース」創設を発表 - BBC",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-05T07:53:00Z",
+      "latestPublishedAt": "2026-10-05T16:48:34Z",
       "sources": [
         {
-          "id": "def0180a0158ee",
-          "name": "au Webポータル",
-          "title": "千鳥・大悟、SNSで話題の野球芸人ナチョス。を絶賛！ - au Webポータル",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB2RFd3NG9xTzNva0pRYUlaRGdVbzRjeUJnQUdIRDlidVFjTDl4blF5YnpiQlFUOWRFaTBFbElnbnBjWG43RFJPSlNFaThEODlGbVE3RlF5eVFMT25WYlI1bVprZVZZblQtb2tNZ0Vn?oc=5",
-          "publishedAt": "2026-10-05T07:53:00Z"
+          "id": "8b979bfc955488",
+          "name": "BBC",
+          "title": "トランプ氏、AI政策を統括する「超知能タスクフォース」創設を発表 - BBC",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wZmEzeExSU0ROMjRHckhINEhqQTJxYzlLMGFBUHVET0JELUo4MkZMT2dJalU1Vi1ObFZLQ1FZc0pSTkx4TDd1S1ZHZVM5Yk94QTZtdXVFRFJUNnVfTGpCUNIBZkFVX3lxTE94b0dsYy1qd3pIMjFpUlYxeW45TXlJRzlBTlZncWJSOC01SVdxcVRMOHUwbnBBc0pfekVwWWZ0c0hDN2kzOGxiQ1B4SHN0aTl5Qk5QbVhRT0doamFHOFhFcWRQUUxMQQ?oc=5",
+          "publishedAt": "2026-10-05T16:48:34Z"
         },
         {
-          "id": "7b94c1818752f3",
-          "name": "PR TIMES",
-          "title": "千鳥・大悟、SNSで話題の野球芸人ナチョス。を絶賛 試合に出られなかった元高校球児のネタに満点「まだ野球が好きで笑いに変えた」 - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5RQU9LYTQ4YVRwTC1EZTRLYXUzX1h4ZXktTnhqR2M5cXZZVzhlYjR6NDIxdmp6R1VHUDhBeGdKamJrSHB3YVQwZmNiUzI0YURiSm5RWlVrazFtZUNrYXpBUEFJOXVtRkFtcWc?oc=5",
-          "publishedAt": "2026-10-05T02:00:02Z"
+          "id": "098d7380d66900",
+          "name": "Yahoo!ニュース",
+          "title": "米、AI政策の司令塔創設を発表 トランプ氏「超知能フォース」（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzUHdlMi11aVRlb3pWOU80cVVqdGEzSWFKa2VKWl95eVNXUjJ6ZFdpYmlybEo0bDdEZG85VEU1UEpBTGpfTWExZGlQQkVVcEFuaExkMmRGbDAzSGI0eGlrU25oWTdvcjFHZTBMNERmVC1zY1otZGhzOHhZeTJxT3M?oc=5",
+          "publishedAt": "2026-10-04T14:48:26Z"
         }
       ]
     },
     {
       "id": "b9d9fa59d4bc8c",
       "category": "internet",
-      "title": "SNSで話題のアレが買えるよ～！「まさか家で体験できるなんて！」話題の100均美容グッズ - chiba-tv.com",
+      "title": "SNSで話題のアレが買えるよ～！「まさか家で体験できるなんて！」話題の100均美容グッズ - 千葉テレビ放送株式会社",
       "sourceCount": 2,
       "latestPublishedAt": "2026-10-05T03:56:46Z",
       "sources": [
         {
           "id": "6777c3dc965166",
-          "name": "chiba-tv.com",
-          "title": "SNSで話題のアレが買えるよ～！「まさか家で体験できるなんて！」話題の100均美容グッズ - chiba-tv.com",
+          "name": "千葉テレビ放送株式会社",
+          "title": "SNSで話題のアレが買えるよ～！「まさか家で体験できるなんて！」話題の100均美容グッズ - 千葉テレビ放送株式会社",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qYWNVbVo4TERXNE11bXhoNGJoM2NtRF9qdjhaZlVIeFJSVkpMNlFDRVA1Um02VWNBQ0ZrbDVrVTRVMWdDYWF3SGRmMmhMZzF3UTlXUld5UDZoZTY2WGs0?oc=5",
           "publishedAt": "2026-10-05T03:56:46Z"
         },
@@ -94,7 +64,14 @@
           "publishedAt": "2026-10-05T02:59:39Z"
         },
         {
-          "id": "d293d93a7f2e16",
+          "id": "385cbbfda1d682",
+          "name": "Motor Fan",
+          "title": "「ベース車を見破るのは無理!?」SNSで話題沸騰の現代版ハコスカのすべて - Motor Fan",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBnOXZZRGhHU2gzZFI2b2ZGOXNWQVlhM0VManJwQW94aTV6TF93aGd0VDA3U3JNM0RMT0NIVHh6a3B6TlUyaWEtbE91VFdsZFhsd0RLTVJZSWFEWGNyTlByR0xtWFRoNEkyYnc?oc=5",
+          "publishedAt": "2026-10-05T02:04:39Z"
+        },
+        {
+          "id": "bc42e5d6cc9902",
           "name": "Motor Fan",
           "title": "「ベース車を見破るのは無理!?」SNSで話題沸騰の現代版ハコスカのすべて - Motor Fan",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xYkIxbXlYNG9RaDVqVmhoLVdXU25na2ZDQ3lrSWRDUC1kaUtCdVcwUHpHbVlMR2lDaXdaQzZiXzB4eG5nQnNaeVVmX0g4QQ?oc=5",
@@ -103,48 +80,48 @@
       ]
     },
     {
-      "id": "84c3926dbbcae8",
+      "id": "87a63e638d5f55",
       "category": "politics",
-      "title": "米、AI政策の司令塔発表　名称は「超知能フォース」 - サンスポ",
+      "title": "「SIフォース」創設へ トランプ大統領が表明 政府のAI政策調整の司令塔組織 トップはクレイトン国家情報長官 - 千葉テレビ放送株式会社",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-05T00:44:36Z",
+      "latestPublishedAt": "2026-10-05T01:41:20Z",
       "sources": [
         {
-          "id": "21120477183d87",
-          "name": "サンスポ",
-          "title": "米、AI政策の司令塔発表　名称は「超知能フォース」 - サンスポ",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBWY1o0SUVtVWEtY01uSUNBQjkydTdiTWJaV3ltSHFNRmlxSHpqdFNBVWRQS0NTcGJhQVhxQlEtMGo1N0d5X0pRcTFvOUFFVDdfRENCYWxwUDdZMEx6QjlMMmFZRU9NTnNqMHFZRFN3NllybVNaYnfSAYoBQVVfeXFMTXNTWWNUVnZZUjR6c0d1OFZfS2cxdm9zQUZsRkFHMFpTd3dwS1NxRW9Oa29neGNKMUZUNk15QS1DOExzX1FTaHhFOWdFWmZKd1hUTzdjak9oem5paENVeGJGZjJ1aFRGTkJudlk5ZmxGNW5pRXRhWlBkWFdvdTBaVWgzOEtQQ01neXl3?oc=5",
-          "publishedAt": "2026-10-05T00:44:36Z"
+          "id": "d339fe6a1173dd",
+          "name": "千葉テレビ放送株式会社",
+          "title": "「SIフォース」創設へ トランプ大統領が表明 政府のAI政策調整の司令塔組織 トップはクレイトン国家情報長官 - 千葉テレビ放送株式会社",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pcEZvQVlVenJwWHIzQ3V6aGg4a1REeHlfS0NuVGE1SExKSUhGSGRYcHI0RU5XNnZVYjItZUdHSnRncWZXdmw4TFhJLTlRWEl5SWw0OUNjS24wU3JaZ25z?oc=5",
+          "publishedAt": "2026-10-05T01:41:20Z"
         },
         {
-          "id": "098d7380d66900",
-          "name": "Yahoo!ニュース",
-          "title": "米、AI政策の司令塔創設を発表 トランプ氏「超知能フォース」（共同通信） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzUHdlMi11aVRlb3pWOU80cVVqdGEzSWFKa2VKWl95eVNXUjJ6ZFdpYmlybEo0bDdEZG85VEU1UEpBTGpfTWExZGlQQkVVcEFuaExkMmRGbDAzSGI0eGlrU25oWTdvcjFHZTBMNERmVC1zY1otZGhzOHhZeTJxT3M?oc=5",
-          "publishedAt": "2026-10-04T14:48:26Z"
+          "id": "a52340d2152324",
+          "name": "FNNプライムオンライン",
+          "title": "「SIフォース」創設へ トランプ大統領が表明 政府のAI政策調整の司令塔組織 トップはクレイトン国家情報長官 - FNNプライムオンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBIb0haa0RsRXhTNUpXUGJUbExCZzE5c3BPcmhBcWdLQ0ozdmdqenh2bDlKQk5xVnlUQmRmbnVRRHJvejkwU0k4RkZWNnBvQQ?oc=5",
+          "publishedAt": "2026-10-05T01:38:00Z"
         }
       ]
     },
     {
-      "id": "9b7c54f9cd4b0c",
-      "category": "economy",
-      "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である（ダイヤモンド・オンライン） - Yahoo!ニュース",
+      "id": "38d8d30c85b62b",
+      "category": "internet",
+      "title": "「ブラッサム」史実は？清治役話題の渡部篤郎“あさイチの法則”発動か「早くない？」ネット注目10・9 - スポニチ Sponichi Annex",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-04T21:45:30Z",
+      "latestPublishedAt": "2026-10-02T23:15:00Z",
       "sources": [
         {
-          "id": "e0ec6752b08662",
-          "name": "Yahoo!ニュース",
-          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である（ダイヤモンド・オンライン） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbFluRnc4dnJTdl8yVHBxcVhFNExiZXg4TDd5Rmp3d2wzdlk3S2EyV2pCR1UyVWt4NHJHREVWaVNITzN4aC1JLW8xSFIxMkZYejlyeUtSdEpLY2p5eUVjZG1tOS0tc0w3SXNXS2dSZEVpdi1JS3hIV2JlMDhqSms0STg4RVdzVlZE?oc=5",
-          "publishedAt": "2026-10-04T21:45:30Z"
+          "id": "9577fe71941f74",
+          "name": "スポニチ Sponichi Annex",
+          "title": "「ブラッサム」史実は？清治役話題の渡部篤郎“あさイチの法則”発動か「早くない？」ネット注目10・9 - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONk83T3FKMDlNc0xXa3V4YnVSQ0E3eWlSNkdpWXFoTzE3aDR4bUx6Wk1sVXc3MUNwOEI0aGEybzZCQ00wS1lXR2NMN2ZHUHlYb0ZJZFRtLUJ0bGZLMzhOX1BzRlU2SXJQeVBhay1BM3FIWDhWZW1icjZGdEJxSjM1cnlzQi1ack9HOGxGTFF4QU5FaWZkcEE?oc=5",
+          "publishedAt": "2026-10-02T23:15:00Z"
         },
         {
-          "id": "327f699d6d96d1",
-          "name": "ダイヤモンド・オンライン",
-          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5ZZFVJWTZLWEhXR0kybnA0SHR4Tjh6WVhMMVdCV0lpMS1DWWtRanNSWlkzWUpEVmZBdjhrSnctT05YS3hubUhSeTlsVlLSAU9BVV95cUxOaHI0TE8zd1pXMko4U3NiLWFWWE9uNmRHWkZWTlpOQXBQR0pOdmhLNmFhTnJlUHZldWZ4cmRaOERSejJ2R1VIczRmcjJIVkx3?oc=5",
-          "publishedAt": "2026-10-02T21:45:00Z"
+          "id": "3880fb0c2284ef",
+          "name": "Yahoo!ニュース",
+          "title": "「ブラッサム」史実は？清治役話題の渡部篤郎“あさイチの法則”発動か「早くない？」ネット注目10・9 (スポニチアネックス) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRmt0MC1BY3VvR0J2QTZzRmFDcnFFWk9PV0lzdi1GZC0yamF2SzB0QWdBaW9GUkRKSGdXeURpbnNmcXh1b0pFRTF2bE1XTHdtazhjQlFzOEE2Ymk1aC04c2p2QTBKalNqZEVqU2dUeWdHMEJmSE1rVUFtQl9yUDFTd21zcnZRcE11Q1VFOE5n?oc=5",
+          "publishedAt": "2026-10-02T23:15:00Z"
         }
       ]
     },
@@ -194,8 +171,8 @@
         },
         {
           "id": "18b742b36131b5",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - topics.smt.docomo.ne.jp",
+          "name": "ｄメニューニュース",
+          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - ｄメニューニュース",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXa9IBmwFBVV95cUxQRDNWbnBQcUNTaW5wVHdIOVpxZFlINEx1NV9LQWxEMExlXy1IZlBKNjBDOVA2U2pGd0pHTWhfblVZUmVfT0k0RWFGNU5SSm9felZfMHV3YnlUMnk4bjA4SmhGX1U5RmVxRUtJNzIyQms1NjFJbzBHMTc3eVd0T21oelIzWG5KZWNRVGplS3BVS0xma0pXamx3Q3RXaw?oc=5",
           "publishedAt": "2026-10-02T13:31:00Z"
         }
@@ -240,8 +217,8 @@
         },
         {
           "id": "c47e6587d4b719",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "仙台市内でチャイナフェス　話題のグルメや音楽で中国文化に触れる　仙台・青葉区 - topics.smt.docomo.ne.jp",
+          "name": "ｄメニューニュース",
+          "title": "仙台市内でチャイナフェス　話題のグルメや音楽で中国文化に触れる　仙台・青葉区 - ｄメニューニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fUG9hbnlxcHJvOW5wOG5ldklsZ2lYWlRGQnhWWG9pd2pkUXVESmNRRWpoVmIyMjY5NEN5TjNKTElWbWRVQ0M5Rks4YjN6NmtnXzE0dG01Z3VIY0lvYTNlQXFTbkZLYlZhV2xSTTNET1VPTURpb2h1WmJ5d0JsZTTSAYQBQVVfeXFMTzFpWkdDblJuUUZWcjRxblVNR1FTb0VTaE11eDJMeVhiUnlXYUE2b3B2akJRSldIRkIxRE5kVEkxWlZGY01aLUdvdnA1eFNkWndLeUU3a3hRWHVfeTQ3akJ3dzdkSEpVRzgwNUJHUDFRc0NlbnYwSGUzTWI5TjJuRFkwMzAw?oc=5",
           "publishedAt": "2026-09-26T07:00:00Z"
         },
@@ -278,6 +255,54 @@
       ]
     },
     {
+      "id": "0a34ae5e842d22",
+      "category": "economy",
+      "title": "「私の履歴書」で紡ぐ 企業の原点：NGK | 日本経済新聞 電子版特集（PR） - ps.nikkei.com",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-05T15:14:30Z",
+      "sources": [
+        {
+          "id": "65d2e7a26f5d6f",
+          "name": "ps.nikkei.com",
+          "title": "「私の履歴書」で紡ぐ 企業の原点：NGK | 日本経済新聞 電子版特集（PR） - ps.nikkei.com",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1rNDNudk5VWGUyRVVkX0VValZUSENYUUZGVV9MLXpLaldQWU1pa1N1QVBld2xwRHkyaGdZa0w2RTN1dVJSVGF5UUNZdTVLYWUxWWZsNW9kLTdFbndfcTdFQ1R3?oc=5",
+          "publishedAt": "2026-10-05T15:14:30Z"
+        }
+      ]
+    },
+    {
+      "id": "bb41b5ac996a8a",
+      "category": "economy",
+      "title": "原田喜美枝 教授が日本経済新聞社・日本経済研究センター主催「景気討論会」に登壇しました | - chuo-u.ac.jp",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-05T14:22:38Z",
+      "sources": [
+        {
+          "id": "be4cfa17c7a559",
+          "name": "chuo-u.ac.jp",
+          "title": "原田喜美枝 教授が日本経済新聞社・日本経済研究センター主催「景気討論会」に登壇しました | - chuo-u.ac.jp",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBSeWplZ1lHTkRYTlF0TmYtcC1uZmtMN1Z1Z01WWG9vUmJ2MnBOa1J1Y1VKSHdUenRlTmJUUmFwQld5MHc0QWIycTg3WGFkVWhFRVNBZV9BZnY0emwtdXhoRldwRGwycjBsRXFlSjctZjlEdU5nQklxRkE1WldKZw?oc=5",
+          "publishedAt": "2026-10-05T14:22:38Z"
+        }
+      ]
+    },
+    {
+      "id": "ad8364a5c013ed",
+      "category": "internet",
+      "title": "広島が過去最高位を更新！「都道府県魅力度ランキング2026」発表、SNS話題化で観光評価も一躍 - 広島ニュース 食べタインジャー",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-05T13:35:20Z",
+      "sources": [
+        {
+          "id": "c5bf4c41c8f4e7",
+          "name": "広島ニュース 食べタインジャー",
+          "title": "広島が過去最高位を更新！「都道府県魅力度ランキング2026」発表、SNS話題化で観光評価も一躍 - 広島ニュース 食べタインジャー",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBzTGE5eGFPQnR1MHNXLVJLMGNRX1NTQTh5US1HYWNaS2NCcW1UZUJPanpNUFQ4Tzl5NmE4S0RfTW1heS1Id1hJNEtzR0NBLXloR29qYlF4b2o0NUtud2dMLQ?oc=5",
+          "publishedAt": "2026-10-05T13:35:20Z"
+        }
+      ]
+    },
+    {
       "id": "c3faf316d95732",
       "category": "entertainment",
       "title": "【ヤフコメで話題】「虎に翼の映画化に賛否」「朝ドラ完結後の広げ方に注目」 - 作品の続編展開をめぐる反応 - Yahoo!ニュース",
@@ -301,87 +326,25 @@
       ]
     },
     {
-      "id": "73dbd2435936b8",
-      "category": "internet",
-      "title": "この秋必見‼SNSで話題の伊豆のハイキングスポット『細野高原 秋のすすき観賞会』 - anemo（アネモ）",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-05T07:24:33Z",
-      "sources": [
-        {
-          "id": "4683ec5c117fad",
-          "name": "anemo（アネモ）",
-          "title": "この秋必見‼SNSで話題の伊豆のハイキングスポット『細野高原 秋のすすき観賞会』 - anemo（アネモ）",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE84eTRTbHRMSDZEc3JEWk5lemNsZDFYLVVyNkxyVWgwQ0ZzN21pYTJ3VzEzQjlKWS05Nll0emJmWTJCRWZlZGZ6dHdZOEJzWWhERnBmc2F3UWxlSjRaaU5iMEFTb0cwV054amlwOVd5RjdybXNsYy05amN0aUszZw?oc=5",
-          "publishedAt": "2026-10-05T07:24:33Z"
-        }
-      ]
-    },
-    {
-      "id": "91f0662eaacf52",
+      "id": "b3dc94f635c613",
       "category": "economy",
-      "title": "日経平均は大幅反発、半導体関連株が指数押し上げ一時7万円に回復／相場概況(フィスコ) - Yahoo!ファイナンス",
+      "title": "日経平均株価 約3か月ぶり 一時7万円台回復 AI・半導体関連を中心に買い注文膨らむ - TBS NEWS DIG",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-05T06:56:11Z",
+      "latestPublishedAt": "2026-10-05T07:36:37Z",
       "sources": [
         {
-          "id": "425fcc07d5c776",
-          "name": "Yahoo!ファイナンス",
-          "title": "日経平均は大幅反発、半導体関連株が指数押し上げ一時7万円に回復／相場概況(フィスコ) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdld5a0RXcDhhQkpyUENIX0NrMUtIRnE4REg2X2kybk5mQ0EzT0k3Xy0yenhyaUlxeTRzTTNrbEN5Qk5GZHpQb0dLRUYyNnZnOWVRZkswTHFPbWVQV3VlNmUwUG1FWDRMQzlYQ1N5VEFHTDQtWi1KdXN4X09Mc1hWZ2xjY2dsVTg?oc=5",
-          "publishedAt": "2026-10-05T06:56:11Z"
+          "id": "f02718887dbe7c",
+          "name": "TBS NEWS DIG",
+          "title": "日経平均株価 約3か月ぶり 一時7万円台回復 AI・半導体関連を中心に買い注文膨らむ - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oLXFuRXp5V1FZSC0yajlDd3pQR2F0V2tPcmI3V3RhcGFCT3lvdVpXbmJCOGVzUlFrQkJEMzdzVVFMVWwyRnNEZ1lnU3hYS3N6bXEtWEg0eVhFNi1QeTF2UUUwRnU?oc=5",
+          "publishedAt": "2026-10-05T07:36:37Z"
         },
         {
-          "id": "32b5afa854d873",
-          "name": "Yahoo!ファイナンス",
-          "title": "日経平均は大幅反発、FOMC据え置き期待で70000円台を回復／ランチタイムコメント(フィスコ) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPU2dnZU9Wa0RIUE1hVmI0d3huRXdrVDhmc3E0cG5hQmZpMllrcXg4RjlVQmMtb2pteWpuVlYtN29kd1BqNWhMSldDRnpkMFNtZnFMM1hHSlljQ2hUZWVuYXUzTDg5WU5iSWlncEFXM0xvMXFQb0k5MENNMU5meEFzcy01dFJBZG8?oc=5",
-          "publishedAt": "2026-10-05T03:13:54Z"
-        }
-      ]
-    },
-    {
-      "id": "1910fc440d67f0",
-      "category": "politics",
-      "title": "公明・民主改革が協議定例化＝国会対応、選挙協力で連携 - topics.smt.docomo.ne.jp",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-05T06:54:00Z",
-      "sources": [
-        {
-          "id": "464a43badbc951",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "公明・民主改革が協議定例化＝国会対応、選挙協力で連携 - topics.smt.docomo.ne.jp",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94ZzNLMWxHMl9lMUdNTXdWVkhReXdzSE80Wi1IVldKcE5PQ09vMHpmV0xLR3FOYTd1NVdZd0dxWFlaeFN2NnczLWc3N2E2TVpFMHh1ZW0teTJHcnlmYkFoaWU0LTR3MWJmTHJwNXQ3TzVuRFd5R1ZwR3NzaGTSAYIBQVVfeXFMUG5wc1k4NmprSTZlWF9qbHNXc19XNDNPck5KM3RSWWhrMmdZWHpXd24tMFFyMl9NdzV2NnJqa1FNS25lSTYtbC1ZQlh1aEhURXJjNy12REFKZkNmUGV4ZmtHU1Jic2NGRVdZam5JNVFYazl2NHFyajR2enpLc0EwLU9Pdw?oc=5",
-          "publishedAt": "2026-10-05T06:54:00Z"
-        },
-        {
-          "id": "645cf83002a651",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "高市首相、経済成長に総力＝国会で所信表明演説 - topics.smt.docomo.ne.jp",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9fVTVtejF2ekNfNjd0VHdNbTBBNlFIa3lOaHZ3U3Naa2hVNmNLUlBKMmFWekdaWVRPUHd2b0l6eHRjUm80YlVPbGlWOFZxekxSM2FfdnA0OUVwU3JHc21FdDFIRHN3dUJSVXZtMFhtckVoWEtBZnRET2llcm3SAYIBQVVfeXFMTXB0bWdoc2k2UTJiVnpERy1kX0NRWDJiU0ZXQ00xemZJamo5NGpmWFB4V0pyYjdmaFFZRjVVbkQ1ejdqX2hUMDYtaXhRdkgwTXpkSDVjcW9ONWhTNGo0SEotdmdUbzRsb0NfWm1SdmtFRlA4QTFQel9VT1pCTG41UGlwUQ?oc=5",
-          "publishedAt": "2026-10-04T20:27:00Z"
-        }
-      ]
-    },
-    {
-      "id": "be8e670825e491",
-      "category": "economy",
-      "title": "日経平均大引け 反発 1637円高の6万9946円 - 日本経済新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-05T06:38:49Z",
-      "sources": [
-        {
-          "id": "f198fc4385757a",
-          "name": "日本経済新聞",
-          "title": "日経平均大引け 反発 1637円高の6万9946円 - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zM01BbHBNbTNKOVR5QWVEQkRKZHBkSTRvcm1OQVN5a0xZV2JCUmxibnlOSldRTFJtc3kyME9PTmk1ZU91M3FnVEF1RTVnZkJjTDR2bUdvVUhucEk2Q2NMb0wtOVUtVF9tcHB4SA?oc=5",
-          "publishedAt": "2026-10-05T06:38:49Z"
-        },
-        {
-          "id": "8e4385c666de21",
-          "name": "日本経済新聞",
-          "title": "日経平均前引け 反発 1728円高の7万0037円 取引時間中で3カ月ぶり7万円上回る - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DNHlXSjdJV2ZKaEhJUlhUeF8wNUhZTldESDJqMzN5cUU4cFZiWk9CZndNMkFZcjFKRWJNTkY5MV9wNVZCclNXbWY2b3lXczdWT0N4NGROdGtDeFEybUQ3Tm8tUjgzRDBCZHh6Mg?oc=5",
-          "publishedAt": "2026-10-05T02:40:23Z"
+          "id": "5e68bbdd5e63cd",
+          "name": "TBS NEWS DIG",
+          "title": "【速報】日経平均株価、7万円台回復 約3か月ぶり 米早期追加利上げ観測後退で AI・半導体関連中心に買い注文広がる - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92T0NkcTNqZ01HYnpOV3JfTHNXNGQ3a3FUSzJTNGF2eE9reV9waFlHcTRXcTVjbEZDanFZTHlpYS1GUEJadi1OcWZiWTRsd1hPRlpqUXZ2MTNPVU5BSEotVmtYQUxnd1Q4aTRkYUU0UWhZbzBG?oc=5",
+          "publishedAt": "2026-10-05T01:34:23Z"
         }
       ]
     },
@@ -402,41 +365,18 @@
       ]
     },
     {
-      "id": "0373b220473d76",
-      "category": "entertainment",
-      "title": "元子役の19歳モデル、芸能界引退を発表「何年も悩みに悩み」 惜別の声「悲しい」「寂しい」（ENCOUNT） - Yahoo!ニュース",
+      "id": "0be3b446d83268",
+      "category": "internet",
+      "title": "この秋必見‼SNSで話題の伊豆のハイキングスポット『細野高原 秋のすすき観賞会』 | 一般社団法人東伊豆町観光協会 - アットプレス",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-05T04:13:57Z",
+      "latestPublishedAt": "2026-10-05T06:00:00Z",
       "sources": [
         {
-          "id": "6abefbb0c45f96",
-          "name": "Yahoo!ニュース",
-          "title": "元子役の19歳モデル、芸能界引退を発表「何年も悩みに悩み」 惜別の声「悲しい」「寂しい」（ENCOUNT） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83VHdaWks1S0l2Mmx6bFItakRWWmFkSDFCTnVOblRrbVlSS0pqNW5yeXNGWVl4bUVra1VtOFl1OFd2VGNnMHJmT1dlZ3V2TGhuM2xaalpJYnV3N1lvbEFnNi1QejdZTHVzWDU2M1Fhd0h6cGhSZ3BNTVFnQkJJaEk?oc=5",
-          "publishedAt": "2026-10-05T04:13:57Z"
-        },
-        {
-          "id": "db6e83ee8d951c",
-          "name": "Yahoo!ニュース",
-          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍（スポニチアネックス） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jWld6M0FXWFRkd1FQMXZIaFByYVFtcDUwWFVMaGJRWDdJcWwwZEJUc29FN0tmeHFObnhWa1lkWWttT3BFTUk1OXpmcXYwMURES21yWThaSTgtRHc5TWlndktFcVIxa3hmZlh4NnNWYkVDNzFkU3dUZVFYQUZLdzg?oc=5",
-          "publishedAt": "2026-10-04T11:13:41Z"
-        }
-      ]
-    },
-    {
-      "id": "e42d32a7e99726",
-      "category": "economy",
-      "title": "これから、原油高と高市財政で日本に「本当のインフレ」がやってくる - 現代ビジネス",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-05T01:29:46Z",
-      "sources": [
-        {
-          "id": "7f8924db86e1c0",
-          "name": "現代ビジネス",
-          "title": "これから、原油高と高市財政で日本に「本当のインフレ」がやってくる - 現代ビジネス",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SMm82ajk4Q1I5dGFOakViVUJzcnFVdEt0N1VVRFVfYjFQUzR0TXBnMUJ3MnFfakZtT3BSMmFTSDByZWNoQS1sWDMyal94aUk?oc=5",
-          "publishedAt": "2026-10-05T01:29:46Z"
+          "id": "2f5cf86f8ba8cc",
+          "name": "アットプレス",
+          "title": "この秋必見‼SNSで話題の伊豆のハイキングスポット『細野高原 秋のすすき観賞会』 | 一般社団法人東伊豆町観光協会 - アットプレス",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE90UTlrYTV2eVdvaWNzZUtNcVdaeFFRaEVUMTZaeGgxZWdIbExDV2M5OTEzTmJNUTcxWTRSMllQbnhWaXBjQU1fMm9UaGk4UHM?oc=5",
+          "publishedAt": "2026-10-05T06:00:00Z"
         }
       ]
     },
@@ -457,34 +397,34 @@
       ]
     },
     {
-      "id": "02783917a9b038",
-      "category": "internet",
-      "title": "豊臣兄弟！出演・高橋努さん、ＳＮＳでかわいいと話題も「男の中の男を意識」大垣市でトーク - 岐阜新聞デジタル",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-04T23:22:00Z",
-      "sources": [
-        {
-          "id": "04fe84dfbd5843",
-          "name": "岐阜新聞デジタル",
-          "title": "豊臣兄弟！出演・高橋努さん、ＳＮＳでかわいいと話題も「男の中の男を意識」大垣市でトーク - 岐阜新聞デジタル",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ZUjVfbU85Y0ZCOU50cXFrXzBXeXY0ZmJEQnNuNS1jZW9EdXlDdlEyWURIX0ZJcWwxRmtQMFVobUt3OVJkVkNaRkV6N21lRmNjdy1adm53?oc=5",
-          "publishedAt": "2026-10-04T23:22:00Z"
-        }
-      ]
-    },
-    {
       "id": "fa22edf2046d2a",
       "category": "entertainment",
-      "title": "有吉弘行　来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - topics.smt.docomo.ne.jp",
+      "title": "有吉弘行　来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - ｄメニューニュース",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-04T11:45:00Z",
       "sources": [
         {
           "id": "6ca4b37fca04a5",
-          "name": "topics.smt.docomo.ne.jp",
-          "title": "有吉弘行　来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - topics.smt.docomo.ne.jp",
+          "name": "ｄメニューニュース",
+          "title": "有吉弘行　来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - ｄメニューニュース",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU2pLejFfczZ3bi1Nc1FlemVCNUpqYXZyZjVQZEpVY0ZDYTc1ZU9JbnY3ZEYtT1lKVVhSQ09kakp4OTBHQVRKaHlJX1VySkp4MkV2d2g1RkxqMExYWWJfYURuc19wc002MWt3Z0M5a3VnTElkdDRmN09rbVZuNkZ1dGVQSnQ2c3F5aDlZQVkwY0lNbXJrM0tj0gGcAUFVX3lxTE02WFd5bFdnNVo4dVRfNnIxVWxGLUlxZjZ0VHJLWERXdHMwaXF1ZjdNbTNMQXV2QXREZXQyQVVLV0dZTjJUR05xYWdnakZjQkVFQk9keVpFZ3RRNmN2ZGVOVFc4Xzl0TlVDRVpiYXJyUVkzWlhpTi1VZ1cwQkdNM0w1bWVWdVR0UTdad3haOVZQWmNDcnFDNWludUt0Qw?oc=5",
           "publishedAt": "2026-10-04T11:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "49e41fb27e6b15",
+      "category": "entertainment",
+      "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍（スポニチアネックス） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-04T11:13:41Z",
+      "sources": [
+        {
+          "id": "c1df6c2868ca17",
+          "name": "Yahoo!ニュース",
+          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍（スポニチアネックス） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jWld6M0FXWFRkd1FQMXZIaFByYVFtcDUwWFVMaGJRWDdJcWwwZEJUc29FN0tmeHFObnhWa1lkWWttT3BFTUk1OXpmcXYwMURES21yWThaSTgtRHc5TWlndktFcVIxa3hmZlh4NnNWYkVDNzFkU3dUZVFYQUZLdzg?oc=5",
+          "publishedAt": "2026-10-04T11:13:41Z"
         }
       ]
     },
@@ -505,18 +445,50 @@
       ]
     },
     {
-      "id": "03c9d26d7ff82b",
+      "id": "a15fa06f17c66f",
       "category": "entertainment",
-      "title": "東山紀之氏、社長退任も芸能界復帰は困難か…急浮上「政界進出」自民党界隈も熱視線 - zakⅡ",
+      "title": "【記事全文】激似親子！月亭方正の次女・来蘭 芸能事務所所属を発表 報告投稿に父も「いいね」 - スポニチ Sponichi Annex",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-03T23:00:00Z",
+      "latestPublishedAt": "2026-10-04T03:52:00Z",
       "sources": [
         {
-          "id": "7a053348322e11",
-          "name": "zakⅡ",
-          "title": "東山紀之氏、社長退任も芸能界復帰は困難か…急浮上「政界進出」自民党界隈も熱視線 - zakⅡ",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JZzhEdzdqamFhbkZsdk9yYVBJZl9MNTVDREVFb1JWWHdqa0tibEd2M08zOU14bHl2YXBCVnFUdWk3MkdaVFYybGxacWZGRVRodnJUbUJMRi1EVE5Jd1NIdjY4TjJIS1E4RDBFeDJqbGlrSWg3cnVIOdIBjAFBVV95cUxQclNwYVoxTjdMODlQdzJSa0V0djNzR1BaM3BZX014UGdDck1NNFdYbHVPQ1R3YU9FYlpXek5fZ0ZmOTBjclJ2elFEMVBSR2lnSTdibEJxN2FtVHNIN2ExTl9iTldsSEp2QUJiRkc4OVRQTmdKU0poTGFxYmg2U00xTjk4c1dRUml4aUVtSw?oc=5",
-          "publishedAt": "2026-10-03T23:00:00Z"
+          "id": "c40ebe8947d314",
+          "name": "スポニチ Sponichi Annex",
+          "title": "【記事全文】激似親子！月亭方正の次女・来蘭 芸能事務所所属を発表 報告投稿に父も「いいね」 - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPajAxVUt2UHVxcGdMSVhja0hWOHluVGVIR3BfX0tuX1JZbUlUNXhzUktnNlc1b2oteDZBLTNRNW1peXdrN0JQcDBjUG4tZGxUYkMxVE1hOXFhVWdzMk5wbzhIVVpXV01kaWlIaUdpMnMxSV9Uc3dvaG9sNWRDVWtTcnhfS1NzeU02RXZjOTRSU19PZlh5TnA0YXlpVQ?oc=5",
+          "publishedAt": "2026-10-04T03:52:00Z"
+        }
+      ]
+    },
+    {
+      "id": "39ad71376678c2",
+      "category": "politics",
+      "title": "日本の国際政治学者が語りたくない国際政治の現実：その２サンフランシスコ講和条約の位置づけ - SmartNews",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-03T11:41:00Z",
+      "sources": [
+        {
+          "id": "4ef20fd5f91b04",
+          "name": "SmartNews",
+          "title": "日本の国際政治学者が語りたくない国際政治の現実：その２サンフランシスコ講和条約の位置づけ - SmartNews",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yWG1tclBMZGlmZmliRXZTSERJUTVvU0pIVG5IM1hlNnpRWGlVY0JlYUhDNS1EcXRrd0xDUmYxSUQta3RZekVkSFlfaFJrR1pZVVNoV3E0Tk1YOGFtUWJRYUlGUk9kN0JQaWc?oc=5",
+          "publishedAt": "2026-10-03T11:41:00Z"
+        }
+      ]
+    },
+    {
+      "id": "051fb51a06f3ad",
+      "category": "entertainment",
+      "title": "伊東四朗、69年の芸能生活で「私ってヤツは不思議」元気の秘訣は「ないのがいい」 - サンスポ",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-03T11:15:12Z",
+      "sources": [
+        {
+          "id": "1ceca60058cae8",
+          "name": "サンスポ",
+          "title": "伊東四朗、69年の芸能生活で「私ってヤツは不思議」元気の秘訣は「ないのがいい」 - サンスポ",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1RVNlQzhzUEwyUXlIbzBKUWc5OGRvM1FTZHJOWGtQSWp2SnVtVlAwOXJNUzA2TjNZMFBRY1BvS1hPdmIzS293TlJrNm9FVmRTc21hOVJUa1Vtemo0X1pFM1FEcm9hMkJJVng3YkNFd1lYWWowUWfSAYoBQVVfeXFMTnpqSmNKTUItRGtMdEU0c05MN3dteENCaVZVaDczcGg4MHB0dnUyUlVmSXd6cGNjdGFKLWRzVjNLRWRYZnNsWDJnbnV2ZXV4WXFLQzN6YmFoWWNqbnhLcVVjbU9iYzR3U3lQUmlyTlN1ZGh2d3cycjZVdzRDSWpTY3JTZ0FCVzZyWmhR?oc=5",
+          "publishedAt": "2026-10-03T11:15:12Z"
         }
       ]
     }
