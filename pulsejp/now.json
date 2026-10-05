@@ -1,74 +1,28 @@
 {
-  "generatedAt": "2026-10-04T23:09:50Z",
+  "generatedAt": "2026-10-05T02:01:00Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "1f8d181139e3ad",
-      "category": "entertainment",
-      "title": "華々しい芸能界… トップ俳優の裏の顔とは？ 5日放送『妻を引退します』第1話【あらすじ】 - 佐賀新聞",
+      "id": "c050e51e437af7",
+      "category": "economy",
+      "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である（ダイヤモンド・オンライン） - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-04T21:05:00Z",
+      "latestPublishedAt": "2026-10-04T21:45:30Z",
       "sources": [
         {
-          "id": "b477bd0ac00916",
-          "name": "佐賀新聞",
-          "title": "華々しい芸能界… トップ俳優の裏の顔とは？ 5日放送『妻を引退します』第1話【あらすじ】 - 佐賀新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5wSmFrZlVBOWg0NDhmTVNubDBuSnNpRGFIMU1NTVIxdUZ5YVAxVVh6aW1PM2p6dkcyaGVjUmpWMHc4elpXelN6cmJrOTBlZ05JN0FXNjB3?oc=5",
-          "publishedAt": "2026-10-04T21:05:00Z"
-        },
-        {
-          "id": "bc19ec06f9da13",
-          "name": "オリコンニュース",
-          "title": "華々しい芸能界… トップ俳優の裏の顔とは？ 5日放送『妻を引退します』第1話【あらすじ】 - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1kaGNneW1URkk3TS1kOTZfczB0cjJCY09GSHBxTnN1aUpsemowRjhKM0RwOWt1LS02cEptS3gtVEM5RnZIMmNfTGRFUnI5eTg?oc=5",
-          "publishedAt": "2026-10-04T21:05:00Z"
-        }
-      ]
-    },
-    {
-      "id": "34b22831180633",
-      "category": "politics",
-      "title": "米ＡＩ司令塔の創設発表 トランプ氏、政策を調整 - 秋田魁新報電子版",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-04T14:48:26Z",
-      "sources": [
-        {
-          "id": "e2ff6b6e09e492",
-          "name": "秋田魁新報電子版",
-          "title": "米ＡＩ司令塔の創設発表 トランプ氏、政策を調整 - 秋田魁新報電子版",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fSlU1OHJyUjBLV0tiRnNDZWM2X2pqNjctTVM4MjRPa0NhZXl2RlVxcFJLdUUxQXZQbndFd3Z5MmUzdERONVd0QzlaV0FiUFphY2ZHRG1Qb2lSZF9hc0s3bWhB?oc=5",
-          "publishedAt": "2026-10-04T14:48:26Z"
-        },
-        {
-          "id": "07b6a34e08786c",
-          "name": "福井新聞社",
-          "title": "米ＡＩ司令塔の創設発表 - 福井新聞社",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE55MmRlckdMRk9pT0xNVzloaEZLMEY4UUNOWlJyM3hSVVB1Y1RWU201Yl9XR1YwSFRqdnJJZEs3cjFNMTBsdGZHazhrTzhYcGpHLTdUeXloNzFFV0pDcEE?oc=5",
-          "publishedAt": "2026-10-04T14:48:26Z"
-        }
-      ]
-    },
-    {
-      "id": "49e41fb27e6b15",
-      "category": "entertainment",
-      "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍（スポニチアネックス） - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-04T11:13:41Z",
-      "sources": [
-        {
-          "id": "c1df6c2868ca17",
+          "id": "c1b1c55d8c59df",
           "name": "Yahoo!ニュース",
-          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍（スポニチアネックス） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jWld6M0FXWFRkd1FQMXZIaFByYVFtcDUwWFVMaGJRWDdJcWwwZEJUc29FN0tmeHFObnhWa1lkWWttT3BFTUk1OXpmcXYwMURES21yWThaSTgtRHc5TWlndktFcVIxa3hmZlh4NnNWYkVDNzFkU3dUZVFYQUZLdzg?oc=5",
-          "publishedAt": "2026-10-04T11:13:41Z"
+          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である（ダイヤモンド・オンライン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05MkFQV1ZONXJBZ2lCQTdjWGJleDdlXzlzR1dQWFpwWDI0S3lIVWFSUGQ4STBDbnhCX01xOXp0cnN6aU5XY1VIMW9LREh2NFdQUDNSajQyTVhLWWZ1dnZDaTBDUXh0NG1oeDNhSVVacDNpbzducTFfUGhrNncwZEE?oc=5",
+          "publishedAt": "2026-10-04T21:45:30Z"
         },
         {
-          "id": "d3d120bbf5c5bd",
-          "name": "スポニチ Sponichi Annex",
-          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍 - スポニチ Sponichi Annex",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTWxIdHRYVm1TTVlwREZzcFk5RnJzNTVibDlYTW5LWm9NcF82a3lvR2Z2RmtMNHE3bTNpMjRzcUw4aGtyUm5YTlN6ZlEweXlndk4wWF9DNllXVG1XWm9BR19ZTjZFOG1qUUJfTFJXVjZYOGhxSV9ZcWdjeTBxYW1UYVVHdUszX3pKU2RCZzlPcTdoTFhhemc?oc=5",
-          "publishedAt": "2026-10-04T11:12:00Z"
+          "id": "bb974063975ccd",
+          "name": "ダイヤモンド・オンライン",
+          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hWUpwV2czQmE5Mnl3aGVPT0ZaVndoeFg4SDhQaDBxZ25LZTA0aE80OFNSMXRWU0s3QThXZWFTOHotcEx0OUYyRlFVTGJ0QkxhVmoxWm5B0gFPQVVfeXFMTmhyNExPM3daVzJKOFNzYi1hVlhPbjZkR1pGVk5aTkFwUEdKTnZoSzZhYU5yZVB2ZXVmeHJkWjhEUnoydkdVSHM0ZnIySFZMdw?oc=5",
+          "publishedAt": "2026-10-02T21:45:00Z"
         }
       ]
     },
@@ -88,33 +42,10 @@
         },
         {
           "id": "7f5cb627f6e164",
-          "name": "PR TIMES",
-          "title": "「jouetie(ジュエティ)」SNSで話題のモデル「Miina」さんが新宿ルミネエスト店に登場！11月1日(日)来店イベント開催決定 - PR TIMES",
+          "name": "prtimes.jp",
+          "title": "「jouetie(ジュエティ)」SNSで話題のモデル「Miina」さんが新宿ルミネエスト店に登場！11月1日(日)来店イベント開催決定 - prtimes.jp",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUbmFpcmpqR2xRQW9uNUVtdTlSM18zU2p2NEFibHBrazcwUUFKY2NfNVhlMVZEdUdTUC0wcWc1MTVfeDcyS0tBS0dmQXU1aG9OYVppUXRyU2czUW4zeDNvcmhWOXd5RkRWM2c?oc=5",
           "publishedAt": "2026-10-02T03:07:30Z"
-        }
-      ]
-    },
-    {
-      "id": "604dafe4c1bd4e",
-      "category": "politics",
-      "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-03T09:00:34Z",
-      "sources": [
-        {
-          "id": "24f33554b3d654",
-          "name": "Yahoo!ニュース",
-          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQXlHUFM0bjhhZG5kdGhEd2pXdTExOWpDa1JFZGJ5MVF2U05TbTlERDBELUZSYzUzdHlGRGxZOEh5N3phVmpGWDFJSUNydWpySWxoOWNvV1ZDNTN5UG9HYUk3NXdJTWJnMk4xRmZSVXVwTC1nN19ITURzS3E3WHJXbkpoMHQzMV9B?oc=5",
-          "publishedAt": "2026-10-03T09:00:34Z"
-        },
-        {
-          "id": "91362b22a8eaf6",
-          "name": "TBS NEWS DIG",
-          "title": "片山財務大臣を単独直撃 円安・金融政策「政府内で統一が図られている」 消費減税めぐり便乗値上げは「週明けにも対策」【news23】 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1aUNpZmJsMFhMQnpHcThaaDJNamJqWE5oMkVId2VLSnljSThodlFiQTdQUkU3bmVOT09sY0JuQjVzYTU2eUlPTlJ5TXZJcXJhN3owVUJFTzlSUG1qQy1KNHVnTjdBaEd2N0hiU0pnc1IwM180?oc=5",
-          "publishedAt": "2026-10-03T09:00:00Z"
         }
       ]
     },
@@ -174,14 +105,14 @@
     {
       "id": "c3845875e1817c",
       "category": "internet",
-      "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - nikkansports.com",
+      "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - 日刊スポーツ",
       "sourceCount": 2,
       "latestPublishedAt": "2026-10-02T13:31:04Z",
       "sources": [
         {
           "id": "231590add7a936",
-          "name": "nikkansports.com",
-          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - nikkansports.com",
+          "name": "日刊スポーツ",
+          "title": "「交際報道一切なし」がＸトレンド入り　久保建英＆福原遥の結婚に「衝撃」「まさか」と列島仰天 - 日刊スポーツ",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5wR2s0WWxzSkl4WTJ3c0Z2VFhUeDBhd0pXYUdWRGs5UFhaY2ZELU5DVjREbGhVcDRSNjc5bGVWckpRT3ZWMnd2U1BUOWFMZFBOUjlwVlhsZTBaM0JPbExXNDdJWVgwc1lhcnVJMy0wMzRENzFNNmfSAX5BVV95cUxOVmtvZE55UjBIZzNrQk5TUjdlbDBjcm9IU0hZclVVS1UtVkIwMXpnMGVFb3MweVkyTWVqWHNXSHgxMTZPTDRpaFlaYThnU2gyM0UyZlh2YXVlcWlUOWpVdWJDYWZjWHNraGtuVUlDeThvQk1LZklHd3VDbl9sTkE?oc=5",
           "publishedAt": "2026-10-02T13:31:04Z"
         },
@@ -271,6 +202,61 @@
       ]
     },
     {
+      "id": "0373b220473d76",
+      "category": "entertainment",
+      "title": "元子役の19歳モデル、芸能界引退を発表「何年も悩みに悩み」 惜別の声「悲しい」「寂しい」（ENCOUNT） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-05T01:04:58Z",
+      "sources": [
+        {
+          "id": "6abefbb0c45f96",
+          "name": "Yahoo!ニュース",
+          "title": "元子役の19歳モデル、芸能界引退を発表「何年も悩みに悩み」 惜別の声「悲しい」「寂しい」（ENCOUNT） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83VHdaWks1S0l2Mmx6bFItakRWWmFkSDFCTnVOblRrbVlSS0pqNW5yeXNGWVl4bUVra1VtOFl1OFd2VGNnMHJmT1dlZ3V2TGhuM2xaalpJYnV3N1lvbEFnNi1QejdZTHVzWDU2M1Fhd0h6cGhSZ3BNTVFnQkJJaEk?oc=5",
+          "publishedAt": "2026-10-05T01:04:58Z"
+        },
+        {
+          "id": "db6e83ee8d951c",
+          "name": "Yahoo!ニュース",
+          "title": "森﨑美月 芸能界引退を発表「何年も悩み…」 元子役で有名CMに多数出演 近年はモデルとして活躍（スポニチアネックス） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jWld6M0FXWFRkd1FQMXZIaFByYVFtcDUwWFVMaGJRWDdJcWwwZEJUc29FN0tmeHFObnhWa1lkWWttT3BFTUk1OXpmcXYwMURES21yWThaSTgtRHc5TWlndktFcVIxa3hmZlh4NnNWYkVDNzFkU3dUZVFYQUZLdzg?oc=5",
+          "publishedAt": "2026-10-04T11:13:41Z"
+        }
+      ]
+    },
+    {
+      "id": "05a2c692cf850b",
+      "category": "entertainment",
+      "title": "劇団ひまわりinformation公式X（@himawari_press）から - スポニチ Sponichi Annex",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-05T00:59:45Z",
+      "sources": [
+        {
+          "id": "758fbc9bc0b97b",
+          "name": "スポニチ Sponichi Annex",
+          "title": "劇団ひまわりinformation公式X（@himawari_press）から - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeDdFeFJGU1J0bElsNGNLWmZEZUE2S2NpLTlCbUY0NmFZVzlxNlZaNEVVbHdqSlpxV2VDM2VRblU2Z2k0X29FU1A3UnVFWVNqNHMxQm1ocXlVZlNEVldkbWktd012d0dsX3hQTVlxQkNaSUxfZFlWeGdWSVhLV1lzdGJoMlFrRGpIYVJRR0xnWmZzUm5JMkE?oc=5",
+          "publishedAt": "2026-10-05T00:59:45Z"
+        }
+      ]
+    },
+    {
+      "id": "e42d32a7e99726",
+      "category": "economy",
+      "title": "これから、原油高と高市財政で日本に「本当のインフレ」がやってくる - 現代ビジネス",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-05T00:33:48Z",
+      "sources": [
+        {
+          "id": "7f8924db86e1c0",
+          "name": "現代ビジネス",
+          "title": "これから、原油高と高市財政で日本に「本当のインフレ」がやってくる - 現代ビジネス",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SMm82ajk4Q1I5dGFOakViVUJzcnFVdEt0N1VVRFVfYjFQUzR0TXBnMUJ3MnFfakZtT3BSMmFTSDByZWNoQS1sWDMyal94aUk?oc=5",
+          "publishedAt": "2026-10-05T00:33:48Z"
+        }
+      ]
+    },
+    {
       "id": "6e4062658e34a3",
       "category": "internet",
       "title": "「ベース車を見破るのは無理!?」SNSで話題沸騰の現代版ハコスカのすべて - Motor Fan",
@@ -283,6 +269,45 @@
           "title": "「ベース車を見破るのは無理!?」SNSで話題沸騰の現代版ハコスカのすべて - Motor Fan",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE8xYkIxbXlYNG9RaDVqVmhoLVdXU25na2ZDQ3lrSWRDUC1kaUtCdVcwUHpHbVlMR2lDaXdaQzZiXzB4eG5nQnNaeVVmX0g4QQ?oc=5",
           "publishedAt": "2026-10-04T22:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6754b9d812c627",
+      "category": "politics",
+      "title": "利上げしても円安、介入しても円高は一時的…通貨防衛戦の足枷になり始めた政府・日銀の政策不一致 【唐鎌大輔の為替から見る日本】日銀「主な意見」が映した政府との温度差、中立金利接近で2027年の政策論点が鮮明に(4/4) - JBpress",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-04T21:00:00Z",
+      "sources": [
+        {
+          "id": "f3022b9a989836",
+          "name": "JBpress",
+          "title": "利上げしても円安、介入しても円高は一時的…通貨防衛戦の足枷になり始めた政府・日銀の政策不一致 【唐鎌大輔の為替から見る日本】日銀「主な意見」が映した政府との温度差、中立金利接近で2027年の政策論点が鮮明に(4/4) - JBpress",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8zaVdFUW1SS2hHZUZ3d1JUbEJmQUF3V2V0OWZ6TWJaU0VuRVNja1hEaV9oTWp4UFQ3aHdXZ3I1YVNHc0tSbEp6THV5TC1jTVl6TEdpSjlsOW9vR0pIdUNF?oc=5",
+          "publishedAt": "2026-10-04T21:00:00Z"
+        },
+        {
+          "id": "bf30b9243b3176",
+          "name": "JBpress",
+          "title": "利上げしても円安、介入しても円高は一時的…通貨防衛戦の足枷になり始めた政府・日銀の政策不一致 【唐鎌大輔の為替から見る日本】日銀「主な意見」が映した政府との温度差、中立金利接近で2027年の政策論点が鮮明に - JBpress",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZVFYMEZySk9GN25DYV9qdDNjdUJBWFkwVUpPa3hRSkZSQ0VTNGstU0tKM3MwODJ4b3ZicC1UQkxkNnVxQS16ZjZqSWJXcGRlZFZRLWpB?oc=5",
+          "publishedAt": "2026-10-04T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "97a7865f058537",
+      "category": "economy",
+      "title": "日韓台・経済大接近：加速する韓国企業の日本展開 2021年以降に食品・コスメなど急増 百本和弘 - 週刊エコノミスト Online",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-04T20:02:45Z",
+      "sources": [
+        {
+          "id": "7f43aba4d3a37c",
+          "name": "週刊エコノミスト Online",
+          "title": "日韓台・経済大接近：加速する韓国企業の日本展開 2021年以降に食品・コスメなど急増 百本和弘 - 週刊エコノミスト Online",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hYWpWeWpEazQ5MnduZmp4QUtCM1Z6Vlo0aU9aSHc1UUlXWW4xTXRBbXVFWDhzcHdiU3VkZVN0c3ZaVG1pSkNTVnVSektLM0lKRzljZUVxYWZGaTFHcEd6U3pzOHNBdGxIbEVJaEFoMTlWSHJkSEkya3YwVHpXN00?oc=5",
+          "publishedAt": "2026-10-04T20:02:45Z"
         }
       ]
     },
@@ -310,34 +335,34 @@
       ]
     },
     {
-      "id": "eb0b7394fcfe62",
-      "category": "economy",
-      "title": "消費税国会5日に開会 野党対案は現金給付、10兆円ありきの論争へ - 日本経済新聞",
+      "id": "35a665484a22af",
+      "category": "entertainment",
+      "title": "修練の成果 堂々披露 タイムス選抜芸能祭 - 沖縄タイムス社",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-04T20:00:00Z",
+      "latestPublishedAt": "2026-10-04T18:59:00Z",
       "sources": [
         {
-          "id": "56508eb38ab5f8",
-          "name": "日本経済新聞",
-          "title": "消費税国会5日に開会 野党対案は現金給付、10兆円ありきの論争へ - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04LXA2Q3lEdXZ0ekJKSVFuUGdRSzI4RGRNNXBNSmFKRjVPNVZFZGwwbUlzLUg4QmM5bEJwcVlOSFhDSmFUaHdJeHJuSjNTUkpreUxrVVZzOTF1Q20zTmIwWHU4MkVGTm1uV2U5Sw?oc=5",
-          "publishedAt": "2026-10-04T20:00:00Z"
+          "id": "1bcf9504161acf",
+          "name": "沖縄タイムス社",
+          "title": "修練の成果 堂々披露 タイムス選抜芸能祭 - 沖縄タイムス社",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9XUE9EMW5Tb25vQl9qak5UdlpKQ1JsQndKb1U0aXlpVWkwOFhQNWRTb0JaNWk4TUlLRTFKNXEtX0s4Yi1Ga2t0ZmxNcHhlZWFOZEswUEREbVNVbHR2Y2c?oc=5",
+          "publishedAt": "2026-10-04T18:59:00Z"
         }
       ]
     },
     {
-      "id": "e8ff132dff5bb0",
-      "category": "economy",
-      "title": "【ＳＪ60記念】日本からの投資、10年代半ばに急増 - nna.jp",
+      "id": "fa22edf2046d2a",
+      "category": "entertainment",
+      "title": "有吉弘行　来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - ｄメニューニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-04T15:00:00Z",
+      "latestPublishedAt": "2026-10-04T11:45:00Z",
       "sources": [
         {
-          "id": "3d7daac1de4e65",
-          "name": "nna.jp",
-          "title": "【ＳＪ60記念】日本からの投資、10年代半ばに急増 - nna.jp",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5uSF9NeGhVandLSXQxd1pQcjlNYzVGQ3E5TlVQTXVFSmd0dTE3NnZ4Q1JkUjQydDFWSEZOR0xwOUZZdjlrV0E?oc=5",
-          "publishedAt": "2026-10-04T15:00:00Z"
+          "id": "6ca4b37fca04a5",
+          "name": "ｄメニューニュース",
+          "title": "有吉弘行　来年で芸能活動引退の伊東四朗に賛辞「引退発表しなければ、仕事がまだ収まらない…凄い」 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNU2pLejFfczZ3bi1Nc1FlemVCNUpqYXZyZjVQZEpVY0ZDYTc1ZU9JbnY3ZEYtT1lKVVhSQ09kakp4OTBHQVRKaHlJX1VySkp4MkV2d2g1RkxqMExYWWJfYURuc19wc002MWt3Z0M5a3VnTElkdDRmN09rbVZuNkZ1dGVQSnQ2c3F5aDlZQVkwY0lNbXJrM0tj0gGcAUFVX3lxTE02WFd5bFdnNVo4dVRfNnIxVWxGLUlxZjZ0VHJLWERXdHMwaXF1ZjdNbTNMQXV2QXREZXQyQVVLV0dZTjJUR05xYWdnakZjQkVFQk9keVpFZ3RRNmN2ZGVOVFc4Xzl0TlVDRVpiYXJyUVkzWlhpTi1VZ1cwQkdNM0w1bWVWdVR0UTdad3haOVZQWmNDcnFDNWludUt0Qw?oc=5",
+          "publishedAt": "2026-10-04T11:45:00Z"
         }
       ]
     },
@@ -358,87 +383,78 @@
       ]
     },
     {
+      "id": "8b95b686689d77",
+      "category": "economy",
+      "title": "日経平均は7万円うかがう、円は下値限定 今週の市場・予定 - 日本経済新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-04T09:00:00Z",
+      "sources": [
+        {
+          "id": "2e62a64f34f322",
+          "name": "日本経済新聞",
+          "title": "日経平均は7万円うかがう、円は下値限定 今週の市場・予定 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fN2dTNVd2Mmp4Ynk0R21fcWkzUlRaWm16T1kzNVR3bmkySlZuZE43QzY2MVNPaUFSblUxSDNhTFBNVW44eHpmSUpWUHExMGdBWlY3dlpkbEdxdm5kdXJWYW14VzRyUi1GRlVTVw?oc=5",
+          "publishedAt": "2026-10-04T09:00:00Z"
+        },
+        {
+          "id": "5e0eb5e88e3721",
+          "name": "日本経済新聞",
+          "title": "日経平均は7万円うかがう、円は下値限定 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pRXdxYlJMRmowT183bDVCZ3ZRakliOTVqd1UxNnJDd29LdFJCSWlyTEd2ci1EeUZxMnlVR0pYZVlteG40Nkk1UUVpbWhid0d2TzRTeHpzTmRRN2NIQXlLckxkRkgwWENjMDhtVQ?oc=5",
+          "publishedAt": "2026-10-02T19:00:00Z"
+        }
+      ]
+    },
+    {
       "id": "1ef6f63b700570",
       "category": "politics",
-      "title": "読む政治：日本政治の「鬼門」消費税 首相の「悲願」に立ちはだかる現実 - mainichi.jp",
+      "title": "読む政治：日本政治の「鬼門」消費税 首相の「悲願」に立ちはだかる現実 - 毎日新聞",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-04T05:00:00Z",
       "sources": [
         {
           "id": "12875eb3fd050f",
-          "name": "mainichi.jp",
-          "title": "読む政治：日本政治の「鬼門」消費税 首相の「悲願」に立ちはだかる現実 - mainichi.jp",
+          "name": "毎日新聞",
+          "title": "読む政治：日本政治の「鬼門」消費税 首相の「悲願」に立ちはだかる現実 - 毎日新聞",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wRXF2ZF9TT3B2RzBRLTFiRjE0RWJpWklsWjJYWWJuUDlkMVpHR0JhZ3N0R3hqaE5iNUE3dHJPQ21zdS1hOWp3azhMTnI1RFNVZmFlcWRvc3I0a2VMSHo5MjZWcTBwa0lX?oc=5",
           "publishedAt": "2026-10-04T05:00:00Z"
         }
       ]
     },
     {
-      "id": "ee18b4c7e90837",
-      "category": "economy",
-      "title": "日本は2023年、OECDは2025年、労働経済白書のAI利用率比較に疑問（萩原雅之） - エキスパート - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-04T04:21:55Z",
-      "sources": [
-        {
-          "id": "c3ad4f8bb8c5b4",
-          "name": "Yahoo!ニュース",
-          "title": "日本は2023年、OECDは2025年、労働経済白書のAI利用率比較に疑問（萩原雅之） - エキスパート - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNLU9OMFFIWjJ1Y1RBSTVqSDlmdnFvMnhtdU9uMTJ0aTlOOW9yWWJrX2FFNnFMRnJ4SXhubDlMVE5QcGVBVE9wb2lVX09mSlFJYkJrOEgyWGRrRnpOTHJtSG4tOEdXdnplSktGU2d4OFNlTUFHbWpvZjA0LXBoWVlkQjRxWExMOGoy?oc=5",
-          "publishedAt": "2026-10-04T04:21:55Z"
-        }
-      ]
-    },
-    {
       "id": "7c264cb547e57a",
       "category": "internet",
-      "title": "【韓流】BTSジミンのTikTok初投稿映像が話題 SNS上でカバー映像続々 - nikkansports.com",
+      "title": "【韓流】BTSジミンのTikTok初投稿映像が話題 SNS上でカバー映像続々 - 日刊スポーツ",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-04T04:19:48Z",
       "sources": [
         {
           "id": "bae2d9fed8cc90",
-          "name": "nikkansports.com",
-          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題 SNS上でカバー映像続々 - nikkansports.com",
+          "name": "日刊スポーツ",
+          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題 SNS上でカバー映像続々 - 日刊スポーツ",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT24xS0ZRQlBvZl9VbDZKd09OM0k5SDYwNVF5VUFYSHpfNmw3M1J5eUoxT09VUFEzWmVySk9KRmhzNl9RR0puU0ZNZ0hwbGNyYmg4dk0yY1V2cjJ3SGxDaXMyVk5Pb0E0MkZBUVkxVlZPbkozM3dBMnRoMnYyZEw4TXEyMmdNTGFEWlV5QW5Gd3VHczJhNmc?oc=5",
           "publishedAt": "2026-10-04T04:19:48Z"
         },
         {
           "id": "533d3242e395da",
-          "name": "nikkansports.com",
-          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - nikkansports.com",
+          "name": "日刊スポーツ",
+          "title": "【韓流】BTSジミンのTikTok初投稿映像が話題　SNS上でカバー映像続々 - 日刊スポーツ",
           "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9vZjUtZmY1T3ctZm5MbE1KZm14OVB4RVliMWZSRzZzUnJyQ3VCSVNvb2NHa3JrZW1EcTNQamVkLTZVb25YZnhxQzZseTExNEpJUjQyNHdBdGRjVlo3bjlGTWE2NlA5SnFPNVR3SFNad3EzT2E4OVRzZUoxdDPSAX9BVV95cUxPZlNaWHFkODQzZGEtcTZuTUl4VE5wdEpHYUtnV3FvY2VRVl9zTDZfc1BFZF9reTE1N3BHNUhaTXVTVG11Z3dCN2lrSnFXTXpsTlNDTzg3cVdqTnFDQnljcE5uWHdKMEQ1MzhLNkphQnJKZXpHMEtTR1ZHbGNtOENJ?oc=5",
           "publishedAt": "2026-10-03T21:00:00Z"
         }
       ]
     },
     {
-      "id": "5e52a158080ca2",
-      "category": "internet",
-      "title": "SNSで話題の奇跡の1枚 オオサンショウウオが“ビーム”!【どうぶつZOO鑑】2026年9月25日放送 - locipo.jp",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-03T23:39:51Z",
-      "sources": [
-        {
-          "id": "2f0606918418b2",
-          "name": "locipo.jp",
-          "title": "SNSで話題の奇跡の1枚 オオサンショウウオが“ビーム”!【どうぶつZOO鑑】2026年9月25日放送 - locipo.jp",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBMRVZCWWhRNjFkSHc2d3FURHRVTzdoMFJRRUoxdzQ4WGkzUFdtSzJKSFlheTktQVRjbFBKLVg3SXFiM2hMYnhBcXg2RUdua29GdGN5U0hiRHQyc3dTS2RkVjRxSzFkbG1EekhiVWtEVjA?oc=5",
-          "publishedAt": "2026-10-03T23:39:51Z"
-        }
-      ]
-    },
-    {
       "id": "03c9d26d7ff82b",
       "category": "entertainment",
-      "title": "東山紀之氏、社長退任も芸能界復帰は困難か…急浮上「政界進出」自民党界隈も熱視線 - zakⅡ",
+      "title": "東山紀之氏、社長退任も芸能界復帰は困難か…急浮上「政界進出」自民党界隈も熱視線 - zakzak.co.jp",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-03T23:00:00Z",
       "sources": [
         {
           "id": "7a053348322e11",
-          "name": "zakⅡ",
-          "title": "東山紀之氏、社長退任も芸能界復帰は困難か…急浮上「政界進出」自民党界隈も熱視線 - zakⅡ",
+          "name": "zakzak.co.jp",
+          "title": "東山紀之氏、社長退任も芸能界復帰は困難か…急浮上「政界進出」自民党界隈も熱視線 - zakzak.co.jp",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1JZzhEdzdqamFhbkZsdk9yYVBJZl9MNTVDREVFb1JWWHdqa0tibEd2M08zOU14bHl2YXBCVnFUdWk3MkdaVFYybGxacWZGRVRodnJUbUJMRi1EVE5Jd1NIdjY4TjJIS1E4RDBFeDJqbGlrSWg3cnVIOdIBjAFBVV95cUxQclNwYVoxTjdMODlQdzJSa0V0djNzR1BaM3BZX014UGdDck1NNFdYbHVPQ1R3YU9FYlpXek5fZ0ZmOTBjclJ2elFEMVBSR2lnSTdibEJxN2FtVHNIN2ExTl9iTldsSEp2QUJiRkc4OVRQTmdKU0poTGFxYmg2U00xTjk4c1dRUml4aUVtSw?oc=5",
           "publishedAt": "2026-10-03T23:00:00Z"
         }
@@ -461,34 +477,18 @@
       ]
     },
     {
-      "id": "a5e91dfc1cf205",
+      "id": "39ad71376678c2",
       "category": "politics",
-      "title": "日本のEEZ外に落下か、被害情報なし - nippon.com",
+      "title": "日本の国際政治学者が語りたくない国際政治の現実：その２サンフランシスコ講和条約の位置づけ - SmartNews",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T22:03:04Z",
+      "latestPublishedAt": "2026-10-03T11:41:00Z",
       "sources": [
         {
-          "id": "2bc871447e2cdf",
-          "name": "nippon.com",
-          "title": "日本のEEZ外に落下か、被害情報なし - nippon.com",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ES19QWGpzcEpEWEw2NmJtZU1oNUIwUXpJYy1MdkVJeURndmJtcmpUcHBMRUdydEVGMF80NHlNSzBIbERuUEtzaUY0S3UxOVY0VlhwbUxTQ3lEWlRKb3U2d01GYw?oc=5",
-          "publishedAt": "2026-10-02T22:03:04Z"
-        }
-      ]
-    },
-    {
-      "id": "f64e9b75862d99",
-      "category": "economy",
-      "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-02T21:45:00Z",
-      "sources": [
-        {
-          "id": "eaf96ef51fdf6e",
-          "name": "ダイヤモンド・オンライン",
-          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である - ダイヤモンド・オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hWUpwV2czQmE5Mnl3aGVPT0ZaVndoeFg4SDhQaDBxZ25LZTA0aE80OFNSMXRWU0s3QThXZWFTOHotcEx0OUYyRlFVTGJ0QkxhVmoxWm5B0gFPQVVfeXFMTmhyNExPM3daVzJKOFNzYi1hVlhPbjZkR1pGVk5aTkFwUEdKTnZoSzZhYU5yZVB2ZXVmeHJkWjhEUnoydkdVSHM0ZnIySFZMdw?oc=5",
-          "publishedAt": "2026-10-02T21:45:00Z"
+          "id": "4ef20fd5f91b04",
+          "name": "SmartNews",
+          "title": "日本の国際政治学者が語りたくない国際政治の現実：その２サンフランシスコ講和条約の位置づけ - SmartNews",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yWG1tclBMZGlmZmliRXZTSERJUTVvU0pIVG5IM1hlNnpRWGlVY0JlYUhDNS1EcXRrd0xDUmYxSUQta3RZekVkSFlfaFJrR1pZVVNoV3E0Tk1YOGFtUWJRYUlGUk9kN0JQaWc?oc=5",
+          "publishedAt": "2026-10-03T11:41:00Z"
         }
       ]
     }
