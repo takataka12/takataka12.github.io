@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-10-06T15:12:12Z",
+  "generatedAt": "2026-10-06T20:19:56Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "c2ff469b7fee45",
+      "id": "5e4b67d33e7a14",
       "category": "internet",
-      "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下（サンキュ！） - Yahoo!ニュース",
+      "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下 - 千葉テレビ放送株式会社",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-06T11:50:00Z",
+      "latestPublishedAt": "2026-10-06T11:43:24Z",
       "sources": [
         {
-          "id": "ca2564b3918f2b",
-          "name": "Yahoo!ニュース",
-          "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下（サンキュ！） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ETkMtS3pxWTZha1F5UkdMUVVjMW5zMm45ejN3X3Z2dFBMMnFFTy1PVU5WdWMtWjE3WV9icTJfQXZ4Qm9IdjFWYUYwWld2Vmx2RjhaaTdmUlk0bmxHOVhLRU05a1hGTGttSEpQRXFVVENKbmg1NnRhVkhTNGJwU0k?oc=5",
-          "publishedAt": "2026-10-06T11:50:00Z"
-        },
-        {
-          "id": "f2bf0520e4402e",
+          "id": "46ae4550422009",
           "name": "千葉テレビ放送株式会社",
           "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下 - 千葉テレビ放送株式会社",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFAxeU04V0JEbndtUG1aa093YkU2YXNZa2VBTGVLSkd6Q2RTYTk0bW9yWHRndV82QkF2Z1R3N3pBMVdrbTFfTzliT1gxdm9Ldk9mUUY5NDVHVVJIREF3MHJN?oc=5",
           "publishedAt": "2026-10-06T11:43:24Z"
+        },
+        {
+          "id": "1c1c0a6c615a49",
+          "name": "au Webポータル",
+          "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下 - au Webポータル",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9XZnFSMkRHWW9oRjFKRHJxaXlpOENlbVNfTDR4S1hFY1BvVFMtTjM0andwT1pWbzlFUnI5TWU5U1FKSUNLZnhvRVFjYXMtT0Q1ZURHc3VqZDRvZmt6NGdHQi1uNXVTX21NY2ZZVG1n?oc=5",
+          "publishedAt": "2026-10-06T11:43:00Z"
         }
       ]
     },
     {
       "id": "2746576153b410",
       "category": "politics",
-      "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - jimin.jp",
+      "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
       "sourceCount": 2,
       "latestPublishedAt": "2026-10-06T08:50:57Z",
       "sources": [
         {
           "id": "1e393f28d443fe",
-          "name": "jimin.jp",
-          "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - jimin.jp",
+          "name": "自由民主党",
+          "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
           "publishedAt": "2026-10-06T08:50:57Z"
         },
@@ -65,33 +65,10 @@
         },
         {
           "id": "28eaabe8954fea",
-          "name": "newsweekjapan.jp",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - newsweekjapan.jp",
+          "name": "ニューズウィーク日本版",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - ニューズウィーク日本版",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZbTg4cjJLUnpqaGZCUTNGRDRoeWFIc1NJMHh0bUNXMFNiMVg4dDF6VG1NZXhOM1g1M3pNRmRlbVJKUlQ4b2ctek5MUUwwLVVORFo4ODBHZlhWdGhEQVhPTXZleDJBUDQ?oc=5",
           "publishedAt": "2026-10-05T20:17:00Z"
-        }
-      ]
-    },
-    {
-      "id": "656773b5a453df",
-      "category": "entertainment",
-      "title": "「まんまるバスト」25歳グラドル芸能界引退を発表「結婚などを理由としたものではありません」 - 日刊スポーツ",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-05T11:38:07Z",
-      "sources": [
-        {
-          "id": "4a85942a78a072",
-          "name": "日刊スポーツ",
-          "title": "「まんまるバスト」25歳グラドル芸能界引退を発表「結婚などを理由としたものではありません」 - 日刊スポーツ",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVVgtUzBIRXA5T1RGRU11SXlfdXhMLTZQRWJISnIweDgxTnRCNDdzU0dYQ2V1cDk4N2J4RFJ1RXA1OEdSX2YxcDNxTnQ4RXMzdzFoM1QwSzMyOE9SZC1mb05YcE04RWdydy0wYUxiTzAzaWtDT0ZTeThKcjIteGI1YVJUUTlmNjAzMVlZdEZXNUlwcDk0VXc?oc=5",
-          "publishedAt": "2026-10-05T11:38:07Z"
-        },
-        {
-          "id": "9442d1b3c8a064",
-          "name": "Yahoo!ニュース",
-          "title": "「まんまるバスト」25歳グラドル芸能界引退を発表「結婚などを理由としたものではありません」（日刊スポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yOHV5eXNqQUVVWnBNblp4SkR6THdVbkdaVDRmb1VpYXJEdDZvZ1BvWDNMQUYxdVItekhPRlpkckFzRllEaWxBTUdCaUdPdUF6UE1IQTdUMXRYUlptbTJnUjEtV0lwWUp4NXNwSHdNSmExem9KOWExQmFYZ1F6d0k?oc=5",
-          "publishedAt": "2026-10-05T09:16:02Z"
         }
       ]
     },
@@ -187,25 +164,64 @@
         },
         {
           "id": "c1bda18fd3369a",
-          "name": "tv-tokyo.co.jp",
-          "title": "ポケットモンスター音楽祭【アニポケ新OPED曲初披露！超話題曲ポケモン1025匹!?】 - tv-tokyo.co.jp",
+          "name": "テレビ東京",
+          "title": "ポケットモンスター音楽祭【アニポケ新OPED曲初披露！超話題曲ポケモン1025匹!?】 - テレビ東京",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLUtDRklYRVI1WjBDTFhBVlAwLXphTDVNQ05oQnlIcE1HaF9HVElqbDd4VWVsMGR3QWRQeVNhY0hzM1RxTmpfXzBTRXAxeC0zV011ODhCaEM2OHdQOUhhVU1FOV9rTXBLOGdJb3I1eGZZeGFadjlXUXhsanZUUU1iaklCNElIUmVSd2VxRGpfcw?oc=5",
           "publishedAt": "2026-05-15T07:00:00Z"
         }
       ]
     },
     {
-      "id": "340bb2cf8b4447",
+      "id": "299656bf93732c",
+      "category": "politics",
+      "title": "学問の自由は守られる？ 日本学術会議が新体制に移行…消えない「政治介入」への不安 - 東京新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-06T20:00:00Z",
+      "sources": [
+        {
+          "id": "be8368e2629ee2",
+          "name": "東京新聞",
+          "title": "学問の自由は守られる？ 日本学術会議が新体制に移行…消えない「政治介入」への不安 - 東京新聞",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14bFhzOEZEYmZfWmFlZzlNUmF0WERudWdZbzk0M19NZllDdTBCWEV3Q281aUQ4Ujl1V3YyVDhfS05HeXVwWE1Qa05fQ21pRTY3d1hj?oc=5",
+          "publishedAt": "2026-10-06T20:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "99d9f26ce443da",
+      "category": "economy",
+      "title": "【テクニカル】日経平均株価テクニカル分析－7万円を超えて6月の高値が視野に入る - 外為どっとコム",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-06T15:47:07Z",
+      "sources": [
+        {
+          "id": "5dfd0387fe3ce4",
+          "name": "外為どっとコム",
+          "title": "【テクニカル】日経平均株価テクニカル分析－7万円を超えて6月の高値が視野に入る - 外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfbUl4TVJOTXlUcHZ0MU9DZWptb1psdDZxZmpqYlNFSkl2RXhKandieWFOSGlpMVgxVldkRUNMS3UzVFVYazcyX05IUDkwbnQwWVpySFZHV21TNC05MndMVnBFMA?oc=5",
+          "publishedAt": "2026-10-06T15:47:07Z"
+        },
+        {
+          "id": "ccc541e2070e72",
+          "name": "外為どっとコム",
+          "title": "【テクニカル】日経平均株価テクニカル分析－大幅高で8月の戻り高値を上回る - 外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oOWFzMGFYWVRoMmNjX3VZQmVvQWxWVk1WQjJIRjZacmoweGpBNkM5Z0xUTk0xZnluRlFHLTdrdFhmVlhYM3FBX3kxZU1DNXotV05Nb3hKSW5xejVxWlFrT3hPbw?oc=5",
+          "publishedAt": "2026-10-06T03:18:05Z"
+        }
+      ]
+    },
+    {
+      "id": "bc8f949c4f13d7",
       "category": "internet",
-      "title": "【神戸市須磨区】SNSで話題の爆盛りポテト＆蒲鉾店の変わり種コロッケ！須磨区おすすめのローカルグルメ【ちゃちゃ入れマンデー】 - ｄメニューニュース",
+      "title": "【神戸市須磨区】SNSで話題の爆盛りポテト＆蒲鉾店の変わり種コロッケ！須磨区おすすめのローカルグルメ【ちゃちゃ入れマンデー】 - https://miyoca.jp/",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-06T12:00:00Z",
       "sources": [
         {
-          "id": "5e4c9101edd28b",
-          "name": "ｄメニューニュース",
-          "title": "【神戸市須磨区】SNSで話題の爆盛りポテト＆蒲鉾店の変わり種コロッケ！須磨区おすすめのローカルグルメ【ちゃちゃ入れマンデー】 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBpVkx0SlpUXzhxYjIzU0E4cGV2akZONlBuMlNVcEhheFd5UVFwdUtkY3p1UnVFTk1iLTdFNVBZanRuYzdIVV9meTEyd0xjalRwLVBkWDRNZ2RFMkVwaXNmemFxanYzT0lKUXpUTWctdUttd9IBd0FVX3lxTE94WnJBMlNrOGNEOGY1d0N0OWt1SVZTYWtMamk2Q1pzQ0NtUUdYNmxHUHJfQ2NWRWpWci1YTkNOZGs3c00yMTVvbW54N3FMbmlyaWdCYS0wZnRSWV9fdUIwdDR5MmprWG5xTWdvUlh1T2RtdTBlVlYw?oc=5",
+          "id": "446554697cf721",
+          "name": "https://miyoca.jp/",
+          "title": "【神戸市須磨区】SNSで話題の爆盛りポテト＆蒲鉾店の変わり種コロッケ！須磨区おすすめのローカルグルメ【ちゃちゃ入れマンデー】 - https://miyoca.jp/",
+          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBrTlJpMnVMU0pqUWNhR24wRkQ5YlJHNXU1TmtwanJEcEFBdDU5ZS1zOXhReEhkRzJvVVoyc1ZXWQ?oc=5",
           "publishedAt": "2026-10-06T12:00:00Z"
         }
       ]
@@ -264,41 +280,48 @@
           "publishedAt": "2026-10-06T10:01:01Z"
         },
         {
-          "id": "ecb9d75a22b082",
+          "id": "41192068d573e3",
           "name": "株探",
-          "title": "外為：1ドル158円21銭前後とドル高・円安で推移 - 株探",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9MRF9wZDN4MVRxVzg4SHhXcjV4OWNzakVJUFd2SXAybDBxUi1Jdk1pVmh4bHlOTWwtb2RkX0JOb1VwRFg3Rl9TRVVaRmd5NGRTeXc?oc=5",
-          "publishedAt": "2026-10-06T09:01:02Z"
+          "title": "外為：南アランド、9円5009銭前後と小幅なランド高・円安で推移 - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KRy1JZE85aDlZQklMNmJTRDlOc3dLX25pVzY1bUlsY1FTQWkyNkF5YXZRVGJTNzlRcWs3RjRMOG5OYWIwM2FUZ2VnVTNqSjhfQ2c?oc=5",
+          "publishedAt": "2026-10-06T04:31:07Z"
+        },
+        {
+          "id": "c9a7e03d919503",
+          "name": "株探",
+          "title": "外為：1ドル158円00銭前後とドル高・円安で推移 - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1sMC1MSFJPX0N2V1BFRDNEeVkzWkJGR1FhTkZIOXB1WHdxZ040akJtWWpJQk1CSFR2RWFnTFJxaC1nUmluZ1ZNVEJlMzRDYTd5Z1E?oc=5",
+          "publishedAt": "2026-10-06T03:01:02Z"
         }
       ]
     },
     {
-      "id": "4f94e311b1dbc5",
+      "id": "3c287b91ff2639",
       "category": "internet",
-      "title": "20240716_AZA-DSC0595 | Motor Fan｜自動車情報のモーターファン - Motor Fan",
+      "title": "SNSでも超話題！【業務スーパー】「セールで今だけ安い」やみつき系人気商品とは（舞） - エキスパート - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T08:30:57Z",
+      "latestPublishedAt": "2026-10-06T09:57:38Z",
       "sources": [
         {
-          "id": "e1cc2cc0310c4d",
-          "name": "Motor Fan",
-          "title": "20240716_AZA-DSC0595 | Motor Fan｜自動車情報のモーターファン - Motor Fan",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91aTRDUVNHQXQ0SzFmRWVuYnlEdU92ZmtpQ1lxM1BkWTNGejYtdnhLczVUTHNCelJfR3NoVDdaRXpEN1Q1ZlZxYVhxZERlN1N3SFFwRGM3RGdTXzZYRjBUMVRZMHRQZDAwdVE?oc=5",
-          "publishedAt": "2026-10-06T08:30:57Z"
+          "id": "36b5ce0cfc811f",
+          "name": "Yahoo!ニュース",
+          "title": "SNSでも超話題！【業務スーパー】「セールで今だけ安い」やみつき系人気商品とは（舞） - エキスパート - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSG5tTmlCT3ozTm9JT2k2c1pPS200aUJPdzFoc3dlb3ZxNkV2OGI3b0pCNUg2NVhiemRYbzFZV01DZEkzcHdXRUxKVW9QYUZpUUxMUzBSbjVvMGxFUGduYlhfZTlOZEQyZGNSMFh3TFdyYUN5Z1praVpqSE5DSVNFaXNZQUljd2dO?oc=5",
+          "publishedAt": "2026-10-06T09:57:38Z"
         }
       ]
     },
     {
       "id": "6f122a7170f9b8",
       "category": "internet",
-      "title": "「顔が渋すぎる」とSNSで話題沸騰！人気者アザラシ「かつのりくん」 オホーツクとっかりセンター - HTB 北海道テレビ",
+      "title": "「顔が渋すぎる」とSNSで話題沸騰！人気者アザラシ「かつのりくん」 オホーツクとっかりセンター - HTB北海道テレビ",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-06T06:58:00Z",
       "sources": [
         {
           "id": "ab5a9b8e229c38",
-          "name": "HTB 北海道テレビ",
-          "title": "「顔が渋すぎる」とSNSで話題沸騰！人気者アザラシ「かつのりくん」 オホーツクとっかりセンター - HTB 北海道テレビ",
+          "name": "HTB北海道テレビ",
+          "title": "「顔が渋すぎる」とSNSで話題沸騰！人気者アザラシ「かつのりくん」 オホーツクとっかりセンター - HTB北海道テレビ",
           "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwSk5CVFNhQ0xnYXdwX0JkNU45TkFfa2xIQ2pnWE1BclRrdkNKbGdpRXZlbTFZRV9qSE9qMDhhZ2JZejF0cUpmaEd3ZTVhdG1EY0N3d19CdlpVZw?oc=5",
           "publishedAt": "2026-10-06T06:58:00Z"
         }
@@ -324,6 +347,13 @@
           "title": "日経平均終値737円高、3カ月ぶり7万円台回復 「業績相場」に先回り - 日本経済新聞",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53M2NNWEdsb1otVm1YWDEyMG5xMHJ5bF9XRTRORkRRZkFMY0lESUMxdlpuV3lSbXZ3RDNDQ2RLMGplVzVaejBudG9mZjkzUDJ0bEhIdERMWkJpTVdBMW9XV3ZsdmZoQ2FrdzBKSg?oc=5",
           "publishedAt": "2026-10-06T02:57:43Z"
+        },
+        {
+          "id": "7598c2bd1017c6",
+          "name": "日本経済新聞",
+          "title": "日経平均前引け 続伸 134円高の7万0081円 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jdlF0ZU5URHNBcDFzaGVVTTk5U2RVN011M08taVpKaWZGcVk0VmdYSjYtUFFHTURHREFqSjRBT3Qxbm9jQlA5NmZEQVZwaU45SzhhQVMxUmRYUmJ5YllEOEZDcHE1MHoyaXNqVg?oc=5",
+          "publishedAt": "2026-10-06T02:36:25Z"
         }
       ]
     },
@@ -344,22 +374,6 @@
       ]
     },
     {
-      "id": "03f44a61d40df2",
-      "category": "economy",
-      "title": "東アジアの仮想通貨経済、日本が2位 分散型取引所の利用が盛ん＝チェイナリシス - CoinPost",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T04:15:33Z",
-      "sources": [
-        {
-          "id": "21348acf8d720d",
-          "name": "CoinPost",
-          "title": "東アジアの仮想通貨経済、日本が2位 分散型取引所の利用が盛ん＝チェイナリシス - CoinPost",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2bE0xV1kwM3JjVlJucWV1N2FhRXlDdWUtN2VNZUV0cF9SdE9xdTZsRXh3R3A5VGFjeTJlbXZtRkJkSDA?oc=5",
-          "publishedAt": "2026-10-06T04:15:33Z"
-        }
-      ]
-    },
-    {
       "id": "b6476199c21fe2",
       "category": "internet",
       "title": "猫好き必見！SNS話題の作者が描く新作コミック - Koubo",
@@ -376,34 +390,34 @@
       ]
     },
     {
-      "id": "34b0a70624682f",
-      "category": "politics",
-      "title": "高橋洋一・政治経済ホントのところ【高齢化率が最高更新】諸制度の年齢変更を｜政治｜石川のニュース - 北國新聞",
+      "id": "0ffa68045753ee",
+      "category": "entertainment",
+      "title": "川栄李奈、芸能界引退を考えた過去「なんでこの人が…」 朝ドラオーディション中マネージャーに「受かんなかったら辞める」 - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-05T20:00:00Z",
+      "latestPublishedAt": "2026-10-05T21:00:00Z",
       "sources": [
         {
-          "id": "806a4dde92089c",
-          "name": "北國新聞",
-          "title": "高橋洋一・政治経済ホントのところ【高齢化率が最高更新】諸制度の年齢変更を｜政治｜石川のニュース - 北國新聞",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GbWl0MzRDVmZPNF9JY0Q2ek5GaS1uNFJFdkc4ek44anJGT3doano1ZzV4VXV0dWY1Qk5VU0FoLWVleUcwNlRxbUlzM1E1dEpyN1podlVmcw?oc=5",
-          "publishedAt": "2026-10-05T20:00:00Z"
+          "id": "111d825648d10b",
+          "name": "Yahoo!ニュース",
+          "title": "川栄李奈、芸能界引退を考えた過去「なんでこの人が…」 朝ドラオーディション中マネージャーに「受かんなかったら辞める」 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1vRnU3VWlTeVp2RFFCRkZVc0JqTEJRSDM4MXFZczgtM29GZmZUc1hHemNGaW9GVUhHYms5ZklJdVdsZ1lobDlvY1FqVUJUSzV6MXh1UW9WamdPRHV1M0VWdXVzLXVUeERLZ3JVYnhMWTJrUnpCQkl3aUV3bTI1Vmc?oc=5",
+          "publishedAt": "2026-10-05T21:00:00Z"
         }
       ]
     },
     {
-      "id": "e42d32a7e99726",
-      "category": "economy",
-      "title": "これから、原油高と高市財政で日本に「本当のインフレ」がやってくる - gendai.media",
+      "id": "1d6658bb87f37c",
+      "category": "entertainment",
+      "title": "「まんまるバスト」25歳グラドル芸能界引退を発表「結婚などを理由としたものではありません」 - 日刊スポーツ",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-05T10:35:59Z",
+      "latestPublishedAt": "2026-10-05T09:16:00Z",
       "sources": [
         {
-          "id": "7f8924db86e1c0",
-          "name": "gendai.media",
-          "title": "これから、原油高と高市財政で日本に「本当のインフレ」がやってくる - gendai.media",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SMm82ajk4Q1I5dGFOakViVUJzcnFVdEt0N1VVRFVfYjFQUzR0TXBnMUJ3MnFfakZtT3BSMmFTSDByZWNoQS1sWDMyal94aUk?oc=5",
-          "publishedAt": "2026-10-05T10:35:59Z"
+          "id": "6b6170872bb99c",
+          "name": "日刊スポーツ",
+          "title": "「まんまるバスト」25歳グラドル芸能界引退を発表「結婚などを理由としたものではありません」 - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5mV2djNEMyZlFnOXhsQ0gxb3V1LVNENGRmZkJFVWttZW1fSHgyR1ZIdF9vVm5uR3ZOa1hJWll1N2FOTVpEeGRQbFF3aUt0ZHo0ZldYN3V0Qjlxc0dYZFlZNGRmd2dkYVFLNDhrb292eEVRX3RQWkZj0gF_QVVfeXFMTVJQUjN6eDZNQXFYWU44ZGNlTk15d2FqdUFzb2p0MkdmZEZLRjZQVl9CcmJjS1pDbkx4U2ZBSm1FWDR6MTFXUU94TDA0dnR0ZURrcFdjME9WVm9SdUZTOV9JTklFZEV5VTIwWW9sS3RVcFVIamdzNl92Y1lZMnRkYw?oc=5",
+          "publishedAt": "2026-10-05T09:16:00Z"
         }
       ]
     },
@@ -456,25 +470,25 @@
       ]
     },
     {
-      "id": "f3673f9c4486d7",
-      "category": "politics",
-      "title": "利上げしても円安、介入しても円高は一時的…通貨防衛戦の足枷になり始めた政府・日銀の政策不一致 【唐鎌大輔の為替から見る日本】日銀「主な意見」が映した政府との温度差、中立金利接近で2027年の政策論点が鮮明に - JBpress",
+      "id": "9b7c54f9cd4b0c",
+      "category": "economy",
+      "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である（ダイヤモンド・オンライン） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-04T21:00:00Z",
+      "latestPublishedAt": "2026-10-04T21:45:30Z",
       "sources": [
         {
-          "id": "3d0755275a4cfd",
-          "name": "JBpress",
-          "title": "利上げしても円安、介入しても円高は一時的…通貨防衛戦の足枷になり始めた政府・日銀の政策不一致 【唐鎌大輔の為替から見る日本】日銀「主な意見」が映した政府との温度差、中立金利接近で2027年の政策論点が鮮明に - JBpress",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE10eU1abC0yeE5rNjk2SnVWNXQyWDFHT0hIcWtHTzYzMUg3TDJOMG9JaGMyQlZBbXhOeExMWGs3cEEyNVZseGxnSWNfd0ZFNzVFakJpV0xQX3pkQTR2WlVN?oc=5",
-          "publishedAt": "2026-10-04T21:00:00Z"
+          "id": "e0ec6752b08662",
+          "name": "Yahoo!ニュース",
+          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である（ダイヤモンド・オンライン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbFluRnc4dnJTdl8yVHBxcVhFNExiZXg4TDd5Rmp3d2wzdlk3S2EyV2pCR1UyVWt4NHJHREVWaVNITzN4aC1JLW8xSFIxMkZYejlyeUtSdEpLY2p5eUVjZG1tOS0tc0w3SXNXS2dSZEVpdi1JS3hIV2JlMDhqSms0STg4RVdzVlZE?oc=5",
+          "publishedAt": "2026-10-04T21:45:30Z"
         },
         {
-          "id": "bf30b9243b3176",
-          "name": "JBpress",
-          "title": "利上げしても円安、介入しても円高は一時的…通貨防衛戦の足枷になり始めた政府・日銀の政策不一致 【唐鎌大輔の為替から見る日本】日銀「主な意見」が映した政府との温度差、中立金利接近で2027年の政策論点が鮮明に(1/4) - JBpress",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtZVFYMEZySk9GN25DYV9qdDNjdUJBWFkwVUpPa3hRSkZSQ0VTNGstU0tKM3MwODJ4b3ZicC1UQkxkNnVxQS16ZjZqSWJXcGRlZFZRLWpB?oc=5",
-          "publishedAt": "2026-10-04T21:00:00Z"
+          "id": "f5df9752548bf1",
+          "name": "Yahoo!ニュース",
+          "title": "日本経済の“最大の問題”は、「財政の赤字」ではなく「企業の黒字」である（ダイヤモンド・オンライン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE05MkFQV1ZONXJBZ2lCQTdjWGJleDdlXzlzR1dQWFpwWDI0S3lIVWFSUGQ4STBDbnhCX01xOXp0cnN6aU5XY1VIMW9LREh2NFdQUDNSajQyTVhLWWZ1dnZDaTBDUXh0NG1oeDNhSVVacDNpbzducTFfUGhrNncwZEE?oc=5",
+          "publishedAt": "2026-10-04T21:45:30Z"
         }
       ]
     }
