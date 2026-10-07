@@ -1,81 +1,28 @@
 {
-  "generatedAt": "2026-10-07T07:14:36Z",
+  "generatedAt": "2026-10-07T14:33:13Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "7cbf064efec0da",
+      "id": "42630ae45e4e22",
       "category": "politics",
-      "title": "【速報】首相は衆院定数削減に関し「今国会実現に向け議論を期待する」と述べた - 時事ドットコム",
-      "sourceCount": 3,
-      "latestPublishedAt": "2026-10-07T06:10:00Z",
+      "title": "定数削減、今国会実現に向け議論期待と首相 - nippon.com",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-07T05:44:03Z",
       "sources": [
         {
-          "id": "b48157fd1cef22",
-          "name": "時事ドットコム",
-          "title": "【速報】首相は衆院定数削減に関し「今国会実現に向け議論を期待する」と述べた - 時事ドットコム",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fVDdldUxRdE9Ib1owV2pKd0JpTW1LZngxYWxhMFhIaHl5elowYnZiU0w2bHlUT3U3a19KWDJQZUlMTWd1WWlsTWpJOHhSZzhoaFpfekpRUU1VYnhCSkhFSF84UXNFUQ?oc=5",
-          "publishedAt": "2026-10-07T06:10:00Z"
+          "id": "d6feb3a19ef350",
+          "name": "nippon.com",
+          "title": "定数削減、今国会実現に向け議論期待と首相 - nippon.com",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9KME5wbFFXT3dSVTJBQUtMdG4yTGo1LXhWM2YwMy1yS194NmhqYVIzLXEwQ1pFUWpkbUZlTHRhN0k0YmJUbTdZWElwNXdENEdQRDFmZFlycV83OG1BMXZfYWM2QQ?oc=5",
+          "publishedAt": "2026-10-07T05:44:03Z"
         },
         {
-          "id": "e030fc38a31182",
-          "name": "沖縄タイムス社",
-          "title": "定数削減、今国会実現に向け議論期待と首相 - 沖縄タイムス社",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51LVF3c0xXWDYyR1pWUjBGV0R5SjBxc0Ftc2loRmFRSVQyRnJzS18wazJESlRqeTV0S2xyMEpaTmRnOGcxdWgtblE2dTJLRlVpTHdMRy11MG1Ic2VxY0E?oc=5",
+          "id": "d5ea15a3af4f54",
+          "name": "東奥日報社",
+          "title": "定数削減、今国会実現に向け議論期待と首相｜全国のニュース｜Web東奥 - 東奥日報社",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzSlBwN181TlAwaDZQVzI4TDNRSjNuYUZTUktKZWNYWGtXNGx0R3pKZGp1TEJpRVZzSWQ0NUt1RktUcFlpYnotMk1WOElRMDNDcnQyRWozRU8?oc=5",
           "publishedAt": "2026-10-07T05:43:36Z"
-        },
-        {
-          "id": "06eb542b7c3dcd",
-          "name": "佐賀新聞",
-          "title": "定数削減、今国会実現に向け議論期待と首相 - 佐賀新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aMVJSWFhZUWktV1c2NFZfZnh4X21ubVhaNFhkTG4wcnl6Z0hnQU9TTXNRZzd6Mk5UdkV1cVp5eThla0pxd3dpQnd2VzRqWjdGUUhCLUdB?oc=5",
-          "publishedAt": "2026-10-07T05:43:00Z"
-        }
-      ]
-    },
-    {
-      "id": "cc21501d84151e",
-      "category": "entertainment",
-      "title": "９日に苫小牧で太鼓芸能集団「鼓童」の公演 市内では12年ぶり - 北海道新聞デジタル",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-07T04:17:31Z",
-      "sources": [
-        {
-          "id": "bea330ca7a4b21",
-          "name": "北海道新聞デジタル",
-          "title": "９日に苫小牧で太鼓芸能集団「鼓童」の公演 市内では12年ぶり - 北海道新聞デジタル",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1INVFjUEZwZmVkR19ndG1HaUh6QWttdFQtQ2Q4U3RpY0FkODRGQU1JV0xBZk5hZUh5Y3V1MkhLOEtKajh2Z2R2Yk9PMFM3dEpFOFZnUmwtV3VyUE1MVmNEemRTTTI?oc=5",
-          "publishedAt": "2026-10-07T04:17:31Z"
-        },
-        {
-          "id": "6cfbd938ae1761",
-          "name": "47NEWS",
-          "title": "９日に苫小牧で太鼓芸能集団「鼓童」の公演 市内では12年ぶり - 47NEWS",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43dE0tV1BHOEpsNWVIc2dCSDlEaXZ0bzFINzNJTFJxWUdZb0NCdEYycExqRlNDenZLR2t0a3RRWmdBdThreF9rTURROA?oc=5",
-          "publishedAt": "2026-10-07T04:17:31Z"
-        }
-      ]
-    },
-    {
-      "id": "556b3956745f6a",
-      "category": "internet",
-      "title": "【今週のファミマさん】SNSで話題のビターな「チョコがけマシュマロ」が再登場！ ミックスベリー香るルイボスティーも - 千葉テレビ放送株式会社",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-07T01:26:25Z",
-      "sources": [
-        {
-          "id": "134f6d92a6dd5e",
-          "name": "千葉テレビ放送株式会社",
-          "title": "【今週のファミマさん】SNSで話題のビターな「チョコがけマシュマロ」が再登場！ ミックスベリー香るルイボスティーも - 千葉テレビ放送株式会社",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WOF9mbEdtbkNqNG9UNUlfMktKc0JZdTk1ZUk2X194VEY3SU5tZkhXQzNkSUd5cFRoU1RnektRRHFULW5qRndBd2lldC10Y1puRXVGc3AzRkN6R3ppLTA0?oc=5",
-          "publishedAt": "2026-10-07T01:26:25Z"
-        },
-        {
-          "id": "d84b9a7a170adb",
-          "name": "グルメ Watch",
-          "title": "【今週のファミマさん】SNSで話題のビターな「チョコがけマシュマロ」が再登場！ ミックスベリー香るルイボスティーも - グルメ Watch",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85bXphRW8xcGRvZnBxM2YwaUprWlNLTnB2SFN4cUpSTjVzdGw1aE9Sai0zS0JoRFRYeXNwRzRacUpHaERPNlVSc2UzNi1LTmF3cmJBMGFyZmxuaHFfNWJLSGpPd29kSDZRSnc?oc=5",
-          "publishedAt": "2026-10-07T01:04:38Z"
         }
       ]
     },
@@ -126,29 +73,6 @@
       ]
     },
     {
-      "id": "656773b5a453df",
-      "category": "entertainment",
-      "title": "「まんまるバスト」25歳グラドル芸能界引退を発表「結婚などを理由としたものではありません」 - 日刊スポーツ",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-05T11:38:07Z",
-      "sources": [
-        {
-          "id": "4a85942a78a072",
-          "name": "日刊スポーツ",
-          "title": "「まんまるバスト」25歳グラドル芸能界引退を発表「結婚などを理由としたものではありません」 - 日刊スポーツ",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVVgtUzBIRXA5T1RGRU11SXlfdXhMLTZQRWJISnIweDgxTnRCNDdzU0dYQ2V1cDk4N2J4RFJ1RXA1OEdSX2YxcDNxTnQ4RXMzdzFoM1QwSzMyOE9SZC1mb05YcE04RWdydy0wYUxiTzAzaWtDT0ZTeThKcjIteGI1YVJUUTlmNjAzMVlZdEZXNUlwcDk0VXc?oc=5",
-          "publishedAt": "2026-10-05T11:38:07Z"
-        },
-        {
-          "id": "9442d1b3c8a064",
-          "name": "Yahoo!ニュース",
-          "title": "「まんまるバスト」25歳グラドル芸能界引退を発表「結婚などを理由としたものではありません」（日刊スポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yOHV5eXNqQUVVWnBNblp4SkR6THdVbkdaVDRmb1VpYXJEdDZvZ1BvWDNMQUYxdVItekhPRlpkckFzRllEaWxBTUdCaUdPdUF6UE1IQTdUMXRYUlptbTJnUjEtV0lwWUp4NXNwSHdNSmExem9KOWExQmFYZ1F6d0k?oc=5",
-          "publishedAt": "2026-10-05T09:16:02Z"
-        }
-      ]
-    },
-    {
       "id": "8c50eb99318d35",
       "category": "economy",
       "title": "来週の米主要企業決算 ペプシコ、デルタ航空 - 株探",
@@ -168,6 +92,13 @@
           "title": "来週の米主要企業決算 ペプシコ、デルタ航空 - みんかぶ FX/為替",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1fX3h1X01KXzYxU0JlSzJnNTRJelVCYjVOWExWelZhTC0yQThqRWxrYTh5V0V4MGxiM3B4SDZmczR4Z0RNZTg2TA?oc=5",
           "publishedAt": "2026-10-02T22:37:29Z"
+        },
+        {
+          "id": "f0df392820a380",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の欧州主要企業決算 なし - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1tc2w5cHh3THJ1dGR4SF9rX1NYRy1vQ1pfYXVhcVZaU2RFWHJSWnV4Si1mZms5a2pzN2xjMjFsMXJXbldtMGd6ZQ?oc=5",
+          "publishedAt": "2026-10-02T22:36:29Z"
         }
       ]
     },
@@ -225,29 +156,6 @@
       ]
     },
     {
-      "id": "1f256ad39b5a90",
-      "category": "entertainment",
-      "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-26T07:00:00Z",
-      "sources": [
-        {
-          "id": "bbbe73ed1abfda",
-          "name": "Yahoo!ニュース",
-          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
-          "publishedAt": "2026-09-26T07:00:00Z"
-        },
-        {
-          "id": "3af021ad77f484",
-          "name": "ナタリー",
-          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
-          "publishedAt": "2026-09-26T07:00:00Z"
-        }
-      ]
-    },
-    {
       "id": "ac214eb50f094a",
       "category": "entertainment",
       "title": "ポケットモンスター音楽祭【アニポケ新OPED曲初披露！超話題曲ポケモン1025匹!?】 - TVO テレビ大阪",
@@ -271,18 +179,105 @@
       ]
     },
     {
-      "id": "e5a1681af88eb0",
+      "id": "305d8acc09fe8b",
       "category": "internet",
-      "title": "【GU】色が完璧に…「ソースすぎる靴下」がSNSで話題！オタフク公式も反応「勝手コラボ認定」「公式が驚いてるのがおもしろい」 - Yahoo!ニュース",
+      "title": "SNSで話題の「中国の緑シャンプー」って実際どう？育毛に年300万かけるプロが1か月使ったリアルな本音 - 女子SPA!",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T06:55:00Z",
+      "latestPublishedAt": "2026-10-07T10:21:46Z",
       "sources": [
         {
-          "id": "3b4366581eae08",
+          "id": "5b187545de040f",
+          "name": "女子SPA!",
+          "title": "SNSで話題の「中国の緑シャンプー」って実際どう？育毛に年300万かけるプロが1か月使ったリアルな本音 - 女子SPA!",
+          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBlcFd3WklQRlV5MUlnbEtwT0VxZ3B1a2dIUjNIVVloeFduc1pWZjk5NWFqMzBUM0V4NFdsUlFvNEYzUQ?oc=5",
+          "publishedAt": "2026-10-07T10:21:46Z"
+        }
+      ]
+    },
+    {
+      "id": "2fd8e31fefd993",
+      "category": "internet",
+      "title": "菓子の食べ比べセットにSNSで話題の｢伊那のまゆ｣も登場 伊那市と駒ヶ根市で24日から販売 - 信濃毎日新聞デジタル",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T10:13:00Z",
+      "sources": [
+        {
+          "id": "89b26348fa4785",
+          "name": "信濃毎日新聞デジタル",
+          "title": "菓子の食べ比べセットにSNSで話題の｢伊那のまゆ｣も登場 伊那市と駒ヶ根市で24日から販売 - 信濃毎日新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE93SEVWeFFOTlFkMmhfbm52eUVnekZRWTYxb0xVMzIwVFpEeEtaTmRFOXZlRC13aHdBZ09GOVl2LUlXQ0lpSVdBQ0ZtNkVYUWRNZUdtamI2anM0OGRDbXFUa25TSXJ1OVFPQ1FrSF9jbUM?oc=5",
+          "publishedAt": "2026-10-07T10:13:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9ac5e96e81ad47",
+      "category": "politics",
+      "title": "第222回臨時国会における井上信治衆議院議員代表質問 | 政策 | ニュース - 自由民主党",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T08:47:51Z",
+      "sources": [
+        {
+          "id": "16d690968d96b0",
+          "name": "自由民主党",
+          "title": "第222回臨時国会における井上信治衆議院議員代表質問 | 政策 | ニュース - 自由民主党",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NOE5lNkUyazdCd3ZmWDFiVEE5SDBTMnBNZDhCaTUwXy1GaG1ibGg5Qm5zMnNGV1RsS0dIalJpTFFlU0hRUEhlaUpDUnJlWkZkNHlYQ09Wdw?oc=5",
+          "publishedAt": "2026-10-07T08:47:51Z"
+        },
+        {
+          "id": "fdb0abcdd2b6bc",
+          "name": "自由民主党",
+          "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
+          "publishedAt": "2026-10-06T08:50:57Z"
+        }
+      ]
+    },
+    {
+      "id": "48f1d17980ff17",
+      "category": "internet",
+      "title": "SNSで話題の〝美人すぎるテコンドー先生〟滝川聖奈「これはもう『お前が道場を継げ！』っていう天のお告げだな、と（笑）」 - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T08:05:34Z",
+      "sources": [
+        {
+          "id": "fd8618750aa660",
           "name": "Yahoo!ニュース",
-          "title": "【GU】色が完璧に…「ソースすぎる靴下」がSNSで話題！オタフク公式も反応「勝手コラボ認定」「公式が驚いてるのがおもしろい」 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxQW8yYmlJajN6eGZMWVR3UlJPQUJoZGg2LVJ6bWhTMDFRMDI5VktjWTM0OGFmMktqMkV4MGZpT2JaVHRwZVhnWHF4TWhGZFYxMnFzTkZfY2J5b0dOYmpUZ3UxeDNQYTA1RllVcWFGbl9YRExLb2wwRkZZMjg1MGs?oc=5",
-          "publishedAt": "2026-10-07T06:55:00Z"
+          "title": "SNSで話題の〝美人すぎるテコンドー先生〟滝川聖奈「これはもう『お前が道場を継げ！』っていう天のお告げだな、と（笑）」 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xa1VJa1FPS1N5NmxSY3NfeS1HeHRTc1VhX3BNUmo5WlV6OU05Y1dTSk1XYk5wTFlMQW5Qb3YtenRVM1V2M0ZyQmdFdXJ3TlNEMTM2NW5SbFcwZ1BuZERDWU51UWQweUhlSFYzcXlBaUVkdHlnWmZTUmxaV2x4VEk?oc=5",
+          "publishedAt": "2026-10-07T08:05:34Z"
+        }
+      ]
+    },
+    {
+      "id": "fd9ad60789c38e",
+      "category": "entertainment",
+      "title": "飯田で「南信州民俗芸能フェスティバル」　県150周年記念、伊勢大神楽も - ｄメニューニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T08:00:00Z",
+      "sources": [
+        {
+          "id": "e6ee4d92f69233",
+          "name": "ｄメニューニュース",
+          "title": "飯田で「南信州民俗芸能フェスティバル」　県150周年記念、伊勢大神楽も - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU3kxNk13dXVPOFdQRnpEV3VEOXE0MUl2Q3Z5NVBjanlOTlRMcFlYNlJVX0NJbUVCSXpzTHVjV3gyX2pHU1pyMzN2dy1lTnFRbW9SQVRJVngxVkx5YW5Mcmg3VVNrQjBXQktxbmtLSG1mbmdibjEzYkV4Uk9vMkxUSkhxcWdkR2hNaTNLYWFBZEd1bkVtWDVrZmJOak9GUHpmN0ZQT29obzZ0allEVUNaX3NSaWIwalZKQmt1cjhzOGZob1g3ZUxLU2lteTBqUdIBfkFVX3lxTE1fcTBCdG9DSFdUVkRrZ0JjV3dubUE0UkthS1dLT2txbHBRTnNTRlBzdEFZZlZLSTh1TjFhUXZLX3FySnVBcnl6c2ZYUkduemtIeThOMlVkRW5weHEyQUttWXZhUVpPd29MZGRlcC04dW94ay1ZRzFpOG9FZGhaZw?oc=5",
+          "publishedAt": "2026-10-07T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "a794fb24d3bfeb",
+      "category": "internet",
+      "title": "SNSで話題、『戦国工務店』が書籍化 11月11日発売 - 新建ハウジング",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T06:47:00Z",
+      "sources": [
+        {
+          "id": "614e24355c2dca",
+          "name": "新建ハウジング",
+          "title": "SNSで話題、『戦国工務店』が書籍化 11月11日発売 - 新建ハウジング",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3SlFfR3BEbVdna0o5TVBfM2x5UHprVEZBbmJ0SWZialBaS1A4XzJSVW4teUFubVpCR05PMEhsYndyeVB4dmlNSl8yT2swQmt5X2c?oc=5",
+          "publishedAt": "2026-10-07T06:47:00Z"
         }
       ]
     },
@@ -315,45 +310,29 @@
           "title": "日本経済指標【景気動向指数（速報値）】 - みんかぶ FX/為替",
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkbUkxclVDbVcybHA5eWh2aXhBTVBaZXVXcG1sM0hfNDZMbzR3YXJqU1NlWGxucS1rTWRJMlUweGxTWGpiTGhPeA?oc=5",
           "publishedAt": "2026-10-07T05:01:29Z"
-        }
-      ]
-    },
-    {
-      "id": "a834b9312df68d",
-      "category": "internet",
-      "title": "『大葉の意外な食べ方』を実践！ SNSで話題のアイデアに「子供も完食」「薬味だけじゃない」 - grapee.jp",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T03:37:12Z",
-      "sources": [
-        {
-          "id": "c2af933b61327e",
-          "name": "grapee.jp",
-          "title": "『大葉の意外な食べ方』を実践！ SNSで話題のアイデアに「子供も完食」「薬味だけじゃない」 - grapee.jp",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWSjdRRXpMS1N0QzIyQWswOTcxMTVxWG9VOHBreE4tdC1kSlRpSzFYUDFnRV9nQWFNM29BOXlwcXZQZWNWb01Qdy00TG1KZw?oc=5",
-          "publishedAt": "2026-10-07T03:37:12Z"
-        }
-      ]
-    },
-    {
-      "id": "33fd6e4283256b",
-      "category": "economy",
-      "title": "日経平均後場寄り付き：前日比440.60円安の70243.38円｜FX・為替ニュース - ザイFX！",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T03:30:00Z",
-      "sources": [
-        {
-          "id": "e5f510eb9ecb8a",
-          "name": "ザイFX！",
-          "title": "日経平均後場寄り付き：前日比440.60円安の70243.38円｜FX・為替ニュース - ザイFX！",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsT244SndSbEE3c2x3dER4OHRtenR0b0pZcEJ6djA1bW1pUGZLanllVXVOelIxbE1hTXVZYXBSZ3NrZmo4RkNtOVQyeUpoU2tFdEE?oc=5",
-          "publishedAt": "2026-10-07T03:30:00Z"
         },
         {
-          "id": "973ee4c8db5d18",
-          "name": "ザイFX！",
-          "title": "日経平均前場引け：前日比609.85円安の70074.13円｜FX・為替ニュース - ザイFX！",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEUld1VDVOd2hOQndVZVhyTFJjLWRoV2hjMGJNYjlwSFZEdS1NaTk1RURWczJmdU93RFUwRS1LUEtseGNsbGhwUGdONEhkck8zOGc?oc=5",
-          "publishedAt": "2026-10-07T02:32:00Z"
+          "id": "675079aa9c4d26",
+          "name": "みんかぶ FX/為替",
+          "title": "日本経済指標（実質賃金） - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4ybWtZNTMyU1VrUHJYNG0xWktZUUgwQ201M0VzamFCSUFMTXpZTWNPWDZGdWR5cjZDUDhWekN0dlpqRGVsUjQwQQ?oc=5",
+          "publishedAt": "2026-10-06T23:30:28Z"
+        }
+      ]
+    },
+    {
+      "id": "cc21501d84151e",
+      "category": "entertainment",
+      "title": "９日に苫小牧で太鼓芸能集団「鼓童」の公演 市内では12年ぶり - 北海道新聞デジタル",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T04:17:31Z",
+      "sources": [
+        {
+          "id": "bea330ca7a4b21",
+          "name": "北海道新聞デジタル",
+          "title": "９日に苫小牧で太鼓芸能集団「鼓童」の公演 市内では12年ぶり - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1INVFjUEZwZmVkR19ndG1HaUh6QWttdFQtQ2Q4U3RpY0FkODRGQU1JV0xBZk5hZUh5Y3V1MkhLOEtKajh2Z2R2Yk9PMFM3dEpFOFZnUmwtV3VyUE1MVmNEemRTTTI?oc=5",
+          "publishedAt": "2026-10-07T04:17:31Z"
         }
       ]
     },
@@ -390,18 +369,18 @@
       ]
     },
     {
-      "id": "2d4c46d83087f3",
-      "category": "internet",
-      "title": "SNSで話題のモバイルバッテリー耐火ケース→セリアの新商品です - ガジェット通信 GetNews",
+      "id": "8b295dd58380d5",
+      "category": "entertainment",
+      "title": "【芸能界虎党 歓喜の輪】埼玉育ちの虎党・宇賀神メグ 「黄金期」Ｖ２に歓喜 ７連敗時の“暴言”「こんなハラハラいらねー」は安住アナが盛ったんです！（デイリースポーツ） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T00:00:39Z",
+      "latestPublishedAt": "2026-10-07T00:00:23Z",
       "sources": [
         {
-          "id": "290fa73dfcd3fc",
-          "name": "ガジェット通信 GetNews",
-          "title": "SNSで話題のモバイルバッテリー耐火ケース→セリアの新商品です - ガジェット通信 GetNews",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PNVdaR0htd281ZFZ2T0wxSEdFWklsS1ZGLUhjVmVzd3lmNGZNaGhjbEwxZl9BRGdCUnV1ejR1TzJiMEpUYlBMdVA0TQ?oc=5",
-          "publishedAt": "2026-10-07T00:00:39Z"
+          "id": "bbd604777da194",
+          "name": "Yahoo!ニュース",
+          "title": "【芸能界虎党 歓喜の輪】埼玉育ちの虎党・宇賀神メグ 「黄金期」Ｖ２に歓喜 ７連敗時の“暴言”「こんなハラハラいらねー」は安住アナが盛ったんです！（デイリースポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BZmhJLXJtcm9UM2pOLVRGY0Z4MUJvd0FmaE1oenJfZHhSUWZfaGJHZ1ZtcjJCaGx1azBQWU5teUJBWnZ3eTJSS2ptZTRQd3hidjlZZXM5WFZ5cXFYcmE4NDdac2F1ZlJMUDFhdnBEUGdlbFdPNWhyZWJOT2xnREU?oc=5",
+          "publishedAt": "2026-10-07T00:00:23Z"
         }
       ]
     },
@@ -438,6 +417,22 @@
       ]
     },
     {
+      "id": "1214e9c9fe78a8",
+      "category": "internet",
+      "title": "看板猫ミケちゃんの御朱印がSNSで話題に 遠方や海外からも申し込みが殺到する「オンライン授与所」とは - TBS NEWS DIG",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-06T21:00:00Z",
+      "sources": [
+        {
+          "id": "ed2468e5ca76b0",
+          "name": "TBS NEWS DIG",
+          "title": "看板猫ミケちゃんの御朱印がSNSで話題に 遠方や海外からも申し込みが殺到する「オンライン授与所」とは - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9SX0xiRl9jRzFFMXVBbDAxeVdJVURUZVFTaDdzYmZFVzlkTTItYmxDVGRPWW56UjZ1bTl6eE5aRVlMMUR4Z3NLT2NkRzNvbndUWEViZUFRLUhwVTRSaTBZ?oc=5",
+          "publishedAt": "2026-10-06T21:00:00Z"
+        }
+      ]
+    },
+    {
       "id": "299656bf93732c",
       "category": "politics",
       "title": "学問の自由は守られる？ 日本学術会議が新体制に移行…消えない「政治介入」への不安 - 東京新聞",
@@ -454,48 +449,18 @@
       ]
     },
     {
-      "id": "8b4580b691dd2b",
-      "category": "internet",
-      "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下（サンキュ！） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T11:50:00Z",
-      "sources": [
-        {
-          "id": "f1ef33aa4a6390",
-          "name": "Yahoo!ニュース",
-          "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下（サンキュ！） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcmZVZzYyNEo1czh6LTlUaV9qZHVTdUtMemhzb3RadTc0eFE1UnZ2aUVXQl9nbUdDVDc2VGllVGVGR25RRTQxM0xuck1iWDZJd0swcHp5VFRzemtCRnpUaWtvVE84V1U5OGxZVE1ZTnFqQ0VDUVRzTllGbTdtc3dXclFhRjg3djNW?oc=5",
-          "publishedAt": "2026-10-06T11:50:00Z"
-        },
-        {
-          "id": "926059ec67dc6d",
-          "name": "Yahoo!ニュース",
-          "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下 (サンキュ！) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMHNpZkV4bWxjQXAyT3NBWWwxOEFJLW9pel92Z1BXRjZBX2hONU54enI5M00yT0hweUZlZkNuSVlPQnFGRmUwOU8tTXlhN0Q0R212ZkhDRi1nVzkzbnhtN1VpX3R5YTFPSGVjMUJKZ2NQOHdhRTU5RkNJNGNDWFNqckJLNFpSb3hCb1FHY2Zn?oc=5",
-          "publishedAt": "2026-10-06T11:50:00Z"
-        }
-      ]
-    },
-    {
-      "id": "5509010419a5a6",
+      "id": "5bc4f815bf309f",
       "category": "economy",
-      "title": "円相場 値下がり 日米の金利差が意識され円売りの動き - NHKニュース",
+      "title": "はじめに：『2040年の日本再生 進化系フィジタル経済の衝撃』 - 日経BOOKプラス",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T11:07:57Z",
+      "latestPublishedAt": "2026-10-06T20:00:00Z",
       "sources": [
         {
-          "id": "b3b879260c531f",
-          "name": "NHKニュース",
-          "title": "円相場 値下がり 日米の金利差が意識され円売りの動き - NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aZWVZcGV2SXROOFJ2RlB4UEJyRG9KbVJQbUNfaEVpaUp4YlhLNENkTXJLaVdmNWNkVThrTDRKVlNvamJiQ1VOaDJIM21XelBXdktxT3FCZWhHdjBMOWpR?oc=5",
-          "publishedAt": "2026-10-06T11:07:57Z"
-        },
-        {
-          "id": "1f356a18361e34",
-          "name": "NHKニュース",
-          "title": "円相場 小幅な値動き - NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iRnZQMEFvRm9Id0x5cXZ4UWtldV9NN25KVmszUkRCV3VRaDQ1bDJyMnR1SXpFcDA5emVHVktXY0RxOVd1eEh5ZVNyRHlQZC15NUpwbkxDaVlpRUJhQ3h3?oc=5",
-          "publishedAt": "2026-10-05T09:31:28Z"
+          "id": "54811dcd394494",
+          "name": "日経BOOKプラス",
+          "title": "はじめに：『2040年の日本再生 進化系フィジタル経済の衝撃』 - 日経BOOKプラス",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yVUx2amVFR3A1dWw2d19ucnNHTlFiN2ZGSjJ1Q2s5dlNPV2dWM0NEMFJMQjdNZThTNDFfX1hMTnNQNW8tT2FZdG16WU1QWUtUODNET3JBYk96QkE3Y013eVJyelExcUN1ZlQ0dA?oc=5",
+          "publishedAt": "2026-10-06T20:00:00Z"
         }
       ]
     }
