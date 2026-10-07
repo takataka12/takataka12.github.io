@@ -1,44 +1,44 @@
 {
-  "generatedAt": "2026-10-07T14:33:13Z",
+  "generatedAt": "2026-10-07T20:37:55Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "42630ae45e4e22",
-      "category": "politics",
-      "title": "定数削減、今国会実現に向け議論期待と首相 - nippon.com",
+      "id": "0f0f644e81de5e",
+      "category": "entertainment",
+      "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位　前作OP「ゆずれない願い」挿入歌で流れる - ｄメニューニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-07T05:44:03Z",
+      "latestPublishedAt": "2026-10-07T15:18:38Z",
       "sources": [
         {
-          "id": "d6feb3a19ef350",
-          "name": "nippon.com",
-          "title": "定数削減、今国会実現に向け議論期待と首相 - nippon.com",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9KME5wbFFXT3dSVTJBQUtMdG4yTGo1LXhWM2YwMy1yS194NmhqYVIzLXEwQ1pFUWpkbUZlTHRhN0k0YmJUbTdZWElwNXdENEdQRDFmZFlycV83OG1BMXZfYWM2QQ?oc=5",
-          "publishedAt": "2026-10-07T05:44:03Z"
+          "id": "2818a7530dfe21",
+          "name": "ｄメニューニュース",
+          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位　前作OP「ゆずれない願い」挿入歌で流れる - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmNtNjgya055eldNZm0yeEpKN3NTOGk4VkRmdGhDQmtQN010VmtaT3phQ1o2dDE1OHVIWFZYdlJIM1dGY0REdmI3cVdobWdLRUdlc0tFSVJFbklLOTdtXzEzcklfVkVTcVlNdW1ISmMwd0JBY0o5Wl9fcnRTaS1ZUtIBhgFBVV95cUxPOU81YlU1am5QRklyWVhidHR3eEJRRXhZc1VwQWlzbVRJbmg2dmN0aVhqV1hZNEpaSWVmb05ERUdsNjB4eFl4Uks1U1hNdS1jYVR6TkJEdjc2MEZPclN0STd5UTJnZzhCRURaSUFjMm5CS2t1RFdTb2hPeUs4UFlBVm1jOWlIUQ?oc=5",
+          "publishedAt": "2026-10-07T15:18:38Z"
         },
         {
-          "id": "d5ea15a3af4f54",
-          "name": "東奥日報社",
-          "title": "定数削減、今国会実現に向け議論期待と首相｜全国のニュース｜Web東奥 - 東奥日報社",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAzSlBwN181TlAwaDZQVzI4TDNRSjNuYUZTUktKZWNYWGtXNGx0R3pKZGp1TEJpRVZzSWQ0NUt1RktUcFlpYnotMk1WOElRMDNDcnQyRWozRU8?oc=5",
-          "publishedAt": "2026-10-07T05:43:36Z"
+          "id": "d82030a929c8cb",
+          "name": "オリコンニュース",
+          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - オリコンニュース",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81QVdOOXFoWF9qSmVaakNQWUlKdVNETkR2VTFMWngtcXdibV9ZZnNHNHNxMXhOekRvLWN0b3UtU3BGOHhsUnlvLVp4WWt1bWM?oc=5",
+          "publishedAt": "2026-10-07T15:15:00Z"
         }
       ]
     },
     {
-      "id": "61f6086e2cfeeb",
+      "id": "68b54ace5c4bc3",
       "category": "economy",
-      "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - ｄメニューニュース",
+      "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-06T22:05:35Z",
+      "latestPublishedAt": "2026-10-06T22:00:39Z",
       "sources": [
         {
-          "id": "84e7df18c9b608",
-          "name": "ｄメニューニュース",
-          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNSGhnTjVtZmJkb0h4aUFUcXVRTmNFdklPQWpPVExMWWhsUVdsTDRjcHRyVzdqSmptX2Q2ZEgzUFpkdVlKbF8tYWhvclBmMzJoaUd3M0poMFd5TVpvUE5Cc3ZxN0Z4eUF5R0I3U2o3LVBTNmFDa0ZVa0hn0gF_QVVfeXFMTzNwUzVxUldBd3ZpZ3VqNV9wSHlUVTdiZWdNU2dkSGk3cHg3U19HWHFsVzBta3BsMnNtMTNzN1lrVV9PT0htWHlyWG96XzQ2b3BYQUNpSEhORkRWbHVKbGx6dHBqWmVCYjJhNms3bjlYTjBRcTlqUEdRVERyQ3VfZw?oc=5",
-          "publishedAt": "2026-10-06T22:05:35Z"
+          "id": "7f401820f6a228",
+          "name": "Yahoo!ニュース",
+          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53RmkwbHBQSUpVUXJOZk4wTmNObnJyMWV1MUUyTXZsUERDVWFVTGVlR3kwTlJHUnpWLTNtQ1NReWpyR0M4elI4WUJzOUlyMHVWTTRvOUlrTUhhanlXcVpybzBjTm8wWUJ4UUdlNDJPRzV0LUdHZmhwMEptank0aTQ?oc=5",
+          "publishedAt": "2026-10-06T22:00:39Z"
         },
         {
           "id": "54d0c2780d59ee",
@@ -46,6 +46,29 @@
           "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - 集英社オンライン",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94VXp5eUVCZmlSdnQ0MXhJOHdrYjdYa09ySnVpT2pmNTgxLTBNcmVtSHZ5UlNFdmxrdGppU1N6Q252QTc4SVZ6Z3N3aGxjemNMVGpR?oc=5",
           "publishedAt": "2026-10-06T22:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2746576153b410",
+      "category": "politics",
+      "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-06T08:50:57Z",
+      "sources": [
+        {
+          "id": "1e393f28d443fe",
+          "name": "自由民主党",
+          "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
+          "publishedAt": "2026-10-06T08:50:57Z"
+        },
+        {
+          "id": "0e7683dd006b11",
+          "name": "首相官邸",
+          "title": "第２２２回国会における高市内閣総理大臣所信表明演説 - 首相官邸",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95WVExbmxTYjlHZ2N1NnlTWUlsMFNUaHBIOUZMMlRiRDNFTm90TnlvdDNGZ2l4RURaYWVZeWxiajRfYkFMTVJFaWI1Z1NVeGtPREVveUR2b2NEd1R0TXVpLWY5am5oNi1Zdi1aTW5qZVROX0EtNW43cQ?oc=5",
+          "publishedAt": "2026-10-06T02:29:10Z"
         }
       ]
     },
@@ -126,71 +149,80 @@
       ]
     },
     {
-      "id": "004410ddd9034d",
+      "id": "1f256ad39b5a90",
       "category": "entertainment",
-      "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
+      "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
       "sourceCount": 2,
       "latestPublishedAt": "2026-09-26T07:00:00Z",
       "sources": [
         {
-          "id": "8ffcdbf2629748",
-          "name": "TBS NEWS DIG",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR1lZcm9mMkxWbE5ENkFvc3dRb2RzbzBmS3FCY2RyNjV5cDFCV1UzWWhxZGRtRUdqLUFvbk81SFVlODhIZ3YwVE11OGZ0Z2lIUmhtdlphVEVkWDFDNkFN?oc=5",
+          "id": "bbbe73ed1abfda",
+          "name": "Yahoo!ニュース",
+          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
           "publishedAt": "2026-09-26T07:00:00Z"
         },
         {
-          "id": "c47e6587d4b719",
-          "name": "ｄメニューニュース",
-          "title": "仙台市内でチャイナフェス　話題のグルメや音楽で中国文化に触れる　仙台・青葉区 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5fUG9hbnlxcHJvOW5wOG5ldklsZ2lYWlRGQnhWWG9pd2pkUXVESmNRRWpoVmIyMjY5NEN5TjNKTElWbWRVQ0M5Rks4YjN6NmtnXzE0dG01Z3VIY0lvYTNlQXFTbkZLYlZhV2xSTTNET1VPTURpb2h1WmJ5d0JsZTTSAYQBQVVfeXFMTzFpWkdDblJuUUZWcjRxblVNR1FTb0VTaE11eDJMeVhiUnlXYUE2b3B2akJRSldIRkIxRE5kVEkxWlZGY01aLUdvdnA1eFNkWndLeUU3a3hRWHVfeTQ3akJ3dzdkSEpVRzgwNUJHUDFRc0NlbnYwSGUzTWI5TjJuRFkwMzAw?oc=5",
-          "publishedAt": "2026-09-26T07:00:00Z"
-        },
-        {
-          "id": "b30d08b7d2b611",
-          "name": "TBS NEWS DIG",
-          "title": "仙台市内でチャイナフェス 話題のグルメや音楽で中国文化に触れる 仙台・青葉区 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBiM3QxbmdtbkVCczFZSnZvN081b3dXR3hwZDA5WGw3ZzRBdm9JbWhBNndCaEdrTGdwczZQcnpZVFkxQmE4Z3VCc0NyYkFUYWtJd3hJRXB6VQ?oc=5",
+          "id": "3af021ad77f484",
+          "name": "ナタリー",
+          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
           "publishedAt": "2026-09-26T07:00:00Z"
         }
       ]
     },
     {
-      "id": "ac214eb50f094a",
-      "category": "entertainment",
-      "title": "ポケットモンスター音楽祭【アニポケ新OPED曲初披露！超話題曲ポケモン1025匹!?】 - TVO テレビ大阪",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-20T07:00:00Z",
-      "sources": [
-        {
-          "id": "ee93b125f042b6",
-          "name": "TVO テレビ大阪",
-          "title": "ポケットモンスター音楽祭【アニポケ新OPED曲初披露！超話題曲ポケモン1025匹!?】 - TVO テレビ大阪",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PNVBGcUpzalludXBJcWctcnJiWlh1bDdBbXl3QU13VlRFZTJSUjlzMjIyWDFtT3hZUEYtT1hia21nUUxBZE5GQjM3aVI0OGRESVFRMng0M3YxNEtYam1Rc1RuWQ?oc=5",
-          "publishedAt": "2026-09-20T07:00:00Z"
-        },
-        {
-          "id": "c1bda18fd3369a",
-          "name": "テレビ東京",
-          "title": "ポケットモンスター音楽祭【アニポケ新OPED曲初披露！超話題曲ポケモン1025匹!?】 - テレビ東京",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQLUtDRklYRVI1WjBDTFhBVlAwLXphTDVNQ05oQnlIcE1HaF9HVElqbDd4VWVsMGR3QWRQeVNhY0hzM1RxTmpfXzBTRXAxeC0zV011ODhCaEM2OHdQOUhhVU1FOV9rTXBLOGdJb3I1eGZZeGFadjlXUXhsanZUUU1iaklCNElIUmVSd2VxRGpfcw?oc=5",
-          "publishedAt": "2026-05-15T07:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "305d8acc09fe8b",
-      "category": "internet",
-      "title": "SNSで話題の「中国の緑シャンプー」って実際どう？育毛に年300万かけるプロが1か月使ったリアルな本音 - 女子SPA!",
+      "id": "c91da2aca0d033",
+      "category": "economy",
+      "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T10:21:46Z",
+      "latestPublishedAt": "2026-10-07T20:04:49Z",
       "sources": [
         {
-          "id": "5b187545de040f",
-          "name": "女子SPA!",
-          "title": "SNSで話題の「中国の緑シャンプー」って実際どう？育毛に年300万かけるプロが1か月使ったリアルな本音 - 女子SPA!",
-          "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTFBlcFd3WklQRlV5MUlnbEtwT0VxZ3B1a2dIUjNIVVloeFduc1pWZjk5NWFqMzBUM0V4NFdsUlFvNEYzUQ?oc=5",
-          "publishedAt": "2026-10-07T10:21:46Z"
+          "id": "0870e670c9b620",
+          "name": "Yahoo!ニュース",
+          "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ub0FrTWlVZTJHM2gxVnVrd3E4VkVaeUFKRU9YMDN1dmg3d0V4TjlVQktTZGw0bFF0blZueTBQMTJkQkhxZGFjdndTWHNMbVVzcnZXSHo0enk1N3E3bEVJQ01MaFNMMmUwVjlDbzBPZjVSN0Q2amY3SHEtNUZTVk0?oc=5",
+          "publishedAt": "2026-10-07T20:04:49Z"
+        }
+      ]
+    },
+    {
+      "id": "4a9030c5f25262",
+      "category": "economy",
+      "title": "【見通し】株式明日の戦略ー軟調も7万円は割り込まず、FOMC議事要旨を受けた米国株の反応に要注目 - 外為どっとコム",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T18:50:00Z",
+      "sources": [
+        {
+          "id": "aef0f437706671",
+          "name": "外為どっとコム",
+          "title": "【見通し】株式明日の戦略ー軟調も7万円は割り込まず、FOMC議事要旨を受けた米国株の反応に要注目 - 外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8zbTJnQlRkOWs1TVlVMTFsMi1HdU1TZTdCNkIzYmhqX2E3SjZRV2dSOUpJVkprZnFkeEpCMFZTRlh1ZTdJaDUteW5iNjdaeTlic0lKNUFTQzFaUy1IM3JaRVhtYw?oc=5",
+          "publishedAt": "2026-10-07T18:50:00Z"
+        },
+        {
+          "id": "24752726b2e335",
+          "name": "外為どっとコム",
+          "title": "【見通し】NY株見通しーFOMC議事要旨に注目 - 外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE50Tll4UFpBRllUUHA2bWJUSlFJOGlnWmJZaUJCclNKdmhDSFFoNDVkTk02LXNsdzIyMjFIRHlmVDJ4V3JIUzJrbWJsMVNYOWFsMkRZYmVrRldOZzJ1dThEOF8ydw?oc=5",
+          "publishedAt": "2026-10-07T11:55:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e5a1681af88eb0",
+      "category": "internet",
+      "title": "【GU】色が完璧に…「ソースすぎる靴下」がSNSで話題！オタフク公式も反応「勝手コラボ認定」「公式が驚いてるのがおもしろい」 - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T13:03:32Z",
+      "sources": [
+        {
+          "id": "3b4366581eae08",
+          "name": "Yahoo!ニュース",
+          "title": "【GU】色が完璧に…「ソースすぎる靴下」がSNSで話題！オタフク公式も反応「勝手コラボ認定」「公式が驚いてるのがおもしろい」 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxQW8yYmlJajN6eGZMWVR3UlJPQUJoZGg2LVJ6bWhTMDFRMDI5VktjWTM0OGFmMktqMkV4MGZpT2JaVHRwZVhnWHF4TWhGZFYxMnFzTkZfY2J5b0dOYmpUZ3UxeDNQYTA1RllVcWFGbl9YRExLb2wwRkZZMjg1MGs?oc=5",
+          "publishedAt": "2026-10-07T13:03:32Z"
         }
       ]
     },
@@ -211,25 +243,18 @@
       ]
     },
     {
-      "id": "9ac5e96e81ad47",
+      "id": "991e85ab5f2d1f",
       "category": "politics",
-      "title": "第222回臨時国会における井上信治衆議院議員代表質問 | 政策 | ニュース - 自由民主党",
+      "title": "纐纈厚さん「歴史の事実ゆがめることは第２の罪」 日本政治の右傾化を懸念 連載「時代の正体 高市政権考」まとめ - カナロコ",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T08:47:51Z",
+      "latestPublishedAt": "2026-10-07T09:00:00Z",
       "sources": [
         {
-          "id": "16d690968d96b0",
-          "name": "自由民主党",
-          "title": "第222回臨時国会における井上信治衆議院議員代表質問 | 政策 | ニュース - 自由民主党",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NOE5lNkUyazdCd3ZmWDFiVEE5SDBTMnBNZDhCaTUwXy1GaG1ibGg5Qm5zMnNGV1RsS0dIalJpTFFlU0hRUEhlaUpDUnJlWkZkNHlYQ09Wdw?oc=5",
-          "publishedAt": "2026-10-07T08:47:51Z"
-        },
-        {
-          "id": "fdb0abcdd2b6bc",
-          "name": "自由民主党",
-          "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
-          "publishedAt": "2026-10-06T08:50:57Z"
+          "id": "e0c197f11872c7",
+          "name": "カナロコ",
+          "title": "纐纈厚さん「歴史の事実ゆがめることは第２の罪」 日本政治の右傾化を懸念 連載「時代の正体 高市政権考」まとめ - カナロコ",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvdzBTYzFWUTRzOEFqSmoteVhKbEt3RHpOWXk4SHFzYk1RWGY4SEJaUk5wUXpXRnhHS0NVWkpOR1BWTEttQ19PMXJvMTZRN3IxV1NkMFVmV3RlSDhlT1VYeldfT0FWUnc?oc=5",
+          "publishedAt": "2026-10-07T09:00:00Z"
         }
       ]
     },
@@ -250,22 +275,6 @@
       ]
     },
     {
-      "id": "fd9ad60789c38e",
-      "category": "entertainment",
-      "title": "飯田で「南信州民俗芸能フェスティバル」　県150周年記念、伊勢大神楽も - ｄメニューニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T08:00:00Z",
-      "sources": [
-        {
-          "id": "e6ee4d92f69233",
-          "name": "ｄメニューニュース",
-          "title": "飯田で「南信州民俗芸能フェスティバル」　県150周年記念、伊勢大神楽も - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU3kxNk13dXVPOFdQRnpEV3VEOXE0MUl2Q3Z5NVBjanlOTlRMcFlYNlJVX0NJbUVCSXpzTHVjV3gyX2pHU1pyMzN2dy1lTnFRbW9SQVRJVngxVkx5YW5Mcmg3VVNrQjBXQktxbmtLSG1mbmdibjEzYkV4Uk9vMkxUSkhxcWdkR2hNaTNLYWFBZEd1bkVtWDVrZmJOak9GUHpmN0ZQT29obzZ0allEVUNaX3NSaWIwalZKQmt1cjhzOGZob1g3ZUxLU2lteTBqUdIBfkFVX3lxTE1fcTBCdG9DSFdUVkRrZ0JjV3dubUE0UkthS1dLT2txbHBRTnNTRlBzdEFZZlZLSTh1TjFhUXZLX3FySnVBcnl6c2ZYUkduemtIeThOMlVkRW5weHEyQUttWXZhUVpPd29MZGRlcC04dW94ay1ZRzFpOG9FZGhaZw?oc=5",
-          "publishedAt": "2026-10-07T08:00:00Z"
-        }
-      ]
-    },
-    {
       "id": "a794fb24d3bfeb",
       "category": "internet",
       "title": "SNSで話題、『戦国工務店』が書籍化 11月11日発売 - 新建ハウジング",
@@ -282,18 +291,18 @@
       ]
     },
     {
-      "id": "43e648bdb0778b",
-      "category": "economy",
-      "title": "「決して楽観視できるとは言えない」財務省が公表した国際比較で日本が“北朝鮮より下”だった項目 - Yahoo!ニュース",
+      "id": "23c5010440e851",
+      "category": "entertainment",
+      "title": "子ども伝統芸能祭り｜お出かけ情報 - 熊本日日新聞社",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T05:30:35Z",
+      "latestPublishedAt": "2026-10-07T06:05:51Z",
       "sources": [
         {
-          "id": "3c31a2495a2711",
-          "name": "Yahoo!ニュース",
-          "title": "「決して楽観視できるとは言えない」財務省が公表した国際比較で日本が“北朝鮮より下”だった項目 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZcE00cGlWdHZLX0hfUTdFdWNOOFJWSUJWZHdSLUlCZjNyblJiTjRVWXBNVnU1MDNnRFJCZy1zNlJWclBUR2l3dnVGLXltMWR1Q1NSNVYxcG5QNDZ1YmZ4NlJDYVZQN2d6ZGtHU0NKYkZFWjlwbUhxbVRvbGFNbk0?oc=5",
-          "publishedAt": "2026-10-07T05:30:35Z"
+          "id": "0f2d400d3a8788",
+          "name": "熊本日日新聞社",
+          "title": "子ども伝統芸能祭り｜お出かけ情報 - 熊本日日新聞社",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBUMXB5MjlIZ1R5V0tpaEk0WEZhSFE1YkdmSGU5dmpKRGNVa1ZVVHdMS2tsc2tJOFFMU2lFeUNjN2hQUWJROHRYZUpXUQ?oc=5",
+          "publishedAt": "2026-10-07T06:05:51Z"
         }
       ]
     },
@@ -337,6 +346,22 @@
       ]
     },
     {
+      "id": "02d1e02548f02b",
+      "category": "internet",
+      "title": "『大葉の意外な食べ方』を実践！　SNSで話題のアイデアに「子供も完食」「薬味だけじゃない」 - ｄメニューニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T03:37:00Z",
+      "sources": [
+        {
+          "id": "b3637dda1a2779",
+          "name": "ｄメニューニュース",
+          "title": "『大葉の意外な食べ方』を実践！　SNSで話題のアイデアに「子供も完食」「薬味だけじゃない」 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBnaTE1X1pDSlcxSE11ZVpuLTZDRGFnMHhuLTNOUlBGTC1SM24tUTZndFVZSTNNaEh6UFV0Qi10bVQyeE5VTzlvUGV5aU5EUVJkVGpTdzhhWEk5RjhraTZOZW5FWTQ4bkZkMzFzcEJ0Z3BjZmpnbEJwRmM5NNIBe0FVX3lxTFBnaTE1X1pDSlcxSE11ZVpuLTZDRGFnMHhuLTNOUlBGTC1SM24tUTZndFVZSTNNaEh6UFV0Qi10bVQyeE5VTzlvUGV5aU5EUVJkVGpTdzhhWEk5RjhraTZOZW5FWTQ4bkZkMzFzcEJ0Z3BjZmpnbEJwRmM5NA?oc=5",
+          "publishedAt": "2026-10-07T03:37:00Z"
+        }
+      ]
+    },
+    {
       "id": "45d212e3afc09c",
       "category": "politics",
       "title": "真山仁が描く日本崩壊。政治とは約束か、結果か、幻想か？ 『オペラティオ』試し読み - 本の話",
@@ -369,22 +394,6 @@
       ]
     },
     {
-      "id": "8b295dd58380d5",
-      "category": "entertainment",
-      "title": "【芸能界虎党 歓喜の輪】埼玉育ちの虎党・宇賀神メグ 「黄金期」Ｖ２に歓喜 ７連敗時の“暴言”「こんなハラハラいらねー」は安住アナが盛ったんです！（デイリースポーツ） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T00:00:23Z",
-      "sources": [
-        {
-          "id": "bbd604777da194",
-          "name": "Yahoo!ニュース",
-          "title": "【芸能界虎党 歓喜の輪】埼玉育ちの虎党・宇賀神メグ 「黄金期」Ｖ２に歓喜 ７連敗時の“暴言”「こんなハラハラいらねー」は安住アナが盛ったんです！（デイリースポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BZmhJLXJtcm9UM2pOLVRGY0Z4MUJvd0FmaE1oenJfZHhSUWZfaGJHZ1ZtcjJCaGx1azBQWU5teUJBWnZ3eTJSS2ptZTRQd3hidjlZZXM5WFZ5cXFYcmE4NDdac2F1ZlJMUDFhdnBEUGdlbFdPNWhyZWJOT2xnREU?oc=5",
-          "publishedAt": "2026-10-07T00:00:23Z"
-        }
-      ]
-    },
-    {
       "id": "9c55689bebe9ba",
       "category": "politics",
       "title": "【視察】ゲンロンカフェ 日本政治の「現場」はどこにあるのか③ ～沖縄の負の連鎖～ - 選挙ドットコム",
@@ -397,38 +406,6 @@
           "title": "【視察】ゲンロンカフェ 日本政治の「現場」はどこにあるのか③ ～沖縄の負の連鎖～ - 選挙ドットコム",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nMWRTVW5lOHNYOG9XUFRoZmlyamJlcVBNYVVSVXpGc0JUSFZaeWdla01EWDlIcXV6eldnMVlPaktRd0ZHakJPZ2NvZ3Zxc01qRzR6Y1FWRHkxamdGOTFV?oc=5",
           "publishedAt": "2026-10-06T23:06:03Z"
-        }
-      ]
-    },
-    {
-      "id": "8677ea662d8782",
-      "category": "entertainment",
-      "title": "藤井隆54歳が芸能界で愛され続ける必然 「ナンダカンダ」再評価と夫婦円満を生んだ“気遣い力” - 日刊ゲンダイDIGITAL",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T21:00:00Z",
-      "sources": [
-        {
-          "id": "a81e2c8fad5462",
-          "name": "日刊ゲンダイDIGITAL",
-          "title": "藤井隆54歳が芸能界で愛され続ける必然 「ナンダカンダ」再評価と夫婦円満を生んだ“気遣い力” - 日刊ゲンダイDIGITAL",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vR0JROFpNWTVHT0xUOVIxUmNuZm5kSWlrZUJQTGZLaTAwQzdRMm1yd01LNkNIWHZKZjgxSURNV1pCTEd5RVhUX3Zwc0RpclFaMFBsbFF3YmxCWUFuYmw5ODBsVHllcnM?oc=5",
-          "publishedAt": "2026-10-06T21:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "1214e9c9fe78a8",
-      "category": "internet",
-      "title": "看板猫ミケちゃんの御朱印がSNSで話題に 遠方や海外からも申し込みが殺到する「オンライン授与所」とは - TBS NEWS DIG",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T21:00:00Z",
-      "sources": [
-        {
-          "id": "ed2468e5ca76b0",
-          "name": "TBS NEWS DIG",
-          "title": "看板猫ミケちゃんの御朱印がSNSで話題に 遠方や海外からも申し込みが殺到する「オンライン授与所」とは - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9SX0xiRl9jRzFFMXVBbDAxeVdJVURUZVFTaDdzYmZFVzlkTTItYmxDVGRPWW56UjZ1bTl6eE5aRVlMMUR4Z3NLT2NkRzNvbndUWEViZUFRLUhwVTRSaTBZ?oc=5",
-          "publishedAt": "2026-10-06T21:00:00Z"
         }
       ]
     },
@@ -449,18 +426,41 @@
       ]
     },
     {
-      "id": "5bc4f815bf309f",
+      "id": "5509010419a5a6",
       "category": "economy",
-      "title": "はじめに：『2040年の日本再生 進化系フィジタル経済の衝撃』 - 日経BOOKプラス",
+      "title": "円相場 値下がり 日米の金利差が意識され円売りの動き - NHKニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T20:00:00Z",
+      "latestPublishedAt": "2026-10-06T11:07:57Z",
       "sources": [
         {
-          "id": "54811dcd394494",
-          "name": "日経BOOKプラス",
-          "title": "はじめに：『2040年の日本再生 進化系フィジタル経済の衝撃』 - 日経BOOKプラス",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8yVUx2amVFR3A1dWw2d19ucnNHTlFiN2ZGSjJ1Q2s5dlNPV2dWM0NEMFJMQjdNZThTNDFfX1hMTnNQNW8tT2FZdG16WU1QWUtUODNET3JBYk96QkE3Y013eVJyelExcUN1ZlQ0dA?oc=5",
-          "publishedAt": "2026-10-06T20:00:00Z"
+          "id": "b3b879260c531f",
+          "name": "NHKニュース",
+          "title": "円相場 値下がり 日米の金利差が意識され円売りの動き - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aZWVZcGV2SXROOFJ2RlB4UEJyRG9KbVJQbUNfaEVpaUp4YlhLNENkTXJLaVdmNWNkVThrTDRKVlNvamJiQ1VOaDJIM21XelBXdktxT3FCZWhHdjBMOWpR?oc=5",
+          "publishedAt": "2026-10-06T11:07:57Z"
+        },
+        {
+          "id": "1f356a18361e34",
+          "name": "NHKニュース",
+          "title": "円相場 小幅な値動き - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iRnZQMEFvRm9Id0x5cXZ4UWtldV9NN25KVmszUkRCV3VRaDQ1bDJyMnR1SXpFcDA5emVHVktXY0RxOVd1eEh5ZVNyRHlQZC15NUpwbkxDaVlpRUJhQ3h3?oc=5",
+          "publishedAt": "2026-10-05T09:31:28Z"
+        }
+      ]
+    },
+    {
+      "id": "ae5ffdde66c089",
+      "category": "entertainment",
+      "title": "佳子さま、京都・京丹波町をご訪問 伝統芸能「和知人形浄瑠璃」や菊花展などご鑑賞 地元中学生と交流も - 朝日放送",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-06T10:17:00Z",
+      "sources": [
+        {
+          "id": "2566d19569227c",
+          "name": "朝日放送",
+          "title": "佳子さま、京都・京丹波町をご訪問 伝統芸能「和知人形浄瑠璃」や菊花展などご鑑賞 地元中学生と交流も - 朝日放送",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94NEFlWmt5cHNMV3FjOHNYR3gyV0VLNnlpVEJ3R3dKcUdaTHdVV24wOTVDR00xWGd3SUh2dnI2bEE1ajJPZlZCdE9jV2ROczNLVDJjcVVxSEIzTnp0NVE5OHZR?oc=5",
+          "publishedAt": "2026-10-06T10:17:00Z"
         }
       ]
     }
