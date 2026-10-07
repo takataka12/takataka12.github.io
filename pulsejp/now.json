@@ -1,28 +1,104 @@
 {
-  "generatedAt": "2026-10-07T00:42:26Z",
+  "generatedAt": "2026-10-07T07:14:36Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "2746576153b410",
+      "id": "7cbf064efec0da",
       "category": "politics",
-      "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-06T08:50:57Z",
+      "title": "【速報】首相は衆院定数削減に関し「今国会実現に向け議論を期待する」と述べた - 時事ドットコム",
+      "sourceCount": 3,
+      "latestPublishedAt": "2026-10-07T06:10:00Z",
       "sources": [
         {
-          "id": "1e393f28d443fe",
-          "name": "自由民主党",
-          "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
-          "publishedAt": "2026-10-06T08:50:57Z"
+          "id": "b48157fd1cef22",
+          "name": "時事ドットコム",
+          "title": "【速報】首相は衆院定数削減に関し「今国会実現に向け議論を期待する」と述べた - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fVDdldUxRdE9Ib1owV2pKd0JpTW1LZngxYWxhMFhIaHl5elowYnZiU0w2bHlUT3U3a19KWDJQZUlMTWd1WWlsTWpJOHhSZzhoaFpfekpRUU1VYnhCSkhFSF84UXNFUQ?oc=5",
+          "publishedAt": "2026-10-07T06:10:00Z"
         },
         {
-          "id": "0e7683dd006b11",
-          "name": "首相官邸",
-          "title": "第２２２回国会における高市内閣総理大臣所信表明演説 - 首相官邸",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95WVExbmxTYjlHZ2N1NnlTWUlsMFNUaHBIOUZMMlRiRDNFTm90TnlvdDNGZ2l4RURaYWVZeWxiajRfYkFMTVJFaWI1Z1NVeGtPREVveUR2b2NEd1R0TXVpLWY5am5oNi1Zdi1aTW5qZVROX0EtNW43cQ?oc=5",
-          "publishedAt": "2026-10-06T02:29:10Z"
+          "id": "e030fc38a31182",
+          "name": "沖縄タイムス社",
+          "title": "定数削減、今国会実現に向け議論期待と首相 - 沖縄タイムス社",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE51LVF3c0xXWDYyR1pWUjBGV0R5SjBxc0Ftc2loRmFRSVQyRnJzS18wazJESlRqeTV0S2xyMEpaTmRnOGcxdWgtblE2dTJLRlVpTHdMRy11MG1Ic2VxY0E?oc=5",
+          "publishedAt": "2026-10-07T05:43:36Z"
+        },
+        {
+          "id": "06eb542b7c3dcd",
+          "name": "佐賀新聞",
+          "title": "定数削減、今国会実現に向け議論期待と首相 - 佐賀新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aMVJSWFhZUWktV1c2NFZfZnh4X21ubVhaNFhkTG4wcnl6Z0hnQU9TTXNRZzd6Mk5UdkV1cVp5eThla0pxd3dpQnd2VzRqWjdGUUhCLUdB?oc=5",
+          "publishedAt": "2026-10-07T05:43:00Z"
+        }
+      ]
+    },
+    {
+      "id": "cc21501d84151e",
+      "category": "entertainment",
+      "title": "９日に苫小牧で太鼓芸能集団「鼓童」の公演 市内では12年ぶり - 北海道新聞デジタル",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-07T04:17:31Z",
+      "sources": [
+        {
+          "id": "bea330ca7a4b21",
+          "name": "北海道新聞デジタル",
+          "title": "９日に苫小牧で太鼓芸能集団「鼓童」の公演 市内では12年ぶり - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1INVFjUEZwZmVkR19ndG1HaUh6QWttdFQtQ2Q4U3RpY0FkODRGQU1JV0xBZk5hZUh5Y3V1MkhLOEtKajh2Z2R2Yk9PMFM3dEpFOFZnUmwtV3VyUE1MVmNEemRTTTI?oc=5",
+          "publishedAt": "2026-10-07T04:17:31Z"
+        },
+        {
+          "id": "6cfbd938ae1761",
+          "name": "47NEWS",
+          "title": "９日に苫小牧で太鼓芸能集団「鼓童」の公演 市内では12年ぶり - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE43dE0tV1BHOEpsNWVIc2dCSDlEaXZ0bzFINzNJTFJxWUdZb0NCdEYycExqRlNDenZLR2t0a3RRWmdBdThreF9rTURROA?oc=5",
+          "publishedAt": "2026-10-07T04:17:31Z"
+        }
+      ]
+    },
+    {
+      "id": "556b3956745f6a",
+      "category": "internet",
+      "title": "【今週のファミマさん】SNSで話題のビターな「チョコがけマシュマロ」が再登場！ ミックスベリー香るルイボスティーも - 千葉テレビ放送株式会社",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-07T01:26:25Z",
+      "sources": [
+        {
+          "id": "134f6d92a6dd5e",
+          "name": "千葉テレビ放送株式会社",
+          "title": "【今週のファミマさん】SNSで話題のビターな「チョコがけマシュマロ」が再登場！ ミックスベリー香るルイボスティーも - 千葉テレビ放送株式会社",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WOF9mbEdtbkNqNG9UNUlfMktKc0JZdTk1ZUk2X194VEY3SU5tZkhXQzNkSUd5cFRoU1RnektRRHFULW5qRndBd2lldC10Y1puRXVGc3AzRkN6R3ppLTA0?oc=5",
+          "publishedAt": "2026-10-07T01:26:25Z"
+        },
+        {
+          "id": "d84b9a7a170adb",
+          "name": "グルメ Watch",
+          "title": "【今週のファミマさん】SNSで話題のビターな「チョコがけマシュマロ」が再登場！ ミックスベリー香るルイボスティーも - グルメ Watch",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85bXphRW8xcGRvZnBxM2YwaUprWlNLTnB2SFN4cUpSTjVzdGw1aE9Sai0zS0JoRFRYeXNwRzRacUpHaERPNlVSc2UzNi1LTmF3cmJBMGFyZmxuaHFfNWJLSGpPd29kSDZRSnc?oc=5",
+          "publishedAt": "2026-10-07T01:04:38Z"
+        }
+      ]
+    },
+    {
+      "id": "61f6086e2cfeeb",
+      "category": "economy",
+      "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - ｄメニューニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-06T22:05:35Z",
+      "sources": [
+        {
+          "id": "84e7df18c9b608",
+          "name": "ｄメニューニュース",
+          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBNSGhnTjVtZmJkb0h4aUFUcXVRTmNFdklPQWpPVExMWWhsUVdsTDRjcHRyVzdqSmptX2Q2ZEgzUFpkdVlKbF8tYWhvclBmMzJoaUd3M0poMFd5TVpvUE5Cc3ZxN0Z4eUF5R0I3U2o3LVBTNmFDa0ZVa0hn0gF_QVVfeXFMTzNwUzVxUldBd3ZpZ3VqNV9wSHlUVTdiZWdNU2dkSGk3cHg3U19HWHFsVzBta3BsMnNtMTNzN1lrVV9PT0htWHlyWG96XzQ2b3BYQUNpSEhORkRWbHVKbGx6dHBqWmVCYjJhNms3bjlYTjBRcTlqUEdRVERyQ3VfZw?oc=5",
+          "publishedAt": "2026-10-06T22:05:35Z"
+        },
+        {
+          "id": "54d0c2780d59ee",
+          "name": "集英社オンライン",
+          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - 集英社オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94VXp5eUVCZmlSdnQ0MXhJOHdrYjdYa09ySnVpT2pmNTgxLTBNcmVtSHZ5UlNFdmxrdGppU1N6Q252QTc4SVZ6Z3N3aGxjemNMVGpR?oc=5",
+          "publishedAt": "2026-10-06T22:00:00Z"
         }
       ]
     },
@@ -195,6 +271,125 @@
       ]
     },
     {
+      "id": "e5a1681af88eb0",
+      "category": "internet",
+      "title": "【GU】色が完璧に…「ソースすぎる靴下」がSNSで話題！オタフク公式も反応「勝手コラボ認定」「公式が驚いてるのがおもしろい」 - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T06:55:00Z",
+      "sources": [
+        {
+          "id": "3b4366581eae08",
+          "name": "Yahoo!ニュース",
+          "title": "【GU】色が完璧に…「ソースすぎる靴下」がSNSで話題！オタフク公式も反応「勝手コラボ認定」「公式が驚いてるのがおもしろい」 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxQW8yYmlJajN6eGZMWVR3UlJPQUJoZGg2LVJ6bWhTMDFRMDI5VktjWTM0OGFmMktqMkV4MGZpT2JaVHRwZVhnWHF4TWhGZFYxMnFzTkZfY2J5b0dOYmpUZ3UxeDNQYTA1RllVcWFGbl9YRExLb2wwRkZZMjg1MGs?oc=5",
+          "publishedAt": "2026-10-07T06:55:00Z"
+        }
+      ]
+    },
+    {
+      "id": "43e648bdb0778b",
+      "category": "economy",
+      "title": "「決して楽観視できるとは言えない」財務省が公表した国際比較で日本が“北朝鮮より下”だった項目 - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T05:30:35Z",
+      "sources": [
+        {
+          "id": "3c31a2495a2711",
+          "name": "Yahoo!ニュース",
+          "title": "「決して楽観視できるとは言えない」財務省が公表した国際比較で日本が“北朝鮮より下”だった項目 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZcE00cGlWdHZLX0hfUTdFdWNOOFJWSUJWZHdSLUlCZjNyblJiTjRVWXBNVnU1MDNnRFJCZy1zNlJWclBUR2l3dnVGLXltMWR1Q1NSNVYxcG5QNDZ1YmZ4NlJDYVZQN2d6ZGtHU0NKYkZFWjlwbUhxbVRvbGFNbk0?oc=5",
+          "publishedAt": "2026-10-07T05:30:35Z"
+        }
+      ]
+    },
+    {
+      "id": "99dd3c6f90033b",
+      "category": "economy",
+      "title": "日本経済指標【景気動向指数（速報値）】 - みんかぶ FX/為替",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T05:01:29Z",
+      "sources": [
+        {
+          "id": "25194189383644",
+          "name": "みんかぶ FX/為替",
+          "title": "日本経済指標【景気動向指数（速報値）】 - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkbUkxclVDbVcybHA5eWh2aXhBTVBaZXVXcG1sM0hfNDZMbzR3YXJqU1NlWGxucS1rTWRJMlUweGxTWGpiTGhPeA?oc=5",
+          "publishedAt": "2026-10-07T05:01:29Z"
+        }
+      ]
+    },
+    {
+      "id": "a834b9312df68d",
+      "category": "internet",
+      "title": "『大葉の意外な食べ方』を実践！ SNSで話題のアイデアに「子供も完食」「薬味だけじゃない」 - grapee.jp",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T03:37:12Z",
+      "sources": [
+        {
+          "id": "c2af933b61327e",
+          "name": "grapee.jp",
+          "title": "『大葉の意外な食べ方』を実践！ SNSで話題のアイデアに「子供も完食」「薬味だけじゃない」 - grapee.jp",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWSjdRRXpMS1N0QzIyQWswOTcxMTVxWG9VOHBreE4tdC1kSlRpSzFYUDFnRV9nQWFNM29BOXlwcXZQZWNWb01Qdy00TG1KZw?oc=5",
+          "publishedAt": "2026-10-07T03:37:12Z"
+        }
+      ]
+    },
+    {
+      "id": "33fd6e4283256b",
+      "category": "economy",
+      "title": "日経平均後場寄り付き：前日比440.60円安の70243.38円｜FX・為替ニュース - ザイFX！",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T03:30:00Z",
+      "sources": [
+        {
+          "id": "e5f510eb9ecb8a",
+          "name": "ザイFX！",
+          "title": "日経平均後場寄り付き：前日比440.60円安の70243.38円｜FX・為替ニュース - ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBsT244SndSbEE3c2x3dER4OHRtenR0b0pZcEJ6djA1bW1pUGZLanllVXVOelIxbE1hTXVZYXBSZ3NrZmo4RkNtOVQyeUpoU2tFdEE?oc=5",
+          "publishedAt": "2026-10-07T03:30:00Z"
+        },
+        {
+          "id": "973ee4c8db5d18",
+          "name": "ザイFX！",
+          "title": "日経平均前場引け：前日比609.85円安の70074.13円｜FX・為替ニュース - ザイFX！",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEUld1VDVOd2hOQndVZVhyTFJjLWRoV2hjMGJNYjlwSFZEdS1NaTk1RURWczJmdU93RFUwRS1LUEtseGNsbGhwUGdONEhkck8zOGc?oc=5",
+          "publishedAt": "2026-10-07T02:32:00Z"
+        }
+      ]
+    },
+    {
+      "id": "45d212e3afc09c",
+      "category": "politics",
+      "title": "真山仁が描く日本崩壊。政治とは約束か、結果か、幻想か？ 『オペラティオ』試し読み - 本の話",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T03:05:20Z",
+      "sources": [
+        {
+          "id": "092d43fefc87b6",
+          "name": "本の話",
+          "title": "真山仁が描く日本崩壊。政治とは約束か、結果か、幻想か？ 『オペラティオ』試し読み - 本の話",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wSncyUWkyOXZoenBlN2duWlcyakFlWWtmLTB2cHR6bktUY2ttOElGWVgteWwyakhrX3ZpZDJWT1BFZ20wN19TYThVcTFTS1pNOEk0?oc=5",
+          "publishedAt": "2026-10-07T03:05:20Z"
+        }
+      ]
+    },
+    {
+      "id": "057107ad042543",
+      "category": "internet",
+      "title": "【無印良品】SNSで話題の『ヘッドスクラブ』試してみると →「使わなかったことを後悔」 - ｄメニューニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T03:02:00Z",
+      "sources": [
+        {
+          "id": "36cee4b5300398",
+          "name": "ｄメニューニュース",
+          "title": "【無印良品】SNSで話題の『ヘッドスクラブ』試してみると →「使わなかったことを後悔」 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU0xOUFM0OVFud1h1SjhtRW9FMjBTLVZGejRJWTAwcmpGWkJOVFk1TmtVMmVudmtQMkp4LVBRX3lUbTFENTFvdFMxSDJQLVZPUDNSUlF1cnNxTEpVRnlLNjlSVTIyTVZwNEdkZ3A3S0dWZGNROVBDMk03S0tNYllneHQ5UGVENDFGcjlreDZWUEpjbEk1bTV4MmVlZ3F6VXItZXJSd1lMONIBpwFBVV95cUxPU0xOUFM0OVFud1h1SjhtRW9FMjBTLVZGejRJWTAwcmpGWkJOVFk1TmtVMmVudmtQMkp4LVBRX3lUbTFENTFvdFMxSDJQLVZPUDNSUlF1cnNxTEpVRnlLNjlSVTIyTVZwNEdkZ3A3S0dWZGNROVBDMk03S0tNYllneHQ5UGVENDFGcjlreDZWUEpjbEk1bTV4MmVlZ3F6VXItZXJSd1lMOA?oc=5",
+          "publishedAt": "2026-10-07T03:02:00Z"
+        }
+      ]
+    },
+    {
       "id": "2d4c46d83087f3",
       "category": "internet",
       "title": "SNSで話題のモバイルバッテリー耐火ケース→セリアの新商品です - ガジェット通信 GetNews",
@@ -207,22 +402,6 @@
           "title": "SNSで話題のモバイルバッテリー耐火ケース→セリアの新商品です - ガジェット通信 GetNews",
           "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9PNVdaR0htd281ZFZ2T0wxSEdFWklsS1ZGLUhjVmVzd3lmNGZNaGhjbEwxZl9BRGdCUnV1ejR1TzJiMEpUYlBMdVA0TQ?oc=5",
           "publishedAt": "2026-10-07T00:00:39Z"
-        }
-      ]
-    },
-    {
-      "id": "644f8a4b1001ad",
-      "category": "economy",
-      "title": "日本経済指標（実質賃金） - みんかぶ FX/為替",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T23:30:28Z",
-      "sources": [
-        {
-          "id": "2a3d5e28a852a8",
-          "name": "みんかぶ FX/為替",
-          "title": "日本経済指標（実質賃金） - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4ybWtZNTMyU1VrUHJYNG0xWktZUUgwQ201M0VzamFCSUFMTXpZTWNPWDZGdWR5cjZDUDhWekN0dlpqRGVsUjQwQQ?oc=5",
-          "publishedAt": "2026-10-06T23:30:28Z"
         }
       ]
     },
@@ -243,50 +422,18 @@
       ]
     },
     {
-      "id": "f3094540023de6",
-      "category": "internet",
-      "title": "「価格も含め魅力的」「めっちゃ期待してる」スズキ初の軽乗用EV『eスカイ』は212万円から！ SNSで話題に - kakaku.com",
+      "id": "8677ea662d8782",
+      "category": "entertainment",
+      "title": "藤井隆54歳が芸能界で愛され続ける必然 「ナンダカンダ」再評価と夫婦円満を生んだ“気遣い力” - 日刊ゲンダイDIGITAL",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T22:40:00Z",
+      "latestPublishedAt": "2026-10-06T21:00:00Z",
       "sources": [
         {
-          "id": "9e6d37924d8239",
-          "name": "kakaku.com",
-          "title": "「価格も含め魅力的」「めっちゃ期待してる」スズキ初の軽乗用EV『eスカイ』は212万円から！ SNSで話題に - kakaku.com",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13aWZKT3VBdWNoZDlyRmVtUFRTZEhZcWhuRVd2VnFJVEJpRUFoYjFFM0ZtNzhtaGdObnIzRDFKWEUxa1B5N0RNVDVwYlBZR3dpUTU5X0UxVEs5cWRDX2xyWEJpdFNfWWk1eTVLMlUwYw?oc=5",
-          "publishedAt": "2026-10-06T22:40:00Z"
-        }
-      ]
-    },
-    {
-      "id": "68b54ace5c4bc3",
-      "category": "economy",
-      "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T22:04:30Z",
-      "sources": [
-        {
-          "id": "7f401820f6a228",
-          "name": "Yahoo!ニュース",
-          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53RmkwbHBQSUpVUXJOZk4wTmNObnJyMWV1MUUyTXZsUERDVWFVTGVlR3kwTlJHUnpWLTNtQ1NReWpyR0M4elI4WUJzOUlyMHVWTTRvOUlrTUhhanlXcVpybzBjTm8wWUJ4UUdlNDJPRzV0LUdHZmhwMEptank0aTQ?oc=5",
-          "publishedAt": "2026-10-06T22:04:30Z"
-        }
-      ]
-    },
-    {
-      "id": "a6dd2425d71d7a",
-      "category": "internet",
-      "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン) - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T20:22:44Z",
-      "sources": [
-        {
-          "id": "661c4f4b9a600b",
-          "name": "Yahoo!ニュース",
-          "title": "「待ってた」昨年SNSで話題の無印良品『ポムショコラ』がきょうから順次発売 告知は160万表示 (オリコン) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNM1BZSTRkR21PZlMzYkRPRF85dzZJQzZNMVY4SFVWUnBrSndERWJBUnVJRWdJQ0pVdWJ4ajhndUwyTzkxVVVuZkdWRURsRG15b19WQUF2bGJjdko4NGVNVG9FZUc2RExKT3NOa1BWclAxSlpybGJwQVJhWl9PZ01uTHRCdXBUU3FmZFVqSjBR?oc=5",
-          "publishedAt": "2026-10-06T20:22:44Z"
+          "id": "a81e2c8fad5462",
+          "name": "日刊ゲンダイDIGITAL",
+          "title": "藤井隆54歳が芸能界で愛され続ける必然 「ナンダカンダ」再評価と夫婦円満を生んだ“気遣い力” - 日刊ゲンダイDIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vR0JROFpNWTVHT0xUOVIxUmNuZm5kSWlrZUJQTGZLaTAwQzdRMm1yd01LNkNIWHZKZjgxSURNV1pCTEd5RVhUX3Zwc0RpclFaMFBsbFF3YmxCWUFuYmw5ODBsVHllcnM?oc=5",
+          "publishedAt": "2026-10-06T21:00:00Z"
         }
       ]
     },
@@ -307,56 +454,17 @@
       ]
     },
     {
-      "id": "99d9f26ce443da",
-      "category": "economy",
-      "title": "【テクニカル】日経平均株価テクニカル分析－7万円を超えて6月の高値が視野に入る - 外為どっとコム",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T15:52:35Z",
-      "sources": [
-        {
-          "id": "5dfd0387fe3ce4",
-          "name": "外為どっとコム",
-          "title": "【テクニカル】日経平均株価テクニカル分析－7万円を超えて6月の高値が視野に入る - 外為どっとコム",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfbUl4TVJOTXlUcHZ0MU9DZWptb1psdDZxZmpqYlNFSkl2RXhKandieWFOSGlpMVgxVldkRUNMS3UzVFVYazcyX05IUDkwbnQwWVpySFZHV21TNC05MndMVnBFMA?oc=5",
-          "publishedAt": "2026-10-06T15:52:35Z"
-        },
-        {
-          "id": "ccc541e2070e72",
-          "name": "外為どっとコム",
-          "title": "【テクニカル】日経平均株価テクニカル分析－大幅高で8月の戻り高値を上回る - 外為どっとコム",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9oOWFzMGFYWVRoMmNjX3VZQmVvQWxWVk1WQjJIRjZacmoweGpBNkM5Z0xUTk0xZnluRlFHLTdrdFhmVlhYM3FBX3kxZU1DNXotV05Nb3hKSW5xejVxWlFrT3hPbw?oc=5",
-          "publishedAt": "2026-10-06T03:18:05Z"
-        }
-      ]
-    },
-    {
-      "id": "bc8f949c4f13d7",
-      "category": "internet",
-      "title": "【神戸市須磨区】SNSで話題の爆盛りポテト＆蒲鉾店の変わり種コロッケ！須磨区おすすめのローカルグルメ【ちゃちゃ入れマンデー】 - https://miyoca.jp/",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T12:00:00Z",
-      "sources": [
-        {
-          "id": "446554697cf721",
-          "name": "https://miyoca.jp/",
-          "title": "【神戸市須磨区】SNSで話題の爆盛りポテト＆蒲鉾店の変わり種コロッケ！須磨区おすすめのローカルグルメ【ちゃちゃ入れマンデー】 - https://miyoca.jp/",
-          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBrTlJpMnVMU0pqUWNhR24wRkQ5YlJHNXU1TmtwanJEcEFBdDU5ZS1zOXhReEhkRzJvVVoyc1ZXWQ?oc=5",
-          "publishedAt": "2026-10-06T12:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "207e6fbfe4de51",
+      "id": "8b4580b691dd2b",
       "category": "internet",
       "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下（サンキュ！） - Yahoo!ニュース",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-06T11:50:00Z",
       "sources": [
         {
-          "id": "50ae0f55596899",
+          "id": "f1ef33aa4a6390",
           "name": "Yahoo!ニュース",
           "title": "【ローソン×無印良品】SNSで話題！アールグレイ香る限定コスメ＆看板カラー靴下（サンキュ！） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUHJjM0tUY2E3bUVPXzNHbW00LWtwV1dUMTJBcWEwME1qN0l0RFcxRWYyeHFMWm1va1IxWXB0Z2VINTZkbHJUYjVqelpPanJnbzhJNXlMUEhIUVZ2ZWdORUR1STduQWRWbURGYmJGY3ZnclJpVjE2aDNiNXdpZ2R0NVdVVW9NZkNo?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcmZVZzYyNEo1czh6LTlUaV9qZHVTdUtMemhzb3RadTc0eFE1UnZ2aUVXQl9nbUdDVDc2VGllVGVGR25RRTQxM0xuck1iWDZJd0swcHp5VFRzemtCRnpUaWtvVE84V1U5OGxZVE1ZTnFqQ0VDUVRzTllGbTdtc3dXclFhRjg3djNW?oc=5",
           "publishedAt": "2026-10-06T11:50:00Z"
         },
         {
@@ -388,100 +496,6 @@
           "title": "円相場 小幅な値動き - NHKニュース",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iRnZQMEFvRm9Id0x5cXZ4UWtldV9NN25KVmszUkRCV3VRaDQ1bDJyMnR1SXpFcDA5emVHVktXY0RxOVd1eEh5ZVNyRHlQZC15NUpwbkxDaVlpRUJhQ3h3?oc=5",
           "publishedAt": "2026-10-05T09:31:28Z"
-        }
-      ]
-    },
-    {
-      "id": "1ebbdf2ee1db4f",
-      "category": "entertainment",
-      "title": "【二宮和也】芸能生活30周年！今切実に欲しい“能力”＜芸能動画＞ - テレ朝NEWS",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T10:11:45Z",
-      "sources": [
-        {
-          "id": "6b7880e6a5afca",
-          "name": "テレ朝NEWS",
-          "title": "【二宮和也】芸能生活30周年！今切実に欲しい“能力”＜芸能動画＞ - テレ朝NEWS",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JemREQ1VqeVNJdU1waVFLSDdvRVZNeDFiVl9QeGsyanhqVFZEOG4yZDkyeEROMTJiNFhrbWtSVzBlRTBnTEhiazlLTGY1LWdtTDNfRmt2d3JZUUVUc1B6WXdXYm94dTZfdXJKOWJtLVM?oc=5",
-          "publishedAt": "2026-10-06T10:11:45Z"
-        },
-        {
-          "id": "394a044ebaf4bb",
-          "name": "テレ朝NEWS",
-          "title": "【佐々木希】芸能生活20周年 秋田弁に苦戦した若手時代＜芸能動画＞ - テレ朝NEWS",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9mNUI0Y1RCR0tZYXVOUWkySzVoTUtXUHplSWN6RVo2cTdmcVN6WC11Z1RvQm9QSmZpZHI1Rnp5dDFDMHBPUlJZdnNtdHE3RS1TMkQtYmtqbWV3cURTZEpjWF9MYUxwd3JmRUtGRlBXZHY?oc=5",
-          "publishedAt": "2026-10-05T11:26:15Z"
-        }
-      ]
-    },
-    {
-      "id": "34659b5be05353",
-      "category": "politics",
-      "title": "伊勢崎賢治議員がイランを公式訪問 アラグチ外相と会談 イラン戦後日本の政治家で初 - 長周新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T07:05:25Z",
-      "sources": [
-        {
-          "id": "fd3f9cfbcac998",
-          "name": "長周新聞",
-          "title": "伊勢崎賢治議員がイランを公式訪問 アラグチ外相と会談 イラン戦後日本の政治家で初 - 長周新聞",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFByd0xoT252QmNvMmJrMjVIRTdXTEt0MldubGIyZHdqTUEyTkpHejdndmN1cGw1S29MUkxiN0dWcXozMmhGVzRvOFdIZ01zb0dvRlA4Um1sakF4TlE?oc=5",
-          "publishedAt": "2026-10-06T07:05:25Z"
-        }
-      ]
-    },
-    {
-      "id": "6f122a7170f9b8",
-      "category": "internet",
-      "title": "「顔が渋すぎる」とSNSで話題沸騰！人気者アザラシ「かつのりくん」 オホーツクとっかりセンター - HTB北海道テレビ",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T06:58:00Z",
-      "sources": [
-        {
-          "id": "ab5a9b8e229c38",
-          "name": "HTB北海道テレビ",
-          "title": "「顔が渋すぎる」とSNSで話題沸騰！人気者アザラシ「かつのりくん」 オホーツクとっかりセンター - HTB北海道テレビ",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwSk5CVFNhQ0xnYXdwX0JkNU45TkFfa2xIQ2pnWE1BclRrdkNKbGdpRXZlbTFZRV9qSE9qMDhhZ2JZejF0cUpmaEd3ZTVhdG1EY0N3d19CdlpVZw?oc=5",
-          "publishedAt": "2026-10-06T06:58:00Z"
-        }
-      ]
-    },
-    {
-      "id": "02cd09fc2ce616",
-      "category": "economy",
-      "title": "日経平均大引け 続伸 737円高の7万0683円 3カ月ぶりに7万円台回復 - 日本経済新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T06:35:41Z",
-      "sources": [
-        {
-          "id": "9565cb098ca1e5",
-          "name": "日本経済新聞",
-          "title": "日経平均大引け 続伸 737円高の7万0683円 3カ月ぶりに7万円台回復 - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0ZUpmNGFxd1RXNnVHVEFQaU9IR2htQXZZOU1FNjBRTFFPaGxkR3dRMVdqQnlNMkU1M29qRkJrMkV6WWFtNDU5S2JPZlBLdkprTzFUaTJESUVPdWh4b0U4TmxhRV8yMUw1cHNiNQ?oc=5",
-          "publishedAt": "2026-10-06T06:35:41Z"
-        },
-        {
-          "id": "4e80aefc6104c4",
-          "name": "日本経済新聞",
-          "title": "日経平均終値737円高、3カ月ぶり7万円台回復 「業績相場」に先回り - 日本経済新聞",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE53M2NNWEdsb1otVm1YWDEyMG5xMHJ5bF9XRTRORkRRZkFMY0lESUMxdlpuV3lSbXZ3RDNDQ2RLMGplVzVaejBudG9mZjkzUDJ0bEhIdERMWkJpTVdBMW9XV3ZsdmZoQ2FrdzBKSg?oc=5",
-          "publishedAt": "2026-10-06T02:57:43Z"
-        }
-      ]
-    },
-    {
-      "id": "03f44a61d40df2",
-      "category": "economy",
-      "title": "東アジアの仮想通貨経済、日本が2位 分散型取引所の利用が盛ん＝チェイナリシス - CoinPost",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T04:15:33Z",
-      "sources": [
-        {
-          "id": "21348acf8d720d",
-          "name": "CoinPost",
-          "title": "東アジアの仮想通貨経済、日本が2位 分散型取引所の利用が盛ん＝チェイナリシス - CoinPost",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2bE0xV1kwM3JjVlJucWV1N2FhRXlDdWUtN2VNZUV0cF9SdE9xdTZsRXh3R3A5VGFjeTJlbXZtRkJkSDA?oc=5",
-          "publishedAt": "2026-10-06T04:15:33Z"
         }
       ]
     }
