@@ -1,54 +1,31 @@
 {
-  "generatedAt": "2026-10-08T07:25:02Z",
+  "generatedAt": "2026-10-08T15:36:58Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "004d7c849c6e2c",
+      "id": "1a2dc5c6a76119",
       "category": "economy",
-      "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - ニューズウィーク日本版",
+      "title": "【注目トピックス 市況・概況】米国株見通し：下げ渋りか、金融政策や企業決算を注視 - マネーポストWEB",
       "sourceCount": 3,
-      "latestPublishedAt": "2026-10-08T05:00:00Z",
-      "sources": [
-        {
-          "id": "5a7e6e40abb239",
-          "name": "ニューズウィーク日本版",
-          "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - ニューズウィーク日本版",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBCbHVzOWNEZGpqQi1GdDVkZ1ptSFBKYWxkZi1wNDhnTGt6dFV5ZElrckhiaDBPRVVfMVhSSWVEN09uSjNJVE1mckJTYmVyVGs0U3RPbnJ3OFhmUQ?oc=5",
-          "publishedAt": "2026-10-08T05:00:00Z"
-        },
-        {
-          "id": "b6a50f50495a0c",
-          "name": "ｄメニューニュース",
-          "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQXBJMEZheTVVeXZULXBiT25XLU4xeDg3U0V6ajVtTkJZOWtRWEh4dE9LWjRVazZmeW9mTkhFQTN1MXVKcEtJd1RZTG1ldVBnUEljLXVwd25nWm52TmFRSUxnSUVTMy1ySklqNElSNEJYcDVjOExXOWg4dUtlQkJCazln0gGHAUFVX3lxTFBFdkxRTzk4bG1Db19WemFYQV9teFVkS3M3MW53UEFOZVZETTJ6MVFvUm55amNFUEtqeGxaa2t4Mlg4RGVkeEYxUjRvcEw3anhRT2FtRVduVHo1cFhKblVIRVRPdEFKX2tGUmhHdGdaeFdTR0E0Q01YalhuQmRCb1JjUWM3WGlHMA?oc=5",
-          "publishedAt": "2026-10-08T05:00:00Z"
-        },
-        {
-          "id": "06e827e7a5c38d",
-          "name": "Bloomberg.com",
-          "title": "高市首相、日本経済はリフレ政策が必要な局面ではない－衆院本会議 - Bloomberg.com",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FR3pmbVJOVkJuLVV0OHp1Y1dWeW5UMXU4RmZGWTBNc1JEdjN0ZS1jNnlJeE5hLVNfbGlscnNMMllld0hSS2NyNFV1eElBUnBaNjlhb2dtbThLZDItMnh2YUdGb3dzRkNnanJjUGsybkkwUmhnREx3?oc=5",
-          "publishedAt": "2026-10-08T04:53:28Z"
-        }
-      ]
-    },
-    {
-      "id": "6f0901adc990fa",
-      "category": "economy",
-      "title": "米国株見通し：下げ渋りか、金融政策や企業決算を注視 - 株探",
-      "sourceCount": 2,
       "latestPublishedAt": "2026-10-08T04:44:20Z",
       "sources": [
         {
-          "id": "7115a6466f042a",
+          "id": "97742562104e4c",
+          "name": "マネーポストWEB",
+          "title": "【注目トピックス 市況・概況】米国株見通し：下げ渋りか、金融政策や企業決算を注視 - マネーポストWEB",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE81Zkx0aVBLdE9tQ3ZabmV4Wm85SnFaUnZUbDd1dkg1Zmd1YkEzNDVqWUJwN3F3N1RRNlhaWWVPVXhMMzliTTJR?oc=5",
+          "publishedAt": "2026-10-08T04:44:20Z"
+        },
+        {
+          "id": "19c0c177787b9a",
           "name": "株探",
           "title": "米国株見通し：下げ渋りか、金融政策や企業決算を注視 - 株探",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qVENoREwxREZaRmQ4V0RWWjROMWk4RFhfRzllcWwzamZWZ1ViaXZVeDhzbU84TGsxekJRTXhRVU95d3gya1ptRzR2QXhPWDVDV0t4WEVMTkppR05Zbm9TZUpB?oc=5",
           "publishedAt": "2026-10-08T04:44:20Z"
         },
         {
-          "id": "40ed0d149bb8b3",
+          "id": "49c92385a6d33e",
           "name": "ｄメニューニュース",
           "title": "米国株見通し：下げ渋りか、金融政策や企業決算を注視 - ｄメニューニュース",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWVNFV0xQOHRDdnNPcVlKWl9PUjF4c2g0N2IxbmZycTJsZ3VzUjl6US1TcHhRc085RklXdFZsOGVIT3VRWVhMcXZPbE5tYTR5VEdQWVRmY1hNYjhHYUt3am4yZWktOVliSmRuZHExYkpyT2NKb2VwTUlNbEZ5Ulh0ZXBwZkFyQWh4akRNZlRIeHM4MlRZWjZPTHJ30gGMAUFVX3lxTFBLV3hkV05VRWlJZDZHOVlQRzg0aHN4eVV0WmJqckc1TzRNSUdrTVlMb2hsVmptLVZJWmhxT0gxTkp1ME9ESFlYUmt1Y3RLNDBlUkFVcUJHNHoxRGJEaFFTZnUzRER2dGE5bElrcnV1WTRmVXkteUxpWGNobEhBRWk3NjVEclFvWDJxQmhE?oc=5",
@@ -57,48 +34,62 @@
       ]
     },
     {
-      "id": "1193f6d7eb9929",
-      "category": "entertainment",
-      "title": "マセキ芸能社、「こんなライブが見たい」に応える貸切ライブ企画を開始（お笑いナタリー） - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-08T04:24:10Z",
+      "id": "099c8e342c497b",
+      "category": "economy",
+      "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
+      "sourceCount": 3,
+      "latestPublishedAt": "2026-10-05T21:17:55Z",
       "sources": [
         {
-          "id": "bb3a9283e06db0",
-          "name": "Yahoo!ニュース",
-          "title": "マセキ芸能社、「こんなライブが見たい」に応える貸切ライブ企画を開始（お笑いナタリー） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WVmVwdU53YzVnaHlyWGF6dHd4UVZjMW0wRWpnTUVrZU90T2VHQm5WNjNiWEhxMzNpaFV0blhReHFZT0dCVVIxRkc5YndPYlZac3MxTFBoenAyNkV0a2dWLV90TW5ZNklMN3o5SnJ5cVdOY3FVcXNsUk9mYV9jc3M?oc=5",
-          "publishedAt": "2026-10-08T04:24:10Z"
+          "id": "3a3bf625de2509",
+          "name": "Reuters",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "publishedAt": "2026-10-05T21:17:55Z"
         },
         {
-          "id": "6504b26a81acd1",
-          "name": "ナタリー",
-          "title": "マセキ芸能社、「こんなライブが見たい」に応える貸切ライブ企画を開始 - ナタリー",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5xV3MwdXpBLXA5Z0gxbEVtUE1VVlV0OHRQdnFYOEd3OG1rSW1hTEVSWUxiNWNqWGtHZmZJZDluQ2hTMm5oY3JCbTJSYWZJUQ?oc=5",
-          "publishedAt": "2026-10-08T04:23:00Z"
+          "id": "0e74c47b8db0aa",
+          "name": "ｄメニューニュース",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引　企業決算に注目 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbmw0RjRtY29nUFJxTEJHaUdiLUxvU2FCODVzLTRNbjZSbHRIc0FSNG0wc3BQRFBjbDI2eGxiRGUta3YwbmhKYkJkZEljN3o5dUNpV01jOEIyaVVQYjFuZlR4U3ZrOXFGcmFDUlVURGhHT29JUlhVS1E1b0FUWjRxcUZB0gGHAUFVX3lxTE1ma3FFa2p1WUdwOFVwaWdESFlVeGNUR0x3UXNaUElxS0dWYTZmODVnMnlzWHVXWWxITm50a3FFdlBCMW9Ma29mZ2xqSklVeWxRcHl2azhZdTl1dGdPWWNSRlZvMVBMRkVrZmVIMGdjbVhDZFc2di1STEI5Vy1ja1RwVjhibUUxdw?oc=5",
+          "publishedAt": "2026-10-05T20:17:00Z"
+        },
+        {
+          "id": "0b9e4b3fb4c70b",
+          "name": "ニューズウィーク日本版",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - ニューズウィーク日本版",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZbTg4cjJLUnpqaGZCUTNGRDRoeWFIc1NJMHh0bUNXMFNiMVg4dDF6VG1NZXhOM1g1M3pNRmRlbVJKUlQ4b2ctek5MUUwwLVVORFo4ODBHZlhWdGhEQVhPTXZleDJBUDQ?oc=5",
+          "publishedAt": "2026-10-05T20:17:00Z"
         }
       ]
     },
     {
-      "id": "9347e5a6502794",
-      "category": "entertainment",
-      "title": "マセキ芸能社、所属タレントへの誹謗中傷などに声明 「執拗な連絡・接触」も対応へ【全文】（オリコン） - Yahoo!ニュース",
+      "id": "9301dab4580127",
+      "category": "economy",
+      "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - ｄメニューニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-08T02:10:17Z",
+      "latestPublishedAt": "2026-10-08T05:00:00Z",
       "sources": [
         {
-          "id": "2e354bef12da2b",
-          "name": "Yahoo!ニュース",
-          "title": "マセキ芸能社、所属タレントへの誹謗中傷などに声明 「執拗な連絡・接触」も対応へ【全文】（オリコン） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rMjFtcldUQkJrZjhKMzMwUmdYTy11ZGs5b085aGVMMElUb3dabFdRd0xqMlNyWE5BYWc1RFdKUnRuT214T0NJdkRKeTBFbGF4WGlNWXVwS2FQOFFvWEttMDBtcktoLWFIQnJJRWpNM0tWWlgyV2ZzWUg4Q3BDZzg?oc=5",
-          "publishedAt": "2026-10-08T02:10:17Z"
+          "id": "9cfa984ab9a796",
+          "name": "ｄメニューニュース",
+          "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQXBJMEZheTVVeXZULXBiT25XLU4xeDg3U0V6ajVtTkJZOWtRWEh4dE9LWjRVazZmeW9mTkhFQTN1MXVKcEtJd1RZTG1ldVBnUEljLXVwd25nWm52TmFRSUxnSUVTMy1ySklqNElSNEJYcDVjOExXOWg4dUtlQkJCazln0gGHAUFVX3lxTFBFdkxRTzk4bG1Db19WemFYQV9teFVkS3M3MW53UEFOZVZETTJ6MVFvUm55amNFUEtqeGxaa2t4Mlg4RGVkeEYxUjRvcEw3anhRT2FtRVduVHo1cFhKblVIRVRPdEFKX2tGUmhHdGdaeFdTR0E0Q01YalhuQmRCb1JjUWM3WGlHMA?oc=5",
+          "publishedAt": "2026-10-08T05:00:00Z"
         },
         {
-          "id": "798754219b7be1",
-          "name": "オリコンニュース",
-          "title": "画像・写真 | マセキ芸能社、所属タレントへの誹謗中傷などに声明 「執拗な連絡・接触」も対応へ【全文】 2枚目 - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8yYjd1ZmozRTVFSm51Ym1jY2VGNzdHZEpPNlZhT0ptd2tRek5wSHQ5c1lxNmRObmVkU0Z0bVp1Wm15NnRDOWtUNElzMEFSMFV6eDJHYjRCSHlxUWtiaGNDNUlsZmQ?oc=5",
-          "publishedAt": "2026-10-08T02:10:00Z"
+          "id": "8d0ae1b3e5bc24",
+          "name": "みんかぶ FX/為替",
+          "title": "高市首相 現在の日本経済はリフレ政策が必要な局面ではない - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nM21fQmZHN3Z4c3o3QU1zTFl3VUpab01OSTJGYm5aMHppY3hQTDA5MTFCSnZiQ2NGREhTT2F0eHZTVHlrYzlSbQ?oc=5",
+          "publishedAt": "2026-10-08T04:35:29Z"
+        },
+        {
+          "id": "7944310462cd4e",
+          "name": "みんかぶ FX/為替",
+          "title": "高市首相 日本経済はデフレではない状況だ - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84SXQxZ2xEZDBwZWtpRFFEbzh0Q1dFSTExRkdrZ3gxc3kxQWhydHViWDdCbTV3NjlubWJNcVJCendTMXdzYnFZeQ?oc=5",
+          "publishedAt": "2026-10-08T04:35:29Z"
         }
       ]
     },
@@ -126,48 +117,48 @@
       ]
     },
     {
-      "id": "32f20bda4f0b65",
+      "id": "b6b9f5a1ea7613",
       "category": "entertainment",
-      "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる（オリコン） - Yahoo!ニュース",
+      "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - オリコンニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-07T15:15:00Z",
+      "latestPublishedAt": "2026-10-07T15:21:54Z",
       "sources": [
         {
-          "id": "05b5fbeeaa7737",
+          "id": "eb1f5ee07400e5",
+          "name": "オリコンニュース",
+          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - オリコンニュース",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81QVdOOXFoWF9qSmVaakNQWUlKdVNETkR2VTFMWngtcXdibV9ZZnNHNHNxMXhOekRvLWN0b3UtU3BGOHhsUnlvLVp4WWt1bWM?oc=5",
+          "publishedAt": "2026-10-07T15:21:54Z"
+        },
+        {
+          "id": "ea58dafda35898",
           "name": "Yahoo!ニュース",
           "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる（オリコン） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QS3N1d3BBZFVDaGFJWk5waGdZZUZQend6VkhEbFdDWHBJV3VkY0NEMUw3MlA5aHNBZUxTdFp4Y1FjWC1LMXN4a2NyWV9iSG9UOTBhUnUzSGtHcjdCbVRhdTJPSlFEY29wazJMV1ZtUWFPVTczdXlhUXlOb0pMVjQ?oc=5",
-          "publishedAt": "2026-10-07T15:15:00Z"
-        },
-        {
-          "id": "0fc4208cd0d1ac",
-          "name": "オリコンニュース",
-          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5S0c0WmxVWTlxN2Z5TEJudmNrbUpWaFFpM0tiTUtJNFotZG9xbWdDdFQwd2Z2dHdodlhXNXdSYnpvdTIwUXNkWXRpcFpPVFEzVUk4M1VfQy01dw?oc=5",
           "publishedAt": "2026-10-07T15:15:00Z"
         }
       ]
     },
     {
-      "id": "099c8e342c497b",
+      "id": "68b54ace5c4bc3",
       "category": "economy",
-      "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
+      "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-05T21:17:55Z",
+      "latestPublishedAt": "2026-10-06T22:00:39Z",
       "sources": [
         {
-          "id": "3a3bf625de2509",
-          "name": "Reuters",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "publishedAt": "2026-10-05T21:17:55Z"
+          "id": "7f401820f6a228",
+          "name": "Yahoo!ニュース",
+          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53RmkwbHBQSUpVUXJOZk4wTmNObnJyMWV1MUUyTXZsUERDVWFVTGVlR3kwTlJHUnpWLTNtQ1NReWpyR0M4elI4WUJzOUlyMHVWTTRvOUlrTUhhanlXcVpybzBjTm8wWUJ4UUdlNDJPRzV0LUdHZmhwMEptank0aTQ?oc=5",
+          "publishedAt": "2026-10-06T22:00:39Z"
         },
         {
-          "id": "28eaabe8954fea",
-          "name": "ニューズウィーク日本版",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - ニューズウィーク日本版",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZbTg4cjJLUnpqaGZCUTNGRDRoeWFIc1NJMHh0bUNXMFNiMVg4dDF6VG1NZXhOM1g1M3pNRmRlbVJKUlQ4b2ctek5MUUwwLVVORFo4ODBHZlhWdGhEQVhPTXZleDJBUDQ?oc=5",
-          "publishedAt": "2026-10-05T20:17:00Z"
+          "id": "54d0c2780d59ee",
+          "name": "集英社オンライン",
+          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - 集英社オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94VXp5eUVCZmlSdnQ0MXhJOHdrYjdYa09ySnVpT2pmNTgxLTBNcmVtSHZ5UlNFdmxrdGppU1N6Q252QTc4SVZ6Z3N3aGxjemNMVGpR?oc=5",
+          "publishedAt": "2026-10-06T22:00:00Z"
         }
       ]
     },
@@ -218,25 +209,87 @@
       ]
     },
     {
-      "id": "6b3aa2a044d399",
-      "category": "economy",
-      "title": "日経平均は９９３円安と大幅続落、様子見姿勢強まり安値引け＝８日後場(ウエルスアドバイザー) - Yahoo!ファイナンス",
+      "id": "9cbc4ee226fe5d",
+      "category": "internet",
+      "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T06:52:26Z",
+      "latestPublishedAt": "2026-10-08T11:30:00Z",
       "sources": [
         {
-          "id": "3fbe4de876043e",
-          "name": "Yahoo!ファイナンス",
-          "title": "日経平均は９９３円安と大幅続落、様子見姿勢強まり安値引け＝８日後場(ウエルスアドバイザー) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTjBqSnBPR2lkVVd0Mm5IWHpSejRNOXpIYW94Nk9ZcXVRaWRVTFNHdzN1RldacDhMbmE0RVBkcksxalRycmp4VUZTUWtJbTBfczAzc1EzakRESl9seUdvUVpsdDFQUDBSZlVneWJnZVE4RFRDakxwZ0xoS0RoUUhjSFgzMXc4bGc?oc=5",
-          "publishedAt": "2026-10-08T06:52:26Z"
+          "id": "8294ea895ed606",
+          "name": "めざましmedia",
+          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tOXhjcTdzQWU5d09JX01lbGZKS3pya2tfOVRSZHZPZWFiXzZJcTJkZThjN3F2cFNXOGlsOHZBcU1qSjRHdzM1ckgzRXY3Vk9RQjRv?oc=5",
+          "publishedAt": "2026-10-08T11:30:00Z"
         },
         {
-          "id": "451c09ff36f749",
-          "name": "Yahoo!ファイナンス",
-          "title": "日経平均は６６２円安と続落、米・アジア株軟調でプライム銘柄の９割近くが下落＝８日前場(ウエルスアドバイザー) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYzF3a0xMeFJQeklIYWpUeWFvQmdKNDJVc29icWNBa0FtMDdyX2RHWWJ1bGVXQ3pRRWxwaHJqSXl6Yks4TGtOc3ZFOEQ2Q3FWSjdkZUZldGhQUU9PejFvWXJiaUJBMjg4VHFWRC1sVEJUSnhweWFjZHI0Zk9nVng4NkRmbWxRUnc?oc=5",
-          "publishedAt": "2026-10-08T02:56:19Z"
+          "id": "2321baa62b300a",
+          "name": "めざましmedia",
+          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wUTRlNFppbFctMXgycGRGaE5vandNRlIwX1p0REpacHcyZEVjYVpTdHh1a0ZqY2dqa2NOZmc1Z0dPemZnNnRaUHo5Z2J2MVFEaWZTd3lPY3BBYVA3Zkk5VTNuRGY4Zw?oc=5",
+          "publishedAt": "2026-10-08T11:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "aa05dc7a517685",
+      "category": "economy",
+      "title": "円相場 小幅に値下がり インフレ懸念で円が売られる - NHKニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T09:14:23Z",
+      "sources": [
+        {
+          "id": "1ad62e57003aaa",
+          "name": "NHKニュース",
+          "title": "円相場 小幅に値下がり インフレ懸念で円が売られる - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBdHl6eVVRb1Q1Ymhxa2FHbDBaWndhQkt4SVp2WXltZGJKRG9KY0xCb0xtemtzTmxGajlYUW9ONFdxODEyS3RiRVFsdTUyQ3RmOFduRlBxWEZNTkJXVHBB?oc=5",
+          "publishedAt": "2026-10-08T09:14:23Z"
+        },
+        {
+          "id": "1f356a18361e34",
+          "name": "NHKニュース",
+          "title": "円相場 小幅な値動き - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iRnZQMEFvRm9Id0x5cXZ4UWtldV9NN25KVmszUkRCV3VRaDQ1bDJyMnR1SXpFcDA5emVHVktXY0RxOVd1eEh5ZVNyRHlQZC15NUpwbkxDaVlpRUJhQ3h3?oc=5",
+          "publishedAt": "2026-10-05T09:31:28Z"
+        }
+      ]
+    },
+    {
+      "id": "85dbb2624ca31b",
+      "category": "politics",
+      "title": "第222回臨時国会における青木一彦参院幹事長 | 政策 | ニュース - 自由民主党",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T06:57:51Z",
+      "sources": [
+        {
+          "id": "74d3c595be1fd7",
+          "name": "自由民主党",
+          "title": "第222回臨時国会における青木一彦参院幹事長 | 政策 | ニュース - 自由民主党",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE94WWVrbVdrUVhqd1hBUW9UNEctWlh3ZUM0Q3hOc3EwM2hnaXJESi1FMmdLb3RRSDBlb214bHgzX3FBeUJ0UjdacEFwRHg4dFNoRzVGMVNjWQ?oc=5",
+          "publishedAt": "2026-10-08T06:57:51Z"
+        },
+        {
+          "id": "fdb0abcdd2b6bc",
+          "name": "自由民主党",
+          "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
+          "publishedAt": "2026-10-06T08:50:57Z"
+        }
+      ]
+    },
+    {
+      "id": "857e68e396593d",
+      "category": "entertainment",
+      "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」 - 西スポWEB OTTO!",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T06:00:00Z",
+      "sources": [
+        {
+          "id": "7c6b31299d970a",
+          "name": "西スポWEB OTTO!",
+          "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」 - 西スポWEB OTTO!",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpZzV2Vk5EOXFLR1FuYVlJcDJhUF8yUlgyaldVZ3dzNVN5THc1OVdsWHRMVFRXLWpqdTRvVkxGczd1S1kyTHhfTnRBQmZfTXNGVW5iWW5yVEltZ1AySWZj?oc=5",
+          "publishedAt": "2026-10-08T06:00:00Z"
         }
       ]
     },
@@ -305,6 +358,22 @@
       ]
     },
     {
+      "id": "c3d4114a94f7ea",
+      "category": "economy",
+      "title": "日本経済指標【国際収支】 - みんかぶ FX/為替",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T23:52:29Z",
+      "sources": [
+        {
+          "id": "27ffb24be78b3e",
+          "name": "みんかぶ FX/為替",
+          "title": "日本経済指標【国際収支】 - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5WbmFZV193cDhTa1U4SjdvS3lPZm5SaVpjRTJMTXRJQVJITUI1ekV6cHQ2amZZa25yazNCdmVOQlRRQmhRZE9aTA?oc=5",
+          "publishedAt": "2026-10-07T23:52:29Z"
+        }
+      ]
+    },
+    {
       "id": "0107c3d5917301",
       "category": "entertainment",
       "title": "【ヤフコメで話題】「ちいかわ映画の特典配布に熱視線」「くりまんじゅう人気と転売対策への懸念」 - 映画館現場での混雑とファン心理が交錯 - Yahoo!ニュース",
@@ -328,50 +397,18 @@
       ]
     },
     {
-      "id": "42c2afd24617fa",
-      "category": "internet",
-      "title": "SNSで早くも話題のアイテムが続々！GUの新作トップスが可愛すぎて売り切れ早そう…！ - モデルプレス",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T23:24:52Z",
-      "sources": [
-        {
-          "id": "75450525d99f22",
-          "name": "モデルプレス",
-          "title": "SNSで早くも話題のアイテムが続々！GUの新作トップスが可愛すぎて売り切れ早そう…！ - モデルプレス",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9uRC1fbzYtM2RNdkRRLWhQWml0d0QzNi15bzVmNDRfZEZ0SlNiT29tZkc5d21sQnVUc0tKLXZFZy1XUG5jS1E?oc=5",
-          "publishedAt": "2026-10-07T23:24:52Z"
-        }
-      ]
-    },
-    {
-      "id": "c930858a49bc94",
+      "id": "c91da2aca0d033",
       "category": "economy",
-      "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を - Wedge ONLINE",
+      "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T20:00:00Z",
+      "latestPublishedAt": "2026-10-07T20:00:37Z",
       "sources": [
         {
-          "id": "77739c1b93e2b5",
-          "name": "Wedge ONLINE",
-          "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を - Wedge ONLINE",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sdFFQZ3RXWmlTM1d0NnRmbEp5VHM4eXlLNW1NSFQ2NXpKUGlFcFhhUGhYZDV6MjRGZG5UaFRPTVlrdlpEMThrWVMxWGtBTUtyUHFR?oc=5",
-          "publishedAt": "2026-10-07T20:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "deeeef57750b8c",
-      "category": "internet",
-      "title": "【2026秋】SNSでじわり話題「烏龍茶メイク」にオトナ女子が熱視線！？ブラウンって難しそう…？顔色が暗くならないコツは《リップ》にアリ（LASISA） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T09:54:47Z",
-      "sources": [
-        {
-          "id": "14e81037a79a7c",
+          "id": "0870e670c9b620",
           "name": "Yahoo!ニュース",
-          "title": "【2026秋】SNSでじわり話題「烏龍茶メイク」にオトナ女子が熱視線！？ブラウンって難しそう…？顔色が暗くならないコツは《リップ》にアリ（LASISA） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUWVsdWhOazhJUXNfQTNRVWN2ck5ueTExUnVLMG1DemlvcF9JQ0FVUUZTZFBnX3FCMTNpN0VnS2xiRVV1YkpUU2oxUlpZZDVuS3hkc2lKaWoyWUtfWFAybGUwclEtRDA4TEdXb3dXZVJrTUNqMHRKcEJ4RW8wblNXNTlYd2FMU1d1?oc=5",
-          "publishedAt": "2026-10-07T09:54:47Z"
+          "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ub0FrTWlVZTJHM2gxVnVrd3E4VkVaeUFKRU9YMDN1dmg3d0V4TjlVQktTZGw0bFF0blZueTBQMTJkQkhxZGFjdndTWHNMbVVzcnZXSHo0enk1N3E3bEVJQ01MaFNMMmUwVjlDbzBPZjVSN0Q2amY3SHEtNUZTVk0?oc=5",
+          "publishedAt": "2026-10-07T20:00:37Z"
         }
       ]
     },
@@ -392,34 +429,18 @@
       ]
     },
     {
-      "id": "43e648bdb0778b",
-      "category": "economy",
-      "title": "「決して楽観視できるとは言えない」財務省が公表した国際比較で日本が“北朝鮮より下”だった項目 - Yahoo!ニュース",
+      "id": "a794fb24d3bfeb",
+      "category": "internet",
+      "title": "SNSで話題、『戦国工務店』が書籍化 11月11日発売 - 新建ハウジング",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T05:30:35Z",
+      "latestPublishedAt": "2026-10-07T06:47:00Z",
       "sources": [
         {
-          "id": "3c31a2495a2711",
-          "name": "Yahoo!ニュース",
-          "title": "「決して楽観視できるとは言えない」財務省が公表した国際比較で日本が“北朝鮮より下”だった項目 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZcE00cGlWdHZLX0hfUTdFdWNOOFJWSUJWZHdSLUlCZjNyblJiTjRVWXBNVnU1MDNnRFJCZy1zNlJWclBUR2l3dnVGLXltMWR1Q1NSNVYxcG5QNDZ1YmZ4NlJDYVZQN2d6ZGtHU0NKYkZFWjlwbUhxbVRvbGFNbk0?oc=5",
-          "publishedAt": "2026-10-07T05:30:35Z"
-        }
-      ]
-    },
-    {
-      "id": "99dd3c6f90033b",
-      "category": "economy",
-      "title": "日本経済指標【景気動向指数（速報値）】 - みんかぶ FX/為替",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T05:01:29Z",
-      "sources": [
-        {
-          "id": "25194189383644",
-          "name": "みんかぶ FX/為替",
-          "title": "日本経済指標【景気動向指数（速報値）】 - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkbUkxclVDbVcybHA5eWh2aXhBTVBaZXVXcG1sM0hfNDZMbzR3YXJqU1NlWGxucS1rTWRJMlUweGxTWGpiTGhPeA?oc=5",
-          "publishedAt": "2026-10-07T05:01:29Z"
+          "id": "614e24355c2dca",
+          "name": "新建ハウジング",
+          "title": "SNSで話題、『戦国工務店』が書籍化 11月11日発売 - 新建ハウジング",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3SlFfR3BEbVdna0o5TVBfM2x5UHprVEZBbmJ0SWZialBaS1A4XzJSVW4teUFubVpCR05PMEhsYndyeVB4dmlNSl8yT2swQmt5X2c?oc=5",
+          "publishedAt": "2026-10-07T06:47:00Z"
         }
       ]
     },
