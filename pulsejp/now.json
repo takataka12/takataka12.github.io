@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T15:36:58Z",
+  "generatedAt": "2026-10-08T21:20:06Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
@@ -34,32 +34,92 @@
       ]
     },
     {
-      "id": "099c8e342c497b",
-      "category": "economy",
-      "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
+      "id": "50f6110f5717a2",
+      "category": "entertainment",
+      "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - 山形新聞",
       "sourceCount": 3,
-      "latestPublishedAt": "2026-10-05T21:17:55Z",
+      "latestPublishedAt": "2026-10-07T17:31:35Z",
       "sources": [
         {
-          "id": "3a3bf625de2509",
-          "name": "Reuters",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "publishedAt": "2026-10-05T21:17:55Z"
+          "id": "2484f82ee4d0cf",
+          "name": "山形新聞",
+          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - 山形新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kUFN6Mjcxek41YzJoQlo4VnFzU1duMlFTNVpRakdsSDFYUzZTczdWV3BJaHBZaXI1aTY3T1JpbEtRX2hqcDZ6SmtpcFZzLUlVSF9TVWdjamF4ZW9xZTZXZWRnaUs?oc=5",
+          "publishedAt": "2026-10-07T17:31:35Z"
         },
         {
-          "id": "0e74c47b8db0aa",
-          "name": "ｄメニューニュース",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引　企業決算に注目 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbmw0RjRtY29nUFJxTEJHaUdiLUxvU2FCODVzLTRNbjZSbHRIc0FSNG0wc3BQRFBjbDI2eGxiRGUta3YwbmhKYkJkZEljN3o5dUNpV01jOEIyaVVQYjFuZlR4U3ZrOXFGcmFDUlVURGhHT29JUlhVS1E1b0FUWjRxcUZB0gGHAUFVX3lxTE1ma3FFa2p1WUdwOFVwaWdESFlVeGNUR0x3UXNaUElxS0dWYTZmODVnMnlzWHVXWWxITm50a3FFdlBCMW9Ma29mZ2xqSklVeWxRcHl2azhZdTl1dGdPWWNSRlZvMVBMRkVrZmVIMGdjbVhDZFc2di1STEI5Vy1ja1RwVjhibUUxdw?oc=5",
-          "publishedAt": "2026-10-05T20:17:00Z"
+          "id": "ea58dafda35898",
+          "name": "Yahoo!ニュース",
+          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる（オリコン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QS3N1d3BBZFVDaGFJWk5waGdZZUZQend6VkhEbFdDWHBJV3VkY0NEMUw3MlA5aHNBZUxTdFp4Y1FjWC1LMXN4a2NyWV9iSG9UOTBhUnUzSGtHcjdCbVRhdTJPSlFEY29wazJMV1ZtUWFPVTczdXlhUXlOb0pMVjQ?oc=5",
+          "publishedAt": "2026-10-07T15:15:00Z"
         },
         {
-          "id": "0b9e4b3fb4c70b",
-          "name": "ニューズウィーク日本版",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - ニューズウィーク日本版",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZbTg4cjJLUnpqaGZCUTNGRDRoeWFIc1NJMHh0bUNXMFNiMVg4dDF6VG1NZXhOM1g1M3pNRmRlbVJKUlQ4b2ctek5MUUwwLVVORFo4ODBHZlhWdGhEQVhPTXZleDJBUDQ?oc=5",
-          "publishedAt": "2026-10-05T20:17:00Z"
+          "id": "12fb1e4ef4556a",
+          "name": "Infoseek",
+          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - Infoseek",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yaDlXZ2dWRzYxREF4UGdob2dkVjBnd1NVLXAxdHYwTy1KME5VMFpwVGZuVVp4UXhUbUh4bEhsc3QyY2U3eGoxVDY1N3E0YmdERjJueWM4amFURF9DdVdV?oc=5",
+          "publishedAt": "2026-10-07T15:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3c48d3f67182cf",
+      "category": "entertainment",
+      "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース (音楽ナタリー) - Yahoo!ニュース",
+      "sourceCount": 3,
+      "latestPublishedAt": "2026-10-07T15:24:20Z",
+      "sources": [
+        {
+          "id": "484cc0d0aed189",
+          "name": "Yahoo!ニュース",
+          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース (音楽ナタリー) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWVdKeWt0WVVEaHlmOTJUX0VwMDM5NmstNEVJOHEyOTc5QlAxM2pITEZJSTNXTGIweVZuNWdidXdhM0ZLamVQTENIcjRKQ2kwTW1Rc0twS3c5cHlFb243a1dqNzNscnNyT3ZSRUd5a09CZ3BHQklLRlk1UXNvNG52RUNvM1Vndy1IaVpBeWNn?oc=5",
+          "publishedAt": "2026-10-07T15:24:20Z"
+        },
+        {
+          "id": "5252cd56960589",
+          "name": "ニコニコニュース",
+          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース - ニコニコニュース",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uakZXM3J6c1R3c0ZfSmtQSVB1QUlxaXRMMkZCUnU3eUJFSmNMMmhFQkZkeGttbzJ2LWNQSm92UDRZRHVuRDVmOHRqc3ZEdnlRUC1JNG05NDdKOXVEdkFIV2NYemUzWW5KbVFjZi03akZoVUNiZVVCc0NMNA?oc=5",
+          "publishedAt": "2026-10-07T10:06:30Z"
+        },
+        {
+          "id": "751051626dc91e",
+          "name": "ナタリー",
+          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース - ナタリー",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45NEFsejJtVUdqVG1lVE9zZ25SWUphMzhCM3dTX2lfSXdSUGk3RWpabW1aOGhDWVFxYjBjbFZFclpoalhZR1NzUWFnRXI?oc=5",
+          "publishedAt": "2026-10-07T10:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "0d7dd95eb2e1b4",
+      "category": "internet",
+      "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題!キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 (めざましmedia) - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-08T11:30:39Z",
+      "sources": [
+        {
+          "id": "83809bc7370f6a",
+          "name": "Yahoo!ニュース",
+          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題!キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 (めざましmedia) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdXh4dmJ1SGN1SHFaWEpDM09FZlVxOEg5VEVscF9LdDdzTVhDUWF3bFowc2I1bERZdE9qczBsZ0RadjgtTnUzcGxxNmFkdTlSQi1fZmZXcVU3NzFkbmFTUEd1emwyWTdlR1ZGQWlnNXozNHE2YmFxWlhCcG5JNTg3NjFLdVZ2VnJELXQ4YlNn?oc=5",
+          "publishedAt": "2026-10-08T11:30:39Z"
+        },
+        {
+          "id": "6815c7397c38ad",
+          "name": "めざましmedia",
+          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tOXhjcTdzQWU5d09JX01lbGZKS3pya2tfOVRSZHZPZWFiXzZJcTJkZThjN3F2cFNXOGlsOHZBcU1qSjRHdzM1ckgzRXY3Vk9RQjRv?oc=5",
+          "publishedAt": "2026-10-08T11:30:00Z"
+        },
+        {
+          "id": "ccd5f517ee72a6",
+          "name": "めざましmedia",
+          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10N0tjb0RzQ2lKSFp4bGZpNUU3YnZUQUNqaWlDUEVOUm16bEpSQk1tUVMtUVBSTXhaSTA5VXo4TEN2NjhRR3ZodTItb3g1eXRISnY2WG1RU1Z2NHc?oc=5",
+          "publishedAt": "2026-10-08T11:30:00Z"
         }
       ]
     },
@@ -94,71 +154,25 @@
       ]
     },
     {
-      "id": "3c48d3f67182cf",
-      "category": "entertainment",
-      "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース (音楽ナタリー) - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-07T15:24:20Z",
-      "sources": [
-        {
-          "id": "484cc0d0aed189",
-          "name": "Yahoo!ニュース",
-          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース (音楽ナタリー) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWVdKeWt0WVVEaHlmOTJUX0VwMDM5NmstNEVJOHEyOTc5QlAxM2pITEZJSTNXTGIweVZuNWdidXdhM0ZLamVQTENIcjRKQ2kwTW1Rc0twS3c5cHlFb243a1dqNzNscnNyT3ZSRUd5a09CZ3BHQklLRlk1UXNvNG52RUNvM1Vndy1IaVpBeWNn?oc=5",
-          "publishedAt": "2026-10-07T15:24:20Z"
-        },
-        {
-          "id": "fba847dac8be65",
-          "name": "ナタリー",
-          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース - ナタリー",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45NEFsejJtVUdqVG1lVE9zZ25SWUphMzhCM3dTX2lfSXdSUGk3RWpabW1aOGhDWVFxYjBjbFZFclpoalhZR1NzUWFnRXI?oc=5",
-          "publishedAt": "2026-10-07T10:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "b6b9f5a1ea7613",
-      "category": "entertainment",
-      "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - オリコンニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-07T15:21:54Z",
-      "sources": [
-        {
-          "id": "eb1f5ee07400e5",
-          "name": "オリコンニュース",
-          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81QVdOOXFoWF9qSmVaakNQWUlKdVNETkR2VTFMWngtcXdibV9ZZnNHNHNxMXhOekRvLWN0b3UtU3BGOHhsUnlvLVp4WWt1bWM?oc=5",
-          "publishedAt": "2026-10-07T15:21:54Z"
-        },
-        {
-          "id": "ea58dafda35898",
-          "name": "Yahoo!ニュース",
-          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる（オリコン） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QS3N1d3BBZFVDaGFJWk5waGdZZUZQend6VkhEbFdDWHBJV3VkY0NEMUw3MlA5aHNBZUxTdFp4Y1FjWC1LMXN4a2NyWV9iSG9UOTBhUnUzSGtHcjdCbVRhdTJPSlFEY29wazJMV1ZtUWFPVTczdXlhUXlOb0pMVjQ?oc=5",
-          "publishedAt": "2026-10-07T15:15:00Z"
-        }
-      ]
-    },
-    {
-      "id": "68b54ace5c4bc3",
+      "id": "099c8e342c497b",
       "category": "economy",
-      "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
+      "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-06T22:00:39Z",
+      "latestPublishedAt": "2026-10-05T21:17:55Z",
       "sources": [
         {
-          "id": "7f401820f6a228",
-          "name": "Yahoo!ニュース",
-          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53RmkwbHBQSUpVUXJOZk4wTmNObnJyMWV1MUUyTXZsUERDVWFVTGVlR3kwTlJHUnpWLTNtQ1NReWpyR0M4elI4WUJzOUlyMHVWTTRvOUlrTUhhanlXcVpybzBjTm8wWUJ4UUdlNDJPRzV0LUdHZmhwMEptank0aTQ?oc=5",
-          "publishedAt": "2026-10-06T22:00:39Z"
+          "id": "3a3bf625de2509",
+          "name": "Reuters",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "publishedAt": "2026-10-05T21:17:55Z"
         },
         {
-          "id": "54d0c2780d59ee",
-          "name": "集英社オンライン",
-          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - 集英社オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE94VXp5eUVCZmlSdnQ0MXhJOHdrYjdYa09ySnVpT2pmNTgxLTBNcmVtSHZ5UlNFdmxrdGppU1N6Q252QTc4SVZ6Z3N3aGxjemNMVGpR?oc=5",
-          "publishedAt": "2026-10-06T22:00:00Z"
+          "id": "28eaabe8954fea",
+          "name": "ニューズウィーク日本版",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - ニューズウィーク日本版",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZbTg4cjJLUnpqaGZCUTNGRDRoeWFIc1NJMHh0bUNXMFNiMVg4dDF6VG1NZXhOM1g1M3pNRmRlbVJKUlQ4b2ctek5MUUwwLVVORFo4ODBHZlhWdGhEQVhPTXZleDJBUDQ?oc=5",
+          "publishedAt": "2026-10-05T20:17:00Z"
         }
       ]
     },
@@ -209,25 +223,25 @@
       ]
     },
     {
-      "id": "9cbc4ee226fe5d",
-      "category": "internet",
-      "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
+      "id": "63994bf9b83fbe",
+      "category": "economy",
+      "title": "【テクニカル】日経平均株価テクニカル分析－連日の大幅安で5日線を下回る - 外為どっとコム",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T11:30:00Z",
+      "latestPublishedAt": "2026-10-08T15:46:13Z",
       "sources": [
         {
-          "id": "8294ea895ed606",
-          "name": "めざましmedia",
-          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tOXhjcTdzQWU5d09JX01lbGZKS3pya2tfOVRSZHZPZWFiXzZJcTJkZThjN3F2cFNXOGlsOHZBcU1qSjRHdzM1ckgzRXY3Vk9RQjRv?oc=5",
-          "publishedAt": "2026-10-08T11:30:00Z"
+          "id": "4d48909b17a2b4",
+          "name": "外為どっとコム",
+          "title": "【テクニカル】日経平均株価テクニカル分析－連日の大幅安で5日線を下回る - 外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBNUFRaQ0VIVjJnajJyY3ZuQXNJNjI5WXJYY20tdjVFYmdtQ2xZXzYwNEI0UWFicExPYzQxRXNZQzBqYmRNQ0Nrbl9aTUg5NGJocEVrZXd5RmxNQkQ0NVg4NTU3WQ?oc=5",
+          "publishedAt": "2026-10-08T15:46:13Z"
         },
         {
-          "id": "2321baa62b300a",
-          "name": "めざましmedia",
-          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wUTRlNFppbFctMXgycGRGaE5vandNRlIwX1p0REpacHcyZEVjYVpTdHh1a0ZqY2dqa2NOZmc1Z0dPemZnNnRaUHo5Z2J2MVFEaWZTd3lPY3BBYVA3Zkk5VTNuRGY4Zw?oc=5",
-          "publishedAt": "2026-10-08T11:30:00Z"
+          "id": "f480cde4597899",
+          "name": "外為どっとコム",
+          "title": "【テクニカル】日経平均株価テクニカル分析－7万円を超えて6月の高値が視野に入る - 外為どっとコム",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfbUl4TVJOTXlUcHZ0MU9DZWptb1psdDZxZmpqYlNFSkl2RXhKandieWFOSGlpMVgxVldkRUNMS3UzVFVYazcyX05IUDkwbnQwWVpySFZHV21TNC05MndMVnBFMA?oc=5",
+          "publishedAt": "2026-10-06T15:52:35Z"
         }
       ]
     },
@@ -278,38 +292,6 @@
       ]
     },
     {
-      "id": "857e68e396593d",
-      "category": "entertainment",
-      "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」 - 西スポWEB OTTO!",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T06:00:00Z",
-      "sources": [
-        {
-          "id": "7c6b31299d970a",
-          "name": "西スポWEB OTTO!",
-          "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」 - 西スポWEB OTTO!",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBpZzV2Vk5EOXFLR1FuYVlJcDJhUF8yUlgyaldVZ3dzNVN5THc1OVdsWHRMVFRXLWpqdTRvVkxGczd1S1kyTHhfTnRBQmZfTXNGVW5iWW5yVEltZ1AySWZj?oc=5",
-          "publishedAt": "2026-10-08T06:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "b79c4d6be9a8bc",
-      "category": "internet",
-      "title": "SNSで話題沸騰！韓国発の“オーラルケアスイーツ”「キシリトールストーン」にレモンフレーバーが仲間入り！ - ｄメニューニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T03:30:00Z",
-      "sources": [
-        {
-          "id": "1d1dda8f0f077b",
-          "name": "ｄメニューニュース",
-          "title": "SNSで話題沸騰！韓国発の“オーラルケアスイーツ”「キシリトールストーン」にレモンフレーバーが仲間入り！ - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQOGdzNWFBcXl5Skk1MHdrZnl4ZktyS2FCQzExWThoV0Z5cTU4RGw0cl9UanFtZlhsMkFudFZGUHh4WEQ2clZFaVVicVhXUlFybDFGaG95b1JyMXNIdkgwNVVmeWlyNmRXNmZwMmxzWE9NeGp3QVVSbTRERTlVdkpOZTZzaWc0cldsTWktR0l0UDNQZUhZdXhXbVhlQUt3bFItWGZtVU8yeVJvbWVzM1dIVVhRdk0zUzkzZ2xXeFNUWnlFWHIydUpqVnFIMkw4VHlMYjVVX1VOQXdGLWdIc2VjT2gxZkR6QdIBlgFBVV95cUxQZEFFX0d4QlYyRzlkRk5Ed0ZQaTNDZ2hQNVBoZ1dvNVpFOG5CMG5wZzBPYTItal8xQ1BNSzFZSldWX0xLVk5HeDl3bmNCNzFjT3FrR0FickM4LWFyS1IzQnVlSkl4cUF1QURRTnZpek9WUkVncHZ0Mjc2c1J4Z3dQN2lBc2VxZGhNaTRPMXlCVllZaUNWSUE?oc=5",
-          "publishedAt": "2026-10-08T03:30:00Z"
-        }
-      ]
-    },
-    {
       "id": "9bb45c23c6ba96",
       "category": "internet",
       "title": "聖徳太子と恋愛できる乙女ゲー『なら☆こい』をサイバーステップが開発。“あをにまる”氏によるSNSで話題の企画を引き継ぐ - ファミ通",
@@ -338,6 +320,22 @@
           "title": "SNSでは話題も…ドジャース・スネルの“癖バレ”説にOBが異論「違いはおそらく分からない」（ベースボールチャンネル） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1za2tXTEg5RVpINEVqUUh5Q1B2TEhVa3dHSGYybkQyMGJpT0dqSE96NFJlSVRFVFYwNnNBRzV3NjJzbHBpMEt6YXExeS1fY0NIYkNLck9Mal9mQWEybDVQZE9WQ0tNLWNLMGNKcjJjN3BmWXRLYkRWMklaMG0xTUk?oc=5",
           "publishedAt": "2026-10-08T02:00:24Z"
+        }
+      ]
+    },
+    {
+      "id": "e05495fbd4f718",
+      "category": "entertainment",
+      "title": "伊東四朗の引退にはすがすがしささえ感じる 近年の「芸能界の引退」の“負のイメージ”とは真逆 - Infoseek",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T01:55:00Z",
+      "sources": [
+        {
+          "id": "534d02868093ca",
+          "name": "Infoseek",
+          "title": "伊東四朗の引退にはすがすがしささえ感じる 近年の「芸能界の引退」の“負のイメージ”とは真逆 - Infoseek",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBRUE5heW5XLW4wZ19hd1J6bE02M1Q1RXF6VzRiWlcxQ1hVYU1vMmpIRjB2bFk1YXF2b29hc19RUTJSQlJLZE9uY0NtZ09DOE92VUhxeVZpbzBMUExiWEEyYjNXY3o?oc=5",
+          "publishedAt": "2026-10-08T01:55:00Z"
         }
       ]
     },
@@ -397,22 +395,6 @@
       ]
     },
     {
-      "id": "c91da2aca0d033",
-      "category": "economy",
-      "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T20:00:37Z",
-      "sources": [
-        {
-          "id": "0870e670c9b620",
-          "name": "Yahoo!ニュース",
-          "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ub0FrTWlVZTJHM2gxVnVrd3E4VkVaeUFKRU9YMDN1dmg3d0V4TjlVQktTZGw0bFF0blZueTBQMTJkQkhxZGFjdndTWHNMbVVzcnZXSHo0enk1N3E3bEVJQ01MaFNMMmUwVjlDbzBPZjVSN0Q2amY3SHEtNUZTVk0?oc=5",
-          "publishedAt": "2026-10-07T20:00:37Z"
-        }
-      ]
-    },
-    {
       "id": "48f1d17980ff17",
       "category": "internet",
       "title": "SNSで話題の〝美人すぎるテコンドー先生〟滝川聖奈「これはもう『お前が道場を継げ！』っていう天のお告げだな、と（笑）」 - Yahoo!ニュース",
@@ -461,18 +443,18 @@
       ]
     },
     {
-      "id": "9c55689bebe9ba",
-      "category": "politics",
-      "title": "【視察】ゲンロンカフェ 日本政治の「現場」はどこにあるのか③ ～沖縄の負の連鎖～ - 選挙ドットコム",
+      "id": "68b54ace5c4bc3",
+      "category": "economy",
+      "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T23:06:03Z",
+      "latestPublishedAt": "2026-10-06T22:00:39Z",
       "sources": [
         {
-          "id": "fd929392f60727",
-          "name": "選挙ドットコム",
-          "title": "【視察】ゲンロンカフェ 日本政治の「現場」はどこにあるのか③ ～沖縄の負の連鎖～ - 選挙ドットコム",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nMWRTVW5lOHNYOG9XUFRoZmlyamJlcVBNYVVSVXpGc0JUSFZaeWdla01EWDlIcXV6eldnMVlPaktRd0ZHakJPZ2NvZ3Zxc01qRzR6Y1FWRHkxamdGOTFV?oc=5",
-          "publishedAt": "2026-10-06T23:06:03Z"
+          "id": "7f401820f6a228",
+          "name": "Yahoo!ニュース",
+          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53RmkwbHBQSUpVUXJOZk4wTmNObnJyMWV1MUUyTXZsUERDVWFVTGVlR3kwTlJHUnpWLTNtQ1NReWpyR0M4elI4WUJzOUlyMHVWTTRvOUlrTUhhanlXcVpybzBjTm8wWUJ4UUdlNDJPRzV0LUdHZmhwMEptank0aTQ?oc=5",
+          "publishedAt": "2026-10-06T22:00:39Z"
         }
       ]
     },
@@ -489,6 +471,38 @@
           "title": "学問の自由は守られる？ 日本学術会議が新体制に移行…消えない「政治介入」への不安 - 東京新聞",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14bFhzOEZEYmZfWmFlZzlNUmF0WERudWdZbzk0M19NZllDdTBCWEV3Q281aUQ4Ujl1V3YyVDhfS05HeXVwWE1Qa05fQ21pRTY3d1hj?oc=5",
           "publishedAt": "2026-10-06T20:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "97740f2b767fa2",
+      "category": "entertainment",
+      "title": "綾瀬はるか、父の役職明かす…両親は芸能界入りに反対「校長室に呼ばれて先生に怒られるっていう…」（オリコン） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-06T04:43:40Z",
+      "sources": [
+        {
+          "id": "88f3d155174a38",
+          "name": "Yahoo!ニュース",
+          "title": "綾瀬はるか、父の役職明かす…両親は芸能界入りに反対「校長室に呼ばれて先生に怒られるっていう…」（オリコン） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBSUGcwWDNVQ24zQ3BfR1U5cU9hWHE3OEExOEpTNTA4SmU1N0lGN1JQWWo3akxoMmxxTVlRM3lWODB3QlA0aEdoVzNoN20yNmd3aFJvall3S2FtQ2tNT0FfcVFiTVo0ZDFha2NMcDRyX0tMSm40SmVFd0hEY1hMRTA?oc=5",
+          "publishedAt": "2026-10-06T04:43:40Z"
+        }
+      ]
+    },
+    {
+      "id": "03f44a61d40df2",
+      "category": "economy",
+      "title": "東アジアの仮想通貨経済、日本が2位 分散型取引所の利用が盛ん＝チェイナリシス - CoinPost",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-06T04:15:33Z",
+      "sources": [
+        {
+          "id": "21348acf8d720d",
+          "name": "CoinPost",
+          "title": "東アジアの仮想通貨経済、日本が2位 分散型取引所の利用が盛ん＝チェイナリシス - CoinPost",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA2bE0xV1kwM3JjVlJucWV1N2FhRXlDdWUtN2VNZUV0cF9SdE9xdTZsRXh3R3A5VGFjeTJlbXZtRkJkSDA?oc=5",
+          "publishedAt": "2026-10-06T04:15:33Z"
         }
       ]
     }
