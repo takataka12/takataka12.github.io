@@ -1,28 +1,58 @@
 {
-  "generatedAt": "2026-10-07T20:37:55Z",
+  "generatedAt": "2026-10-08T01:00:41Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "0f0f644e81de5e",
-      "category": "entertainment",
-      "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位　前作OP「ゆずれない願い」挿入歌で流れる - ｄメニューニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-07T15:18:38Z",
+      "id": "7cbf064efec0da",
+      "category": "politics",
+      "title": "【速報】首相は衆院定数削減に関し「今国会実現に向け議論を期待する」と述べた - 時事ドットコム",
+      "sourceCount": 3,
+      "latestPublishedAt": "2026-10-07T06:10:00Z",
       "sources": [
         {
-          "id": "2818a7530dfe21",
-          "name": "ｄメニューニュース",
-          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位　前作OP「ゆずれない願い」挿入歌で流れる - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdmNtNjgya055eldNZm0yeEpKN3NTOGk4VkRmdGhDQmtQN010VmtaT3phQ1o2dDE1OHVIWFZYdlJIM1dGY0REdmI3cVdobWdLRUdlc0tFSVJFbklLOTdtXzEzcklfVkVTcVlNdW1ISmMwd0JBY0o5Wl9fcnRTaS1ZUtIBhgFBVV95cUxPOU81YlU1am5QRklyWVhidHR3eEJRRXhZc1VwQWlzbVRJbmg2dmN0aVhqV1hZNEpaSWVmb05ERUdsNjB4eFl4Uks1U1hNdS1jYVR6TkJEdjc2MEZPclN0STd5UTJnZzhCRURaSUFjMm5CS2t1RFdTb2hPeUs4UFlBVm1jOWlIUQ?oc=5",
-          "publishedAt": "2026-10-07T15:18:38Z"
+          "id": "b48157fd1cef22",
+          "name": "時事ドットコム",
+          "title": "【速報】首相は衆院定数削減に関し「今国会実現に向け議論を期待する」と述べた - 時事ドットコム",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fVDdldUxRdE9Ib1owV2pKd0JpTW1LZngxYWxhMFhIaHl5elowYnZiU0w2bHlUT3U3a19KWDJQZUlMTWd1WWlsTWpJOHhSZzhoaFpfekpRUU1VYnhCSkhFSF84UXNFUQ?oc=5",
+          "publishedAt": "2026-10-07T06:10:00Z"
         },
         {
-          "id": "d82030a929c8cb",
-          "name": "オリコンニュース",
-          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE81QVdOOXFoWF9qSmVaakNQWUlKdVNETkR2VTFMWngtcXdibV9ZZnNHNHNxMXhOekRvLWN0b3UtU3BGOHhsUnlvLVp4WWt1bWM?oc=5",
-          "publishedAt": "2026-10-07T15:15:00Z"
+          "id": "fc9eca16efd415",
+          "name": "徳島新聞デジタル",
+          "title": "定数削減、今国会実現に向け議論期待と首相 - 徳島新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zeU9EZXBfVkJVTDhER3c0NERfVUNPcERYTDdaSlhuakpTR1lrT05ZenNoRzJ6dHVvYWJvTmYxdXh2cDNjWXh5d1FHZXJpdUFPNXhZNXB3?oc=5",
+          "publishedAt": "2026-10-07T05:43:36Z"
+        },
+        {
+          "id": "06eb542b7c3dcd",
+          "name": "佐賀新聞",
+          "title": "定数削減、今国会実現に向け議論期待と首相 - 佐賀新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5aMVJSWFhZUWktV1c2NFZfZnh4X21ubVhaNFhkTG4wcnl6Z0hnQU9TTXNRZzd6Mk5UdkV1cVp5eThla0pxd3dpQnd2VzRqWjdGUUhCLUdB?oc=5",
+          "publishedAt": "2026-10-07T05:43:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c91da2aca0d033",
+      "category": "economy",
+      "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-07T20:04:49Z",
+      "sources": [
+        {
+          "id": "0870e670c9b620",
+          "name": "Yahoo!ニュース",
+          "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ub0FrTWlVZTJHM2gxVnVrd3E4VkVaeUFKRU9YMDN1dmg3d0V4TjlVQktTZGw0bFF0blZueTBQMTJkQkhxZGFjdndTWHNMbVVzcnZXSHo0enk1N3E3bEVJQ01MaFNMMmUwVjlDbzBPZjVSN0Q2amY3SHEtNUZTVk0?oc=5",
+          "publishedAt": "2026-10-07T20:04:49Z"
+        },
+        {
+          "id": "1b1fd69ee98a70",
+          "name": "Wedge ONLINE",
+          "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を - Wedge ONLINE",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9sdFFQZ3RXWmlTM1d0NnRmbEp5VHM4eXlLNW1NSFQ2NXpKUGlFcFhhUGhYZDV6MjRGZG5UaFRPTVlrdlpEMThrWVMxWGtBTUtyUHFR?oc=5",
+          "publishedAt": "2026-10-07T20:00:00Z"
         }
       ]
     },
@@ -172,18 +202,80 @@
       ]
     },
     {
-      "id": "c91da2aca0d033",
+      "id": "c3d4114a94f7ea",
       "category": "economy",
-      "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
+      "title": "日本経済指標【国際収支】 - みんかぶ FX/為替",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T20:04:49Z",
+      "latestPublishedAt": "2026-10-07T23:52:29Z",
       "sources": [
         {
-          "id": "0870e670c9b620",
-          "name": "Yahoo!ニュース",
-          "title": "親日国ミャンマーの危機、内戦の長期化、経済の崩壊…日本は長期的視野の外交展開を（Wedge（ウェッジ）） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ub0FrTWlVZTJHM2gxVnVrd3E4VkVaeUFKRU9YMDN1dmg3d0V4TjlVQktTZGw0bFF0blZueTBQMTJkQkhxZGFjdndTWHNMbVVzcnZXSHo0enk1N3E3bEVJQ01MaFNMMmUwVjlDbzBPZjVSN0Q2amY3SHEtNUZTVk0?oc=5",
-          "publishedAt": "2026-10-07T20:04:49Z"
+          "id": "27ffb24be78b3e",
+          "name": "みんかぶ FX/為替",
+          "title": "日本経済指標【国際収支】 - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5WbmFZV193cDhTa1U4SjdvS3lPZm5SaVpjRTJMTXRJQVJITUI1ekV6cHQ2amZZa25yazNCdmVOQlRRQmhRZE9aTA?oc=5",
+          "publishedAt": "2026-10-07T23:52:29Z"
+        },
+        {
+          "id": "3926811adc6834",
+          "name": "みんかぶ FX/為替",
+          "title": "日本経済指標【景気動向指数（速報値）】 - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkbUkxclVDbVcybHA5eWh2aXhBTVBaZXVXcG1sM0hfNDZMbzR3YXJqU1NlWGxucS1rTWRJMlUweGxTWGpiTGhPeA?oc=5",
+          "publishedAt": "2026-10-07T05:01:29Z"
+        },
+        {
+          "id": "512607612a7f1e",
+          "name": "みんかぶ FX/為替",
+          "title": "日本経済指標（実質賃金） - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4ybWtZNTMyU1VrUHJYNG0xWktZUUgwQ201M0VzamFCSUFMTXpZTWNPWDZGdWR5cjZDUDhWekN0dlpqRGVsUjQwQQ?oc=5",
+          "publishedAt": "2026-10-06T23:30:28Z"
+        }
+      ]
+    },
+    {
+      "id": "42c2afd24617fa",
+      "category": "internet",
+      "title": "SNSで早くも話題のアイテムが続々！GUの新作トップスが可愛すぎて売り切れ早そう…！ - モデルプレス",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T23:24:52Z",
+      "sources": [
+        {
+          "id": "75450525d99f22",
+          "name": "モデルプレス",
+          "title": "SNSで早くも話題のアイテムが続々！GUの新作トップスが可愛すぎて売り切れ早そう…！ - モデルプレス",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9uRC1fbzYtM2RNdkRRLWhQWml0d0QzNi15bzVmNDRfZEZ0SlNiT29tZkc5d21sQnVUc0tKLXZFZy1XUG5jS1E?oc=5",
+          "publishedAt": "2026-10-07T23:24:52Z"
+        }
+      ]
+    },
+    {
+      "id": "d346fa437a94ca",
+      "category": "politics",
+      "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」 : 日本•国際 - ハンギョレ新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T23:00:00Z",
+      "sources": [
+        {
+          "id": "5faf585f351ec5",
+          "name": "ハンギョレ新聞",
+          "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」 : 日本•国際 - ハンギョレ新聞",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9OMWktSmZJQU1Xb1NwUFlqRVl3S1Rwcjd5c1pkYUhzdUEzZVZnM05xcTZ5c1ppWWhNN3FOYTYyOXY1RDRicThjOFlYdVo1MDZzdG9EbTFQZkRiLTJIVFdzQVVnVQ?oc=5",
+          "publishedAt": "2026-10-07T23:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "18bbbe7fabdd1f",
+      "category": "entertainment",
+      "title": "伊東四朗の引退にはすがすがしささえ感じる 近年の「芸能界の引退」の“負のイメージ”とは真逆｜芸能界クロスロード - 日刊ゲンダイDIGITAL",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T21:00:00Z",
+      "sources": [
+        {
+          "id": "b450e507bfb25b",
+          "name": "日刊ゲンダイDIGITAL",
+          "title": "伊東四朗の引退にはすがすがしささえ感じる 近年の「芸能界の引退」の“負のイメージ”とは真逆｜芸能界クロスロード - 日刊ゲンダイDIGITAL",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IaU8ySGctUVBDRmlzZVFrSmRjLXN6UjRwbGpvdU9HWHJqMEVFUEVhOUZuZ1c1Y3FOLThhb2Vpb2w3SWFvUWhuUTJVNHRfTEQ5elRJdGpjYlZ1em52QnZHaUhDSGxFY1U?oc=5",
+          "publishedAt": "2026-10-07T21:00:00Z"
         }
       ]
     },
@@ -243,18 +335,25 @@
       ]
     },
     {
-      "id": "991e85ab5f2d1f",
+      "id": "001c0a1cafc5b5",
       "category": "politics",
-      "title": "纐纈厚さん「歴史の事実ゆがめることは第２の罪」 日本政治の右傾化を懸念 連載「時代の正体 高市政権考」まとめ - カナロコ",
+      "title": "第２２２回国会 国務大臣の演説に対する質疑（代表質問 １日目） - 衆議院トップページ",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T09:00:00Z",
+      "latestPublishedAt": "2026-10-07T08:32:05Z",
       "sources": [
         {
-          "id": "e0c197f11872c7",
-          "name": "カナロコ",
-          "title": "纐纈厚さん「歴史の事実ゆがめることは第２の罪」 日本政治の右傾化を懸念 連載「時代の正体 高市政権考」まとめ - カナロコ",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBvdzBTYzFWUTRzOEFqSmoteVhKbEt3RHpOWXk4SHFzYk1RWGY4SEJaUk5wUXpXRnhHS0NVWkpOR1BWTEttQ19PMXJvMTZRN3IxV1NkMFVmV3RlSDhlT1VYeldfT0FWUnc?oc=5",
-          "publishedAt": "2026-10-07T09:00:00Z"
+          "id": "599722215592fb",
+          "name": "衆議院トップページ",
+          "title": "第２２２回国会 国務大臣の演説に対する質疑（代表質問 １日目） - 衆議院トップページ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS01jU1dCaWlWUkF5aVZuU2k4YW81UnFpUEN0RXo5VkVILUFVU21rQTRuNkFBME9xTEVqRTdOelBxMWpRcHRkZXdmY3dLSWF5OHNERWx1Q2ZVZElBeXBfVDNSSFpuV25xY21uYUhoQ3FYSEdma0I3b3VJSFdFN3VvN2t1VndaSVdTYXc4LUZZeHhrdw?oc=5",
+          "publishedAt": "2026-10-07T08:32:05Z"
+        },
+        {
+          "id": "620c1cb6e4f421",
+          "name": "衆議院トップページ",
+          "title": "第２２２回国会開会式 - 衆議院トップページ",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcXdHdEFJd2ZDN2Z2YmRld01YX1FFX3JMZTNIUEdNNjFHSmxSWUlhVWdnOE55MGVSYW5aUkh1MGN1ZFZZQm1JWUZ0ckx3OVFwT0JIX0xSTkdtZVFBbDVGX3hHazNrVllXcE1aQlp4TTRZdEtTRFdDYlJmTk5RUDM3TEE1QW9vME43TERUWGRsUEYzZ2s?oc=5",
+          "publishedAt": "2026-10-05T07:43:55Z"
         }
       ]
     },
@@ -275,6 +374,22 @@
       ]
     },
     {
+      "id": "fd9ad60789c38e",
+      "category": "entertainment",
+      "title": "飯田で「南信州民俗芸能フェスティバル」　県150周年記念、伊勢大神楽も - ｄメニューニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T08:00:00Z",
+      "sources": [
+        {
+          "id": "e6ee4d92f69233",
+          "name": "ｄメニューニュース",
+          "title": "飯田で「南信州民俗芸能フェスティバル」　県150周年記念、伊勢大神楽も - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPU3kxNk13dXVPOFdQRnpEV3VEOXE0MUl2Q3Z5NVBjanlOTlRMcFlYNlJVX0NJbUVCSXpzTHVjV3gyX2pHU1pyMzN2dy1lTnFRbW9SQVRJVngxVkx5YW5Mcmg3VVNrQjBXQktxbmtLSG1mbmdibjEzYkV4Uk9vMkxUSkhxcWdkR2hNaTNLYWFBZEd1bkVtWDVrZmJOak9GUHpmN0ZQT29obzZ0allEVUNaX3NSaWIwalZKQmt1cjhzOGZob1g3ZUxLU2lteTBqUdIBfkFVX3lxTE1fcTBCdG9DSFdUVkRrZ0JjV3dubUE0UkthS1dLT2txbHBRTnNTRlBzdEFZZlZLSTh1TjFhUXZLX3FySnVBcnl6c2ZYUkduemtIeThOMlVkRW5weHEyQUttWXZhUVpPd29MZGRlcC04dW94ay1ZRzFpOG9FZGhaZw?oc=5",
+          "publishedAt": "2026-10-07T08:00:00Z"
+        }
+      ]
+    },
+    {
       "id": "a794fb24d3bfeb",
       "category": "internet",
       "title": "SNSで話題、『戦国工務店』が書籍化 11月11日発売 - 新建ハウジング",
@@ -291,41 +406,18 @@
       ]
     },
     {
-      "id": "23c5010440e851",
-      "category": "entertainment",
-      "title": "子ども伝統芸能祭り｜お出かけ情報 - 熊本日日新聞社",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T06:05:51Z",
-      "sources": [
-        {
-          "id": "0f2d400d3a8788",
-          "name": "熊本日日新聞社",
-          "title": "子ども伝統芸能祭り｜お出かけ情報 - 熊本日日新聞社",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBUMXB5MjlIZ1R5V0tpaEk0WEZhSFE1YkdmSGU5dmpKRGNVa1ZVVHdMS2tsc2tJOFFMU2lFeUNjN2hQUWJROHRYZUpXUQ?oc=5",
-          "publishedAt": "2026-10-07T06:05:51Z"
-        }
-      ]
-    },
-    {
-      "id": "99dd3c6f90033b",
+      "id": "43e648bdb0778b",
       "category": "economy",
-      "title": "日本経済指標【景気動向指数（速報値）】 - みんかぶ FX/為替",
+      "title": "「決して楽観視できるとは言えない」財務省が公表した国際比較で日本が“北朝鮮より下”だった項目 - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T05:01:29Z",
+      "latestPublishedAt": "2026-10-07T05:30:35Z",
       "sources": [
         {
-          "id": "25194189383644",
-          "name": "みんかぶ FX/為替",
-          "title": "日本経済指標【景気動向指数（速報値）】 - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBkbUkxclVDbVcybHA5eWh2aXhBTVBaZXVXcG1sM0hfNDZMbzR3YXJqU1NlWGxucS1rTWRJMlUweGxTWGpiTGhPeA?oc=5",
-          "publishedAt": "2026-10-07T05:01:29Z"
-        },
-        {
-          "id": "675079aa9c4d26",
-          "name": "みんかぶ FX/為替",
-          "title": "日本経済指標（実質賃金） - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE4ybWtZNTMyU1VrUHJYNG0xWktZUUgwQ201M0VzamFCSUFMTXpZTWNPWDZGdWR5cjZDUDhWekN0dlpqRGVsUjQwQQ?oc=5",
-          "publishedAt": "2026-10-06T23:30:28Z"
+          "id": "3c31a2495a2711",
+          "name": "Yahoo!ニュース",
+          "title": "「決して楽観視できるとは言えない」財務省が公表した国際比較で日本が“北朝鮮より下”だった項目 - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZcE00cGlWdHZLX0hfUTdFdWNOOFJWSUJWZHdSLUlCZjNyblJiTjRVWXBNVnU1MDNnRFJCZy1zNlJWclBUR2l3dnVGLXltMWR1Q1NSNVYxcG5QNDZ1YmZ4NlJDYVZQN2d6ZGtHU0NKYkZFWjlwbUhxbVRvbGFNbk0?oc=5",
+          "publishedAt": "2026-10-07T05:30:35Z"
         }
       ]
     },
@@ -378,38 +470,6 @@
       ]
     },
     {
-      "id": "057107ad042543",
-      "category": "internet",
-      "title": "【無印良品】SNSで話題の『ヘッドスクラブ』試してみると →「使わなかったことを後悔」 - ｄメニューニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T03:02:00Z",
-      "sources": [
-        {
-          "id": "36cee4b5300398",
-          "name": "ｄメニューニュース",
-          "title": "【無印良品】SNSで話題の『ヘッドスクラブ』試してみると →「使わなかったことを後悔」 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU0xOUFM0OVFud1h1SjhtRW9FMjBTLVZGejRJWTAwcmpGWkJOVFk1TmtVMmVudmtQMkp4LVBRX3lUbTFENTFvdFMxSDJQLVZPUDNSUlF1cnNxTEpVRnlLNjlSVTIyTVZwNEdkZ3A3S0dWZGNROVBDMk03S0tNYllneHQ5UGVENDFGcjlreDZWUEpjbEk1bTV4MmVlZ3F6VXItZXJSd1lMONIBpwFBVV95cUxPU0xOUFM0OVFud1h1SjhtRW9FMjBTLVZGejRJWTAwcmpGWkJOVFk1TmtVMmVudmtQMkp4LVBRX3lUbTFENTFvdFMxSDJQLVZPUDNSUlF1cnNxTEpVRnlLNjlSVTIyTVZwNEdkZ3A3S0dWZGNROVBDMk03S0tNYllneHQ5UGVENDFGcjlreDZWUEpjbEk1bTV4MmVlZ3F6VXItZXJSd1lMOA?oc=5",
-          "publishedAt": "2026-10-07T03:02:00Z"
-        }
-      ]
-    },
-    {
-      "id": "9c55689bebe9ba",
-      "category": "politics",
-      "title": "【視察】ゲンロンカフェ 日本政治の「現場」はどこにあるのか③ ～沖縄の負の連鎖～ - 選挙ドットコム",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T23:06:03Z",
-      "sources": [
-        {
-          "id": "fd929392f60727",
-          "name": "選挙ドットコム",
-          "title": "【視察】ゲンロンカフェ 日本政治の「現場」はどこにあるのか③ ～沖縄の負の連鎖～ - 選挙ドットコム",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5nMWRTVW5lOHNYOG9XUFRoZmlyamJlcVBNYVVSVXpGc0JUSFZaeWdla01EWDlIcXV6eldnMVlPaktRd0ZHakJPZ2NvZ3Zxc01qRzR6Y1FWRHkxamdGOTFV?oc=5",
-          "publishedAt": "2026-10-06T23:06:03Z"
-        }
-      ]
-    },
-    {
       "id": "299656bf93732c",
       "category": "politics",
       "title": "学問の自由は守られる？ 日本学術会議が新体制に移行…消えない「政治介入」への不安 - 東京新聞",
@@ -422,45 +482,6 @@
           "title": "学問の自由は守られる？ 日本学術会議が新体制に移行…消えない「政治介入」への不安 - 東京新聞",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14bFhzOEZEYmZfWmFlZzlNUmF0WERudWdZbzk0M19NZllDdTBCWEV3Q281aUQ4Ujl1V3YyVDhfS05HeXVwWE1Qa05fQ21pRTY3d1hj?oc=5",
           "publishedAt": "2026-10-06T20:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "5509010419a5a6",
-      "category": "economy",
-      "title": "円相場 値下がり 日米の金利差が意識され円売りの動き - NHKニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T11:07:57Z",
-      "sources": [
-        {
-          "id": "b3b879260c531f",
-          "name": "NHKニュース",
-          "title": "円相場 値下がり 日米の金利差が意識され円売りの動き - NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aZWVZcGV2SXROOFJ2RlB4UEJyRG9KbVJQbUNfaEVpaUp4YlhLNENkTXJLaVdmNWNkVThrTDRKVlNvamJiQ1VOaDJIM21XelBXdktxT3FCZWhHdjBMOWpR?oc=5",
-          "publishedAt": "2026-10-06T11:07:57Z"
-        },
-        {
-          "id": "1f356a18361e34",
-          "name": "NHKニュース",
-          "title": "円相場 小幅な値動き - NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iRnZQMEFvRm9Id0x5cXZ4UWtldV9NN25KVmszUkRCV3VRaDQ1bDJyMnR1SXpFcDA5emVHVktXY0RxOVd1eEh5ZVNyRHlQZC15NUpwbkxDaVlpRUJhQ3h3?oc=5",
-          "publishedAt": "2026-10-05T09:31:28Z"
-        }
-      ]
-    },
-    {
-      "id": "ae5ffdde66c089",
-      "category": "entertainment",
-      "title": "佳子さま、京都・京丹波町をご訪問 伝統芸能「和知人形浄瑠璃」や菊花展などご鑑賞 地元中学生と交流も - 朝日放送",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T10:17:00Z",
-      "sources": [
-        {
-          "id": "2566d19569227c",
-          "name": "朝日放送",
-          "title": "佳子さま、京都・京丹波町をご訪問 伝統芸能「和知人形浄瑠璃」や菊花展などご鑑賞 地元中学生と交流も - 朝日放送",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE94NEFlWmt5cHNMV3FjOHNYR3gyV0VLNnlpVEJ3R3dKcUdaTHdVV24wOTVDR00xWGd3SUh2dnI2bEE1ajJPZlZCdE9jV2ROczNLVDJjcVVxSEIzTnp0NVE5OHZR?oc=5",
-          "publishedAt": "2026-10-06T10:17:00Z"
         }
       ]
     }
