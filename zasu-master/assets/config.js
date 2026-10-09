@@ -23,8 +23,8 @@ window.ZASU_MASTER_CONFIG = {
   supabasePublishableKey: "sb_publishable_-rY9u8jnlhS0Qg1XmPlqKg_ViQ0sZYn",
   betaAnonKey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNpd216cmFkdnJ0ZXRvdGFra2JpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTAzNTk2MTEsImV4cCI6MjEwNTkzNTYxMX0.aF71_QHKtm5JxIN4h3Q-huwKBcdQEOg72fKxErINgMQ",
   workerBaseUrl: "",
-  workerUploadMaxBytes: 1073741824,
-  uploadMaxBytes: 52428800
+  workerUploadMaxBytes: 500000000,
+  uploadMaxBytes: 500000000
 };
 
 // Deployment marker: 2026-10-05 ZASU AUDIO Square checkout update.

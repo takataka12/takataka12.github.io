@@ -36,14 +36,14 @@ if(directMixHandoff){
 const savedNo=localStorage.getItem("zasu_beta_application_no")||"";const accessToken=localStorage.getItem("zasu_beta_access_token")||"";const visitorId=localStorage.getItem("zasu_visitor_id")||"";const sessionId=sessionStorage.getItem("zasu_session_id")||crypto.randomUUID();sessionStorage.setItem("zasu_session_id",sessionId);
 function humanBytes(n){
   if(n<1024*1024)return (n/1024).toFixed(1)+" KB";
-  return (n/(1024*1024)).toFixed(1)+" MB";
+  return (n/1_000_000).toFixed(1)+" MB";
 }
 function validateFile(file){
   if(!file) throw new Error("WAVまたはFLACを選択してください。");
   const ext=(file.name.split(".").pop()||"").toLowerCase();
   if(!["wav","wave","flac"].includes(ext)) throw new Error("現在対応しているのはWAV / FLACです。");
-  const max=cfg.workerBaseUrl?(cfg.workerUploadMaxBytes||1073741824):(cfg.uploadMaxBytes||52428800);
-  if(file.size>max) throw new Error(cfg.workerBaseUrl?"ファイルが1GBを超えています。":"ファイルが50MBを超えています。50MB以内のWAV / FLACを選び直してください。");
+  const max=500_000_000;
+  if(file.size>max) throw new Error("ファイルが500MBを超えています。500MB（500,000,000バイト）以内のWAV / FLACを選び直してください。");
 }
 function setFile(file){
   try{
@@ -93,7 +93,7 @@ async function edgePost(url,payload){
       beta_application_not_found:"受付番号が見つかりません。",
       beta_not_accepted:"この受付番号はまだβ参加枠に入っていません。",
       payment_required:"この受付ではアップロード権限を確認できませんでした。",
-      file_too_large:"ファイルが50MBを超えています。",
+      file_too_large:"ファイルが500MBを超えています。",
       unsupported_file_type:"現在対応しているのはWAV / FLACです。",
       unsupported_mastering_profile:"マスタリングスタイルを確認してください。"
     };
@@ -102,7 +102,26 @@ async function edgePost(url,payload){
   return body;
 }
 
+function uploadWithProgress(url,blob,onProgress){
+  return new Promise((resolve,reject)=>{
+    const xhr=new XMLHttpRequest();
+    xhr.open("PUT",url);
+    xhr.timeout=30*60*1000;
+    xhr.setRequestHeader("apikey",cfg.supabasePublishableKey);
+    xhr.setRequestHeader("x-upsert","false");
+    const form=new FormData();form.append("cacheControl","3600");form.append("",blob,"audio.part");
+    xhr.upload.onprogress=(event)=>{if(event.lengthComputable)onProgress(Math.min(blob.size,event.loaded/event.total*blob.size));};
+    xhr.onload=()=>{if(xhr.status>=200&&xhr.status<300){onProgress(blob.size);resolve();}
+      else reject(new Error(xhr.status===413?"アップロード容量がサーバーの上限を超えました。もう一度お試しください。":"音源アップロードに失敗しました。再度お試しください。"));};
+    xhr.onerror=()=>reject(new Error("通信が途切れました。接続を確認して再度アップロードしてください。"));
+    xhr.ontimeout=()=>reject(new Error("アップロードがタイムアウトしました。接続を確認して再度お試しください。"));
+    xhr.onabort=()=>reject(new Error("アップロードを中断しました。"));
+    xhr.send(form);
+  });
+}
+
 button.addEventListener("click",async()=>{
+  let pendingUploadId=null;
   status.textContent="";
   sessionStorage.removeItem("zasu_result_job_id");
   try{
@@ -206,30 +225,31 @@ button.addEventListener("click",async()=>{
         mime_type:selectedFile.type||"application/octet-stream",
         visitor_id:visitorId,session_id:sessionId,
         mastering_profile:selectedMasteringProfile(),
-        preview_only:true
+        preview_only:true,
+        chunked_upload:true
       });
 
+      pendingUploadId=ticket.upload_id;
       status.textContent="音源を非公開ストレージへアップロードしています…";
       button.textContent="アップロード中…";
 
-      // Use Supabase Storage's signed-upload REST endpoint directly.
-      // This avoids loading the Supabase JS SDK from an external CDN on iPhone/Safari.
-      const signedUrl=cfg.supabaseUrl.replace(/\/$/,"")+
-        "/storage/v1/object/upload/sign/"+
-        encodeURIComponent(ticket.bucket)+"/"+
-        ticket.path.split("/").map(encodeURIComponent).join("/")+
-        "?token="+encodeURIComponent(ticket.token);
-      const form=new FormData();
-      form.append("cacheControl","3600");
-      form.append("",selectedFile);
-      const uploadRes=await fetch(signedUrl,{
-        method:"PUT",
-        headers:{"apikey":cfg.supabasePublishableKey,"x-upsert":"false"},
-        body:form
-      });
-      if(!uploadRes.ok){
-        let detail=""; try{detail=JSON.stringify(await uploadRes.json())}catch(_){}
-        throw new Error("音源アップロードに失敗しました。"+(detail?" "+detail:""));
+      const parts=ticket.parts?.length?ticket.parts:[{path:ticket.path,token:ticket.token,bytes:selectedFile.size}];
+      let uploaded=0;
+      for(const part of parts){
+        const signedUrl=cfg.supabaseUrl.replace(/\/$/,"")+
+          "/storage/v1/object/upload/sign/"+encodeURIComponent(ticket.bucket)+"/"+
+          part.path.split("/").map(encodeURIComponent).join("/")+"?token="+encodeURIComponent(part.token);
+        const blob=selectedFile.slice(uploaded,uploaded+part.bytes,selectedFile.type||"application/octet-stream");
+        await uploadWithProgress(signedUrl,blob,(loaded)=>{
+          const total=Math.min(selectedFile.size,uploaded+loaded);
+          const percent=Math.min(100,Math.round(total/selectedFile.size*100));
+          status.textContent="アップロード中 "+percent+"%（"+humanBytes(total)+" / "+humanBytes(selectedFile.size)+"）。大容量の音源は時間がかかります。画面を開いたままお待ちください。";
+          progress.setAttribute("role","progressbar");
+          progress.setAttribute("aria-valuenow",String(percent));
+          progress.setAttribute("aria-valuemin","0");progress.setAttribute("aria-valuemax","100");
+          progress.style.setProperty("--upload-percent",percent+"%");
+        });
+        uploaded+=part.bytes;
       }
 
       status.textContent="アップロードを確認しています…";
@@ -243,16 +263,19 @@ button.addEventListener("click",async()=>{
       });
     }
 
+    pendingUploadId=null;
     sessionStorage.setItem("zasu_result_handoff",JSON.stringify({application_no:no,access_token:accessToken}));
     status.innerHTML='<div class="success-panel"><strong>アップロード完了</strong><br>まず30秒の無料プレビューを作成します。<br><a href="result.html" style="text-decoration:underline">→ プレビュー状況を見る</a></div>';
     fileInput.value="";
     selectedFile=null;
     fileMeta.textContent="ファイルはまだ選択されていません。";
   }catch(err){
+    if(pendingUploadId){try{await edgePost(cfg.completeMixUploadEndpoint,{action:"cancel_upload",application_no:Number(savedNo),access_token:accessToken,upload_id:pendingUploadId});}catch(_){/* Hourly 24-hour retention cleanup covers offline interruptions. */}}
     console.error(err);
     status.textContent=window.ZASU_I18N.error(err,"master");
   }finally{
     progress.classList.remove("active");
+    progress.removeAttribute("aria-valuenow");progress.style.removeProperty("--upload-percent");
     button.disabled=false;
     button.textContent=directMixHandoff?"マスタリングを開始（無料試聴）":"マスタリングを開始（無料試聴）";
   }

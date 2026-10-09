@@ -190,3 +190,6 @@ textarea{min-height:120px;resize:vertical}.form-row{display:grid;grid-template-c
 .queue-status[hidden]{display:none}.queue-status>div{display:flex;align-items:baseline;gap:9px;min-width:0}.queue-status span{color:#737373;font-size:8px;font-weight:900;letter-spacing:.13em}.queue-status strong{font-size:15px;letter-spacing:.02em}.queue-status small{color:#858585;font-size:10px;text-align:right}
 .queue-status.ready{border-color:#555}.queue-status.processing{border-color:#666;background:#101010}.queue-status.waiting{border-color:#4a4030;background:#100e0a}
 @media(max-width:620px){.queue-status{align-items:flex-start;flex-direction:column}.queue-status small{text-align:left}}
+
+/* Actual MASTER upload bytes, including mobile uploads. */
+#uploadProgress[aria-valuenow] span{animation:none;transform:none;width:var(--upload-percent,0%);transition:width .15s linear;}
