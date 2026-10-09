@@ -1,43 +1,13 @@
 {
-  "generatedAt": "2026-10-09T02:09:54Z",
+  "generatedAt": "2026-10-09T09:04:11Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
     {
-      "id": "1a2dc5c6a76119",
-      "category": "economy",
-      "title": "【注目トピックス 市況・概況】米国株見通し：下げ渋りか、金融政策や企業決算を注視 - マネーポストWEB",
-      "sourceCount": 3,
-      "latestPublishedAt": "2026-10-08T04:44:20Z",
-      "sources": [
-        {
-          "id": "97742562104e4c",
-          "name": "マネーポストWEB",
-          "title": "【注目トピックス 市況・概況】米国株見通し：下げ渋りか、金融政策や企業決算を注視 - マネーポストWEB",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE81Zkx0aVBLdE9tQ3ZabmV4Wm85SnFaUnZUbDd1dkg1Zmd1YkEzNDVqWUJwN3F3N1RRNlhaWWVPVXhMMzliTTJR?oc=5",
-          "publishedAt": "2026-10-08T04:44:20Z"
-        },
-        {
-          "id": "19c0c177787b9a",
-          "name": "株探",
-          "title": "米国株見通し：下げ渋りか、金融政策や企業決算を注視 - 株探",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5qVENoREwxREZaRmQ4V0RWWjROMWk4RFhfRzllcWwzamZWZ1ViaXZVeDhzbU84TGsxekJRTXhRVU95d3gya1ptRzR2QXhPWDVDV0t4WEVMTkppR05Zbm9TZUpB?oc=5",
-          "publishedAt": "2026-10-08T04:44:20Z"
-        },
-        {
-          "id": "49c92385a6d33e",
-          "name": "ｄメニューニュース",
-          "title": "米国株見通し：下げ渋りか、金融政策や企業決算を注視 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWVNFV0xQOHRDdnNPcVlKWl9PUjF4c2g0N2IxbmZycTJsZ3VzUjl6US1TcHhRc085RklXdFZsOGVIT3VRWVhMcXZPbE5tYTR5VEdQWVRmY1hNYjhHYUt3am4yZWktOVliSmRuZHExYkpyT2NKb2VwTUlNbEZ5Ulh0ZXBwZkFyQWh4akRNZlRIeHM4MlRZWjZPTHJ30gGMAUFVX3lxTFBLV3hkV05VRWlJZDZHOVlQRzg0aHN4eVV0WmJqckc1TzRNSUdrTVlMb2hsVmptLVZJWmhxT0gxTkp1ME9ESFlYUmt1Y3RLNDBlUkFVcUJHNHoxRGJEaFFTZnUzRER2dGE5bElrcnV1WTRmVXkteUxpWGNobEhBRWk3NjVEclFvWDJxQmhE?oc=5",
-          "publishedAt": "2026-10-08T04:44:00Z"
-        }
-      ]
-    },
-    {
       "id": "50f6110f5717a2",
       "category": "entertainment",
       "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - 山形新聞",
-      "sourceCount": 3,
+      "sourceCount": 4,
       "latestPublishedAt": "2026-10-07T17:31:35Z",
       "sources": [
         {
@@ -55,7 +25,14 @@
           "publishedAt": "2026-10-07T15:15:00Z"
         },
         {
-          "id": "12fb1e4ef4556a",
+          "id": "740b5f50f0bcaf",
+          "name": "オリコンニュース",
+          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - オリコンニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40a080SS1vUWMxMlVvamFxYTgzS2xlQ3YydFVrOW5Zb2RRbkZhOFJ6Tmh5bVlCYlotR2liSGp0YWVoVEZESno0MTllRXZUQ1FXckV6Q25aWmVNSWQzTHNBZWhEay0?oc=5",
+          "publishedAt": "2026-10-07T15:15:00Z"
+        },
+        {
+          "id": "4eb8bb68564b0b",
           "name": "Infoseek",
           "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - Infoseek",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yaDlXZ2dWRzYxREF4UGdob2dkVjBnd1NVLXAxdHYwTy1KME5VMFpwVGZuVVp4UXhUbUh4bEhsc3QyY2U3eGoxVDY1N3E0YmdERjJueWM4amFURF9DdVdV?oc=5",
@@ -94,39 +71,131 @@
       ]
     },
     {
-      "id": "e924e76115de38",
+      "id": "5c410711478a40",
       "category": "economy",
-      "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
+      "title": "AI開発企業「オルツ」粉飾決算、検察側が前社長に懲役4年求刑（日テレNEWS NNN） - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T01:51:29Z",
+      "latestPublishedAt": "2026-10-09T07:43:00Z",
       "sources": [
         {
-          "id": "2e5bd977270c49",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oUEFDMEpRUk1tNTl3ZERvYXZFTVZWUHFKcGIzSWN3QzBCd24wR2xNOVk2VmNWRnpoMEl2V0RlOGtsaEI3dmVZVg?oc=5",
-          "publishedAt": "2026-10-09T01:51:29Z"
+          "id": "d0f94fbcdf0732",
+          "name": "Yahoo!ニュース",
+          "title": "AI開発企業「オルツ」粉飾決算、検察側が前社長に懲役4年求刑（日テレNEWS NNN） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16cnJJTGZpWXJxS2pkYURWclNUc1M0YzBUWkl2LWQzTFJQNUthTVBtaXFTTVJub2ZHaE1nYWFDS1J2TXdLVkRLUEVybzhiY2RNeUx4UktSMm5ucDFDVXFzaEtPUUxyNkczNzdPcEJZM2JNaXFWNGNFYXdsNDZDSmM?oc=5",
+          "publishedAt": "2026-10-09T07:43:00Z"
         },
         {
-          "id": "b6a50f50495a0c",
+          "id": "df984541463b64",
+          "name": "テレ朝NEWS",
+          "title": "AI開発企業「オルツ」粉飾決算 前社長に検察側が懲役4年求刑 - テレ朝NEWS",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QNWtibmRsSUNUR1VERjY1V3Uzb3B3M1Z0S3ExRmpkMVZYQllmMlNJT0Z6M3pReldyd01HU1ZheVUyWnUwSWxVVnBYeGpwRmdKeG1ZSWNoUER0UmpqMWxVUkhHVUhLUTRNemo2emp6NHlNZw?oc=5",
+          "publishedAt": "2026-10-09T05:02:51Z"
+        }
+      ]
+    },
+    {
+      "id": "2da162b2998b74",
+      "category": "economy",
+      "title": "日経平均は24円安、企業決算や米経済指標に関心 執筆： Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-09T06:02:45Z",
+      "sources": [
+        {
+          "id": "503181afffb357",
+          "name": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+          "title": "日経平均は24円安、企業決算や米経済指標に関心 執筆： Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84VXZmcHZjWU9BeTFCcmtZazcxRHpYbHItREJ3b1dlbVNpR1N3T0phZ0RXQjBfZks2Y05COWR5WTZrdkVCV3BpZlRQTlV1dFVfcW00aFZJbkNFVFV4SkRETDZFbTZNaHM?oc=5",
+          "publishedAt": "2026-10-09T06:02:45Z"
+        },
+        {
+          "id": "af1e598b3da547",
           "name": "ｄメニューニュース",
-          "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQXBJMEZheTVVeXZULXBiT25XLU4xeDg3U0V6ajVtTkJZOWtRWEh4dE9LWjRVazZmeW9mTkhFQTN1MXVKcEtJd1RZTG1ldVBnUEljLXVwd25nWm52TmFRSUxnSUVTMy1ySklqNElSNEJYcDVjOExXOWg4dUtlQkJCazln0gGHAUFVX3lxTFBFdkxRTzk4bG1Db19WemFYQV9teFVkS3M3MW53UEFOZVZETTJ6MVFvUm55amNFUEtqeGxaa2t4Mlg4RGVkeEYxUjRvcEw3anhRT2FtRVduVHo1cFhKblVIRVRPdEFKX2tGUmhHdGdaeFdTR0E0Q01YalhuQmRCb1JjUWM3WGlHMA?oc=5",
-          "publishedAt": "2026-10-08T05:00:00Z"
+          "title": "日経平均は24円安、企業決算や米経済指標に関心 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkdtTTF5Nk0taldtcDJLVDFOREYtc1VVd0xRNFJEUWp1WkdHY0RuaXJETVJiYmxBcWZzbmJCNkR2NHFHdmU1TGlJRmlmbzVELVRjMkUwVVdXa2UxZWRSUGpWemZyZFF4Vl9kUEVyX0RIc0NHTGtJT1l5ZFEwZmtXdTRKblFHVGZLLUNUStIBjAFBVV95cUxPTkdtTTF5Nk0taldtcDJLVDFOREYtc1VVd0xRNFJEUWp1WkdHY0RuaXJETVJiYmxBcWZzbmJCNkR2NHFHdmU1TGlJRmlmbzVELVRjMkUwVVdXa2UxZWRSUGpWemZyZFF4Vl9kUEVyX0RIc0NHTGtJT1l5ZFEwZmtXdTRKblFHVGZLLUNUSg?oc=5",
+          "publishedAt": "2026-10-09T05:52:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6220936aaa31ed",
+      "category": "entertainment",
+      "title": "伝統芸能「唐子踊」理解深める 瀬戸内・牛窓東小 保存会が学習会 - 47NEWS",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-09T05:19:31Z",
+      "sources": [
+        {
+          "id": "032bdc9741f6d9",
+          "name": "47NEWS",
+          "title": "伝統芸能「唐子踊」理解深める 瀬戸内・牛窓東小 保存会が学習会 - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tc1BHZWxaU1VBQlNBV25JbHNMZGhmekxUd1FOY3Byb1c5N2hmQ0kzT2ZZUXo2em9KYUtUb0ZWYlNhMkZPc3lUTDJ5UQ?oc=5",
+          "publishedAt": "2026-10-09T05:19:31Z"
         },
         {
-          "id": "ac1583749226fa",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 現在の日本経済はリフレ政策が必要な局面ではない - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nM21fQmZHN3Z4c3o3QU1zTFl3VUpab01OSTJGYm5aMHppY3hQTDA5MTFCSnZiQ2NGREhTT2F0eHZTVHlrYzlSbQ?oc=5",
-          "publishedAt": "2026-10-08T04:35:29Z"
+          "id": "76ea659238a173",
+          "name": "山陽新聞",
+          "title": "伝統芸能「唐子踊」理解深める 瀬戸内・牛窓東小 保存会が学習会 - 山陽新聞",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fc2d0bi1nWnBBYTZjYlFlNkkxcUxUZG9yYW45YUFEVkg4TVlNaVZFWEFrMWlzeFZUTEhDTS1WSm9pMnJDMXV4YmE2OFNUeU12Z0E?oc=5",
+          "publishedAt": "2026-10-09T05:19:00Z"
+        }
+      ]
+    },
+    {
+      "id": "bbefd768e38012",
+      "category": "entertainment",
+      "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ (関連動画) - WEBザテレビジョン",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-09T03:00:18Z",
+      "sources": [
+        {
+          "id": "6fd1302f289097",
+          "name": "WEBザテレビジョン",
+          "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ (関連動画) - WEBザテレビジョン",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qS25XblRCazVzU1dGOHdkV25rTGVRVlJIUXh4YU1VTlVwQlJNdTVfWFBNUzhFRFlQbDZiY0ltNGRhWWwxclgzU3lMbEZtQ1luRk4zS1h1STBYNFBVclE?oc=5",
+          "publishedAt": "2026-10-09T03:00:18Z"
         },
         {
-          "id": "e72c3acbe488a4",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 日本経済はデフレではない状況だ - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84SXQxZ2xEZDBwZWtpRFFEbzh0Q1dFSTExRkdrZ3gxc3kxQWhydHViWDdCbTV3NjlubWJNcVJCendTMXdzYnFZeQ?oc=5",
-          "publishedAt": "2026-10-08T04:35:29Z"
+          "id": "44e4af13ce61c4",
+          "name": "ｄメニューニュース",
+          "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLUw2eGFpTGdGTHJYc3ppcFoxS1BlQWRwSVJIN0lOQXg0V2VySmRxMmZGMEQ4NTdXSmdzcDNiWXhSWHIyQU1vVHB1a0FvSGllY0Vlalo3aEh2dndNTDVuTzhkUWJpWnVOU2NGWkVlQlZRY2liSG5iQ1U5amlXaTFhSTE5SdIBgwFBVV95cUxNLUw2eGFpTGdGTHJYc3ppcFoxS1BlQWRwSVJIN0lOQXg0V2VySmRxMmZGMEQ4NTdXSmdzcDNiWXhSWHIyQU1vVHB1a0FvSGllY0Vlalo3aEh2dndNTDVuTzhkUWJpWnVOU2NGWkVlQlZRY2liSG5iQ1U5amlXaTFhSTE5SQ?oc=5",
+          "publishedAt": "2026-10-09T03:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "819f1813c3cfcc",
+      "category": "internet",
+      "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-09T01:42:42Z",
+      "sources": [
+        {
+          "id": "61d6d58b2d7eb3",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1aUIyYkx2X0ZVRkZWYTVBNUI1c2JhTk9qdFlJOFZXZ2Q4aGZaQld5V29NSVFteEJoaFFRdllCd2laaDUyVWF1SG5iRE9GMXl4SFExa1lpcTlsLVpsYTFF?oc=5",
+          "publishedAt": "2026-10-09T01:42:42Z"
+        },
+        {
+          "id": "91a6934abeff98",
+          "name": "Yahoo!ニュース",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声（MRT宮崎放送） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YbUlJYWJ1Zm5reW4waUVZbnhKLWdXLW52WGI2cHpVZTZ3LUtTQUpRWWRXS2xpdjhmQWY4bE8yeHA3T0ZrTkRHcV9zQUpUbzZIeXprNVVrSzdFbjVMRDlZcFpVai1GcERSY1JhWVdhMllGVWJaLXlETU1ieWh3N1E?oc=5",
+          "publishedAt": "2026-10-09T00:11:12Z"
+        },
+        {
+          "id": "8e035ac3ff4b0e",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JRmFQVV9Nd29nVkxrUFU3Sk1DQ2JMb21HN1EtY1dneGVqdlJzeHJ5UmZUVWhTTHVfSm95ZFk4SkgteGFMSGV0TkQ5SVFpSTFRTU5CaHZGZ2xiUQ?oc=5",
+          "publishedAt": "2026-10-09T00:00:00Z"
+        },
+        {
+          "id": "fab49e9eb4fc4d",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CY2FaZ2xWa1ZQTVc1cnBTT1JPdl9XUXl5U0xETWQtb2RlcUxIa3VYUWowbE04XzdLQ2NCVGdvZXR5UGNjNWl4TWF0TWcya1hPU2d4WnI3RQ?oc=5",
+          "publishedAt": "2026-10-09T00:00:00Z"
         }
       ]
     },
@@ -150,59 +219,6 @@
           "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」（日刊スポーツ） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzaDNCSU1vcWVDUGRxNEl4Vks0ako5T2JMMzg3c0tHdkExWVNHWEc5VlZxbmRIRXJoTWVTYWJ4U0tpVEFQVzB3UHZZTlRycVB1ODlSZkpWcGtJTGhMbnhoN3RwWm81WW81VGtCX1AyM3pxZnJLQ2cyYzlCOHRyVmc?oc=5",
           "publishedAt": "2026-10-08T23:23:26Z"
-        }
-      ]
-    },
-    {
-      "id": "3328e2a2b30802",
-      "category": "internet",
-      "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声（MRT宮崎放送） - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T00:11:12Z",
-      "sources": [
-        {
-          "id": "1b5396b05ecc73",
-          "name": "Yahoo!ニュース",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声（MRT宮崎放送） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YbUlJYWJ1Zm5reW4waUVZbnhKLWdXLW52WGI2cHpVZTZ3LUtTQUpRWWRXS2xpdjhmQWY4bE8yeHA3T0ZrTkRHcV9zQUpUbzZIeXprNVVrSzdFbjVMRDlZcFpVai1GcERSY1JhWVdhMllGVWJaLXlETU1ieWh3N1E?oc=5",
-          "publishedAt": "2026-10-09T00:11:12Z"
-        },
-        {
-          "id": "384d7c37c4f58f",
-          "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JRmFQVV9Nd29nVkxrUFU3Sk1DQ2JMb21HN1EtY1dneGVqdlJzeHJ5UmZUVWhTTHVfSm95ZFk4SkgteGFMSGV0TkQ5SVFpSTFRTU5CaHZGZ2xiUQ?oc=5",
-          "publishedAt": "2026-10-09T00:00:00Z"
-        },
-        {
-          "id": "5f67469ac839dd",
-          "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DOFFmYkFjMjZVZE1tbDRFY1dKM1BNdDRLUm5XVm9SSE5UYlBBbEl4YmZHTl9JUXZnYnJ1RmN6MXZaOHI3blB6TXBJRHFLQVlXQWZVUFlsWm5PRDk0SmtzOUpHTFM?oc=5",
-          "publishedAt": "2026-10-09T00:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "ee6e7ae430ff60",
-      "category": "entertainment",
-      "title": "マセキ芸能社、所属タレントへの誹謗中傷・迷惑行為に声明「人格を否定するような投稿」など控えるよう注意喚起 - ｄメニューニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T00:01:00Z",
-      "sources": [
-        {
-          "id": "7cbc3e5d4f9d9b",
-          "name": "ｄメニューニュース",
-          "title": "マセキ芸能社、所属タレントへの誹謗中傷・迷惑行為に声明「人格を否定するような投稿」など控えるよう注意喚起 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdkktWW1hSGpzbVlyb0tvd2lrOVpUTjZCdUQ0OTdfa1ZSdlJaOWJlazF1dmlEaUc3QVFMRmY1cXdoSGRBVkNjbGkxcG1nZkJLb2o2aktjWDhIQzhFODF2ek5oa29mZVVDS21aT25sNnU2UndTa1ZIcjE2a01QeVJ1adIBhgFBVV95cUxPTTc0X2t2bENLVmhhV3lTb0huUV9INU1XdkRrNzUtREVfejVqZDRsT3dmcjI0YVJsSXB5YVlRY0Jmd3RQTm1OZEQ3VDhDSWo5WHI4Si11eEdTcm00UUZTZE1EbG1zNzN3ZEZQaWFoZ3IyMXpTMUpIZnRKVGpHQnRiOGk4ZHJXZw?oc=5",
-          "publishedAt": "2026-10-09T00:01:00Z"
-        },
-        {
-          "id": "427e6d3139def7",
-          "name": "サンスポ",
-          "title": "マセキ芸能社、タレントへの誹謗中傷・迷惑行為に注意喚起「状況に応じて適切に対応いたします」 - サンスポ",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93RC16akJ3SFhEUW1ub1lHUmNVV3h6SDhpYkVfeElZcnZuT0M2cWFIRUd0OGtiNHdob1hqZW5ZZzlhZjN6blk2Z1dybHZzaUppYXpSTndGTHlJWkhWRVMtZEFlTHUxNllUNmtWeDZCd2RvanRmaFHSAYoBQVVfeXFMTnBCN2drSUhBaEVVbTkydWxjbkpSWmJ1RmROaFRWVTNUVlY1Qjh5UnNFLUZUalB3ajZHcEtNVnFkQWZQRlk2V0F0dzdDY3poTEdBVXJ6YjF1VW5XRXFfQ1RFOEl0SVpTU05VUnhNRlZmNUowQUU1VWxqeDlGVUJ5Mjl1YkFxeG1aQzVR?oc=5",
-          "publishedAt": "2026-10-08T04:13:38Z"
         }
       ]
     },
@@ -260,6 +276,36 @@
       ]
     },
     {
+      "id": "2b55d22c59dfa7",
+      "category": "economy",
+      "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - Infoseek",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-08T05:07:00Z",
+      "sources": [
+        {
+          "id": "9ee0f3c76f5b46",
+          "name": "Infoseek",
+          "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - Infoseek",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sUEhRVEpiU1lOZUhtM1N1QldQWjM0bjhqbzRKeUNzM2FqTWVRaFd2aWptN0JTSHdjaUhPOWxKVFFOTzlzOTl6d21WdEhHSlpObUloV0hBVndEalVYc2pZY0Q4NVFzUHJSRDJBdQ?oc=5",
+          "publishedAt": "2026-10-08T05:07:00Z"
+        },
+        {
+          "id": "8d0ae1b3e5bc24",
+          "name": "みんかぶ FX/為替",
+          "title": "高市首相 現在の日本経済はリフレ政策が必要な局面ではない - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nM21fQmZHN3Z4c3o3QU1zTFl3VUpab01OSTJGYm5aMHppY3hQTDA5MTFCSnZiQ2NGREhTT2F0eHZTVHlrYzlSbQ?oc=5",
+          "publishedAt": "2026-10-08T04:35:29Z"
+        },
+        {
+          "id": "7944310462cd4e",
+          "name": "みんかぶ FX/為替",
+          "title": "高市首相 日本経済はデフレではない状況だ - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84SXQxZ2xEZDBwZWtpRFFEbzh0Q1dFSTExRkdrZ3gxc3kxQWhydHViWDdCbTV3NjlubWJNcVJCendTMXdzYnFZeQ?oc=5",
+          "publishedAt": "2026-10-08T04:35:29Z"
+        }
+      ]
+    },
+    {
       "id": "099c8e342c497b",
       "category": "economy",
       "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
@@ -283,80 +329,66 @@
       ]
     },
     {
-      "id": "162244c9172dd0",
-      "category": "entertainment",
-      "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-09-26T07:00:00Z",
-      "sources": [
-        {
-          "id": "c10e9cbaa947e5",
-          "name": "ナタリー",
-          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
-          "publishedAt": "2026-09-26T07:00:00Z"
-        },
-        {
-          "id": "2a10d16f1b0cc8",
-          "name": "Yahoo!ニュース",
-          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
-          "publishedAt": "2026-09-26T07:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "4c3a7390998adc",
+      "id": "e924e76115de38",
       "category": "economy",
-      "title": "11時の日経平均は373円安の6万8668円、ファストリが217.63円押し下げ - 株探",
+      "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T02:01:01Z",
+      "latestPublishedAt": "2026-10-09T01:51:29Z",
       "sources": [
         {
-          "id": "c0bbe3eb4db7f5",
-          "name": "株探",
-          "title": "11時の日経平均は373円安の6万8668円、ファストリが217.63円押し下げ - 株探",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81bDNoMU9tUGxyZG5fSE5BWWNRSmlfV2FhV05HV1Q2azVoeEhSbjZMbnZlVTA4a0pRMTNiOWhOVFFNM0stVnY1YWJVVTZOSlFDR2c?oc=5",
-          "publishedAt": "2026-10-09T02:01:01Z"
-        },
-        {
-          "id": "9c5a5863e92599",
-          "name": "株探",
-          "title": "10時の日経平均は713円安の6万8328円、ＳＢＧが243.52円押し下げ - 株探",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBid1pZSE56Sk9hNFRuaDhMSXhyNjNMRndSUzlQb3lYWFh6bFNVel9JUXJhVjdDRGZIY1lCeERwMlFyWFJ5aHFHVm1uS0JZa3lHRFE?oc=5",
-          "publishedAt": "2026-10-09T01:01:02Z"
+          "id": "2e5bd977270c49",
+          "name": "みんかぶ FX/為替",
+          "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oUEFDMEpRUk1tNTl3ZERvYXZFTVZWUHFKcGIzSWN3QzBCd24wR2xNOVk2VmNWRnpoMEl2V0RlOGtsaEI3dmVZVg?oc=5",
+          "publishedAt": "2026-10-09T01:51:29Z"
         }
       ]
     },
     {
-      "id": "53b40b52647f85",
-      "category": "politics",
-      "title": "大竹しのぶ、高市政治に怒り 机叩いて「おかしいでしょ、今の政治！どう考えても！」（日刊スポーツ） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T00:43:16Z",
-      "sources": [
-        {
-          "id": "34872c3c4ae4c4",
-          "name": "Yahoo!ニュース",
-          "title": "大竹しのぶ、高市政治に怒り 机叩いて「おかしいでしょ、今の政治！どう考えても！」（日刊スポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YMFd3aU5fUTJzN0JSWkpSOF9yQmtXSFlZNGpvdWNhWExfZDRab2hDcGRrOXQ0d1VFLUU5WnNxS2hGWjJPUWVxeTdRbVJjaEJ2Q2ZTX2Q0M01ISTAyMURkSW1iZ2hMbjVINmlJdXROUlVXX0Q1VUZlcUVXeUVTYkk?oc=5",
-          "publishedAt": "2026-10-09T00:43:16Z"
-        }
-      ]
-    },
-    {
-      "id": "4948a53033f1f5",
+      "id": "3df0cc092ff4d0",
       "category": "internet",
-      "title": "まるでミサイル、ETCゲートで前車に“特攻” SNSで「ヤバ過ぎる」と話題沸騰の”衝撃映像”、ユピテル公式が公開 - carview!",
+      "title": "まるでミサイル、ETCゲートで前車に“特攻” SNSで「ヤバ過ぎる」と話題沸騰の”衝撃映像”、ユピテル公式が公開（1/2 ページ） - 乗りものニュース",
       "sourceCount": 1,
       "latestPublishedAt": "2026-10-08T23:42:00Z",
       "sources": [
         {
-          "id": "ba1b89c2cac756",
-          "name": "carview!",
-          "title": "まるでミサイル、ETCゲートで前車に“特攻” SNSで「ヤバ過ぎる」と話題沸騰の”衝撃映像”、ユピテル公式が公開 - carview!",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRHgzYjRUNG1aZV9KNEtvbW96WUhmQV9ialM2UEZVcS14NnIzdzZqVmgxU2N4R2g1Mkt6RjFIOTA2U2dnQ1VFZ1JWbEpmUFgyRlhkRnZINWlUTXlIS1hocU9NWFRDZU5XUTc1MjItQUM0M1BhN1FWZF9ERm9oTXpiZmM1UGoxSGtv?oc=5",
+          "id": "b7435ad1f2cdcb",
+          "name": "乗りものニュース",
+          "title": "まるでミサイル、ETCゲートで前車に“特攻” SNSで「ヤバ過ぎる」と話題沸騰の”衝撃映像”、ユピテル公式が公開（1/2 ページ） - 乗りものニュース",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE94UG1uMnRyUmJPRmIyME1iZTMtb182VThDOEFmQ2pILUE0N3BoR3pDZ0l5VUQzcG5waVNXTXd0X1lOUU5WZWUyR2xR?oc=5",
           "publishedAt": "2026-10-08T23:42:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9afb1ee1af91b9",
+      "category": "internet",
+      "title": "話題となったムバッペの自転車に乗る投稿に新展開が…… ミリトンも自転車に乗っている姿をSNSにアップ - theWORLD（ザ・ワールド）",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T23:00:00Z",
+      "sources": [
+        {
+          "id": "28e3b553178d80",
+          "name": "theWORLD（ザ・ワールド）",
+          "title": "話題となったムバッペの自転車に乗る投稿に新展開が…… ミリトンも自転車に乗っている姿をSNSにアップ - theWORLD（ザ・ワールド）",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yeXU2MFQ5VjZSamtRM2pZZ0lLVGUxb3FZdzVvLUVIWmZRWkFsX2ZhZExDZ1l5NGFXOHNxa2taUTFuYV9nS053ZElTQXBkVVBFdmpyRmNuQjZKN0VkMWdDeXA2MkJ2b2oxeG0za0hB?oc=5",
+          "publishedAt": "2026-10-08T23:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "0b057a16372dbb",
+      "category": "politics",
+      "title": "大竹しのぶ、高市政治に怒り 机叩いて「おかしいでしょ、今の政治！どう考えても！」（日刊スポーツ） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T21:34:37Z",
+      "sources": [
+        {
+          "id": "e5d6c5bffc6525",
+          "name": "Yahoo!ニュース",
+          "title": "大竹しのぶ、高市政治に怒り 机叩いて「おかしいでしょ、今の政治！どう考えても！」（日刊スポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONGJrRDVmMXdGbzZ1TGtWdXZqZFA2dGNUM0FTdUNodnFoTmFPbjM2T3d4VEh5YVN5OGU1bDF2TUdZazhkUEo3VWdtMnpVT1hRS0NKVGVWSzJtZzZfS0dOZjhyR3ktVEdINWNGZWQ1dldmMTJFMndsSU5jdURpZGFFMTBXdmdFNVRWU1dILW1R?oc=5",
+          "publishedAt": "2026-10-08T21:34:37Z"
         }
       ]
     },
@@ -377,41 +409,32 @@
       ]
     },
     {
-      "id": "aa05dc7a517685",
-      "category": "economy",
-      "title": "円相場 小幅に値下がり インフレ懸念で円が売られる - NHKニュース",
+      "id": "85dbb2624ca31b",
+      "category": "politics",
+      "title": "第222回臨時国会における青木一彦参院幹事長 | 政策 | ニュース - 自由民主党",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T09:14:23Z",
+      "latestPublishedAt": "2026-10-08T06:57:51Z",
       "sources": [
         {
-          "id": "1ad62e57003aaa",
-          "name": "NHKニュース",
-          "title": "円相場 小幅に値下がり インフレ懸念で円が売られる - NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBdHl6eVVRb1Q1Ymhxa2FHbDBaWndhQkt4SVp2WXltZGJKRG9KY0xCb0xtemtzTmxGajlYUW9ONFdxODEyS3RiRVFsdTUyQ3RmOFduRlBxWEZNTkJXVHBB?oc=5",
-          "publishedAt": "2026-10-08T09:14:23Z"
+          "id": "74d3c595be1fd7",
+          "name": "自由民主党",
+          "title": "第222回臨時国会における青木一彦参院幹事長 | 政策 | ニュース - 自由民主党",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE94WWVrbVdrUVhqd1hBUW9UNEctWlh3ZUM0Q3hOc3EwM2hnaXJESi1FMmdLb3RRSDBlb214bHgzX3FBeUJ0UjdacEFwRHg4dFNoRzVGMVNjWQ?oc=5",
+          "publishedAt": "2026-10-08T06:57:51Z"
         },
         {
-          "id": "1f356a18361e34",
-          "name": "NHKニュース",
-          "title": "円相場 小幅な値動き - NHKニュース",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iRnZQMEFvRm9Id0x5cXZ4UWtldV9NN25KVmszUkRCV3VRaDQ1bDJyMnR1SXpFcDA5emVHVktXY0RxOVd1eEh5ZVNyRHlQZC15NUpwbkxDaVlpRUJhQ3h3?oc=5",
-          "publishedAt": "2026-10-05T09:31:28Z"
-        }
-      ]
-    },
-    {
-      "id": "3a966d917bb1c2",
-      "category": "politics",
-      "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T00:14:27Z",
-      "sources": [
+          "id": "acf517578465c4",
+          "name": "自由民主党",
+          "title": "第222回臨時国会における井上信治衆議院議員代表質問 | 政策 | ニュース - 自由民主党",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NOE5lNkUyazdCd3ZmWDFiVEE5SDBTMnBNZDhCaTUwXy1GaG1ibGg5Qm5zMnNGV1RsS0dIalJpTFFlU0hRUEhlaUpDUnJlWkZkNHlYQ09Wdw?oc=5",
+          "publishedAt": "2026-10-07T08:47:51Z"
+        },
         {
-          "id": "92ba2406c02621",
-          "name": "Yahoo!ニュース",
-          "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zTWt0VUZOcFVUREtLLWNfal9tLTdWWXRfeEhBNDNONVBRM1BJZ2NTY1B4bi1HaU1sdS1BUEphVTN1TW5TVVA3WlpSb0IyZXZFR0lvRDF1b3VwOXRYSE1FcDZlSVBwem1pV3Y3dGxhclRubkNhQ0tmOG1CM1lWTGM?oc=5",
-          "publishedAt": "2026-10-08T00:14:27Z"
+          "id": "cc3dadd4cf4500",
+          "name": "自由民主党",
+          "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
+          "publishedAt": "2026-10-06T08:50:57Z"
         }
       ]
     },
@@ -432,6 +455,22 @@
       ]
     },
     {
+      "id": "12e5c0415947a7",
+      "category": "politics",
+      "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」 : 日本•国際 - ハンギョレ新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-07T23:17:00Z",
+      "sources": [
+        {
+          "id": "a3cd7b78bdc01b",
+          "name": "ハンギョレ新聞",
+          "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」 : 日本•国際 - ハンギョレ新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zQk1SUEdfeUlvNUx2d2IwZTNjb2dzT0x4TUllR3R3S2JQZ052MzhlQUNydVFfNk11VU1pZXQwSk5ScDZIaXdGb2E3ZjBERmpTeUY2Z29TNkowdGxKV0tMM214OEQ?oc=5",
+          "publishedAt": "2026-10-07T23:17:00Z"
+        }
+      ]
+    },
+    {
       "id": "48f1d17980ff17",
       "category": "internet",
       "title": "SNSで話題の〝美人すぎるテコンドー先生〟滝川聖奈「これはもう『お前が道場を継げ！』っていう天のお告げだな、と（笑）」 - Yahoo!ニュース",
@@ -444,22 +483,6 @@
           "title": "SNSで話題の〝美人すぎるテコンドー先生〟滝川聖奈「これはもう『お前が道場を継げ！』っていう天のお告げだな、と（笑）」 - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xa1VJa1FPS1N5NmxSY3NfeS1HeHRTc1VhX3BNUmo5WlV6OU05Y1dTSk1XYk5wTFlMQW5Qb3YtenRVM1V2M0ZyQmdFdXJ3TlNEMTM2NW5SbFcwZ1BuZERDWU51UWQweUhlSFYzcXlBaUVkdHlnWmZTUmxaV2x4VEk?oc=5",
           "publishedAt": "2026-10-07T08:05:34Z"
-        }
-      ]
-    },
-    {
-      "id": "a794fb24d3bfeb",
-      "category": "internet",
-      "title": "SNSで話題、『戦国工務店』が書籍化 11月11日発売 - 新建ハウジング",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T06:47:00Z",
-      "sources": [
-        {
-          "id": "614e24355c2dca",
-          "name": "新建ハウジング",
-          "title": "SNSで話題、『戦国工務店』が書籍化 11月11日発売 - 新建ハウジング",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB3SlFfR3BEbVdna0o5TVBfM2x5UHprVEZBbmJ0SWZialBaS1A4XzJSVW4teUFubVpCR05PMEhsYndyeVB4dmlNSl8yT2swQmt5X2c?oc=5",
-          "publishedAt": "2026-10-07T06:47:00Z"
         }
       ]
     },
@@ -492,22 +515,6 @@
           "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53RmkwbHBQSUpVUXJOZk4wTmNObnJyMWV1MUUyTXZsUERDVWFVTGVlR3kwTlJHUnpWLTNtQ1NReWpyR0M4elI4WUJzOUlyMHVWTTRvOUlrTUhhanlXcVpybzBjTm8wWUJ4UUdlNDJPRzV0LUdHZmhwMEptank0aTQ?oc=5",
           "publishedAt": "2026-10-06T22:00:39Z"
-        }
-      ]
-    },
-    {
-      "id": "299656bf93732c",
-      "category": "politics",
-      "title": "学問の自由は守られる？ 日本学術会議が新体制に移行…消えない「政治介入」への不安 - 東京新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T20:00:00Z",
-      "sources": [
-        {
-          "id": "be8368e2629ee2",
-          "name": "東京新聞",
-          "title": "学問の自由は守られる？ 日本学術会議が新体制に移行…消えない「政治介入」への不安 - 東京新聞",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE14bFhzOEZEYmZfWmFlZzlNUmF0WERudWdZbzk0M19NZllDdTBCWEV3Q281aUQ4Ujl1V3YyVDhfS05HeXVwWE1Qa05fQ21pRTY3d1hj?oc=5",
-          "publishedAt": "2026-10-06T20:00:00Z"
         }
       ]
     },
