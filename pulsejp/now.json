@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T09:04:11Z",
+  "generatedAt": "2026-10-09T16:12:27Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
@@ -41,32 +41,48 @@
       ]
     },
     {
-      "id": "3c48d3f67182cf",
-      "category": "entertainment",
-      "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース (音楽ナタリー) - Yahoo!ニュース",
-      "sourceCount": 3,
-      "latestPublishedAt": "2026-10-07T15:24:20Z",
+      "id": "7c461bd14d10b3",
+      "category": "economy",
+      "title": "外為：1ドル158円33銭前後と同水準で推移(株探ニュース) - Yahoo!ファイナンス",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-09T10:01:50Z",
       "sources": [
         {
-          "id": "484cc0d0aed189",
+          "id": "a23fa37b2adb49",
+          "name": "Yahoo!ファイナンス",
+          "title": "外為：1ドル158円33銭前後と同水準で推移(株探ニュース) - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQURvUkNRVHZTTWEwMHIyM3djT1M3a1BkdU1MUEZyeE5NdTZrU2hXMEM5bGdKd19UeUh0Y1dUaTExSGc1cGk2WnpjWDRtM29fUGI2M3Vyb2w3Ujl5VG0wNlNPT3ZKa2s3bzNUNld1ZEU1dW1LbDNiQTkydS03OFVDVHI4MjlHRlk?oc=5",
+          "publishedAt": "2026-10-09T10:01:50Z"
+        },
+        {
+          "id": "860fc6a9adf3da",
+          "name": "株探",
+          "title": "外為：1ドル158円05銭前後とドル安・円高で推移 - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82amtCM3lpQThMUWZndDIyZG9xSWE1d3ZVNG5KR3gxSTNuTDQ0YlFWcUJQUFBEVTVES0s4ck0tNzR5TC1xQmsxODNkaTVTVjZ2UUE?oc=5",
+          "publishedAt": "2026-10-09T04:01:02Z"
+        }
+      ]
+    },
+    {
+      "id": "41c0320c0d6b7e",
+      "category": "entertainment",
+      "title": "インフル流行の影響 芸能界にも 長澤まさみが釜山国際映画祭を辞退 人気声優、ギタリストも罹患（スポニチアネックス） - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-09T08:18:23Z",
+      "sources": [
+        {
+          "id": "cceb428702a47c",
           "name": "Yahoo!ニュース",
-          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース (音楽ナタリー) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWVdKeWt0WVVEaHlmOTJUX0VwMDM5NmstNEVJOHEyOTc5QlAxM2pITEZJSTNXTGIweVZuNWdidXdhM0ZLamVQTENIcjRKQ2kwTW1Rc0twS3c5cHlFb243a1dqNzNscnNyT3ZSRUd5a09CZ3BHQklLRlk1UXNvNG52RUNvM1Vndy1IaVpBeWNn?oc=5",
-          "publishedAt": "2026-10-07T15:24:20Z"
+          "title": "インフル流行の影響 芸能界にも 長澤まさみが釜山国際映画祭を辞退 人気声優、ギタリストも罹患（スポニチアネックス） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42RDZhV2owYmZDSmRhdTNMNUduSEstVXRPRDhXWGhSMzJjeTB5MXNDZXJlMDg2V2FNbWdKajlvWGVlRHhyNjdEaDBZMk13ZU1oOHByeW5CalVfQ1F4RGlYZHdfN05SdU1lcmtZbzZSQmNycW9VM2hIVk9LMkxzMms?oc=5",
+          "publishedAt": "2026-10-09T08:18:23Z"
         },
         {
-          "id": "5252cd56960589",
-          "name": "ニコニコニュース",
-          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース - ニコニコニュース",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5uakZXM3J6c1R3c0ZfSmtQSVB1QUlxaXRMMkZCUnU3eUJFSmNMMmhFQkZkeGttbzJ2LWNQSm92UDRZRHVuRDVmOHRqc3ZEdnlRUC1JNG05NDdKOXVEdkFIV2NYemUzWW5KbVFjZi03akZoVUNiZVVCc0NMNA?oc=5",
-          "publishedAt": "2026-10-07T10:06:30Z"
-        },
-        {
-          "id": "751051626dc91e",
-          "name": "ナタリー",
-          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース - ナタリー",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45NEFsejJtVUdqVG1lVE9zZ25SWUphMzhCM3dTX2lfSXdSUGk3RWpabW1aOGhDWVFxYjBjbFZFclpoalhZR1NzUWFnRXI?oc=5",
-          "publishedAt": "2026-10-07T10:00:00Z"
+          "id": "aaa2b06fe974c0",
+          "name": "スポニチ Sponichi Annex",
+          "title": "【記事全文】インフル流行の影響 芸能界にも 長澤まさみが釜山国際映画祭を辞退 人気声優、ギタリストも罹患 - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRVRxcVlyU2pYX3dMSjA2SjRMSEdUQXBCc18wRHFESHZDREhjTS1FLTNZMF9MSGhvS243MThHZXN0VFZPbnBIZEtpQmplZHc1RDhfTk54Q0ZXYzkxTFBWN3lnNVRYSG9pdzRJaHZ3ZVRNekY0TFVReDlwSl9KOHlBdlFXM0NyMUgxc2thbFlldE5yWWRrQUp6c1BwSQ?oc=5",
+          "publishedAt": "2026-10-09T08:17:00Z"
         }
       ]
     },
@@ -98,104 +114,21 @@
       "category": "economy",
       "title": "日経平均は24円安、企業決算や米経済指標に関心 執筆： Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T06:02:45Z",
+      "latestPublishedAt": "2026-10-09T06:00:00Z",
       "sources": [
         {
           "id": "503181afffb357",
           "name": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
           "title": "日経平均は24円安、企業決算や米経済指標に関心 執筆： Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84VXZmcHZjWU9BeTFCcmtZazcxRHpYbHItREJ3b1dlbVNpR1N3T0phZ0RXQjBfZks2Y05COWR5WTZrdkVCV3BpZlRQTlV1dFVfcW00aFZJbkNFVFV4SkRETDZFbTZNaHM?oc=5",
-          "publishedAt": "2026-10-09T06:02:45Z"
+          "publishedAt": "2026-10-09T06:00:00Z"
         },
         {
-          "id": "af1e598b3da547",
-          "name": "ｄメニューニュース",
-          "title": "日経平均は24円安、企業決算や米経済指標に関心 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTkdtTTF5Nk0taldtcDJLVDFOREYtc1VVd0xRNFJEUWp1WkdHY0RuaXJETVJiYmxBcWZzbmJCNkR2NHFHdmU1TGlJRmlmbzVELVRjMkUwVVdXa2UxZWRSUGpWemZyZFF4Vl9kUEVyX0RIc0NHTGtJT1l5ZFEwZmtXdTRKblFHVGZLLUNUStIBjAFBVV95cUxPTkdtTTF5Nk0taldtcDJLVDFOREYtc1VVd0xRNFJEUWp1WkdHY0RuaXJETVJiYmxBcWZzbmJCNkR2NHFHdmU1TGlJRmlmbzVELVRjMkUwVVdXa2UxZWRSUGpWemZyZFF4Vl9kUEVyX0RIc0NHTGtJT1l5ZFEwZmtXdTRKblFHVGZLLUNUSg?oc=5",
-          "publishedAt": "2026-10-09T05:52:00Z"
-        }
-      ]
-    },
-    {
-      "id": "6220936aaa31ed",
-      "category": "entertainment",
-      "title": "伝統芸能「唐子踊」理解深める 瀬戸内・牛窓東小 保存会が学習会 - 47NEWS",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T05:19:31Z",
-      "sources": [
-        {
-          "id": "032bdc9741f6d9",
-          "name": "47NEWS",
-          "title": "伝統芸能「唐子踊」理解深める 瀬戸内・牛窓東小 保存会が学習会 - 47NEWS",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9tc1BHZWxaU1VBQlNBV25JbHNMZGhmekxUd1FOY3Byb1c5N2hmQ0kzT2ZZUXo2em9KYUtUb0ZWYlNhMkZPc3lUTDJ5UQ?oc=5",
-          "publishedAt": "2026-10-09T05:19:31Z"
-        },
-        {
-          "id": "76ea659238a173",
-          "name": "山陽新聞",
-          "title": "伝統芸能「唐子踊」理解深める 瀬戸内・牛窓東小 保存会が学習会 - 山陽新聞",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fc2d0bi1nWnBBYTZjYlFlNkkxcUxUZG9yYW45YUFEVkg4TVlNaVZFWEFrMWlzeFZUTEhDTS1WSm9pMnJDMXV4YmE2OFNUeU12Z0E?oc=5",
-          "publishedAt": "2026-10-09T05:19:00Z"
-        }
-      ]
-    },
-    {
-      "id": "bbefd768e38012",
-      "category": "entertainment",
-      "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ (関連動画) - WEBザテレビジョン",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T03:00:18Z",
-      "sources": [
-        {
-          "id": "6fd1302f289097",
-          "name": "WEBザテレビジョン",
-          "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ (関連動画) - WEBザテレビジョン",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qS25XblRCazVzU1dGOHdkV25rTGVRVlJIUXh4YU1VTlVwQlJNdTVfWFBNUzhFRFlQbDZiY0ltNGRhWWwxclgzU3lMbEZtQ1luRk4zS1h1STBYNFBVclE?oc=5",
-          "publishedAt": "2026-10-09T03:00:18Z"
-        },
-        {
-          "id": "44e4af13ce61c4",
-          "name": "ｄメニューニュース",
-          "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLUw2eGFpTGdGTHJYc3ppcFoxS1BlQWRwSVJIN0lOQXg0V2VySmRxMmZGMEQ4NTdXSmdzcDNiWXhSWHIyQU1vVHB1a0FvSGllY0Vlalo3aEh2dndNTDVuTzhkUWJpWnVOU2NGWkVlQlZRY2liSG5iQ1U5amlXaTFhSTE5SdIBgwFBVV95cUxNLUw2eGFpTGdGTHJYc3ppcFoxS1BlQWRwSVJIN0lOQXg0V2VySmRxMmZGMEQ4NTdXSmdzcDNiWXhSWHIyQU1vVHB1a0FvSGllY0Vlalo3aEh2dndNTDVuTzhkUWJpWnVOU2NGWkVlQlZRY2liSG5iQ1U5amlXaTFhSTE5SQ?oc=5",
-          "publishedAt": "2026-10-09T03:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "819f1813c3cfcc",
-      "category": "internet",
-      "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T01:42:42Z",
-      "sources": [
-        {
-          "id": "61d6d58b2d7eb3",
-          "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1aUIyYkx2X0ZVRkZWYTVBNUI1c2JhTk9qdFlJOFZXZ2Q4aGZaQld5V29NSVFteEJoaFFRdllCd2laaDUyVWF1SG5iRE9GMXl4SFExa1lpcTlsLVpsYTFF?oc=5",
-          "publishedAt": "2026-10-09T01:42:42Z"
-        },
-        {
-          "id": "91a6934abeff98",
-          "name": "Yahoo!ニュース",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声（MRT宮崎放送） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YbUlJYWJ1Zm5reW4waUVZbnhKLWdXLW52WGI2cHpVZTZ3LUtTQUpRWWRXS2xpdjhmQWY4bE8yeHA3T0ZrTkRHcV9zQUpUbzZIeXprNVVrSzdFbjVMRDlZcFpVai1GcERSY1JhWVdhMllGVWJaLXlETU1ieWh3N1E?oc=5",
-          "publishedAt": "2026-10-09T00:11:12Z"
-        },
-        {
-          "id": "8e035ac3ff4b0e",
-          "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JRmFQVV9Nd29nVkxrUFU3Sk1DQ2JMb21HN1EtY1dneGVqdlJzeHJ5UmZUVWhTTHVfSm95ZFk4SkgteGFMSGV0TkQ5SVFpSTFRTU5CaHZGZ2xiUQ?oc=5",
-          "publishedAt": "2026-10-09T00:00:00Z"
-        },
-        {
-          "id": "fab49e9eb4fc4d",
-          "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CY2FaZ2xWa1ZQTVc1cnBTT1JPdl9XUXl5U0xETWQtb2RlcUxIa3VYUWowbE04XzdLQ2NCVGdvZXR5UGNjNWl4TWF0TWcya1hPU2d4WnI3RQ?oc=5",
-          "publishedAt": "2026-10-09T00:00:00Z"
+          "id": "08dc978162cbb0",
+          "name": "Yahoo!ファイナンス",
+          "title": "日経平均は24円安、企業決算や米経済指標に関心(フィスコ) - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVhWZUM3WnRudl9uckNYXzdzZHNIdE92Smo1Qm5iaFFVbjhOVTRZR0xzbHgyQnhyQmU2d3FlNVhTU1ZfM3ExUDE2UVhxQUFHTVR6b2NzVWpaMklxZmJQOWRKendBdFNJcHR5UDNfbm4yQmVPem5fS0M2d0RpVGx0Y2lPbHE1dms?oc=5",
+          "publishedAt": "2026-10-09T05:52:06Z"
         }
       ]
     },
@@ -246,62 +179,25 @@
       ]
     },
     {
-      "id": "0d7dd95eb2e1b4",
-      "category": "internet",
-      "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題!キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 (めざましmedia) - Yahoo!ニュース",
+      "id": "3c48d3f67182cf",
+      "category": "entertainment",
+      "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース (音楽ナタリー) - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-08T11:30:39Z",
+      "latestPublishedAt": "2026-10-07T15:24:20Z",
       "sources": [
         {
-          "id": "83809bc7370f6a",
+          "id": "484cc0d0aed189",
           "name": "Yahoo!ニュース",
-          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題!キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 (めざましmedia) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdXh4dmJ1SGN1SHFaWEpDM09FZlVxOEg5VEVscF9LdDdzTVhDUWF3bFowc2I1bERZdE9qczBsZ0RadjgtTnUzcGxxNmFkdTlSQi1fZmZXcVU3NzFkbmFTUEd1emwyWTdlR1ZGQWlnNXozNHE2YmFxWlhCcG5JNTg3NjFLdVZ2VnJELXQ4YlNn?oc=5",
-          "publishedAt": "2026-10-08T11:30:39Z"
+          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース (音楽ナタリー) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWVdKeWt0WVVEaHlmOTJUX0VwMDM5NmstNEVJOHEyOTc5QlAxM2pITEZJSTNXTGIweVZuNWdidXdhM0ZLamVQTENIcjRKQ2kwTW1Rc0twS3c5cHlFb243a1dqNzNscnNyT3ZSRUd5a09CZ3BHQklLRlk1UXNvNG52RUNvM1Vndy1IaVpBeWNn?oc=5",
+          "publishedAt": "2026-10-07T15:24:20Z"
         },
         {
-          "id": "6815c7397c38ad",
-          "name": "めざましmedia",
-          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tOXhjcTdzQWU5d09JX01lbGZKS3pya2tfOVRSZHZPZWFiXzZJcTJkZThjN3F2cFNXOGlsOHZBcU1qSjRHdzM1ckgzRXY3Vk9RQjRv?oc=5",
-          "publishedAt": "2026-10-08T11:30:00Z"
-        },
-        {
-          "id": "ccd5f517ee72a6",
-          "name": "めざましmedia",
-          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10N0tjb0RzQ2lKSFp4bGZpNUU3YnZUQUNqaWlDUEVOUm16bEpSQk1tUVMtUVBSTXhaSTA5VXo4TEN2NjhRR3ZodTItb3g1eXRISnY2WG1RU1Z2NHc?oc=5",
-          "publishedAt": "2026-10-08T11:30:00Z"
-        }
-      ]
-    },
-    {
-      "id": "2b55d22c59dfa7",
-      "category": "economy",
-      "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - Infoseek",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-08T05:07:00Z",
-      "sources": [
-        {
-          "id": "9ee0f3c76f5b46",
-          "name": "Infoseek",
-          "title": "日本経済はデフレでなくリフレ政策必要な局面でない＝高市首相 - Infoseek",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sUEhRVEpiU1lOZUhtM1N1QldQWjM0bjhqbzRKeUNzM2FqTWVRaFd2aWptN0JTSHdjaUhPOWxKVFFOTzlzOTl6d21WdEhHSlpObUloV0hBVndEalVYc2pZY0Q4NVFzUHJSRDJBdQ?oc=5",
-          "publishedAt": "2026-10-08T05:07:00Z"
-        },
-        {
-          "id": "8d0ae1b3e5bc24",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 現在の日本経済はリフレ政策が必要な局面ではない - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nM21fQmZHN3Z4c3o3QU1zTFl3VUpab01OSTJGYm5aMHppY3hQTDA5MTFCSnZiQ2NGREhTT2F0eHZTVHlrYzlSbQ?oc=5",
-          "publishedAt": "2026-10-08T04:35:29Z"
-        },
-        {
-          "id": "7944310462cd4e",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 日本経済はデフレではない状況だ - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84SXQxZ2xEZDBwZWtpRFFEbzh0Q1dFSTExRkdrZ3gxc3kxQWhydHViWDdCbTV3NjlubWJNcVJCendTMXdzYnFZeQ?oc=5",
-          "publishedAt": "2026-10-08T04:35:29Z"
+          "id": "fba847dac8be65",
+          "name": "ナタリー",
+          "title": "ラップスタア応募動画も話題のJoe Cupertino、“音楽の王国”を表現した新曲リリース - ナタリー",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45NEFsejJtVUdqVG1lVE9zZ25SWUphMzhCM3dTX2lfSXdSUGk3RWpabW1aOGhDWVFxYjBjbFZFclpoalhZR1NzUWFnRXI?oc=5",
+          "publishedAt": "2026-10-07T10:00:00Z"
         }
       ]
     },
@@ -329,18 +225,227 @@
       ]
     },
     {
-      "id": "e924e76115de38",
-      "category": "economy",
-      "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T01:51:29Z",
+      "id": "58fc20b7a83353",
+      "category": "internet",
+      "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-02T06:16:14Z",
       "sources": [
         {
-          "id": "2e5bd977270c49",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oUEFDMEpRUk1tNTl3ZERvYXZFTVZWUHFKcGIzSWN3QzBCd24wR2xNOVk2VmNWRnpoMEl2V0RlOGtsaEI3dmVZVg?oc=5",
-          "publishedAt": "2026-10-09T01:51:29Z"
+          "id": "78a92ef69b9c98",
+          "name": "Yahoo!ニュース",
+          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuZTRTREVhMjBFbGlBUXBpWXluMEZOZkNIV0hfYUdJaHUycno1blpuT2pMN1VZSWZ2SkRqZFFZZ2xCSlY5Z0o4RkRTU2ZKWTEtSlZGUEVrRnNCdVBZYXVrcU5NNDdJZkV3RE5uWVZxcDBrcmdSd0Q4TmR0T2VNclE?oc=5",
+          "publishedAt": "2026-10-02T06:16:14Z"
+        },
+        {
+          "id": "407264b24329e6",
+          "name": "Web担当者Forum",
+          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など - Web担当者Forum",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12ZUhOdk0yZ3BZWHZTRmFYT2JDeEFNRUNLNE1DQUpxaU8zLUFDVWJiWndlQzB1a0FNRFVLbS0xNkdHaXpkUGpMVGstTmZNRy12czJ1VElxWUppUVk?oc=5",
+          "publishedAt": "2026-10-01T22:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "162244c9172dd0",
+      "category": "entertainment",
+      "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-09-26T07:00:00Z",
+      "sources": [
+        {
+          "id": "c10e9cbaa947e5",
+          "name": "ナタリー",
+          "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9HVFBxRmQ3ZTJOVDY4RlBVTG4wWHVIUnI2ZmdGMXJqeGhNcHhJUzFFTUhyYU1FeEJ0YWFsUWVWRmZsYkNJdkNjdmc3U1E?oc=5",
+          "publishedAt": "2026-09-26T07:00:00Z"
+        },
+        {
+          "id": "2a10d16f1b0cc8",
+          "name": "Yahoo!ニュース",
+          "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
+          "publishedAt": "2026-09-26T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c1daa0bbf3df73",
+      "category": "internet",
+      "title": "『葬送のフリーレン』SNS話題のぬいぐるみモチーフ新商品登場 - Koubo",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T12:07:01Z",
+      "sources": [
+        {
+          "id": "5fed07e3e5e07b",
+          "name": "Koubo",
+          "title": "『葬送のフリーレン』SNS話題のぬいぐるみモチーフ新商品登場 - Koubo",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1aYWszUHZZTFl6V3EzLWhuekl3aUlBUTlpenl3Rms3bUdZeUtYblFjRjN0SlFHMEtia090SVdjdkxqb1Y4Q2c?oc=5",
+          "publishedAt": "2026-10-09T12:07:01Z"
+        }
+      ]
+    },
+    {
+      "id": "405c45f398b19f",
+      "category": "economy",
+      "title": "円相場 小幅な値動き 1ドル＝158円台前半 - NHKニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T09:48:45Z",
+      "sources": [
+        {
+          "id": "2c04ada0c1ce2b",
+          "name": "NHKニュース",
+          "title": "円相場 小幅な値動き 1ドル＝158円台前半 - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBTWThLam9jSWxMUDdWck1YcXQ1b2tiRmpmdEVnc2F3NXBZLWIxb1VfUmZqYmlVVFR3S3hjYVFyZ1lNc3BsSjl2cEFsdDRZOWo5OVNqdnVfUktsTjFTUi1R?oc=5",
+          "publishedAt": "2026-10-09T09:48:45Z"
+        },
+        {
+          "id": "1f356a18361e34",
+          "name": "NHKニュース",
+          "title": "円相場 小幅な値動き - NHKニュース",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iRnZQMEFvRm9Id0x5cXZ4UWtldV9NN25KVmszUkRCV3VRaDQ1bDJyMnR1SXpFcDA5emVHVktXY0RxOVd1eEh5ZVNyRHlQZC15NUpwbkxDaVlpRUJhQ3h3?oc=5",
+          "publishedAt": "2026-10-05T09:31:28Z"
+        }
+      ]
+    },
+    {
+      "id": "0642343cea9f6e",
+      "category": "economy",
+      "title": "「消費税を一律に減税するから賃金を上げて」神谷宗幣氏が高市総理に要望 日本経済の相対的な衰退を指摘（ABEMA TIMES） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T09:00:40Z",
+      "sources": [
+        {
+          "id": "4547d3ebe97ce8",
+          "name": "Yahoo!ニュース",
+          "title": "「消費税を一律に減税するから賃金を上げて」神谷宗幣氏が高市総理に要望 日本経済の相対的な衰退を指摘（ABEMA TIMES） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BRVhFdFR0MVlFODFpMmpySHJJbVNObVlFc2VjMUtPZXU4Rksya21PcnVJazRTSFNQTFQxNTFaSmp1NEZTcy1MLVZ5NDBsa3lBalhYODRVY2hsbk4tOWRCamdMejlpN0wxYmlNdWpXNkpfNi1hS0ZhYWR0S3dQV2c?oc=5",
+          "publishedAt": "2026-10-09T09:00:40Z"
+        }
+      ]
+    },
+    {
+      "id": "aa4d825d8883ac",
+      "category": "economy",
+      "title": "2026年12月期 第3四半期決算説明会開催に関するお知らせ - PR TIMES",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T07:30:01Z",
+      "sources": [
+        {
+          "id": "55c2abf3cfdb37",
+          "name": "PR TIMES",
+          "title": "2026年12月期 第3四半期決算説明会開催に関するお知らせ - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UbkdXSXRGYTZfQm9ac0JVNzNxUGc5cExfeDRCekxQSWY3dFVTcVhqWUl1bEFrbF9ZT3k3MDBscFlkVjRTczhtNkRzOGFwU1dzT1p6QjN4WkZ0SzVLOUx2RHZDV2dyNUlWdEE?oc=5",
+          "publishedAt": "2026-10-09T07:30:01Z"
+        },
+        {
+          "id": "0146beee198f38",
+          "name": "PR TIMES",
+          "title": "ReYuu Japan、2026年10月期 第３四半期決算説明動画を公開 - PR TIMES",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BY3hvekN3dVBOdFRCTHRWQ2ZXV3ppTnNuSzc5SUxQNHNkZ1BEclFkaG42M3FWeEZRWGJCb1NUUHlhbzhWMkJJeUktTjl5NFcyanU1WmVNSWpfS3FBN2tCLUdhbWl6N19tLVE?oc=5",
+          "publishedAt": "2026-10-08T07:30:01Z"
+        }
+      ]
+    },
+    {
+      "id": "d0c83415fdfcc4",
+      "category": "internet",
+      "title": "虎ノ門広告祭が開幕 9日間で185コンテンツ、SNSで話題の「あ、この言葉、気にになる展2」も公開 - AdverTimes.（アドタイ） by 宣伝会議",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T06:47:12Z",
+      "sources": [
+        {
+          "id": "0b446b2fc2becd",
+          "name": "AdverTimes.（アドタイ） by 宣伝会議",
+          "title": "虎ノ門広告祭が開幕 9日間で185コンテンツ、SNSで話題の「あ、この言葉、気にになる展2」も公開 - AdverTimes.（アドタイ） by 宣伝会議",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UX2ozRTdWNE1xdmxhY0xaZUtUTXVkNVFqd1g5RFl4WTg5OEl2MTlHdHZZZEc2aGY0dW5fZnZKVnJQUlhKZGdPemFBb21jTFhDVG9BLTRadlVVb3JSQjhZ?oc=5",
+          "publishedAt": "2026-10-09T06:47:12Z"
+        }
+      ]
+    },
+    {
+      "id": "c7cc5e98df0340",
+      "category": "internet",
+      "title": "4万円のホテルが「九州ふっこう応援割」で“最大60％オフ”と待機してたら、開始の瞬間「5万円に値上げ」!? SNSで「ふっこう割の意味ナシ」と話題…ホテルが“割引分を便乗値上げ”!? 仕組みを確認（ファイナンシャルフィールド） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T05:20:06Z",
+      "sources": [
+        {
+          "id": "1b5257daac8ac8",
+          "name": "Yahoo!ニュース",
+          "title": "4万円のホテルが「九州ふっこう応援割」で“最大60％オフ”と待機してたら、開始の瞬間「5万円に値上げ」!? SNSで「ふっこう割の意味ナシ」と話題…ホテルが“割引分を便乗値上げ”!? 仕組みを確認（ファイナンシャルフィールド） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHUTdZOXRRbDh5MnlMY2NmcjVBSm5BeFZyWWJqNVo1TFczaEJLcnpMZGFlR0N6azAwTnlQZ0NMWG9wN2xsay1VYm4wU0pwTWtwNFl2Q2JOcDJFRmh0VHpTdG5LeUtDLXU4bFNYY3J5Z2NlWE5RU2N2VEpLMjBqNGc?oc=5",
+          "publishedAt": "2026-10-09T05:20:06Z"
+        }
+      ]
+    },
+    {
+      "id": "c680cb6db6cac1",
+      "category": "internet",
+      "title": "チャン・グンソク、過去の懐かしショットを大公開！ウィットに富んだSNS投稿が話題に - Kstyle",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T04:56:42Z",
+      "sources": [
+        {
+          "id": "bac8f3aea1352f",
+          "name": "Kstyle",
+          "title": "チャン・グンソク、過去の懐かしショットを大公開！ウィットに富んだSNS投稿が話題に - Kstyle",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40dXQwTDJUZ19RUk5IRXRBSDhkdTJHX21RdXEtYkVHRk9UWlQ3QmlxaW4tV1FfR2o0TkV5ZGFjaW5Ub3hJcS0yWUJNZE90eDg5eVFveS1WX3lIS1dp?oc=5",
+          "publishedAt": "2026-10-09T04:56:42Z"
+        }
+      ]
+    },
+    {
+      "id": "f260ba3c36452e",
+      "category": "politics",
+      "title": "日本総領事館が注意喚起 ロシア・ペスト対策研究所で職員死亡 - KFB福島放送",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T04:14:00Z",
+      "sources": [
+        {
+          "id": "9f73022ab704ab",
+          "name": "KFB福島放送",
+          "title": "日本総領事館が注意喚起 ロシア・ペスト対策研究所で職員死亡 - KFB福島放送",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sa2Zwc2Z2TkowRUc4X0JJMEw0SkVRcXZMLVZaeEU1c1hWek95SlVnRTJDZ3hENEVwNG5Va1gwa1RFeTAyLUJJYWNzcVpIeGpsMk5IOHV3?oc=5",
+          "publishedAt": "2026-10-09T04:14:00Z"
+        }
+      ]
+    },
+    {
+      "id": "819f1813c3cfcc",
+      "category": "internet",
+      "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T01:42:42Z",
+      "sources": [
+        {
+          "id": "61d6d58b2d7eb3",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1aUIyYkx2X0ZVRkZWYTVBNUI1c2JhTk9qdFlJOFZXZ2Q4aGZaQld5V29NSVFteEJoaFFRdllCd2laaDUyVWF1SG5iRE9GMXl4SFExa1lpcTlsLVpsYTFF?oc=5",
+          "publishedAt": "2026-10-09T01:42:42Z"
+        },
+        {
+          "id": "384d7c37c4f58f",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JRmFQVV9Nd29nVkxrUFU3Sk1DQ2JMb21HN1EtY1dneGVqdlJzeHJ5UmZUVWhTTHVfSm95ZFk4SkgteGFMSGV0TkQ5SVFpSTFRTU5CaHZGZ2xiUQ?oc=5",
+          "publishedAt": "2026-10-09T00:00:00Z"
+        },
+        {
+          "id": "5f67469ac839dd",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DOFFmYkFjMjZVZE1tbDRFY1dKM1BNdDRLUm5XVm9SSE5UYlBBbEl4YmZHTl9JUXZnYnJ1RmN6MXZaOHI3blB6TXBJRHFLQVlXQWZVUFlsWm5PRDk0SmtzOUpHTFM?oc=5",
+          "publishedAt": "2026-10-09T00:00:00Z"
+        },
+        {
+          "id": "fab49e9eb4fc4d",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CY2FaZ2xWa1ZQTVc1cnBTT1JPdl9XUXl5U0xETWQtb2RlcUxIa3VYUWowbE04XzdLQ2NCVGdvZXR5UGNjNWl4TWF0TWcya1hPU2d4WnI3RQ?oc=5",
+          "publishedAt": "2026-10-09T00:00:00Z"
         }
       ]
     },
@@ -361,22 +466,6 @@
       ]
     },
     {
-      "id": "9afb1ee1af91b9",
-      "category": "internet",
-      "title": "話題となったムバッペの自転車に乗る投稿に新展開が…… ミリトンも自転車に乗っている姿をSNSにアップ - theWORLD（ザ・ワールド）",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T23:00:00Z",
-      "sources": [
-        {
-          "id": "28e3b553178d80",
-          "name": "theWORLD（ザ・ワールド）",
-          "title": "話題となったムバッペの自転車に乗る投稿に新展開が…… ミリトンも自転車に乗っている姿をSNSにアップ - theWORLD（ザ・ワールド）",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5yeXU2MFQ5VjZSamtRM2pZZ0lLVGUxb3FZdzVvLUVIWmZRWkFsX2ZhZExDZ1l5NGFXOHNxa2taUTFuYV9nS053ZElTQXBkVVBFdmpyRmNuQjZKN0VkMWdDeXA2MkJ2b2oxeG0za0hB?oc=5",
-          "publishedAt": "2026-10-08T23:00:00Z"
-        }
-      ]
-    },
-    {
       "id": "0b057a16372dbb",
       "category": "politics",
       "title": "大竹しのぶ、高市政治に怒り 机叩いて「おかしいでしょ、今の政治！どう考えても！」（日刊スポーツ） - Yahoo!ニュース",
@@ -389,22 +478,6 @@
           "title": "大竹しのぶ、高市政治に怒り 机叩いて「おかしいでしょ、今の政治！どう考えても！」（日刊スポーツ） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONGJrRDVmMXdGbzZ1TGtWdXZqZFA2dGNUM0FTdUNodnFoTmFPbjM2T3d4VEh5YVN5OGU1bDF2TUdZazhkUEo3VWdtMnpVT1hRS0NKVGVWSzJtZzZfS0dOZjhyR3ktVEdINWNGZWQ1dldmMTJFMndsSU5jdURpZGFFMTBXdmdFNVRWU1dILW1R?oc=5",
           "publishedAt": "2026-10-08T21:34:37Z"
-        }
-      ]
-    },
-    {
-      "id": "54874c4fca026c",
-      "category": "internet",
-      "title": "“朝ドラ史上最狂”の父役が話題に…若い頃は「生意気」、「流れるような土下座」姿がSNSでバズった渡部篤郎（58）が再び“伝家の宝刀”を抜くまで - 文春オンライン",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T21:00:00Z",
-      "sources": [
-        {
-          "id": "2ce724fcac72e0",
-          "name": "文春オンライン",
-          "title": "“朝ドラ史上最狂”の父役が話題に…若い頃は「生意気」、「流れるような土下座」姿がSNSでバズった渡部篤郎（58）が再び“伝家の宝刀”を抜くまで - 文春オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBKdWM4VmdFQ21NQTNqQnBnWGViYXAyNmo2NGhZc3NOb0JWRHowM3BHbmk5UG8xaXQyNmE4OVZGQ0Q0a1R1UFdVMnQwZw?oc=5",
-          "publishedAt": "2026-10-08T21:00:00Z"
         }
       ]
     },
@@ -439,98 +512,25 @@
       ]
     },
     {
-      "id": "c3d4114a94f7ea",
+      "id": "66b4106a2a6e39",
       "category": "economy",
-      "title": "日本経済指標【国際収支】 - みんかぶ FX/為替",
+      "title": "高市首相 現在の日本経済はリフレ政策が必要な局面ではない - みんかぶ FX/為替",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T23:52:29Z",
+      "latestPublishedAt": "2026-10-08T04:35:29Z",
       "sources": [
         {
-          "id": "27ffb24be78b3e",
+          "id": "a9e9dfce0ea871",
           "name": "みんかぶ FX/為替",
-          "title": "日本経済指標【国際収支】 - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5WbmFZV193cDhTa1U4SjdvS3lPZm5SaVpjRTJMTXRJQVJITUI1ekV6cHQ2amZZa25yazNCdmVOQlRRQmhRZE9aTA?oc=5",
-          "publishedAt": "2026-10-07T23:52:29Z"
-        }
-      ]
-    },
-    {
-      "id": "12e5c0415947a7",
-      "category": "politics",
-      "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」 : 日本•国際 - ハンギョレ新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T23:17:00Z",
-      "sources": [
+          "title": "高市首相 現在の日本経済はリフレ政策が必要な局面ではない - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nM21fQmZHN3Z4c3o3QU1zTFl3VUpab01OSTJGYm5aMHppY3hQTDA5MTFCSnZiQ2NGREhTT2F0eHZTVHlrYzlSbQ?oc=5",
+          "publishedAt": "2026-10-08T04:35:29Z"
+        },
         {
-          "id": "a3cd7b78bdc01b",
-          "name": "ハンギョレ新聞",
-          "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」 : 日本•国際 - ハンギョレ新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1zQk1SUEdfeUlvNUx2d2IwZTNjb2dzT0x4TUllR3R3S2JQZ052MzhlQUNydVFfNk11VU1pZXQwSk5ScDZIaXdGb2E3ZjBERmpTeUY2Z29TNkowdGxKV0tMM214OEQ?oc=5",
-          "publishedAt": "2026-10-07T23:17:00Z"
-        }
-      ]
-    },
-    {
-      "id": "48f1d17980ff17",
-      "category": "internet",
-      "title": "SNSで話題の〝美人すぎるテコンドー先生〟滝川聖奈「これはもう『お前が道場を継げ！』っていう天のお告げだな、と（笑）」 - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T08:05:34Z",
-      "sources": [
-        {
-          "id": "fd8618750aa660",
-          "name": "Yahoo!ニュース",
-          "title": "SNSで話題の〝美人すぎるテコンドー先生〟滝川聖奈「これはもう『お前が道場を継げ！』っていう天のお告げだな、と（笑）」 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xa1VJa1FPS1N5NmxSY3NfeS1HeHRTc1VhX3BNUmo5WlV6OU05Y1dTSk1XYk5wTFlMQW5Qb3YtenRVM1V2M0ZyQmdFdXJ3TlNEMTM2NW5SbFcwZ1BuZERDWU51UWQweUhlSFYzcXlBaUVkdHlnWmZTUmxaV2x4VEk?oc=5",
-          "publishedAt": "2026-10-07T08:05:34Z"
-        }
-      ]
-    },
-    {
-      "id": "45d212e3afc09c",
-      "category": "politics",
-      "title": "真山仁が描く日本崩壊。政治とは約束か、結果か、幻想か？ 『オペラティオ』試し読み - 本の話",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-07T03:05:20Z",
-      "sources": [
-        {
-          "id": "092d43fefc87b6",
-          "name": "本の話",
-          "title": "真山仁が描く日本崩壊。政治とは約束か、結果か、幻想か？ 『オペラティオ』試し読み - 本の話",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wSncyUWkyOXZoenBlN2duWlcyakFlWWtmLTB2cHR6bktUY2ttOElGWVgteWwyakhrX3ZpZDJWT1BFZ20wN19TYThVcTFTS1pNOEk0?oc=5",
-          "publishedAt": "2026-10-07T03:05:20Z"
-        }
-      ]
-    },
-    {
-      "id": "68b54ace5c4bc3",
-      "category": "economy",
-      "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T22:00:39Z",
-      "sources": [
-        {
-          "id": "7f401820f6a228",
-          "name": "Yahoo!ニュース",
-          "title": "日本は本当に「豊かな国」なのか？ たった1枚の図でわかる「日本経済のお金の流れ」と国富4000兆円の意味 - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53RmkwbHBQSUpVUXJOZk4wTmNObnJyMWV1MUUyTXZsUERDVWFVTGVlR3kwTlJHUnpWLTNtQ1NReWpyR0M4elI4WUJzOUlyMHVWTTRvOUlrTUhhanlXcVpybzBjTm8wWUJ4UUdlNDJPRzV0LUdHZmhwMEptank0aTQ?oc=5",
-          "publishedAt": "2026-10-06T22:00:39Z"
-        }
-      ]
-    },
-    {
-      "id": "3c287b91ff2639",
-      "category": "internet",
-      "title": "SNSでも超話題！【業務スーパー】「セールで今だけ安い」やみつき系人気商品とは（舞） - エキスパート - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-06T09:55:14Z",
-      "sources": [
-        {
-          "id": "36b5ce0cfc811f",
-          "name": "Yahoo!ニュース",
-          "title": "SNSでも超話題！【業務スーパー】「セールで今だけ安い」やみつき系人気商品とは（舞） - エキスパート - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSG5tTmlCT3ozTm9JT2k2c1pPS200aUJPdzFoc3dlb3ZxNkV2OGI3b0pCNUg2NVhiemRYbzFZV01DZEkzcHdXRUxKVW9QYUZpUUxMUzBSbjVvMGxFUGduYlhfZTlOZEQyZGNSMFh3TFdyYUN5Z1praVpqSE5DSVNFaXNZQUljd2dO?oc=5",
-          "publishedAt": "2026-10-06T09:55:14Z"
+          "id": "6e9c1e8f7f5f39",
+          "name": "みんかぶ FX/為替",
+          "title": "高市首相 日本経済はデフレではない状況だ - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84SXQxZ2xEZDBwZWtpRFFEbzh0Q1dFSTExRkdrZ3gxc3kxQWhydHViWDdCbTV3NjlubWJNcVJCendTMXdzYnFZeQ?oc=5",
+          "publishedAt": "2026-10-08T04:35:29Z"
         }
       ]
     }
