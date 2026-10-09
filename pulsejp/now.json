@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T16:12:27Z",
+  "generatedAt": "2026-10-09T20:54:39Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
@@ -41,52 +41,6 @@
       ]
     },
     {
-      "id": "7c461bd14d10b3",
-      "category": "economy",
-      "title": "外為：1ドル158円33銭前後と同水準で推移(株探ニュース) - Yahoo!ファイナンス",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T10:01:50Z",
-      "sources": [
-        {
-          "id": "a23fa37b2adb49",
-          "name": "Yahoo!ファイナンス",
-          "title": "外為：1ドル158円33銭前後と同水準で推移(株探ニュース) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQURvUkNRVHZTTWEwMHIyM3djT1M3a1BkdU1MUEZyeE5NdTZrU2hXMEM5bGdKd19UeUh0Y1dUaTExSGc1cGk2WnpjWDRtM29fUGI2M3Vyb2w3Ujl5VG0wNlNPT3ZKa2s3bzNUNld1ZEU1dW1LbDNiQTkydS03OFVDVHI4MjlHRlk?oc=5",
-          "publishedAt": "2026-10-09T10:01:50Z"
-        },
-        {
-          "id": "860fc6a9adf3da",
-          "name": "株探",
-          "title": "外為：1ドル158円05銭前後とドル安・円高で推移 - 株探",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82amtCM3lpQThMUWZndDIyZG9xSWE1d3ZVNG5KR3gxSTNuTDQ0YlFWcUJQUFBEVTVES0s4ck0tNzR5TC1xQmsxODNkaTVTVjZ2UUE?oc=5",
-          "publishedAt": "2026-10-09T04:01:02Z"
-        }
-      ]
-    },
-    {
-      "id": "41c0320c0d6b7e",
-      "category": "entertainment",
-      "title": "インフル流行の影響 芸能界にも 長澤まさみが釜山国際映画祭を辞退 人気声優、ギタリストも罹患（スポニチアネックス） - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T08:18:23Z",
-      "sources": [
-        {
-          "id": "cceb428702a47c",
-          "name": "Yahoo!ニュース",
-          "title": "インフル流行の影響 芸能界にも 長澤まさみが釜山国際映画祭を辞退 人気声優、ギタリストも罹患（スポニチアネックス） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42RDZhV2owYmZDSmRhdTNMNUduSEstVXRPRDhXWGhSMzJjeTB5MXNDZXJlMDg2V2FNbWdKajlvWGVlRHhyNjdEaDBZMk13ZU1oOHByeW5CalVfQ1F4RGlYZHdfN05SdU1lcmtZbzZSQmNycW9VM2hIVk9LMkxzMms?oc=5",
-          "publishedAt": "2026-10-09T08:18:23Z"
-        },
-        {
-          "id": "aaa2b06fe974c0",
-          "name": "スポニチ Sponichi Annex",
-          "title": "【記事全文】インフル流行の影響 芸能界にも 長澤まさみが釜山国際映画祭を辞退 人気声優、ギタリストも罹患 - スポニチ Sponichi Annex",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRVRxcVlyU2pYX3dMSjA2SjRMSEdUQXBCc18wRHFESHZDREhjTS1FLTNZMF9MSGhvS243MThHZXN0VFZPbnBIZEtpQmplZHc1RDhfTk54Q0ZXYzkxTFBWN3lnNVRYSG9pdzRJaHZ3ZVRNekY0TFVReDlwSl9KOHlBdlFXM0NyMUgxc2thbFlldE5yWWRrQUp6c1BwSQ?oc=5",
-          "publishedAt": "2026-10-09T08:17:00Z"
-        }
-      ]
-    },
-    {
       "id": "5c410711478a40",
       "category": "economy",
       "title": "AI開発企業「オルツ」粉飾決算、検察側が前社長に懲役4年求刑（日テレNEWS NNN） - Yahoo!ニュース",
@@ -110,25 +64,25 @@
       ]
     },
     {
-      "id": "2da162b2998b74",
-      "category": "economy",
-      "title": "日経平均は24円安、企業決算や米経済指標に関心 執筆： Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
+      "id": "bbefd768e38012",
+      "category": "entertainment",
+      "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ (関連動画) - WEBザテレビジョン",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T06:00:00Z",
+      "latestPublishedAt": "2026-10-09T03:00:18Z",
       "sources": [
         {
-          "id": "503181afffb357",
-          "name": "Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-          "title": "日経平均は24円安、企業決算や米経済指標に関心 執筆： Fisco - Investing.com - FX | 株式市場 | ファイナンス | 金融ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84VXZmcHZjWU9BeTFCcmtZazcxRHpYbHItREJ3b1dlbVNpR1N3T0phZ0RXQjBfZks2Y05COWR5WTZrdkVCV3BpZlRQTlV1dFVfcW00aFZJbkNFVFV4SkRETDZFbTZNaHM?oc=5",
-          "publishedAt": "2026-10-09T06:00:00Z"
+          "id": "6fd1302f289097",
+          "name": "WEBザテレビジョン",
+          "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ (関連動画) - WEBザテレビジョン",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qS25XblRCazVzU1dGOHdkV25rTGVRVlJIUXh4YU1VTlVwQlJNdTVfWFBNUzhFRFlQbDZiY0ltNGRhWWwxclgzU3lMbEZtQ1luRk4zS1h1STBYNFBVclE?oc=5",
+          "publishedAt": "2026-10-09T03:00:18Z"
         },
         {
-          "id": "08dc978162cbb0",
-          "name": "Yahoo!ファイナンス",
-          "title": "日経平均は24円安、企業決算や米経済指標に関心(フィスコ) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVhWZUM3WnRudl9uckNYXzdzZHNIdE92Smo1Qm5iaFFVbjhOVTRZR0xzbHgyQnhyQmU2d3FlNVhTU1ZfM3ExUDE2UVhxQUFHTVR6b2NzVWpaMklxZmJQOWRKendBdFNJcHR5UDNfbm4yQmVPem5fS0M2d0RpVGx0Y2lPbHE1dms?oc=5",
-          "publishedAt": "2026-10-09T05:52:06Z"
+          "id": "44e4af13ce61c4",
+          "name": "ｄメニューニュース",
+          "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLUw2eGFpTGdGTHJYc3ppcFoxS1BlQWRwSVJIN0lOQXg0V2VySmRxMmZGMEQ4NTdXSmdzcDNiWXhSWHIyQU1vVHB1a0FvSGllY0Vlalo3aEh2dndNTDVuTzhkUWJpWnVOU2NGWkVlQlZRY2liSG5iQ1U5amlXaTFhSTE5SdIBgwFBVV95cUxNLUw2eGFpTGdGTHJYc3ppcFoxS1BlQWRwSVJIN0lOQXg0V2VySmRxMmZGMEQ4NTdXSmdzcDNiWXhSWHIyQU1vVHB1a0FvSGllY0Vlalo3aEh2dndNTDVuTzhkUWJpWnVOU2NGWkVlQlZRY2liSG5iQ1U5amlXaTFhSTE5SQ?oc=5",
+          "publishedAt": "2026-10-09T03:00:00Z"
         }
       ]
     },
@@ -156,25 +110,25 @@
       ]
     },
     {
-      "id": "a4334f13f35a8d",
-      "category": "entertainment",
-      "title": "第６回 楽市楽座 芸能は想い・芸能は願い・芸能は祈り 11月28日（土）国立能楽堂で開催決定！ - PR TIMES",
+      "id": "0d7dd95eb2e1b4",
+      "category": "internet",
+      "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題!キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 (めざましmedia) - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T00:00:01Z",
+      "latestPublishedAt": "2026-10-08T11:30:39Z",
       "sources": [
         {
-          "id": "ffb996b8349964",
-          "name": "PR TIMES",
-          "title": "第６回 楽市楽座 芸能は想い・芸能は願い・芸能は祈り 11月28日（土）国立能楽堂で開催決定！ - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5iTEpRT1dYR2NLdDEwU0p0bHBiN19PSi1GUFBVaFl1SS1kR2tCTG5NeDdWR2g4aVZTYmRtS1BkV2JaSUk1Z1NIWFhsbjhXMlJCVlJwR3R0dFVRNUxQSEc3M3VBYi1KQnlBOVE?oc=5",
-          "publishedAt": "2026-10-09T00:00:01Z"
+          "id": "83809bc7370f6a",
+          "name": "Yahoo!ニュース",
+          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題!キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 (めざましmedia) - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdXh4dmJ1SGN1SHFaWEpDM09FZlVxOEg5VEVscF9LdDdzTVhDUWF3bFowc2I1bERZdE9qczBsZ0RadjgtTnUzcGxxNmFkdTlSQi1fZmZXcVU3NzFkbmFTUEd1emwyWTdlR1ZGQWlnNXozNHE2YmFxWlhCcG5JNTg3NjFLdVZ2VnJELXQ4YlNn?oc=5",
+          "publishedAt": "2026-10-08T11:30:39Z"
         },
         {
-          "id": "2b641a1d3b6ecf",
-          "name": "アットプレス",
-          "title": "第６回 楽市楽座 芸能は想い・芸能は願い・芸能は祈り 11月28日（土）国立能楽堂で開催決定！ - アットプレス",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9RMnhidUxTRk0teWFqMWg4dVI1SVhnczlZbmdLZ2xsNEdiTWMtdjcteGlNWWYtVHh6ajQxTndVeUEzcTczNk1yVk5SUUxjaDg?oc=5",
-          "publishedAt": "2026-10-09T00:00:00Z"
+          "id": "6815c7397c38ad",
+          "name": "めざましmedia",
+          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tOXhjcTdzQWU5d09JX01lbGZKS3pya2tfOVRSZHZPZWFiXzZJcTJkZThjN3F2cFNXOGlsOHZBcU1qSjRHdzM1ckgzRXY3Vk9RQjRv?oc=5",
+          "publishedAt": "2026-10-08T11:30:00Z"
         }
       ]
     },
@@ -271,6 +225,22 @@
       ]
     },
     {
+      "id": "b5560c3008c913",
+      "category": "politics",
+      "title": "【佐藤優の1分間読書】日本の政治に失望した人こそ問い直したい、民主主義の基礎となる「政治」とは何なのか - ダイヤモンド・オンライン",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T19:55:00Z",
+      "sources": [
+        {
+          "id": "32ba62555e794c",
+          "name": "ダイヤモンド・オンライン",
+          "title": "【佐藤優の1分間読書】日本の政治に失望した人こそ問い直したい、民主主義の基礎となる「政治」とは何なのか - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBlSTVndVJXMEVXRnRkbDFlNjRVOGlEd0pBLUMyd0I0eUNwUnJnMlRfVEl0a1NqMFJvR2xjU3lKNDdVQ1dfVC1ad2FxbE7SAU9BVV95cUxOZ0RHLTJ0SXhFR3JLbHl1VUhLanllRVcyM3hHNm43S3lSRC16VDFjd0g2T1pheHBjMEIyODNtd0xIaTJZY3dTRndKWlJCMmhF?oc=5",
+          "publishedAt": "2026-10-09T19:55:00Z"
+        }
+      ]
+    },
+    {
       "id": "c1daa0bbf3df73",
       "category": "internet",
       "title": "『葬送のフリーレン』SNS話題のぬいぐるみモチーフ新商品登場 - Koubo",
@@ -283,6 +253,29 @@
           "title": "『葬送のフリーレン』SNS話題のぬいぐるみモチーフ新商品登場 - Koubo",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1aYWszUHZZTFl6V3EzLWhuekl3aUlBUTlpenl3Rms3bUdZeUtYblFjRjN0SlFHMEtia090SVdjdkxqb1Y4Q2c?oc=5",
           "publishedAt": "2026-10-09T12:07:01Z"
+        }
+      ]
+    },
+    {
+      "id": "17c183234ab971",
+      "category": "economy",
+      "title": "外為：1ドル158円33銭前後と同水準で推移 - 株探",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T10:01:01Z",
+      "sources": [
+        {
+          "id": "44afbe49d6b75b",
+          "name": "株探",
+          "title": "外為：1ドル158円33銭前後と同水準で推移 - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51bl8ydEdpVTZ2NE1rRTdWM0NaQWF5RER4X3oteXVKZHlxVlFPb2tKVU1PQ2otY2dMZDN6dm1iSGZLd1VkM2NYVUVQZ21HZUNDN1E?oc=5",
+          "publishedAt": "2026-10-09T10:01:01Z"
+        },
+        {
+          "id": "860fc6a9adf3da",
+          "name": "株探",
+          "title": "外為：1ドル158円05銭前後とドル安・円高で推移 - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82amtCM3lpQThMUWZndDIyZG9xSWE1d3ZVNG5KR3gxSTNuTDQ0YlFWcUJQUFBEVTVES0s4ck0tNzR5TC1xQmsxODNkaTVTVjZ2UUE?oc=5",
+          "publishedAt": "2026-10-09T04:01:02Z"
         }
       ]
     },
@@ -365,22 +358,6 @@
       ]
     },
     {
-      "id": "c7cc5e98df0340",
-      "category": "internet",
-      "title": "4万円のホテルが「九州ふっこう応援割」で“最大60％オフ”と待機してたら、開始の瞬間「5万円に値上げ」!? SNSで「ふっこう割の意味ナシ」と話題…ホテルが“割引分を便乗値上げ”!? 仕組みを確認（ファイナンシャルフィールド） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T05:20:06Z",
-      "sources": [
-        {
-          "id": "1b5257daac8ac8",
-          "name": "Yahoo!ニュース",
-          "title": "4万円のホテルが「九州ふっこう応援割」で“最大60％オフ”と待機してたら、開始の瞬間「5万円に値上げ」!? SNSで「ふっこう割の意味ナシ」と話題…ホテルが“割引分を便乗値上げ”!? 仕組みを確認（ファイナンシャルフィールド） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBHUTdZOXRRbDh5MnlMY2NmcjVBSm5BeFZyWWJqNVo1TFczaEJLcnpMZGFlR0N6azAwTnlQZ0NMWG9wN2xsay1VYm4wU0pwTWtwNFl2Q2JOcDJFRmh0VHpTdG5LeUtDLXU4bFNYY3J5Z2NlWE5RU2N2VEpLMjBqNGc?oc=5",
-          "publishedAt": "2026-10-09T05:20:06Z"
-        }
-      ]
-    },
-    {
       "id": "c680cb6db6cac1",
       "category": "internet",
       "title": "チャン・グンソク、過去の懐かしショットを大公開！ウィットに富んだSNS投稿が話題に - Kstyle",
@@ -409,6 +386,29 @@
           "title": "日本総領事館が注意喚起 ロシア・ペスト対策研究所で職員死亡 - KFB福島放送",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sa2Zwc2Z2TkowRUc4X0JJMEw0SkVRcXZMLVZaeEU1c1hWek95SlVnRTJDZ3hENEVwNG5Va1gwa1RFeTAyLUJJYWNzcVpIeGpsMk5IOHV3?oc=5",
           "publishedAt": "2026-10-09T04:14:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e924e76115de38",
+      "category": "economy",
+      "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T01:51:29Z",
+      "sources": [
+        {
+          "id": "2e5bd977270c49",
+          "name": "みんかぶ FX/為替",
+          "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oUEFDMEpRUk1tNTl3ZERvYXZFTVZWUHFKcGIzSWN3QzBCd24wR2xNOVk2VmNWRnpoMEl2V0RlOGtsaEI3dmVZVg?oc=5",
+          "publishedAt": "2026-10-09T01:51:29Z"
+        },
+        {
+          "id": "6e9c1e8f7f5f39",
+          "name": "みんかぶ FX/為替",
+          "title": "高市首相 日本経済はデフレではない状況だ - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84SXQxZ2xEZDBwZWtpRFFEbzh0Q1dFSTExRkdrZ3gxc3kxQWhydHViWDdCbTV3NjlubWJNcVJCendTMXdzYnFZeQ?oc=5",
+          "publishedAt": "2026-10-08T04:35:29Z"
         }
       ]
     },
@@ -450,34 +450,18 @@
       ]
     },
     {
-      "id": "3df0cc092ff4d0",
-      "category": "internet",
-      "title": "まるでミサイル、ETCゲートで前車に“特攻” SNSで「ヤバ過ぎる」と話題沸騰の”衝撃映像”、ユピテル公式が公開（1/2 ページ） - 乗りものニュース",
+      "id": "4abdca0049d38a",
+      "category": "economy",
+      "title": "日本人が｢身内には過剰で他人に冷淡｣な根本原因 生きづらさと｢低い幸福度｣の裏に潜む知られざる呪縛 - 東洋経済オンライン",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T23:42:00Z",
+      "latestPublishedAt": "2026-10-08T23:45:00Z",
       "sources": [
         {
-          "id": "b7435ad1f2cdcb",
-          "name": "乗りものニュース",
-          "title": "まるでミサイル、ETCゲートで前車に“特攻” SNSで「ヤバ過ぎる」と話題沸騰の”衝撃映像”、ユピテル公式が公開（1/2 ページ） - 乗りものニュース",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE94UG1uMnRyUmJPRmIyME1iZTMtb182VThDOEFmQ2pILUE0N3BoR3pDZ0l5VUQzcG5waVNXTXd0X1lOUU5WZWUyR2xR?oc=5",
-          "publishedAt": "2026-10-08T23:42:00Z"
-        }
-      ]
-    },
-    {
-      "id": "0b057a16372dbb",
-      "category": "politics",
-      "title": "大竹しのぶ、高市政治に怒り 机叩いて「おかしいでしょ、今の政治！どう考えても！」（日刊スポーツ） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T21:34:37Z",
-      "sources": [
-        {
-          "id": "e5d6c5bffc6525",
-          "name": "Yahoo!ニュース",
-          "title": "大竹しのぶ、高市政治に怒り 机叩いて「おかしいでしょ、今の政治！どう考えても！」（日刊スポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONGJrRDVmMXdGbzZ1TGtWdXZqZFA2dGNUM0FTdUNodnFoTmFPbjM2T3d4VEh5YVN5OGU1bDF2TUdZazhkUEo3VWdtMnpVT1hRS0NKVGVWSzJtZzZfS0dOZjhyR3ktVEdINWNGZWQ1dldmMTJFMndsSU5jdURpZGFFMTBXdmdFNVRWU1dILW1R?oc=5",
-          "publishedAt": "2026-10-08T21:34:37Z"
+          "id": "976cd7fb27a740",
+          "name": "東洋経済オンライン",
+          "title": "日本人が｢身内には過剰で他人に冷淡｣な根本原因 生きづらさと｢低い幸福度｣の裏に潜む知られざる呪縛 - 東洋経済オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0dmgyN2FOZXpYVDJYY1N2cF9nMWFLWUxHOEJCOEVEVUo2WnRKalFMNGhPUURobDY1VU5DNHpkemNqZVd3VkJqYTZLZGFBUVhTejlTS0JOM19XRGNFZWxN?oc=5",
+          "publishedAt": "2026-10-08T23:45:00Z"
         }
       ]
     },
@@ -512,25 +496,34 @@
       ]
     },
     {
-      "id": "66b4106a2a6e39",
-      "category": "economy",
-      "title": "高市首相 現在の日本経済はリフレ政策が必要な局面ではない - みんかぶ FX/為替",
+      "id": "998355889ac56f",
+      "category": "entertainment",
+      "title": "令和8年度 小田原民俗芸能保存協会 後継者育成発表会 - ｄメニューニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T04:35:29Z",
+      "latestPublishedAt": "2026-10-08T01:00:00Z",
       "sources": [
         {
-          "id": "a9e9dfce0ea871",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 現在の日本経済はリフレ政策が必要な局面ではない - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9nM21fQmZHN3Z4c3o3QU1zTFl3VUpab01OSTJGYm5aMHppY3hQTDA5MTFCSnZiQ2NGREhTT2F0eHZTVHlrYzlSbQ?oc=5",
-          "publishedAt": "2026-10-08T04:35:29Z"
-        },
+          "id": "e013ef81fdcd32",
+          "name": "ｄメニューニュース",
+          "title": "令和8年度 小田原民俗芸能保存協会 後継者育成発表会 - ｄメニューニュース",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdjNfem9RX2RNd292bkM2WlBydnpmYjl3dzJvZUd6QmkycDBtZ2VQeHpOVEM3aVgzZF9PS0g3aDh0VnRqQlI1UzdyeUdaMWFMOG5KWGt6dWFrLUxOdVVxUFdIbzUxWE9ldTVUT3J0RHdVQmp6ZWwxNVZhelpaLWFMTdIBhgFBVV95cUxOc1JQRkVLd0tNLXhfekdzMHRsTzlOd1cwQWJwNE1tTWx4d01heGJlcWR6cVlCckpraEJ4dkdyR0hrUlc5SXlySzQ5RGQyaF9RVUVNeHBYeXdXRnpuNGdxNWU4dmtlZWY1alh1Si1Feks1OE52bUw0UU5wdzI0SkZmVUdaMlV6dw?oc=5",
+          "publishedAt": "2026-10-08T01:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3a966d917bb1c2",
+      "category": "politics",
+      "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T00:14:27Z",
+      "sources": [
         {
-          "id": "6e9c1e8f7f5f39",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 日本経済はデフレではない状況だ - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84SXQxZ2xEZDBwZWtpRFFEbzh0Q1dFSTExRkdrZ3gxc3kxQWhydHViWDdCbTV3NjlubWJNcVJCendTMXdzYnFZeQ?oc=5",
-          "publishedAt": "2026-10-08T04:35:29Z"
+          "id": "92ba2406c02621",
+          "name": "Yahoo!ニュース",
+          "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zTWt0VUZOcFVUREtLLWNfal9tLTdWWXRfeEhBNDNONVBRM1BJZ2NTY1B4bi1HaU1sdS1BUEphVTN1TW5TVVA3WlpSb0IyZXZFR0lvRDF1b3VwOXRYSE1FcDZlSVBwem1pV3Y3dGxhclRubkNhQ0tmOG1CM1lWTGM?oc=5",
+          "publishedAt": "2026-10-08T00:14:27Z"
         }
       ]
     }
