@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-09T20:54:39Z",
+  "generatedAt": "2026-10-10T00:50:58Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
@@ -41,25 +41,48 @@
       ]
     },
     {
-      "id": "5c410711478a40",
-      "category": "economy",
-      "title": "AI開発企業「オルツ」粉飾決算、検察側が前社長に懲役4年求刑（日テレNEWS NNN） - Yahoo!ニュース",
+      "id": "78a0fc58b04f0d",
+      "category": "politics",
+      "title": "波乱のスタート…簗大臣めぐり国会運営に早くも支障 高市総理「続投」判断に党内からも厳しい声 野党警戒の“国会改革”は何をもたらすか【edge23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T07:43:00Z",
+      "latestPublishedAt": "2026-10-09T22:38:23Z",
       "sources": [
         {
-          "id": "d0f94fbcdf0732",
+          "id": "3e274db2b671fd",
           "name": "Yahoo!ニュース",
-          "title": "AI開発企業「オルツ」粉飾決算、検察側が前社長に懲役4年求刑（日テレNEWS NNN） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16cnJJTGZpWXJxS2pkYURWclNUc1M0YzBUWkl2LWQzTFJQNUthTVBtaXFTTVJub2ZHaE1nYWFDS1J2TXdLVkRLUEVybzhiY2RNeUx4UktSMm5ucDFDVXFzaEtPUUxyNkczNzdPcEJZM2JNaXFWNGNFYXdsNDZDSmM?oc=5",
-          "publishedAt": "2026-10-09T07:43:00Z"
+          "title": "波乱のスタート…簗大臣めぐり国会運営に早くも支障 高市総理「続投」判断に党内からも厳しい声 野党警戒の“国会改革”は何をもたらすか【edge23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUXd3eHI3d3V6clo2d01DSnJEV19rRnE4ajlxOVhHaTRWUGNnLS1vM292SGZtWllsekJzUFZfZF83M0tqc1F6R0VBYmlCTXJyMHNpM0pza21aOVBEVWpPU04yU0JCVzF0b3BrLVJiWFRRcmszSFBORjgzVG82d2pkeG9RbUlvUUtk?oc=5",
+          "publishedAt": "2026-10-09T22:38:23Z"
         },
         {
-          "id": "df984541463b64",
-          "name": "テレ朝NEWS",
-          "title": "AI開発企業「オルツ」粉飾決算 前社長に検察側が懲役4年求刑 - テレ朝NEWS",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9QNWtibmRsSUNUR1VERjY1V3Uzb3B3M1Z0S3ExRmpkMVZYQllmMlNJT0Z6M3pReldyd01HU1ZheVUyWnUwSWxVVnBYeGpwRmdKeG1ZSWNoUER0UmpqMWxVUkhHVUhLUTRNemo2emp6NHlNZw?oc=5",
-          "publishedAt": "2026-10-09T05:02:51Z"
+          "id": "be6f76eb636878",
+          "name": "TBS NEWS DIG",
+          "title": "波乱のスタート…簗大臣めぐり国会運営に早くも支障 高市総理「続投」判断に党内からも厳しい声 野党警戒の“国会改革”は何をもたらすか【edge23】 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YelkzQXFwSXRrTGhYV2FJdEhQTmROUTVEeWZkZjlmbm9rSzRTNUhFNG1rTm5PZTNJWUlneWE0anhteWw5YXN2Sk9BblJLNUVabmJFTHlLZmpONVNSell0cnp2R1A?oc=5",
+          "publishedAt": "2026-10-09T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "644fe43fdb8bd2",
+      "category": "politics",
+      "title": "民間の空襲被害者救済へ平沢勝栄氏「この国会で何としても解決したい」 空襲連が総会 - 東京新聞",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-09T11:36:22Z",
+      "sources": [
+        {
+          "id": "100a03ddde05cd",
+          "name": "東京新聞",
+          "title": "民間の空襲被害者救済へ平沢勝栄氏「この国会で何としても解決したい」 空襲連が総会 - 東京新聞",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yT2tNdkpiOUd5SXRCWF9LR2dlSDY3bjVtSHZmZG5YNUlwVkdKV2tnMFpSR0hTZFlOVFhzd2l6WVNkTFNPeWQyTjFzNlV4c2VQNVFJ?oc=5",
+          "publishedAt": "2026-10-09T11:36:22Z"
+        },
+        {
+          "id": "f5db1459dab5cb",
+          "name": "47NEWS",
+          "title": "民間の空襲被害者救済へ平沢勝栄氏「この国会で何としても解決したい」 空襲連が総会 - 47NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QaFU0TXZCQ2xWZW1jazVjeDlrN3ZUNnVHbldfOVNxczBpQVdxUy0yWDUzM1ZqZE10LW1FaGxEblkteWpYbVczbEE2Yw?oc=5",
+          "publishedAt": "2026-10-09T11:36:00Z"
         }
       ]
     },
@@ -156,29 +179,6 @@
       ]
     },
     {
-      "id": "099c8e342c497b",
-      "category": "economy",
-      "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-05T21:17:55Z",
-      "sources": [
-        {
-          "id": "3a3bf625de2509",
-          "name": "Reuters",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
-          "publishedAt": "2026-10-05T21:17:55Z"
-        },
-        {
-          "id": "28eaabe8954fea",
-          "name": "ニューズウィーク日本版",
-          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - ニューズウィーク日本版",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZbTg4cjJLUnpqaGZCUTNGRDRoeWFIc1NJMHh0bUNXMFNiMVg4dDF6VG1NZXhOM1g1M3pNRmRlbVJKUlQ4b2ctek5MUUwwLVVORFo4ODBHZlhWdGhEQVhPTXZleDJBUDQ?oc=5",
-          "publishedAt": "2026-10-05T20:17:00Z"
-        }
-      ]
-    },
-    {
       "id": "58fc20b7a83353",
       "category": "internet",
       "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
@@ -225,6 +225,45 @@
       ]
     },
     {
+      "id": "8377cb313c70d8",
+      "category": "economy",
+      "title": "来週の欧州主要企業決算 なし - みんかぶ FX/為替",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T22:36:29Z",
+      "sources": [
+        {
+          "id": "0a0022e45b3e5f",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の欧州主要企業決算 なし - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBscm1FRng5eGd0Y3lQZjBsWUlyOWJwV0VRVXFJa3hSYVJNTUN0STZrZE9yeEdTM2tMdEMtZTQxTnJfcmFOWFBYSw?oc=5",
+          "publishedAt": "2026-10-09T22:36:29Z"
+        },
+        {
+          "id": "9ee1e79eeb919e",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の米主要企業決算 大手銀皮切りに７－９月期決算が本格スタート - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1SRERxQUJKZGYxLTJtdF9Yd1FTVFBoeklqUnh6VWRrQU5ONlBlbjF6NGItWHhCREZnOUQ5YWdSQVZ4dTg2dEpQTw?oc=5",
+          "publishedAt": "2026-10-09T22:30:29Z"
+        }
+      ]
+    },
+    {
+      "id": "8fc2d44806697b",
+      "category": "economy",
+      "title": "【「失われた30年」の根本原因】なぜ、日本企業は「投資主体」であることをやめたのか？ - ダイヤモンド・オンライン",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T21:35:00Z",
+      "sources": [
+        {
+          "id": "f5340aaa342243",
+          "name": "ダイヤモンド・オンライン",
+          "title": "【「失われた30年」の根本原因】なぜ、日本企業は「投資主体」であることをやめたのか？ - ダイヤモンド・オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAyd1NQd1NyaEVNZlNrUm9NRVBOVm56V1k3UXhtSldRSElpcnlhZWJwU0JUUkpwSHFHMmpaeXZ0bXJOcU5DTDc1RGVLRTPSAU9BVV95cUxNVWNuWGxLX2pGVHEwdnl2WndBQlNYS0lVS3J2Tjl0eTZuaGw4WlNiRDItbDJpQzUtanRjcG1fbDEwVzNhZUxFWDFaZHdkMnZn?oc=5",
+          "publishedAt": "2026-10-09T21:35:00Z"
+        }
+      ]
+    },
+    {
       "id": "b5560c3008c913",
       "category": "politics",
       "title": "【佐藤優の1分間読書】日本の政治に失望した人こそ問い直したい、民主主義の基礎となる「政治」とは何なのか - ダイヤモンド・オンライン",
@@ -241,6 +280,38 @@
       ]
     },
     {
+      "id": "dd26a9b2ed12fd",
+      "category": "economy",
+      "title": "対中依存低減、日本の教訓 プリヤンカ・キショー氏 - 日本経済新聞",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T17:00:00Z",
+      "sources": [
+        {
+          "id": "22f14d9a0fc09f",
+          "name": "日本経済新聞",
+          "title": "対中依存低減、日本の教訓 プリヤンカ・キショー氏 - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vTl9mdWh0amd0ZnZDX0hyam9naktFbXg1UW95bW1ldDBlRmg3U3Y5aG1pNWRPc2VJbmRBRHpxXzhacXZUVkFlUG9JSDVPdGlHXy1WMFIwd3ZvZjRCZW1mM1Aza0JNMVdjQ0xGWQ?oc=5",
+          "publishedAt": "2026-10-09T17:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "14f3d0898a49da",
+      "category": "politics",
+      "title": "高市総理「日本の立場と相容れず、深く懸念」 米がICC本体に制裁 - KFB福島放送",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T14:59:00Z",
+      "sources": [
+        {
+          "id": "16264d77036478",
+          "name": "KFB福島放送",
+          "title": "高市総理「日本の立場と相容れず、深く懸念」 米がICC本体に制裁 - KFB福島放送",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05VHFXZVQxVnR3a3BoSm40VXVVS2gzWDV6WFpGazBIWXRpMHVCeUU1NS1JbmE5SWlObkotZXV0WXMtbXNza0RKUjRhaGJwdzB3ZEVwamp3?oc=5",
+          "publishedAt": "2026-10-09T14:59:00Z"
+        }
+      ]
+    },
+    {
       "id": "c1daa0bbf3df73",
       "category": "internet",
       "title": "『葬送のフリーレン』SNS話題のぬいぐるみモチーフ新商品登場 - Koubo",
@@ -253,29 +324,6 @@
           "title": "『葬送のフリーレン』SNS話題のぬいぐるみモチーフ新商品登場 - Koubo",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1aYWszUHZZTFl6V3EzLWhuekl3aUlBUTlpenl3Rms3bUdZeUtYblFjRjN0SlFHMEtia090SVdjdkxqb1Y4Q2c?oc=5",
           "publishedAt": "2026-10-09T12:07:01Z"
-        }
-      ]
-    },
-    {
-      "id": "17c183234ab971",
-      "category": "economy",
-      "title": "外為：1ドル158円33銭前後と同水準で推移 - 株探",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T10:01:01Z",
-      "sources": [
-        {
-          "id": "44afbe49d6b75b",
-          "name": "株探",
-          "title": "外為：1ドル158円33銭前後と同水準で推移 - 株探",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51bl8ydEdpVTZ2NE1rRTdWM0NaQWF5RER4X3oteXVKZHlxVlFPb2tKVU1PQ2otY2dMZDN6dm1iSGZLd1VkM2NYVUVQZ21HZUNDN1E?oc=5",
-          "publishedAt": "2026-10-09T10:01:01Z"
-        },
-        {
-          "id": "860fc6a9adf3da",
-          "name": "株探",
-          "title": "外為：1ドル158円05銭前後とドル安・円高で推移 - 株探",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82amtCM3lpQThMUWZndDIyZG9xSWE1d3ZVNG5KR3gxSTNuTDQ0YlFWcUJQUFBEVTVES0s4ck0tNzR5TC1xQmsxODNkaTVTVjZ2UUE?oc=5",
-          "publishedAt": "2026-10-09T04:01:02Z"
         }
       ]
     },
@@ -319,29 +367,6 @@
       ]
     },
     {
-      "id": "aa4d825d8883ac",
-      "category": "economy",
-      "title": "2026年12月期 第3四半期決算説明会開催に関するお知らせ - PR TIMES",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T07:30:01Z",
-      "sources": [
-        {
-          "id": "55c2abf3cfdb37",
-          "name": "PR TIMES",
-          "title": "2026年12月期 第3四半期決算説明会開催に関するお知らせ - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5UbkdXSXRGYTZfQm9ac0JVNzNxUGc5cExfeDRCekxQSWY3dFVTcVhqWUl1bEFrbF9ZT3k3MDBscFlkVjRTczhtNkRzOGFwU1dzT1p6QjN4WkZ0SzVLOUx2RHZDV2dyNUlWdEE?oc=5",
-          "publishedAt": "2026-10-09T07:30:01Z"
-        },
-        {
-          "id": "0146beee198f38",
-          "name": "PR TIMES",
-          "title": "ReYuu Japan、2026年10月期 第３四半期決算説明動画を公開 - PR TIMES",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9BY3hvekN3dVBOdFRCTHRWQ2ZXV3ppTnNuSzc5SUxQNHNkZ1BEclFkaG42M3FWeEZRWGJCb1NUUHlhbzhWMkJJeUktTjl5NFcyanU1WmVNSWpfS3FBN2tCLUdhbWl6N19tLVE?oc=5",
-          "publishedAt": "2026-10-08T07:30:01Z"
-        }
-      ]
-    },
-    {
       "id": "d0c83415fdfcc4",
       "category": "internet",
       "title": "虎ノ門広告祭が開幕 9日間で185コンテンツ、SNSで話題の「あ、この言葉、気にになる展2」も公開 - AdverTimes.（アドタイ） by 宣伝会議",
@@ -374,45 +399,6 @@
       ]
     },
     {
-      "id": "f260ba3c36452e",
-      "category": "politics",
-      "title": "日本総領事館が注意喚起 ロシア・ペスト対策研究所で職員死亡 - KFB福島放送",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T04:14:00Z",
-      "sources": [
-        {
-          "id": "9f73022ab704ab",
-          "name": "KFB福島放送",
-          "title": "日本総領事館が注意喚起 ロシア・ペスト対策研究所で職員死亡 - KFB福島放送",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sa2Zwc2Z2TkowRUc4X0JJMEw0SkVRcXZMLVZaeEU1c1hWek95SlVnRTJDZ3hENEVwNG5Va1gwa1RFeTAyLUJJYWNzcVpIeGpsMk5IOHV3?oc=5",
-          "publishedAt": "2026-10-09T04:14:00Z"
-        }
-      ]
-    },
-    {
-      "id": "e924e76115de38",
-      "category": "economy",
-      "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T01:51:29Z",
-      "sources": [
-        {
-          "id": "2e5bd977270c49",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 日本経済の国際競争力を強化することで円の信認を保つ - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5oUEFDMEpRUk1tNTl3ZERvYXZFTVZWUHFKcGIzSWN3QzBCd24wR2xNOVk2VmNWRnpoMEl2V0RlOGtsaEI3dmVZVg?oc=5",
-          "publishedAt": "2026-10-09T01:51:29Z"
-        },
-        {
-          "id": "6e9c1e8f7f5f39",
-          "name": "みんかぶ FX/為替",
-          "title": "高市首相 日本経済はデフレではない状況だ - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE84SXQxZ2xEZDBwZWtpRFFEbzh0Q1dFSTExRkdrZ3gxc3kxQWhydHViWDdCbTV3NjlubWJNcVJCendTMXdzYnFZeQ?oc=5",
-          "publishedAt": "2026-10-08T04:35:29Z"
-        }
-      ]
-    },
-    {
       "id": "819f1813c3cfcc",
       "category": "internet",
       "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
@@ -434,10 +420,10 @@
           "publishedAt": "2026-10-09T00:00:00Z"
         },
         {
-          "id": "5f67469ac839dd",
+          "id": "94299f834069ba",
           "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1DOFFmYkFjMjZVZE1tbDRFY1dKM1BNdDRLUm5XVm9SSE5UYlBBbEl4YmZHTl9JUXZnYnJ1RmN6MXZaOHI3blB6TXBJRHFLQVlXQWZVUFlsWm5PRDk0SmtzOUpHTFM?oc=5",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 | TBS NEWS DIG (3ページ) - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43X2J0cHZUWGZJc1NYMXFSb085TkV5cXc5OFl1c2l3Q21UTGppZ3NjNE5tRHAtWmRyeWplR0czWHBwUmIyWmJDaWg2YVhRZXlSMkJQQ1JXQmVlMldid3Y3RQ?oc=5",
           "publishedAt": "2026-10-09T00:00:00Z"
         },
         {
@@ -446,6 +432,22 @@
           "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CY2FaZ2xWa1ZQTVc1cnBTT1JPdl9XUXl5U0xETWQtb2RlcUxIa3VYUWowbE04XzdLQ2NCVGdvZXR5UGNjNWl4TWF0TWcya1hPU2d4WnI3RQ?oc=5",
           "publishedAt": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c24508a41aa187",
+      "category": "economy",
+      "title": "日本版ＤＯＧＥ、基金見直しへ関係閣僚会議 消費減税財源確保が焦点 - Reuters",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T00:34:00Z",
+      "sources": [
+        {
+          "id": "59ef4a6aa68c18",
+          "name": "Reuters",
+          "title": "日本版ＤＯＧＥ、基金見直しへ関係閣僚会議 消費減税財源確保が焦点 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT0ZWa3Y2VTM1X0lkUXNJVnZ0Tm0xeG54Y0VqbzdZQ0VvYTNIOEh6YmFzYWlOLVBDd0Z0S0ZnMl9NTUtzVDR3YktPZHFhQWRyWENiWTN1SVJ3NUxQd25rRW55cmtvUl92Y0dVSzNHcjVRd0dEODhmZkFkbl9EdUpCMXdVWXZmdw?oc=5",
+          "publishedAt": "2026-10-09T00:34:00Z"
         }
       ]
     },
@@ -480,14 +482,7 @@
           "publishedAt": "2026-10-08T06:57:51Z"
         },
         {
-          "id": "acf517578465c4",
-          "name": "自由民主党",
-          "title": "第222回臨時国会における井上信治衆議院議員代表質問 | 政策 | ニュース - 自由民主党",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NOE5lNkUyazdCd3ZmWDFiVEE5SDBTMnBNZDhCaTUwXy1GaG1ibGg5Qm5zMnNGV1RsS0dIalJpTFFlU0hRUEhlaUpDUnJlWkZkNHlYQ09Wdw?oc=5",
-          "publishedAt": "2026-10-07T08:47:51Z"
-        },
-        {
-          "id": "cc3dadd4cf4500",
+          "id": "fdb0abcdd2b6bc",
           "name": "自由民主党",
           "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
@@ -508,22 +503,6 @@
           "title": "令和8年度 小田原民俗芸能保存協会 後継者育成発表会 - ｄメニューニュース",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdjNfem9RX2RNd292bkM2WlBydnpmYjl3dzJvZUd6QmkycDBtZ2VQeHpOVEM3aVgzZF9PS0g3aDh0VnRqQlI1UzdyeUdaMWFMOG5KWGt6dWFrLUxOdVVxUFdIbzUxWE9ldTVUT3J0RHdVQmp6ZWwxNVZhelpaLWFMTdIBhgFBVV95cUxOc1JQRkVLd0tNLXhfekdzMHRsTzlOd1cwQWJwNE1tTWx4d01heGJlcWR6cVlCckpraEJ4dkdyR0hrUlc5SXlySzQ5RGQyaF9RVUVNeHBYeXdXRnpuNGdxNWU4dmtlZWY1alh1Si1Feks1OE52bUw0UU5wdzI0SkZmVUdaMlV6dw?oc=5",
           "publishedAt": "2026-10-08T01:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "3a966d917bb1c2",
-      "category": "politics",
-      "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T00:14:27Z",
-      "sources": [
-        {
-          "id": "92ba2406c02621",
-          "name": "Yahoo!ニュース",
-          "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zTWt0VUZOcFVUREtLLWNfal9tLTdWWXRfeEhBNDNONVBRM1BJZ2NTY1B4bi1HaU1sdS1BUEphVTN1TW5TVVA3WlpSb0IyZXZFR0lvRDF1b3VwOXRYSE1FcDZlSVBwem1pV3Y3dGxhclRubkNhQ0tmOG1CM1lWTGM?oc=5",
-          "publishedAt": "2026-10-08T00:14:27Z"
         }
       ]
     }
