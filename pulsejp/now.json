@@ -1,8 +1,38 @@
 {
-  "generatedAt": "2026-10-10T07:07:05Z",
+  "generatedAt": "2026-10-10T13:41:20Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
+    {
+      "id": "237b14542e2e86",
+      "category": "economy",
+      "title": "近年のノーベル経済学賞 - 日本人の初受賞なるか ノーベル経済学賞、12日発表 - 写真・画像(2/2) - 西日本新聞me",
+      "sourceCount": 3,
+      "latestPublishedAt": "2026-10-10T07:43:32Z",
+      "sources": [
+        {
+          "id": "5cbb3806c9a201",
+          "name": "西日本新聞me",
+          "title": "近年のノーベル経済学賞 - 日本人の初受賞なるか ノーベル経済学賞、12日発表 - 写真・画像(2/2) - 西日本新聞me",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uUEFUVWFrbFcyWXhGWlJ6QVFtb0hlYzBQNHRjRGZ1R09abUM1bmRYTkxydXRtYnlGOUZrOVhfWWV3OGQ2a2FHanphb05ocmpaSnJLbWVEdw?oc=5",
+          "publishedAt": "2026-10-10T07:43:32Z"
+        },
+        {
+          "id": "18b35ab8257a44",
+          "name": "佐賀新聞",
+          "title": "日本人の初受賞なるか ノーベル経済学賞、１２日発表 | | 全国のニュース - 佐賀新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LRkRyeTVIZlBpLXV5cTZVMFBpaVE5ZHBQMndkMDV3QnFMRnRlUVZDVnM5eXVSZlZLWEZpWkRDZ0pxM2pjS3FVSzJOa1VxVHd6eTdKOW53?oc=5",
+          "publishedAt": "2026-10-10T06:52:00Z"
+        },
+        {
+          "id": "845aab9eb7dcd2",
+          "name": "Yahoo!ニュース",
+          "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VUDQzcDV5SF9hMFI2SUZNQWZGWS1UQUVBV0l0Qjc5U3JCLWlFRWV1STVUYU5xX2RSN21DUkNNcnRwQ2h0U0UtOENSdVdsa1d1VXFScXpaU1RndnlFeC1NaVNaZ0t1OVl0eUlnWTB2TDFhdU9BS3NkdlIzVkRFVnM?oc=5",
+          "publishedAt": "2026-10-10T06:51:39Z"
+        }
+      ]
+    },
     {
       "id": "50f6110f5717a2",
       "category": "entertainment",
@@ -34,71 +64,85 @@
       ]
     },
     {
-      "id": "2f5db8bec34c96",
-      "category": "economy",
-      "title": "日本人の初受賞なるか ノーベル経済学賞、１２日発表 | | 全国のニュース - 佐賀新聞",
+      "id": "abfc9431d340e7",
+      "category": "entertainment",
+      "title": "松下洸平 芸能界デビューの特殊すぎるコンセプトに挫折「どの手順を踏めば…分からなさすぎて」（スポニチアネックス） - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-10T06:52:00Z",
+      "latestPublishedAt": "2026-10-10T09:18:36Z",
       "sources": [
         {
-          "id": "390ad6f40eca20",
-          "name": "佐賀新聞",
-          "title": "日本人の初受賞なるか ノーベル経済学賞、１２日発表 | | 全国のニュース - 佐賀新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LRkRyeTVIZlBpLXV5cTZVMFBpaVE5ZHBQMndkMDV3QnFMRnRlUVZDVnM5eXVSZlZLWEZpWkRDZ0pxM2pjS3FVSzJOa1VxVHd6eTdKOW53?oc=5",
-          "publishedAt": "2026-10-10T06:52:00Z"
+          "id": "0221457204656e",
+          "name": "Yahoo!ニュース",
+          "title": "松下洸平 芸能界デビューの特殊すぎるコンセプトに挫折「どの手順を踏めば…分からなさすぎて」（スポニチアネックス） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03Sll2YnVPNVNpekVSVFhVQXl1MXVMVnpldDRRZGVHdGNIQ3BEX3JTdXlBeUxWQ09QYkFLakx5dndXRnBVcnRVOXhaZkJrdUFraDI2cXRJbWRDNTJVYkFfdzZXcU1CRnNnbHRTbUdNYjAtSXR4TFl1SlAxTWRaQzQ?oc=5",
+          "publishedAt": "2026-10-10T09:18:36Z"
         },
         {
-          "id": "4fae5d33c78caa",
-          "name": "Yahoo!ニュース",
-          "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表（共同通信） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMlA5QmdFcGQ0RkF1ZFpvMXNjSHlkemtCTm5fVHVnNWp4endPWkN3RVhBSGxmRFdLOS1oR1BaMzZvMlBFVmVrWm5tRVY3VUZyUmx5ZXJlUkZCeFB0a3VNeDl6LUZGcURpc0hSeDlnSDFmT3FCenlLaUhfMmxVWnhqeWJobTdRV3BtTE5Bb3Rn?oc=5",
-          "publishedAt": "2026-10-10T06:51:39Z"
+          "id": "f26df925145979",
+          "name": "スポニチ Sponichi Annex",
+          "title": "松下洸平 芸能界デビューの特殊すぎるコンセプトに挫折「どの手順を踏めば…分からなさすぎて」 - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeTVtakw0SGtYNEZaVXNkbFVpN0lLSVFUakJ5VkhickFTU3Atczh1WVhOWHRjWG8tb2ZMZUFPN0dLcGFVVXgzOExfcnMtRG1vaThjTDkzVWRrMzQycXV1bWE3TDRzeElFN2xqWUF3cDBxYlhoU1hWRkVVS3NIRUt6MHJva1dqQUlobVRiVTk2V2h4UXRCQkE?oc=5",
+          "publishedAt": "2026-10-10T09:16:00Z"
         }
       ]
     },
     {
-      "id": "58e8a14f2aa42a",
+      "id": "03d0e90d7607ee",
       "category": "economy",
-      "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日） - 株探",
+      "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日）(株探ニュース) - Yahoo!ファイナンス",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-10T04:30:06Z",
+      "latestPublishedAt": "2026-10-09T22:43:04Z",
       "sources": [
         {
-          "id": "94d0232d3583a8",
-          "name": "株探",
-          "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日） - 株探",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nSGtONkJMSHJzLXNaNzg1MmpYbHFLMEttLW9DSHozSnFJQmM2ZDBBZDV5Q3JIWlA0STQ1LWVYMlFXakZPV1RMS0ljMFE1WG10cUE?oc=5",
-          "publishedAt": "2026-10-10T04:30:06Z"
-        },
-        {
-          "id": "17b6c50c62bacb",
+          "id": "a368185eb79db1",
           "name": "Yahoo!ファイナンス",
           "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日）(株探ニュース) - Yahoo!ファイナンス",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTU4zZWpnSGFPcWpaS0d5T2E0NmNzUU9YamxQQkp4aHIxS3IwRHRSMngzZDBnaWozR0ktNlllaTNOQlhKSjdkRGhtWjE4dDlPdXl2ai1YYndRNEp0VWtPV01rNjNHYXFrRHozc2xqS1ZydzgzZU5UN2dWc0ctQVpESVVMUERQZ0E?oc=5",
           "publishedAt": "2026-10-09T22:43:04Z"
+        },
+        {
+          "id": "b46f3193c4c435",
+          "name": "株探",
+          "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日） - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nSGtONkJMSHJzLXNaNzg1MmpYbHFLMEttLW9DSHozSnFJQmM2ZDBBZDV5Q3JIWlA0STQ1LWVYMlFXakZPV1RMS0ljMFE1WG10cUE?oc=5",
+          "publishedAt": "2026-10-09T22:42:13Z"
         }
       ]
     },
     {
-      "id": "0d7dd95eb2e1b4",
+      "id": "819f1813c3cfcc",
       "category": "internet",
-      "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題!キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 (めざましmedia) - Yahoo!ニュース",
+      "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-08T11:30:39Z",
+      "latestPublishedAt": "2026-10-09T01:42:42Z",
       "sources": [
         {
-          "id": "83809bc7370f6a",
-          "name": "Yahoo!ニュース",
-          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題!キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 (めざましmedia) - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPdXh4dmJ1SGN1SHFaWEpDM09FZlVxOEg5VEVscF9LdDdzTVhDUWF3bFowc2I1bERZdE9qczBsZ0RadjgtTnUzcGxxNmFkdTlSQi1fZmZXcVU3NzFkbmFTUEd1emwyWTdlR1ZGQWlnNXozNHE2YmFxWlhCcG5JNTg3NjFLdVZ2VnJELXQ4YlNn?oc=5",
-          "publishedAt": "2026-10-08T11:30:39Z"
+          "id": "61d6d58b2d7eb3",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1aUIyYkx2X0ZVRkZWYTVBNUI1c2JhTk9qdFlJOFZXZ2Q4aGZaQld5V29NSVFteEJoaFFRdllCd2laaDUyVWF1SG5iRE9GMXl4SFExa1lpcTlsLVpsYTFF?oc=5",
+          "publishedAt": "2026-10-09T01:42:42Z"
         },
         {
-          "id": "6815c7397c38ad",
-          "name": "めざましmedia",
-          "title": "AKB48小栗有以 “完璧シイタケな後頭部”がSNSで話題！キュートな見た目も…思わぬ指摘で気付いたヘアスタイルに「それにしか見えない」「斬新」 - めざましmedia",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tOXhjcTdzQWU5d09JX01lbGZKS3pya2tfOVRSZHZPZWFiXzZJcTJkZThjN3F2cFNXOGlsOHZBcU1qSjRHdzM1ckgzRXY3Vk9RQjRv?oc=5",
-          "publishedAt": "2026-10-08T11:30:00Z"
+          "id": "8767389bd178c0",
+          "name": "LINE NEWS",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声（MRT宮崎放送） - LINE NEWS",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VVWhDcTBseExuQUxqcDlUeGphdlZCaFNNSEo1LWxUbVFCcWNHUlZ5WEczNlFvcUZmMmxnVkRKdjVrODlrX2V5RnhMOEd1YWgwMXJmeDliTTRlQXJDRWFvQVJXOXFZLUlReGc?oc=5",
+          "publishedAt": "2026-10-09T00:11:00Z"
+        },
+        {
+          "id": "401444aa428f3c",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16OEZ5ZktCbmUzTXB6cm5EYVJKaFhGNWF6cWFqZlYxWEZRaGNlSV90Z2ZuckNuVVJ4N3NWYVBuLW5ZNk8zR0RNN0pWSDJyb2NaeFB3NkRxOGpPRWtpZTEtT3lLRmc0SGc?oc=5",
+          "publishedAt": "2026-10-09T00:00:00Z"
+        },
+        {
+          "id": "ea6bcebffbb28c",
+          "name": "TBS NEWS DIG",
+          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43X2J0cHZUWGZJc1NYMXFSb085TkV5cXc5OFl1c2l3Q21UTGppZ3NjNE5tRHAtWmRyeWplR0czWHBwUmIyWmJDaWg2YVhRZXlSMkJQQ1JXQmVlMldid3Y3RQ?oc=5",
+          "publishedAt": "2026-10-09T00:00:00Z"
         }
       ]
     },
@@ -149,17 +193,17 @@
       ]
     },
     {
-      "id": "58fc20b7a83353",
+      "id": "fd1218b47e9c7c",
       "category": "internet",
       "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
       "sourceCount": 2,
       "latestPublishedAt": "2026-10-02T06:16:14Z",
       "sources": [
         {
-          "id": "78a92ef69b9c98",
+          "id": "1df338af5aacf6",
           "name": "Yahoo!ニュース",
           "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuZTRTREVhMjBFbGlBUXBpWXluMEZOZkNIV0hfYUdJaHUycno1blpuT2pMN1VZSWZ2SkRqZFFZZ2xCSlY5Z0o4RkRTU2ZKWTEtSlZGUEVrRnNCdVBZYXVrcU5NNDdJZkV3RE5uWVZxcDBrcmdSd0Q4TmR0T2VNclE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd2hXWjBXbzNkc0NrU0s4d0FweFdJZ05FQW9ZOVZ5NVN3bnMwb0tHWXZFc1BtMXAyRzFpSEFKcll6M0lESm5oN1NIWDVnM3pUUTl5NHBZb2Y1eVdGS2ZXMDlhdkg5VkNBOHBvU1ZqY2h6elBWRHYtR1FlNFRkZDJUUjVUYWt4TkVu?oc=5",
           "publishedAt": "2026-10-02T06:16:14Z"
         },
         {
@@ -195,6 +239,29 @@
       ]
     },
     {
+      "id": "be523895b4cbc3",
+      "category": "internet",
+      "title": "【成城石井】「驚きの美味しさ！」SNSでも話題の絶品サラダ（舞） - エキスパート - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-10T10:55:12Z",
+      "sources": [
+        {
+          "id": "14990eed24b433",
+          "name": "Yahoo!ニュース",
+          "title": "【成城石井】「驚きの美味しさ！」SNSでも話題の絶品サラダ（舞） - エキスパート - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOaXBJUW9STTQwVjhsa0VGNlNqZUZNMXJ2SUlMYzJoT2ltdFlSX2pGNVpJSzlva0hOdS1fd1F6N1BZbV9EVEc2ZVV4SHhRWEYxVTE3VXlUc2d6MXVoMVFGWVlYTXZWbVlNRWlTRUZtNWtnbmpyUDZyWC16MlFnMzlJeXFiMGNwMmw1?oc=5",
+          "publishedAt": "2026-10-10T10:55:12Z"
+        },
+        {
+          "id": "4fb8852357e66c",
+          "name": "Yahoo!ニュース",
+          "title": "SNSでも超話題！【業務スーパー】「セールで今だけ安い」やみつき系人気商品とは（舞） - エキスパート - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSG5tTmlCT3ozTm9JT2k2c1pPS200aUJPdzFoc3dlb3ZxNkV2OGI3b0pCNUg2NVhiemRYbzFZV01DZEkzcHdXRUxKVW9QYUZpUUxMUzBSbjVvMGxFUGduYlhfZTlOZEQyZGNSMFh3TFdyYUN5Z1praVpqSE5DSVNFaXNZQUljd2dO?oc=5",
+          "publishedAt": "2026-10-06T09:55:14Z"
+        }
+      ]
+    },
+    {
       "id": "09042efeccae8c",
       "category": "internet",
       "title": "ピアニスト角野隼斗が謝罪、投稿削除「配慮に欠ける内容…深く反省」SNSで「144」話題（日刊スポーツ） - Yahoo!ニュース",
@@ -207,29 +274,6 @@
           "title": "ピアニスト角野隼斗が謝罪、投稿削除「配慮に欠ける内容…深く反省」SNSで「144」話題（日刊スポーツ） - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zUU9tTWRaWE92WndLMWVpVGJia2w0bjFMdHVIQzRRQk5RTk9JVzZpdjB1WkVpdWNKUURpYnRfcExnZU1VcE1JTFZ0RjdJZWdLNExzZTh4TlNWempoVUtJNFgydjAzenhjeWYxRDhGWE1OY3NHY3pTeUVfdlZWREk?oc=5",
           "publishedAt": "2026-10-10T01:26:50Z"
-        }
-      ]
-    },
-    {
-      "id": "8377cb313c70d8",
-      "category": "economy",
-      "title": "来週の欧州主要企業決算 なし - みんかぶ FX/為替",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T22:36:29Z",
-      "sources": [
-        {
-          "id": "0a0022e45b3e5f",
-          "name": "みんかぶ FX/為替",
-          "title": "来週の欧州主要企業決算 なし - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBscm1FRng5eGd0Y3lQZjBsWUlyOWJwV0VRVXFJa3hSYVJNTUN0STZrZE9yeEdTM2tMdEMtZTQxTnJfcmFOWFBYSw?oc=5",
-          "publishedAt": "2026-10-09T22:36:29Z"
-        },
-        {
-          "id": "9ee1e79eeb919e",
-          "name": "みんかぶ FX/為替",
-          "title": "来週の米主要企業決算 大手銀皮切りに７－９月期決算が本格スタート - みんかぶ FX/為替",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1SRERxQUJKZGYxLTJtdF9Yd1FTVFBoeklqUnh6VWRrQU5ONlBlbjF6NGItWHhCREZnOUQ5YWdSQVZ4dTg2dEpQTw?oc=5",
-          "publishedAt": "2026-10-09T22:30:29Z"
         }
       ]
     },
@@ -282,22 +326,6 @@
       ]
     },
     {
-      "id": "ac2df266ca5198",
-      "category": "politics",
-      "title": "首相の「名誉ある制裁」メールは「政治家のウィット」 古屋氏が弁明 [高市早苗首相 自民党総裁] - 朝日新聞",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T12:20:06Z",
-      "sources": [
-        {
-          "id": "febd9fb1b76310",
-          "name": "朝日新聞",
-          "title": "首相の「名誉ある制裁」メールは「政治家のウィット」 古屋氏が弁明 [高市早苗首相 自民党総裁] - 朝日新聞",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Wc2JucDZYMXVEZk80bFV1bUVJZHNZRVFqZmpTQVh1REllNVBwdmdWQzQzMU5XRG1xNDh2eWpsV3hxSnB0MXo2NDFNdkVocVBwbmxodi1ERGU4dW01Vl92WkRsS0Q2RkE?oc=5",
-          "publishedAt": "2026-10-09T12:20:06Z"
-        }
-      ]
-    },
-    {
       "id": "c1daa0bbf3df73",
       "category": "internet",
       "title": "『葬送のフリーレン』SNS話題のぬいぐるみモチーフ新商品登場 - Koubo",
@@ -337,50 +365,18 @@
       ]
     },
     {
-      "id": "938fb000d5c626",
-      "category": "entertainment",
-      "title": "37歳俳優「また紅白の司会になれませんでした」投稿に「別班やテントに所属すれば？」Xの声 - 日刊スポーツ",
+      "id": "95d64b802a8c5e",
+      "category": "politics",
+      "title": "急変フランス金利、グダグダ政治と金融リスク 日本市場への影響は？ - 日本経済新聞",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T07:07:15Z",
+      "latestPublishedAt": "2026-10-09T09:40:20Z",
       "sources": [
         {
-          "id": "e31c4037cde227",
-          "name": "日刊スポーツ",
-          "title": "37歳俳優「また紅白の司会になれませんでした」投稿に「別班やテントに所属すれば？」Xの声 - 日刊スポーツ",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0eXcwNjE2M0JMQ3ZIVW9xdjR6czRlek5FQ3BvNjFXRjdhV0tTR3FDNmVOOFJ1TXFwZkx0bHNoM0dPOFZaejJXdEdDVTBteHVOWk53OUd4TGdFYkNPUnFaakd5cXNWNzlXdjkyQmJGQTRnUFVuVG1J0gF_QVVfeXFMTU10YVVjVXFvUDc0VUJHejVqWVVGS2RnTzJ0TjRmQnlXcVllMTNqUlVxS3VuTmJFTWJUanF1VnMyVTdESldaeW4tNkpFS2RoRUdpX2VwMnQtTmdsWWJUa0Y1OWotSGNOSW9DbEtacEZiYlVqcTlBMXRiRVV4WUl1dw?oc=5",
-          "publishedAt": "2026-10-09T07:07:15Z"
-        }
-      ]
-    },
-    {
-      "id": "d0c83415fdfcc4",
-      "category": "internet",
-      "title": "虎ノ門広告祭が開幕 9日間で185コンテンツ、SNSで話題の「あ、この言葉、気にになる展2」も公開 - AdverTimes.（アドタイ） by 宣伝会議",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T06:47:12Z",
-      "sources": [
-        {
-          "id": "0b446b2fc2becd",
-          "name": "AdverTimes.（アドタイ） by 宣伝会議",
-          "title": "虎ノ門広告祭が開幕 9日間で185コンテンツ、SNSで話題の「あ、この言葉、気にになる展2」も公開 - AdverTimes.（アドタイ） by 宣伝会議",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UX2ozRTdWNE1xdmxhY0xaZUtUTXVkNVFqd1g5RFl4WTg5OEl2MTlHdHZZZEc2aGY0dW5fZnZKVnJQUlhKZGdPemFBb21jTFhDVG9BLTRadlVVb3JSQjhZ?oc=5",
-          "publishedAt": "2026-10-09T06:47:12Z"
-        }
-      ]
-    },
-    {
-      "id": "682a8a61ce5f39",
-      "category": "entertainment",
-      "title": "大泉洋 芸能界は「アルバイトのつもり」だった 駆け出し当初は氷河期「焦って就職しなくてもいい」 - スポニチ Sponichi Annex",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T06:47:00Z",
-      "sources": [
-        {
-          "id": "53e5072834282c",
-          "name": "スポニチ Sponichi Annex",
-          "title": "大泉洋 芸能界は「アルバイトのつもり」だった 駆け出し当初は氷河期「焦って就職しなくてもいい」 - スポニチ Sponichi Annex",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVFlDZW9QVExYQUZSMFhWWFJ2Z2VhQUlPbHlnNEdRM1RwOEx5MnFfc2x0RGNWbTFIMEpGVW16dzA3ODVFOTFkT0NwVk84R0owYVcxRE00NXhjZXZPYmxZY3Jwb2QxX0YtMXhPWHRLWjJLY3ZFMlpxcWFnekdSLWIweDJUSWVOTUtpWkdNSUs2WnAwQnllVnc?oc=5",
-          "publishedAt": "2026-10-09T06:47:00Z"
+          "id": "1e6d86533afeda",
+          "name": "日本経済新聞",
+          "title": "急変フランス金利、グダグダ政治と金融リスク 日本市場への影響は？ - 日本経済新聞",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jaWZnY054TU5wcjBOR3NRT0I0eUUyUXk1NmZYZ1FEVGM5cjZHNC1UQWVveGYwakVhdmJTTEpXZVZaejI0VzZEa1hFbkM3Q1pkbkRwWGZKTUlaSUpDano4QVVnbjBXdjZYdVRlTg?oc=5",
+          "publishedAt": "2026-10-09T09:40:20Z"
         }
       ]
     },
@@ -401,43 +397,6 @@
       ]
     },
     {
-      "id": "819f1813c3cfcc",
-      "category": "internet",
-      "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T01:42:42Z",
-      "sources": [
-        {
-          "id": "61d6d58b2d7eb3",
-          "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1aUIyYkx2X0ZVRkZWYTVBNUI1c2JhTk9qdFlJOFZXZ2Q4aGZaQld5V29NSVFteEJoaFFRdllCd2laaDUyVWF1SG5iRE9GMXl4SFExa1lpcTlsLVpsYTFF?oc=5",
-          "publishedAt": "2026-10-09T01:42:42Z"
-        },
-        {
-          "id": "384d7c37c4f58f",
-          "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JRmFQVV9Nd29nVkxrUFU3Sk1DQ2JMb21HN1EtY1dneGVqdlJzeHJ5UmZUVWhTTHVfSm95ZFk4SkgteGFMSGV0TkQ5SVFpSTFRTU5CaHZGZ2xiUQ?oc=5",
-          "publishedAt": "2026-10-09T00:00:00Z"
-        },
-        {
-          "id": "94299f834069ba",
-          "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 | TBS NEWS DIG (3ページ) - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43X2J0cHZUWGZJc1NYMXFSb085TkV5cXc5OFl1c2l3Q21UTGppZ3NjNE5tRHAtWmRyeWplR0czWHBwUmIyWmJDaWg2YVhRZXlSMkJQQ1JXQmVlMldid3Y3RQ?oc=5",
-          "publishedAt": "2026-10-09T00:00:00Z"
-        },
-        {
-          "id": "fab49e9eb4fc4d",
-          "name": "TBS NEWS DIG",
-          "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CY2FaZ2xWa1ZQTVc1cnBTT1JPdl9XUXl5U0xETWQtb2RlcUxIa3VYUWowbE04XzdLQ2NCVGdvZXR5UGNjNWl4TWF0TWcya1hPU2d4WnI3RQ?oc=5",
-          "publishedAt": "2026-10-09T00:00:00Z"
-        }
-      ]
-    },
-    {
       "id": "c24508a41aa187",
       "category": "economy",
       "title": "日本版ＤＯＧＥ、基金見直しへ関係閣僚会議 消費減税財源確保が焦点 - Reuters",
@@ -454,18 +413,66 @@
       ]
     },
     {
-      "id": "b92724496b5afc",
-      "category": "entertainment",
-      "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」（日刊スポーツ） - Yahoo!ニュース",
+      "id": "4abdca0049d38a",
+      "category": "economy",
+      "title": "日本人が｢身内には過剰で他人に冷淡｣な根本原因 生きづらさと｢低い幸福度｣の裏に潜む知られざる呪縛 - 東洋経済オンライン",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T23:23:26Z",
+      "latestPublishedAt": "2026-10-08T23:45:00Z",
       "sources": [
         {
-          "id": "80fc5f601c22c0",
+          "id": "976cd7fb27a740",
+          "name": "東洋経済オンライン",
+          "title": "日本人が｢身内には過剰で他人に冷淡｣な根本原因 生きづらさと｢低い幸福度｣の裏に潜む知られざる呪縛 - 東洋経済オンライン",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0dmgyN2FOZXpYVDJYY1N2cF9nMWFLWUxHOEJCOEVEVUo2WnRKalFMNGhPUURobDY1VU5DNHpkemNqZVd3VkJqYTZLZGFBUVhTejlTS0JOM19XRGNFZWxN?oc=5",
+          "publishedAt": "2026-10-08T23:45:00Z"
+        }
+      ]
+    },
+    {
+      "id": "0dc0b27b75baa2",
+      "category": "entertainment",
+      "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」 - 日刊スポーツ",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T23:24:00Z",
+      "sources": [
+        {
+          "id": "5e79906388ecec",
+          "name": "日刊スポーツ",
+          "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」 - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBaOUZBTGxnRF9POS1FOEV5anVRaExlY0tGUS1sSENLLVRQemFYVklnMGNqOGZ6N1dZa2FiMFJtTjRJUWtFSmhFaDB0eTN1bTNld1BqY3kxcjYxMmN4b2R2Q3BsLWR1UWcxYlpvLWljUVNfUUFGV0Yw0gF_QVVfeXFMUENjSHB2RlBnMUdPUVMtN3lKb0ZHZlpHSkpBSlZWcmNwcm9SZDNKdy1Uc0xVQTEtaXpBLWZ6ZV9BWFpvWk51cERVRmhlTWRKRTZ0Y0pna1hSYWttSjFjMHU4MWtQb0JuZ0hwOTVIekZjc2xubWx3cEN4Sk5kQUdJNA?oc=5",
+          "publishedAt": "2026-10-08T23:24:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4f088ed5908814",
+      "category": "entertainment",
+      "title": "有野屋書店 10月8日(木)放送分 松竹芸能70周年 松竹祭り｜バラエティ｜見逃し無料配信はTVer！人気の動画見放題 - TVer",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T18:17:28Z",
+      "sources": [
+        {
+          "id": "76ab2ee6628b47",
+          "name": "TVer",
+          "title": "有野屋書店 10月8日(木)放送分 松竹芸能70周年 松竹祭り｜バラエティ｜見逃し無料配信はTVer！人気の動画見放題 - TVer",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBEZFc5S2NCWFE0MlVsVFBoR2k3QXpvMjZFMmFUaXdWY0NRN2lPTzJjbFZjZWZXeFpnVThIMmtmel9Cb1FFSFNYRnEyMA?oc=5",
+          "publishedAt": "2026-10-08T18:17:28Z"
+        }
+      ]
+    },
+    {
+      "id": "30cf6c25c3024d",
+      "category": "entertainment",
+      "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」（西スポWEB OTTO!） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T14:10:01Z",
+      "sources": [
+        {
+          "id": "806d78fc0df1c7",
           "name": "Yahoo!ニュース",
-          "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」（日刊スポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzaDNCSU1vcWVDUGRxNEl4Vks0ako5T2JMMzg3c0tHdkExWVNHWEc5VlZxbmRIRXJoTWVTYWJ4U0tpVEFQVzB3UHZZTlRycVB1ODlSZkpWcGtJTGhMbnhoN3RwWm81WW81VGtCX1AyM3pxZnJLQ2cyYzlCOHRyVmc?oc=5",
-          "publishedAt": "2026-10-08T23:23:26Z"
+          "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」（西スポWEB OTTO!） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hNTQ3b2ZrazJfMTlvNjkzaFZmb3BzajFPTWlCVFZQRlBCc05RNzhzb0paTDRhZU9nWDY3YkV0a1RRdDlMdW4yX1BKQm15LWFsaDAtaUpYMk9BOWRrVUV5ek9WRFJKS3NadFBJZFJCblNuVEx1dU1iZzZBMExmLUk?oc=5",
+          "publishedAt": "2026-10-08T14:10:01Z"
         }
       ]
     },
@@ -484,14 +491,7 @@
           "publishedAt": "2026-10-08T06:57:51Z"
         },
         {
-          "id": "acf517578465c4",
-          "name": "自由民主党",
-          "title": "第222回臨時国会における井上信治衆議院議員代表質問 | 政策 | ニュース - 自由民主党",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NOE5lNkUyazdCd3ZmWDFiVEE5SDBTMnBNZDhCaTUwXy1GaG1ibGg5Qm5zMnNGV1RsS0dIalJpTFFlU0hRUEhlaUpDUnJlWkZkNHlYQ09Wdw?oc=5",
-          "publishedAt": "2026-10-07T08:47:51Z"
-        },
-        {
-          "id": "cc3dadd4cf4500",
+          "id": "fdb0abcdd2b6bc",
           "name": "自由民主党",
           "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
