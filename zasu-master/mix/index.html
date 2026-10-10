@@ -106,22 +106,22 @@
       <div id="autoBalanceHint" class="auto-balance-hint">ON — VOCAL LEVELは素材に合わせて自動決定します。</div>
     </div>
     <div class="control-list">
-      <label class="control-row">
+      <label for="vocalGain" class="control-row">
         <span><strong>ボーカル音量</strong><small>オケに対するボーカル音量</small></span>
         <output id="vocalGainValue">+2.0 dB</output>
-        <input id="vocalGain" type="range" min="-6" max="6" step="0.5" value="2">
+        <input aria-label="ボーカル音量（dB）" aria-describedby="vocalGainValue" id="vocalGain" type="range" min="-6" max="6" step="0.5" value="2">
       </label>
-      <label class="control-row">
+      <label for="reverbAmount" class="control-row">
         <span><strong>リバーブ</strong><small>ボーカルの空間量</small></span>
         <output id="reverbValue">14%</output>
-        <input id="reverbAmount" type="range" min="0" max="40" step="1" value="14">
+        <input aria-label="リバーブ量（%）" aria-describedby="reverbValue" id="reverbAmount" type="range" min="0" max="40" step="1" value="14">
       </label>
     </div>
     <div class="eq-title">ボーカルEQ</div>
     <div class="eq-grid">
-      <label><span>太さ（BODY） <small>220Hz</small></span><output id="eqBodyValue">0.0 dB</output><input id="eqBody" type="range" min="-4" max="4" step="0.5" value="0"></label>
-      <label><span>明瞭さ（PRESENCE） <small>3.2kHz</small></span><output id="eqPresenceValue">0.0 dB</output><input id="eqPresence" type="range" min="-4" max="4" step="0.5" value="0"></label>
-      <label><span>抜け感（AIR） <small>10kHz</small></span><output id="eqAirValue">0.0 dB</output><input id="eqAir" type="range" min="-4" max="4" step="0.5" value="0"></label>
+      <label for="eqBody"><span>太さ（BODY） <small>220Hz</small></span><output id="eqBodyValue">0.0 dB</output><input aria-label="ボーカルEQ 太さ（220Hz / dB）" aria-describedby="eqBodyValue" id="eqBody" type="range" min="-4" max="4" step="0.5" value="0"></label>
+      <label for="eqPresence"><span>明瞭さ（PRESENCE） <small>3.2kHz</small></span><output id="eqPresenceValue">0.0 dB</output><input aria-label="ボーカルEQ 明瞭さ（3.2kHz / dB）" aria-describedby="eqPresenceValue" id="eqPresence" type="range" min="-4" max="4" step="0.5" value="0"></label>
+      <label for="eqAir"><span>抜け感（AIR） <small>10kHz</small></span><output id="eqAirValue">0.0 dB</output><input aria-label="ボーカルEQ 抜け感（10kHz / dB）" aria-describedby="eqAirValue" id="eqAir" type="range" min="-4" max="4" step="0.5" value="0"></label>
     </div>
     <div class="mini-note">AUTO BALANCEをOFFにすると、ボーカル音量を手動調整できます。EQ・リバーブはAUTO BALANCE中でも変更できます。</div>
   </div>
