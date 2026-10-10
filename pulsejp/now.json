@@ -1,38 +1,8 @@
 {
-  "generatedAt": "2026-10-10T13:41:20Z",
+  "generatedAt": "2026-10-10T18:35:39Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
-    {
-      "id": "237b14542e2e86",
-      "category": "economy",
-      "title": "近年のノーベル経済学賞 - 日本人の初受賞なるか ノーベル経済学賞、12日発表 - 写真・画像(2/2) - 西日本新聞me",
-      "sourceCount": 3,
-      "latestPublishedAt": "2026-10-10T07:43:32Z",
-      "sources": [
-        {
-          "id": "5cbb3806c9a201",
-          "name": "西日本新聞me",
-          "title": "近年のノーベル経済学賞 - 日本人の初受賞なるか ノーベル経済学賞、12日発表 - 写真・画像(2/2) - 西日本新聞me",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1uUEFUVWFrbFcyWXhGWlJ6QVFtb0hlYzBQNHRjRGZ1R09abUM1bmRYTkxydXRtYnlGOUZrOVhfWWV3OGQ2a2FHanphb05ocmpaSnJLbWVEdw?oc=5",
-          "publishedAt": "2026-10-10T07:43:32Z"
-        },
-        {
-          "id": "18b35ab8257a44",
-          "name": "佐賀新聞",
-          "title": "日本人の初受賞なるか ノーベル経済学賞、１２日発表 | | 全国のニュース - 佐賀新聞",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LRkRyeTVIZlBpLXV5cTZVMFBpaVE5ZHBQMndkMDV3QnFMRnRlUVZDVnM5eXVSZlZLWEZpWkRDZ0pxM2pjS3FVSzJOa1VxVHd6eTdKOW53?oc=5",
-          "publishedAt": "2026-10-10T06:52:00Z"
-        },
-        {
-          "id": "845aab9eb7dcd2",
-          "name": "Yahoo!ニュース",
-          "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表（共同通信） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VUDQzcDV5SF9hMFI2SUZNQWZGWS1UQUVBV0l0Qjc5U3JCLWlFRWV1STVUYU5xX2RSN21DUkNNcnRwQ2h0U0UtOENSdVdsa1d1VXFScXpaU1RndnlFeC1NaVNaZ0t1OVl0eUlnWTB2TDFhdU9BS3NkdlIzVkRFVnM?oc=5",
-          "publishedAt": "2026-10-10T06:51:39Z"
-        }
-      ]
-    },
     {
       "id": "50f6110f5717a2",
       "category": "entertainment",
@@ -87,25 +57,25 @@
       ]
     },
     {
-      "id": "03d0e90d7607ee",
+      "id": "5cb9a6568ab9d2",
       "category": "economy",
-      "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日）(株探ニュース) - Yahoo!ファイナンス",
+      "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表 - 北海道新聞デジタル",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T22:43:04Z",
+      "latestPublishedAt": "2026-10-10T07:03:27Z",
       "sources": [
         {
-          "id": "a368185eb79db1",
-          "name": "Yahoo!ファイナンス",
-          "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日）(株探ニュース) - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTU4zZWpnSGFPcWpaS0d5T2E0NmNzUU9YamxQQkp4aHIxS3IwRHRSMngzZDBnaWozR0ktNlllaTNOQlhKSjdkRGhtWjE4dDlPdXl2ai1YYndRNEp0VWtPV01rNjNHYXFrRHozc2xqS1ZydzgzZU5UN2dWc0ctQVpESVVMUERQZ0E?oc=5",
-          "publishedAt": "2026-10-09T22:43:04Z"
+          "id": "54a6b6b596308d",
+          "name": "北海道新聞デジタル",
+          "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表 - 北海道新聞デジタル",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OMDFqRzZXelV2SGtSVmVlZ3lvRFB2UzBnMHdnWjRHNWk0ZXFwWVhOVVFwZmM0X0IzRy1WbUFycU50OEVUWWE5SnQzeTRmVzEzMHcxMHlQS1NUZw?oc=5",
+          "publishedAt": "2026-10-10T07:03:27Z"
         },
         {
-          "id": "b46f3193c4c435",
-          "name": "株探",
-          "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日） - 株探",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nSGtONkJMSHJzLXNaNzg1MmpYbHFLMEttLW9DSHozSnFJQmM2ZDBBZDV5Q3JIWlA0STQ1LWVYMlFXakZPV1RMS0ljMFE1WG10cUE?oc=5",
-          "publishedAt": "2026-10-09T22:42:13Z"
+          "id": "d1890d61b79f78",
+          "name": "中日新聞Web",
+          "title": "日本人の初受賞なるか ノーベル経済学賞、１２日発表 - 中日新聞Web",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3RmQwQm9ucGZSUF9jQ0Zlc0dSbVVyeGJIaS1PZ0N2eHpPZktYVDVvdEFxVThRZXNKT3p2US1CLTZuWUdlQnZZM2x3ajgzM25WM0xXdw?oc=5",
+          "publishedAt": "2026-10-10T06:56:09Z"
         }
       ]
     },
@@ -193,18 +163,18 @@
       ]
     },
     {
-      "id": "fd1218b47e9c7c",
+      "id": "58fc20b7a83353",
       "category": "internet",
       "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-02T06:16:14Z",
+      "latestPublishedAt": "2026-10-02T07:00:00Z",
       "sources": [
         {
-          "id": "1df338af5aacf6",
+          "id": "78a92ef69b9c98",
           "name": "Yahoo!ニュース",
           "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd2hXWjBXbzNkc0NrU0s4d0FweFdJZ05FQW9ZOVZ5NVN3bnMwb0tHWXZFc1BtMXAyRzFpSEFKcll6M0lESm5oN1NIWDVnM3pUUTl5NHBZb2Y1eVdGS2ZXMDlhdkg5VkNBOHBvU1ZqY2h6elBWRHYtR1FlNFRkZDJUUjVUYWt4TkVu?oc=5",
-          "publishedAt": "2026-10-02T06:16:14Z"
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuZTRTREVhMjBFbGlBUXBpWXluMEZOZkNIV0hfYUdJaHUycno1blpuT2pMN1VZSWZ2SkRqZFFZZ2xCSlY5Z0o4RkRTU2ZKWTEtSlZGUEVrRnNCdVBZYXVrcU5NNDdJZkV3RE5uWVZxcDBrcmdSd0Q4TmR0T2VNclE?oc=5",
+          "publishedAt": "2026-10-02T07:00:00Z"
         },
         {
           "id": "407264b24329e6",
@@ -239,6 +209,61 @@
       ]
     },
     {
+      "id": "62669f597a2e4e",
+      "category": "economy",
+      "title": "EVシフトが進み、中国EVにシェアを奪われるトヨタ。自動車産業が凋落すれば日本経済も凋落する！（山田順） - エキスパート - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-10T16:11:46Z",
+      "sources": [
+        {
+          "id": "f86bb5ac23579e",
+          "name": "Yahoo!ニュース",
+          "title": "EVシフトが進み、中国EVにシェアを奪われるトヨタ。自動車産業が凋落すれば日本経済も凋落する！（山田順） - エキスパート - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVkZvWnNfOXljRGlCVUR5TjFEMXhpdm4tYnZyeVZiWmw5VVFtNjBsUThzN0dIQXZySzF4U1NwamZzOUFGNGFGeGlodXVpVU9JWlJXLXVqdHJ4XzZ5VXIzU0NvdDFFM0NzYUpqVmp4S21lek5RQTNGVjdSRlBIWUZfQUttTDg0R3E0?oc=5",
+          "publishedAt": "2026-10-10T16:11:46Z"
+        }
+      ]
+    },
+    {
+      "id": "85cd8be221ce48",
+      "category": "economy",
+      "title": "アメリカ ドル / 日本 円【USDJPY=X】：為替レート・相場 - Yahoo!ファイナンス",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-10T15:42:58Z",
+      "sources": [
+        {
+          "id": "45b3dcd6b08232",
+          "name": "Yahoo!ファイナンス",
+          "title": "アメリカ ドル / 日本 円【USDJPY=X】：為替レート・相場 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQa1U5NTk2aS1xRjBZb0dxSzJocWtGel9GdVBUTEx4TVhJY0R1cHB1aGlFZnltb1dpQ3lYVmd2M09TUnMxXzV2cE1GR1kxbGhHWXNGUQ?oc=5",
+          "publishedAt": "2026-10-10T15:42:58Z"
+        },
+        {
+          "id": "bf0f9ba3e43fc5",
+          "name": "Yahoo!ファイナンス",
+          "title": "米ドル/円【USDJPY】：外国為替相場FXレート・チャートをリアルタイム表示 - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbWxqc1ltSU1ndEE0VElnZldUTGdyRVJpOTdKeXBsc0RDSm40dm9kLTJqaDZlOVpoR2E5eEZIX1o0bFR1SFR2N2k4WjRiTnN5dHVBTHJn?oc=5",
+          "publishedAt": "2026-10-10T14:10:49Z"
+        }
+      ]
+    },
+    {
+      "id": "70dfcabeea660f",
+      "category": "entertainment",
+      "title": "津まつり開幕、郷土芸能「しゃご馬」奉納 中心街では迫力の「安濃津よさこい」 - 中日新聞Web",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-10T12:42:31Z",
+      "sources": [
+        {
+          "id": "3abe451cfeb8d8",
+          "name": "中日新聞Web",
+          "title": "津まつり開幕、郷土芸能「しゃご馬」奉納 中心街では迫力の「安濃津よさこい」 - 中日新聞Web",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91VTZsV2dhTTl5YkEtZUZqSERYU2g2TmZYZGU5eWVUZktHMjYxRjZnaUJXOVZCSkxXT19pc3dQMVhpRWZvdmhjTWw2N1JndHFyRHpwTA?oc=5",
+          "publishedAt": "2026-10-10T12:42:31Z"
+        }
+      ]
+    },
+    {
       "id": "be523895b4cbc3",
       "category": "internet",
       "title": "【成城石井】「驚きの美味しさ！」SNSでも話題の絶品サラダ（舞） - エキスパート - Yahoo!ニュース",
@@ -258,22 +283,6 @@
           "title": "SNSでも超話題！【業務スーパー】「セールで今だけ安い」やみつき系人気商品とは（舞） - エキスパート - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSG5tTmlCT3ozTm9JT2k2c1pPS200aUJPdzFoc3dlb3ZxNkV2OGI3b0pCNUg2NVhiemRYbzFZV01DZEkzcHdXRUxKVW9QYUZpUUxMUzBSbjVvMGxFUGduYlhfZTlOZEQyZGNSMFh3TFdyYUN5Z1praVpqSE5DSVNFaXNZQUljd2dO?oc=5",
           "publishedAt": "2026-10-06T09:55:14Z"
-        }
-      ]
-    },
-    {
-      "id": "09042efeccae8c",
-      "category": "internet",
-      "title": "ピアニスト角野隼斗が謝罪、投稿削除「配慮に欠ける内容…深く反省」SNSで「144」話題（日刊スポーツ） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-10T01:26:50Z",
-      "sources": [
-        {
-          "id": "9d3138357fc80b",
-          "name": "Yahoo!ニュース",
-          "title": "ピアニスト角野隼斗が謝罪、投稿削除「配慮に欠ける内容…深く反省」SNSで「144」話題（日刊スポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zUU9tTWRaWE92WndLMWVpVGJia2w0bjFMdHVIQzRRQk5RTk9JVzZpdjB1WkVpdWNKUURpYnRfcExnZU1VcE1JTFZ0RjdJZWdLNExzZTh4TlNWempoVUtJNFgydjAzenhjeWYxRDhGWE1OY3NHY3pTeUVfdlZWREk?oc=5",
-          "publishedAt": "2026-10-10T01:26:50Z"
         }
       ]
     },
@@ -397,22 +406,6 @@
       ]
     },
     {
-      "id": "c24508a41aa187",
-      "category": "economy",
-      "title": "日本版ＤＯＧＥ、基金見直しへ関係閣僚会議 消費減税財源確保が焦点 - Reuters",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T00:34:00Z",
-      "sources": [
-        {
-          "id": "59ef4a6aa68c18",
-          "name": "Reuters",
-          "title": "日本版ＤＯＧＥ、基金見直しへ関係閣僚会議 消費減税財源確保が焦点 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT0ZWa3Y2VTM1X0lkUXNJVnZ0Tm0xeG54Y0VqbzdZQ0VvYTNIOEh6YmFzYWlOLVBDd0Z0S0ZnMl9NTUtzVDR3YktPZHFhQWRyWENiWTN1SVJ3NUxQd25rRW55cmtvUl92Y0dVSzNHcjVRd0dEODhmZkFkbl9EdUpCMXdVWXZmdw?oc=5",
-          "publishedAt": "2026-10-09T00:34:00Z"
-        }
-      ]
-    },
-    {
       "id": "4abdca0049d38a",
       "category": "economy",
       "title": "日本人が｢身内には過剰で他人に冷淡｣な根本原因 生きづらさと｢低い幸福度｣の裏に潜む知られざる呪縛 - 東洋経済オンライン",
@@ -461,22 +454,6 @@
       ]
     },
     {
-      "id": "30cf6c25c3024d",
-      "category": "entertainment",
-      "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」（西スポWEB OTTO!） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T14:10:01Z",
-      "sources": [
-        {
-          "id": "806d78fc0df1c7",
-          "name": "Yahoo!ニュース",
-          "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」（西スポWEB OTTO!） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hNTQ3b2ZrazJfMTlvNjkzaFZmb3BzajFPTWlCVFZQRlBCc05RNzhzb0paTDRhZU9nWDY3YkV0a1RRdDlMdW4yX1BKQm15LWFsaDAtaUpYMk9BOWRrVUV5ek9WRFJKS3NadFBJZFJCblNuVEx1dU1iZzZBMExmLUk?oc=5",
-          "publishedAt": "2026-10-08T14:10:01Z"
-        }
-      ]
-    },
-    {
       "id": "85dbb2624ca31b",
       "category": "politics",
       "title": "第222回臨時国会における青木一彦参院幹事長 | 政策 | ニュース - 自由民主党",
@@ -496,6 +473,22 @@
           "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
           "publishedAt": "2026-10-06T08:50:57Z"
+        }
+      ]
+    },
+    {
+      "id": "3a966d917bb1c2",
+      "category": "politics",
+      "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T00:14:27Z",
+      "sources": [
+        {
+          "id": "92ba2406c02621",
+          "name": "Yahoo!ニュース",
+          "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zTWt0VUZOcFVUREtLLWNfal9tLTdWWXRfeEhBNDNONVBRM1BJZ2NTY1B4bi1HaU1sdS1BUEphVTN1TW5TVVA3WlpSb0IyZXZFR0lvRDF1b3VwOXRYSE1FcDZlSVBwem1pV3Y3dGxhclRubkNhQ0tmOG1CM1lWTGM?oc=5",
+          "publishedAt": "2026-10-08T00:14:27Z"
         }
       ]
     }
