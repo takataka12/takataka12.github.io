@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T00:50:58Z",
+  "generatedAt": "2026-10-10T07:07:05Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
@@ -7,7 +7,7 @@
       "id": "50f6110f5717a2",
       "category": "entertainment",
       "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - 山形新聞",
-      "sourceCount": 4,
+      "sourceCount": 3,
       "latestPublishedAt": "2026-10-07T17:31:35Z",
       "sources": [
         {
@@ -25,14 +25,7 @@
           "publishedAt": "2026-10-07T15:15:00Z"
         },
         {
-          "id": "740b5f50f0bcaf",
-          "name": "オリコンニュース",
-          "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - オリコンニュース",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE40a080SS1vUWMxMlVvamFxYTgzS2xlQ3YydFVrOW5Zb2RRbkZhOFJ6Tmh5bVlCYlotR2liSGp0YWVoVEZESno0MTllRXZUQ1FXckV6Q25aWmVNSWQzTHNBZWhEay0?oc=5",
-          "publishedAt": "2026-10-07T15:15:00Z"
-        },
-        {
-          "id": "4eb8bb68564b0b",
+          "id": "12fb1e4ef4556a",
           "name": "Infoseek",
           "title": "『魔法騎士レイアース』粋な音楽演出が話題でトレンド1位 前作OP「ゆずれない願い」挿入歌で流れる - Infoseek",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0yaDlXZ2dWRzYxREF4UGdob2dkVjBnd1NVLXAxdHYwTy1KME5VMFpwVGZuVVp4UXhUbUh4bEhsc3QyY2U3eGoxVDY1N3E0YmdERjJueWM4amFURF9DdVdV?oc=5",
@@ -41,94 +34,48 @@
       ]
     },
     {
-      "id": "78a0fc58b04f0d",
-      "category": "politics",
-      "title": "波乱のスタート…簗大臣めぐり国会運営に早くも支障 高市総理「続投」判断に党内からも厳しい声 野党警戒の“国会改革”は何をもたらすか【edge23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
+      "id": "2f5db8bec34c96",
+      "category": "economy",
+      "title": "日本人の初受賞なるか ノーベル経済学賞、１２日発表 | | 全国のニュース - 佐賀新聞",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T22:38:23Z",
+      "latestPublishedAt": "2026-10-10T06:52:00Z",
       "sources": [
         {
-          "id": "3e274db2b671fd",
+          "id": "390ad6f40eca20",
+          "name": "佐賀新聞",
+          "title": "日本人の初受賞なるか ノーベル経済学賞、１２日発表 | | 全国のニュース - 佐賀新聞",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LRkRyeTVIZlBpLXV5cTZVMFBpaVE5ZHBQMndkMDV3QnFMRnRlUVZDVnM5eXVSZlZLWEZpWkRDZ0pxM2pjS3FVSzJOa1VxVHd6eTdKOW53?oc=5",
+          "publishedAt": "2026-10-10T06:52:00Z"
+        },
+        {
+          "id": "4fae5d33c78caa",
           "name": "Yahoo!ニュース",
-          "title": "波乱のスタート…簗大臣めぐり国会運営に早くも支障 高市総理「続投」判断に党内からも厳しい声 野党警戒の“国会改革”は何をもたらすか【edge23】（TBS NEWS DIG Powered by JNN） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUXd3eHI3d3V6clo2d01DSnJEV19rRnE4ajlxOVhHaTRWUGNnLS1vM292SGZtWllsekJzUFZfZF83M0tqc1F6R0VBYmlCTXJyMHNpM0pza21aOVBEVWpPU04yU0JCVzF0b3BrLVJiWFRRcmszSFBORjgzVG82d2pkeG9RbUlvUUtk?oc=5",
-          "publishedAt": "2026-10-09T22:38:23Z"
-        },
-        {
-          "id": "be6f76eb636878",
-          "name": "TBS NEWS DIG",
-          "title": "波乱のスタート…簗大臣めぐり国会運営に早くも支障 高市総理「続投」判断に党内からも厳しい声 野党警戒の“国会改革”は何をもたらすか【edge23】 - TBS NEWS DIG",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1YelkzQXFwSXRrTGhYV2FJdEhQTmROUTVEeWZkZjlmbm9rSzRTNUhFNG1rTm5PZTNJWUlneWE0anhteWw5YXN2Sk9BblJLNUVabmJFTHlLZmpONVNSell0cnp2R1A?oc=5",
-          "publishedAt": "2026-10-09T21:00:00Z"
+          "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMlA5QmdFcGQ0RkF1ZFpvMXNjSHlkemtCTm5fVHVnNWp4endPWkN3RVhBSGxmRFdLOS1oR1BaMzZvMlBFVmVrWm5tRVY3VUZyUmx5ZXJlUkZCeFB0a3VNeDl6LUZGcURpc0hSeDlnSDFmT3FCenlLaUhfMmxVWnhqeWJobTdRV3BtTE5Bb3Rn?oc=5",
+          "publishedAt": "2026-10-10T06:51:39Z"
         }
       ]
     },
     {
-      "id": "644fe43fdb8bd2",
-      "category": "politics",
-      "title": "民間の空襲被害者救済へ平沢勝栄氏「この国会で何としても解決したい」 空襲連が総会 - 東京新聞",
+      "id": "58e8a14f2aa42a",
+      "category": "economy",
+      "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日） - 株探",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T11:36:22Z",
+      "latestPublishedAt": "2026-10-10T04:30:06Z",
       "sources": [
         {
-          "id": "100a03ddde05cd",
-          "name": "東京新聞",
-          "title": "民間の空襲被害者救済へ平沢勝栄氏「この国会で何としても解決したい」 空襲連が総会 - 東京新聞",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5yT2tNdkpiOUd5SXRCWF9LR2dlSDY3bjVtSHZmZG5YNUlwVkdKV2tnMFpSR0hTZFlOVFhzd2l6WVNkTFNPeWQyTjFzNlV4c2VQNVFJ?oc=5",
-          "publishedAt": "2026-10-09T11:36:22Z"
+          "id": "94d0232d3583a8",
+          "name": "株探",
+          "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日） - 株探",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nSGtONkJMSHJzLXNaNzg1MmpYbHFLMEttLW9DSHozSnFJQmM2ZDBBZDV5Q3JIWlA0STQ1LWVYMlFXakZPV1RMS0ljMFE1WG10cUE?oc=5",
+          "publishedAt": "2026-10-10T04:30:06Z"
         },
         {
-          "id": "f5db1459dab5cb",
-          "name": "47NEWS",
-          "title": "民間の空襲被害者救済へ平沢勝栄氏「この国会で何としても解決したい」 空襲連が総会 - 47NEWS",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5QaFU0TXZCQ2xWZW1jazVjeDlrN3ZUNnVHbldfOVNxczBpQVdxUy0yWDUzM1ZqZE10LW1FaGxEblkteWpYbVczbEE2Yw?oc=5",
-          "publishedAt": "2026-10-09T11:36:00Z"
-        }
-      ]
-    },
-    {
-      "id": "bbefd768e38012",
-      "category": "entertainment",
-      "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ (関連動画) - WEBザテレビジョン",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T03:00:18Z",
-      "sources": [
-        {
-          "id": "6fd1302f289097",
-          "name": "WEBザテレビジョン",
-          "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ (関連動画) - WEBザテレビジョン",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qS25XblRCazVzU1dGOHdkV25rTGVRVlJIUXh4YU1VTlVwQlJNdTVfWFBNUzhFRFlQbDZiY0ltNGRhWWwxclgzU3lMbEZtQ1luRk4zS1h1STBYNFBVclE?oc=5",
-          "publishedAt": "2026-10-09T03:00:18Z"
-        },
-        {
-          "id": "44e4af13ce61c4",
-          "name": "ｄメニューニュース",
-          "title": "映画プレゼンター・赤ペン瀧川、10代に話題の青春映画に爆泣き「人生は希望に満ちている」予想外の展開に夢中で鑑賞＜どこよりも遠い場所にいる君へ＞ - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNLUw2eGFpTGdGTHJYc3ppcFoxS1BlQWRwSVJIN0lOQXg0V2VySmRxMmZGMEQ4NTdXSmdzcDNiWXhSWHIyQU1vVHB1a0FvSGllY0Vlalo3aEh2dndNTDVuTzhkUWJpWnVOU2NGWkVlQlZRY2liSG5iQ1U5amlXaTFhSTE5SdIBgwFBVV95cUxNLUw2eGFpTGdGTHJYc3ppcFoxS1BlQWRwSVJIN0lOQXg0V2VySmRxMmZGMEQ4NTdXSmdzcDNiWXhSWHIyQU1vVHB1a0FvSGllY0Vlalo3aEh2dndNTDVuTzhkUWJpWnVOU2NGWkVlQlZRY2liSG5iQ1U5amlXaTFhSTE5SQ?oc=5",
-          "publishedAt": "2026-10-09T03:00:00Z"
-        }
-      ]
-    },
-    {
-      "id": "0dbc776572af39",
-      "category": "entertainment",
-      "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」 - 日刊スポーツ",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T01:20:47Z",
-      "sources": [
-        {
-          "id": "970199a137eea6",
-          "name": "日刊スポーツ",
-          "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」 - 日刊スポーツ",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeldHaGtsV2h6MklkMzlwOHl3M3pSQUdLUF9SMzBjRFB0WkVTZWhCSDJCWHE2b0w0X2IwYlczaFZvdXZPX2c0YnR2V2QzNEVqRmtkbFlidDVQS0hHSXNUd0c2Tk4tcjJXN1dkeXIxZk9USFJvMDlWUWUzejVsQWp4ZDVqMGJLSmpxa3NkSXZaYzViTU9OaGc?oc=5",
-          "publishedAt": "2026-10-09T01:20:47Z"
-        },
-        {
-          "id": "2e317ef27679ab",
-          "name": "Yahoo!ニュース",
-          "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」（日刊スポーツ） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzaDNCSU1vcWVDUGRxNEl4Vks0ako5T2JMMzg3c0tHdkExWVNHWEc5VlZxbmRIRXJoTWVTYWJ4U0tpVEFQVzB3UHZZTlRycVB1ODlSZkpWcGtJTGhMbnhoN3RwWm81WW81VGtCX1AyM3pxZnJLQ2cyYzlCOHRyVmc?oc=5",
-          "publishedAt": "2026-10-08T23:23:26Z"
+          "id": "17b6c50c62bacb",
+          "name": "Yahoo!ファイナンス",
+          "title": "シカゴ日経平均先物 大取終値比 385円安 （10月9日）(株探ニュース) - Yahoo!ファイナンス",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTU4zZWpnSGFPcWpaS0d5T2E0NmNzUU9YamxQQkp4aHIxS3IwRHRSMngzZDBnaWozR0ktNlllaTNOQlhKSjdkRGhtWjE4dDlPdXl2ai1YYndRNEp0VWtPV01rNjNHYXFrRHozc2xqS1ZydzgzZU5UN2dWc0ctQVpESVVMUERQZ0E?oc=5",
+          "publishedAt": "2026-10-09T22:43:04Z"
         }
       ]
     },
@@ -179,6 +126,29 @@
       ]
     },
     {
+      "id": "099c8e342c497b",
+      "category": "economy",
+      "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
+      "sourceCount": 2,
+      "latestPublishedAt": "2026-10-05T21:17:55Z",
+      "sources": [
+        {
+          "id": "3a3bf625de2509",
+          "name": "Reuters",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTlaLUFQU2trRVI2cjFxaTBZX1FZb3NoWTRwbkliSEM2RGpVcWRFekFaRVRaNWhTY3hTNE94XzdFMkRpUnFPODNfVzJLUm44dmpmS2ZLeE9Md29wSFVHYy0tdmo0aGphQi1aQkowZVBUOEQxUmY4cmltOV9TcFpsaUlmazJIUQ?oc=5",
+          "publishedAt": "2026-10-05T21:17:55Z"
+        },
+        {
+          "id": "28eaabe8954fea",
+          "name": "ニューズウィーク日本版",
+          "title": "米国株式市場＝ナスダック最高値、エヌビディアがけん引 企業決算に注目 - ニューズウィーク日本版",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ZbTg4cjJLUnpqaGZCUTNGRDRoeWFIc1NJMHh0bUNXMFNiMVg4dDF6VG1NZXhOM1g1M3pNRmRlbVJKUlQ4b2ctek5MUUwwLVVORFo4ODBHZlhWdGhEQVhPTXZleDJBUDQ?oc=5",
+          "publishedAt": "2026-10-05T20:17:00Z"
+        }
+      ]
+    },
+    {
       "id": "58fc20b7a83353",
       "category": "internet",
       "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
@@ -221,6 +191,22 @@
           "title": "モナキが変わりすぎて話題、特におヨネ (音楽ナタリー) - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbXVfb21QVGo2VlZFVERNQXhfZkhUMVlmLTFfSjltak52Q2xjR2pCcUw1OFRRUS1qTGlYNzRsclNic2JuRXlEWTAxSDhZc3dNYldwQXZvZ2o2STR3Yk5acERpekdsYW5BQ05tdl8tdktFY0d5dm5mNHAxa3BYeE5XczN0c09MSkJSTnBDSDNR?oc=5",
           "publishedAt": "2026-09-26T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "09042efeccae8c",
+      "category": "internet",
+      "title": "ピアニスト角野隼斗が謝罪、投稿削除「配慮に欠ける内容…深く反省」SNSで「144」話題（日刊スポーツ） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-10T01:26:50Z",
+      "sources": [
+        {
+          "id": "9d3138357fc80b",
+          "name": "Yahoo!ニュース",
+          "title": "ピアニスト角野隼斗が謝罪、投稿削除「配慮に欠ける内容…深く反省」SNSで「144」話題（日刊スポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zUU9tTWRaWE92WndLMWVpVGJia2w0bjFMdHVIQzRRQk5RTk9JVzZpdjB1WkVpdWNKUURpYnRfcExnZU1VcE1JTFZ0RjdJZWdLNExzZTh4TlNWempoVUtJNFgydjAzenhjeWYxRDhGWE1OY3NHY3pTeUVfdlZWREk?oc=5",
+          "publishedAt": "2026-10-10T01:26:50Z"
         }
       ]
     },
@@ -296,18 +282,18 @@
       ]
     },
     {
-      "id": "14f3d0898a49da",
+      "id": "ac2df266ca5198",
       "category": "politics",
-      "title": "高市総理「日本の立場と相容れず、深く懸念」 米がICC本体に制裁 - KFB福島放送",
+      "title": "首相の「名誉ある制裁」メールは「政治家のウィット」 古屋氏が弁明 [高市早苗首相 自民党総裁] - 朝日新聞",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T14:59:00Z",
+      "latestPublishedAt": "2026-10-09T12:20:06Z",
       "sources": [
         {
-          "id": "16264d77036478",
-          "name": "KFB福島放送",
-          "title": "高市総理「日本の立場と相容れず、深く懸念」 米がICC本体に制裁 - KFB福島放送",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE05VHFXZVQxVnR3a3BoSm40VXVVS2gzWDV6WFpGazBIWXRpMHVCeUU1NS1JbmE5SWlObkotZXV0WXMtbXNza0RKUjRhaGJwdzB3ZEVwamp3?oc=5",
-          "publishedAt": "2026-10-09T14:59:00Z"
+          "id": "febd9fb1b76310",
+          "name": "朝日新聞",
+          "title": "首相の「名誉ある制裁」メールは「政治家のウィット」 古屋氏が弁明 [高市早苗首相 自民党総裁] - 朝日新聞",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Wc2JucDZYMXVEZk80bFV1bUVJZHNZRVFqZmpTQVh1REllNVBwdmdWQzQzMU5XRG1xNDh2eWpsV3hxSnB0MXo2NDFNdkVocVBwbmxodi1ERGU4dW01Vl92WkRsS0Q2RkE?oc=5",
+          "publishedAt": "2026-10-09T12:20:06Z"
         }
       ]
     },
@@ -351,18 +337,18 @@
       ]
     },
     {
-      "id": "0642343cea9f6e",
-      "category": "economy",
-      "title": "「消費税を一律に減税するから賃金を上げて」神谷宗幣氏が高市総理に要望 日本経済の相対的な衰退を指摘（ABEMA TIMES） - Yahoo!ニュース",
+      "id": "938fb000d5c626",
+      "category": "entertainment",
+      "title": "37歳俳優「また紅白の司会になれませんでした」投稿に「別班やテントに所属すれば？」Xの声 - 日刊スポーツ",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T09:00:40Z",
+      "latestPublishedAt": "2026-10-09T07:07:15Z",
       "sources": [
         {
-          "id": "4547d3ebe97ce8",
-          "name": "Yahoo!ニュース",
-          "title": "「消費税を一律に減税するから賃金を上げて」神谷宗幣氏が高市総理に要望 日本経済の相対的な衰退を指摘（ABEMA TIMES） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BRVhFdFR0MVlFODFpMmpySHJJbVNObVlFc2VjMUtPZXU4Rksya21PcnVJazRTSFNQTFQxNTFaSmp1NEZTcy1MLVZ5NDBsa3lBalhYODRVY2hsbk4tOWRCamdMejlpN0wxYmlNdWpXNkpfNi1hS0ZhYWR0S3dQV2c?oc=5",
-          "publishedAt": "2026-10-09T09:00:40Z"
+          "id": "e31c4037cde227",
+          "name": "日刊スポーツ",
+          "title": "37歳俳優「また紅白の司会になれませんでした」投稿に「別班やテントに所属すれば？」Xの声 - 日刊スポーツ",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0eXcwNjE2M0JMQ3ZIVW9xdjR6czRlek5FQ3BvNjFXRjdhV0tTR3FDNmVOOFJ1TXFwZkx0bHNoM0dPOFZaejJXdEdDVTBteHVOWk53OUd4TGdFYkNPUnFaakd5cXNWNzlXdjkyQmJGQTRnUFVuVG1J0gF_QVVfeXFMTU10YVVjVXFvUDc0VUJHejVqWVVGS2RnTzJ0TjRmQnlXcVllMTNqUlVxS3VuTmJFTWJUanF1VnMyVTdESldaeW4tNkpFS2RoRUdpX2VwMnQtTmdsWWJUa0Y1OWotSGNOSW9DbEtacEZiYlVqcTlBMXRiRVV4WUl1dw?oc=5",
+          "publishedAt": "2026-10-09T07:07:15Z"
         }
       ]
     },
@@ -383,18 +369,34 @@
       ]
     },
     {
-      "id": "c680cb6db6cac1",
-      "category": "internet",
-      "title": "チャン・グンソク、過去の懐かしショットを大公開！ウィットに富んだSNS投稿が話題に - Kstyle",
+      "id": "682a8a61ce5f39",
+      "category": "entertainment",
+      "title": "大泉洋 芸能界は「アルバイトのつもり」だった 駆け出し当初は氷河期「焦って就職しなくてもいい」 - スポニチ Sponichi Annex",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-09T04:56:42Z",
+      "latestPublishedAt": "2026-10-09T06:47:00Z",
       "sources": [
         {
-          "id": "bac8f3aea1352f",
-          "name": "Kstyle",
-          "title": "チャン・グンソク、過去の懐かしショットを大公開！ウィットに富んだSNS投稿が話題に - Kstyle",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40dXQwTDJUZ19RUk5IRXRBSDhkdTJHX21RdXEtYkVHRk9UWlQ3QmlxaW4tV1FfR2o0TkV5ZGFjaW5Ub3hJcS0yWUJNZE90eDg5eVFveS1WX3lIS1dp?oc=5",
-          "publishedAt": "2026-10-09T04:56:42Z"
+          "id": "53e5072834282c",
+          "name": "スポニチ Sponichi Annex",
+          "title": "大泉洋 芸能界は「アルバイトのつもり」だった 駆け出し当初は氷河期「焦って就職しなくてもいい」 - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVFlDZW9QVExYQUZSMFhWWFJ2Z2VhQUlPbHlnNEdRM1RwOEx5MnFfc2x0RGNWbTFIMEpGVW16dzA3ODVFOTFkT0NwVk84R0owYVcxRE00NXhjZXZPYmxZY3Jwb2QxX0YtMXhPWHRLWjJLY3ZFMlpxcWFnekdSLWIweDJUSWVOTUtpWkdNSUs2WnAwQnllVnc?oc=5",
+          "publishedAt": "2026-10-09T06:47:00Z"
+        }
+      ]
+    },
+    {
+      "id": "f260ba3c36452e",
+      "category": "politics",
+      "title": "日本総領事館が注意喚起 ロシア・ペスト対策研究所で職員死亡 - KFB福島放送",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T04:14:00Z",
+      "sources": [
+        {
+          "id": "9f73022ab704ab",
+          "name": "KFB福島放送",
+          "title": "日本総領事館が注意喚起 ロシア・ペスト対策研究所で職員死亡 - KFB福島放送",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sa2Zwc2Z2TkowRUc4X0JJMEw0SkVRcXZMLVZaeEU1c1hWek95SlVnRTJDZ3hENEVwNG5Va1gwa1RFeTAyLUJJYWNzcVpIeGpsMk5IOHV3?oc=5",
+          "publishedAt": "2026-10-09T04:14:00Z"
         }
       ]
     },
@@ -452,18 +454,18 @@
       ]
     },
     {
-      "id": "4abdca0049d38a",
-      "category": "economy",
-      "title": "日本人が｢身内には過剰で他人に冷淡｣な根本原因 生きづらさと｢低い幸福度｣の裏に潜む知られざる呪縛 - 東洋経済オンライン",
+      "id": "b92724496b5afc",
+      "category": "entertainment",
+      "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」（日刊スポーツ） - Yahoo!ニュース",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T23:45:00Z",
+      "latestPublishedAt": "2026-10-08T23:23:26Z",
       "sources": [
         {
-          "id": "976cd7fb27a740",
-          "name": "東洋経済オンライン",
-          "title": "日本人が｢身内には過剰で他人に冷淡｣な根本原因 生きづらさと｢低い幸福度｣の裏に潜む知られざる呪縛 - 東洋経済オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0dmgyN2FOZXpYVDJYY1N2cF9nMWFLWUxHOEJCOEVEVUo2WnRKalFMNGhPUURobDY1VU5DNHpkemNqZVd3VkJqYTZLZGFBUVhTejlTS0JOM19XRGNFZWxN?oc=5",
-          "publishedAt": "2026-10-08T23:45:00Z"
+          "id": "80fc5f601c22c0",
+          "name": "Yahoo!ニュース",
+          "title": "大沢あかね「マジで芸能界から嫌われてる」芸人を実名告白「女性タレントの中では1位」（日刊スポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzaDNCSU1vcWVDUGRxNEl4Vks0ako5T2JMMzg3c0tHdkExWVNHWEc5VlZxbmRIRXJoTWVTYWJ4U0tpVEFQVzB3UHZZTlRycVB1ODlSZkpWcGtJTGhMbnhoN3RwWm81WW81VGtCX1AyM3pxZnJLQ2cyYzlCOHRyVmc?oc=5",
+          "publishedAt": "2026-10-08T23:23:26Z"
         }
       ]
     },
@@ -482,27 +484,18 @@
           "publishedAt": "2026-10-08T06:57:51Z"
         },
         {
-          "id": "fdb0abcdd2b6bc",
+          "id": "acf517578465c4",
+          "name": "自由民主党",
+          "title": "第222回臨時国会における井上信治衆議院議員代表質問 | 政策 | ニュース - 自由民主党",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5NOE5lNkUyazdCd3ZmWDFiVEE5SDBTMnBNZDhCaTUwXy1GaG1ibGg5Qm5zMnNGV1RsS0dIalJpTFFlU0hRUEhlaUpDUnJlWkZkNHlYQ09Wdw?oc=5",
+          "publishedAt": "2026-10-07T08:47:51Z"
+        },
+        {
+          "id": "cc3dadd4cf4500",
           "name": "自由民主党",
           "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
           "publishedAt": "2026-10-06T08:50:57Z"
-        }
-      ]
-    },
-    {
-      "id": "998355889ac56f",
-      "category": "entertainment",
-      "title": "令和8年度 小田原民俗芸能保存協会 後継者育成発表会 - ｄメニューニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T01:00:00Z",
-      "sources": [
-        {
-          "id": "e013ef81fdcd32",
-          "name": "ｄメニューニュース",
-          "title": "令和8年度 小田原民俗芸能保存協会 後継者育成発表会 - ｄメニューニュース",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdjNfem9RX2RNd292bkM2WlBydnpmYjl3dzJvZUd6QmkycDBtZ2VQeHpOVEM3aVgzZF9PS0g3aDh0VnRqQlI1UzdyeUdaMWFMOG5KWGt6dWFrLUxOdVVxUFdIbzUxWE9ldTVUT3J0RHdVQmp6ZWwxNVZhelpaLWFMTdIBhgFBVV95cUxOc1JQRkVLd0tNLXhfekdzMHRsTzlOd1cwQWJwNE1tTWx4d01heGJlcWR6cVlCckpraEJ4dkdyR0hrUlc5SXlySzQ5RGQyaF9RVUVNeHBYeXdXRnpuNGdxNWU4dmtlZWY1alh1Si1Feks1OE52bUw0UU5wdzI0SkZmVUdaMlV6dw?oc=5",
-          "publishedAt": "2026-10-08T01:00:00Z"
         }
       ]
     }
