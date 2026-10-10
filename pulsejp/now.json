@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-10T18:35:39Z",
+  "generatedAt": "2026-10-10T22:31:44Z",
   "label": "NOW",
   "note": "複数媒体の見出し掲載状況と更新時刻をもとに並べています。内容の評価や政治的な順位付けではありません。",
   "items": [
@@ -34,64 +34,18 @@
       ]
     },
     {
-      "id": "abfc9431d340e7",
-      "category": "entertainment",
-      "title": "松下洸平 芸能界デビューの特殊すぎるコンセプトに挫折「どの手順を踏めば…分からなさすぎて」（スポニチアネックス） - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-10T09:18:36Z",
-      "sources": [
-        {
-          "id": "0221457204656e",
-          "name": "Yahoo!ニュース",
-          "title": "松下洸平 芸能界デビューの特殊すぎるコンセプトに挫折「どの手順を踏めば…分からなさすぎて」（スポニチアネックス） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03Sll2YnVPNVNpekVSVFhVQXl1MXVMVnpldDRRZGVHdGNIQ3BEX3JTdXlBeUxWQ09QYkFLakx5dndXRnBVcnRVOXhaZkJrdUFraDI2cXRJbWRDNTJVYkFfdzZXcU1CRnNnbHRTbUdNYjAtSXR4TFl1SlAxTWRaQzQ?oc=5",
-          "publishedAt": "2026-10-10T09:18:36Z"
-        },
-        {
-          "id": "f26df925145979",
-          "name": "スポニチ Sponichi Annex",
-          "title": "松下洸平 芸能界デビューの特殊すぎるコンセプトに挫折「どの手順を踏めば…分からなさすぎて」 - スポニチ Sponichi Annex",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeTVtakw0SGtYNEZaVXNkbFVpN0lLSVFUakJ5VkhickFTU3Atczh1WVhOWHRjWG8tb2ZMZUFPN0dLcGFVVXgzOExfcnMtRG1vaThjTDkzVWRrMzQycXV1bWE3TDRzeElFN2xqWUF3cDBxYlhoU1hWRkVVS3NIRUt6MHJva1dqQUlobVRiVTk2V2h4UXRCQkE?oc=5",
-          "publishedAt": "2026-10-10T09:16:00Z"
-        }
-      ]
-    },
-    {
-      "id": "5cb9a6568ab9d2",
-      "category": "economy",
-      "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表 - 北海道新聞デジタル",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-10T07:03:27Z",
-      "sources": [
-        {
-          "id": "54a6b6b596308d",
-          "name": "北海道新聞デジタル",
-          "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表 - 北海道新聞デジタル",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1OMDFqRzZXelV2SGtSVmVlZ3lvRFB2UzBnMHdnWjRHNWk0ZXFwWVhOVVFwZmM0X0IzRy1WbUFycU50OEVUWWE5SnQzeTRmVzEzMHcxMHlQS1NUZw?oc=5",
-          "publishedAt": "2026-10-10T07:03:27Z"
-        },
-        {
-          "id": "d1890d61b79f78",
-          "name": "中日新聞Web",
-          "title": "日本人の初受賞なるか ノーベル経済学賞、１２日発表 - 中日新聞Web",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB3RmQwQm9ucGZSUF9jQ0Zlc0dSbVVyeGJIaS1PZ0N2eHpPZktYVDVvdEFxVThRZXNKT3p2US1CLTZuWUdlQnZZM2x3ajgzM25WM0xXdw?oc=5",
-          "publishedAt": "2026-10-10T06:56:09Z"
-        }
-      ]
-    },
-    {
       "id": "819f1813c3cfcc",
       "category": "internet",
       "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
       "sourceCount": 2,
-      "latestPublishedAt": "2026-10-09T01:42:42Z",
+      "latestPublishedAt": "2026-10-10T09:05:00Z",
       "sources": [
         {
           "id": "61d6d58b2d7eb3",
           "name": "TBS NEWS DIG",
           "title": "「ドパガキ」ネットで話題の子供のSNS依存 専門家「家庭の責任では守れない」国の規制求める声 - TBS NEWS DIG",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB1aUIyYkx2X0ZVRkZWYTVBNUI1c2JhTk9qdFlJOFZXZ2Q4aGZaQld5V29NSVFteEJoaFFRdllCd2laaDUyVWF1SG5iRE9GMXl4SFExa1lpcTlsLVpsYTFF?oc=5",
-          "publishedAt": "2026-10-09T01:42:42Z"
+          "publishedAt": "2026-10-10T09:05:00Z"
         },
         {
           "id": "8767389bd178c0",
@@ -163,29 +117,6 @@
       ]
     },
     {
-      "id": "58fc20b7a83353",
-      "category": "internet",
-      "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
-      "sourceCount": 2,
-      "latestPublishedAt": "2026-10-02T07:00:00Z",
-      "sources": [
-        {
-          "id": "78a92ef69b9c98",
-          "name": "Yahoo!ニュース",
-          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など（Web担当者Forum） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuZTRTREVhMjBFbGlBUXBpWXluMEZOZkNIV0hfYUdJaHUycno1blpuT2pMN1VZSWZ2SkRqZFFZZ2xCSlY5Z0o4RkRTU2ZKWTEtSlZGUEVrRnNCdVBZYXVrcU5NNDdJZkV3RE5uWVZxcDBrcmdSd0Q4TmR0T2VNclE?oc=5",
-          "publishedAt": "2026-10-02T07:00:00Z"
-        },
-        {
-          "id": "407264b24329e6",
-          "name": "Web担当者Forum",
-          "title": "【最新ネット話題】Officeの消失、こめお食中毒、ちいかわコラボ景品横領など - Web担当者Forum",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12ZUhOdk0yZ3BZWHZTRmFYT2JDeEFNRUNLNE1DQUpxaU8zLUFDVWJiWndlQzB1a0FNRFVLbS0xNkdHaXpkUGpMVGstTmZNRy12czJ1VElxWUppUVk?oc=5",
-          "publishedAt": "2026-10-01T22:05:00Z"
-        }
-      ]
-    },
-    {
       "id": "162244c9172dd0",
       "category": "entertainment",
       "title": "モナキが変わりすぎて話題、特におヨネ - ナタリー",
@@ -209,41 +140,18 @@
       ]
     },
     {
-      "id": "62669f597a2e4e",
+      "id": "fe5236dae6e78a",
       "category": "economy",
-      "title": "EVシフトが進み、中国EVにシェアを奪われるトヨタ。自動車産業が凋落すれば日本経済も凋落する！（山田順） - エキスパート - Yahoo!ニュース",
+      "title": "海外メディアの警鐘「反移民フェイクニュース」が日本経済に大打撃を与える - クーリエ・ジャポン",
       "sourceCount": 1,
-      "latestPublishedAt": "2026-10-10T16:11:46Z",
+      "latestPublishedAt": "2026-10-10T21:40:55Z",
       "sources": [
         {
-          "id": "f86bb5ac23579e",
-          "name": "Yahoo!ニュース",
-          "title": "EVシフトが進み、中国EVにシェアを奪われるトヨタ。自動車産業が凋落すれば日本経済も凋落する！（山田順） - エキスパート - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVkZvWnNfOXljRGlCVUR5TjFEMXhpdm4tYnZyeVZiWmw5VVFtNjBsUThzN0dIQXZySzF4U1NwamZzOUFGNGFGeGlodXVpVU9JWlJXLXVqdHJ4XzZ5VXIzU0NvdDFFM0NzYUpqVmp4S21lek5RQTNGVjdSRlBIWUZfQUttTDg0R3E0?oc=5",
-          "publishedAt": "2026-10-10T16:11:46Z"
-        }
-      ]
-    },
-    {
-      "id": "85cd8be221ce48",
-      "category": "economy",
-      "title": "アメリカ ドル / 日本 円【USDJPY=X】：為替レート・相場 - Yahoo!ファイナンス",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-10T15:42:58Z",
-      "sources": [
-        {
-          "id": "45b3dcd6b08232",
-          "name": "Yahoo!ファイナンス",
-          "title": "アメリカ ドル / 日本 円【USDJPY=X】：為替レート・相場 - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQa1U5NTk2aS1xRjBZb0dxSzJocWtGel9GdVBUTEx4TVhJY0R1cHB1aGlFZnltb1dpQ3lYVmd2M09TUnMxXzV2cE1GR1kxbGhHWXNGUQ?oc=5",
-          "publishedAt": "2026-10-10T15:42:58Z"
-        },
-        {
-          "id": "bf0f9ba3e43fc5",
-          "name": "Yahoo!ファイナンス",
-          "title": "米ドル/円【USDJPY】：外国為替相場FXレート・チャートをリアルタイム表示 - Yahoo!ファイナンス",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbWxqc1ltSU1ndEE0VElnZldUTGdyRVJpOTdKeXBsc0RDSm40dm9kLTJqaDZlOVpoR2E5eEZIX1o0bFR1SFR2N2k4WjRiTnN5dHVBTHJn?oc=5",
-          "publishedAt": "2026-10-10T14:10:49Z"
+          "id": "a9c240f342cf64",
+          "name": "クーリエ・ジャポン",
+          "title": "海外メディアの警鐘「反移民フェイクニュース」が日本経済に大打撃を与える - クーリエ・ジャポン",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE43bTJpWTNUT2NPNURYRFlXa3lfZDZpenZOeFRCZ09wNFdJNFJxdlBVLWVXeUtsRXBORTctdFZhcXEza3BRU1Nackg0eUdBU3k3TTJv?oc=5",
+          "publishedAt": "2026-10-10T21:40:55Z"
         }
       ]
     },
@@ -283,6 +191,77 @@
           "title": "SNSでも超話題！【業務スーパー】「セールで今だけ安い」やみつき系人気商品とは（舞） - エキスパート - Yahoo!ニュース",
           "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSG5tTmlCT3ozTm9JT2k2c1pPS200aUJPdzFoc3dlb3ZxNkV2OGI3b0pCNUg2NVhiemRYbzFZV01DZEkzcHdXRUxKVW9QYUZpUUxMUzBSbjVvMGxFUGduYlhfZTlOZEQyZGNSMFh3TFdyYUN5Z1praVpqSE5DSVNFaXNZQUljd2dO?oc=5",
           "publishedAt": "2026-10-06T09:55:14Z"
+        }
+      ]
+    },
+    {
+      "id": "239736d329cf10",
+      "category": "entertainment",
+      "title": "松下洸平 芸能界デビューの特殊すぎるコンセプトに挫折「どの手順を踏めば…分からなさすぎて」 - スポニチ Sponichi Annex",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-10T09:16:00Z",
+      "sources": [
+        {
+          "id": "148ce92b103e5a",
+          "name": "スポニチ Sponichi Annex",
+          "title": "松下洸平 芸能界デビューの特殊すぎるコンセプトに挫折「どの手順を踏めば…分からなさすぎて」 - スポニチ Sponichi Annex",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPeTVtakw0SGtYNEZaVXNkbFVpN0lLSVFUakJ5VkhickFTU3Atczh1WVhOWHRjWG8tb2ZMZUFPN0dLcGFVVXgzOExfcnMtRG1vaThjTDkzVWRrMzQycXV1bWE3TDRzeElFN2xqWUF3cDBxYlhoU1hWRkVVS3NIRUt6MHJva1dqQUlobVRiVTk2V2h4UXRCQkE?oc=5",
+          "publishedAt": "2026-10-10T09:16:00Z"
+        }
+      ]
+    },
+    {
+      "id": "e97e98fdbbffba",
+      "category": "economy",
+      "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表（共同通信） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-10T06:51:39Z",
+      "sources": [
+        {
+          "id": "7fc9464e208ba6",
+          "name": "Yahoo!ニュース",
+          "title": "日本人の初受賞なるか ノーベル経済学賞、12日発表（共同通信） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1VUDQzcDV5SF9hMFI2SUZNQWZGWS1UQUVBV0l0Qjc5U3JCLWlFRWV1STVUYU5xX2RSN21DUkNNcnRwQ2h0U0UtOENSdVdsa1d1VXFScXpaU1RndnlFeC1NaVNaZ0t1OVl0eUlnWTB2TDFhdU9BS3NkdlIzVkRFVnM?oc=5",
+          "publishedAt": "2026-10-10T06:51:39Z"
+        }
+      ]
+    },
+    {
+      "id": "09042efeccae8c",
+      "category": "internet",
+      "title": "ピアニスト角野隼斗が謝罪、投稿削除「配慮に欠ける内容…深く反省」SNSで「144」話題（日刊スポーツ） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-10T01:26:50Z",
+      "sources": [
+        {
+          "id": "9d3138357fc80b",
+          "name": "Yahoo!ニュース",
+          "title": "ピアニスト角野隼斗が謝罪、投稿削除「配慮に欠ける内容…深く反省」SNSで「144」話題（日刊スポーツ） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zUU9tTWRaWE92WndLMWVpVGJia2w0bjFMdHVIQzRRQk5RTk9JVzZpdjB1WkVpdWNKUURpYnRfcExnZU1VcE1JTFZ0RjdJZWdLNExzZTh4TlNWempoVUtJNFgydjAzenhjeWYxRDhGWE1OY3NHY3pTeUVfdlZWREk?oc=5",
+          "publishedAt": "2026-10-10T01:26:50Z"
+        }
+      ]
+    },
+    {
+      "id": "8377cb313c70d8",
+      "category": "economy",
+      "title": "来週の欧州主要企業決算 なし - みんかぶ FX/為替",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T22:36:29Z",
+      "sources": [
+        {
+          "id": "0a0022e45b3e5f",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の欧州主要企業決算 なし - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBscm1FRng5eGd0Y3lQZjBsWUlyOWJwV0VRVXFJa3hSYVJNTUN0STZrZE9yeEdTM2tMdEMtZTQxTnJfcmFOWFBYSw?oc=5",
+          "publishedAt": "2026-10-09T22:36:29Z"
+        },
+        {
+          "id": "9ee1e79eeb919e",
+          "name": "みんかぶ FX/為替",
+          "title": "来週の米主要企業決算 大手銀皮切りに７－９月期決算が本格スタート - みんかぶ FX/為替",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1SRERxQUJKZGYxLTJtdF9Yd1FTVFBoeklqUnh6VWRrQU5ONlBlbjF6NGItWHhCREZnOUQ5YWdSQVZ4dTg2dEpQTw?oc=5",
+          "publishedAt": "2026-10-09T22:30:29Z"
         }
       ]
     },
@@ -390,6 +369,22 @@
       ]
     },
     {
+      "id": "02b575b822475d",
+      "category": "economy",
+      "title": "【物価比較】日本より物価が安い「アジアの国」TOP15！最も物価が安い国は「インド」…日本のランキングに反響続々 - LIMO | くらしとお金の経済メディア",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-09T09:04:00Z",
+      "sources": [
+        {
+          "id": "4b5d1fb94f1b41",
+          "name": "LIMO | くらしとお金の経済メディア",
+          "title": "【物価比較】日本より物価が安い「アジアの国」TOP15！最も物価が安い国は「インド」…日本のランキングに反響続々 - LIMO | くらしとお金の経済メディア",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBuYjdObUlDMDJpRzhiWk9YNVlTM2VnX1o3ZzNDWkdZR25pek93TmpMZDlSX2xaa1BUTVQ2Q0paVmtzOUpWT0JUb09OVWc?oc=5",
+          "publishedAt": "2026-10-09T09:04:00Z"
+        }
+      ]
+    },
+    {
       "id": "f260ba3c36452e",
       "category": "politics",
       "title": "日本総領事館が注意喚起 ロシア・ペスト対策研究所で職員死亡 - KFB福島放送",
@@ -402,22 +397,6 @@
           "title": "日本総領事館が注意喚起 ロシア・ペスト対策研究所で職員死亡 - KFB福島放送",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1sa2Zwc2Z2TkowRUc4X0JJMEw0SkVRcXZMLVZaeEU1c1hWek95SlVnRTJDZ3hENEVwNG5Va1gwa1RFeTAyLUJJYWNzcVpIeGpsMk5IOHV3?oc=5",
           "publishedAt": "2026-10-09T04:14:00Z"
-        }
-      ]
-    },
-    {
-      "id": "4abdca0049d38a",
-      "category": "economy",
-      "title": "日本人が｢身内には過剰で他人に冷淡｣な根本原因 生きづらさと｢低い幸福度｣の裏に潜む知られざる呪縛 - 東洋経済オンライン",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T23:45:00Z",
-      "sources": [
-        {
-          "id": "976cd7fb27a740",
-          "name": "東洋経済オンライン",
-          "title": "日本人が｢身内には過剰で他人に冷淡｣な根本原因 生きづらさと｢低い幸福度｣の裏に潜む知られざる呪縛 - 東洋経済オンライン",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA0dmgyN2FOZXpYVDJYY1N2cF9nMWFLWUxHOEJCOEVEVUo2WnRKalFMNGhPUURobDY1VU5DNHpkemNqZVd3VkJqYTZLZGFBUVhTejlTS0JOM19XRGNFZWxN?oc=5",
-          "publishedAt": "2026-10-08T23:45:00Z"
         }
       ]
     },
@@ -454,6 +433,22 @@
       ]
     },
     {
+      "id": "30cf6c25c3024d",
+      "category": "entertainment",
+      "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」（西スポWEB OTTO!） - Yahoo!ニュース",
+      "sourceCount": 1,
+      "latestPublishedAt": "2026-10-08T14:10:01Z",
+      "sources": [
+        {
+          "id": "806d78fc0df1c7",
+          "name": "Yahoo!ニュース",
+          "title": "「高田みづえさんだ‼」「歌声聞けて嬉しい」芸能界引退から41年〝TV登場＆歌唱姿〟に再脚光「やっぱりお上手」「当時を思い出してウルウル」「懐かしい」（西スポWEB OTTO!） - Yahoo!ニュース",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9hNTQ3b2ZrazJfMTlvNjkzaFZmb3BzajFPTWlCVFZQRlBCc05RNzhzb0paTDRhZU9nWDY3YkV0a1RRdDlMdW4yX1BKQm15LWFsaDAtaUpYMk9BOWRrVUV5ek9WRFJKS3NadFBJZFJCblNuVEx1dU1iZzZBMExmLUk?oc=5",
+          "publishedAt": "2026-10-08T14:10:01Z"
+        }
+      ]
+    },
+    {
       "id": "85dbb2624ca31b",
       "category": "politics",
       "title": "第222回臨時国会における青木一彦参院幹事長 | 政策 | ニュース - 自由民主党",
@@ -473,22 +468,6 @@
           "title": "第222回国会における高市内閣総理大臣所信表明演説 | 政策 | ニュース - 自由民主党",
           "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5CTmZhbE05UkhSQkhnUzVQR3lyOTFYbkNydkg2aEwwdjR2d2ZucmlYQndwakJYRGFiV2dXd09KckV1THpFbUI2by1hTHlvT0lObmJzY3BNaw?oc=5",
           "publishedAt": "2026-10-06T08:50:57Z"
-        }
-      ]
-    },
-    {
-      "id": "3a966d917bb1c2",
-      "category": "politics",
-      "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
-      "sourceCount": 1,
-      "latestPublishedAt": "2026-10-08T00:14:27Z",
-      "sources": [
-        {
-          "id": "92ba2406c02621",
-          "name": "Yahoo!ニュース",
-          "title": "バンス副大統領「韓国の政治状況、アラスカＬＮＧの変数…日本と協力してでも完遂」（ハンギョレ新聞） - Yahoo!ニュース",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zTWt0VUZOcFVUREtLLWNfal9tLTdWWXRfeEhBNDNONVBRM1BJZ2NTY1B4bi1HaU1sdS1BUEphVTN1TW5TVVA3WlpSb0IyZXZFR0lvRDF1b3VwOXRYSE1FcDZlSVBwem1pV3Y3dGxhclRubkNhQ0tmOG1CM1lWTGM?oc=5",
-          "publishedAt": "2026-10-08T00:14:27Z"
         }
       ]
     }
